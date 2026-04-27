@@ -1,1109 +1,146 @@
-<!doctype html>
+﻿<!doctype html>
 <html lang="en">
 <head>
-<meta charset="utf-8" />
-<title>Secure Smart — Infrastructure-Grade Network & Security</title>
-<meta name="viewport" content="width=1440" />
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
-<style>
-  :root {
-    --navy-900: #07101F;
-    --navy-800: #0A1628;
-    --navy-700: #0F1F36;
-    --navy-600: #15294A;
-    --line: rgba(148, 174, 207, 0.14);
-    --line-strong: rgba(148, 174, 207, 0.28);
-    --ink: #E6EDF7;
-    --ink-dim: #93A4BD;
-    --ink-faint: #5C6E89;
-    --cyan: #00D4FF;
-    --cyan-dim: #0AA9CC;
-    --green: #00C896;
-    --amber: #FFB547;
-    --card: #FFFFFF;
-    --card-2: #F4F7FB;
-    --card-ink: #0A1628;
-    --card-ink-dim: #4A5A73;
-  }
-  * { box-sizing: border-box; }
-  html, body { margin: 0; padding: 0; }
-  body {
-    font-family: 'Inter', system-ui, sans-serif;
-    background: var(--navy-800);
-    color: var(--ink);
-    -webkit-font-smoothing: antialiased;
-    font-feature-settings: "ss01", "cv11";
-  }
-  .display { font-family: 'Space Grotesk', sans-serif; letter-spacing: -0.02em; }
-  .mono { font-family: 'JetBrains Mono', monospace; }
-  .container { max-width: 1320px; margin: 0 auto; padding: 0 48px; }
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>Secure Smart — Professional Network & Security Infrastructure</title>
+  <meta name="description" content="Secure Smart supplies professional Ubiquiti and MikroTik network, security, surveillance and wireless infrastructure for installers, communities and security teams." />
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&family=Space+Grotesk:wght@500;600;700&display=swap" rel="stylesheet">
+  <style>
+    :root{
+      --bg:#07101d; --bg2:#0b1728; --panel:#101f35; --panel2:#142642;
+      --ink:#edf6ff; --muted:#b6c7dc; --faint:#8091aa; --line:rgba(157,176,200,.18);
+      --cyan:#11d7ff; --blue:#4e7cff; --green:#17d89b; --amber:#ffbd59;
+      --white:#fff; --paper:#f6f9fd; --dark:#07101d; --shadow:0 24px 80px rgba(0,0,0,.35);
+      --radius:24px; --radius2:16px;
+    }
+    *{box-sizing:border-box} html{scroll-behavior:smooth} body{margin:0;background:var(--bg);color:var(--ink);font-family:Inter,system-ui,sans-serif;-webkit-font-smoothing:antialiased;overflow-x:hidden}
+    a{color:inherit;text-decoration:none} img{max-width:100%;display:block} .container{width:min(1180px,calc(100% - 40px));margin-inline:auto}.display{font-family:"Space Grotesk",Inter,sans-serif;letter-spacing:-.04em}.mono{font-family:ui-monospace,SFMono-Regular,Menlo,monospace}
+    .noise:before{content:"";position:absolute;inset:0;pointer-events:none;background-image:radial-gradient(rgba(255,255,255,.05) 1px,transparent 1px);background-size:4px 4px;opacity:.22;mask-image:linear-gradient(#000,transparent 88%)}
 
-  /* ============ NAV ============ */
-  .nav {
-    position: sticky; top: 0; z-index: 50;
-    background: rgba(10, 22, 40, 0.85);
-    backdrop-filter: blur(16px);
-    border-bottom: 1px solid var(--line);
-  }
-  .nav-inner { display: flex; align-items: center; justify-content: space-between; height: 72px; }
-  .logo { display: flex; align-items: center; gap: 12px; }
-  .logo-mark {
-    width: 32px; height: 32px; position: relative;
-    display: grid; place-items: center;
-  }
-  .logo-mark svg { width: 32px; height: 32px; }
-  .logo-text { font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 17px; letter-spacing: -0.01em; }
-  .logo-text span { color: var(--cyan); }
-  .nav-links { display: flex; gap: 36px; }
-  .nav-links a { color: var(--ink-dim); text-decoration: none; font-size: 14px; font-weight: 500; transition: color .15s; }
-  .nav-links a:hover { color: var(--ink); }
-  .nav-cta { display: flex; gap: 12px; align-items: center; }
+    .nav{position:sticky;top:0;z-index:40;background:rgba(7,16,29,.78);backdrop-filter:blur(18px);border-bottom:1px solid var(--line)}
+    .nav-in{height:72px;display:flex;align-items:center;justify-content:space-between;gap:24px}.brand{display:flex;align-items:center;gap:12px;font-weight:800}.mark{width:38px;height:38px;border-radius:12px;background:linear-gradient(135deg,var(--cyan),var(--blue));display:grid;place-items:center;color:#00131b;box-shadow:0 0 32px rgba(17,215,255,.25)}.mark svg{width:22px}.brand span{color:var(--cyan)}
+    .links{display:flex;gap:28px;color:var(--muted);font-size:14px;font-weight:600}.links a:hover{color:var(--ink)}.actions{display:flex;gap:10px;align-items:center}.btn{display:inline-flex;align-items:center;justify-content:center;gap:10px;border:0;border-radius:999px;padding:13px 19px;font-weight:800;font-size:14px;cursor:pointer;transition:.2s}.btn-primary{background:linear-gradient(135deg,var(--cyan),#63f6d4);color:#001822;box-shadow:0 12px 34px rgba(17,215,255,.22)}.btn-primary:hover{transform:translateY(-2px);box-shadow:0 18px 48px rgba(17,215,255,.32)}.btn-ghost{background:rgba(255,255,255,.04);border:1px solid var(--line);color:var(--ink)}.btn-ghost:hover{border-color:rgba(17,215,255,.5);color:var(--cyan)}
 
-  /* ============ BUTTONS ============ */
-  .btn {
-    display: inline-flex; align-items: center; gap: 8px;
-    padding: 13px 22px; border-radius: 6px;
-    font-size: 14px; font-weight: 600; letter-spacing: 0.01em;
-    text-decoration: none; cursor: pointer; border: none;
-    transition: all .15s ease; font-family: inherit;
-  }
-  .btn-primary { background: var(--cyan); color: #001824; }
-  .btn-primary:hover { background: #2DDFFF; box-shadow: 0 0 0 4px rgba(0, 212, 255, 0.15); }
-  .btn-ghost { background: transparent; color: var(--ink); border: 1px solid var(--line-strong); }
-  .btn-ghost:hover { border-color: var(--cyan); color: var(--cyan); }
-  .btn-dark { background: var(--navy-800); color: white; }
-  .btn-arrow::after { content: "→"; font-weight: 400; transition: transform .2s; }
-  .btn-arrow:hover::after { transform: translateX(3px); }
+    .hero{position:relative;isolation:isolate;min-height:760px;padding:86px 0 76px;overflow:hidden;background:radial-gradient(circle at 20% 10%,rgba(17,215,255,.13),transparent 34%),radial-gradient(circle at 86% 12%,rgba(23,216,155,.12),transparent 28%),linear-gradient(180deg,#07101d,#0b1728 68%,#07101d)}
+    .hero:after{content:"";position:absolute;inset:0;background:linear-gradient(90deg,rgba(7,16,29,.96) 0%,rgba(7,16,29,.82) 42%,rgba(7,16,29,.22) 100%),url('assets/hero-network.png') center right/cover no-repeat;z-index:-2}.grid-lines{position:absolute;inset:0;background-image:linear-gradient(var(--line) 1px,transparent 1px),linear-gradient(90deg,var(--line) 1px,transparent 1px);background-size:72px 72px;mask-image:radial-gradient(circle at 50% 22%,#000 0 45%,transparent 75%);opacity:.42;z-index:-1}.hero-wrap{display:grid;grid-template-columns:1.04fr .96fr;gap:54px;align-items:center}.pill{display:inline-flex;align-items:center;gap:10px;padding:8px 13px;border-radius:999px;border:1px solid rgba(17,215,255,.35);background:rgba(17,215,255,.08);color:var(--cyan);font-size:13px;font-weight:900;letter-spacing:.08em;text-transform:uppercase}.pulse{width:8px;height:8px;border-radius:50%;background:var(--green);box-shadow:0 0 18px var(--green)}
+    h1{font-size:clamp(52px,7vw,92px);line-height:.9;margin:26px 0 24px;max-width:840px}.grad{background:linear-gradient(135deg,var(--cyan),#83ffde);-webkit-background-clip:text;background-clip:text;color:transparent}.lede{max-width:650px;color:#bfd0e6;font-size:20px;line-height:1.65;margin:0 0 34px}.hero-buttons{display:flex;gap:12px;flex-wrap:wrap}.proof{display:grid;grid-template-columns:repeat(3,1fr);gap:16px;margin-top:50px;max-width:720px}.proof-card{padding:18px;border:1px solid var(--line);border-radius:18px;background:rgba(255,255,255,.045);backdrop-filter:blur(12px)}.proof-card b{font-family:"Space Grotesk";font-size:28px}.proof-card span{display:block;color:var(--muted);font-size:13px;margin-top:4px}
+    .hero-panel{align-self:stretch;display:flex;align-items:flex-end;justify-content:center}.dash{width:min(500px,100%);border:1px solid rgba(157,176,200,.25);border-radius:28px;background:linear-gradient(180deg,rgba(16,31,53,.88),rgba(7,16,29,.86));box-shadow:var(--shadow);overflow:hidden;backdrop-filter:blur(22px)}.dash-img{height:245px;background:url('assets/product-showcase.png') center/cover no-repeat;position:relative}.dash-img:after{content:"";position:absolute;inset:0;background:linear-gradient(180deg,transparent,rgba(7,16,29,.78))}.dash-body{padding:22px}.status-row{display:flex;justify-content:space-between;border-top:1px solid var(--line);padding:13px 0;color:var(--muted);font-size:13px}.status-row:first-child{border-top:0}.status-row strong{color:var(--ink)}.status-ok{color:var(--green)!important;font-weight:800}
 
-  /* ============ HERO ============ */
-  .hero {
-    position: relative; overflow: hidden;
-    padding: 72px 0 120px;
-    background:
-      radial-gradient(ellipse 80% 60% at 85% 20%, rgba(0, 212, 255, 0.10), transparent 60%),
-      radial-gradient(ellipse 60% 50% at 10% 90%, rgba(0, 200, 150, 0.06), transparent 60%),
-      var(--navy-800);
-  }
-  .hero::before {
-    content: ""; position: absolute; inset: 0;
-    background-image:
-      linear-gradient(var(--line) 1px, transparent 1px),
-      linear-gradient(90deg, var(--line) 1px, transparent 1px);
-    background-size: 64px 64px;
-    mask-image: radial-gradient(ellipse 70% 70% at 50% 50%, black 30%, transparent 70%);
-    opacity: 0.4;
-    pointer-events: none;
-  }
-  .hero-grid {
-    position: relative;
-    display: grid; grid-template-columns: 1.1fr 1fr; gap: 80px; align-items: center;
-  }
-  .eyebrow {
-    display: inline-flex; align-items: center; gap: 10px;
-    padding: 7px 14px; border-radius: 100px;
-    background: rgba(0, 212, 255, 0.08); border: 1px solid rgba(0, 212, 255, 0.25);
-    color: var(--cyan); font-family: 'JetBrains Mono', monospace;
-    font-size: 11px; font-weight: 500; letter-spacing: 0.08em; text-transform: uppercase;
-  }
-  .eyebrow .dot { width: 6px; height: 6px; border-radius: 50%; background: var(--cyan); box-shadow: 0 0 8px var(--cyan); }
-  .hero h1 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 76px; line-height: 0.98; letter-spacing: -0.035em;
-    font-weight: 600; margin: 24px 0 28px;
-    text-wrap: balance;
-  }
-  .hero h1 em { font-style: normal; color: var(--cyan); }
-  .hero p.lede {
-    font-size: 19px; line-height: 1.55; color: var(--ink-dim);
-    max-width: 540px; margin: 0 0 36px;
-  }
-  .hero-ctas { display: flex; gap: 12px; align-items: center; }
-  .hero-meta {
-    display: flex; gap: 32px; margin-top: 56px;
-    padding-top: 32px; border-top: 1px solid var(--line);
-  }
-  .hero-meta div .num { font-family: 'Space Grotesk', sans-serif; font-size: 32px; font-weight: 600; letter-spacing: -0.02em; }
-  .hero-meta div .lbl { font-size: 13px; color: var(--ink-faint); margin-top: 2px; }
+    section{padding:105px 0}.section-head{display:flex;justify-content:space-between;align-items:end;gap:40px;margin-bottom:42px}.tag{color:var(--cyan);font-weight:900;font-size:12px;letter-spacing:.16em;text-transform:uppercase}.section-head h2{font-size:clamp(36px,5vw,60px);line-height:.98;margin:12px 0 0}.section-head p{max-width:520px;color:var(--muted);line-height:1.6;margin:0}
+    .trust{padding:30px 0;border-block:1px solid var(--line);background:#050b14}.trust-in{display:flex;justify-content:space-between;align-items:center;gap:28px;color:var(--muted);font-weight:700;flex-wrap:wrap}.trust-in span:first-child{color:var(--faint);font-size:12px;letter-spacing:.12em;text-transform:uppercase}.trust-in b{color:#c7d6e9;font-family:"Space Grotesk"}
 
-  /* hero visual */
-  .hero-visual {
-    position: relative; height: 540px;
-  }
-  .panel {
-    position: absolute; background: var(--navy-700);
-    border: 1px solid var(--line-strong); border-radius: 10px;
-    padding: 18px;
-  }
-  .panel-1 {
-    left: 0; top: 60px; width: 360px;
-    box-shadow: 0 30px 60px -20px rgba(0,0,0,0.5);
-  }
-  .panel-2 {
-    right: 0; top: 0; width: 320px;
-    border-color: rgba(0, 212, 255, 0.35);
-    box-shadow: 0 30px 60px -20px rgba(0, 212, 255, 0.25);
-  }
-  .panel-3 {
-    right: 40px; bottom: 0; width: 380px;
-  }
-  .panel-head {
-    display: flex; justify-content: space-between; align-items: center;
-    padding-bottom: 12px; border-bottom: 1px solid var(--line);
-    margin-bottom: 14px;
-  }
-  .panel-title { font-size: 12px; color: var(--ink-dim); font-family: 'JetBrains Mono', monospace; text-transform: uppercase; letter-spacing: 0.08em; }
-  .live-dot { display: inline-flex; align-items: center; gap: 6px; font-size: 11px; color: var(--green); font-family: 'JetBrains Mono', monospace; }
-  .live-dot::before { content: ""; width: 6px; height: 6px; border-radius: 50%; background: var(--green); box-shadow: 0 0 6px var(--green); animation: pulse 2s infinite; }
-  @keyframes pulse { 50% { opacity: 0.4; } }
+    .benefits{background:var(--bg2)}.benefit-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:18px}.benefit{border:1px solid var(--line);border-radius:22px;background:linear-gradient(180deg,rgba(255,255,255,.045),rgba(255,255,255,.02));padding:26px;min-height:230px}.icon{width:46px;height:46px;border-radius:15px;background:rgba(17,215,255,.1);border:1px solid rgba(17,215,255,.25);display:grid;place-items:center;color:var(--cyan);font-weight:900}.benefit h3{font-size:20px;margin:24px 0 10px}.benefit p{color:var(--muted);line-height:1.58;margin:0;font-size:14px}
 
-  .device-row { display: flex; justify-content: space-between; align-items: center; padding: 8px 0; font-size: 13px; }
-  .device-row + .device-row { border-top: 1px solid var(--line); }
-  .device-row .name { color: var(--ink); font-weight: 500; }
-  .device-row .stat { color: var(--green); font-family: 'JetBrains Mono', monospace; font-size: 11px; }
-  .device-row .stat.warn { color: var(--amber); }
+    .showcase{position:relative;background:#07101d}.showcase:before{content:"";position:absolute;inset:0;background:url('assets/community-infra.png') center/cover no-repeat;opacity:.18;filter:saturate(1.08)}.showcase .container{position:relative}.category-grid{display:grid;grid-template-columns:repeat(5,1fr);gap:14px}.category{padding:22px;border:1px solid var(--line);border-radius:20px;background:rgba(7,16,29,.78);backdrop-filter:blur(16px)}.category small{color:var(--cyan);font-weight:900}.category h3{font-size:18px;margin:16px 0 8px}.category p{font-size:13px;line-height:1.5;color:var(--muted);margin:0}
 
-  .bar-chart { display: flex; align-items: flex-end; gap: 6px; height: 80px; margin-top: 8px; }
-  .bar-chart span { flex: 1; background: linear-gradient(to top, var(--cyan), rgba(0, 212, 255, 0.3)); border-radius: 2px 2px 0 0; }
+    .products{background:#f5f8fc;color:var(--dark)}.products .tag{color:#0a98ba}.products .section-head p{color:#526176}.product-grid{display:grid;grid-template-columns:repeat(4,1fr);gap:20px}.product{border:1px solid #e0e8f2;border-radius:24px;background:#fff;overflow:hidden;box-shadow:0 16px 40px rgba(20,38,66,.08);transition:.22s}.product:hover{transform:translateY(-6px);box-shadow:0 24px 60px rgba(20,38,66,.14)}.product-visual{height:178px;background:linear-gradient(135deg,#edf4fb,#fff);display:grid;place-items:center;position:relative;overflow:hidden}.product-visual:before{content:"";position:absolute;inset:-40%;background:radial-gradient(circle,rgba(17,215,255,.22),transparent 35%);transform:translate(25%,5%)}.device{position:relative;width:118px;height:72px;border-radius:18px;background:linear-gradient(145deg,#fff,#dce7f3);box-shadow:0 20px 40px rgba(15,31,54,.18),inset 0 0 0 1px #cdd9e8;display:grid;place-items:center;color:#0b5d80;font-family:"Space Grotesk";font-weight:900}.device.round{border-radius:50%;height:112px}.device.camera{width:132px;height:54px;border-radius:14px}.product-body{padding:20px}.brandline{font-size:11px;text-transform:uppercase;letter-spacing:.12em;color:#6b7890;font-weight:900}.product h3{margin:8px 0 8px;font-size:22px;font-family:"Space Grotesk"}.product p{font-size:14px;line-height:1.5;color:#58677c;margin:0 0 16px}.specs{display:flex;gap:8px;flex-wrap:wrap}.specs span{font-size:12px;font-weight:900;color:#075d74;background:#e9faff;border:1px solid #bceef8;padding:6px 8px;border-radius:999px}.locked{display:flex;justify-content:space-between;align-items:center;background:#0b1728;color:#dcecff;padding:14px 20px;font-size:13px;font-weight:900}.locked a{color:var(--cyan)}
 
-  .cam-feed {
-    aspect-ratio: 16/10; border-radius: 6px;
-    background:
-      repeating-linear-gradient(45deg, rgba(255,255,255,0.02) 0 6px, transparent 6px 12px),
-      linear-gradient(135deg, #1a2640, #0a1628);
-    border: 1px solid var(--line); position: relative;
-    display: flex; flex-direction: column; justify-content: space-between; padding: 10px;
-    font-family: 'JetBrains Mono', monospace; font-size: 10px;
-  }
-  .cam-feed::after {
-    content: "■ REC"; position: absolute; top: 10px; right: 10px;
-    color: #FF4F4F; font-family: 'JetBrains Mono', monospace; font-size: 10px;
-  }
-  .cam-feed .ts { color: var(--ink-faint); }
+    .gate{background:linear-gradient(180deg,#07101d,#0d1a2d);position:relative;overflow:hidden}.gate:before{content:"";position:absolute;inset:auto -10% -30% -10%;height:520px;background:radial-gradient(ellipse at center,rgba(17,215,255,.18),transparent 66%)}.gate-grid{position:relative;display:grid;grid-template-columns:1fr .85fr;gap:58px;align-items:center}.gate h2{font-size:clamp(38px,5vw,66px);line-height:.98;margin:16px 0 22px}.gate p{color:var(--muted);line-height:1.65;font-size:17px}.checklist{display:grid;gap:14px;margin-top:30px}.check{display:flex;gap:12px;align-items:flex-start;color:#dbe9f9}.check i{color:var(--green);font-style:normal;font-weight:900}.form{padding:30px;border:1px solid rgba(157,176,200,.24);border-radius:28px;background:rgba(255,255,255,.06);backdrop-filter:blur(18px);box-shadow:var(--shadow)}.form h3{font-family:"Space Grotesk";font-size:28px;margin:0 0 8px}.form small{color:var(--muted)}.fields{display:grid;gap:12px;margin-top:22px}.fields.two{grid-template-columns:1fr 1fr}.field{width:100%;border:1px solid var(--line);border-radius:14px;background:rgba(7,16,29,.72);color:var(--ink);padding:15px 14px;font:inherit;outline:0}.field:focus{border-color:var(--cyan);box-shadow:0 0 0 4px rgba(17,215,255,.12)}.form-note{font-size:12px;color:var(--faint);line-height:1.5;text-align:center;margin-top:14px}
 
-  /* ============ MARQUEE / TRUST BAR ============ */
-  .trust-bar {
-    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
-    padding: 28px 0; background: var(--navy-900);
-  }
-  .trust-inner { display: flex; justify-content: space-between; align-items: center; gap: 48px; }
-  .trust-label { font-family: 'JetBrains Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ink-faint); white-space: nowrap; }
-  .trust-logos { display: flex; gap: 56px; align-items: center; flex: 1; justify-content: space-around; }
-  .trust-logos span { color: var(--ink-dim); font-family: 'Space Grotesk', sans-serif; font-weight: 500; font-size: 16px; opacity: 0.7; }
+    .pricing{background:#07101d}.pricing-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:20px}.price-card{border:1px solid var(--line);border-radius:24px;background:linear-gradient(180deg,rgba(255,255,255,.055),rgba(255,255,255,.02));padding:28px}.price-card.featured{border-color:rgba(17,215,255,.48);box-shadow:0 0 80px rgba(17,215,255,.08)}.price-card h3{font-family:"Space Grotesk";font-size:26px;margin:18px 0 10px}.price-card p{color:var(--muted);line-height:1.6}.price-row{display:flex;justify-content:space-between;border-top:1px dashed var(--line);padding:12px 0;color:var(--muted);font-size:14px}.price-row b{color:var(--cyan)}
 
-  /* ============ SECTION HEADERS ============ */
-  .section { padding: 120px 0; position: relative; }
-  .section-hd { display: flex; justify-content: space-between; align-items: flex-end; margin-bottom: 56px; gap: 48px; }
-  .section-hd .l { max-width: 720px; }
-  .section-tag {
-    font-family: 'JetBrains Mono', monospace; font-size: 11px;
-    text-transform: uppercase; letter-spacing: 0.14em; color: var(--cyan);
-    margin-bottom: 16px; display: flex; align-items: center; gap: 10px;
-  }
-  .section-tag::before { content: ""; width: 24px; height: 1px; background: var(--cyan); }
-  .section-hd h2 {
-    font-family: 'Space Grotesk', sans-serif;
-    font-size: 52px; line-height: 1.05; letter-spacing: -0.025em;
-    font-weight: 600; margin: 0 0 16px; text-wrap: balance;
-  }
-  .section-hd p { font-size: 17px; color: var(--ink-dim); line-height: 1.55; margin: 0; max-width: 560px; }
+    .cta{position:relative;padding:125px 0;text-align:center;background:linear-gradient(135deg,#06101c,#0e2038)}.cta h2{font-size:clamp(42px,6vw,78px);line-height:.95;margin:20px auto;max-width:900px}.cta p{color:var(--muted);font-size:18px;line-height:1.65;max-width:680px;margin:0 auto 34px}.contact-row{display:flex;justify-content:center;gap:36px;flex-wrap:wrap;margin-top:46px;color:var(--muted);font-size:14px}.contact-row b{color:var(--ink)}
+    footer{padding:42px 0;background:#040912;border-top:1px solid var(--line);color:var(--muted)}.foot{display:flex;justify-content:space-between;gap:24px;flex-wrap:wrap}.foot a{color:#c9d8eb}
 
-  /* ============ BENEFITS ============ */
-  .benefits-wrap { background: var(--navy-900); border-top: 1px solid var(--line); border-bottom: 1px solid var(--line); }
-  .benefits { display: grid; grid-template-columns: repeat(4, 1fr); }
-  .benefit {
-    padding: 56px 40px; border-right: 1px solid var(--line);
-    position: relative;
-  }
-  .benefit:last-child { border-right: none; }
-  .benefit-num { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--ink-faint); margin-bottom: 32px; }
-  .benefit-icon {
-    width: 44px; height: 44px; display: grid; place-items: center;
-    border: 1px solid var(--line-strong); border-radius: 8px;
-    margin-bottom: 24px;
-  }
-  .benefit h3 { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 600; margin: 0 0 10px; letter-spacing: -0.01em; }
-  .benefit p { font-size: 14px; line-height: 1.6; color: var(--ink-dim); margin: 0; }
-
-  /* ============ CATEGORIES ============ */
-  .categories { display: grid; grid-template-columns: repeat(3, 1fr); gap: 16px; }
-  .cat {
-    background: var(--navy-700); border: 1px solid var(--line);
-    border-radius: 12px; padding: 32px; cursor: pointer;
-    transition: all .2s ease; position: relative; overflow: hidden;
-    min-height: 220px; display: flex; flex-direction: column; justify-content: space-between;
-  }
-  .cat:hover { border-color: var(--cyan); transform: translateY(-2px); }
-  .cat-num { font-family: 'JetBrains Mono', monospace; font-size: 11px; color: var(--ink-faint); }
-  .cat-icon { width: 56px; height: 56px; display: grid; place-items: center; }
-  .cat h3 { font-family: 'Space Grotesk', sans-serif; font-size: 22px; font-weight: 600; margin: 16px 0 6px; letter-spacing: -0.01em; }
-  .cat p { font-size: 13px; color: var(--ink-dim); margin: 0 0 16px; line-height: 1.5; }
-  .cat-foot { display: flex; justify-content: space-between; align-items: center; font-size: 13px; }
-  .cat-foot .count { color: var(--ink-dim); font-family: 'JetBrains Mono', monospace; font-size: 11px; }
-  .cat-foot .arrow { color: var(--cyan); }
-
-  /* ============ PRODUCTS ============ */
-  .products-wrap { background: linear-gradient(to bottom, var(--navy-800), var(--navy-900)); }
-  .filter-row { display: flex; gap: 8px; margin-bottom: 32px; flex-wrap: wrap; }
-  .filter-row button {
-    background: transparent; border: 1px solid var(--line);
-    color: var(--ink-dim); padding: 8px 16px; border-radius: 100px;
-    font-size: 13px; font-family: inherit; cursor: pointer;
-    transition: all .15s;
-  }
-  .filter-row button.active { background: var(--cyan); color: #001824; border-color: var(--cyan); font-weight: 600; }
-  .filter-row button:hover:not(.active) { border-color: var(--ink-dim); color: var(--ink); }
-
-  .products { display: grid; grid-template-columns: repeat(4, 1fr); gap: 20px; }
-  .pc {
-    background: var(--card); color: var(--card-ink); border-radius: 14px;
-    overflow: hidden; position: relative; display: flex; flex-direction: column;
-    transition: transform .2s, box-shadow .2s;
-  }
-  .pc:hover { transform: translateY(-4px); box-shadow: 0 20px 40px -10px rgba(0, 212, 255, 0.2); }
-  .pc-tag {
-    position: absolute; top: 14px; left: 14px;
-    font-family: 'JetBrains Mono', monospace; font-size: 10px;
-    background: rgba(10, 22, 40, 0.92); color: white;
-    padding: 4px 9px; border-radius: 4px; letter-spacing: 0.06em;
-  }
-  .pc-tag.new { background: var(--cyan); color: #001824; }
-  .pc-img {
-    aspect-ratio: 4/3; position: relative;
-    background: var(--card-2);
-    background-image:
-      repeating-linear-gradient(135deg, rgba(10, 22, 40, 0.04) 0 1px, transparent 1px 9px);
-    display: grid; place-items: center;
-    border-bottom: 1px solid #E5EBF3;
-  }
-  .pc-img-label {
-    font-family: 'JetBrains Mono', monospace; font-size: 11px;
-    color: var(--card-ink-dim); padding: 6px 10px;
-    background: white; border-radius: 4px; border: 1px dashed #C4D0E0;
-  }
-  .pc-body { padding: 18px 18px 20px; flex: 1; display: flex; flex-direction: column; }
-  .pc-brand { font-family: 'JetBrains Mono', monospace; font-size: 10px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--card-ink-dim); margin-bottom: 6px; }
-  .pc-name { font-family: 'Space Grotesk', sans-serif; font-size: 18px; font-weight: 600; letter-spacing: -0.01em; margin: 0 0 4px; }
-  .pc-sub { font-size: 13px; color: var(--card-ink-dim); margin: 0 0 14px; line-height: 1.45; }
-  .pc-specs { display: flex; gap: 14px; padding-top: 12px; border-top: 1px solid #E5EBF3; margin-top: auto; }
-  .pc-specs div { font-size: 11px; color: var(--card-ink-dim); font-family: 'JetBrains Mono', monospace; }
-  .pc-specs div b { display: block; font-family: 'Space Grotesk', sans-serif; font-size: 14px; color: var(--card-ink); margin-top: 2px; font-weight: 600; }
-  .pc-foot {
-    display: flex; justify-content: space-between; align-items: center;
-    padding: 14px 18px; background: var(--card-2); border-top: 1px solid #E5EBF3;
-  }
-  .pc-locked {
-    display: flex; align-items: center; gap: 8px;
-    font-family: 'JetBrains Mono', monospace; font-size: 11px;
-    color: var(--card-ink-dim);
-  }
-  .pc-foot .reveal { color: var(--cyan-dim); font-weight: 600; font-size: 12px; text-decoration: none; }
-
-  /* ============ UNLOCK / REGISTER ============ */
-  .unlock {
-    position: relative; overflow: hidden;
-    background:
-      radial-gradient(ellipse 50% 60% at 80% 50%, rgba(0, 212, 255, 0.12), transparent 70%),
-      var(--navy-900);
-    border-top: 1px solid var(--line); border-bottom: 1px solid var(--line);
-  }
-  .unlock-grid { display: grid; grid-template-columns: 1.1fr 1fr; gap: 80px; align-items: center; }
-  .unlock h2 { font-family: 'Space Grotesk', sans-serif; font-size: 56px; line-height: 1.0; letter-spacing: -0.03em; font-weight: 600; margin: 16px 0 24px; }
-  .unlock p { font-size: 17px; line-height: 1.6; color: var(--ink-dim); margin: 0 0 32px; max-width: 520px; }
-  .checks { list-style: none; padding: 0; margin: 0 0 36px; display: grid; gap: 14px; }
-  .checks li { display: flex; gap: 12px; align-items: flex-start; font-size: 15px; color: var(--ink); }
-  .checks svg { flex-shrink: 0; margin-top: 2px; }
-  .form-card {
-    background: var(--navy-700); border: 1px solid var(--line-strong);
-    border-radius: 14px; padding: 36px; box-shadow: 0 30px 60px -20px rgba(0, 0, 0, 0.4);
-  }
-  .form-card h3 { font-family: 'Space Grotesk', sans-serif; font-size: 22px; margin: 0 0 6px; font-weight: 600; letter-spacing: -0.01em; }
-  .form-card .form-sub { font-size: 13px; color: var(--ink-dim); margin: 0 0 24px; }
-  .form-row { display: grid; gap: 12px; margin-bottom: 12px; }
-  .form-row.two { grid-template-columns: 1fr 1fr; }
-  .field {
-    background: var(--navy-800); border: 1px solid var(--line); border-radius: 6px;
-    padding: 12px 14px; color: var(--ink); font-family: inherit; font-size: 14px;
-    width: 100%; outline: none; transition: border-color .15s;
-  }
-  .field:focus { border-color: var(--cyan); }
-  .field-label { font-size: 12px; color: var(--ink-dim); margin-bottom: 6px; font-weight: 500; }
-  .form-card button { width: 100%; justify-content: center; margin-top: 8px; padding: 15px; font-size: 15px; }
-  .form-foot { font-size: 12px; color: var(--ink-faint); text-align: center; margin-top: 14px; line-height: 1.5; }
-
-  /* ============ PRICING NOTE ============ */
-  .pricing-note {
-    background: var(--navy-800);
-    padding: 100px 0;
-    border-bottom: 1px solid var(--line);
-  }
-  .pricing-grid { display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 24px; }
-  .pn-card {
-    border: 1px solid var(--line); border-radius: 12px; padding: 32px;
-    background: var(--navy-700);
-    display: flex; flex-direction: column; gap: 18px;
-  }
-  .pn-card.feat {
-    background: linear-gradient(180deg, rgba(0, 212, 255, 0.08), transparent);
-    border-color: rgba(0, 212, 255, 0.4);
-  }
-  .pn-icon { width: 40px; height: 40px; border-radius: 8px; background: rgba(0, 212, 255, 0.1); display: grid; place-items: center; border: 1px solid rgba(0, 212, 255, 0.3); }
-  .pn-card h3 { font-family: 'Space Grotesk', sans-serif; font-size: 20px; font-weight: 600; margin: 0; letter-spacing: -0.01em; }
-  .pn-card p { font-size: 14px; color: var(--ink-dim); margin: 0; line-height: 1.55; }
-  .pn-card .row { display: flex; justify-content: space-between; padding: 8px 0; border-top: 1px dashed var(--line); font-size: 13px; }
-  .pn-card .row:first-of-type { border-top: none; }
-  .pn-card .row span { color: var(--ink-dim); }
-  .pn-card .row b { color: var(--ink); font-family: 'JetBrains Mono', monospace; font-size: 12px; font-weight: 500; }
-  .pn-card .row .lock {
-    display: inline-flex; align-items: center; gap: 4px; color: var(--cyan); font-family: 'JetBrains Mono', monospace; font-size: 11px;
-  }
-
-  /* ============ FINAL CTA ============ */
-  .final {
-    padding: 140px 0; position: relative; overflow: hidden;
-    background:
-      radial-gradient(ellipse 90% 80% at 50% 100%, rgba(0, 212, 255, 0.18), transparent 70%),
-      var(--navy-800);
-    border-bottom: 1px solid var(--line);
-  }
-  .final::before {
-    content: ""; position: absolute; inset: 0;
-    background-image: linear-gradient(var(--line) 1px, transparent 1px), linear-gradient(90deg, var(--line) 1px, transparent 1px);
-    background-size: 80px 80px;
-    mask-image: radial-gradient(ellipse 60% 60% at 50% 50%, black 20%, transparent 70%);
-    opacity: 0.5;
-  }
-  .final-inner { position: relative; text-align: center; max-width: 880px; margin: 0 auto; }
-  .final h2 { font-family: 'Space Grotesk', sans-serif; font-size: 76px; line-height: 1.0; letter-spacing: -0.035em; font-weight: 600; margin: 24px 0 28px; text-wrap: balance; }
-  .final p { font-size: 19px; color: var(--ink-dim); line-height: 1.55; margin: 0 0 40px; max-width: 600px; margin-left: auto; margin-right: auto; }
-  .final-ctas { display: flex; gap: 12px; justify-content: center; }
-  .final-contact {
-    margin-top: 80px; padding-top: 40px; border-top: 1px solid var(--line);
-    display: flex; justify-content: center; gap: 64px;
-  }
-  .fc-item { text-align: center; }
-  .fc-item .lbl { font-family: 'JetBrains Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.1em; color: var(--ink-faint); margin-bottom: 6px; }
-  .fc-item .val { font-family: 'Space Grotesk', sans-serif; font-size: 17px; font-weight: 500; color: var(--ink); }
-
-  /* ============ FOOTER ============ */
-  footer {
-    padding: 64px 0 40px;
-    background: var(--navy-900);
-  }
-  .foot-grid { display: grid; grid-template-columns: 2fr 1fr 1fr 1fr; gap: 48px; margin-bottom: 56px; }
-  .foot-tag { font-size: 13px; color: var(--ink-dim); line-height: 1.6; max-width: 320px; margin: 16px 0 0; }
-  .foot-col h4 { font-family: 'JetBrains Mono', monospace; font-size: 11px; text-transform: uppercase; letter-spacing: 0.12em; color: var(--ink-faint); margin: 0 0 16px; font-weight: 500; }
-  .foot-col a { display: block; color: var(--ink-dim); text-decoration: none; font-size: 14px; padding: 5px 0; }
-  .foot-col a:hover { color: var(--cyan); }
-  .foot-bottom { display: flex; justify-content: space-between; padding-top: 24px; border-top: 1px solid var(--line); font-size: 12px; color: var(--ink-faint); }
-
-  /* icons */
-  .ic { width: 22px; height: 22px; stroke: var(--cyan); stroke-width: 1.5; fill: none; stroke-linecap: round; stroke-linejoin: round; }
-  .ic-lg { width: 26px; height: 26px; }
-
-</style>
+    @media (max-width: 980px){.links{display:none}.hero-wrap,.gate-grid{grid-template-columns:1fr}.hero-panel{display:none}.proof,.benefit-grid,.product-grid,.pricing-grid{grid-template-columns:1fr 1fr}.category-grid{grid-template-columns:1fr 1fr}.section-head{display:block}.section-head p{margin-top:16px}.hero{min-height:auto}.hero:after{opacity:.5}.fields.two{grid-template-columns:1fr}}
+    @media (max-width: 620px){.container{width:min(100% - 28px,1180px)}.actions .btn-ghost{display:none}.proof,.benefit-grid,.product-grid,.pricing-grid,.category-grid{grid-template-columns:1fr}section{padding:76px 0}.nav-in{height:64px}.hero{padding:60px 0}.hero-buttons .btn{width:100%}.trust-in{display:grid}.contact-row{display:grid}.btn{padding:13px 16px}}
+  </style>
 </head>
 <body>
-
-<!-- ===================== NAV ===================== -->
-<nav class="nav">
-  <div class="container nav-inner">
-    <div class="logo">
-      <div class="logo-mark">
-        <svg viewBox="0 0 32 32" fill="none">
-          <rect x="3" y="3" width="26" height="26" rx="6" stroke="#00D4FF" stroke-width="1.5"/>
-          <path d="M10 16 L14 20 L22 12" stroke="#00D4FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-          <circle cx="16" cy="16" r="11" stroke="#00D4FF" stroke-width="0.6" stroke-dasharray="2 2" opacity="0.5"/>
-        </svg>
-      </div>
-      <div class="logo-text">Secure<span>Smart</span></div>
+  <nav class="nav">
+    <div class="container nav-in">
+      <a class="brand" href="#top" aria-label="Secure Smart home"><span class="mark"><svg viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2"><path d="M12 3 5 6v5c0 5 3.5 8.5 7 10 3.5-1.5 7-5 7-10V6l-7-3Z"/><path d="m8.5 12 2.3 2.4 4.8-5"/></svg></span>Secure<span>Smart</span></a>
+      <div class="links"><a href="#products">Products</a><a href="#solutions">Solutions</a><a href="#catalogue">Catalogue</a><a href="#register">Register</a></div>
+      <div class="actions"><a class="btn btn-ghost" href="#products">View products</a><a class="btn btn-primary" href="#register">Unlock catalogue</a></div>
     </div>
-    <div class="nav-links">
-      <a href="#products">Products</a>
-      <a href="#categories">Categories</a>
-      <a href="#solutions">Solutions</a>
-      <a href="#catalogue">Catalogue</a>
-      <a href="#contact">Contact</a>
-    </div>
-    <div class="nav-cta">
-      <a href="#register" class="btn btn-ghost">Sign in</a>
-      <a href="#register" class="btn btn-primary btn-arrow">Register</a>
-    </div>
-  </div>
-</nav>
+  </nav>
 
-<!-- ===================== HERO ===================== -->
-<section class="hero">
-  <div class="container hero-grid">
-    <div>
-      <div class="eyebrow"><span class="dot"></span> Authorized Ubiquiti & MikroTik Distributor</div>
-      <h1 class="display">Infrastructure-grade <em>networks</em> and surveillance for serious operators.</h1>
-      <p class="lede">Secure Smart supplies certified Ubiquiti and MikroTik hardware to installers, security teams, and gated communities — with package pricing, project quotes, and direct-from-stock fulfilment.</p>
-      <div class="hero-ctas">
-        <a class="btn btn-primary btn-arrow" href="#register">Register for catalogue</a>
-        <a class="btn btn-ghost" href="#products">Browse products</a>
-      </div>
-      <div class="hero-meta">
-        <div>
-          <div class="num">2,400+</div>
-          <div class="lbl">SKUs in catalogue</div>
-        </div>
-        <div>
-          <div class="num">14yr</div>
-          <div class="lbl">Operating in the field</div>
-        </div>
-        <div>
-          <div class="num">98.7%</div>
-          <div class="lbl">In-stock fulfilment</div>
-        </div>
-      </div>
-    </div>
-
-    <!-- visual: stacked panels mimicking a controller dashboard -->
-    <div class="hero-visual">
-      <div class="panel panel-2">
-        <div class="panel-head">
-          <div class="panel-title">// Camera 04 — North Gate</div>
-          <div class="live-dot">LIVE</div>
-        </div>
-        <div class="cam-feed">
-          <div class="ts">CAM_04 • G6 BULLET</div>
-          <div class="ts">2026-04-27 14:32:08 IDT</div>
-        </div>
-      </div>
-
-      <div class="panel panel-1">
-        <div class="panel-head">
-          <div class="panel-title">// Site Devices</div>
-          <div class="live-dot">14 ONLINE</div>
-        </div>
-        <div class="device-row">
-          <div><div class="name">U7 Pro · Building A</div></div>
-          <div class="stat">↑ 1.2 Gbps</div>
-        </div>
-        <div class="device-row">
-          <div><div class="name">USW-Pro-48-PoE · Rack 1</div></div>
-          <div class="stat">42/48 ports</div>
-        </div>
-        <div class="device-row">
-          <div><div class="name">U7 LR · Perimeter East</div></div>
-          <div class="stat warn">62°C</div>
-        </div>
-        <div class="device-row">
-          <div><div class="name">UNVR · Gatehouse</div></div>
-          <div class="stat">14 cams · 38TB</div>
-        </div>
-      </div>
-
-      <div class="panel panel-3">
-        <div class="panel-head">
-          <div class="panel-title">// Throughput · 24h</div>
-          <div class="panel-title" style="color:var(--cyan)">2.84 Gbps avg</div>
-        </div>
-        <div class="bar-chart">
-          <span style="height:20%"></span><span style="height:35%"></span><span style="height:28%"></span>
-          <span style="height:48%"></span><span style="height:60%"></span><span style="height:54%"></span>
-          <span style="height:72%"></span><span style="height:88%"></span><span style="height:78%"></span>
-          <span style="height:64%"></span><span style="height:82%"></span><span style="height:96%"></span>
-          <span style="height:74%"></span><span style="height:58%"></span>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===================== TRUST BAR ===================== -->
-<div class="trust-bar">
-  <div class="container trust-inner">
-    <div class="trust-label">// Trusted by operators across</div>
-    <div class="trust-logos">
-      <span>Kibbutz Networks</span>
-      <span>Senior Living Group</span>
-      <span>Northern Council</span>
-      <span>Gated Communities Co.</span>
-      <span>Industrial Park Auth.</span>
-    </div>
-  </div>
-</div>
-
-<!-- ===================== BENEFITS ===================== -->
-<section class="benefits-wrap">
-  <div class="container">
-    <div class="benefits">
-      <div class="benefit">
-        <div class="benefit-num">01 / Authorized</div>
-        <div class="benefit-icon">
-          <svg class="ic" viewBox="0 0 24 24"><path d="M12 2 L4 6 v6 c0 5 4 9 8 10 c4-1 8-5 8-10 V6 z"/><path d="M9 12 l2 2 l4-4"/></svg>
-        </div>
-        <h3>Certified channel</h3>
-        <p>Direct authorized distribution for Ubiquiti and MikroTik. Every unit is genuine, region-correct, and warranty-covered.</p>
-      </div>
-      <div class="benefit">
-        <div class="benefit-num">02 / Stocked</div>
-        <div class="benefit-icon">
-          <svg class="ic" viewBox="0 0 24 24"><path d="M3 7 h18 v12 H3 z"/><path d="M3 7 l3-4 h12 l3 4"/><path d="M9 12 h6"/></svg>
-        </div>
-        <h3>Local warehouse</h3>
-        <p>2,400+ SKUs held locally. Same-day pickup on stocked items, next-business-day shipping for project orders.</p>
-      </div>
-      <div class="benefit">
-        <div class="benefit-num">03 / Engineered</div>
-        <div class="benefit-icon">
-          <svg class="ic" viewBox="0 0 24 24"><path d="M4 7 h6 v6 H4 z M14 11 h6 v6 h-6 z"/><path d="M10 10 L14 14"/></svg>
-        </div>
-        <h3>Pre-sales engineering</h3>
-        <p>Bill-of-materials review, RF planning, and topology checks for every project quote. Real installers, not a chatbot.</p>
-      </div>
-      <div class="benefit">
-        <div class="benefit-num">04 / Supported</div>
-        <div class="benefit-icon">
-          <svg class="ic" viewBox="0 0 24 24"><circle cx="12" cy="12" r="9"/><path d="M12 8 v4 l3 2"/></svg>
-        </div>
-        <h3>RMA & lifecycle</h3>
-        <p>Direct manufacturer RMA handling. Replacement units pulled from local stock — no 8-week lead times on failures.</p>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===================== CATEGORIES ===================== -->
-<section class="section" id="categories">
-  <div class="container">
-    <div class="section-hd">
-      <div class="l">
-        <div class="section-tag">Categories</div>
-        <h2 class="display">Five families. One operating layer.</h2>
-        <p>From Wi-Fi 7 access points to perimeter cameras and long-haul wireless backhaul, every product is curated to interoperate inside a single managed stack.</p>
-      </div>
-      <a class="btn btn-ghost btn-arrow" href="#products">View all categories</a>
-    </div>
-
-    <div class="categories">
-      <div class="cat">
-        <div style="display:flex;justify-content:space-between;align-items:flex-start">
-          <div class="cat-icon">
-            <svg class="ic ic-lg" viewBox="0 0 32 32"><circle cx="16" cy="22" r="2" fill="#00D4FF" stroke="none"/><path d="M11 17 a7 7 0 0 1 10 0"/><path d="M7 13 a13 13 0 0 1 18 0"/><path d="M3 9 a19 19 0 0 1 26 0"/></svg>
-          </div>
-          <div class="cat-num">01</div>
-        </div>
-        <div>
-          <h3>Wi-Fi 7 Access Points</h3>
-          <p>Tri-band 6 GHz coverage, 2.5/10G uplinks, indoor and long-range outdoor models.</p>
-          <div class="cat-foot">
-            <div class="count">04 PRODUCTS · UNIFI</div>
-            <div class="arrow">→</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="cat">
-        <div style="display:flex;justify-content:space-between;align-items:flex-start">
-          <div class="cat-icon">
-            <svg class="ic ic-lg" viewBox="0 0 32 32"><rect x="3" y="11" width="26" height="10" rx="1.5"/><circle cx="8" cy="16" r="0.8" fill="#00D4FF" stroke="none"/><circle cx="12" cy="16" r="0.8" fill="#00D4FF" stroke="none"/><circle cx="16" cy="16" r="0.8" fill="#00D4FF" stroke="none"/><circle cx="20" cy="16" r="0.8" fill="#00D4FF" stroke="none"/><circle cx="24" cy="16" r="0.8" fill="#00D4FF" stroke="none"/></svg>
-          </div>
-          <div class="cat-num">02</div>
-        </div>
-        <div>
-          <h3>PoE Switches</h3>
-          <p>Layer-2 and Layer-3 PoE+ / PoE++ switches for camera, AP, and access deployments.</p>
-          <div class="cat-foot">
-            <div class="count">02 PRODUCTS · UNIFI</div>
-            <div class="arrow">→</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="cat">
-        <div style="display:flex;justify-content:space-between;align-items:flex-start">
-          <div class="cat-icon">
-            <svg class="ic ic-lg" viewBox="0 0 32 32"><rect x="6" y="9" width="20" height="14" rx="2"/><circle cx="16" cy="16" r="4"/><circle cx="16" cy="16" r="1.6" fill="#00D4FF" stroke="none"/></svg>
-          </div>
-          <div class="cat-num">03</div>
-        </div>
-        <div>
-          <h3>Surveillance Cameras</h3>
-          <p>4K AI-enabled bullet and dome cameras, IK10 housings, IR/Night enhancement.</p>
-          <div class="cat-foot">
-            <div class="count">02 PRODUCTS · UNIFI G6</div>
-            <div class="arrow">→</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="cat">
-        <div style="display:flex;justify-content:space-between;align-items:flex-start">
-          <div class="cat-icon">
-            <svg class="ic ic-lg" viewBox="0 0 32 32"><rect x="5" y="6" width="22" height="20" rx="2"/><path d="M9 12 h14 M9 17 h14 M9 22 h6"/></svg>
-          </div>
-          <div class="cat-num">04</div>
-        </div>
-        <div>
-          <h3>NVR & Access</h3>
-          <p>Network video recorders and door access hubs with on-prem retention.</p>
-          <div class="cat-foot">
-            <div class="count">02 PRODUCTS · UNIFI</div>
-            <div class="arrow">→</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="cat">
-        <div style="display:flex;justify-content:space-between;align-items:flex-start">
-          <div class="cat-icon">
-            <svg class="ic ic-lg" viewBox="0 0 32 32"><rect x="4" y="13" width="6" height="6"/><rect x="22" y="13" width="6" height="6"/><path d="M10 16 h12"/><path d="M13 11 l-3 5 l3 5"/><path d="M19 11 l3 5 l-3 5"/></svg>
-          </div>
-          <div class="cat-num">05</div>
-        </div>
-        <div>
-          <h3>Wireless Backhaul</h3>
-          <p>MikroTik 60 GHz and 5 GHz point-to-point links for site-to-site infrastructure.</p>
-          <div class="cat-foot">
-            <div class="count">02 PRODUCTS · MIKROTIK</div>
-            <div class="arrow">→</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="cat" style="background: linear-gradient(135deg, var(--navy-600), var(--navy-700)); border-color: rgba(0, 212, 255, 0.3);">
-        <div style="display:flex;justify-content:space-between;align-items:flex-start">
-          <div class="cat-icon" style="border-color: rgba(0,212,255,0.5)">
-            <svg class="ic ic-lg" viewBox="0 0 32 32"><path d="M16 4 v24 M4 16 h24"/><circle cx="16" cy="16" r="11"/></svg>
-          </div>
-          <div class="cat-num" style="color: var(--cyan)">06</div>
-        </div>
-        <div>
-          <h3>Custom Solutions</h3>
-          <p>Project-scoped bundles for kibbutzim, gated communities, and senior living sites.</p>
-          <div class="cat-foot">
-            <div class="count" style="color: var(--cyan)">CONSULT WITH ENGINEER</div>
-            <div class="arrow">→</div>
-          </div>
-        </div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===================== PRODUCTS ===================== -->
-<section class="section products-wrap" id="products">
-  <div class="container">
-    <div class="section-hd">
-      <div class="l">
-        <div class="section-tag">Featured Catalogue</div>
-        <h2 class="display">Selected products, in stock now.</h2>
-        <p>A representative selection from our active catalogue. Full specifications and package pricing are available after registration.</p>
-      </div>
-    </div>
-
-    <div class="filter-row">
-      <button class="active">All featured</button>
-      <button>Wi-Fi 7</button>
-      <button>PoE Switches</button>
-      <button>Cameras</button>
-      <button>NVR & Access</button>
-      <button>Wireless Links</button>
-    </div>
-
-    <div class="products">
-
-      <!-- U7 Pro -->
-      <article class="pc">
-        <div class="pc-tag new">NEW</div>
-        <div class="pc-img"><div class="pc-img-label">U7-PRO · product image</div></div>
-        <div class="pc-body">
-          <div class="pc-brand">Ubiquiti UniFi</div>
-          <h4 class="pc-name">U7 Pro</h4>
-          <p class="pc-sub">Tri-band Wi-Fi 7 indoor AP with 6 GHz radio and 2.5G PoE+ uplink.</p>
-          <div class="pc-specs">
-            <div>BANDS<b>Tri</b></div>
-            <div>UPLINK<b>2.5G</b></div>
-            <div>POE<b>PoE+</b></div>
-          </div>
-        </div>
-        <div class="pc-foot">
-          <div class="pc-locked">
-            <svg class="ic" style="width:14px;height:14px;stroke:#5C6E89" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="1.5"/><path d="M8 11 V7 a4 4 0 0 1 8 0 v4"/></svg>
-            Price after register
-          </div>
-          <a class="reveal" href="#register">Unlock →</a>
-        </div>
-      </article>
-
-      <!-- U7 Pro XG -->
-      <article class="pc">
-        <div class="pc-tag new">NEW</div>
-        <div class="pc-img"><div class="pc-img-label">U7-PRO-XG · product image</div></div>
-        <div class="pc-body">
-          <div class="pc-brand">Ubiquiti UniFi</div>
-          <h4 class="pc-name">U7 Pro XG</h4>
-          <p class="pc-sub">High-performance Wi-Fi 7 AP, 10G uplink for high-density deployments.</p>
-          <div class="pc-specs">
-            <div>BANDS<b>Tri</b></div>
-            <div>UPLINK<b>10G</b></div>
-            <div>POE<b>PoE++</b></div>
-          </div>
-        </div>
-        <div class="pc-foot">
-          <div class="pc-locked">
-            <svg class="ic" style="width:14px;height:14px;stroke:#5C6E89" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="1.5"/><path d="M8 11 V7 a4 4 0 0 1 8 0 v4"/></svg>
-            Price after register
-          </div>
-          <a class="reveal" href="#register">Unlock →</a>
-        </div>
-      </article>
-
-      <!-- U7 LR -->
-      <article class="pc">
-        <div class="pc-tag">FEATURED</div>
-        <div class="pc-img"><div class="pc-img-label">U7-LR · product image</div></div>
-        <div class="pc-body">
-          <div class="pc-brand">Ubiquiti UniFi</div>
-          <h4 class="pc-name">U7 LR</h4>
-          <p class="pc-sub">Long-range Wi-Fi 7 AP for large-area coverage and outdoor-adjacent installs.</p>
-          <div class="pc-specs">
-            <div>RANGE<b>Long</b></div>
-            <div>UPLINK<b>2.5G</b></div>
-            <div>POE<b>PoE+</b></div>
-          </div>
-        </div>
-        <div class="pc-foot">
-          <div class="pc-locked">
-            <svg class="ic" style="width:14px;height:14px;stroke:#5C6E89" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="1.5"/><path d="M8 11 V7 a4 4 0 0 1 8 0 v4"/></svg>
-            Price after register
-          </div>
-          <a class="reveal" href="#register">Unlock →</a>
-        </div>
-      </article>
-
-      <!-- U7 Lite -->
-      <article class="pc">
-        <div class="pc-tag">IN STOCK</div>
-        <div class="pc-img"><div class="pc-img-label">U7-LITE · product image</div></div>
-        <div class="pc-body">
-          <div class="pc-brand">Ubiquiti UniFi</div>
-          <h4 class="pc-name">U7 Lite</h4>
-          <p class="pc-sub">Compact Wi-Fi 7 AP for offices, suites, and density-sensitive layouts.</p>
-          <div class="pc-specs">
-            <div>BANDS<b>Dual</b></div>
-            <div>UPLINK<b>1G</b></div>
-            <div>POE<b>PoE</b></div>
-          </div>
-        </div>
-        <div class="pc-foot">
-          <div class="pc-locked">
-            <svg class="ic" style="width:14px;height:14px;stroke:#5C6E89" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="1.5"/><path d="M8 11 V7 a4 4 0 0 1 8 0 v4"/></svg>
-            Price after register
-          </div>
-          <a class="reveal" href="#register">Unlock →</a>
-        </div>
-      </article>
-
-      <!-- USW Pro 24 -->
-      <article class="pc">
-        <div class="pc-tag">FEATURED</div>
-        <div class="pc-img"><div class="pc-img-label">USW-PRO-24-POE · product image</div></div>
-        <div class="pc-body">
-          <div class="pc-brand">Ubiquiti UniFi</div>
-          <h4 class="pc-name">USW-Pro-24-PoE</h4>
-          <p class="pc-sub">L3 managed 24-port PoE+ switch with SFP+ uplinks and 400W budget.</p>
-          <div class="pc-specs">
-            <div>PORTS<b>24</b></div>
-            <div>SFP+<b>2</b></div>
-            <div>POE<b>400W</b></div>
-          </div>
-        </div>
-        <div class="pc-foot">
-          <div class="pc-locked">
-            <svg class="ic" style="width:14px;height:14px;stroke:#5C6E89" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="1.5"/><path d="M8 11 V7 a4 4 0 0 1 8 0 v4"/></svg>
-            Price after register
-          </div>
-          <a class="reveal" href="#register">Unlock →</a>
-        </div>
-      </article>
-
-      <!-- USW Pro 48 -->
-      <article class="pc">
-        <div class="pc-tag">IN STOCK</div>
-        <div class="pc-img"><div class="pc-img-label">USW-PRO-48-POE · product image</div></div>
-        <div class="pc-body">
-          <div class="pc-brand">Ubiquiti UniFi</div>
-          <h4 class="pc-name">USW-Pro-48-PoE</h4>
-          <p class="pc-sub">L3 managed 48-port PoE+ switch with 600W budget for large-site rollouts.</p>
-          <div class="pc-specs">
-            <div>PORTS<b>48</b></div>
-            <div>SFP+<b>4</b></div>
-            <div>POE<b>600W</b></div>
-          </div>
-        </div>
-        <div class="pc-foot">
-          <div class="pc-locked">
-            <svg class="ic" style="width:14px;height:14px;stroke:#5C6E89" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="1.5"/><path d="M8 11 V7 a4 4 0 0 1 8 0 v4"/></svg>
-            Price after register
-          </div>
-          <a class="reveal" href="#register">Unlock →</a>
-        </div>
-      </article>
-
-      <!-- G6 Bullet -->
-      <article class="pc">
-        <div class="pc-tag new">NEW</div>
-        <div class="pc-img"><div class="pc-img-label">G6-BULLET · product image</div></div>
-        <div class="pc-body">
-          <div class="pc-brand">Ubiquiti UniFi Protect</div>
-          <h4 class="pc-name">G6 Bullet</h4>
-          <p class="pc-sub">4K AI bullet camera with IR illumination and IP66 outdoor housing.</p>
-          <div class="pc-specs">
-            <div>RES<b>4K</b></div>
-            <div>RATING<b>IP66</b></div>
-            <div>POE<b>PoE</b></div>
-          </div>
-        </div>
-        <div class="pc-foot">
-          <div class="pc-locked">
-            <svg class="ic" style="width:14px;height:14px;stroke:#5C6E89" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="1.5"/><path d="M8 11 V7 a4 4 0 0 1 8 0 v4"/></svg>
-            Price after register
-          </div>
-          <a class="reveal" href="#register">Unlock →</a>
-        </div>
-      </article>
-
-      <!-- G6 Dome -->
-      <article class="pc">
-        <div class="pc-tag new">NEW</div>
-        <div class="pc-img"><div class="pc-img-label">G6-DOME · product image</div></div>
-        <div class="pc-body">
-          <div class="pc-brand">Ubiquiti UniFi Protect</div>
-          <h4 class="pc-name">G6 Dome</h4>
-          <p class="pc-sub">4K AI dome camera with vandal-resistant housing for indoor and entry zones.</p>
-          <div class="pc-specs">
-            <div>RES<b>4K</b></div>
-            <div>RATING<b>IK10</b></div>
-            <div>POE<b>PoE</b></div>
-          </div>
-        </div>
-        <div class="pc-foot">
-          <div class="pc-locked">
-            <svg class="ic" style="width:14px;height:14px;stroke:#5C6E89" viewBox="0 0 24 24"><rect x="5" y="11" width="14" height="10" rx="1.5"/><path d="M8 11 V7 a4 4 0 0 1 8 0 v4"/></svg>
-            Price after register
-          </div>
-          <a class="reveal" href="#register">Unlock →</a>
-        </div>
-      </article>
-
-    </div>
-  </div>
-</section>
-
-<!-- ===================== UNLOCK / REGISTER ===================== -->
-<section class="unlock section" id="register">
-  <div class="container unlock-grid">
-    <div>
-      <div class="section-tag">Catalogue Access</div>
-      <h2 class="display">Register to unlock the full catalogue.</h2>
-      <p>The public site shows a curated selection. Verified accounts see live stock, package pricing, project tools, and the full Ubiquiti and MikroTik range.</p>
-      <ul class="checks">
-        <li>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00C896" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12 l3 3 l5-6"/></svg>
-          Live stock visibility across the full catalogue
-        </li>
-        <li>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00C896" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12 l3 3 l5-6"/></svg>
-          Per-unit, package, and carton pricing tiers
-        </li>
-        <li>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00C896" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12 l3 3 l5-6"/></svg>
-          Project quotes with engineering review
-        </li>
-        <li>
-          <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="#00C896" stroke-width="2"><circle cx="12" cy="12" r="10"/><path d="M8 12 l3 3 l5-6"/></svg>
-          Direct RMA processing and order history
-        </li>
-      </ul>
-    </div>
-
-    <div class="form-card">
-      <h3>Create a verified account</h3>
-      <p class="form-sub">Approval typically within one business day.</p>
-
-      <div class="form-row two">
-        <div>
-          <div class="field-label">First name</div>
-          <input class="field" placeholder="Yossi" />
-        </div>
-        <div>
-          <div class="field-label">Last name</div>
-          <input class="field" placeholder="Cohen" />
-        </div>
-      </div>
-      <div class="form-row">
-        <div>
-          <div class="field-label">Business email</div>
-          <input class="field" placeholder="you@company.co" />
-        </div>
-      </div>
-      <div class="form-row two">
-        <div>
-          <div class="field-label">Company</div>
-          <input class="field" placeholder="Acme Networks Ltd." />
-        </div>
-        <div>
-          <div class="field-label">Buyer type</div>
-          <select class="field">
-            <option>Installer / integrator</option>
-            <option>Security team</option>
-            <option>Kibbutz / moshav</option>
-            <option>Gated community</option>
-            <option>Senior living</option>
-            <option>Reseller</option>
-          </select>
-        </div>
-      </div>
-      <button class="btn btn-primary btn-arrow">Request catalogue access</button>
-      <div class="form-foot">By registering you agree to our terms.<br/>Secure Smart will never share your details with manufacturers.</div>
-    </div>
-  </div>
-</section>
-
-<!-- ===================== PRICING / PACKAGE NOTE ===================== -->
-<section class="pricing-note" id="catalogue">
-  <div class="container">
-    <div class="section-hd">
-      <div class="l">
-        <div class="section-tag">Pricing structure</div>
-        <h2 class="display" style="font-size: 44px; line-height:1.05; margin:0 0 14px">Three tiers. Visible after registration.</h2>
-        <p>We publish per-unit, package, and carton pricing once you're verified. The structure rewards real install volumes — not promotional fluff.</p>
-      </div>
-    </div>
-
-    <div class="pricing-grid">
-      <div class="pn-card">
-        <div class="pn-icon">
-          <svg class="ic" viewBox="0 0 24 24" style="width:18px;height:18px"><rect x="6" y="4" width="12" height="16" rx="1.5"/><path d="M9 9 h6 M9 13 h6 M9 17 h4"/></svg>
-        </div>
-        <h3>Per-unit</h3>
-        <p>Single units for replacement, prototyping, or small site additions.</p>
-        <div>
-          <div class="row"><span>U7 Pro · single</span><b class="lock">⌗ locked</b></div>
-          <div class="row"><span>USW-Pro-24-PoE · single</span><b class="lock">⌗ locked</b></div>
-          <div class="row"><span>G6 Bullet · single</span><b class="lock">⌗ locked</b></div>
-        </div>
-      </div>
-
-      <div class="pn-card feat">
-        <div class="pn-icon" style="background: rgba(0, 212, 255, 0.18); border-color: var(--cyan)">
-          <svg class="ic" viewBox="0 0 24 24" style="width:18px;height:18px"><path d="M3 7 h18 v12 H3 z M3 7 l3-4 h12 l3 4"/></svg>
-        </div>
-        <h3>Package <span style="color: var(--cyan); font-family: 'JetBrains Mono', monospace; font-size: 11px; margin-left:6px">★ MOST USED</span></h3>
-        <p>Manufacturer multipack — typically 5 to 10 units. Best for site rollouts.</p>
-        <div>
-          <div class="row"><span>U7 Pro · 5-pack</span><b class="lock">⌗ locked</b></div>
-          <div class="row"><span>U7 Lite · 5-pack</span><b class="lock">⌗ locked</b></div>
-          <div class="row"><span>G6 Dome · 4-pack</span><b class="lock">⌗ locked</b></div>
-        </div>
-      </div>
-
-      <div class="pn-card">
-        <div class="pn-icon">
-          <svg class="ic" viewBox="0 0 24 24" style="width:18px;height:18px"><rect x="3" y="6" width="18" height="14"/><path d="M3 10 h18"/></svg>
-        </div>
-        <h3>Carton / pallet</h3>
-        <p>Full-carton or pallet quantities for distributors and large project orders.</p>
-        <div>
-          <div class="row"><span>U7 Pro · carton (40)</span><b class="lock">⌗ locked</b></div>
-          <div class="row"><span>USW-Pro-48-PoE · carton</span><b class="lock">⌗ locked</b></div>
-          <div class="row"><span>UNVR · carton (8)</span><b class="lock">⌗ locked</b></div>
-        </div>
-      </div>
-    </div>
-
-    <div style="margin-top: 40px; padding: 24px 28px; background: var(--navy-700); border: 1px solid var(--line); border-radius: 10px; display:flex; justify-content:space-between; align-items:center; gap:32px;">
-      <div style="display:flex; gap: 16px; align-items: flex-start;">
-        <svg class="ic" style="width:24px;height:24px;flex-shrink:0;margin-top:2px" viewBox="0 0 24 24"><circle cx="12" cy="12" r="10"/><path d="M12 8 v4 M12 16 h0.01" stroke-linecap="round"/></svg>
-        <div>
-          <div style="font-family: 'Space Grotesk', sans-serif; font-weight: 600; font-size: 16px; margin-bottom: 4px;">Why we hide prices on the public page</div>
-          <div style="font-size: 14px; color: var(--ink-dim); line-height: 1.55; max-width: 720px;">Package and carton pricing is contractual and varies by buyer type. We verify accounts before showing pricing so installers, security teams, and end-customers each see the tier that applies to them — and so manufacturer agreements are respected.</div>
-        </div>
-      </div>
-      <a class="btn btn-primary btn-arrow" href="#register" style="white-space: nowrap;">Register now</a>
-    </div>
-  </div>
-</section>
-
-<!-- ===================== FINAL CTA ===================== -->
-<section class="final" id="contact">
-  <div class="container final-inner">
-    <div class="eyebrow"><span class="dot"></span> Ready to spec your project?</div>
-    <h2 class="display">Tell us what you're protecting. We'll spec the rest.</h2>
-    <p>Send us a site, a count, or a sketch. Our engineers will return a bill of materials, a topology, and a project quote within one business day.</p>
-    <div class="final-ctas">
-      <a class="btn btn-primary btn-arrow" href="#register">Register & request a quote</a>
-      <a class="btn btn-ghost" href="#contact">Talk to an engineer</a>
-    </div>
-
-    <div class="final-contact">
-      <div class="fc-item">
-        <div class="lbl">Sales & quotes</div>
-        <div class="val">sales@securesmart.co</div>
-      </div>
-      <div class="fc-item">
-        <div class="lbl">Project engineering</div>
-        <div class="val">+972 (0)9 000 0000</div>
-      </div>
-      <div class="fc-item">
-        <div class="lbl">Warehouse pickup</div>
-        <div class="val">Mon–Thu · 08:00–17:00</div>
-      </div>
-    </div>
-  </div>
-</section>
-
-<!-- ===================== FOOTER ===================== -->
-<footer>
-  <div class="container">
-    <div class="foot-grid">
+  <header class="hero noise" id="top">
+    <div class="grid-lines"></div>
+    <div class="container hero-wrap">
       <div>
-        <div class="logo">
-          <div class="logo-mark">
-            <svg viewBox="0 0 32 32" fill="none">
-              <rect x="3" y="3" width="26" height="26" rx="6" stroke="#00D4FF" stroke-width="1.5"/>
-              <path d="M10 16 L14 20 L22 12" stroke="#00D4FF" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"/>
-            </svg>
-          </div>
-          <div class="logo-text">Secure<span>Smart</span></div>
+        <div class="pill"><span class="pulse"></span>Professional infrastructure supply</div>
+        <h1 class="display">Security-grade networks for communities that cannot go offline.</h1>
+        <p class="lede">Secure Smart curates Ubiquiti and MikroTik equipment for installers, security teams, gated communities and community infrastructure projects — with verified catalogue access, project bundles and carton pricing after registration.</p>
+        <div class="hero-buttons"><a class="btn btn-primary" href="#register">Register to view catalogue →</a><a class="btn btn-ghost" href="#products">Explore selected products</a></div>
+        <div class="proof">
+          <div class="proof-card"><b>10–12</b><span>Flagship products for first launch</span></div>
+          <div class="proof-card"><b>5%</b><span>Carton discount after registration</span></div>
+          <div class="proof-card"><b>B2B</b><span>Built for serious buyers</span></div>
         </div>
-        <p class="foot-tag">Authorized distributor of Ubiquiti and MikroTik infrastructure. Serving installers, security teams, kibbutzim, and gated communities since 2012.</p>
       </div>
-      <div class="foot-col">
-        <h4>Catalogue</h4>
-        <a href="#">Wi-Fi 7 access points</a>
-        <a href="#">PoE switches</a>
-        <a href="#">Cameras</a>
-        <a href="#">NVR & access</a>
-        <a href="#">MikroTik wireless</a>
-      </div>
-      <div class="foot-col">
-        <h4>Buyers</h4>
-        <a href="#">Installers</a>
-        <a href="#">Security teams</a>
-        <a href="#">Kibbutzim & moshavim</a>
-        <a href="#">Senior living</a>
-        <a href="#">Resellers</a>
-      </div>
-      <div class="foot-col">
-        <h4>Support</h4>
-        <a href="#">Pre-sales engineering</a>
-        <a href="#">RMA & warranty</a>
-        <a href="#">Documentation</a>
-        <a href="#">Contact</a>
+      <div class="hero-panel">
+        <div class="dash">
+          <div class="dash-img"></div>
+          <div class="dash-body">
+            <div class="status-row"><strong>Perimeter cameras</strong><span class="status-ok">ONLINE</span></div>
+            <div class="status-row"><strong>Wi‑Fi 7 coverage</strong><span>Mesh ready</span></div>
+            <div class="status-row"><strong>PoE switching</strong><span>24/48-port options</span></div>
+            <div class="status-row"><strong>Wireless backhaul</strong><span>MikroTik 60GHz</span></div>
+          </div>
+        </div>
       </div>
     </div>
-    <div class="foot-bottom">
-      <div>© 2026 Secure Smart Distribution Ltd. All trademarks belong to their respective owners.</div>
-      <div>Privacy · Terms · Imprint</div>
-    </div>
-  </div>
-</footer>
+  </header>
 
+  <div class="trust"><div class="container trust-in"><span>Designed for</span><b>Installers</b><b>Security teams</b><b>Kibbutzim & moshavim</b><b>Gated communities</b><b>Senior living</b></div></div>
+
+  <section class="benefits" id="solutions">
+    <div class="container">
+      <div class="section-head"><div><div class="tag">Why Secure Smart</div><h2 class="display">A catalogue built like infrastructure, not retail.</h2></div><p>The public page creates confidence. The gated catalogue keeps pricing professional and lets buyers access the right tier after registration.</p></div>
+      <div class="benefit-grid">
+        <div class="benefit"><div class="icon">✓</div><h3>Curated stack</h3><p>Selected UniFi, Protect and MikroTik products grouped by real deployment scenarios.</p></div>
+        <div class="benefit"><div class="icon">↯</div><h3>Project bundles</h3><p>Emphasize package and carton pricing instead of distracting single-unit shopping.</p></div>
+        <div class="benefit"><div class="icon">▣</div><h3>Gated pricing</h3><p>Public marketing first; exact catalogue prices are unlocked only after registration.</p></div>
+        <div class="benefit"><div class="icon">◌</div><h3>Professional feel</h3><p>Premium B2B presentation for serious infrastructure buyers and community stakeholders.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="showcase">
+    <div class="container">
+      <div class="section-head"><div><div class="tag">Product families</div><h2 class="display">Everything for a resilient site.</h2></div><p>Wi‑Fi, switching, cameras, NVR, access control and wireless links — presented as one secure operating layer.</p></div>
+      <div class="category-grid">
+        <div class="category"><small>01</small><h3>Wi‑Fi 7 APs</h3><p>U7 Pro, LR, Lite and XG for high-density indoor and community coverage.</p></div>
+        <div class="category"><small>02</small><h3>PoE switching</h3><p>Pro 24/48 PoE switches for cameras, APs and access deployments.</p></div>
+        <div class="category"><small>03</small><h3>Protect cameras</h3><p>G6 Bullet and Dome for visible, reliable perimeter and entry coverage.</p></div>
+        <div class="category"><small>04</small><h3>NVR & access</h3><p>UNVR storage and UA-Hub-Door for local control and entry management.</p></div>
+        <div class="category"><small>05</small><h3>MikroTik links</h3><p>CubeG and nRAY 60GHz wireless links for site-to-site backhaul.</p></div>
+      </div>
+    </div>
+  </section>
+
+  <section class="products" id="products">
+    <div class="container">
+      <div class="section-head"><div><div class="tag">Selected launch products</div><h2 class="display">A premium first catalogue.</h2></div><p>No public prices here. Product cards create desire and trust, then move qualified buyers into registration.</p></div>
+      <div class="product-grid">
+        <article class="product"><div class="product-visual"><div class="device round">U7</div></div><div class="product-body"><div class="brandline">Ubiquiti UniFi</div><h3>U7 Pro</h3><p>Tri-band Wi‑Fi 7 access point with 6GHz support for demanding environments.</p><div class="specs"><span>Wi‑Fi 7</span><span>2.5G</span><span>PoE+</span></div></div><div class="locked">Price after registration <a href="#register">Unlock</a></div></article>
+        <article class="product"><div class="product-visual"><div class="device round">XG</div></div><div class="product-body"><div class="brandline">Ubiquiti UniFi</div><h3>U7 Pro XG</h3><p>High-performance AP for premium 10G uplink and dense client environments.</p><div class="specs"><span>Wi‑Fi 7</span><span>10G</span><span>Pro</span></div></div><div class="locked">Price after registration <a href="#register">Unlock</a></div></article>
+        <article class="product"><div class="product-visual"><div class="device round">LR</div></div><div class="product-body"><div class="brandline">Ubiquiti UniFi</div><h3>U7 LR</h3><p>Long-range Wi‑Fi 7 option for larger spaces and community infrastructure.</p><div class="specs"><span>Long range</span><span>6GHz</span><span>PoE+</span></div></div><div class="locked">Price after registration <a href="#register">Unlock</a></div></article>
+        <article class="product"><div class="product-visual"><div class="device round">Lite</div></div><div class="product-body"><div class="brandline">Ubiquiti UniFi</div><h3>U7 Lite</h3><p>Compact Wi‑Fi 7 access point for distributed offices and small spaces.</p><div class="specs"><span>Compact</span><span>Wi‑Fi 7</span><span>Value</span></div></div><div class="locked">Price after registration <a href="#register">Unlock</a></div></article>
+        <article class="product"><div class="product-visual"><div class="device">24P</div></div><div class="product-body"><div class="brandline">Ubiquiti Switching</div><h3>USW-Pro-24-PoE</h3><p>Professional 24-port PoE switch for cameras, APs and access hardware.</p><div class="specs"><span>24 ports</span><span>PoE</span><span>SFP+</span></div></div><div class="locked">Price after registration <a href="#register">Unlock</a></div></article>
+        <article class="product"><div class="product-visual"><div class="device">48P</div></div><div class="product-body"><div class="brandline">Ubiquiti Switching</div><h3>USW-Pro-48-PoE</h3><p>Large-site PoE switch for rack deployments and higher device counts.</p><div class="specs"><span>48 ports</span><span>PoE</span><span>Rack</span></div></div><div class="locked">Price after registration <a href="#register">Unlock</a></div></article>
+        <article class="product"><div class="product-visual"><div class="device camera">G6</div></div><div class="product-body"><div class="brandline">UniFi Protect</div><h3>G6 Bullet</h3><p>Outdoor-ready camera for perimeter, gates and community entrances.</p><div class="specs"><span>Camera</span><span>Outdoor</span><span>PoE</span></div></div><div class="locked">Price after registration <a href="#register">Unlock</a></div></article>
+        <article class="product"><div class="product-visual"><div class="device round">Dome</div></div><div class="product-body"><div class="brandline">UniFi Protect</div><h3>G6 Dome</h3><p>Discreet dome camera for indoor, lobby, hallway and access-point monitoring.</p><div class="specs"><span>Dome</span><span>4K</span><span>PoE</span></div></div><div class="locked">Price after registration <a href="#register">Unlock</a></div></article>
+      </div>
+    </div>
+  </section>
+
+  <section class="gate" id="register">
+    <div class="container gate-grid">
+      <div><div class="tag">Gated catalogue</div><h2 class="display">Register first. See pricing second.</h2><p>Secure Smart should feel like a professional distributor, not an open retail shelf. Registration lets us qualify buyers and reveal the right product catalogue, availability and carton terms.</p><div class="checklist"><div class="check"><i>✓</i><span>Full product catalogue access after registration</span></div><div class="check"><i>✓</i><span>Single-unit price exists, but package/carton pricing is emphasized</span></div><div class="check"><i>✓</i><span>5% full-carton discount visible only after catalogue unlock</span></div><div class="check"><i>✓</i><span>Quote path for communities, installers and security teams</span></div></div></div>
+      <form class="form"><h3>Request catalogue access</h3><small>Prototype form — backend can be connected later.</small><div class="fields two"><input class="field" placeholder="First name"><input class="field" placeholder="Last name"></div><div class="fields"><input class="field" placeholder="Business email"></div><div class="fields two"><input class="field" placeholder="Company / community"><select class="field"><option>Installer / integrator</option><option>Security team</option><option>Kibbutz / moshav</option><option>Gated community</option><option>Senior living</option><option>Reseller</option></select></div><div class="fields"><button class="btn btn-primary" type="button">Unlock catalogue preview →</button></div><div class="form-note">Prices and carton discounts are shown only after approval.</div></form>
+    </div>
+  </section>
+
+  <section class="pricing" id="catalogue"><div class="container"><div class="section-head"><div><div class="tag">Pricing after registration</div><h2 class="display">Built for volume decisions.</h2></div><p>The public page avoids public price comparison. The private catalogue can show the business logic clearly.</p></div><div class="pricing-grid"><div class="price-card"><div class="icon">1</div><h3>Single unit</h3><p>Available for replacements, samples and small jobs.</p><div class="price-row"><span>Visibility</span><b>Locked</b></div></div><div class="price-card featured"><div class="icon">★</div><h3>Package</h3><p>Recommended path for installers and site rollouts.</p><div class="price-row"><span>Positioning</span><b>Preferred</b></div></div><div class="price-card"><div class="icon">%</div><h3>Full carton</h3><p>Carton quantity receives a 5% discount after registration.</p><div class="price-row"><span>Discount</span><b>After unlock</b></div></div></div></div></section>
+
+  <section class="cta" id="contact"><div class="container"><div class="pill"><span class="pulse"></span>Launch-ready marketing page</div><h2 class="display">A serious first impression for serious infrastructure buyers.</h2><p>This version is designed to give Jeff and Secure Smart a premium public face immediately, while keeping pricing, catalogue logic and registrations ready for the next technical phase.</p><div class="hero-buttons" style="justify-content:center"><a class="btn btn-primary" href="#register">Register for catalogue</a><a class="btn btn-ghost" href="mailto:geoff@lan-tech.co.il">Contact Secure Smart</a></div><div class="contact-row"><span><b>Catalogue:</b> gated</span><span><b>Pricing:</b> after registration</span><span><b>Next phase:</b> backend + CRM</span></div></div></section>
+
+  <footer><div class="container foot"><div><strong>SecureSmart</strong><br>Professional network & security infrastructure.</div><div><a href="#products">Products</a> · <a href="#register">Register</a> · <a href="#contact">Contact</a></div></div></footer>
 </body>
 </html>
+
