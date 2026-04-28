@@ -104,3 +104,43 @@ body{background:linear-gradient(180deg,var(--sky-0) 0%,var(--sky-1) 48%,var(--sk
 
 /* final sky theme hierarchy refinements */
 .trust-icon{font-family:Inter,Assistant,system-ui,sans-serif;width:28px;height:28px;border-radius:999px;background:oklch(97% .020 235);display:grid;place-items:center;font-size:16px;font-weight:900;color:var(--blue2);flex:0 0 auto}.hero-card{box-shadow:0 14px 36px oklch(39% .08 235/.12)}.category-nav{box-shadow:0 1px 0 oklch(100% 0 0/.35) inset}.trust{box-shadow:0 1px 0 oklch(100% 0 0/.35) inset}
+
+/* Jeff feedback: remove dark blocks, commit to light blue / white / soft blue palette */
+:root{
+  --ss-white:oklch(99% .004 235);
+  --ss-ice:oklch(97.2% .020 230);
+  --ss-sky-weak:oklch(94.8% .036 230);
+  --ss-sky:oklch(89.5% .060 230);
+  --ss-sky-mid:oklch(81.5% .085 232);
+  --ss-blue:oklch(54% .135 242);
+  --ss-blue-text:oklch(28% .085 245);
+  --ss-line:oklch(78% .055 232);
+  --blue:var(--ss-blue);
+  --blue2:oklch(43% .120 242);
+  --navy:var(--ss-sky-mid);
+  --navy2:var(--ss-sky);
+  --ink:oklch(23% .045 245);
+  --muted:oklch(39% .045 245);
+  --bg:var(--ss-sky-weak);
+  --soft:var(--ss-ice);
+}
+html,body{background:linear-gradient(180deg,var(--ss-ice),var(--ss-sky-weak) 52%,var(--ss-sky))!important;color:var(--ink)}
+.top{background:var(--ss-white)!important}.brand-mark{background:var(--ss-blue)!important}.brand{color:var(--ss-blue-text)!important}
+.customer-cta{background:linear-gradient(180deg,var(--ss-sky-mid),var(--ss-blue))!important;color:var(--ss-white)!important;border:1px solid var(--ss-line)!important;box-shadow:0 4px 12px oklch(54% .135 242/.14)}
+.category-nav{background:linear-gradient(180deg,var(--ss-sky),var(--ss-sky-mid))!important;color:var(--ss-blue-text)!important;border-top:1px solid var(--ss-line)!important;border-bottom:1px solid var(--ss-line)!important;box-shadow:none!important}
+.category-nav::before{background:linear-gradient(90deg,var(--ss-sky),oklch(89.5% .060 230/0))!important}.category-nav::after{background:linear-gradient(270deg,var(--ss-sky-mid),oklch(81.5% .085 232/0))!important}
+.nav-scroll a{color:var(--ss-blue-text)!important;border-left:1px solid oklch(99% .004 235/.64)!important}.nav-scroll a:hover{background:oklch(76% .095 235)!important;color:oklch(20% .07 245)!important}
+.hero{background:transparent!important}.hero-card{background:linear-gradient(145deg,var(--ss-white) 0%,var(--ss-ice) 35%,var(--ss-sky) 100%)!important;color:var(--ss-blue-text)!important;border:1px solid var(--ss-line)!important;box-shadow:0 16px 34px oklch(54% .135 242/.12)!important}
+.hero h1,.hero-card h1{color:var(--ss-blue-text)!important}.hero p{color:oklch(35% .060 245)!important}.hero .btn{background:var(--ss-blue)!important;color:var(--ss-white)!important}
+.hero-mosaic{background:linear-gradient(90deg,oklch(99% .004 235/.35),oklch(89.5% .060 230/.42))!important}.hero-mosaic img{background:var(--ss-white)!important;border-color:var(--ss-line)!important}
+.trust{background:linear-gradient(180deg,var(--ss-sky-weak),var(--ss-sky))!important;color:var(--ss-blue-text)!important;border-top:1px solid var(--ss-line)!important;border-bottom:1px solid var(--ss-line)!important;box-shadow:none!important}
+.trust-item{border-left:1px solid oklch(75% .055 232/.7)!important}.trust-item b{color:var(--ss-blue-text)!important}.trust-item span{color:oklch(38% .052 245)!important}.trust-icon{background:var(--ss-white)!important;color:var(--ss-blue)!important;border:1px solid var(--ss-line)!important}
+.footer{background:linear-gradient(180deg,var(--ss-sky),var(--ss-sky-mid))!important;color:var(--ss-blue-text)!important;border-top:1px solid var(--ss-line)!important}.footer h4,.footer a,.footer p{color:var(--ss-blue-text)!important}
+.product-search{background:var(--ss-white)!important}.product-search button{background:var(--ss-blue)!important;color:var(--ss-white)!important}
+@media(max-width:680px){
+  html,body{background:var(--ss-sky-weak)!important}
+  .category-nav{background:linear-gradient(180deg,var(--ss-sky),var(--ss-sky-mid))!important}
+  .nav-scroll a{background:transparent!important;color:var(--ss-blue-text)!important}
+  .hero-card{background:linear-gradient(160deg,var(--ss-white),var(--ss-ice) 45%,var(--ss-sky))!important}
+  .trust{background:linear-gradient(180deg,var(--ss-sky-weak),var(--ss-sky))!important}
+}
