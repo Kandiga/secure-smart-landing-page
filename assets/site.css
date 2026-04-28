@@ -58,3 +58,15 @@
   .nav-scroll a{min-width:auto;white-space:nowrap;padding:0 18px}
   .nav-scroll a:last-child{padding-right:28px}
 }
+
+/* Secure Smart light blue site background theme */
+:root{
+  --bg:oklch(95.8% .025 235);
+  --soft:oklch(94.2% .022 235);
+}
+body{background:linear-gradient(180deg,oklch(96.6% .026 235) 0%,oklch(94.8% .024 235) 100%)}
+.hero,.page-hero{background:transparent}.section{background:transparent}.brand-strip{background:oklch(98.5% .007 235)}
+@media(max-width:680px){body{background:oklch(95.8% .025 235)}}
+
+/* search icon rendering fix */
+.product-search button{font-family:Inter,Assistant,system-ui,sans-serif;display:grid;place-items:center;line-height:1}
