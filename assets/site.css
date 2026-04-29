@@ -168,9 +168,19 @@ html,body{background:linear-gradient(180deg,var(--ss-ice),var(--ss-sky-weak) 52%
 
 
 
-/* Secure Smart official logo */
-.brand{display:flex;align-items:center;min-width:0;color:inherit!important;gap:0!important;font-size:0!important;line-height:1!important}
-.site-logo{display:block;width:210px;height:auto;max-height:70px;object-fit:contain}
-@media(max-width:1120px){.site-logo{width:196px;max-height:64px}}
-@media(max-width:680px){.site-logo{width:176px;max-height:58px}}
-@media(max-width:380px){.site-logo{width:154px;max-height:52px}}
+/* Secure Smart official logo: exact vertical lockup from the approved reference */
+.header-row{height:132px;grid-template-columns:132px minmax(360px,1fr) auto;gap:26px}
+.brand{display:flex;align-items:center;justify-content:flex-start;min-width:0;color:inherit!important;gap:0!important;font-size:0!important;line-height:1!important}
+.site-logo{display:block;width:auto;height:112px;max-width:86px;object-fit:contain}
+@media(max-width:1120px){.header-row{grid-template-columns:118px minmax(280px,1fr) auto}.site-logo{height:104px;max-width:78px}}
+@media(max-width:680px){.header-row{grid-template-columns:88px 1fr;gap:14px}.site-logo{height:86px;max-width:62px}.utility-nav{grid-column:1/-1}}
+@media(max-width:380px){.site-logo{height:78px;max-width:56px}}
+
+/* Footer address layout */
+.footer-grid.address-footer{grid-template-columns:1.1fr 1fr 1fr;align-items:start}
+.footer address{font-style:normal}
+.footer-address h4{display:flex;align-items:center;gap:10px;flex-wrap:wrap}
+.footer-address h4 span{font-size:10px;letter-spacing:.08em;text-transform:uppercase;color:var(--navy2);background:oklch(88% .045 230);border-radius:999px;padding:4px 8px}
+.footer-address.primary h4{color:oklch(94% .025 230)}
+.footer-address p{line-height:1.62}
+@media(max-width:680px){.footer-grid.address-footer{grid-template-columns:1fr}.footer-address h4 span{font-size:9px}}
