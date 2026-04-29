@@ -61,10 +61,10 @@ Mobile should remain a website, not a poster. Header/search may stack, nav can h
 
 ## Official Secure Smart Logo
 
-The official and exclusive Secure Smart logo is now the wireless-link monogram with stacked Secure Smart wordmark, stored as vector SVG assets:
+The official and exclusive Secure Smart logo is now the wireless-link monogram with stacked Secure Smart wordmark, stored as transparent PNG assets extracted from the approved reference image:
 
-- `assets/brand/secure-smart-logo.svg` — primary full lockup for site headers and brand applications.
-- `assets/brand/secure-smart-mark.svg` — mark-only companion asset for favicon/social/small icon use.
+- `assets/brand/secure-smart-logo-official.png` — primary full lockup for site headers and brand applications.
+- `assets/brand/secure-smart-mark-official.png` — mark-only companion asset for favicon/social/small icon use.
 
 Do not use the old `SS` square mark as the brand logo.
 
