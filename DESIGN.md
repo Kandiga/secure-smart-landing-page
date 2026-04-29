@@ -58,3 +58,13 @@ Use only subtle hover/focus transitions around 150-180ms. No page-load choreogra
 ## Responsive
 
 Mobile should remain a website, not a poster. Header/search may stack, nav can hide, product grid becomes one column, filter sidebar stacks above products. Avoid sticky CTAs that cover content.
+
+## Official Secure Smart Logo
+
+The official and exclusive Secure Smart logo is now the wireless-link monogram with stacked Secure Smart wordmark, stored as vector SVG assets:
+
+- `assets/brand/secure-smart-logo.svg` — primary full lockup for site headers and brand applications.
+- `assets/brand/secure-smart-mark.svg` — mark-only companion asset for favicon/social/small icon use.
+
+Do not use the old `SS` square mark as the brand logo.
+

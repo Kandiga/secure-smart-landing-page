@@ -1,0 +1,10 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 132 112" role="img" aria-labelledby="title desc">
+  <title id="title">Secure Smart mark</title>
+  <desc id="desc">Secure Smart wireless-link monogram.</desc>
+  <path d="M104 88H64c-15 0-25-9-25-22s10-22 25-22h38" fill="none" stroke="#0B1D3A" stroke-width="11" stroke-linecap="round"/>
+  <path d="M65 43h39c15 0 25 9 25 22s-10 22-25 22H66" fill="none" stroke="#0B1D3A" stroke-width="11" stroke-linecap="round"/>
+  <path d="M66 88c-14 0-24 8-24 20h58" fill="none" stroke="#0B1D3A" stroke-width="11" stroke-linecap="round"/>
+  <path d="M106 28c15 4 27 16 31 31" fill="none" stroke="#20A6A4" stroke-width="7" stroke-linecap="round"/>
+  <path d="M106 15c22 5 40 23 45 45" fill="none" stroke="#20A6A4" stroke-width="7" stroke-linecap="round" transform="translate(-22 -15)"/>
+  <path d="M106 41c8 3 15 10 18 18" fill="none" stroke="#20A6A4" stroke-width="7" stroke-linecap="round"/>
+</svg>

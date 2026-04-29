@@ -1,0 +1,31 @@
+﻿<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 360 132" role="img" aria-labelledby="title desc">
+  <title id="title">Secure Smart logo</title>
+  <desc id="desc">Secure Smart monogram with wireless signal arcs and stacked wordmark.</desc>
+  <defs>
+    <style>
+      .navy{fill:#0B1D3A}.teal{fill:#20A6A4}.stroke-navy{stroke:#0B1D3A}.stroke-teal{stroke:#20A6A4}
+      .word{font-family:Inter, Assistant, Arial, sans-serif;font-weight:800;letter-spacing:-0.045em;fill:#0B1D3A}
+    </style>
+  </defs>
+
+  <!-- Wireless-link Secure Smart monogram -->
+  <g transform="translate(22 16)">
+    <!-- Lower S bowl -->
+    <path class="stroke-navy" d="M82 73H42c-15 0-25-9-25-22s10-22 25-22h38" fill="none" stroke-width="11" stroke-linecap="round"/>
+    <!-- Upper S bowl -->
+    <path class="stroke-navy" d="M43 28h39c15 0 25 9 25 22s-10 22-25 22H44" fill="none" stroke-width="11" stroke-linecap="round"/>
+    <!-- Center bridge to make the S read as a continuous signal path -->
+    <path class="stroke-navy" d="M44 73c-14 0-24 8-24 20h58" fill="none" stroke-width="11" stroke-linecap="round"/>
+
+    <!-- Signal arcs -->
+    <path class="stroke-teal" d="M84 13c15 4 27 16 31 31" fill="none" stroke-width="7" stroke-linecap="round"/>
+    <path class="stroke-teal" d="M84 0c22 5 40 23 45 45" fill="none" stroke-width="7" stroke-linecap="round"/>
+    <path class="stroke-teal" d="M84 26c8 3 15 10 18 18" fill="none" stroke-width="7" stroke-linecap="round"/>
+  </g>
+
+  <!-- Wordmark -->
+  <g transform="translate(152 31)">
+    <text class="word" x="0" y="32" font-size="42">Secure</text>
+    <text class="word" x="0" y="76" font-size="42">Smart</text>
+  </g>
+</svg>
