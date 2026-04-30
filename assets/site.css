@@ -698,3 +698,148 @@ body.is-rtl .footer-address p{direction:ltr;text-align:left;}
 body.is-rtl .top .language-switcher{direction:rtl!important;}
 body.is-rtl .top .header-login,
 body.is-rtl .top .header-register{direction:rtl!important;}
+
+/* Mobile responsibility fix: keep the RTL page anchored to the visible viewport,
+   and keep the header visible instead of letting it overflow off-screen. */
+html[dir="rtl"] body{
+  direction:ltr!important;
+  width:100%!important;
+  max-width:100%!important;
+  overflow-x:hidden!important;
+}
+body.is-rtl main,
+body.is-rtl .footer{
+  direction:rtl!important;
+}
+html,body{
+  max-width:100%!important;
+  overflow-x:hidden!important;
+}
+@media(max-width:760px){
+  .top{position:sticky!important;top:0!important;z-index:80!important;}
+  .top .header-row{
+    min-height:88px!important;
+    height:auto!important;
+    grid-template-columns:72px minmax(0,1fr)!important;
+    gap:8px!important;
+    padding:8px 0!important;
+    align-items:center!important;
+  }
+  .top .brand{
+    grid-column:1!important;
+    grid-row:1 / span 2!important;
+    width:64px!important;
+    height:70px!important;
+    align-self:center!important;
+    justify-self:start!important;
+  }
+  .top .site-logo{
+    height:66px!important;
+    max-width:56px!important;
+  }
+  .top .header-actions{
+    grid-column:2!important;
+    grid-row:1 / span 2!important;
+    justify-self:end!important;
+    align-self:center!important;
+    display:flex!important;
+    flex-wrap:wrap!important;
+    justify-content:flex-end!important;
+    align-content:center!important;
+    gap:5px 6px!important;
+    max-width:100%!important;
+  }
+  .top .language-switcher{
+    order:1!important;
+    width:auto!important;
+    max-width:100%!important;
+    justify-content:flex-end!important;
+    direction:ltr!important;
+    gap:2px!important;
+    padding:0!important;
+    border:0!important;
+    background:transparent!important;
+    box-shadow:none!important;
+  }
+  .top .language-option{
+    min-height:22px!important;
+    min-width:24px!important;
+    padding:0 4px!important;
+    font-size:0!important;
+    font-weight:750!important;
+    color:oklch(34% .075 238)!important;
+  }
+  .top .language-option::after{
+    content:attr(data-lang);
+    font-size:10px!important;
+    line-height:1!important;
+    text-transform:uppercase!important;
+    letter-spacing:.035em!important;
+  }
+  .top .language-option.active{
+    background:oklch(93% .04 222)!important;
+    color:oklch(25% .10 238)!important;
+  }
+  .top .header-login,
+  .top .header-register{
+    order:2!important;
+    min-height:32px!important;
+    padding:0 11px!important;
+    font-size:11.5px!important;
+  }
+  .top .header-center-wordmark{display:none!important;}
+}
+@media(max-width:380px){
+  .top .header-row{grid-template-columns:62px minmax(0,1fr)!important;gap:6px!important;}
+  .top .brand{width:58px!important;height:64px!important;}
+  .top .site-logo{height:60px!important;max-width:50px!important;}
+  .top .language-option{font-size:9.5px!important;padding:0 4px!important;}
+  .top .header-login,.top .header-register{padding:0 9px!important;font-size:11px!important;}
+}
+
+/* Keep catalogue rows inside their container on desktop and mobile. */
+.catalog-tight .product-list,
+.catalog-tight .products{
+  min-width:0!important;
+}
+.catalog-tight .product-row{
+  width:100%!important;
+  max-width:100%!important;
+  min-width:0!important;
+  grid-template-columns:112px minmax(210px,1.4fr) minmax(118px,.75fr) minmax(110px,.65fr) minmax(126px,.75fr) minmax(170px,.85fr)!important;
+}
+.catalog-tight .row-actions{
+  min-width:0!important;
+  flex-wrap:wrap!important;
+}
+
+/* Mobile catalogue should stack, not create hidden horizontal overflow. */
+@media(max-width:760px){
+  .catalog-layout,
+  .catalog-tight .catalog-layout{
+    grid-template-columns:1fr!important;
+    gap:18px!important;
+  }
+  .sidebar,
+  .toolbar,
+  .product-list,
+  .products,
+  .product-row,
+  .catalog-assist{
+    min-width:0!important;
+    width:100%!important;
+    max-width:100%!important;
+  }
+  .product-row{
+    grid-template-columns:88px minmax(0,1fr)!important;
+    overflow:hidden!important;
+  }
+  .product-row .product-info,
+  .product-row .row-col,
+  .product-row .row-actions{
+    min-width:0!important;
+  }
+  .row-actions{
+    flex-wrap:wrap!important;
+  }
+}
