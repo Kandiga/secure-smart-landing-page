@@ -603,26 +603,34 @@ html,body{background:linear-gradient(180deg,var(--ss-ice),var(--ss-sky-weak) 52%
 .language-switcher{
   display:inline-flex;
   align-items:center;
-  gap:4px;
-  padding:4px;
-  border:1px solid oklch(78% .04 222 / .78);
+  gap:2px;
+  padding:0;
+  border:0;
   border-radius:999px;
-  background:oklch(97% .014 222 / .78);
-  box-shadow:0 8px 18px oklch(42% .08 230 / .08);
+  background:transparent;
+  box-shadow:none;
 }
 .language-option{
   border:0;
   background:transparent;
-  color:oklch(30% .085 238);
-  min-height:32px;
-  padding:0 10px;
+  color:oklch(31% .072 238 / .72);
+  min-height:28px;
+  min-width:28px;
+  padding:0 7px;
   border-radius:999px;
-  font:800 12px/1 Inter,Assistant,system-ui,sans-serif;
+  font:800 0/1 Inter,Assistant,system-ui,sans-serif;
   cursor:pointer;
   transition:background .16s ease,color .16s ease,transform .16s ease;
 }
-.language-option:hover{background:oklch(92% .04 222);}
-.language-option.active{background:oklch(43% .120 242);color:oklch(99% .006 230);}
+.language-option::after{
+  content:attr(data-lang);
+  font-size:11px;
+  line-height:1;
+  text-transform:uppercase;
+  letter-spacing:.045em;
+}
+.language-option:hover{background:oklch(93% .04 222 / .72);color:oklch(24% .095 238);}
+.language-option.active{background:oklch(91% .045 222 / .9);color:oklch(22% .095 238);}
 body.is-rtl{font-family:Assistant,Inter,system-ui,sans-serif;}
 body.is-rtl .hero-copy,
 body.is-rtl .statement-card p,
@@ -714,6 +722,17 @@ body.is-rtl .footer{
 html,body{
   max-width:100%!important;
   overflow-x:hidden!important;
+  overflow-y:auto!important;
+  overscroll-behavior-x:none!important;
+  touch-action:pan-y!important;
+}
+body{
+  position:relative!important;
+}
+.top,main,.footer{
+  max-width:100vw!important;
+  overflow-x:hidden!important;
+  overscroll-behavior-x:none!important;
 }
 @media(max-width:760px){
   .top{position:sticky!important;top:0!important;z-index:80!important;}
@@ -793,8 +812,18 @@ html,body{
   .top .header-row{grid-template-columns:62px minmax(0,1fr)!important;gap:6px!important;}
   .top .brand{width:58px!important;height:64px!important;}
   .top .site-logo{height:60px!important;max-width:50px!important;}
-  .top .language-option{font-size:9.5px!important;padding:0 4px!important;}
+  .top .language-option{font-size:0!important;padding:0 4px!important;min-width:23px!important;}
+  .top .language-option::after{font-size:9.5px!important;}
   .top .header-login,.top .header-register{padding:0 9px!important;font-size:11px!important;}
+}
+
+@media(max-width:760px){
+  html,body,body *{
+    touch-action:pan-y!important;
+  }
+  a,button,input,select,textarea,label{
+    touch-action:manipulation!important;
+  }
 }
 
 /* Keep catalogue rows inside their container on desktop and mobile. */
