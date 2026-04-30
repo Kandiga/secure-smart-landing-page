@@ -665,3 +665,36 @@ body.is-rtl .footer-address p{direction:ltr;text-align:left;}
 @media(max-width:980px){
   .header-center-wordmark{display:none!important;}
 }
+
+/* Public i18n must not mirror the approved header chrome.
+   Hebrew content is RTL, but Netanel's approved header remains: logo left, wordmark center, actions right. */
+.top,
+.top .header-row,
+.top .brand,
+.top .header-actions{
+  direction:ltr!important;
+}
+.top .header-row{
+  grid-template-columns:150px minmax(220px,1fr) auto!important;
+}
+.top .brand{
+  grid-column:1!important;
+  justify-self:start!important;
+}
+.top .header-center-wordmark{
+  position:absolute!important;
+  left:50%!important;
+  top:50%!important;
+  transform:translate(-50%,-50%)!important;
+  grid-column:auto!important;
+  justify-self:center!important;
+  max-width:min(34vw,360px)!important;
+}
+.top .header-actions{
+  grid-column:3!important;
+  justify-self:end!important;
+  flex-wrap:nowrap!important;
+}
+body.is-rtl .top .language-switcher{direction:rtl!important;}
+body.is-rtl .top .header-login,
+body.is-rtl .top .header-register{direction:rtl!important;}
