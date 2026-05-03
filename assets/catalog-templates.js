@@ -37,16 +37,43 @@
     if(/wireless|wifi|wi fi|antenna|lte|5g|radio|access point|ap\b/.test(t)) return 'wireless';
     return 'network';
   };
-  const productHaystack=(p)=>[p.brand,p.sku,p.title,p.category,p.description,p.availability,p.warranty,p.unitPerCarton].filter(Boolean).join(' ');
+  const productHaystack=(p)=>[p.brand,p.sku,p.title,p.category].filter(Boolean).join(' ');
+  const searchScore=(p,query)=>{
+    const q=normalizeText(query);
+    if(!q) return 0;
+    const sku=normalizeText(p.sku||'');
+    const title=normalizeText(p.title||'');
+    const brand=normalizeText(p.brand||'');
+    const category=normalizeText(p.category||'');
+    const qCompact=compactText(q);
+    const skuCompact=compactText(sku);
+    const titleCompact=compactText(title);
+    let score=0;
+    if(sku===q) score+=1000;
+    if(sku.startsWith(q)) score+=700;
+    if(skuCompact.startsWith(qCompact)) score+=650;
+    if(title.includes(q)) score+=520;
+    if(titleCompact.includes(qCompact)) score+=500;
+    q.split(' ').filter(Boolean).forEach(t=>{
+      if(sku.split(' ').includes(t)) score+=120;
+      else if(sku.includes(t)) score+=70;
+      if(title.split(' ').includes(t)) score+=100;
+      else if(title.includes(t)) score+=60;
+      if(brand.includes(t)) score+=16;
+      if(category.includes(t)) score+=10;
+    });
+    if(/^uacc/.test(sku)) score-=120;
+    if(/cover|mount|stand|accessor/.test(title)) score-=80;
+    return score;
+  };
   const imageMarkup=(p)=>p.imageUrl?`<img alt="${safeAttr(p.title||p.sku||'Product image')}" loading="lazy" src="${safeAttr(p.imageUrl)}"/>`:`<span>${escapeHtml((p.brand||p.title||'S').trim().charAt(0)||'S')}</span>`;
   const productCard=(p)=>{
     const brand=p.brand||'Secure Smart'; const sku=p.sku||''; const title=p.title||sku||'Catalogue item'; const cat=p.category||'Catalogue'; const availability=p.availability||UI().toConfirm;
     const unit=Number(p.displayPriceUsd||0); const carton=Number(p.fullCartonUnitPriceUsd||unit||0); const ui=UI(); const unitPerCarton=p.unitPerCarton||ui.toConfirm; const warranty=p.warranty||ui.toConfirm; const cslug=categorySlug(p); const bslug=brandSlug(brand);
-    const desc=(p.description||'').slice(0,190);
     const href=`product-template.html?sku=${encodeURIComponent(sku)}`;
     return `<article class="ct-product-card ct-product-row" data-brand="${safeAttr(bslug)}" data-brand-label="${safeAttr(brand)}" data-category="${safeAttr(cslug)}" data-name="${safeAttr(normalizeText(productHaystack(p)))}" data-sku="${safeAttr(sku)}" data-stock="${/in stock/i.test(availability)?'in':'review'}">
       <a class="ct-product-visual" href="${href}">${imageMarkup(p)}</a>
-      <div class="ct-product-copy"><h2><a href="${href}">${escapeHtml(title)}</a></h2><p>${escapeHtml(desc)}</p><dl><dt>${ui.sku}</dt><dd>${escapeHtml(sku||ui.toConfirm)}</dd><dt>${ui.brand}</dt><dd>${escapeHtml(brand)}</dd><dt>${ui.category}</dt><dd>${escapeHtml(cat)}</dd><dt>${ui.unitPerCarton}</dt><dd>${escapeHtml(unitPerCarton)}</dd><dt>${ui.warranty}</dt><dd>${escapeHtml(warranty)}</dd><dt>${ui.availability}</dt><dd>${escapeHtml(availability)}</dd></dl></div>
+      <div class="ct-product-copy"><h2><a href="${href}">${escapeHtml(title)}</a></h2><dl><dt>${ui.sku}</dt><dd>${escapeHtml(sku||ui.toConfirm)}</dd><dt>${ui.brand}</dt><dd>${escapeHtml(brand)}</dd><dt>${ui.category}</dt><dd>${escapeHtml(cat)}</dd><dt>${ui.unitPerCarton}</dt><dd>${escapeHtml(unitPerCarton)}</dd><dt>${ui.warranty}</dt><dd>${escapeHtml(warranty)}</dd><dt>${ui.availability}</dt><dd>${escapeHtml(availability)}</dd></dl></div>
       <div class="ct-buy-column" data-buy-widget data-carton-price="${carton}" data-unit-price="${unit}"><div class="ct-buy-option ct-unit-option"><div class="ct-buy-price-copy"><span class="ct-price-label">${ui.unit}</span><b class="ct-price-amount" data-unit-price-display>${formatUsd(unit)}</b><span class="ct-vat-note">exc.vet</span></div><div aria-label="Unit quantity" class="ct-qty-stepper"><button aria-label="Increase unit quantity" data-qty-step="1" data-qty-target="unit" type="button">+</button><input aria-label="Unit quantity" data-unit-qty inputmode="numeric" min="0" type="number" value="1"/><button aria-label="Decrease unit quantity" data-qty-step="-1" data-qty-target="unit" type="button">−</button></div></div><div class="ct-buy-option ct-carton-option"><div class="ct-buy-price-copy"><span class="ct-price-label">${ui.carton}</span><b class="ct-price-amount" data-carton-price-display>${formatUsd(carton)}</b><span class="ct-vat-note">exc.vet</span></div><div aria-label="Full carton quantity" class="ct-qty-stepper"><button aria-label="Increase full carton quantity" data-qty-step="1" data-qty-target="carton" type="button">+</button><input aria-label="Full carton quantity" data-carton-qty inputmode="numeric" min="0" type="number" value="0"/><button aria-label="Decrease full carton quantity" data-qty-step="-1" data-qty-target="carton" type="button">−</button></div></div><div class="ct-buy-total">${ui.total}: <strong data-price-total>${formatUsd(unit)}</strong></div><button data-add-cart data-brand="${safeAttr(brand)}" data-carton-price="${carton}" data-name="${safeAttr(title)}" data-sku="${safeAttr(sku)}" data-unit-price="${unit}" type="button">${ui.add}</button></div>
     </article>`;
   };
@@ -65,7 +92,7 @@
     const input=document.getElementById('catalogSearch'); const rawQuery=(input?.value||'').trim(); const activeEl=document.querySelector('.ct-filter-chip.is-active, .ct-category-strip [data-filter].is-active'); const active=activeEl?.dataset.filter||'all'; const inStock=document.getElementById('inStockOnly')?.checked; const brands=[...document.querySelectorAll('[data-brand-filter]:checked')].map(i=>normalizeText(i.value)); const categories=[...document.querySelectorAll('[data-category-filter]:checked')].map(i=>i.value);
     const source=liveProducts.length?liveProducts:[...document.querySelectorAll('.ct-product-card')];
     if(liveProducts.length){
-      visibleProducts=liveProducts.filter(p=>{const pCategory=categorySlug(p); const okCat=(active==='all'||pCategory===active) && (!categories.length||categories.includes(pCategory)); const okText=queryMatches(productHaystack(p),rawQuery); const okStock=!inStock||/in stock/i.test(p.availability||''); const okBrand=!brands.length||brands.includes(brandSlug(p.brand||'')); return okCat&&okText&&okStock&&okBrand;});
+      visibleProducts=liveProducts.filter(p=>{const pCategory=categorySlug(p); const okCat=(active==='all'||pCategory===active) && (!categories.length||categories.includes(pCategory)); const okText=queryMatches(productHaystack(p),rawQuery); const okStock=!inStock||/in stock/i.test(p.availability||''); const okBrand=!brands.length||brands.includes(brandSlug(p.brand||'')); return okCat&&okText&&okStock&&okBrand;}); if(normalizeText(rawQuery)){visibleProducts=visibleProducts.map((p,i)=>({p,i,s:searchScore(p,rawQuery)})).sort((a,b)=>b.s-a.s||a.i-b.i).map(x=>x.p);}
       renderLimit=80; renderProductGrid();
       const rc=document.getElementById('resultCount'); if(rc) rc.textContent=visibleProducts.length+' '+L().items;
     } else {
