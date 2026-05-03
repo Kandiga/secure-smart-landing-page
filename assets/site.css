@@ -1561,3 +1561,146 @@ body.is-rtl .registration-hero-grid{direction:rtl;}
 [hidden], .ct-product-card[hidden], .product-row[hidden]{display:none!important}
 .ct-catalog-status{border:1px solid var(--ss7-line,var(--line));background:oklch(98% .01 210);padding:14px 16px;margin:12px 0;font-weight:700;color:var(--ss7-muted,var(--muted))}
 .ct-catalog-status strong{color:var(--ss7-ink,var(--ink))}.ct-filter-count{margin-left:auto;color:var(--ss7-muted,var(--muted));font-size:11px}.ct-filters label{display:flex!important;align-items:center;gap:8px}.ct-filter-block .is-disabled{opacity:.45}.ct-product-visual span{font-size:34px;font-weight:900;color:var(--ss7-teal-dark,var(--blue2))}.ct-product-copy p{margin:8px 0 0;color:var(--ss7-muted,var(--muted));font-size:13px;line-height:1.5}.ct-product-copy mark{background:oklch(88% .08 156);color:var(--ss7-ink,var(--ink));padding:0 2px;border-radius:0}.ct-load-more{width:100%;min-height:48px;margin:16px 0 0;border:1px solid var(--ss7-line-strong,var(--line2));background:var(--ss7-panel,var(--white));color:var(--ss7-teal-dark,var(--blue2));font-family:Sora,Assistant,Inter,system-ui,sans-serif;font-weight:900;cursor:pointer}.ct-load-more:hover{background:oklch(93% .026 210)}
+
+
+
+/* Netanel correction 2026-05-03: search element and product-row overflow fixes. */
+.catalog-live .ct-trade-brief{
+  align-items:start!important;
+  gap:22px!important;
+}
+.catalog-live .ct-hero-search-only{
+  display:block!important;
+  padding:0!important;
+  background:transparent!important;
+  border:0!important;
+  box-shadow:none!important;
+  max-width:none!important;
+}
+.catalog-live .ct-hero-search-only .ct-kicker,
+.catalog-live .ct-hero-search-only h1,
+.catalog-live .ct-hero-search-only > p{
+  position:absolute!important;
+  width:1px!important;
+  height:1px!important;
+  overflow:hidden!important;
+  clip:rect(0 0 0 0)!important;
+  white-space:nowrap!important;
+  clip-path:inset(50%)!important;
+}
+.catalog-live .ct-trade-brief .ct-searchbar{
+  width:min(760px,100%)!important;
+  max-width:760px!important;
+  margin:4px 0 0!important;
+  display:grid!important;
+  grid-template-columns:minmax(0,1fr) 54px!important;
+  gap:0!important;
+  align-items:stretch!important;
+  background:oklch(99.5% .003 235)!important;
+  border:1px solid oklch(80% .04 232)!important;
+  border-radius:999px!important;
+  padding:5px!important;
+  box-shadow:0 12px 28px oklch(35% .06 235/.10)!important;
+}
+.catalog-live .ct-trade-brief .ct-searchbar input{
+  min-height:50px!important;
+  border:0!important;
+  border-radius:999px 0 0 999px!important;
+  background:transparent!important;
+  padding:0 20px!important;
+  box-shadow:none!important;
+  font-size:15px!important;
+  font-weight:650!important;
+}
+html[dir="rtl"] .catalog-live .ct-trade-brief .ct-searchbar input{
+  border-radius:0 999px 999px 0!important;
+  text-align:right!important;
+}
+.catalog-live .ct-trade-brief .ct-searchbar input:focus{
+  border-color:transparent!important;
+  box-shadow:none!important;
+}
+.catalog-live .ct-trade-brief .ct-searchbar:focus-within{
+  border-color:var(--ct-accent)!important;
+  box-shadow:0 0 0 4px oklch(48% .13 245/.13),0 14px 32px oklch(35% .06 235/.12)!important;
+}
+.catalog-live .ct-trade-brief .ct-searchbar button{
+  width:54px!important;
+  min-width:54px!important;
+  min-height:50px!important;
+  padding:0!important;
+  border-radius:14px 999px 999px 14px!important;
+  background:var(--brand)!important;
+  border-color:var(--brand)!important;
+  color:oklch(99% .004 235)!important;
+}
+html[dir="rtl"] .catalog-live .ct-trade-brief .ct-searchbar button{
+  border-radius:999px 14px 14px 999px!important;
+}
+.catalog-live .ct-trade-brief .ct-searchbar button svg{
+  width:21px!important;
+  height:21px!important;
+}
+.catalog-live .ct-product-row,
+.catalog-live .ct-product-row *{
+  min-width:0!important;
+}
+.catalog-live .ct-product-copy h2,
+.catalog-live .ct-product-copy h2 a,
+.catalog-live .ct-product-copy p,
+.catalog-live .ct-product-copy dd,
+.catalog-live .ct-product-copy dt{
+  overflow-wrap:anywhere!important;
+  word-break:normal!important;
+  hyphens:auto!important;
+}
+.catalog-live .ct-product-copy dl{
+  overflow:visible!important;
+  height:auto!important;
+  max-height:none!important;
+  min-height:0!important;
+  align-content:start!important;
+}
+@media (min-width:1100px){
+  .catalog-live .ct-product-row{
+    grid-template-columns:108px minmax(0,1fr) minmax(342px,370px)!important;
+    grid-template-rows:auto auto!important;
+  }
+  .catalog-live .ct-product-row .ct-product-visual{
+    height:auto!important;
+    max-height:none!important;
+    min-height:132px!important;
+  }
+  .catalog-live .ct-product-row .ct-product-copy dl{
+    height:auto!important;
+    max-height:none!important;
+    min-height:132px!important;
+    padding:11px 13px!important;
+    gap:7px 12px!important;
+    grid-template-columns:minmax(88px,118px) minmax(0,1fr)!important;
+  }
+  .catalog-live .ct-product-row .ct-buy-option{
+    height:auto!important;
+    max-height:none!important;
+    min-height:118px!important;
+  }
+}
+@media (max-width:760px){
+  .catalog-live .ct-trade-brief .ct-searchbar{grid-template-columns:minmax(0,1fr) 50px!important;width:100%!important;}
+  .catalog-live .ct-trade-brief .ct-searchbar input{min-height:46px!important;font-size:14px!important;padding-inline:16px!important;}
+  .catalog-live .ct-trade-brief .ct-searchbar button{width:50px!important;min-width:50px!important;min-height:46px!important;}
+}
+
+
+/* Netanel correction 2026-05-03: make the search submit button visibly blue like the marked reference. */
+.catalog-live .ct-trade-brief .ct-searchbar button[data-search-submit]{
+  background:#123d63!important;
+  background-color:#123d63!important;
+  border-color:#123d63!important;
+  color:#f8fbff!important;
+}
+.catalog-live .ct-trade-brief .ct-searchbar button[data-search-submit] svg,
+.catalog-live .ct-trade-brief .ct-searchbar button[data-search-submit] svg *{
+  stroke:currentColor!important;
+  fill:none!important;
+}
