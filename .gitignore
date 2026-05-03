@@ -1,3 +1,16 @@
-# Local Netlify folder
-.netlify
-.vercel
+# Secure Smart local/private catalogue material
+assets/catalog-data/docs/
+assets/catalog-data/images/
+assets/catalog-data/private/
+assets/catalog-data/*summary*.json
+assets/catalog-data/README.md
+assets/catalog-data/**/*.xlsx
+assets/catalog-data/**/*.xls
+assets/catalog-data/**/*.csv
+scripts/
+.vercel/
+.netlify/
+.home/
+.hermes/
+__pycache__/
+*.pyc

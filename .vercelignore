@@ -1,0 +1,13 @@
+assets/catalog-data/docs/**
+assets/catalog-data/images/**
+assets/catalog-data/README.md
+assets/catalog-data/*summary*.json
+assets/catalog-data/**/*.xlsx
+assets/catalog-data/**/*.xls
+assets/catalog-data/**/*.csv
+assets/catalog-data/private/**
+/home/**
+.hermes/**
+scripts/**
+scripts/__pycache__/**
+*.pyc
