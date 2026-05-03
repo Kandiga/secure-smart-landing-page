@@ -14,3 +14,9 @@ scripts/
 .hermes/
 __pycache__/
 *.pyc
+*.tsbuildinfo
+node_modules/
+.next/
+.env
+.env.*
+!.env.example

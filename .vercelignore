@@ -11,3 +11,7 @@ assets/catalog-data/private/**
 scripts/**
 scripts/__pycache__/**
 *.pyc
+
+# Backend/dashboard source is developed separately and must not be exposed by the current static-site deploy path.
+apps/**
+supabase/**
