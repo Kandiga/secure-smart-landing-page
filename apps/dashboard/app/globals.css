@@ -98,10 +98,17 @@ td.money, th.money { direction: ltr; text-align: left; font-variant-numeric: tab
 .auth-proof-grid strong { display: block; margin-top: 5px; direction: ltr; text-align: right; }
 .auth-proof-grid small { display: block; color: #c9d8df; margin-top: 2px; }
 .auth-grid { display: grid; grid-template-columns: 1fr; gap: 14px; align-content: start; }
+.admin-auth-grid { align-content: center; }
 .recovery-panel { border-color: #a9d7d6; }
 .auth-panel { width: 100%; }
+.admin-login-panel { max-width: 560px; justify-self: stretch; }
 .form-stack { display: grid; gap: 12px; padding: 18px; }
 .compact-form { border-top: 1px solid var(--line); background: #f7fbfd; }
+.admin-access-note { margin: 0 18px 18px; padding: 12px 13px; border-radius: 6px; background: var(--primary-quiet); color: var(--primary-strong); font-size: 13px; line-height: 1.55; }
+.settings-grid { display: grid; grid-template-columns: minmax(320px, 520px) minmax(280px, 1fr); gap: 16px; align-items: start; }
+.settings-form { padding: 18px; }
+.settings-copy { padding: 18px; color: var(--muted); line-height: 1.7; }
+.settings-copy p { margin: 0 0 10px; }
 .form-stack label { display: grid; gap: 6px; color: var(--text); font-weight: 800; }
 .form-stack input { width: 100%; padding: 12px 13px; border-radius: 6px; border: 1px solid var(--line); background: #ffffff; color: var(--text); direction: rtl; }
 .form-stack input[type="email"] { direction: ltr; text-align: left; }
@@ -130,6 +137,7 @@ td.money, th.money { direction: ltr; text-align: left; font-variant-numeric: tab
   .main { padding: 18px; }
   .topbar { align-items: flex-start; flex-direction: column; }
   .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
+  .settings-grid { grid-template-columns: 1fr; }
   .table-wrap { display: none; }
   .mobile-cards { display: grid; }
 }
