@@ -1,6 +1,7 @@
 "use client";
 
-import { useActionState } from "react";
+import { useActionState, useEffect, useState } from "react";
+import { createBrowserSupabaseClient } from "@/lib/supabase/browser";
 import { sendMagicLink, signInWithPassword, signUpTradeAccount } from "./actions";
 
 const initialState = {} as { error?: string; success?: string };
@@ -11,6 +12,52 @@ function Status({ state }: { state: { error?: string; success?: string } }) {
   return null;
 }
 
+function RecoveryPasswordBox() {
+  const [visible, setVisible] = useState(false);
+  const [password, setPassword] = useState("");
+  const [status, setStatus] = useState<{ error?: string; success?: string }>({});
+  const [pending, setPending] = useState(false);
+
+  useEffect(() => {
+    const hasRecoveryHash = window.location.hash.includes("access_token") || window.location.hash.includes("type=recovery");
+    if (!hasRecoveryHash) return;
+    setVisible(true);
+    createBrowserSupabaseClient().auth.getSession().then(({ error }) => {
+      if (error) setStatus({ error: "קישור האיפוס לא נקלט. נסה לפתוח את המייל מחדש אחרי שהשרת המקומי פעיל." });
+    });
+  }, []);
+
+  async function submit(event: React.FormEvent<HTMLFormElement>) {
+    event.preventDefault();
+    if (password.length < 8) {
+      setStatus({ error: "הסיסמה צריכה להיות לפחות 8 תווים." });
+      return;
+    }
+    setPending(true);
+    const supabase = createBrowserSupabaseClient();
+    const { error } = await supabase.auth.updateUser({ password });
+    setPending(false);
+    if (error) {
+      setStatus({ error: "לא הצלחתי לעדכן סיסמה. ייתכן שהקישור פג תוקף — בקש Magic Link/Reset חדש." });
+      return;
+    }
+    setStatus({ success: "הסיסמה עודכנה. אפשר להיכנס לדשבורד." });
+    window.history.replaceState({}, document.title, "/login");
+  }
+
+  if (!visible) return null;
+  return (
+    <section className="panel auth-panel recovery-panel">
+      <div className="panel-header"><div><div className="panel-title">הגדרת סיסמה חדשה</div><div className="eyebrow">Password recovery</div></div></div>
+      <form onSubmit={submit} className="form-stack">
+        <label>סיסמה חדשה<input value={password} onChange={(e) => setPassword(e.target.value)} type="password" autoComplete="new-password" minLength={8} required /></label>
+        <button className="btn primary" disabled={pending}>{pending ? "מעדכן..." : "עדכן סיסמה"}</button>
+        <Status state={status} />
+      </form>
+    </section>
+  );
+}
+
 export function LoginForms() {
   const [loginState, loginAction, loginPending] = useActionState(signInWithPassword, initialState);
   const [signupState, signupAction, signupPending] = useActionState(signUpTradeAccount, initialState);
@@ -18,6 +65,7 @@ export function LoginForms() {
 
   return (
     <div className="auth-grid">
+      <RecoveryPasswordBox />
       <section className="panel auth-panel">
         <div className="panel-header"><div><div className="panel-title">כניסה למערכת</div><div className="eyebrow">Admin / approved trade account</div></div></div>
         <form action={loginAction} className="form-stack">
