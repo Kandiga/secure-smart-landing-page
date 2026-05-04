@@ -70,6 +70,23 @@ td.money, th.money { direction: ltr; text-align: left; font-variant-numeric: tab
 .card-metric { background: var(--surface-strong); border-radius: 11px; padding: 10px; }
 .card-metric span { display: block; color: var(--muted); font-size: 12px; }
 .card-metric strong { display: block; margin-top: 3px; direction: ltr; text-align: right; }
+.user-pill { border: 1px solid var(--line); background: var(--surface-strong); color: var(--muted); border-radius: 11px; padding: 9px 10px; font-size: 12px; margin: -12px 0 18px; overflow-wrap: anywhere; }
+.logout-form { margin-top: 18px; }
+.notice { border: 1px solid var(--line); border-radius: 12px; padding: 12px 14px; margin-bottom: 16px; background: var(--surface); }
+.notice.warning { border-color: oklch(86% 0.08 84); background: oklch(97% 0.035 84); color: oklch(36% 0.08 84); }
+.auth-main { max-width: 1040px; margin: 0 auto; min-height: 100vh; display: grid; align-content: center; gap: 20px; }
+.auth-hero { text-align: center; max-width: 760px; margin: 0 auto; }
+.auth-hero p { color: var(--muted); margin: 10px 0 0; }
+.auth-grid { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 16px; }
+.auth-panel { width: 100%; }
+.form-stack { display: grid; gap: 12px; padding: 18px; }
+.compact-form { border-top: 1px solid var(--line); }
+.form-stack label { display: grid; gap: 6px; color: var(--text); font-weight: 700; }
+.form-stack input { width: 100%; padding: 12px; border-radius: 10px; border: 1px solid var(--line); background: white; color: var(--text); }
+.two-fields { display: grid; grid-template-columns: repeat(2, minmax(0, 1fr)); gap: 10px; }
+.form-status { margin: 0; border-radius: 10px; padding: 10px 12px; font-size: 13px; }
+.form-status.error { background: oklch(96% 0.04 24); color: var(--danger); }
+.form-status.success { background: oklch(94% 0.04 155); color: var(--success); }
 
 @media (max-width: 920px) {
   .app-shell { grid-template-columns: 1fr; }
@@ -80,5 +97,7 @@ td.money, th.money { direction: ltr; text-align: left; font-variant-numeric: tab
   .kpis { grid-template-columns: repeat(2, minmax(0, 1fr)); }
   .table-wrap { display: none; }
   .mobile-cards { display: grid; }
+  .auth-grid { grid-template-columns: 1fr; }
+  .auth-main { align-content: start; }
 }
 @media (max-width: 560px) { .kpis { grid-template-columns: 1fr; } .nav { grid-template-columns: 1fr; } }

@@ -1,17 +1,24 @@
 import { AppShell } from "@/components/AppShell";
-import { mockOrders, money, stockClass, stockLabel } from "@/lib/mock-orders";
+import { getCurrentProfile, getOrderLines } from "@/lib/dashboard-data";
+import { money, stockClass, stockLabel } from "@/lib/mock-orders";
+import { redirect } from "next/navigation";
 
-export default function DashboardPage() {
-  const totalSales = mockOrders.reduce((sum, row) => sum + row.customerTotal, 0);
-  const totalCost = mockOrders.reduce((sum, row) => sum + row.purchaseTotal, 0);
+export const dynamic = "force-dynamic";
+
+export default async function DashboardPage() {
+  const profile = await getCurrentProfile();
+  if (!profile) redirect("/login");
+  const { rows, isMock, error } = await getOrderLines();
+  const totalSales = rows.reduce((sum, row) => sum + row.customerTotal, 0);
+  const totalCost = rows.reduce((sum, row) => sum + row.purchaseTotal, 0);
   const totalMargin = totalSales - totalCost;
-  const missing = mockOrders.filter((row) => row.stockStatus !== "in_stock").length;
+  const missing = rows.filter((row) => row.stockStatus !== "in_stock").length;
 
   return (
-    <AppShell active="/dashboard">
+    <AppShell active="/dashboard" userLabel={`${profile.email} · ${profile.role} · ${profile.account_status}`}>
       <header className="topbar">
         <div>
-          <div className="eyebrow">CRM / ERP dashboard foundation</div>
+          <div className="eyebrow">CRM / ERP dashboard · {isMock ? "מצב דמו עד כניסת הזמנות אמיתיות" : "נתוני Supabase חיים"}</div>
           <h1>קוקפיט הזמנות</h1>
         </div>
         <div className="actions">
@@ -19,6 +26,9 @@ export default function DashboardPage() {
           <button className="btn primary">הזמנה ידנית</button>
         </div>
       </header>
+
+      {error ? <div className="notice warning">לא ניתן לקרוא הזמנות חיות כרגע, מוצג דמו בטוח. {error}</div> : null}
+      {profile.account_status !== "approved" && profile.role === "customer" ? <div className="notice warning">החשבון שלך עדיין Pending. לקוחות יראו מידע מוגבל עד אישור Admin.</div> : null}
 
       <section className="kpis" aria-label="מדדי הזמנות">
         <div className="kpi"><div className="kpi-label">שווי לקוח פתוח</div><div className="kpi-value">{money(totalSales)}</div></div>
@@ -51,7 +61,7 @@ export default function DashboardPage() {
               </tr>
             </thead>
             <tbody>
-              {mockOrders.map((row) => (
+              {rows.map((row) => (
                 <tr key={row.id}>
                   <td>{row.customer}</td><td>{row.project}</td><td className="sku">{row.sku}</td><td>{row.product}</td>
                   <td>{row.orderQty}</td><td className="money">{money(row.customerUnitPrice)}</td><td className="money"><strong>{money(row.customerTotal)}</strong></td>
@@ -63,7 +73,7 @@ export default function DashboardPage() {
           </table>
         </div>
         <div className="mobile-cards">
-          {mockOrders.map((row) => (
+          {rows.map((row) => (
             <article className="order-card" key={row.id}>
               <div className="order-card-head">
                 <div><div className="sku">{row.sku}</div><strong>{row.customer}</strong><div className="eyebrow">{row.product}</div></div>
