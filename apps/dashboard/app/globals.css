@@ -87,6 +87,12 @@ td.money, th.money { direction: ltr; text-align: left; font-variant-numeric: tab
 .form-status { margin: 0; border-radius: 10px; padding: 10px 12px; font-size: 13px; }
 .form-status.error { background: oklch(96% 0.04 24); color: var(--danger); }
 .form-status.success { background: oklch(94% 0.04 155); color: var(--success); }
+.approval-actions { display: grid; gap: 7px; min-width: 240px; }
+.approval-actions form { display: flex; gap: 7px; align-items: center; flex-wrap: wrap; }
+.approval-actions select { border: 1px solid var(--line); border-radius: 10px; padding: 9px; background: white; }
+.inline-status { font-size: 12px; border-radius: 999px; padding: 4px 8px; }
+.inline-status.error { background: oklch(96% 0.04 24); color: var(--danger); }
+.inline-status.success { background: oklch(94% 0.04 155); color: var(--success); }
 
 @media (max-width: 920px) {
   .app-shell { grid-template-columns: 1fr; }
