@@ -8,6 +8,9 @@ assets/catalog-data/**/*.csv
 assets/catalog-data/private/**
 /home/**
 .hermes/**
+.vercel/**
+.netlify/**
+__pycache__/**
 scripts/**
 scripts/__pycache__/**
 *.pyc

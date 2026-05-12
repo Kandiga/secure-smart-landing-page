@@ -2,7 +2,7 @@ import { createServiceClient } from "@/lib/supabase/server";
 import { NextRequest, NextResponse } from "next/server";
 import { z } from "zod";
 
-const rfqSchema = z.object({
+const order_requestSchema = z.object({
   customerId: z.string().uuid().optional(),
   companyId: z.string().uuid().optional(),
   projectName: z.string().max(200).optional(),
@@ -31,9 +31,9 @@ export async function POST(request: NextRequest) {
   if (!signature || signature !== secret) return unauthorized();
 
   const json = await request.json().catch(() => null);
-  const parsed = rfqSchema.safeParse(json);
+  const parsed = order_requestSchema.safeParse(json);
   if (!parsed.success) {
-    return NextResponse.json({ error: "Invalid RFQ payload", issues: parsed.error.flatten() }, { status: 400 });
+    return NextResponse.json({ error: "Invalid order request payload", issues: parsed.error.flatten() }, { status: 400 });
   }
 
   let supabase;
@@ -49,7 +49,7 @@ export async function POST(request: NextRequest) {
     .insert({
       company_id: parsed.data.companyId ?? null,
       customer_user_id: parsed.data.customerId ?? null,
-      project_name: parsed.data.projectName ?? `Website RFQ · ${parsed.data.language}`,
+      project_name: parsed.data.projectName ?? `Website order · ${parsed.data.language}`,
       source: parsed.data.source,
       status: "new",
       total_customer_value: totalCustomerValue,
@@ -89,7 +89,7 @@ export async function POST(request: NextRequest) {
 
   await supabase.from("order_events").insert({
     order_id: order.id,
-    event_type: "website_rfq_received",
+    event_type: "website_order_request_received",
     metadata: { source: parsed.data.source, language: parsed.data.language, itemCount: parsed.data.items.length },
   });
 

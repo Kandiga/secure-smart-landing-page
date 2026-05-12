@@ -1,12 +1,12 @@
 import { signOut } from "@/app/login/actions";
 
 const navItems = [
-  ["/dashboard", "סקירה"],
-  ["/dashboard/orders", "הזמנות"],
-  ["/dashboard/customers", "לקוחות"],
-  ["/dashboard/products", "מוצרים"],
-  ["/dashboard/approvals", "אישורים"],
-  ["/dashboard/settings", "הגדרות"],
+  ["/dashboard", "Overview"],
+  ["/dashboard/orders", "Orders"],
+  ["/dashboard/customers", "Customers"],
+  ["/dashboard/products", "Products"],
+  ["/dashboard/approvals", "Approvals"],
+  ["/dashboard/settings", "Settings"],
 ];
 
 export function AppShell({ children, active = "/dashboard", userLabel }: { children: React.ReactNode; active?: string; userLabel?: string }) {
@@ -21,13 +21,13 @@ export function AppShell({ children, active = "/dashboard", userLabel }: { child
           </div>
         </div>
         {userLabel ? <div className="user-pill">{userLabel}</div> : null}
-        <nav className="nav" aria-label="ניווט ראשי">
+        <nav className="nav" aria-label="Primary navigation">
           {navItems.map(([href, label]) => (
             <a key={href} href={href} className={active === href ? "active" : undefined}>{label}</a>
           ))}
         </nav>
         <form action={signOut} className="logout-form">
-          <button className="btn" type="submit">יציאה</button>
+          <button className="btn" type="submit">Sign out</button>
         </form>
       </aside>
       <main className="main">{children}</main>

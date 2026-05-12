@@ -8,7 +8,7 @@ Status: scaffold only. Do not deploy publicly until Supabase, RLS, auth, and pro
 
 - Admin login for Netanel and Jeff.
 - Trade application approval queue.
-- Orders cockpit fed by website RFQ/webhook events.
+- Orders cockpit fed by website order/webhook events.
 - Clear separation between customer sale pricing and internal purchasing power/cost data.
 - Mobile-friendly order cards and desktop operations table.
 

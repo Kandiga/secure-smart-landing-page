@@ -38,7 +38,7 @@ The page is a product-style B2B portal.
 - About: only essential positioning, no filler.
 - Categories: compact entry points into the catalogue.
 - Catalogue: filter sidebar plus product grid.
-- Trade account: RFQ/account request form.
+- Trade account: order/account request form.
 - Footer: brands, service, Huawei limitation note.
 
 Spacing should use a small consistent product-UI scale. Related items stay tight; sections have enough separation without feeling airy or empty.
@@ -47,7 +47,7 @@ Spacing should use a small consistent product-UI scale. Related items stay tight
 
 - Buttons: one vocabulary, small radius, restrained blue primary, white secondary.
 - Search: prominent and functional.
-- Product cards: image, brand, name, SKU, specs, locked Trade price state, RFQ/details actions.
+- Product cards: image, brand, name, SKU, specs, locked Trade price state, Order/details actions.
 - Filters: familiar checkbox sidebar, no custom novelty.
 - Forms: standard inputs and selects, clear labels/placeholders.
 

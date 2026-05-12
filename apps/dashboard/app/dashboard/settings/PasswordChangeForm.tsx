@@ -13,11 +13,11 @@ export function PasswordChangeForm() {
     event.preventDefault();
     setStatus({});
     if (password.length < 10) {
-      setStatus({ error: "בחר סיסמה באורך 10 תווים לפחות." });
+      setStatus({ error: "Choose a password with at least 10 characters." });
       return;
     }
     if (password !== confirmPassword) {
-      setStatus({ error: "הסיסמאות לא זהות." });
+      setStatus({ error: "Passwords do not match." });
       return;
     }
 
@@ -27,20 +27,20 @@ export function PasswordChangeForm() {
     setPending(false);
 
     if (error) {
-      setStatus({ error: "לא הצלחתי לעדכן את הסיסמה. נסה להתחבר מחדש ואז לחזור להגדרות." });
+      setStatus({ error: "Could not update the password. Sign in again and return to Settings." });
       return;
     }
 
     setPassword("");
     setConfirmPassword("");
-    setStatus({ success: "הסיסמה עודכנה בהצלחה." });
+    setStatus({ success: "Password updated successfully." });
   }
 
   return (
     <form onSubmit={submit} className="form-stack settings-form">
-      <label>סיסמה חדשה<input value={password} onChange={(e) => setPassword(e.target.value)} type="password" autoComplete="new-password" minLength={10} required /></label>
-      <label>אימות סיסמה<input value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} type="password" autoComplete="new-password" minLength={10} required /></label>
-      <button className="btn primary" disabled={pending}>{pending ? "מעדכן..." : "שנה סיסמה"}</button>
+      <label>New password<input value={password} onChange={(e) => setPassword(e.target.value)} type="password" autoComplete="new-password" minLength={10} required /></label>
+      <label>Confirm password<input value={confirmPassword} onChange={(e) => setConfirmPassword(e.target.value)} type="password" autoComplete="new-password" minLength={10} required /></label>
+      <button className="btn primary" disabled={pending}>{pending ? "Updating..." : "Change password"}</button>
       {status.error ? <p className="form-status error">{status.error}</p> : null}
       {status.success ? <p className="form-status success">{status.success}</p> : null}
     </form>

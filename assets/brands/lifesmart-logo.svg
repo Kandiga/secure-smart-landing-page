@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 120" role="img" aria-labelledby="title">
+  <title id="title">LifeSmart</title>
+  <rect width="520" height="120" fill="none"/>
+  <g fill="#12345a">
+    <text x="22" y="76" font-family="Sora, Inter, Arial, sans-serif" font-size="58" font-weight="800" letter-spacing="-2">Life</text>
+    <text x="156" y="76" font-family="Sora, Inter, Arial, sans-serif" font-size="58" font-weight="500" letter-spacing="-2">Smart</text>
+  </g>
+  <path d="M424 30c23 8 40 29 40 54" fill="none" stroke="#15b8a6" stroke-width="10" stroke-linecap="round"/>
+  <path d="M424 50c12 6 20 18 20 34" fill="none" stroke="#15b8a6" stroke-width="8" stroke-linecap="round" opacity=".78"/>
+  <circle cx="424" cy="84" r="7" fill="#15b8a6"/>
+</svg>

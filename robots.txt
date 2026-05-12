@@ -1,0 +1,14 @@
+User-agent: *
+Allow: /
+Disallow: /apps/
+Disallow: /assets/catalog-data/product-details/
+Disallow: /customer-account.html
+Disallow: /customer-login.html
+Disallow: /cart-template.html
+Disallow: /product-template.html
+Disallow: /catalog-template.html
+Disallow: /catalog.html
+Disallow: /account-centered.html
+Disallow: /account-portal.html
+
+Sitemap: https://securesmart.tech/sitemap.xml

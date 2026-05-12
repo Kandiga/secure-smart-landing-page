@@ -12,7 +12,8 @@
   "dependencies": {
     "@supabase/ssr": "latest",
     "@supabase/supabase-js": "latest",
-    "next": "latest",
+    "exceljs": "^4.4.0",
+    "next": "^16.2.6",
     "react": "latest",
     "react-dom": "latest",
     "zod": "latest"

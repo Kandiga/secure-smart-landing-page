@@ -1,35 +1,34 @@
 <!DOCTYPE html>
 
-<html dir="ltr" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Register | Secure Smart</title><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700;800&amp;family=Sora:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="assets/brand/secure-smart-mark-official.png" rel="icon" type="image/png"/><link href="assets/site.css" rel="stylesheet"/></head><body><a class="skip" href="#main">Skip to content</a><header class="top"><div class="container header-row"><a aria-label="Secure Smart home" class="brand" href="index.html"><img alt="Secure Smart" class="site-logo" src="assets/brand/secure-smart-logo-image2-transparent.png"/></a><div aria-hidden="true" class="header-center-wordmark">SECURE SMART</div><nav aria-label="Trade account actions" class="header-actions"><a class="header-login" href="account-portal.html">Login</a><a class="header-register" href="account.html">Register</a></nav></div></header><main id="main">
+<html dir="ltr" lang="en"><head><meta charset="utf-8"/><meta content="width=device-width,initial-scale=1" name="viewport"/><title>Register | Secure Smart</title>
+  <meta name="description" content="Apply for a Secure Smart approved B2B trade account.">
+  <meta name="robots" content="noindex, nofollow">
+  <link rel="canonical" href="https://securesmart.tech/account.html">
+  <meta property="og:type" content="website">
+  <meta property="og:site_name" content="Secure Smart">
+  <meta property="og:title" content="Register | Secure Smart">
+  <meta property="og:description" content="Apply for a Secure Smart approved B2B trade account.">
+  <meta property="og:url" content="https://securesmart.tech/account.html">
+  <meta property="og:image" content="https://securesmart.tech/assets/brand/secure-smart-logo-header.webp">
+  <meta name="twitter:card" content="summary_large_image"><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700;800&amp;family=Sora:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="assets/brand/secure-smart-favicon.png" rel="icon" type="image/png"/><link href="assets/site.css" rel="stylesheet"/></head><body><a class="skip" href="#main">Skip to content</a><header class="top"><div class="container header-row"><a aria-label="Secure Smart home" class="brand" href="index.html"><img alt="Secure Smart" class="site-logo" src="assets/brand/secure-smart-logo-header.webp"/></a><div aria-hidden="true" class="header-center-wordmark">Secure Smart</div><nav aria-label="Trade account actions" class="header-actions"><a class="header-login" href="customer-login.html">Login</a><a class="header-register" href="account.html">Register</a></nav></div></header><main id="main">
 <section class="page-hero registration-hero">
 <div class="container registration-hero-grid">
 <div>
 <div class="crumbs">Home / Register</div>
 <p class="eyebrow">Secure Smart Trade Account</p>
-<h1>Professional registration for approved B2B purchasing</h1>
-<p>Submit your company details, purchasing contacts, delivery information and credit request. Secure Smart will review the application within 2 business days.</p>
+<h1>Registration for approved B2B purchasing</h1>
+<p>Submit your company details, purchasing contacts and delivery information. Secure Smart will review the application within 2 business days.</p>
 </div>
-<aside aria-label="Registration terms summary" class="registration-summary">
+<aside aria-label="Registration review summary" class="registration-summary">
 <span>Trade approval</span>
 <strong>Within 2 business days</strong>
-<p>Credit terms request: Current + 60. Payments are accepted by bank transfer only.</p>
+<p>Your application will be reviewed by the Secure Smart team before account access is activated.</p>
 </aside>
 </div>
 </section>
 <section class="section registration-section">
 <div class="container registration-layout">
-<aside aria-label="Registration process" class="registration-aside">
-<div class="aside-card">
-<p class="eyebrow">Application flow</p>
-<ol class="process-list">
-<li><span>01</span><strong>Company identity</strong><small>Business name, tax status and invoice details.</small></li>
-<li><span>02</span><strong>Decision makers</strong><small>CEO, purchasing, payments and technical contacts.</small></li>
-<li><span>03</span><strong>Delivery profile</strong><small>Shipping addresses, opening hours and operations notes.</small></li>
-<li><span>04</span><strong>Credit review</strong><small>Current + 60 request, reviewed by our team.</small></li>
-</ol>
-</div>
-</aside>
-<form action="/thanks.html" class="form registration-form" data-netlify="true" method="POST" name="trade-access" netlify-honeypot="bot-field">
+<form action="https://crm.securesmart.tech/api/intake/trade-application" class="form registration-form" data-netlify="true" method="POST" name="trade-access" netlify-honeypot="bot-field">
 <input name="form-name" type="hidden" value="trade-access"/>
 <input name="request_type" type="hidden" value="Secure Smart Trade Registration"/>
 <p class="hidden-field"><label>Do not fill <input name="bot-field"/></label></p>
@@ -42,19 +41,28 @@
 <legend>Business details</legend>
 <div class="fields two">
 <label class="field-wrap"><span>Business name</span><input autocomplete="organization" class="field" name="business_name" required=""/></label>
-<label class="field-wrap"><span>Business ID type</span><select class="field" name="business_id_type" required=""><option value="">Select ID type</option><option>Company registration number</option><option>Licensed dealer</option></select></label>
+<label class="field-wrap"><span>Business ID type</span><select class="field" name="business_id_type"><option value="">Select ID type</option><option>Company registration number</option><option>Authorized dealer</option></select></label>
 </div>
 <div class="fields three">
-<label class="field-wrap"><span>Business ID number</span><input class="field" inputmode="numeric" name="business_id_number"/></label>
+<label class="field-wrap"><span>Business ID number</span><input class="field" inputmode="numeric" name="business_id_number" required=""/></label>
 <label class="field-wrap"><span>Year established</span><input class="field" inputmode="numeric" name="year_established" pattern="[0-9]{4}" placeholder="YYYY"/></label>
-<label class="field-wrap"><span>Number of employees</span><select class="field" name="employee_count" required=""><option value="">Select range</option><option>1-10</option><option>11-50</option><option>Over 50</option></select></label>
+<label class="field-wrap"><span>Number of employees</span><select class="field" name="employee_count"><option value="">Select range</option><option>1-10</option><option>11-50</option><option>Over 50</option></select></label>
+</div>
+</fieldset>
+<fieldset class="form-block">
+<legend>Account owner / login details</legend>
+<p class="form-note"><strong>Important:</strong> the email in this section is the customer login email. Password setup, password reset, customer portal access and security activity notices will be connected to this address only. CEO, purchasing, payments and technical contacts below are coordination contacts and will not receive the login link unless the same email is entered here.</p>
+<div class="fields three">
+<label class="field-wrap"><span>Full name</span><input autocomplete="name" class="field" name="applicant_name" required=""/></label>
+<label class="field-wrap"><span>Customer login email</span><input autocomplete="email" class="field" name="applicant_email" required="" type="email"/></label>
+<label class="field-wrap"><span>Phone</span><input autocomplete="tel" class="field" inputmode="tel" name="applicant_phone" required=""/></label>
 </div>
 </fieldset>
 <fieldset class="form-block contact-block">
 <legend>Company contacts</legend>
 <div class="role-card">
 <h3>CEO</h3>
-<div class="fields four"><label class="field-wrap"><span>Name</span><input class="field" name="ceo_name" required=""/></label><label class="field-wrap"><span>Phone</span><input class="field" inputmode="tel" name="ceo_phone"/></label><label class="field-wrap"><span>Email address</span><input class="field" name="ceo_email" type="email"/></label><label class="field-wrap"><span>WhatsApp number</span><input class="field" inputmode="tel" name="ceo_whatsapp"/></label></div>
+<div class="fields four"><label class="field-wrap"><span>Name</span><input class="field" name="ceo_name"/></label><label class="field-wrap"><span>Phone</span><input class="field" inputmode="tel" name="ceo_phone"/></label><label class="field-wrap"><span>Email address</span><input class="field" name="ceo_email" type="email"/></label><label class="field-wrap"><span>WhatsApp number</span><input class="field" inputmode="tel" name="ceo_whatsapp"/></label></div>
 </div>
 <div class="role-card">
 <h3>Purchasing manager</h3>
@@ -71,16 +79,12 @@
 </fieldset>
 <fieldset class="form-block">
 <legend>Addresses and delivery</legend>
-<div class="fields two">
-<label class="field-wrap"><span>Shipping addresses and opening hours</span><textarea class="field textarea" name="shipping_addresses_hours" required=""></textarea></label>
-<label class="field-wrap"><span>Invoice address</span><textarea class="field textarea" name="invoice_address" required=""></textarea></label>
+<div class="fields two delivery-fields">
+<div class="field-stack">
+<label class="field-wrap"><span>Delivery address</span><textarea class="field textarea" name="shipping_addresses_hours" placeholder="Street, building, city, country and delivery notes"></textarea></label>
+<label class="field-wrap"><span>Delivery hours</span><textarea class="field textarea compact-textarea" name="delivery_hours" placeholder="Example: Mon–Thu 08:00–17:00; Fri 08:00–13:00; closed on holidays"></textarea></label>
 </div>
-</fieldset>
-<fieldset class="form-block">
-<legend>Credit and payment terms</legend>
-<div class="terms-panel">
-<label class="check-row"><input name="credit_terms_requested" type="checkbox" value="Current + 60"/><span><strong>Request a credit line under Current + 60 terms</strong><small>Our team will review the request and confirm approval separately.</small></span></label>
-<label class="check-row"><input name="bank_transfer_only_acknowledged" required="" type="checkbox" value="Accepted"/><span><strong>All payments will be made by bank transfer only</strong><small>This acknowledgement is required before submitting the registration.</small></span></label>
+<label class="field-wrap"><span>Invoice address</span><textarea class="field textarea" name="invoice_address"></textarea></label>
 </div>
 </fieldset>
 <div class="submit-panel">
@@ -90,4 +94,4 @@
 </form>
 </div>
 </section>
-</main><footer class="footer" id="footer"><div class="container footer-grid address-footer"><div class="footer-brand"><h4>Secure Smart</h4><p class="footer-email-list"><a href="mailto:info@securesmart.tech">info@securesmart.tech</a><a href="mailto:sales@securesmart.tech">sales@securesmart.tech</a><a href="mailto:support@securesmart.tech">support@securesmart.tech</a></p></div><address class="footer-address primary"><h4>Hong Kong</h4><p class="office-label">Head Office</p><p>Unit B, 11/F<br/>23 Thomson Road<br/>Wan Chai<br/>Hong Kong</p></address><address class="footer-address"><h4>Israel</h4><p>Haspirala Binyamina<br/>Hamalacha 10<br/>Binyamina<br/>Israel</p></address><address class="footer-address"><h4>United Kingdom</h4><p>29 Imperial Drive<br/>Harrow HA2 7HW<br/>Middlesex<br/>United Kingdom</p></address><address class="footer-address"><h4>United States</h4><p>2259 Riverwater Lane<br/>Fayetteville, AR 72703<br/>United States</p></address></div></footer><script src="assets/i18n.js"></script><script src="assets/site.js"></script></body></html>
+</main><footer class="footer" id="footer"><div class="container footer-grid address-footer"><div class="footer-brand"><h4>Secure Smart</h4><p class="footer-email-list"><a href="mailto:info@securesmart.tech">info@securesmart.tech</a><a href="mailto:sales@securesmart.tech">sales@securesmart.tech</a><a href="mailto:support@securesmart.tech">support@securesmart.tech</a></p></div><address class="footer-address primary"><h4>Hong Kong</h4><p class="office-label">Head Office</p><p>Unit B, 11/F<br/>23 Thomson Road<br/>Wan Chai<br/>Hong Kong</p></address><address class="footer-address"><h4>Israel</h4><p>Haspirala Binyamina<br/>Hamalacha 10<br/>Binyamina<br/>Israel</p></address><address class="footer-address"><h4>United Kingdom</h4><p>29 Imperial Drive<br/>Harrow HA2 7HW<br/>Middlesex<br/>United Kingdom</p></address><address class="footer-address"><h4>United States</h4><p>2259 Riverwater Lane<br/>Fayetteville, AR 72703<br/>United States</p></address></div></footer><script src="assets/site.js"></script><script src="assets/crm-public-intake.js"></script></body></html>
