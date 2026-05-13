@@ -288,7 +288,7 @@
       root.querySelector('[data-customer-account-number]').textContent = me.company?.account_number || 'Pending assignment';
       root.querySelector('[data-customer-name]').textContent = [me.profile?.first_name, me.profile?.last_name].filter(Boolean).join(' ') || me.profile?.email || 'Secure Smart customer';
       root.querySelector('[data-customer-email]').textContent = me.profile?.email || '';
-      root.querySelector('[data-customer-company]').textContent = me.company?.name || 'Approved customer account';
+      root.querySelector('[data-customer-company]').textContent = `${me.company?.name || 'Approved customer account'}${me.company?.is_vip ? ' · ' + (me.company?.vip_label || 'VIP') : ''}`;
       const list = root.querySelector('[data-customer-orders]');
       list.innerHTML = '';
       if (!me.orders?.length) {
@@ -301,9 +301,10 @@
           row.innerHTML = `
             <div class="portal-order-head">
               <div>
-                <strong>Order No.: ${escapeHtml(order.order_number || order.id)}</strong>
-                <span>${dateFmt(order.created_at)} · ${escapeHtml(statusLabel(order.status))}</span>
+                <strong>Order No.: ${escapeHtml(order.order_number || order.id)}${order.customer_po_number ? ` · PO ${escapeHtml(order.customer_po_number)}` : ''}</strong>
+                <span>${dateFmt(order.created_at)} · ${escapeHtml(statusLabel(order.status))}${me.company?.is_vip ? ` · ${escapeHtml(me.company?.vip_label || 'VIP')}` : ''}</span>
                 ${order.project_name ? `<span>${escapeHtml(order.project_name)}</span>` : ''}
+                ${order.customer_visible_note ? `<span>${escapeHtml(order.customer_visible_note)}</span>` : ''}
                 <span>${escapeHtml(statusHelp(order.status))}</span>
               </div>
               <div class="portal-order-total">${money(order.total_customer_value)}</div>
@@ -314,7 +315,7 @@
                   <span>${escapeHtml(item.sku)}</span>
                   <span>${escapeHtml(item.product_title || item.sku)}</span>
                   <span>× ${Number(item.order_quantity || 0)}</span>
-                  <span>${money(item.customer_total)}</span>
+                  <span>${money(item.customer_total)}${me.company?.is_vip ? ' · VIP price' : ''}</span>
                 </div>
               `).join('') : '<span class="muted">No item lines to display.</span>'}
             </div>

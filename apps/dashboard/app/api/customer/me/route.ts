@@ -52,7 +52,7 @@ export async function GET(request: NextRequest) {
 
   const membershipWithNumber = await supabase
     .from("company_members")
-    .select("member_role, created_at, companies(id,account_number,name,country,registration_number,vat_number)")
+    .select("member_role, created_at, companies(id,account_number,name,country,registration_number,vat_number,is_vip,vip_label,vip_notes)")
     .eq("user_id", user.id)
     .order("created_at", { ascending: false })
     .limit(1)
@@ -78,7 +78,7 @@ export async function GET(request: NextRequest) {
   const companyId = (membership?.companies as { id?: string } | null | undefined)?.id ?? null;
   let orderQuery = supabase
     .from("orders")
-    .select("id,order_number,project_name,status,total_customer_value,created_at,order_items(id,sku,product_title,order_quantity,customer_unit_price,customer_total,stock_status)")
+    .select("id,order_number,project_name,status,total_customer_value,customer_po_number,customer_visible_note,created_at,order_items(id,sku,product_title,order_quantity,customer_unit_price,customer_total,stock_status)")
     .order("created_at", { ascending: false })
     .limit(50);
 

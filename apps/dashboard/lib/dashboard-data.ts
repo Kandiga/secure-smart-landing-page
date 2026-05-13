@@ -17,6 +17,9 @@ export type CustomerRow = {
   name: string;
   country: string | null;
   registration_number: string | null;
+  isVip: boolean;
+  vipLabel: string | null;
+  vipNotes: string | null;
   members: number;
   memberLabels: string[];
   memberUserIds: string[];
@@ -36,6 +39,11 @@ export type OrderRecord = {
   customer: string;
   companyId: string | null;
   customerEmail: string | null;
+  customerPoNumber: string | null;
+  customerVisibleNote: string | null;
+  internalAdminNote: string | null;
+  customerIsVip: boolean;
+  customerVipLabel: string | null;
   totalCustomerValue: number;
   totalPurchaseCost: number;
   grossMargin: number;
@@ -405,14 +413,7 @@ export async function getCockpitData(): Promise<CockpitData> {
   return { openLines, skuGroups: buildSkuGroups(openLines), waitingBatches, completedBatches, isMock: openLines.length === 0 && waitingBatches.length === 0, batchSchemaReady, error: batchItemsResult.error && batchSchemaReady ? batchItemsResult.error.message : undefined };
 }
 
-export async function getOrderRecords(): Promise<{ rows: OrderRecord[]; isMock: boolean; error?: string }> {
-  const supabase = await createServerSupabaseClient();
-  const { data, error } = await supabase
-    .from("orders")
-    .select("id,order_number,project_name,status,total_customer_value,total_purchase_cost,gross_margin,margin_pct,company_id,customer_user_id,created_at,updated_at,companies(name),profiles:customer_user_id(email),order_items(id,sku,product_title,order_quantity,customer_unit_price,customer_total,purchase_unit_price,purchase_total,margin,margin_pct,stock_status,notes)")
-    .order("created_at", { ascending: false })
-    .limit(75);
-  if (error) return { rows: [], isMock: true, error: error.message };
+function normalizeOrderRecords(data: any[]): { rows: OrderRecord[]; isMock: boolean } {
   const rows = ((data ?? []) as Array<Record<string, any>>).map((order) => {
     const items = Array.isArray(order.order_items) ? order.order_items : [];
     return {
@@ -423,6 +424,11 @@ export async function getOrderRecords(): Promise<{ rows: OrderRecord[]; isMock: 
       customer: order.companies?.name || order.profiles?.email || "Customer without company",
       companyId: order.company_id,
       customerEmail: order.profiles?.email ?? null,
+      customerPoNumber: order.customer_po_number ?? null,
+      customerVisibleNote: order.customer_visible_note ?? null,
+      internalAdminNote: order.internal_admin_note ?? null,
+      customerIsVip: Boolean(order.companies?.is_vip),
+      customerVipLabel: order.companies?.vip_label ?? (order.companies?.is_vip ? "VIP" : null),
       totalCustomerValue: numberValue(order.total_customer_value),
       totalPurchaseCost: numberValue(order.total_purchase_cost),
       grossMargin: numberValue(order.gross_margin),
@@ -454,11 +460,31 @@ export async function getOrderRecords(): Promise<{ rows: OrderRecord[]; isMock: 
   return { rows, isMock: rows.length === 0 };
 }
 
+export async function getOrderRecords(): Promise<{ rows: OrderRecord[]; isMock: boolean; error?: string }> {
+  const supabase = await createServerSupabaseClient();
+  const { data, error } = await supabase
+    .from("orders")
+    .select("id,order_number,project_name,status,total_customer_value,total_purchase_cost,gross_margin,margin_pct,company_id,customer_user_id,customer_po_number,customer_visible_note,internal_admin_note,created_at,updated_at,companies(name,is_vip,vip_label),profiles:customer_user_id(email),order_items(id,sku,product_title,order_quantity,customer_unit_price,customer_total,purchase_unit_price,purchase_total,margin,margin_pct,stock_status,notes)")
+    .order("created_at", { ascending: false })
+    .limit(75);
+  if (error?.code === "42703") {
+    const fallback = await supabase
+      .from("orders")
+      .select("id,order_number,project_name,status,total_customer_value,total_purchase_cost,gross_margin,margin_pct,company_id,customer_user_id,created_at,updated_at,companies(name),profiles:customer_user_id(email),order_items(id,sku,product_title,order_quantity,customer_unit_price,customer_total,purchase_unit_price,purchase_total,margin,margin_pct,stock_status,notes)")
+      .order("created_at", { ascending: false })
+      .limit(75);
+    if (fallback.error) return { rows: [], isMock: true, error: fallback.error.message };
+    return normalizeOrderRecords(fallback.data ?? []);
+  }
+  if (error) return { rows: [], isMock: true, error: error.message };
+  return normalizeOrderRecords(data ?? []);
+}
+
 export async function getCustomers(): Promise<{ rows: CustomerRow[]; error?: string }> {
   const supabase = await createServerSupabaseClient();
   const customersWithNumbers = await supabase
     .from("companies")
-    .select("id,account_number,name,country,registration_number,created_at,company_members(user_id,member_role,profiles(email,first_name,last_name,role,account_status,customer_number)),trade_applications(id,status,created_at),orders(id,status,total_customer_value,created_at)")
+    .select("id,account_number,name,country,registration_number,is_vip,vip_label,vip_notes,created_at,company_members(user_id,member_role,profiles(email,first_name,last_name,role,account_status,customer_number)),trade_applications(id,status,created_at),orders(id,status,total_customer_value,created_at)")
     .order("created_at", { ascending: false })
     .limit(100);
   const { data, error } = customersWithNumbers.error?.code === "42703"
@@ -490,6 +516,9 @@ export async function getCustomers(): Promise<{ rows: CustomerRow[]; error?: str
         name: row.name,
         country: row.country,
         registration_number: row.registration_number,
+        isVip: Boolean(row.is_vip),
+        vipLabel: row.vip_label ?? (row.is_vip ? "VIP" : null),
+        vipNotes: row.vip_notes ?? null,
         created_at: row.created_at,
         members: members.length,
         memberLabels,

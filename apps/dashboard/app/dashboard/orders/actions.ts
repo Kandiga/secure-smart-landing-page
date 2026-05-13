@@ -86,7 +86,7 @@ export async function createOrderBatch() {
 
   const { data: orders, error: ordersError } = await supabase
     .from("orders")
-    .select("id,company_id,order_number,project_name,status,companies(name),order_items(id,sku,product_title,order_quantity,customer_unit_price,customer_total,purchase_unit_price,purchase_total,stock_status,supplier_name,missing_quantity)")
+    .select("id,company_id,order_number,project_name,status,customer_po_number,customer_visible_note,internal_admin_note,companies(name,is_vip,vip_label),order_items(id,sku,product_title,order_quantity,customer_unit_price,customer_total,purchase_unit_price,purchase_total,stock_status,supplier_name,missing_quantity)")
     .not("status", "in", "(new,delivered,cancelled)")
     .order("created_at", { ascending: true })
     .limit(150);
@@ -114,6 +114,11 @@ export async function createOrderBatch() {
         customer_name: order.companies?.name || "Customer without company",
         order_number: order.order_number || null,
         project_name: order.project_name || order.order_number || "Customer order",
+        customer_po_number: order.customer_po_number || null,
+        customer_visible_note: order.customer_visible_note || null,
+        internal_admin_note: order.internal_admin_note || null,
+        customer_is_vip: Boolean(order.companies?.is_vip),
+        customer_vip_label: order.companies?.vip_label || (order.companies?.is_vip ? "VIP" : null),
         customer_qty: qty,
         customer_unit_price: customerUnit,
         customer_total: customerTotal,
@@ -290,12 +295,15 @@ export async function updateOrderHeader(formData: FormData) {
   const status = String(formData.get("status") || "review") as OrderStatus;
   const projectName = String(formData.get("project_name") || "").trim() || null;
   const orderNumber = String(formData.get("order_number") || "").trim() || null;
+  const customerPoNumber = String(formData.get("customer_po_number") || "").trim() || null;
+  const customerVisibleNote = String(formData.get("customer_visible_note") || "").trim() || null;
+  const internalAdminNote = String(formData.get("internal_admin_note") || "").trim() || null;
   const { error } = await supabase
     .from("orders")
-    .update({ order_number: orderNumber, project_name: projectName, status, updated_at: new Date().toISOString() })
+    .update({ order_number: orderNumber, project_name: projectName, status, customer_po_number: customerPoNumber, customer_visible_note: customerVisibleNote, internal_admin_note: internalAdminNote, updated_at: new Date().toISOString() })
     .eq("id", orderId);
   if (error) throw new Error(error.message);
-  await supabase.from("order_events").insert({ order_id: orderId, actor_user_id: profile.id, event_type: "admin_update_order_header", metadata: { status, project_name_present: Boolean(projectName), order_number_present: Boolean(orderNumber) } });
+  await supabase.from("order_events").insert({ order_id: orderId, actor_user_id: profile.id, event_type: "admin_update_order_header", metadata: { status, project_name_present: Boolean(projectName), order_number_present: Boolean(orderNumber), customer_po_number_present: Boolean(customerPoNumber), customer_visible_note_present: Boolean(customerVisibleNote), internal_admin_note_present: Boolean(internalAdminNote) } });
   await supabase.from("audit_logs").insert({ actor_user_id: profile.id, action: "update_order_header", entity_type: "order", entity_id: orderId, metadata: { status } });
   revalidatePath("/dashboard");
   revalidatePath("/dashboard/orders");

@@ -37,7 +37,7 @@ export async function GET(request: NextRequest, context: { params: Promise<{ bat
   const supabase = createServiceClient();
   const { data: batch, error } = await supabase
     .from("order_batches")
-    .select("id,batch_number,status,created_at,order_batch_items(id,sku,item_name,customer_name,project_name,customer_qty,customer_unit_price,customer_total,purchase_unit_cost,purchase_total,supplier_name,supplier_email,pi_no,backorder_units,purchase_status)")
+    .select("id,batch_number,status,created_at,order_batch_items(id,sku,item_name,customer_name,project_name,customer_po_number,customer_visible_note,internal_admin_note,customer_is_vip,customer_vip_label,customer_qty,customer_unit_price,customer_total,purchase_unit_cost,purchase_total,supplier_name,supplier_email,pi_no,backorder_units,purchase_status)")
     .eq("id", batchId)
     .single();
   if (error || !batch) return NextResponse.json({ error: error?.message ?? "Batch not found" }, { status: 404 });
@@ -63,7 +63,9 @@ export async function GET(request: NextRequest, context: { params: Promise<{ bat
     ["Batch", (batch as any).batch_number],
     ["Date", dateOnly((batch as any).created_at)],
     ["Customer", item.customer_name || ""],
+    ["VIP", item.customer_is_vip ? (item.customer_vip_label || "VIP") : ""],
     ["Order No.", item.project_name || ""],
+    ["Customer PO", item.customer_po_number || ""],
     ["SKU", item.sku || ""],
     ["Item", item.item_name || ""],
     ["Required quantity", item.customer_qty || ""],
@@ -74,6 +76,8 @@ export async function GET(request: NextRequest, context: { params: Promise<{ bat
     ["Price each", moneyValue(item.purchase_unit_cost)],
     ["Total purchase cost", moneyValue(item.purchase_total)],
     ["Backorder units", item.backorder_units || 0],
+    ["Customer note", item.customer_visible_note || ""],
+    ["Internal note", item.internal_admin_note || ""],
     ["Expected supply date", ""],
     ["Supplier notes", ""],
   ];

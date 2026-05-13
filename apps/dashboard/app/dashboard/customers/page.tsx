@@ -1,7 +1,7 @@
 import { AppShell } from "@/components/AppShell";
 import { getAdminProfile, getCustomerActivity, getCustomers } from "@/lib/dashboard-data";
 import { redirect } from "next/navigation";
-import { deleteCustomerCompany } from "./actions";
+import { deleteCustomerCompany, updateCustomerVip } from "./actions";
 import { ManualCustomerAccessForm } from "./ManualCustomerAccessForm";
 
 export const dynamic = "force-dynamic";
@@ -118,7 +118,9 @@ export default async function CustomersPage() {
                 <tr key={row.id}>
                   <td>
                     <strong>{row.name}</strong>
+                    {row.isVip ? <span className="chip vip-chip">{row.vipLabel || "VIP"}</span> : null}
                     <div className="muted">{row.account_number || "No account number yet"}</div>
+                    {row.vipNotes ? <div className="muted">VIP note: {row.vipNotes}</div> : null}
                     <div className="muted">{row.country || "—"}{row.registration_number ? ` · ${row.registration_number}` : ""}</div>
                   </td>
                   <td>
@@ -130,6 +132,13 @@ export default async function CustomersPage() {
                   <td>{date(row.latestOrderAt)}</td>
                   <td>{date(row.created_at)}</td>
                   <td>
+                    <form action={updateCustomerVip} className="mini-vip-form">
+                      <input type="hidden" name="company_id" value={row.id} />
+                      <label className="inline-check"><input type="checkbox" name="is_vip" value="yes" defaultChecked={row.isVip} /> VIP customer</label>
+                      <input name="vip_label" defaultValue={row.vipLabel || "VIP"} placeholder="VIP label" aria-label="VIP label" />
+                      <input name="vip_notes" defaultValue={row.vipNotes || ""} placeholder="VIP/internal note" aria-label="VIP note" />
+                      <button className="btn" type="submit">Save VIP</button>
+                    </form>
                     {profile.role === "super_admin" ? (
                       <form action={deleteCustomerCompany} className="mini-danger-form">
                         <input type="hidden" name="company_id" value={row.id} />

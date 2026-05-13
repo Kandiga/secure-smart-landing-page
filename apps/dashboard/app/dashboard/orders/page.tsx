@@ -52,8 +52,10 @@ export default async function OrdersPage() {
           <article className="panel order-editor" key={order.id}>
             <div className="panel-header order-editor-head">
               <div>
-                <div className="panel-title">{order.orderNumber || "Unnumbered order"} · {order.customer}</div>
-                <div className="eyebrow">Created {date(order.createdAt)} · Updated {date(order.updatedAt)} · {order.customerEmail || "No customer email"}</div>
+                <div className="panel-title">{order.orderNumber || "Unnumbered order"} · {order.customer} {order.customerIsVip ? <span className="chip vip-chip">{order.customerVipLabel || "VIP"}</span> : null}</div>
+                <div className="eyebrow">Created {date(order.createdAt)} · Updated {date(order.updatedAt)} · {order.customerEmail || "No customer email"}{order.customerPoNumber ? ` · PO ${order.customerPoNumber}` : ""}</div>
+                {order.customerVisibleNote ? <div className="notice compact">Customer-visible note: {order.customerVisibleNote}</div> : null}
+                {order.internalAdminNote ? <div className="eyebrow">Internal note: {order.internalAdminNote}</div> : null}
               </div>
               <span className="chip">{statusLabel(order.status)}</span>
             </div>
@@ -62,6 +64,9 @@ export default async function OrdersPage() {
               <input type="hidden" name="order_id" value={order.id} />
               <label>Order number<input name="order_number" defaultValue={order.orderNumber ?? ""} placeholder="SS-1001" /></label>
               <label>Project<input name="project_name" defaultValue={order.projectName ?? ""} placeholder="Customer project" /></label>
+              <label>Customer PO<input name="customer_po_number" defaultValue={order.customerPoNumber ?? ""} placeholder="PO / invoice reference" /></label>
+              <label>Customer note<input name="customer_visible_note" defaultValue={order.customerVisibleNote ?? ""} placeholder="Visible in customer account" /></label>
+              <label>Internal note<input name="internal_admin_note" defaultValue={order.internalAdminNote ?? ""} placeholder="Ops note, not customer-visible" /></label>
               <label>Status
                 <select name="status" defaultValue={order.status}>
                   {orderStatuses.map((status) => <option value={status} key={status}>{statusLabel(status)}</option>)}

@@ -145,15 +145,18 @@ td.money, th.money { direction: ltr; text-align: left; font-variant-numeric: tab
 .order-editor { overflow: visible; }
 .order-editor-head { background: linear-gradient(90deg, #fbfdfe, #edf8f6); }
 .order-admin-form { display: grid; gap: 10px; padding: 16px; }
-.order-header-form { grid-template-columns: minmax(150px, 210px) 1fr minmax(170px, 220px) auto; align-items: end; }
-.order-admin-form label, .mini-danger-form label { display: grid; gap: 5px; color: var(--muted); font-size: 12px; font-weight: 900; }
-.order-admin-form input, .order-admin-form select, .mini-danger-form input, .danger-zone input { width: 100%; border: 1px solid var(--line); border-radius: 6px; padding: 10px; background: #fff; color: var(--text); direction: ltr; }
+.order-header-form { grid-template-columns: minmax(150px, 210px) 1fr minmax(150px, 200px) minmax(180px, 1fr) minmax(180px, 1fr) minmax(170px, 220px) auto; align-items: end; }
+.order-admin-form label, .mini-danger-form label, .mini-vip-form label { display: grid; gap: 5px; color: var(--muted); font-size: 12px; font-weight: 900; }
+.order-admin-form input, .order-admin-form select, .mini-danger-form input, .mini-vip-form input, .danger-zone input { width: 100%; border: 1px solid var(--line); border-radius: 6px; padding: 10px; background: #fff; color: var(--text); direction: ltr; }
 .editable-lines { display: grid; gap: 10px; padding: 0 16px 16px; }
 .order-line-form { display: grid; grid-template-columns: minmax(190px, 1.2fr) 74px 112px 112px 150px minmax(170px, .9fr) minmax(210px, 1fr) auto; gap: 9px; align-items: end; border: 1px solid var(--line); background: #f7fbfd; border-radius: 8px; padding: 11px; }
 .line-identity { display: grid; gap: 7px; }
 .line-math { display: flex; gap: 7px; flex-wrap: wrap; align-items: center; font-size: 12px; }
 .danger-zone { margin: 0 16px 16px; border: 1px solid #e1aaa4; background: #fff6f5; border-radius: 8px; padding: 12px; display: grid; grid-template-columns: 1fr minmax(140px, 220px) auto; gap: 10px; align-items: center; }
 .mini-danger-form { display: grid; gap: 7px; min-width: 230px; }
+.mini-vip-form { display: grid; gap: 7px; min-width: 250px; margin-bottom: 9px; padding-bottom: 9px; border-bottom: 1px solid var(--line); }
+.vip-chip { margin-inline-start: 8px; border-color: #d7b457; background: #fff5cf; color: #725100; font-weight: 900; }
+.notice.compact { margin: 8px 0 0; padding: 8px 10px; font-size: 12px; }
 .inline-check { display: flex !important; grid-template-columns: none !important; align-items: center; gap: 7px; color: var(--muted); font-size: 12px; }
 .inline-check input { width: auto; }
 .empty-state { padding: 18px; color: var(--muted); }

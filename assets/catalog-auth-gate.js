@@ -3,12 +3,13 @@
   if (!protectedPage) return;
 
   const CRM_BASE = 'https://crm.securesmart.tech';
-  window.SECURE_SMART_CATALOG_AUTH = { ready: false, allowed: false };
+  window.SECURE_SMART_CATALOG_AUTH = { ready: false, allowed: false, customer: null };
 
-  function emit(allowed) {
+  function emit(allowed, customer = null) {
     window.SECURE_SMART_CATALOG_AUTH.ready = true;
     window.SECURE_SMART_CATALOG_AUTH.allowed = !!allowed;
-    document.dispatchEvent(new CustomEvent('secure-smart-catalog-auth', { detail: { allowed: !!allowed } }));
+    window.SECURE_SMART_CATALOG_AUTH.customer = customer || null;
+    document.dispatchEvent(new CustomEvent('secure-smart-catalog-auth', { detail: { allowed: !!allowed, customer: customer || null } }));
   }
 
   function blocked() {
@@ -49,7 +50,7 @@
       const customer = await verifyCustomer(data?.session);
       if (!customer) return blocked();
       document.body.classList.add('catalog-auth-ready', 'catalog-authenticated');
-      emit(true);
+      emit(true, customer);
     } catch (_err) {
       blocked();
     }

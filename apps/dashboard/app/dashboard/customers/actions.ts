@@ -267,3 +267,31 @@ export async function deleteCustomerCompany(formData: FormData) {
   revalidatePath("/dashboard/customers");
   revalidatePath("/dashboard/orders");
 }
+export async function updateCustomerVip(formData: FormData) {
+  const profile = await assertAdmin();
+  const supabase = createServiceClient();
+  const companyId = String(formData.get("company_id") || "");
+  if (!companyId) throw new Error("Missing company id.");
+  const isVip = formData.get("is_vip") === "yes";
+  const vipLabel = clean(formData.get("vip_label")) || "VIP";
+  const vipNotes = clean(formData.get("vip_notes")) || null;
+
+  const { error } = await supabase
+    .from("companies")
+    .update({ is_vip: isVip, vip_label: vipLabel, vip_notes: vipNotes, updated_at: new Date().toISOString() })
+    .eq("id", companyId);
+  if (error) throw new Error(error.message);
+
+  await supabase.from("audit_logs").insert({
+    actor_user_id: profile.id,
+    action: "update_customer_vip_status",
+    entity_type: "company",
+    entity_id: companyId,
+    metadata: { is_vip: isVip, vip_label: vipLabel, vip_notes_present: Boolean(vipNotes) },
+  });
+
+  revalidatePath("/dashboard");
+  revalidatePath("/dashboard/customers");
+  revalidatePath("/dashboard/orders");
+}
+
