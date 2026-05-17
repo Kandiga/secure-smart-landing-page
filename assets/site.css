@@ -1446,3 +1446,49 @@ html,body{background:linear-gradient(180deg,var(--ss-ice),var(--ss-sky-weak) 52%
 /* Customer VIP pricing markers */
 .ct-vip-price-badge{display:inline-flex;width:max-content;margin:2px 0 3px;padding:3px 7px;border-radius:999px;border:1px solid rgba(215,180,87,.7);background:#fff5cf;color:#725100;font-size:11px;font-weight:900;letter-spacing:.02em;text-transform:uppercase}
 .ct-detail-buy-column.is-vip-priced .ct-price-label::after{content:' VIP';margin-inline-start:6px;color:#725100;font-weight:900}
+
+/* Netanel correction 2026-05-17: cart lives in the sticky header, not in the catalogue/search body. */
+.top .ct-header-cart{
+  position:relative!important;
+  display:inline-flex!important;
+  align-items:center!important;
+  justify-content:center!important;
+  width:auto!important;
+  margin:0!important;
+  flex:0 0 auto!important;
+  z-index:40!important;
+}
+.top .ct-header-cart .ct-cart-trigger{
+  min-height:50px!important;
+  min-width:138px!important;
+  padding:9px 16px!important;
+  border-radius:999px!important;
+  background:oklch(99% .004 235)!important;
+  border:1px solid oklch(82% .035 232)!important;
+  box-shadow:0 12px 28px oklch(35% .06 235/.12)!important;
+}
+.top .ct-header-cart .ct-cart-popover{
+  inset-inline-end:0!important;
+  inset-inline-start:auto!important;
+  top:calc(100% + 12px)!important;
+}
+.catalog-live .ct-trade-brief{
+  grid-template-columns:1fr!important;
+}
+.catalog-live .ct-trade-brief > .ct-cart-mini-header-style:not(.ct-header-cart),
+.ct-product-utility{
+  display:none!important;
+}
+@media(max-width:1180px){
+  .top .header-actions{gap:9px!important;max-width:calc(100vw - 150px)!important;}
+  .top .ct-header-cart .ct-cart-trigger{min-width:118px!important;padding-inline:12px!important;}
+}
+@media(max-width:760px){
+  .top .header-row{grid-template-columns:72px minmax(0,1fr)!important;min-height:92px!important;}
+  .top .header-actions{display:flex!important;justify-content:flex-end!important;gap:6px!important;flex-wrap:wrap!important;max-width:none!important;}
+  .top .ct-header-cart{order:2!important;}
+  .top .ct-header-cart .ct-cart-trigger{min-height:42px!important;min-width:94px!important;padding:6px 9px!important;font-size:12px!important;}
+  .top .ct-header-cart .ct-cart-trigger b{min-width:23px!important;height:23px!important;font-size:11px!important;}
+  .top .ct-header-cart .ct-cart-trigger em{font-size:11px!important;}
+  .top .ct-header-cart .ct-cart-popover{position:fixed!important;left:10px!important;right:10px!important;top:96px!important;width:auto!important;max-height:calc(100vh - 116px)!important;}
+}
