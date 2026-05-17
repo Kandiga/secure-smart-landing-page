@@ -94,6 +94,14 @@
     const t=[brand,cat,title,sku].join(' ');
     const slugs=new Set();
     const add=(slug)=>{slugs.add(slug); const parent=CATALOG_TREE.find(g=>g.slug===slug||g.children.some(c=>c.slug===slug)); if(parent) slugs.add(parent.slug);};
+    const explicitCategoryPath=()=>{
+      if(/\b(wifi|wi fi|wireless|lan \/ wifi)\b/.test(cat)){ add('wireless-access-points'); return true; }
+      if(/\bcables?\b|cables accessories/.test(cat)){ add('network-cables'); return true; }
+      if(/\bracks?\b|rack cabinets?|racks cabinets?/.test(cat)){ add('racks-enclosures'); return true; }
+      if(/\blan\b/.test(cat)){ add('ubiquiti-networks'); add('network-interfaces'); return true; }
+      return false;
+    };
+    if(explicitCategoryPath()) return [...slugs];
     const isAccessory=/accessor|accessory|mount|bracket|holder|rack mount|junction box|coupler|cover|kit|radome|shield|adapter|cable|patch|connector|keystone|spool/.test(t);
     const isLifeSmart=/lifesmart|life smart|sublime|defed|coss|cololight/.test(t);
     const isHuaweiSmartHome=/huawei/.test(brand)&&/ideahub|idea hub|camera|mic\b|microphone|speaker|display|smart screen|touch|meeting|conference|video|door access|intercom|sensor|home/.test(t);
