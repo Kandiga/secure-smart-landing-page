@@ -149,7 +149,7 @@ td.money, th.money { direction: ltr; text-align: left; font-variant-numeric: tab
 .order-admin-form label, .mini-danger-form label, .mini-vip-form label { display: grid; gap: 5px; color: var(--muted); font-size: 12px; font-weight: 900; }
 .order-admin-form input, .order-admin-form select, .mini-danger-form input, .mini-vip-form input, .danger-zone input { width: 100%; border: 1px solid var(--line); border-radius: 6px; padding: 10px; background: #fff; color: var(--text); direction: ltr; }
 .editable-lines { display: grid; gap: 10px; padding: 0 16px 16px; }
-.order-line-form { display: grid; grid-template-columns: minmax(190px, 1.2fr) 74px 112px 112px 150px minmax(170px, .9fr) minmax(210px, 1fr) auto; gap: 9px; align-items: end; border: 1px solid var(--line); background: #f7fbfd; border-radius: 8px; padding: 11px; }
+.order-line-form { display: grid; grid-template-columns: minmax(190px, 1.2fr) 74px 112px 112px minmax(145px, .8fr) 150px minmax(170px, .9fr) minmax(210px, 1fr) auto; gap: 9px; align-items: end; border: 1px solid var(--line); background: #f7fbfd; border-radius: 8px; padding: 11px; }
 .line-identity { display: grid; gap: 7px; }
 .line-math { display: flex; gap: 7px; flex-wrap: wrap; align-items: center; font-size: 12px; }
 .danger-zone { margin: 0 16px 16px; border: 1px solid #e1aaa4; background: #fff6f5; border-radius: 8px; padding: 12px; display: grid; grid-template-columns: 1fr minmax(140px, 220px) auto; gap: 10px; align-items: center; }

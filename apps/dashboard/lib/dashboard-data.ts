@@ -57,10 +57,11 @@ export type OrderRecord = {
     orderQuantity: number;
     customerUnitPrice: number;
     customerTotal: number;
-    purchaseUnitPrice: number;
-    purchaseTotal: number;
-    margin: number;
-    marginPct: number;
+    purchaseUnitPrice: number | null;
+    purchaseTotal: number | null;
+    margin: number | null;
+    marginPct: number | null;
+    purchaseCostKnown: boolean;
     stockStatus: OrderLine["stockStatus"];
     notes: string | null;
   }>;
@@ -437,9 +438,10 @@ function normalizeOrderRecords(data: any[]): { rows: OrderRecord[]; isMock: bool
       updatedAt: order.updated_at,
       items: items.map((item: any) => {
         const customerTotal = numberValue(item.customer_total);
-        const purchaseTotal = numberValue(item.purchase_total);
-        const margin = item.margin == null ? customerTotal - purchaseTotal : numberValue(item.margin);
-        const marginPct = item.margin_pct == null ? (customerTotal ? (margin / customerTotal) * 100 : 0) : numberValue(item.margin_pct);
+        const purchaseCostKnown = item.purchase_unit_price != null && item.purchase_total != null;
+        const purchaseTotal = purchaseCostKnown ? numberValue(item.purchase_total) : null;
+        const margin = purchaseCostKnown ? (item.margin == null ? customerTotal - (purchaseTotal ?? 0) : numberValue(item.margin)) : null;
+        const marginPct = purchaseCostKnown ? (item.margin_pct == null ? (customerTotal ? ((margin ?? 0) / customerTotal) * 100 : 0) : numberValue(item.margin_pct)) : null;
         return {
           id: item.id,
           sku: item.sku,
@@ -447,10 +449,11 @@ function normalizeOrderRecords(data: any[]): { rows: OrderRecord[]; isMock: bool
           orderQuantity: numberValue(item.order_quantity),
           customerUnitPrice: numberValue(item.customer_unit_price),
           customerTotal,
-          purchaseUnitPrice: numberValue(item.purchase_unit_price),
+          purchaseUnitPrice: item.purchase_unit_price == null ? null : numberValue(item.purchase_unit_price),
           purchaseTotal,
           margin,
-          marginPct: Math.round(marginPct * 100) / 100,
+          marginPct: marginPct == null ? null : Math.round(marginPct * 100) / 100,
+          purchaseCostKnown,
           stockStatus: normalizeStock(item.stock_status),
           notes: item.notes ?? null,
         };

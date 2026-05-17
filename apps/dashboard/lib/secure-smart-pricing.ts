@@ -1,7 +1,8 @@
 export const DEFAULT_SUPPLIER_NAME = "Discomp";
 export const PUBLIC_PRICE_MULTIPLIER = 1.29;
+export const LOW_PURCHASE_UNIT_RATIO = 0.15;
 
-function roundMoney(value: number) {
+export function roundMoney(value: number) {
   return Math.round((value + Number.EPSILON) * 100) / 100;
 }
 
@@ -12,6 +13,47 @@ export function numberValue(value: unknown) {
     return Number.isFinite(n) ? n : 0;
   }
   return 0;
+}
+
+export function parsePurchaseUnitInput(value: unknown) {
+  if (value == null) return null;
+  const raw = String(value).trim();
+  if (!raw) return null;
+  const n = Number(raw.replace(/[$,\s]/g, ""));
+  if (!Number.isFinite(n) || n < 0) return null;
+  return roundMoney(n);
+}
+
+export function validatePurchaseUnitForOrderEdit({
+  purchaseUnit,
+  customerUnit,
+  lowCostConfirmed = false,
+}: {
+  purchaseUnit: number | null;
+  customerUnit: number;
+  lowCostConfirmed?: boolean;
+}) {
+  if (purchaseUnit == null || purchaseUnit <= 0 || customerUnit <= 0) return;
+  const ratio = purchaseUnit / customerUnit;
+  if (ratio > 0 && ratio < LOW_PURCHASE_UNIT_RATIO && !lowCostConfirmed) {
+    throw new Error("Purchase unit cost is unusually low compared with the customer unit price. If this is intentional, tick the low-cost confirmation box and save again.");
+  }
+}
+
+export function orderLineMoney({
+  quantity,
+  customerUnit,
+  purchaseUnit,
+}: {
+  quantity: number;
+  customerUnit: number;
+  purchaseUnit: number | null;
+}) {
+  const customerTotal = roundMoney(quantity * customerUnit);
+  const purchaseTotal = purchaseUnit == null ? null : roundMoney(quantity * purchaseUnit);
+  const margin = purchaseTotal == null ? null : roundMoney(customerTotal - purchaseTotal);
+  const marginPct = purchaseTotal == null || !customerTotal ? null : Math.round(((customerTotal - purchaseTotal) / customerTotal) * 10000) / 100;
+  return { customerTotal, purchaseTotal, margin, marginPct };
 }
 
 export function purchaseUnitFromCustomer(customerUnitPrice: unknown) {

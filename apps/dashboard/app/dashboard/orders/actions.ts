@@ -2,7 +2,7 @@
 
 import { getAdminProfile } from "@/lib/dashboard-data";
 import { sendOpsEmail } from "@/lib/email-notifications";
-import { DEFAULT_SUPPLIER_NAME, invoiceTotalForAvailable, purchaseTotalOrFormula, purchaseUnitOrFormula } from "@/lib/secure-smart-pricing";
+import { DEFAULT_SUPPLIER_NAME, invoiceTotalForAvailable, orderLineMoney, parsePurchaseUnitInput, purchaseTotalOrFormula, purchaseUnitOrFormula, validatePurchaseUnitForOrderEdit } from "@/lib/secure-smart-pricing";
 import { createServiceClient } from "@/lib/supabase/server";
 import { revalidatePath } from "next/cache";
 
@@ -317,11 +317,13 @@ export async function updateOrderItem(formData: FormData) {
   if (!itemId || !orderId) throw new Error("Missing order item id.");
   const quantity = int(formData.get("order_quantity"));
   const customerUnit = num(formData.get("customer_unit_price"));
-  const purchaseUnit = num(formData.get("purchase_unit_price"));
-  const customerTotal = quantity * customerUnit;
-  const purchaseTotal = quantity * purchaseUnit;
-  const margin = customerTotal - purchaseTotal;
-  const marginPct = customerTotal ? (margin / customerTotal) * 100 : 0;
+  const purchaseUnit = parsePurchaseUnitInput(formData.get("purchase_unit_price"));
+  validatePurchaseUnitForOrderEdit({
+    purchaseUnit,
+    customerUnit,
+    lowCostConfirmed: formData.get("confirm_low_purchase_unit") === "yes",
+  });
+  const { customerTotal, purchaseTotal, margin, marginPct } = orderLineMoney({ quantity, customerUnit, purchaseUnit });
   const stockStatus = String(formData.get("stock_status") || "needs_purchase") as StockStatus;
   const notes = String(formData.get("notes") || "").trim() || null;
   const productTitle = String(formData.get("product_title") || "").trim() || null;
@@ -335,7 +337,7 @@ export async function updateOrderItem(formData: FormData) {
       purchase_unit_price: purchaseUnit,
       purchase_total: purchaseTotal,
       margin,
-      margin_pct: Math.round(marginPct * 100) / 100,
+      margin_pct: marginPct,
       stock_status: stockStatus,
       notes,
     })

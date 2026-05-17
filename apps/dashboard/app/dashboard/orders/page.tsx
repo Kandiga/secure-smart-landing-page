@@ -17,6 +17,14 @@ function statusLabel(value: string) {
   return value.replaceAll("_", " ").replace(/\b\w/g, (char) => char.toUpperCase());
 }
 
+function moneyOrPending(value: number | null) {
+  return value == null ? "Pending supplier cost" : money(value);
+}
+
+function pctOrPending(value: number | null) {
+  return value == null ? "pending" : `${value}%`;
+}
+
 function totals(rows: OrderRecord[]) {
   const customer = rows.reduce((sum, row) => sum + row.totalCustomerValue, 0);
   const purchase = rows.reduce((sum, row) => sum + row.totalPurchaseCost, 0);
@@ -86,7 +94,8 @@ export default async function OrdersPage() {
                   </div>
                   <label>Qty<input name="order_quantity" type="number" min="1" step="1" defaultValue={item.orderQuantity} /></label>
                   <label>Customer unit<input name="customer_unit_price" type="number" min="0" step="0.01" defaultValue={item.customerUnitPrice} /></label>
-                  <label>Purchase unit<input name="purchase_unit_price" type="number" min="0" step="0.01" defaultValue={item.purchaseUnitPrice} /></label>
+                  <label>Purchase unit<input name="purchase_unit_price" type="number" min="0" step="0.01" defaultValue={item.purchaseUnitPrice ?? ""} placeholder="Pending" /></label>
+                  <label className="inline-check"><input name="confirm_low_purchase_unit" type="checkbox" value="yes" /> Confirm unusually low supplier cost</label>
                   <label>Stock
                     <select name="stock_status" defaultValue={item.stockStatus}>
                       {stockStatuses.map((status) => <option value={status} key={status}>{stockLabel(status as any)}</option>)}
@@ -96,8 +105,8 @@ export default async function OrdersPage() {
                   <div className="line-math">
                     <span className={`chip ${stockClass(item.stockStatus)}`}>{stockLabel(item.stockStatus)}</span>
                     <strong>{money(item.customerTotal)} customer</strong>
-                    <strong>{money(item.purchaseTotal)} cost</strong>
-                    <strong>{money(item.margin)} · {item.marginPct}%</strong>
+                    <strong>{moneyOrPending(item.purchaseTotal)} cost</strong>
+                    <strong>{item.margin == null ? "Margin pending" : `${money(item.margin)} · ${pctOrPending(item.marginPct)}`}</strong>
                   </div>
                   <button className="btn" type="submit">Save line</button>
                 </form>
