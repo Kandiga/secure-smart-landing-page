@@ -145,10 +145,13 @@
     try{return JSON.parse(localStorage.getItem(CART_KEY)||'[]')||[];}catch{return [];}
   };
   async function submitOrderCart(panel,button){
+    if(panel.dataset.crmSubmitting==='true') return;
     const items=readCart().filter(item=>item && item.sku && Number(item.qty)>0);
     if(!items.length){ setStatus(panel,text.emptyCart,false); return; }
-    const old=button.textContent;
-    button.disabled=true; button.textContent=text.sending;
+    const old=button?.textContent || '';
+    panel.dataset.crmSubmitting='true';
+    if(button){ button.disabled=true; button.textContent=text.sending; }
+    else setStatus(panel,text.sending,true);
     const company=panel.querySelector('[name="company"]')?.value?.trim()||'';
     const contact=panel.querySelector('[name="contact"]')?.value?.trim()||'';
     const email=panel.querySelector('[name="email"]')?.value?.trim()||'';
@@ -177,18 +180,24 @@
       console.error('Secure Smart order request intake failed',error);
       setStatus(panel,text.orderFail,false);
     }finally{
-      button.disabled=false; button.textContent=old;
+      delete panel.dataset.crmSubmitting;
+      if(button){button.disabled=false; button.textContent=old;}
     }
   }
 
   function wireOrderCart(){
     const panel=document.querySelector('.ct-checkout-panel');
-    if(!panel) return;
-    const button=panel.querySelector('button');
-    if(!button) return;
+    if(!panel || panel.dataset.crmWired==='true') return;
     panel.dataset.crmWired='true';
-    button.dataset.crmSubmit='true';
+    const button=panel.querySelector('button');
+    if(button) button.dataset.crmSubmit='true';
   }
+
+  const confirmationsReady=(panel)=>{
+    const order=panel?.querySelector('[data-confirm-order]');
+    const terms=panel?.querySelector('[data-confirm-terms]');
+    return Boolean(order?.checked && terms?.checked);
+  };
 
   document.addEventListener('click',(event)=>{
     const button=event.target.closest?.('.ct-checkout-panel [data-crm-submit="true"]');
@@ -197,6 +206,14 @@
     if(!panel) return;
     event.preventDefault();
     submitOrderCart(panel,button);
+  });
+
+  document.addEventListener('change',(event)=>{
+    const input=event.target.closest?.('.ct-checkout-panel [data-confirm-order],.ct-checkout-panel [data-confirm-terms]');
+    if(!input) return;
+    const panel=input.closest('.ct-checkout-panel');
+    if(!panel || !confirmationsReady(panel)) return;
+    submitOrderCart(panel,panel.querySelector('[data-crm-submit="true"]'));
   });
 
   if(document.readyState==='loading') document.addEventListener('DOMContentLoaded',()=>{wireTradeForms(); wireOrderCart();});
