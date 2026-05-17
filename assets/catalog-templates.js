@@ -36,7 +36,7 @@
   const PRODUCT_DETAIL_MAP_URL='assets/catalog-data/product-detail-map.json';
   const catalogFetchCache={};
   const fetchJsonCached=(url)=>{
-    const versionedUrl=url.includes('?')?url+'&v=20260512-uacc-hdd-e-16tb':url+'?v=20260512-uacc-hdd-e-16tb';
+    const versionedUrl=url.includes('?')?url+'&v=20260517-lifesmart-carton-units':url+'?v=20260517-lifesmart-carton-units';
     if(!catalogFetchCache[url]) catalogFetchCache[url]=fetch(versionedUrl,{cache:'no-cache'}).then(res=>{ if(!res.ok) throw new Error('HTTP '+res.status); return res.json(); });
     return catalogFetchCache[url];
   };
