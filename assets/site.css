@@ -2212,3 +2212,43 @@ html:has(.marketing-video-page),body.marketing-video-page{background:#07111f!imp
   .ss-atlas-module.m2,.ss-atlas-module.m4{left:auto!important;right:14px!important}
   .ss-atlas-module b{white-space:nowrap!important;overflow:hidden!important;text-overflow:ellipsis!important;font-size:9.5px!important}
 }
+
+
+/* Mobile catalogue protected gate: align signed-out catalogue with the premium homepage language without exposing products. */
+.catalog-auth-ready.catalog-auth-required{background:#07111f!important;color:#f6fbff!important}
+.catalog-auth-ready.catalog-auth-required .top{background:linear-gradient(180deg,rgba(248,251,255,.96),rgba(241,250,253,.92))!important;border-bottom:1px solid rgba(10,67,91,.12)!important}
+.catalog-auth-ready.catalog-auth-required .ct-shell{min-height:calc(100svh - 86px);display:grid;align-items:center;padding:clamp(34px,7vw,82px) 0!important;background:radial-gradient(circle at 18% 0%,rgba(39,230,219,.17),transparent 34%),radial-gradient(circle at 92% 28%,rgba(242,198,129,.16),transparent 32%),linear-gradient(155deg,#07111f,#0b2032 58%,#081522)!important}
+.catalog-auth-ready .ct-auth-gate{position:relative;overflow:hidden;width:min(1040px,calc(100% - 28px))!important;margin:0 auto!important;padding:clamp(24px,5vw,54px)!important;border:1px solid rgba(154,255,247,.18)!important;border-radius:clamp(26px,4vw,42px)!important;background:linear-gradient(145deg,rgba(255,246,226,.10),rgba(5,16,28,.86) 46%,rgba(3,10,18,.94))!important;box-shadow:0 34px 92px rgba(0,0,0,.34)!important;color:#f6fbff!important}
+.catalog-auth-ready .ct-auth-gate:before{content:"";position:absolute;inset:-28% -18% auto auto;width:360px;height:360px;border-radius:50%;background:radial-gradient(circle,rgba(39,230,219,.18),transparent 62%);pointer-events:none}.catalog-auth-ready .ct-auth-gate:after{content:"";position:absolute;left:-90px;bottom:-120px;width:320px;height:320px;border-radius:50%;background:radial-gradient(circle,rgba(242,198,129,.16),transparent 65%);pointer-events:none}
+.catalog-auth-ready .ct-auth-gate>*{position:relative;z-index:1}.catalog-auth-ready .ct-auth-gate .ct-kicker{color:#f2c681!important;margin-bottom:14px!important;font-size:12px!important;letter-spacing:.16em!important}.catalog-auth-ready .ct-auth-gate .ct-kicker:before{background:#54f4e9!important;box-shadow:0 0 20px rgba(84,244,233,.5)!important}.catalog-auth-ready .ct-auth-gate h1{max-width:780px!important;margin:0 0 18px!important;color:#fff7e8!important;font-size:clamp(34px,5.4vw,68px)!important;line-height:.98!important;letter-spacing:-.06em!important}.catalog-auth-ready .ct-auth-gate p:not(.ct-kicker){max-width:620px!important;color:#cfe0ea!important;font-size:clamp(15px,1.4vw,19px)!important;line-height:1.58!important;font-weight:650!important}
+.catalog-auth-ready .ct-auth-gate-actions{display:flex!important;gap:12px!important;flex-wrap:wrap!important;margin-top:28px!important}.catalog-auth-ready .ct-auth-gate-actions .btn{display:inline-flex!important;align-items:center!important;justify-content:center!important;min-height:50px!important;padding:14px 22px!important;border-radius:999px!important;text-decoration:none!important;font-weight:950!important;letter-spacing:-.01em!important;border:1px solid rgba(154,255,247,.28)!important;background:rgba(20,55,66,.76)!important;color:#dffffb!important;box-shadow:0 16px 38px rgba(0,0,0,.18)!important}.catalog-auth-ready .ct-auth-gate-actions .btn.primary{background:linear-gradient(135deg,#64fff1,#22b8ff)!important;color:#04111b!important;border-color:transparent!important}
+@media(max-width:680px){
+  .catalog-auth-ready.catalog-auth-required .ct-shell{min-height:calc(100svh - 82px);padding:26px 0 34px!important;background:radial-gradient(circle at 16% 0%,rgba(39,230,219,.18),transparent 32%),linear-gradient(160deg,#07111f,#0d2638 62%,#081522)!important}
+  .catalog-auth-ready .ct-auth-gate{width:calc(100% - 22px)!important;padding:24px 18px!important;border-radius:26px!important}
+  .catalog-auth-ready .ct-auth-gate h1{font-size:clamp(30px,8.5vw,38px)!important;line-height:1!important;letter-spacing:-.055em!important}.catalog-auth-ready .ct-auth-gate p:not(.ct-kicker){font-size:14px!important;line-height:1.55!important}.catalog-auth-ready .ct-auth-gate-actions{display:grid!important;grid-template-columns:1fr!important;gap:10px!important;margin-top:22px!important}.catalog-auth-ready .ct-auth-gate-actions .btn{width:100%!important;min-height:48px!important;font-size:14px!important}
+  .catalog-auth-ready.catalog-auth-required .footer{background:linear-gradient(180deg,#dff4f8,#eaf7fb)!important}
+}
+
+
+/* Mobile registration consistency pass: keep the long form readable while matching the homepage/catalog premium direction. */
+@media(max-width:680px){
+  .registration-hero{background:radial-gradient(circle at 18% 0%,rgba(39,230,219,.16),transparent 32%),linear-gradient(160deg,#07111f,#0d2638 62%,#eef8f8 62%)!important;color:#f6fbff!important;padding:84px 0 20px!important}
+  .registration-hero .crumbs{color:#b9d6e4!important;font-size:12px!important}.registration-hero .eyebrow{color:#f2c681!important;font-size:11px!important;letter-spacing:.15em!important}.registration-hero h1{color:#fff7e8!important;font-size:clamp(31px,8.6vw,40px)!important;line-height:1!important;letter-spacing:-.055em!important}.registration-hero p:not(.eyebrow){color:#d5e5ed!important;font-size:14px!important;line-height:1.55!important}.registration-summary{background:linear-gradient(145deg,rgba(255,252,241,.96),rgba(231,248,244,.94))!important;border-radius:22px!important;padding:20px!important;box-shadow:0 22px 58px rgba(0,0,0,.18)!important}.registration-summary strong{font-size:24px!important;color:#0a314c!important}.registration-summary p{color:#28485c!important}
+  .registration-section{background:linear-gradient(180deg,#eef8f8,#f8f4eb 48%,#eef8f8)!important;padding-top:20px!important}.registration-form{border-radius:24px!important;overflow:hidden!important;background:linear-gradient(180deg,rgba(255,252,245,.98),rgba(247,253,250,.98))!important}.registration-form .form-intro{padding:24px 20px!important}.registration-form .form-intro h2{font-size:clamp(26px,7.4vw,34px)!important;line-height:1.02!important;letter-spacing:-.045em!important}.registration-form input,.registration-form select,.registration-form textarea{min-height:48px!important;border-radius:16px!important}.registration-form .form-block{padding:20px!important}.registration-form legend{font-size:20px!important;line-height:1.1!important}.role-card{border-radius:20px!important}.submit-panel{background:linear-gradient(135deg,rgba(39,230,219,.18),rgba(34,184,255,.32))!important}.registration-submit{border-radius:999px!important;min-height:50px!important;background:linear-gradient(135deg,#64fff1,#22b8ff)!important;color:#04111b!important}
+}
+
+
+/* Mobile QA blocker fixes for protected catalogue + registration readability. */
+@media(max-width:680px){
+  .catalog-auth-ready.catalog-auth-required .ct-shell{align-items:start!important;min-height:auto!important;padding:24px 0 28px!important}
+  .catalog-auth-ready .ct-auth-gate{margin-top:18px!important;margin-bottom:22px!important}
+  .registration-summary p{color:#28485c!important;opacity:1!important}.registration-summary strong{color:#082d46!important}.registration-form .submit-panel p{color:#08324d!important;opacity:1!important;font-weight:750!important}
+}
+
+
+/* Registration RC2 readability override: hero text rule must not wash out the approval card. */
+@media(max-width:680px){
+  .registration-hero .registration-summary p,
+  .registration-hero .registration-summary p:not(.eyebrow){color:#28485c!important;opacity:1!important;font-weight:650!important}
+  .registration-hero .registration-summary span{color:#15394e!important}.role-card legend,.role-card h3,.role-card strong{color:#0c2f49!important}
+}
