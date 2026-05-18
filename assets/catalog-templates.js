@@ -262,6 +262,57 @@
     if(grouped.length>=1) values=grouped;
     return values.slice(0,18);
   };
+  const catalogThemeKey='secureSmartCatalogTheme';
+  const applyCatalogTheme=(theme)=>{
+    const next=theme==='dark'?'dark':'light';
+    document.body?.setAttribute('data-catalog-theme',next);
+    document.querySelectorAll('[data-catalog-theme-toggle]').forEach(btn=>{
+      btn.setAttribute('aria-pressed',String(next==='dark'));
+      btn.querySelector('[data-theme-label]')?.replaceChildren(document.createTextNode(next==='dark'?'Dark mode':'Light mode'));
+    });
+  };
+  const initCatalogTheme=()=>{
+    const saved=localStorage.getItem(catalogThemeKey);
+    const prefersDark=window.matchMedia?.('(prefers-color-scheme: dark)').matches;
+    applyCatalogTheme(saved|| (prefersDark?'dark':'light'));
+  };
+  const renderCatalogExperience=(products)=>{
+    const hero=document.querySelector('.ct-trade-brief');
+    if(!hero||document.getElementById('catalogSystemDashboard')) return;
+    initCatalogTheme();
+    const total=products.length;
+    const brandCount=new Set(products.map(p=>brandSlug(p.brand||'Other'))).size;
+    const familyCount=new Set(products.map(p=>categorySlug(p))).size;
+    const inStock=products.filter(p=>/in stock/i.test(p.availability||'')).length;
+    const brandCounts=new Map();
+    products.forEach(p=>{const label=p.brand||'Other'; brandCounts.set(label,(brandCounts.get(label)||0)+1);});
+    const topBrands=[...brandCounts.entries()].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,5);
+    const dash=document.createElement('section');
+    dash.id='catalogSystemDashboard';
+    dash.className='ct-system-dashboard container';
+    dash.setAttribute('aria-label','Secure Smart catalogue system overview');
+    dash.innerHTML=`<div class="ct-system-copy"><p class="ct-system-eyebrow">Secure Smart command catalogue</p><h2>Trade-ready product navigation, pricing flow and technical catalogue in one workspace.</h2><p>Built for approved B2B accounts: brand-first drilldown, fast SKU search, quote-cart continuity, carton information and manufacturer-oriented product data — without exposing internal supplier costs.</p><div class="ct-system-actions"><button type="button" class="ct-theme-toggle" data-catalog-theme-toggle aria-pressed="false"><span aria-hidden="true" class="ct-theme-orb"></span><span data-theme-label>Light mode</span></button><span class="ct-system-note">Smooth UI mode is saved on this device</span></div></div><div class="ct-system-metrics" aria-label="Catalogue metrics"><div><span>${total.toLocaleString('en-US')}</span><b>live catalogue items</b></div><div><span>${brandCount.toLocaleString('en-US')}</span><b>approved brands</b></div><div><span>${familyCount.toLocaleString('en-US')}</span><b>mapped product families</b></div><div><span>${inStock.toLocaleString('en-US')}</span><b>currently marked in stock</b></div></div><div class="ct-system-stack"><b>Brand stack</b>${topBrands.map(([label,count])=>`<span>${escapeHtml(label)} <em>${count.toLocaleString('en-US')}</em></span>`).join('')}</div></section>`;
+    hero.insertAdjacentElement('afterend',dash);
+    const spotlight=document.createElement('section');
+    spotlight.id='catalogBrandSpotlight';
+    spotlight.className='ct-brand-spotlight container';
+    spotlight.setAttribute('aria-label','Featured Secure Smart brand ecosystems');
+    const countForBrand=(label)=>products.filter(p=>brandSlug(p.brand||'Other')===brandSlug(label)).length;
+    spotlight.innerHTML=`<div class="ct-spotlight-head"><p class="ct-system-eyebrow">Featured growth systems</p><h2>Two flagship ecosystems, presented before the SKU list.</h2><p>Secure Smart can lead with complete systems: LifeSmart for smart-home automation, and Ubiquiti for professional physical security, access control and infrastructure procurement.</p></div><div class="ct-spotlight-grid"><article class="ct-spotlight-card ct-spotlight-lifesmart"><span class="ct-spotlight-badge">LifeSmart ecosystem</span><h3>Complete smart-home platform</h3><p>Hubs, sensors, switches, curtain motors, lighting control and automation scenes — positioned as a coherent professional ecosystem before individual products.</p><div class="ct-spotlight-points"><span>Smart hubs</span><span>Sensors & scenes</span><span>Switching & curtains</span></div><button type="button" data-category-nav="brand:lifesmart">Open ${countForBrand('LifeSmart').toLocaleString('en-US')} LifeSmart items</button></article><article class="ct-spotlight-card ct-spotlight-ubiquiti"><span class="ct-spotlight-badge">UniFi Door Access</span><h3>Access control for doors, gates and elevators</h3><p>Official Ubiquiti framing: Starter Kits, Control Hubs, Readers & Intercom, Touch Pass, Protect integration and Identity mobile access.</p><div class="ct-spotlight-points"><span>Door Access</span><span>Intercom</span><span>Identity</span></div><div class="ct-spotlight-actions"><button type="button" data-category-nav="brand:ubiquiti">Open ${countForBrand('Ubiquiti').toLocaleString('en-US')} Ubiquiti items</button><a href="https://ui.com/door-access" target="_blank" rel="noopener">Official source</a></div></article><article class="ct-spotlight-card ct-spotlight-protect"><span class="ct-spotlight-badge">UniFi Protect</span><h3>Camera security, local NVR and AI operations</h3><p>Ubiquiti positions Protect as cameras, access devices, sensors, intercoms, storage and multi-site management with local recording and AI-enhanced workflows.</p><div class="ct-spotlight-points"><span>Cameras & NVR</span><span>AI detections</span><span>Multi-site</span></div><div class="ct-spotlight-actions"><button type="button" data-category-nav="brand:ubiquiti">Show Ubiquiti catalogue</button><a href="https://ui.com/camera-security" target="_blank" rel="noopener">Official source</a></div></article></div>`;
+    dash.insertAdjacentElement('afterend',spotlight);
+    dash.querySelector('[data-catalog-theme-toggle]')?.addEventListener('click',()=>{
+      const next=document.body?.getAttribute('data-catalog-theme')==='dark'?'light':'dark';
+      localStorage.setItem(catalogThemeKey,next);
+      applyCatalogTheme(next);
+    });
+    spotlight.querySelectorAll('[data-category-nav]').forEach(btn=>btn.addEventListener('click',()=>{
+      currentNavSelection=btn.dataset.categoryNav||'all';
+      renderDiscompNav(products);
+      filterCatalog();
+      document.getElementById('catalogDiscompNav')?.scrollIntoView({block:'start',behavior:'smooth'});
+    }));
+    applyCatalogTheme(document.body?.getAttribute('data-catalog-theme')||localStorage.getItem(catalogThemeKey)||'light');
+  };
   const renderDiscompNav=(products)=>{
     const main=document.querySelector('.ct-catalog-main'); if(!main) return;
     let nav=document.getElementById('catalogDiscompNav');
@@ -357,7 +408,7 @@
     const status=document.createElement('div'); status.className='ct-catalog-status'; { const ui=UI(); status.innerHTML=`<strong>${ui.loading}</strong> ${ui.loadingTail}`; } grid.before(status);
     try{
       const data=await fetchJsonCached(CATALOG_INDEX_URL).catch(()=>fetchJsonCached(CATALOG_FULL_FALLBACK_URL)); liveProducts=data.filter(p=>p&&p.title).map(p=>({brand:p.brand,sku:p.sku,title:p.title,category:p.category,availability:p.availability,unitPerCarton:p.unitPerCarton,warranty:p.warranty,displayPriceUsd:p.displayPriceUsd,fullCartonUnitPriceUsd:p.fullCartonUnitPriceUsd,imageUrl:p.imageUrl,cartonAvailable:p.cartonAvailable,detailPath:p.detailPath,specsSearch:p.specsSearch}));
-      updateSidebarFilters(liveProducts); renderDiscompNav(liveProducts); visibleProducts=liveProducts; { const ui=UI(); status.innerHTML=`<strong>${liveProducts.length.toLocaleString('en-US')} ${ui.loaded}</strong> ${ui.loadedTail}`; } filterCatalog();
+      updateSidebarFilters(liveProducts); renderCatalogExperience(liveProducts); renderDiscompNav(liveProducts); visibleProducts=liveProducts; { const ui=UI(); status.innerHTML=`<strong>${liveProducts.length.toLocaleString('en-US')} ${ui.loaded}</strong> ${ui.loadedTail}`; } filterCatalog();
     }catch(err){status.innerHTML='<strong>Catalogue data could not load.</strong> Showing the static fallback list.'; filterCatalog();}
   }
   const knownPriceIndex=()=>{const map={}; document.querySelectorAll('[data-add-cart][data-sku]').forEach(btn=>{const sku=btn.dataset.sku||''; if(!sku) return; map[sku]={unit:Number(btn.dataset.unitPrice||0),carton:Number(btn.dataset.cartonPrice||btn.dataset.unitPrice||0),name:btn.dataset.name||'',brand:btn.dataset.brand||''};}); return map;};
