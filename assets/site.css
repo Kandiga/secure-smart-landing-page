@@ -2289,3 +2289,71 @@ html:has(.marketing-video-page),body.marketing-video-page{background:#07111f!imp
   .ss-home-vendor-ticker{margin-top:0!important;padding-top:14px!important}.ss-home-vendor-ticker .vendor-track{animation-duration:19s!important}.ss-home-vendor-ticker .vendor-logo{height:62px!important;background:linear-gradient(180deg,rgba(255,255,255,.14),rgba(9,33,48,.92))!important}
 }
 @media(max-width:380px){.ss-atlas-seq{min-height:910px!important}.ss-atlas-module.m1,.ss-atlas-module.m2{top:63%!important}.ss-atlas-module.m3,.ss-atlas-module.m4{top:72%!important}}
+
+
+/* Netanel correction: real mobile scroll-frame parallax, not decorative breathing. */
+@media(max-width:680px){
+  .ss-atlas-seq{height:190svh!important;min-height:1320px!important;max-height:none!important;--m1:var(--atlas-m1,0);--m2:var(--atlas-m2,0);--m3:var(--atlas-m3,0);--m4:var(--atlas-m4,0)}
+  .ss-atlas-stage{overflow:hidden!important;contain:paint!important}
+  .ss-atlas-media{animation:none!important;opacity:calc(.82 + var(--atlas-p,0)*.18)!important;transform:translate3d(calc(var(--atlas-p,0)*-28px),calc(var(--atlas-p,0)*-34px),0) scale(calc(1.04 + var(--atlas-p,0)*.13))!important;transition:none!important}
+  .ss-atlas-media img,.ss-atlas-media video{filter:saturate(calc(1.08 + var(--atlas-p,0)*.18)) contrast(calc(1.06 + var(--atlas-p,0)*.10)) brightness(calc(.84 + var(--atlas-p,0)*.18))!important}
+  .ss-atlas-energy{opacity:calc(.18 + var(--atlas-energy,0)*.82)!important;transform:translate3d(calc(-16px - var(--atlas-p,0)*34px),calc(var(--atlas-p,0)*-22px),0) scale(calc(1.18 + var(--atlas-p,0)*.28))!important;transition:none!important}
+  .ss-atlas-orbit{animation:none!important;opacity:calc(.16 + var(--atlas-energy,0)*.70)!important;transform:translate3d(calc(var(--atlas-p,0)*-18px),calc(var(--atlas-p,0)*-16px),0) scale(calc(.94 + var(--atlas-energy,0)*.14))!important}
+  .ss-atlas-copy{transform:translate3d(0,calc(var(--atlas-p,0)*-48px),0) scale(calc(1 - var(--atlas-p,0)*.035))!important;opacity:calc(1 - var(--atlas-p,0)*.34)!important}
+  .ss-atlas-cue{opacity:calc(1 - var(--atlas-p,0)*1.45)!important;transform:translateY(calc(var(--atlas-p,0)*-14px))!important}
+  .ss-atlas-module{animation:none!important;transition:none!important;will-change:transform,opacity!important;opacity:.08!important;filter:saturate(.92)!important}
+  .ss-atlas-module.m1{top:53%!important;left:14px!important;right:auto!important;opacity:calc(.08 + var(--m1)*.92)!important;transform:translate3d(calc((1 - var(--m1))*-42px),calc((1 - var(--m1))*22px),0) scale(calc(.78 + var(--m1)*.22))!important;box-shadow:0 0 calc(8px + var(--m1)*34px) rgba(39,230,219,.20)!important}
+  .ss-atlas-module.m2{top:61%!important;left:auto!important;right:14px!important;opacity:calc(.08 + var(--m2)*.92)!important;transform:translate3d(calc((1 - var(--m2))*42px),calc((1 - var(--m2))*22px),0) scale(calc(.78 + var(--m2)*.22))!important;box-shadow:0 0 calc(8px + var(--m2)*34px) rgba(39,230,219,.20)!important}
+  .ss-atlas-module.m3{top:69%!important;left:14px!important;right:auto!important;opacity:calc(.08 + var(--m3)*.92)!important;transform:translate3d(calc((1 - var(--m3))*-42px),calc((1 - var(--m3))*22px),0) scale(calc(.78 + var(--m3)*.22))!important;box-shadow:0 0 calc(8px + var(--m3)*34px) rgba(39,230,219,.20)!important}
+  .ss-atlas-module.m4{top:77%!important;left:auto!important;right:14px!important;opacity:calc(.08 + var(--m4)*.92)!important;transform:translate3d(calc((1 - var(--m4))*42px),calc((1 - var(--m4))*22px),0) scale(calc(.78 + var(--m4)*.22))!important;box-shadow:0 0 calc(8px + var(--m4)*34px) rgba(242,198,129,.17)!important}
+  .ss-atlas-seq[data-frame="0"] .ss-atlas-module{pointer-events:none}.ss-atlas-seq[data-frame="1"] .ss-atlas-module.m1,.ss-atlas-seq[data-frame="2"] .ss-atlas-module.m2,.ss-atlas-seq[data-frame="3"] .ss-atlas-module.m3,.ss-atlas-seq[data-frame="4"] .ss-atlas-module.m4{border-color:rgba(154,255,247,.58)!important;background:linear-gradient(145deg,rgba(28,85,100,.94),rgba(5,20,32,.88))!important}
+  .ss-atlas-rail{opacity:calc(.12 + var(--atlas-m4,0)*.78)!important;transform:translateY(calc((1 - var(--atlas-m4,0))*22px))!important}
+  .ss-home-vendor-ticker{margin-top:-1px!important}
+}
+@media(max-width:380px){.ss-atlas-seq{min-height:1260px!important}.ss-atlas-module.m1{top:54%!important}.ss-atlas-module.m2{top:62%!important}.ss-atlas-module.m3{top:70%!important}.ss-atlas-module.m4{top:78%!important}}
+
+
+/* Mobile scroll-frame RC2: remove cue overlap, keep all parallax frames inside a designed stage, fill final frame. */
+@media(max-width:680px){
+  .ss-atlas-seq{height:165svh!important;min-height:1180px!important;max-height:1280px!important}
+  .ss-atlas-stage{height:100svh!important;min-height:852px!important;max-height:920px!important}
+  .ss-atlas-copy{top:22%!important;opacity:calc(1 - var(--atlas-p,0)*1.05)!important;transform:translate3d(0,calc(var(--atlas-p,0)*-82px),0) scale(calc(1 - var(--atlas-p,0)*.055))!important}
+  .ss-atlas-cue{opacity:calc(1 - var(--atlas-p,0)*3.2)!important;transform:translateY(calc(var(--atlas-p,0)*-28px))!important;pointer-events:none!important}
+  .ss-atlas-module{height:52px!important;max-height:52px!important;z-index:10!important}
+  .ss-atlas-module.m1{top:47%!important}.ss-atlas-module.m2{top:56%!important}.ss-atlas-module.m3{top:65%!important}.ss-atlas-module.m4{top:74%!important}
+  .ss-atlas-rail{bottom:34px!important;opacity:calc(.05 + var(--atlas-m4,0)*.90)!important}
+  .ss-atlas-stage:after{height:34vh!important;background:linear-gradient(0deg,#020912,rgba(2,9,18,.78) 38%,rgba(2,9,18,0))!important;z-index:6!important}
+  .ss-atlas-quote{display:block!important;z-index:11!important;left:14px!important;right:14px!important;bottom:116px!important;width:auto!important;max-width:none!important;padding:15px 16px!important;border-radius:20px!important;background:linear-gradient(145deg,rgba(9,33,48,.92),rgba(3,12,22,.90))!important;border:1px solid rgba(154,255,247,.22)!important;box-shadow:0 18px 48px rgba(0,0,0,.26)!important;opacity:calc(var(--atlas-m4,0)*.92)!important;transform:translateY(calc((1 - var(--atlas-m4,0))*18px))!important;pointer-events:none!important}
+  .ss-atlas-quote h2{font-size:18px!important;line-height:1.04!important;letter-spacing:-.035em!important;margin:0 0 5px!important;color:#f6fbff!important}.ss-atlas-quote p{display:none!important}.ss-atlas-quote .ss-atlas-eyebrow{display:none!important}.ss-atlas-actions{display:none!important}
+  .ss-atlas-seq[data-frame="4"] .ss-atlas-media{opacity:1!important}.ss-atlas-seq[data-frame="4"] .ss-atlas-energy{opacity:.95!important}
+}
+@media(max-width:380px){.ss-atlas-stage{min-height:820px!important}.ss-atlas-module.m1{top:48%!important}.ss-atlas-module.m2{top:57%!important}.ss-atlas-module.m3{top:66%!important}.ss-atlas-module.m4{top:75%!important}.ss-atlas-quote{bottom:108px!important}}
+
+
+/* Mobile scroll-frame RC3: the intro cue belongs only to frame 0; later frames are clean system cards. */
+@media(max-width:680px){
+  .ss-atlas-seq:not([data-frame="0"]) .ss-atlas-cue{opacity:0!important;visibility:hidden!important;transform:translateY(-18px)!important}
+  .ss-atlas-seq[data-frame="0"] .ss-atlas-cue{opacity:1!important;visibility:visible!important}
+  .ss-atlas-seq[data-frame="2"] .ss-atlas-copy,.ss-atlas-seq[data-frame="3"] .ss-atlas-copy,.ss-atlas-seq[data-frame="4"] .ss-atlas-copy{opacity:.18!important;filter:blur(.2px)!important}
+  .ss-atlas-seq[data-frame="3"] .ss-atlas-copy,.ss-atlas-seq[data-frame="4"] .ss-atlas-copy{opacity:.08!important}
+}
+
+
+/* Mobile scroll-frame RC4: once frame 1 starts, hero copy becomes background, not competing text. */
+@media(max-width:680px){
+  .ss-atlas-seq[data-frame="1"] .ss-atlas-copy{opacity:.30!important;filter:blur(.15px)!important}
+  .ss-atlas-module.m1{top:51%!important}.ss-atlas-module.m2{top:59%!important}.ss-atlas-module.m3{top:67%!important}.ss-atlas-module.m4{top:75%!important}
+}
+@media(max-width:380px){.ss-atlas-module.m1{top:52%!important}.ss-atlas-module.m2{top:60%!important}.ss-atlas-module.m3{top:68%!important}.ss-atlas-module.m4{top:76%!important}}
+
+
+/* Mobile scroll-frame RC5: active frame card is strong; final summary replaces the catalogue chip to avoid overlap. */
+@media(max-width:680px){
+  .ss-atlas-seq[data-frame="1"] .ss-atlas-module.m1,
+  .ss-atlas-seq[data-frame="2"] .ss-atlas-module.m2,
+  .ss-atlas-seq[data-frame="3"] .ss-atlas-module.m3{opacity:1!important;filter:saturate(1.18)!important;box-shadow:0 16px 42px rgba(39,230,219,.22),0 0 38px rgba(39,230,219,.18)!important}
+  .ss-atlas-seq[data-frame="4"] .ss-atlas-module.m4{opacity:0!important;visibility:hidden!important}
+  .ss-atlas-seq[data-frame="4"] .ss-atlas-module.m1,
+  .ss-atlas-seq[data-frame="4"] .ss-atlas-module.m2,
+  .ss-atlas-seq[data-frame="4"] .ss-atlas-module.m3{opacity:1!important;filter:saturate(1.12)!important}
+}

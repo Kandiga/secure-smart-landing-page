@@ -9,7 +9,7 @@
   <meta property="og:description" content="Secure Smart is a B2B trade-account gateway for professional networking, security and smart infrastructure procurement across selected brands.">
   <meta property="og:url" content="https://securesmart.tech/">
   <meta property="og:image" content="https://securesmart.tech/assets/brand/secure-smart-logo-header.webp">
-  <meta name="twitter:card" content="summary_large_image"><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700;800&amp;family=Sora:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="assets/brand/secure-smart-favicon.png" rel="icon" type="image/png"/><link href="assets/site.css?v=20260518-mobile-parallax-brands" rel="stylesheet"/>
+  <meta name="twitter:card" content="summary_large_image"><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700;800&amp;family=Sora:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="assets/brand/secure-smart-favicon.png" rel="icon" type="image/png"/><link href="assets/site.css?v=20260518-mobile-frame-parallax" rel="stylesheet"/>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -140,14 +140,25 @@
     var split=smooth(clamp((p-.04)/.44,0,1));
     var labels=smooth(clamp((p-.18)/.36,0,1));
     var quote=smooth(clamp((p-.52)/.24,0,1));
-    var energy=smooth(clamp((p-.28)/.28,0,1));
+    var energy=smooth(clamp((p-.20)/.30,0,1));
     var locked=p>.62?1:0;
+    var m1=smooth(clamp((p-.10)/.16,0,1));
+    var m2=smooth(clamp((p-.22)/.16,0,1));
+    var m3=smooth(clamp((p-.34)/.16,0,1));
+    var m4=smooth(clamp((p-.46)/.16,0,1));
+    var frame=p<.16?0:p<.29?1:p<.42?2:p<.55?3:4;
     root.style.setProperty('--atlas-p',p.toFixed(4));
     root.style.setProperty('--atlas-split',split.toFixed(4));
     root.style.setProperty('--atlas-copy-away',smooth(clamp((p-.18)/.28,0,1)).toFixed(4));
     root.style.setProperty('--atlas-labels',labels.toFixed(4));
     root.style.setProperty('--atlas-quote',quote.toFixed(4));
     root.style.setProperty('--atlas-energy',energy.toFixed(4));
+    root.style.setProperty('--atlas-m1',m1.toFixed(4));
+    root.style.setProperty('--atlas-m2',m2.toFixed(4));
+    root.style.setProperty('--atlas-m3',m3.toFixed(4));
+    root.style.setProperty('--atlas-m4',m4.toFixed(4));
+    root.style.setProperty('--atlas-frame',frame);
+    seq.dataset.frame=String(frame);
     root.style.setProperty('--atlas-lock',locked);
   }
   function request(){ if(!ticking){ ticking=true; requestAnimationFrame(update); } }
