@@ -303,11 +303,21 @@
     }
     const logoForBrand=(node)=>{const n=normalizeText(node?.label||''); const src=/lifesmart|life smart/.test(n)?'assets/brands/lifesmart-logo.svg':/huawei/.test(n)?'assets/brands/huawei-logo.svg':/teltonika/.test(n)?'assets/brands/teltonika-networks-logo.svg':/rf elements/.test(n)?'assets/brands/rf-elements-logo.png':/aqara/.test(n)?'assets/brands/aqara-logo.svg':''; return src?`<img alt="${safeAttr(node.label)} logo" src="${src}" loading="lazy"/>`:`<span>${escapeHtml((node?.label||'SS').trim().slice(0,2).toUpperCase())}</span>`;};
     const crumbs=[];
-    crumbs.push(`<button type="button" data-category-nav="all">Catalog</button>`);
-    if(selectedBrandNode) crumbs.push(`<span>/</span><button type="button" data-category-nav="brand:${safeAttr(selectedBrandNode.slug)}">${escapeHtml(selectedBrandNode.label)}</button>`);
-    if(selectedPrimary) crumbs.push(`<span>/</span><button type="button" data-category-nav="brandprimary:${safeAttr(selectedBrand)}:${safeAttr(selectedPrimary)}">${escapeHtml(categoryLabelBySlug[selectedPrimary]||'Category')}</button>`);
+    let lastCrumbLabel='';
+    const pushCrumb=(label,value)=>{
+      const cleanLabel=String(label||'').trim();
+      if(!cleanLabel) return;
+      const normalized=normalizeText(cleanLabel);
+      if(normalized&&normalized===lastCrumbLabel) return;
+      if(crumbs.length) crumbs.push('<span>/</span>');
+      crumbs.push(`<button type="button" data-category-nav="${safeAttr(value)}">${escapeHtml(cleanLabel)}</button>`);
+      lastCrumbLabel=normalized;
+    };
+    pushCrumb('Catalog','all');
+    if(selectedBrandNode) pushCrumb(selectedBrandNode.label,`brand:${selectedBrandNode.slug}`);
+    if(selectedPrimary) pushCrumb(categoryLabelBySlug[selectedPrimary]||'Category',`brandprimary:${selectedBrand}:${selectedPrimary}`);
     if(selectedType==='brandpath'){
-      const acc=[]; selectedPath.split('~').filter(Boolean).forEach(slug=>{acc.push(slug); crumbs.push(`<span>/</span><button type="button" data-category-nav="${safeAttr(`brandpath:${selectedBrand}:${selectedPrimary}:${acc.join('~')}`)}">${escapeHtml(slug.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()))}</button>`);});
+      const acc=[]; selectedPath.split('~').filter(Boolean).forEach(slug=>{acc.push(slug); pushCrumb(slug.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()),`brandpath:${selectedBrand}:${selectedPrimary}:${acc.join('~')}`);});
     }
     const parentNav=(()=>{
       if(currentNavSelection==='all') return '';
