@@ -3,6 +3,7 @@
   const TRADE_ENDPOINT=`${CRM_BASE}/api/intake/trade-application`;
   const REGISTRATION_EVENT_ENDPOINT=`${CRM_BASE}/api/intake/registration-event`;
   const ORDER_REQUEST_ENDPOINT=`${CRM_BASE}/api/intake/order-request`;
+  const CUSTOMER_ACTIVITY_ENDPOINT=`${CRM_BASE}/api/customer/activity`;
   const CART_KEY='secureSmartTemplateCart';
   const REG_SESSION_KEY='secureSmartRegistrationSession';
 
@@ -141,13 +142,50 @@
     });
   }
 
+  async function customerActivityHeaders(){
+    try{
+      return window.SecureSmartCustomerAuth?.signedOrderRequestHeaders ? await window.SecureSmartCustomerAuth.signedOrderRequestHeaders() : {};
+    }catch{return {};}
+  }
+
+  async function trackOrderActivity(event,details={}){
+    try{
+      if(window.SecureSmartCustomerAuth?.trackCustomerActivity){
+        await window.SecureSmartCustomerAuth.trackCustomerActivity(event,{context:details.context||{},error:details.error||{}});
+        return;
+      }
+      const headers=await customerActivityHeaders();
+      fetch(CUSTOMER_ACTIVITY_ENDPOINT,{
+        method:'POST',mode:'cors',keepalive:true,
+        headers:{'Content-Type':'application/json',...headers},
+        body:JSON.stringify({event,pageUrl:location.href,referrer:document.referrer||'',language:document.documentElement.lang||'en',context:details.context||{},error:details.error||{}})
+      }).catch(()=>{});
+    }catch{}
+  }
+
+  const cartSummary=(items)=>({
+    itemCount:items.length,
+    unitCount:items.reduce((sum,item)=>sum+(Number(item.qty)||0),0),
+    cartValue:Math.round(items.reduce((sum,item)=>sum+((Number(item.lineTotal)||((Number(item.unitPrice)||0)*(Number(item.qty)||0)))),0))
+  });
+
   const readCart=()=>{
     try{return JSON.parse(localStorage.getItem(CART_KEY)||'[]')||[];}catch{return [];}
   };
   async function submitOrderCart(panel,button){
     if(panel.dataset.crmSubmitting==='true') return;
     const items=readCart().filter(item=>item && item.sku && Number(item.qty)>0);
-    if(!items.length){ setStatus(panel,text.emptyCart,false); return; }
+    const summary=cartSummary(items);
+    if(!items.length){
+      setStatus(panel,text.emptyCart,false);
+      trackOrderActivity('order_submit_failed',{context:{...summary,reason:'empty_cart'},error:{message:'Customer attempted to submit an empty cart'}});
+      return;
+    }
+    if(!confirmationsReady(panel)){
+      setStatus(panel,'Tick both confirmation boxes to submit this order to Secure Smart.',false);
+      trackOrderActivity('order_submit_failed',{context:{...summary,reason:'confirmations_missing'},error:{message:'Customer attempted to submit before confirming order terms'}});
+      return;
+    }
     const old=button?.textContent || '';
     panel.dataset.crmSubmitting='true';
     if(button){ button.disabled=true; button.textContent=text.sending; }
@@ -157,7 +195,8 @@
     const email=panel.querySelector('[name="email"]')?.value?.trim()||'';
     const notes=panel.querySelector('[name="notes"]')?.value?.trim()||'';
     try{
-      const authHeaders = window.SecureSmartCustomerAuth?.signedOrderRequestHeaders ? await window.SecureSmartCustomerAuth.signedOrderRequestHeaders() : {};
+      const authHeaders = await customerActivityHeaders();
+      await trackOrderActivity('order_submit_attempt',{context:{...summary,authenticated:Boolean(authHeaders.Authorization)}});
       const response=await fetch(ORDER_REQUEST_ENDPOINT,{
         method:'POST',mode:'cors',headers:{'Content-Type':'application/json',...authHeaders},
         body:JSON.stringify({
@@ -171,13 +210,17 @@
           }))
         })
       });
-      if(!response.ok) throw new Error(`HTTP ${response.status}`);
+      let result=null;
+      try{ result=await response.clone().json(); }catch{}
+      if(!response.ok) throw new Error(result?.error||`HTTP ${response.status}`);
+      await trackOrderActivity('order_submit_success',{context:{...summary,authenticated:Boolean(authHeaders.Authorization),orderNumber:result?.orderNumber||'',receivedItems:Number(result?.receivedItems||summary.itemCount)}});
       localStorage.removeItem(CART_KEY);
       document.dispatchEvent(new StorageEvent('storage',{key:CART_KEY}));
       setStatus(panel,text.orderOk,true);
       setTimeout(()=>{ window.location.href='/thanks.html'; },900);
     }catch(error){
       console.error('Secure Smart order request intake failed',error);
+      trackOrderActivity('order_submit_failed',{context:summary,error:{message:error?.message||'Order request intake failed'}});
       setStatus(panel,text.orderFail,false);
     }finally{
       delete panel.dataset.crmSubmitting;

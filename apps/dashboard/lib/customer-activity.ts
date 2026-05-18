@@ -6,6 +6,9 @@ export const CUSTOMER_ACTIVITY_EVENTS = [
   "profile_password_changed",
   "password_reset_requested",
   "account_loaded",
+  "order_submit_attempt",
+  "order_submit_success",
+  "order_submit_failed",
 ] as const;
 
 type CustomerActivityEvent = typeof CUSTOMER_ACTIVITY_EVENTS[number];
@@ -106,11 +109,14 @@ export function eventLabel(event: CustomerActivityEvent) {
     profile_password_changed: "Customer password changed",
     password_reset_requested: "Customer password reset requested",
     account_loaded: "Customer account loaded",
+    order_submit_attempt: "Customer order submit attempt",
+    order_submit_success: "Customer order submitted",
+    order_submit_failed: "Customer order submit failed",
   }[event];
 }
 
 export function shouldEmailCustomerActivity(event: CustomerActivityEvent) {
-  return event !== "account_loaded";
+  return event !== "account_loaded" && event !== "order_submit_success";
 }
 
 export function buildCustomerActivityAuditRow(

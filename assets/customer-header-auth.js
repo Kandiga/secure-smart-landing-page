@@ -6,9 +6,19 @@
   if (!loginLink || !actions || !window.supabase || !cfg.url || !cfg.anonKey) return;
 
   const CRM_BASE = 'https://crm.securesmart.tech';
+  const HOME_PANEL_ID = 'secureSmartCustomerHomePanel';
   const supabase = window.supabase.createClient(cfg.url, cfg.anonKey, {
     auth: { persistSession: true, autoRefreshToken: true, detectSessionInUrl: false }
   });
+
+  function isHomePage() {
+    const path = location.pathname.split('/').pop() || 'index.html';
+    return path === 'index.html' || path === '';
+  }
+
+  function escapeHtml(value) {
+    return String(value ?? '').replace(/[&<>"']/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;', "'": '&#39;' }[ch]));
+  }
 
   function customerLabel(customer) {
     const company = customer?.company?.name;
@@ -31,6 +41,34 @@
     return link;
   }
 
+  function removeHomePanel() {
+    document.getElementById(HOME_PANEL_ID)?.remove();
+  }
+
+  function ensureHomePanel(customer) {
+    if (!isHomePage()) return;
+    let panel = document.getElementById(HOME_PANEL_ID);
+    if (!panel) {
+      panel = document.createElement('section');
+      panel.id = HOME_PANEL_ID;
+      panel.className = 'customer-home-panel';
+      const main = document.querySelector('main');
+      const anchor = main?.querySelector('.hero,.ss-atlas-seq,.brand-statement') || main?.firstElementChild;
+      if (anchor?.parentNode) anchor.parentNode.insertBefore(panel, anchor.nextSibling);
+      else document.querySelector('.top')?.insertAdjacentElement('afterend', panel);
+    }
+    const company = customer?.company?.name || '';
+    const label = company ? `Signed in as ${escapeHtml(company)}` : 'Signed in to your Secure Smart account';
+    panel.innerHTML = `
+      <div class="container customer-home-panel-inner">
+        <div><strong>${label}</strong><span>Open your profile, review recent orders, or continue back to the trade catalogue.</span></div>
+        <nav aria-label="Customer shortcuts">
+          <a href="customer-account.html">Open profile</a>
+          <a href="catalog-template.html" class="primary">Back to catalog</a>
+        </nav>
+      </div>`;
+  }
+
   function showSignedOut() {
     loginLink.textContent = 'Login';
     loginLink.href = 'customer-login.html';
@@ -39,6 +77,7 @@
     if (registerLink) registerLink.hidden = false;
     actions.querySelector('[data-customer-header-catalog]')?.remove();
     actions.querySelector('[data-customer-header-logout]')?.remove();
+    removeHomePanel();
   }
 
   function showSignedIn(customer) {
@@ -62,6 +101,7 @@
       });
       actions.appendChild(button);
     }
+    ensureHomePanel(customer);
   }
 
   async function currentCustomer(session) {

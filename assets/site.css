@@ -2061,3 +2061,14 @@ html,body{background:linear-gradient(180deg,var(--ss-ice),var(--ss-sky-weak) 52%
   .catalog-live .ct-toolbar,.catalog-live .ct-view-toggle{gap:8px!important}.catalog-live .ct-view-toggle button{min-height:42px!important;padding-inline:12px!important}
   .catalog-live .footer-grid{grid-template-columns:1fr!important;gap:18px!important}.catalog-live .footer{font-size:14px!important}
 }
+
+
+/* Customer signed-in homepage shortcuts */
+.customer-home-panel{padding:0 0 18px;background:linear-gradient(180deg,oklch(97% .008 235),oklch(93.5% .025 232));}
+.customer-home-panel-inner{display:flex;align-items:center;justify-content:space-between;gap:16px;background:oklch(99.4% .003 253);border:1px solid var(--ss-line,var(--line));box-shadow:0 12px 30px oklch(20% .025 253/.08);border-radius:18px;padding:16px 18px;}
+.customer-home-panel strong{display:block;color:var(--ss-blue-text,var(--navy));font-size:18px;}
+.customer-home-panel span{display:block;color:var(--muted);margin-top:3px;}
+.customer-home-panel nav{display:flex;gap:10px;flex-wrap:wrap;}
+.customer-home-panel a{display:inline-flex;align-items:center;justify-content:center;min-height:42px;padding:0 16px;border-radius:999px;border:1px solid var(--ss-line,var(--line));background:oklch(96% .02 232);color:var(--ss-blue-text,var(--navy));font-weight:900;text-decoration:none;}
+.customer-home-panel a.primary{background:var(--ss-blue,var(--blue));color:white;}
+@media(max-width:680px){.customer-home-panel{padding:10px 0 14px}.customer-home-panel-inner{display:grid;padding:14px;border-radius:14px}.customer-home-panel nav{display:grid;grid-template-columns:1fr 1fr}.customer-home-panel a{padding:0 12px;font-size:13px}}
