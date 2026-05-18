@@ -309,9 +309,20 @@
     if(selectedType==='brandpath'){
       const acc=[]; selectedPath.split('~').filter(Boolean).forEach(slug=>{acc.push(slug); crumbs.push(`<span>/</span><button type="button" data-category-nav="${safeAttr(`brandpath:${selectedBrand}:${selectedPrimary}:${acc.join('~')}`)}">${escapeHtml(slug.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()))}</button>`);});
     }
-    const tabs=brands.map(b=>`<button type="button" data-category-nav="brand:${safeAttr(b.slug)}" class="ct-brand-tab ${selectedBrand===b.slug?'is-active':''}">${logoForBrand(b)}<b>${escapeHtml(b.label)}</b><small>${b.count.toLocaleString('en-US')}</small></button>`).join('');
-    const tileMarkup=tiles.length?tiles.map(tile=>{const bnode=brandBySlug[tile.brandSlug]; const icon=tile.type==='brand'?logoForBrand(bnode):`<span>${escapeHtml(iconForLabel(tile.label))}</span>`; return `<button type="button" data-category-nav="${safeAttr(tile.value)}" class="ct-discomp-tile ${tile.value===currentNavSelection?'is-active':''}">${icon}<b>${escapeHtml(tile.label)}</b><small>${tile.count.toLocaleString('en-US')} items</small></button>`;}).join(''):`<div class="ct-discomp-empty">No deeper sub-category level is available for this brand branch.</div>`;
-    nav.innerHTML=`<div class="ct-discomp-tabs ct-brand-tabs">${tabs}</div><nav class="ct-discomp-crumbs" aria-label="Breadcrumb">${crumbs.join('')}</nav><div class="ct-discomp-head"><h2>${escapeHtml(title)}</h2><span>${countForSelection(products,currentNavSelection).toLocaleString('en-US')} products</span></div><div class="ct-discomp-tiles">${tileMarkup}</div>`;
+    const parentNav=(()=>{
+      if(currentNavSelection==='all') return '';
+      if(selectedType==='brand') return 'all';
+      if(selectedType==='brandprimary') return `brand:${selectedBrand}`;
+      if(selectedType==='brandpath'){
+        const pathParts=selectedPath.split('~').filter(Boolean);
+        if(pathParts.length>1) return `brandpath:${selectedBrand}:${selectedPrimary}:${pathParts.slice(0,-1).join('~')}`;
+        return `brandprimary:${selectedBrand}:${selectedPrimary}`;
+      }
+      return 'all';
+    })();
+    const backButton=parentNav?`<button type="button" class="ct-nav-back" data-category-nav="${safeAttr(parentNav)}" aria-label="Go back one catalogue level">‹ Back</button>`:`<span class="ct-nav-root" aria-label="Top level">Brands</span>`;
+    const tileMarkup=tiles.length?tiles.map(tile=>{const bnode=brandBySlug[tile.brandSlug]; const icon=tile.type==='brand'?logoForBrand(bnode):`<span aria-hidden="true">${escapeHtml(iconForLabel(tile.label))}</span>`; const action=tile.type==='brand'?'Open brand categories':(tile.type==='primary'?'Open category sub-categories':'Open sub-category'); return `<button type="button" data-category-nav="${safeAttr(tile.value)}" class="ct-discomp-tile ${tile.value===currentNavSelection?'is-active':''}" aria-label="${safeAttr(`${action}: ${tile.label}, ${tile.count} items`)}">${icon}<b>${escapeHtml(tile.label)}</b><small>${tile.count.toLocaleString('en-US')} items</small><em aria-hidden="true">›</em></button>`;}).join(''):`<div class="ct-discomp-empty">No deeper sub-category level is available for this brand branch.</div>`;
+    nav.innerHTML=`<div class="ct-brand-nav-panel"><div class="ct-nav-tools">${backButton}<nav class="ct-discomp-crumbs" aria-label="Breadcrumb">${crumbs.join('')}</nav></div><div class="ct-discomp-head"><h2>${escapeHtml(title)}</h2><span>${countForSelection(products,currentNavSelection).toLocaleString('en-US')} products</span></div><div class="ct-discomp-tiles">${tileMarkup}</div></div>`;
     nav.querySelectorAll('[data-category-nav]').forEach(btn=>btn.addEventListener('click',()=>{currentNavSelection=btn.dataset.categoryNav||'all'; renderDiscompNav(products); filterCatalog(); nav.scrollIntoView({block:'start',behavior:'smooth'});}));
   };
 
