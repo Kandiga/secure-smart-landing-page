@@ -1276,7 +1276,7 @@ html,body{background:linear-gradient(180deg,var(--ss-ice),var(--ss-sky-weak) 52%
 .catalog-live .ct-trade-brief .ct-searchbar{
   width:min(760px,100%)!important;
   max-width:760px!important;
-  margin:4px 0 0!important;
+  margin:4px auto 0!important;
   display:grid!important;
   grid-template-columns:minmax(0,1fr) 54px!important;
   gap:0!important;
