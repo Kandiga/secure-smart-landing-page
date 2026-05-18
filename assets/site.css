@@ -2413,3 +2413,28 @@ html:has(.marketing-video-page),body.marketing-video-page{background:#07111f!imp
   .ss-home-vendor-ticker{margin-top:-4px!important}
 }
 @media(max-width:380px){.ss-atlas-seq{height:102svh!important;min-height:830px!important}.ss-atlas-media,.ss-atlas-stage:before{inset:64px 8px 82px!important}.ss-atlas-copy{top:76px!important;left:16px!important;max-width:214px!important}.ss-atlas-copy h1{font-size:19px!important}.ss-atlas-module b{font-size:8px!important}}
+
+
+/* Netanel mobile elegance polish: remove redundant step rail, improve LifeSmart readability and scroll flow. */
+@media(max-width:680px){
+  .home-v10-experience{background:linear-gradient(180deg,#02060b 0%,#06131f 44%,#ecf8f5 44.1%,#f7f2e8 72%,#07111f 72.1%)!important}
+  .ss-atlas-rail{display:none!important}
+  .ss-atlas-seq{height:96svh!important;min-height:806px!important;max-height:868px!important;margin-bottom:0!important}
+  .ss-atlas-stage{min-height:806px!important}
+  .ss-atlas-media{inset:66px 10px 54px!important;border-radius:30px!important;box-shadow:0 24px 84px rgba(0,0,0,.56),0 0 0 1px rgba(154,255,247,.10)!important}
+  .ss-atlas-stage:before{inset:66px 10px 54px!important;border-radius:30px!important}.ss-atlas-stage:after{background:linear-gradient(180deg,rgba(2,6,11,.46),rgba(2,6,11,.11) 18%,rgba(2,6,11,0) 47%,rgba(2,6,11,.18) 82%,rgba(2,6,11,.74))!important}
+  .ss-atlas-copy{top:76px!important;max-width:220px!important;padding:9px 10px!important}.ss-atlas-copy h1{font-size:clamp(18px,5.2vw,22px)!important;line-height:1.03!important;letter-spacing:-.045em!important}
+  .ss-atlas-quote{bottom:36px!important;padding:12px 14px!important;border-radius:18px!important;background:rgba(2,9,16,.72)!important;max-width:calc(100% - 28px)!important}.ss-atlas-quote h2{font-size:clamp(20px,5.7vw,25px)!important;line-height:1.04!important;letter-spacing:-.045em!important}.ss-atlas-quote p,.ss-atlas-quote .ss-atlas-actions{display:none!important}
+  .ss-atlas-module{opacity:calc(var(--atlas-labels,0)*.62)!important;transform:translateY(calc((1 - var(--atlas-labels,0))*8px))!important;filter:saturate(.95)!important}.ss-atlas-module.m1,.ss-atlas-module.m2{top:72%!important}.ss-atlas-module.m3,.ss-atlas-module.m4{top:78%!important}
+
+  .ss-home-vendor-ticker{padding:12px 0 14px!important;background:linear-gradient(180deg,#06121e,#0a1b29)!important;border-top:1px solid rgba(154,255,247,.10)!important;border-bottom:1px solid rgba(242,198,129,.10)!important}.ss-home-vendor-ticker .vendor-kicker{font-size:10px!important;letter-spacing:.18em!important;margin-bottom:9px!important;color:#f3c985!important}.ss-home-vendor-ticker .vendor-logo{height:58px!important;border-radius:16px!important;background:linear-gradient(145deg,rgba(255,255,255,.085),rgba(9,28,42,.78))!important;border-color:rgba(154,255,247,.18)!important}
+
+  .ss-life-mosaic{width:100%!important;margin:0!important;padding:18px 0 26px!important;border-radius:0!important;background:linear-gradient(180deg,#ecf8f5 0%,#f7f2e8 58%,#07111f 58.2%)!important;color:#0a2940!important;box-shadow:none!important}.ss-life-mosaic:before{display:none!important}
+  .ss-life-mosaic-head{width:calc(100% - 28px)!important;margin:0 auto 16px!important;padding:24px 22px 26px!important;border-radius:28px!important;background:linear-gradient(155deg,rgba(255,255,252,.98),rgba(235,250,245,.96))!important;border:1px solid rgba(27,86,100,.12)!important;box-shadow:0 20px 54px rgba(11,45,61,.13)!important;color:#08253a!important;backdrop-filter:none!important}
+  .ss-life-mosaic-head span{font-size:10px!important;letter-spacing:.17em!important;color:#8b5b19!important;background:rgba(255,244,221,.82)!important;border:1px solid rgba(139,91,25,.14)!important;border-radius:999px!important;padding:6px 9px!important}
+  .ss-life-mosaic-head h2{max-width:11.5ch!important;margin:14px 0 13px!important;font-size:clamp(34px,10.2vw,44px)!important;line-height:.94!important;letter-spacing:-.06em!important;color:#071f34!important;text-wrap:balance!important}
+  .ss-life-mosaic-head p{font-size:16px!important;line-height:1.62!important;color:#284b5f!important;font-weight:650!important;max-width:31ch!important;margin:0!important}
+  .ss-life-mosaic-grid{width:calc(100% - 28px)!important;margin:0 auto!important;gap:14px!important}.ss-life-tile{border-radius:28px!important;border-color:rgba(15,70,91,.12)!important;box-shadow:0 22px 58px rgba(3,16,28,.18)!important}.ss-life-tile-hero{min-height:390px!important}.ss-life-tile:not(.ss-life-tile-hero){min-height:300px!important}.ss-life-tile>div{padding:20px!important}.ss-life-tile h3{font-size:clamp(26px,7.8vw,34px)!important;line-height:1.02!important}.ss-life-tile p{font-size:15px!important;line-height:1.55!important;font-weight:650!important}.ss-life-tile a{min-height:48px!important;border-radius:999px!important;font-size:14px!important}
+  .ss-video-featured{margin-top:0!important;padding-top:24px!important;background:#07111f!important}.ss-video-head{width:calc(100% - 28px)!important;margin-inline:auto!important}.ss-atlas-promos{margin-top:0!important;padding-top:22px!important}
+}
+@media(max-width:380px){.ss-life-mosaic-head h2{font-size:34px!important}.ss-life-mosaic-head p{font-size:15.5px!important}.ss-atlas-seq{min-height:790px!important}.ss-atlas-media,.ss-atlas-stage:before{inset:64px 8px 54px!important}}
