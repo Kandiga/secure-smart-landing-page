@@ -1988,5 +1988,27 @@ html,body{background:linear-gradient(180deg,var(--ss-ice),var(--ss-sky-weak) 52%
 /* Production visual QA fix: do not overlap the brand ticker into the sticky atlas stage; it created a teal band and read as broken spacing. */
 .ss-atlas-seq{height:128vh!important}.ss-home-vendor-ticker{margin-top:0!important;background:#07111f!important;border-top:1px solid rgba(242,202,139,.12)!important;border-bottom:1px solid rgba(242,202,139,.12)!important}.ss-home-vendor-ticker .vendor-mask::before{background:linear-gradient(90deg,#07111f,rgba(7,17,31,0))!important}.ss-home-vendor-ticker .vendor-mask::after{background:linear-gradient(270deg,#07111f,rgba(7,17,31,0))!important}.ss-home-vendor-ticker .vendor-kicker{color:#f2c681!important}.ss-atlas-stage:after{height:10vh!important;background:linear-gradient(0deg,#07111f,rgba(7,17,31,0))!important}@media(max-width:900px){.ss-atlas-seq{height:148vh!important}.ss-home-vendor-ticker{margin-top:0!important}}
 
-/* Final production QA correction: compact the atlas runway so the LifeSmart story starts immediately after the first screen. */
-.ss-atlas-seq{height:108vh!important}.ss-atlas-stage{height:100svh!important}.ss-home-vendor-ticker.vendor-ticker{margin-top:0!important;background:#07111f!important;background-color:#07111f!important;box-shadow:0 -1px 0 rgba(242,202,139,.10),0 1px 0 rgba(242,202,139,.10)!important}.ss-home-vendor-ticker .container{position:relative;z-index:2}.ss-life-mosaic{margin-top:0!important;padding-top:clamp(22px,3.2vw,44px)!important;background:#07111f}@media(max-width:900px){.ss-atlas-seq{height:118vh!important}}
+/* Final production QA correction: give the V10 atlas enough runway so the split/modules/quote transitions are visible, not rushed. */
+.ss-atlas-seq{height:285vh!important}.ss-atlas-stage{height:100svh!important}.ss-home-vendor-ticker.vendor-ticker{margin-top:0!important;background:#07111f!important;background-color:#07111f!important;box-shadow:0 -1px 0 rgba(242,202,139,.10),0 1px 0 rgba(242,202,139,.10)!important}.ss-home-vendor-ticker .container{position:relative;z-index:2}.ss-life-mosaic{margin-top:0!important;padding-top:clamp(22px,3.2vw,44px)!important;background:#07111f}@media(max-width:900px){.ss-atlas-seq{height:300vh!important}}
+
+
+/* Netanel requested V10 final-frame lock + live energy flow along the blue system lines. */
+.ss-atlas-seq{height:460vh!important}
+.ss-atlas-energy{position:absolute;inset:0;z-index:4;pointer-events:none;mix-blend-mode:screen;opacity:calc(var(--atlas-energy,0) * .96);filter:drop-shadow(0 0 18px rgba(39,230,219,.42));transform:translate3d(0,0,0)}
+.ss-atlas-energy path{fill:none;vector-effect:non-scaling-stroke;stroke-linecap:round;stroke-linejoin:round}
+.ss-atlas-energy-base path{stroke:rgba(36,183,255,.34);stroke-width:2.2;filter:url(#atlasEnergyGlow)}
+.ss-atlas-energy-pulse path{stroke:url(#atlasEnergyStroke);stroke-width:5.5;stroke-dasharray:72 270;stroke-dashoffset:330;filter:url(#atlasEnergyGlow);animation:atlas-energy-flow 2.85s cubic-bezier(.42,0,.18,1) infinite;animation-delay:var(--delay,0s)}
+.ss-atlas-energy-nodes circle{fill:#8ffff7;opacity:calc(.24 + var(--atlas-energy,0) * .68);filter:url(#atlasEnergyGlow);animation:atlas-node-feed 2.4s ease-in-out infinite;transform-box:fill-box;transform-origin:center}
+.ss-atlas-module{box-shadow:0 0 calc(12px + var(--atlas-energy,0)*22px) rgba(39,230,219,calc(.05 + var(--atlas-energy,0)*.16)),inset 0 0 0 1px rgba(119,255,250,calc(.05 + var(--atlas-energy,0)*.16))!important}
+.ss-atlas-module:after{content:"";position:absolute;inset:-1px;border-radius:inherit;pointer-events:none;background:linear-gradient(90deg,transparent,rgba(125,255,247,.34),transparent);opacity:calc(var(--atlas-energy,0)*.75);transform:translateX(-120%);animation:atlas-module-charge 3.4s ease-in-out infinite}
+.ss-atlas-finish{filter:saturate(1.14) contrast(1.07) drop-shadow(0 0 calc(var(--atlas-lock,0)*16px) rgba(39,230,219,.18))!important}
+@keyframes atlas-energy-flow{0%{stroke-dashoffset:330;opacity:.05}18%{opacity:1}72%{opacity:.9}100%{stroke-dashoffset:-22;opacity:.08}}
+@keyframes atlas-node-feed{0%,100%{transform:scale(.78);opacity:.35}42%{transform:scale(1.55);opacity:1}62%{transform:scale(.95);opacity:.58}}
+@keyframes atlas-module-charge{0%,58%{transform:translateX(-130%);opacity:0}72%{opacity:.78}100%{transform:translateX(130%);opacity:0}}
+@media(max-width:900px){.ss-atlas-seq{height:420vh!important}.ss-atlas-energy{opacity:calc(var(--atlas-energy,0) * .72)}.ss-atlas-energy-pulse path{stroke-width:4}}
+@media(prefers-reduced-motion:reduce){.ss-atlas-energy-pulse path,.ss-atlas-energy-nodes circle,.ss-atlas-module:after{animation:none!important}.ss-atlas-energy-pulse path{stroke-dasharray:none;opacity:.62}}
+
+/* Keep the locked atlas frame visually above the following sections until the sticky scene releases. */
+.ss-atlas-seq{z-index:6!important}
+.ss-atlas-stage{z-index:6!important}
+.ss-home-vendor-ticker{z-index:1!important}

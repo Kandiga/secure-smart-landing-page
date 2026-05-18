@@ -9,7 +9,7 @@
   <meta property="og:description" content="Secure Smart is a B2B trade-account gateway for professional networking, security and smart infrastructure procurement across selected brands.">
   <meta property="og:url" content="https://securesmart.tech/">
   <meta property="og:image" content="https://securesmart.tech/assets/brand/secure-smart-logo-header.webp">
-  <meta name="twitter:card" content="summary_large_image"><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700;800&amp;family=Sora:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="assets/brand/secure-smart-favicon.png" rel="icon" type="image/png"/><link href="assets/site.css?v=20260518-v10-lifesmart-mosaic" rel="stylesheet"/>
+  <meta name="twitter:card" content="summary_large_image"><link href="https://fonts.googleapis.com" rel="preconnect"/><link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect"/><link href="https://fonts.googleapis.com/css2?family=Assistant:wght@400;500;600;700;800&amp;family=Inter:wght@400;500;600;700;800&amp;family=Sora:wght@400;500;600;700;800&amp;display=swap" rel="stylesheet"/><link href="assets/brand/secure-smart-favicon.png" rel="icon" type="image/png"/><link href="assets/site.css?v=20260518-v10-energy-lock" rel="stylesheet"/>
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
@@ -34,6 +34,23 @@
         <img class="ss-atlas-finish" src="assets/home-v10/v10_frame_b.png" alt="">
       </div>
       <div class="ss-atlas-read-lane"></div><div class="ss-atlas-top-shadow"></div><div class="ss-atlas-bottom-shadow"></div><div class="ss-atlas-orbit"></div>
+      <svg class="ss-atlas-energy" viewBox="0 0 1440 810" preserveAspectRatio="none" aria-hidden="true">
+        <defs>
+          <filter id="atlasEnergyGlow" x="-30%" y="-30%" width="160%" height="160%"><feGaussianBlur stdDeviation="5" result="blur"/><feMerge><feMergeNode in="blur"/><feMergeNode in="SourceGraphic"/></feMerge></filter>
+          <linearGradient id="atlasEnergyStroke" x1="0" x2="1" y1="0" y2="0"><stop offset="0" stop-color="#2cf3ff" stop-opacity="0"/><stop offset=".42" stop-color="#64fff1" stop-opacity=".92"/><stop offset="1" stop-color="#2b7dff" stop-opacity="0"/></linearGradient>
+        </defs>
+        <g class="ss-atlas-energy-base">
+          <path d="M640 242 C570 220 528 190 482 152"/><path d="M640 314 C548 310 505 304 448 276"/><path d="M640 388 C550 398 507 414 438 456"/><path d="M640 455 C590 486 548 523 493 558"/>
+          <path d="M830 204 C864 158 900 132 955 112"/><path d="M1012 304 C1082 300 1122 284 1184 248"/><path d="M1014 360 C1088 376 1132 402 1190 448"/><path d="M952 486 C982 536 1012 578 1058 622"/>
+        </g>
+        <g class="ss-atlas-energy-pulse">
+          <path style="--delay:-.10s" d="M640 242 C570 220 528 190 482 152"/><path style="--delay:-1.35s" d="M640 314 C548 310 505 304 448 276"/><path style="--delay:-2.20s" d="M640 388 C550 398 507 414 438 456"/><path style="--delay:-.80s" d="M640 455 C590 486 548 523 493 558"/>
+          <path style="--delay:-1.75s" d="M830 204 C864 158 900 132 955 112"/><path style="--delay:-.45s" d="M1012 304 C1082 300 1122 284 1184 248"/><path style="--delay:-2.65s" d="M1014 360 C1088 376 1132 402 1190 448"/><path style="--delay:-1.05s" d="M952 486 C982 536 1012 578 1058 622"/>
+        </g>
+        <g class="ss-atlas-energy-nodes">
+          <circle cx="640" cy="242" r="5"/><circle cx="640" cy="314" r="5"/><circle cx="640" cy="388" r="5"/><circle cx="640" cy="455" r="5"/><circle cx="830" cy="204" r="5"/><circle cx="1012" cy="304" r="5"/><circle cx="1014" cy="360" r="5"/><circle cx="952" cy="486" r="5"/>
+        </g>
+      </svg>
       <div class="ss-atlas-copy"><span class="ss-atlas-eyebrow">Secure Smart systems atlas</span><h1>One project becomes a complete smart infrastructure map.</h1><p>LifeSmart smart-home automation, UniFi Protect and UniFi Door Access are presented as one professional B2B ecosystem before customers enter the protected catalogue.</p><div class="ss-atlas-cue"><i></i>Scroll to open the project</div></div>
       <div class="ss-atlas-module m1"><b>LifeSmart ecosystem</b><span>Hubs, sensors, switches, lighting, curtains, climate and room scenes.</span></div>
       <div class="ss-atlas-module m2"><b>UniFi Protect</b><span>Cameras, local NVR, AI detections, storage and multi-site operations.</span></div>
@@ -87,11 +104,18 @@
     var rect=seq.getBoundingClientRect();
     var max=Math.max(1,seq.offsetHeight-window.innerHeight);
     var p=clamp(-rect.top/max,0,1);
+    var split=smooth(clamp((p-.04)/.44,0,1));
+    var labels=smooth(clamp((p-.18)/.36,0,1));
+    var quote=smooth(clamp((p-.52)/.24,0,1));
+    var energy=smooth(clamp((p-.28)/.28,0,1));
+    var locked=p>.62?1:0;
     root.style.setProperty('--atlas-p',p.toFixed(4));
-    root.style.setProperty('--atlas-split',smooth(clamp((p-.04)/.28,0,1)).toFixed(4));
-    root.style.setProperty('--atlas-copy-away',smooth(clamp((p-.13)/.14,0,1)).toFixed(4));
-    root.style.setProperty('--atlas-labels',smooth(clamp((p-.25)/.24,0,1)).toFixed(4));
-    root.style.setProperty('--atlas-quote',smooth(clamp((p-.62)/.20,0,1)).toFixed(4));
+    root.style.setProperty('--atlas-split',split.toFixed(4));
+    root.style.setProperty('--atlas-copy-away',smooth(clamp((p-.18)/.28,0,1)).toFixed(4));
+    root.style.setProperty('--atlas-labels',labels.toFixed(4));
+    root.style.setProperty('--atlas-quote',quote.toFixed(4));
+    root.style.setProperty('--atlas-energy',energy.toFixed(4));
+    root.style.setProperty('--atlas-lock',locked);
   }
   function request(){ if(!ticking){ ticking=true; requestAnimationFrame(update); } }
   addEventListener('scroll',request,{passive:true}); addEventListener('resize',request,{passive:true}); update();
