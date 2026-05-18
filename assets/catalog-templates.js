@@ -36,16 +36,18 @@
   const PRODUCT_DETAIL_MAP_URL='assets/catalog-data/product-detail-map.json';
   const catalogFetchCache={};
   const fetchJsonCached=(url)=>{
-    const versionedUrl=url.includes('?')?url+'&v=20260517-lifesmart-carton-units':url+'?v=20260517-lifesmart-carton-units';
+    const versionedUrl=url.includes('?')?url+'&v=20260518-primary-categories':url+'?v=20260518-primary-categories';
     if(!catalogFetchCache[url]) catalogFetchCache[url]=fetch(versionedUrl,{cache:'no-cache'}).then(res=>{ if(!res.ok) throw new Error('HTTP '+res.status); return res.json(); });
     return catalogFetchCache[url];
   };
   const brandSlug=(brand)=>normalizeText(brand);
   const CATALOG_TREE=[
     {slug:'smart-home',label:'Smart Home',children:[
-      {slug:'lifesmart-products',label:'LifeSmart products'},
-      {slug:'huawei-smart-home',label:'Huawei smart home'},
-      {slug:'ubiquiti-smart-home',label:'Ubiquiti Protect / Access / sensors'}
+      {slug:'lifesmart-products',label:'LifeSmart'},
+      {slug:'smart-cameras-nvr',label:'Smart cameras / NVR'},
+      {slug:'smart-door-access',label:'Door access / intercom'},
+      {slug:'smart-sensors-control',label:'Sensors / control / IoT'},
+      {slug:'smart-lighting-switches',label:'Lighting / switches / curtains'}
     ]},
     {slug:'lan-wifi',label:'LAN / WiFi',children:[
       {slug:'ubiquiti-networks',label:'Ubiquiti Networks'},
@@ -54,13 +56,11 @@
       {slug:'routers-gateways',label:'Routers & gateways'},
       {slug:'wireless-access-points',label:'Wireless / Access Points'},
       {slug:'network-interfaces',label:'Network interfaces'},
-      {slug:'poe-power',label:'PoE injectors / power'},
-      {slug:'network-accessories',label:'Accessories'}
+      {slug:'network-accessories',label:'Network accessories'}
     ]},
     {slug:'optical-networks',label:'Optical Networks',children:[
       {slug:'gpon-fiber',label:'GPON / Fiber'},
       {slug:'sfp-qsfp-optics',label:'SFP / QSFP optics'},
-      {slug:'huawei',label:'Huawei'},
       {slug:'fiber-accessories',label:'Fiber accessories'}
     ]},
     {slug:'cables-accessories',label:'Cables & Accessories',children:[
@@ -73,12 +73,6 @@
       {slug:'racks-enclosures',label:'Racks / cabinets'},
       {slug:'power-supplies',label:'Power supplies'},
       {slug:'surge-protection',label:'Surge protection'}
-    ]},
-    {slug:'surveillance-access-iot',label:'Surveillance / Access / IoT',children:[
-      {slug:'cameras-nvr',label:'Cameras / NVR'},
-      {slug:'door-access',label:'Door access'},
-      {slug:'sensors-smart-home',label:'Sensors / Smart Home'},
-      {slug:'iot-controllers',label:'IoT controllers'}
     ]},
     {slug:'lte-industrial',label:'LTE / 5G / Industrial',children:[
       {slug:'lte-5g-routers',label:'LTE / 5G routers'},
@@ -94,55 +88,53 @@
     const t=[brand,cat,title,sku].join(' ');
     const slugs=new Set();
     const add=(slug)=>{slugs.add(slug); const parent=CATALOG_TREE.find(g=>g.slug===slug||g.children.some(c=>c.slug===slug)); if(parent) slugs.add(parent.slug);};
-    const explicitCategoryPath=()=>{
-      if(/\b(wifi|wi fi|wireless|lan \/ wifi)\b/.test(cat)){ add('wireless-access-points'); return true; }
-      if(/\bcables?\b|cables accessories/.test(cat)){ add('network-cables'); return true; }
-      if(/\bracks?\b|rack cabinets?|racks cabinets?/.test(cat)){ add('racks-enclosures'); return true; }
-      if(/\blan\b/.test(cat)){ add('ubiquiti-networks'); add('network-interfaces'); return true; }
-      return false;
-    };
-    if(explicitCategoryPath()) return [...slugs];
-    const isAccessory=/accessor|accessory|mount|bracket|holder|rack mount|junction box|coupler|cover|kit|radome|shield|adapter|cable|patch|connector|keystone|spool/.test(t);
+    const pick=(slug)=>{add(slug); return [...slugs];};
+
+    // Every product gets one primary family + one primary child only.
+    // This keeps the visible sidebar counts aligned with the real 1,807-SKU catalogue
+    // instead of counting the same SKU in several unrelated families.
     const isLifeSmart=/lifesmart|life smart|sublime|defed|coss|cololight/.test(t);
-    const isHuaweiSmartHome=/huawei/.test(brand)&&/ideahub|idea hub|camera|mic\b|microphone|speaker|display|smart screen|touch|meeting|conference|video|door access|intercom|sensor|home/.test(t);
-    const isUbiquitiSmartHome=/ubiquiti|unifi/.test(brand)&&/protect|uvc|camera|nvr|door access|doorbell|reader|intercom|sensor|motion|speaker|viewport|display|chime|ai port|ai key|access hub|ua-/.test(t);
-    if(isLifeSmart) add('lifesmart-products');
-    if(isHuaweiSmartHome) add('huawei-smart-home');
-    if(isUbiquitiSmartHome) add('ubiquiti-smart-home');
-    if(/aqara|lifesmart|life smart|sublime|defed|coss|cololight|smart security|smart home|camera|nvr|video recorder|uvc|door access|doorbell|reader|intercom|sensor|zigbee|matter|thread|relay|curtain|thermostat|motion|smart station|interaction center|smart control|lighting|switch/.test(t)){
-      if(/camera|nvr|video recorder|uvc|protect|bullet|turret|dome|ptz/.test(t)) add('cameras-nvr');
-      else if(/door access|doorbell|reader|intercom|ua-/.test(t)) add('door-access');
-      else if(/aqara|lifesmart|life smart|sublime|defed|coss|cololight|sensor|smart home|zigbee|matter|thread|relay|curtain|thermostat|motion|smart station|interaction center|smart control|lighting|switch/.test(t)) add('sensors-smart-home');
-      else add('iot-controllers');
-      return [...slugs];
+    if(isLifeSmart) return pick('lifesmart-products');
+
+    const isSmartCamera=/camera|nvr|video recorder|uvc|protect|bullet|turret|dome|ptz|viewport|ai port|ai key/.test(t);
+    const isSmartDoorAccess=/door access|doorbell|reader|intercom|access hub|ua-/.test(t);
+    const isSmartSensorControl=/smart home|aqara|zigbee|matter|thread|sensor|motion|thermostat|relay|smart station|interaction center|smart control|iot controller/.test(t);
+    const isSmartLighting=/smart lighting|smart light|light bulb|dimmer|curtain|blind|cololight/.test(t);
+    const isHuaweiCollaboration=/huawei/.test(brand)&&/ideahub|idea hub|meeting|conference|smart screen|interactive whiteboard|touch|display|speaker|microphone|mic/.test(t);
+    if(isSmartDoorAccess) return pick('smart-door-access');
+    if(isSmartCamera) return pick('smart-cameras-nvr');
+    if(isSmartLighting) return pick('smart-lighting-switches');
+    if(isSmartSensorControl||isHuaweiCollaboration) return pick('smart-sensors-control');
+
+    if(/teltonika/.test(brand)||/lte|\b5g\b|\b4g\b|\bcat ?[0-9]\b|catm|modem|cellular|industrial|rs232|rs485|modbus|m-bus|serial|din rail/.test(t)){
+      if(/teltonika/.test(brand)) return pick('teltonika');
+      if(/industrial|rs232|rs485|modbus|m-bus|serial|din rail/.test(t)) return pick('industrial-gateways');
+      return pick('lte-5g-routers');
     }
-    if(/huawei/.test(brand)){ add('huawei'); if(/sfp|qsfp|optic|transceiver|dac/.test(t)) add('sfp-qsfp-optics'); else add('gpon-fiber'); return [...slugs]; }
-    if(/gpon|xgs pon|xgs-pon|onu|ont|olt|fiber|fibre|optic|optical/.test(t)){ if(/sfp|qsfp|transceiver|dac|multi mode|single mode/.test(t)) add('sfp-qsfp-optics'); else add('gpon-fiber'); return [...slugs]; }
-    if(/teltonika/.test(brand)||/lte|5g|4g|cat4|cat6|catm|modem|cellular|industrial|rs232|rs485|modbus|m-bus|serial|din rail/.test(t)){
-      if(/teltonika/.test(brand)) add('teltonika');
-      if(/industrial|rs232|rs485|modbus|m-bus|serial|din rail/.test(t)) add('industrial-gateways');
-      else add('lte-5g-routers');
-      return [...slugs];
+
+    if(/huawei/.test(brand)||/gpon|xgs pon|xgs-pon|onu|ont|olt|fiber|fibre|optic|optical/.test(t)){
+      if(/sfp|qsfp|optic|transceiver|dac|multi mode|single mode/.test(t)) return pick('sfp-qsfp-optics');
+      if(/adapter|cable|patch|connector|coupler|spool/.test(t)) return pick('fiber-accessories');
+      return pick('gpon-fiber');
     }
+
+    const isAccessory=/accessor|accessory|mount|bracket|holder|rack mount|junction box|coupler|cover|kit|radome|shield|adapter|cable|patch|connector|keystone|spool/.test(t);
     if(isAccessory){
-      if(/cable|patch|cat6|cat5|connector|keystone|coupler|spool|patch panel/.test(t)){ add(/connector|keystone|coupler|patch panel/.test(t)?'connectors-patch':'network-cables'); return [...slugs]; }
-      if(/rack|cabinet|enclosure|rack mount/.test(t)){ add('racks-enclosures'); return [...slugs]; }
-      if(/mount|bracket|holder|junction box|radome|shield/.test(t)){ add('mounting-enclosures'); return [...slugs]; }
-      add('general-accessories'); return [...slugs];
+      if(/power supply|psu|power injector|poe injector|charger|battery|ups|surge|protector|grounding/.test(t)) return pick(/surge|protector|grounding/.test(t)?'surge-protection':'power-supplies');
+      if(/cable|patch|cat6|cat5|connector|keystone|coupler|spool|patch panel/.test(t)) return pick(/connector|keystone|coupler|patch panel/.test(t)?'connectors-patch':'network-cables');
+      if(/rack|cabinet|enclosure|rack mount/.test(t)) return pick('racks-enclosures');
+      if(/mount|bracket|holder|junction box|radome|shield/.test(t)) return pick('mounting-enclosures');
+      return pick('general-accessories');
     }
-    if(/power supply|psu|power injector|edgepower|charger|battery|ups|surge|protector|grounding/.test(t)){
-      if(/surge|protector|grounding/.test(t)) add('surge-protection');
-      else add('power-supplies');
-      return [...slugs];
-    }
-    if(/ubiquiti|unifi|uisp|airmax|airfiber|giga ?beam|edge(max|router|switch)/.test(t)) add('ubiquiti-networks');
-    if(/mikrotik|routerboard|cloud router|cloud core|ccr|crs|hex|hap|l009|rb[0-9]/.test(t)) add('mikrotik');
-    if(/switch|aggregation|ethernet switch|crs[0-9]|cloud smart switch/.test(t)) add('switching');
-    else if(/router|gateway|dream machine|dream router|security gateway|firewall|ccr|hex|hap/.test(t)) add('routers-gateways');
-    else if(/wireless|wifi|wi fi|access point|ap|antenna|radio|bridge|60 ghz|5 ghz|2 4 ghz|airmax|ltu|wave/.test(t)) add('wireless-access-points');
-    else if(/interface|nic|sfp|qsfp|transceiver|module|dac|rj45/.test(t)) add('network-interfaces');
-    else add('network-accessories');
-    return [...slugs];
+
+    if(/power supply|psu|power injector|poe injector|edgepower|charger|battery|ups|surge|protector|grounding/.test(t)) return pick(/surge|protector|grounding/.test(t)?'surge-protection':'power-supplies');
+    if(/switch|aggregation|ethernet switch|cloud smart switch|crs[0-9]/.test(t)) return pick('switching');
+    if(/router|gateway|dream machine|dream router|security gateway|firewall|ccr|hex|hap/.test(t)) return pick('routers-gateways');
+    if(/wireless|wifi|wi fi|access point|ap|antenna|radio|bridge|60 ghz|5 ghz|2 4 ghz|airmax|ltu|wave/.test(t)) return pick('wireless-access-points');
+    if(/interface|nic|sfp|qsfp|transceiver|module|dac|rj45/.test(t)) return pick('network-interfaces');
+    if(/ubiquiti|unifi|uisp|airmax|airfiber|giga ?beam|edge(max|router|switch)/.test(t)) return pick('ubiquiti-networks');
+    if(/mikrotik|routerboard|cloud router|cloud core|ccr|crs|hex|hap|l009|rb[0-9]/.test(t)) return pick('mikrotik');
+    return pick('network-accessories');
   };
   const categorySlug=(p)=>productCategorySlugs(p).find(s=>!CATALOG_TREE.some(g=>g.slug===s))||'network-accessories';
   const productHaystack=(p)=>[p.brand,p.sku,p.title,p.category,p.specsSearch].filter(Boolean).join(' ');
