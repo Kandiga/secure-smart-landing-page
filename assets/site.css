@@ -2357,3 +2357,24 @@ html:has(.marketing-video-page),body.marketing-video-page{background:#07111f!imp
   .ss-atlas-seq[data-frame="4"] .ss-atlas-module.m2,
   .ss-atlas-seq[data-frame="4"] .ss-atlas-module.m3{opacity:1!important;filter:saturate(1.12)!important}
 }
+
+
+/* Higgsfield/Seedance mobile parallax film layer: real generated 9:16 motion under scroll-frame UI. */
+.ss-atlas-mobile-seedance{display:none}
+@media(max-width:680px){
+  .ss-atlas-mobile-seedance{display:block!important;position:absolute!important;inset:0!important;width:100%!important;height:100%!important;object-fit:cover!important;object-position:center 45%!important;z-index:4!important;opacity:calc(.72 + var(--atlas-p,0)*.12)!important;filter:brightness(.88) contrast(1.08) saturate(1.08)!important;transform:translate3d(calc(var(--atlas-p,0)*-10px),calc(var(--atlas-p,0)*-22px),0) scale(calc(1.01 + var(--atlas-p,0)*.075))!important;pointer-events:none!important;background:#02060b!important}
+  .ss-atlas-media .ss-atlas-film{opacity:.18!important;filter:brightness(.62) saturate(.95)!important}.ss-atlas-media .ss-atlas-start{opacity:calc(.28 - var(--atlas-p,0)*.18)!important}.ss-atlas-media .ss-atlas-finish{opacity:calc(.10 + var(--atlas-p,0)*.14)!important}
+  .ss-atlas-energy{z-index:7!important}.ss-atlas-orbit{z-index:6!important}.ss-atlas-read-lane,.ss-atlas-top-shadow,.ss-atlas-bottom-shadow{z-index:8!important}.ss-atlas-copy,.ss-atlas-module,.ss-atlas-rail,.ss-atlas-quote{z-index:14!important}
+  .ss-atlas-stage:before{content:"";position:absolute;inset:0;z-index:9;pointer-events:none;background:linear-gradient(180deg,rgba(2,6,11,.76) 0%,rgba(2,6,11,.40) 18%,rgba(2,6,11,.05) 44%,rgba(2,6,11,.32) 100%)}
+}
+@media(max-width:680px) and (prefers-reduced-motion:reduce){.ss-atlas-mobile-seedance{display:none!important}}
+
+
+/* Seedance mobile atlas pacing: the generated film replaces long empty scroll runway. */
+@media(max-width:680px){
+  .ss-atlas-seq{height:128svh!important;min-height:1020px!important;max-height:1080px!important;margin-bottom:-8px!important}
+  .ss-atlas-stage{min-height:852px!important;max-height:884px!important}
+  .ss-atlas-module.m1{top:52%!important}.ss-atlas-module.m2{top:60%!important}.ss-atlas-module.m3{top:68%!important}.ss-atlas-module.m4{top:76%!important}
+  .ss-home-vendor-ticker{margin-top:-6px!important}
+}
+@media(max-width:380px){.ss-atlas-seq{min-height:980px!important;max-height:1040px!important}.ss-atlas-module.m1{top:53%!important}.ss-atlas-module.m2{top:61%!important}.ss-atlas-module.m3{top:69%!important}.ss-atlas-module.m4{top:77%!important}}
