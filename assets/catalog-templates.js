@@ -276,42 +276,13 @@
     const prefersDark=window.matchMedia?.('(prefers-color-scheme: dark)').matches;
     applyCatalogTheme(saved|| (prefersDark?'dark':'light'));
   };
-  const renderCatalogExperience=(products)=>{
-    const hero=document.querySelector('.ct-trade-brief');
-    if(!hero||document.getElementById('catalogSystemDashboard')) return;
+  const renderCatalogExperience=()=>{
+    // Netanel removed the catalogue overview / brand spotlight block that used to sit between
+    // the search header and the brand navigator. Keep only the underlying theme state so older
+    // saved preferences do not break the rest of the catalogue UI.
     initCatalogTheme();
-    const total=products.length;
-    const brandCount=new Set(products.map(p=>brandSlug(p.brand||'Other'))).size;
-    const familyCount=new Set(products.map(p=>categorySlug(p))).size;
-    const inStock=products.filter(p=>/in stock/i.test(p.availability||'')).length;
-    const brandCounts=new Map();
-    products.forEach(p=>{const label=p.brand||'Other'; brandCounts.set(label,(brandCounts.get(label)||0)+1);});
-    const topBrands=[...brandCounts.entries()].sort((a,b)=>b[1]-a[1]||a[0].localeCompare(b[0])).slice(0,5);
-    const dash=document.createElement('section');
-    dash.id='catalogSystemDashboard';
-    dash.className='ct-system-dashboard container';
-    dash.setAttribute('aria-label','Secure Smart catalogue system overview');
-    dash.innerHTML=`<div class="ct-system-copy"><p class="ct-system-eyebrow">Secure Smart systems catalogue</p><h2>A warm brand-first catalogue that continues the homepage ecosystem story.</h2><p>Built for approved B2B accounts: LifeSmart, UniFi Protect, Door Access and infrastructure families stay organised as complete systems, while SKU search, carton data and quote-cart flow remain precise and protected.</p><div class="ct-system-actions"><button type="button" class="ct-theme-toggle" data-catalog-theme-toggle aria-pressed="false"><span aria-hidden="true" class="ct-theme-orb"></span><span data-theme-label>Light mode</span></button><span class="ct-system-note">Display preference is saved on this device</span></div></div><div class="ct-system-metrics" aria-label="Catalogue metrics"><div><span>${total.toLocaleString('en-US')}</span><b>live catalogue items</b></div><div><span>${brandCount.toLocaleString('en-US')}</span><b>approved brands</b></div><div><span>${familyCount.toLocaleString('en-US')}</span><b>mapped product families</b></div><div><span>${inStock.toLocaleString('en-US')}</span><b>currently marked in stock</b></div></div><div class="ct-system-stack"><b>Brand stack</b>${topBrands.map(([label,count])=>`<span>${escapeHtml(label)} <em>${count.toLocaleString('en-US')}</em></span>`).join('')}</div></section>`;
-    hero.insertAdjacentElement('afterend',dash);
-    const spotlight=document.createElement('section');
-    spotlight.id='catalogBrandSpotlight';
-    spotlight.className='ct-brand-spotlight container';
-    spotlight.setAttribute('aria-label','Featured Secure Smart brand ecosystems');
-    const countForBrand=(label)=>products.filter(p=>brandSlug(p.brand||'Other')===brandSlug(label)).length;
-    spotlight.innerHTML=`<div class="ct-spotlight-head"><p class="ct-system-eyebrow">Homepage systems inside the catalogue</p><h2>The catalogue continues the same LifeSmart / Protect / Door Access language.</h2><p>Start from the same ecosystem story customers saw on the homepage, then drill down to the exact approved brand list and quote basket.</p></div><div class="ct-spotlight-grid"><article class="ct-spotlight-card ct-spotlight-lifesmart"><span class="ct-spotlight-badge">LifeSmart ecosystem</span><h3>Complete smart-home platform</h3><p>Hubs, sensors, switches, curtain motors, lighting control and automation scenes — positioned as a coherent professional ecosystem before individual products.</p><div class="ct-spotlight-points"><span>Smart hubs</span><span>Sensors & scenes</span><span>Switching & curtains</span></div><button type="button" data-category-nav="brand:lifesmart">Open ${countForBrand('LifeSmart').toLocaleString('en-US')} LifeSmart items</button></article><article class="ct-spotlight-card ct-spotlight-ubiquiti"><span class="ct-spotlight-badge">UniFi Door Access</span><h3>Access control for doors, gates and elevators</h3><p>Official Ubiquiti framing: Starter Kits, Control Hubs, Readers & Intercom, Touch Pass, Protect integration and Identity mobile access.</p><div class="ct-spotlight-points"><span>Door Access</span><span>Intercom</span><span>Identity</span></div><div class="ct-spotlight-actions"><button type="button" data-category-nav="brand:ubiquiti">Open ${countForBrand('Ubiquiti').toLocaleString('en-US')} Ubiquiti items</button><a href="https://ui.com/door-access" target="_blank" rel="noopener">Official source</a></div></article><article class="ct-spotlight-card ct-spotlight-protect"><span class="ct-spotlight-badge">UniFi Protect</span><h3>Camera security, local NVR and AI operations</h3><p>Ubiquiti positions Protect as cameras, access devices, sensors, intercoms, storage and multi-site management with local recording and AI-enhanced workflows.</p><div class="ct-spotlight-points"><span>Cameras & NVR</span><span>AI detections</span><span>Multi-site</span></div><div class="ct-spotlight-actions"><button type="button" data-category-nav="brand:ubiquiti">Show Ubiquiti catalogue</button><a href="https://ui.com/camera-security" target="_blank" rel="noopener">Official source</a></div></article></div>`;
-    dash.insertAdjacentElement('afterend',spotlight);
-    dash.querySelector('[data-catalog-theme-toggle]')?.addEventListener('click',()=>{
-      const next=document.body?.getAttribute('data-catalog-theme')==='dark'?'light':'dark';
-      localStorage.setItem(catalogThemeKey,next);
-      applyCatalogTheme(next);
-    });
-    spotlight.querySelectorAll('[data-category-nav]').forEach(btn=>btn.addEventListener('click',()=>{
-      currentNavSelection=btn.dataset.categoryNav||'all';
-      renderDiscompNav(products);
-      filterCatalog();
-      document.getElementById('catalogDiscompNav')?.scrollIntoView({block:'start',behavior:'smooth'});
-    }));
-    applyCatalogTheme(document.body?.getAttribute('data-catalog-theme')||localStorage.getItem(catalogThemeKey)||'light');
+    document.getElementById('catalogSystemDashboard')?.remove();
+    document.getElementById('catalogBrandSpotlight')?.remove();
   };
   const renderDiscompNav=(products)=>{
     const main=document.querySelector('.ct-catalog-main'); if(!main) return;
