@@ -1695,3 +1695,17 @@ html,body{background:linear-gradient(180deg,var(--ss-ice),var(--ss-sky-weak) 52%
 .ct-discomp-empty{grid-column:1/-1;padding:18px;border:1px dashed oklch(80% .018 235);background:oklch(97% .006 235);color:oklch(47% .035 245);font-size:13px;font-weight:750}
 @media(max-width:1080px){.ct-discomp-tiles{grid-template-columns:repeat(2,minmax(0,1fr))}.ct-discomp-tabs{overflow-x:auto;flex-wrap:nowrap}.ct-discomp-tabs button{white-space:nowrap}}
 @media(max-width:680px){.ct-discomp-nav{margin-inline:-2px}.ct-discomp-head{display:grid;align-items:start}.ct-discomp-tiles{grid-template-columns:1fr}.ct-discomp-tile{grid-template-columns:38px minmax(0,1fr);}.ct-discomp-tile small{grid-column:2}.ct-discomp-tabs button{min-height:40px;padding:0 12px}}
+
+/* Netanel 2026-05-18: central brand-first catalogue navigator; remove left product-family sidebar. */
+.catalog-live .ct-trade-workbench{grid-template-columns:minmax(0,1fr)!important;max-width:1050px!important}
+.catalog-live .ct-filters{display:none!important}
+.ct-brand-discomp-nav .ct-brand-tabs{gap:0;align-items:stretch}
+.ct-brand-discomp-nav .ct-brand-tab{display:grid!important;grid-template-columns:minmax(72px,112px) auto;grid-template-rows:1fr auto;align-items:center;gap:2px 9px;min-height:54px;padding:6px 13px!important;text-align:left!important}
+.ct-brand-discomp-nav .ct-brand-tab img,.ct-brand-discomp-nav .ct-discomp-tile img{max-width:96px;max-height:28px;object-fit:contain;filter:brightness(0) invert(1) saturate(0) opacity(.92)}
+.ct-brand-discomp-nav .ct-brand-tab span{width:42px;height:30px;display:grid;place-items:center;border-radius:4px;background:oklch(38% .035 245);color:white;font-weight:950;letter-spacing:.03em}
+.ct-brand-discomp-nav .ct-brand-tab b{font-size:12px;line-height:1.1;color:inherit}
+.ct-brand-discomp-nav .ct-brand-tab small{grid-column:2;color:oklch(76% .014 235);font-size:10px;font-weight:850}
+.ct-brand-discomp-nav .ct-discomp-tile img{width:80px;height:38px;filter:none;background:white;border:1px solid oklch(88% .012 235);border-radius:4px;padding:7px}
+.ct-brand-discomp-nav .ct-discomp-head h2{font-weight:650}
+@media(max-width:1080px){.catalog-live .ct-trade-workbench{max-width:none!important}.ct-brand-discomp-nav .ct-brand-tab{grid-template-columns:minmax(70px,96px) auto;min-width:178px}}
+@media(max-width:680px){.ct-brand-discomp-nav .ct-brand-tab{min-width:160px}.ct-brand-discomp-nav .ct-brand-tab img{max-width:82px}.ct-brand-discomp-nav .ct-discomp-tile img{width:64px}.catalog-live .ct-trade-workbench{gap:12px!important}}

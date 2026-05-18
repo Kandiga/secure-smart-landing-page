@@ -161,8 +161,17 @@
   };
   const sourcePathSlug=(segments)=>segments.map(sourceCategorySlug).join('~')||'source';
   const sourcePathValue=(primary,segments)=>`sourcepath:${primary}:${sourcePathSlug(segments)}`;
-  const sourcePathSelectionMatches=(p,primary,pathSlug)=>categorySlug(p)===primary && sourcePathSlug(sourcePathSegments(p)).split('~').slice(0,pathSlug.split('~').length).join('~')===pathSlug;
+  const sourcePathSelectionMatches=(p,primary,pathSlug,brandFilter='')=>{
+    if(categorySlug(p)!==primary) return false;
+    if(brandFilter&&brandSlug(p.brand||'')!==brandFilter) return false;
+    const wanted=String(pathSlug||'');
+    if(!wanted) return true;
+    const actual=sourcePathSlug(sourcePathSegments(p)).split('~');
+    const target=wanted.split('~');
+    return actual.slice(0,target.length).join('~')===wanted;
+  };
   const brandCategoryValue=(brand,primary,source)=>`brandcat:${brand}:${primary}:${source}`;
+  const brandPathValue=(brand,primary,segments)=>`brandpath:${brand}:${primary}:${sourcePathSlug(segments)}`;
   const categorySelectionMatches=(p,selected)=>{
     if(!selected.length) return true;
     const pCategories=productCategorySlugs(p);
@@ -172,8 +181,10 @@
     return selected.some(c=>{
       if(pCategories.includes(c)) return true;
       const parts=String(c).split(':');
+      if(parts[0]==='brand') return parts[1]===brand;
       if(parts[0]==='brandcat') return parts[1]===brand && parts[2]===primary && parts[3]===source;
       if(parts[0]==='brandprimary') return parts[1]===brand && parts[2]===primary;
+      if(parts[0]==='brandpath') return parts[1]===brand && sourcePathSelectionMatches(p,parts[2],parts[3]||'',parts[1]);
       if(parts[0]==='sourcepath') return sourcePathSelectionMatches(p,parts[1],parts[2]||'');
       return false;
     });
@@ -230,12 +241,13 @@
   const iconForLabel=(label)=>{const n=normalizeText(label); if(/wireless|wifi|lan|network|ubiquiti/.test(n)) return '📶'; if(/smart|life|iot|sensor|home/.test(n)) return '🏠'; if(/camera|security|nvr|access|door/.test(n)) return '🛡'; if(/optical|fiber|sfp|gpon/.test(n)) return '◇'; if(/cable|connector|accessor|mount/.test(n)) return '🔌'; if(/power|rack|cabinet|ups/.test(n)) return '⚡'; if(/lte|5g|industrial|teltonika/.test(n)) return '5G'; return (label||'S').trim().slice(0,2).toUpperCase();};
   const selectionLabel=(value)=>{if(!value||value==='all') return 'Product catalogue'; const parts=String(value).split(':'); if(parts[0]==='sourcepath'){const labels=(parts[2]||'').split('~').filter(Boolean).map(slug=>slug.replace(/-/g,' ')); return labels.length?labels[labels.length-1].replace(/\b\w/g,c=>c.toUpperCase()):categoryLabelBySlug[parts[1]]||'Sub-category';} return categoryLabelBySlug[value]||'Category';};
   const countForSelection=(products,value)=>{if(!value||value==='all') return products.length; return products.filter(p=>categorySelectionMatches(p,[value])).length;};
-  const sourceTilesFor=(products,primary,path=[])=>{
+  const sourceTilesFor=(products,primary,path=[],brandFilter='')=>{
     const prefixSlug=sourcePathSlug(path);
     const prefixLen=path.length;
     const nodes=new Map();
     products.forEach(p=>{
       if(categorySlug(p)!==primary) return;
+      if(brandFilter&&brandSlug(p.brand||'')!==brandFilter) return;
       const segs=sourcePathSegments(p);
       const slugParts=sourcePathSlug(segs).split('~');
       if(path.length && slugParts.slice(0,prefixLen).join('~')!==prefixSlug) return;
@@ -247,49 +259,59 @@
     });
     let values=[...nodes.values()].sort((a,b)=>b.count-a.count||a.label.localeCompare(b.label));
     const grouped=values.filter(x=>x.count>1);
-    if(grouped.length>=3) values=grouped;
+    if(grouped.length>=1) values=grouped;
     return values.slice(0,18);
   };
   const renderDiscompNav=(products)=>{
     const main=document.querySelector('.ct-catalog-main'); if(!main) return;
     let nav=document.getElementById('catalogDiscompNav');
-    if(!nav){nav=document.createElement('section'); nav.id='catalogDiscompNav'; nav.className='ct-discomp-nav'; nav.setAttribute('aria-label','Catalogue category navigation'); main.prepend(nav);}
-    const parentCounts=new Map(); const childCounts=new Map();
-    products.forEach(p=>productCategorySlugs(p).forEach(slug=>{if(CATALOG_TREE.some(g=>g.slug===slug)) parentCounts.set(slug,(parentCounts.get(slug)||0)+1); else childCounts.set(slug,(childCounts.get(slug)||0)+1);}));
+    if(!nav){nav=document.createElement('section'); nav.id='catalogDiscompNav'; nav.className='ct-discomp-nav ct-brand-discomp-nav'; nav.setAttribute('aria-label','Brand catalogue navigation'); main.prepend(nav);}
+    const brandNodes=new Map();
+    const order=['LifeSmart','Ubiquiti','MikroTik','Teltonika','Huawei','RF elements','Aqara'];
+    const brandSort=(a,b)=>{const ia=order.findIndex(x=>normalizeText(x)===normalizeText(a)); const ib=order.findIndex(x=>normalizeText(x)===normalizeText(b)); return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);};
+    products.forEach(p=>{
+      const label=p.brand||'Other'; const bslug=brandSlug(label); const primary=categorySlug(p);
+      if(!brandNodes.has(bslug)) brandNodes.set(bslug,{slug:bslug,label,count:0,primaries:new Map()});
+      const brandNode=brandNodes.get(bslug); brandNode.count+=1;
+      if(!brandNode.primaries.has(primary)) brandNode.primaries.set(primary,{slug:primary,label:categoryLabelBySlug[primary]||primary,count:0});
+      brandNode.primaries.get(primary).count+=1;
+    });
+    const brands=[...brandNodes.values()].sort((a,b)=>brandSort(a.label,b.label));
+    const brandBySlug=Object.fromEntries(brands.map(b=>[b.slug,b]));
     const parts=String(currentNavSelection||'all').split(':');
-    const selectedIsSource=parts[0]==='sourcepath';
-    const selectedSlug=selectedIsSource?parts[1]:currentNavSelection;
-    const selectedNode=categoryNodeForSlug(selectedSlug);
-    const selectedParent=selectedSlug==='all'?null:categoryParentForSlug(selectedSlug);
-    let title=selectionLabel(currentNavSelection);
+    const selectedType=parts[0];
+    const selectedBrand=selectedType==='brand'?parts[1]:(selectedType==='brandprimary'||selectedType==='brandpath'?parts[1]:'');
+    const selectedPrimary=selectedType==='brandprimary'?parts[2]:(selectedType==='brandpath'?parts[2]:'');
+    const selectedPath=selectedType==='brandpath'?(parts[3]||''):'';
+    const selectedBrandNode=brandBySlug[selectedBrand];
+    let title='Product catalogue';
     let tiles=[];
     if(currentNavSelection==='all'){
-      tiles=CATALOG_TREE.map(group=>({value:group.slug,label:group.label,count:parentCounts.get(group.slug)||0})).filter(x=>x.count>0);
-    } else if(selectedNode&&CATALOG_TREE.some(g=>g.slug===selectedSlug)){
-      title=selectedNode.label;
-      tiles=selectedNode.children.map(c=>({value:c.slug,label:c.label,count:childCounts.get(c.slug)||0})).filter(x=>x.count>0);
-    } else if(selectedNode){
-      title=selectedNode.label;
-      tiles=sourceTilesFor(products,selectedSlug,[]);
-    } else if(selectedIsSource){
-      const path=(parts[2]||'').split('~').filter(Boolean).map(x=>x.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()));
-      title=path[path.length-1]||categoryLabelBySlug[parts[1]]||'Sub-category';
-      tiles=sourceTilesFor(products,parts[1],path);
-      if(!tiles.length && path.length>0) tiles=sourceTilesFor(products,parts[1],path.slice(0,-1));
+      title='Browse by brand';
+      tiles=brands.map(b=>({value:`brand:${b.slug}`,label:b.label,count:b.count,brandSlug:b.slug,type:'brand'}));
+    } else if(selectedType==='brand'&&selectedBrandNode){
+      title=selectedBrandNode.label;
+      tiles=[...selectedBrandNode.primaries.values()].sort((a,b)=>b.count-a.count||a.label.localeCompare(b.label)).map(x=>({value:`brandprimary:${selectedBrand}:${x.slug}`,label:x.label,count:x.count,brandSlug:selectedBrand,type:'primary'}));
+    } else if(selectedType==='brandprimary'&&selectedBrandNode){
+      title=categoryLabelBySlug[selectedPrimary]||'Category';
+      tiles=sourceTilesFor(products,selectedPrimary,[],selectedBrand).map(x=>({...x,value:`brandpath:${selectedBrand}:${selectedPrimary}:${String(x.value).split(':')[2]||''}`,brandSlug:selectedBrand,type:'source'}));
+    } else if(selectedType==='brandpath'&&selectedBrandNode){
+      const path=selectedPath.split('~').filter(Boolean).map(x=>x.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()));
+      title=path[path.length-1]||categoryLabelBySlug[selectedPrimary]||'Sub-category';
+      tiles=sourceTilesFor(products,selectedPrimary,path,selectedBrand).map(x=>({...x,value:`brandpath:${selectedBrand}:${selectedPrimary}:${String(x.value).split(':')[2]||''}`,brandSlug:selectedBrand,type:'source'}));
+      if(!tiles.length && path.length>0) tiles=sourceTilesFor(products,selectedPrimary,path.slice(0,-1),selectedBrand).map(x=>({...x,value:`brandpath:${selectedBrand}:${selectedPrimary}:${String(x.value).split(':')[2]||''}`,brandSlug:selectedBrand,type:'source'}));
     }
+    const logoForBrand=(node)=>{const n=normalizeText(node?.label||''); const src=/lifesmart|life smart/.test(n)?'assets/brands/lifesmart-logo.svg':/huawei/.test(n)?'assets/brands/huawei-logo.svg':/teltonika/.test(n)?'assets/brands/teltonika-networks-logo.svg':/rf elements/.test(n)?'assets/brands/rf-elements-logo.png':/aqara/.test(n)?'assets/brands/aqara-logo.svg':''; return src?`<img alt="${safeAttr(node.label)} logo" src="${src}" loading="lazy"/>`:`<span>${escapeHtml((node?.label||'SS').trim().slice(0,2).toUpperCase())}</span>`;};
     const crumbs=[];
     crumbs.push(`<button type="button" data-category-nav="all">Catalog</button>`);
-    if(selectedParent) crumbs.push(`<span>/</span><button type="button" data-category-nav="${safeAttr(selectedParent.slug)}">${escapeHtml(selectedParent.label)}</button>`);
-    if(selectedNode&&selectedParent&&selectedNode.slug!==selectedParent.slug) crumbs.push(`<span>/</span><button type="button" data-category-nav="${safeAttr(selectedNode.slug)}">${escapeHtml(selectedNode.label)}</button>`);
-    if(selectedIsSource){
-      const child=categoryNodeForSlug(parts[1]); const parent=categoryParentForSlug(parts[1]);
-      if(parent&&!selectedParent) crumbs.push(`<span>/</span><button type="button" data-category-nav="${safeAttr(parent.slug)}">${escapeHtml(parent.label)}</button>`);
-      if(child&&!selectedNode) crumbs.push(`<span>/</span><button type="button" data-category-nav="${safeAttr(child.slug)}">${escapeHtml(child.label)}</button>`);
-      const acc=[]; (parts[2]||'').split('~').filter(Boolean).forEach(slug=>{acc.push(slug); crumbs.push(`<span>/</span><button type="button" data-category-nav="${safeAttr(`sourcepath:${parts[1]}:${acc.join('~')}`)}">${escapeHtml(slug.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()))}</button>`);});
+    if(selectedBrandNode) crumbs.push(`<span>/</span><button type="button" data-category-nav="brand:${safeAttr(selectedBrandNode.slug)}">${escapeHtml(selectedBrandNode.label)}</button>`);
+    if(selectedPrimary) crumbs.push(`<span>/</span><button type="button" data-category-nav="brandprimary:${safeAttr(selectedBrand)}:${safeAttr(selectedPrimary)}">${escapeHtml(categoryLabelBySlug[selectedPrimary]||'Category')}</button>`);
+    if(selectedType==='brandpath'){
+      const acc=[]; selectedPath.split('~').filter(Boolean).forEach(slug=>{acc.push(slug); crumbs.push(`<span>/</span><button type="button" data-category-nav="${safeAttr(`brandpath:${selectedBrand}:${selectedPrimary}:${acc.join('~')}`)}">${escapeHtml(slug.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()))}</button>`);});
     }
-    const tabs=CATALOG_TREE.map(group=>`<button type="button" data-category-nav="${safeAttr(group.slug)}" class="${selectedParent?.slug===group.slug||selectedSlug===group.slug?'is-active':''}">${escapeHtml(group.label)}</button>`).join('');
-    const tileMarkup=tiles.length?tiles.map(tile=>`<button type="button" data-category-nav="${safeAttr(tile.value)}" class="ct-discomp-tile ${tile.value===currentNavSelection?'is-active':''}"><span>${escapeHtml(iconForLabel(tile.label))}</span><b>${escapeHtml(tile.label)}</b><small>${tile.count.toLocaleString('en-US')} items</small></button>`).join(''):`<div class="ct-discomp-empty">No deeper sub-category level is available for this branch.</div>`;
-    nav.innerHTML=`<div class="ct-discomp-tabs">${tabs}</div><nav class="ct-discomp-crumbs" aria-label="Breadcrumb">${crumbs.join('')}</nav><div class="ct-discomp-head"><h2>${escapeHtml(title)}</h2><span>${countForSelection(products,currentNavSelection).toLocaleString('en-US')} products</span></div><div class="ct-discomp-tiles">${tileMarkup}</div>`;
+    const tabs=brands.map(b=>`<button type="button" data-category-nav="brand:${safeAttr(b.slug)}" class="ct-brand-tab ${selectedBrand===b.slug?'is-active':''}">${logoForBrand(b)}<b>${escapeHtml(b.label)}</b><small>${b.count.toLocaleString('en-US')}</small></button>`).join('');
+    const tileMarkup=tiles.length?tiles.map(tile=>{const bnode=brandBySlug[tile.brandSlug]; const icon=tile.type==='brand'?logoForBrand(bnode):`<span>${escapeHtml(iconForLabel(tile.label))}</span>`; return `<button type="button" data-category-nav="${safeAttr(tile.value)}" class="ct-discomp-tile ${tile.value===currentNavSelection?'is-active':''}">${icon}<b>${escapeHtml(tile.label)}</b><small>${tile.count.toLocaleString('en-US')} items</small></button>`;}).join(''):`<div class="ct-discomp-empty">No deeper sub-category level is available for this brand branch.</div>`;
+    nav.innerHTML=`<div class="ct-discomp-tabs ct-brand-tabs">${tabs}</div><nav class="ct-discomp-crumbs" aria-label="Breadcrumb">${crumbs.join('')}</nav><div class="ct-discomp-head"><h2>${escapeHtml(title)}</h2><span>${countForSelection(products,currentNavSelection).toLocaleString('en-US')} products</span></div><div class="ct-discomp-tiles">${tileMarkup}</div>`;
     nav.querySelectorAll('[data-category-nav]').forEach(btn=>btn.addEventListener('click',()=>{currentNavSelection=btn.dataset.categoryNav||'all'; renderDiscompNav(products); filterCatalog(); nav.scrollIntoView({block:'start',behavior:'smooth'});}));
   };
 
