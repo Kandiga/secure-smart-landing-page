@@ -36,7 +36,7 @@
   const PRODUCT_DETAIL_MAP_URL='assets/catalog-data/product-detail-map.json';
   const catalogFetchCache={};
   const fetchJsonCached=(url)=>{
-    const versionedUrl=url.includes('?')?url+'&v=20260518-primary-categories':url+'?v=20260518-primary-categories';
+    const versionedUrl=url.includes('?')?url+'&v=20260518-router-category-fix':url+'?v=20260518-router-category-fix';
     if(!catalogFetchCache[url]) catalogFetchCache[url]=fetch(versionedUrl,{cache:'no-cache'}).then(res=>{ if(!res.ok) throw new Error('HTTP '+res.status); return res.json(); });
     return catalogFetchCache[url];
   };
@@ -96,6 +96,15 @@
     const isLifeSmart=/lifesmart|life smart|sublime|defed|coss|cololight/.test(t);
     if(isLifeSmart) return pick('lifesmart-products');
 
+    const isIndustrialConnectivity=/industrial|rs232|rs485|modbus|m-bus|serial|din rail/.test(t);
+    const isCellularConnectivity=/lte|\b5g\b|\b4g\b|\bcat ?[0-9]\b|catm|modem|cellular/.test(t);
+    const isTeltonikaRouter=/teltonika/.test(brand)&&/router|gateway/.test(t);
+    if(/teltonika/.test(brand)||isIndustrialConnectivity||isCellularConnectivity){
+      if(isIndustrialConnectivity) return pick('industrial-gateways');
+      if(isCellularConnectivity||isTeltonikaRouter) return pick('lte-5g-routers');
+      return pick('teltonika');
+    }
+
     const isSmartCamera=/camera|nvr|video recorder|uvc|protect|bullet|turret|dome|ptz|viewport|ai port|ai key/.test(t);
     const isSmartDoorAccess=/door access|doorbell|reader|intercom|access hub|ua-/.test(t);
     const isSmartSensorControl=/smart home|aqara|zigbee|matter|thread|sensor|motion|thermostat|relay|smart station|interaction center|smart control|iot controller/.test(t);
@@ -105,12 +114,6 @@
     if(isSmartCamera) return pick('smart-cameras-nvr');
     if(isSmartLighting) return pick('smart-lighting-switches');
     if(isSmartSensorControl||isHuaweiCollaboration) return pick('smart-sensors-control');
-
-    if(/teltonika/.test(brand)||/lte|\b5g\b|\b4g\b|\bcat ?[0-9]\b|catm|modem|cellular|industrial|rs232|rs485|modbus|m-bus|serial|din rail/.test(t)){
-      if(/teltonika/.test(brand)) return pick('teltonika');
-      if(/industrial|rs232|rs485|modbus|m-bus|serial|din rail/.test(t)) return pick('industrial-gateways');
-      return pick('lte-5g-routers');
-    }
 
     if(/huawei/.test(brand)||/gpon|xgs pon|xgs-pon|onu|ont|olt|fiber|fibre|optic|optical/.test(t)){
       if(/sfp|qsfp|optic|transceiver|dac|multi mode|single mode/.test(t)) return pick('sfp-qsfp-optics');
