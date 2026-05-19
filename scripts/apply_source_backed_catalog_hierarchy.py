@@ -25,6 +25,7 @@ ROOT = Path(__file__).resolve().parents[1]
 DATA = ROOT / 'assets' / 'catalog-data'
 PRIVATE_DISCOMP = Path(os.environ.get('SS_DISCOMP_PRIVATE_SOURCE', '/srv/projects/secure-smart/data/secure_smart_catalog_enriched_discomp_stage_2026-05-02.json'))
 DISCOMP_AUDIT = Path(os.environ.get('SS_DISCOMP_HIERARCHY_AUDIT', '/srv/projects/secure-smart/data/discomp_hierarchy_audit_2026-05-19.jsonl'))
+DISCOMP_AUDITS = [Path(x) for x in os.environ.get('SS_DISCOMP_HIERARCHY_AUDITS', str(DISCOMP_AUDIT)).split(':') if x]
 LIFESMART_FINAL = Path(os.environ.get('SS_LIFESMART_FINAL_XLSX', '/srv/projects/secure-smart/handoff/01-whatsapp-exports/extracted-kandiga-safe/0544-00006063-SecureSmart_All_Lists_WITH_LifeSmart_ZTE_USD_2026-05-08.xlsx'))
 LIFESMART_CORE = Path(os.environ.get('SS_LIFESMART_CORE_XLSX', '/srv/projects/secure-smart/handoff/01-whatsapp-exports/extracted-kandiga-safe/0539-00005993-2026 Core smart home price with EAN final.xlsx'))
 APPLY = os.environ.get('SS_APPLY_CATALOG_SOURCE') == '1'
@@ -41,6 +42,10 @@ def norm_sku(v: Any) -> str:
 def clean_text(s: Any) -> str:
     s = str(s or '').replace('\xa0',' ').replace('Â','')
     return re.sub(r'\s+', ' ', s).strip()
+
+
+def is_bad_discomp_login_text(s: Any) -> bool:
+    return 'requires your' in clean_text(s).lower() and 'log in' in clean_text(s).lower()
 
 
 def load_json(path: Path):
@@ -65,16 +70,19 @@ def load_discomp_private() -> dict[str, dict]:
 
 def load_discomp_audit_categories() -> dict[str, str]:
     out: dict[str, str] = {}
-    if not DISCOMP_AUDIT.exists(): return out
-    for line in DISCOMP_AUDIT.read_text(encoding='utf-8', errors='ignore').splitlines():
-        try: r = json.loads(line)
-        except Exception: continue
-        if r.get('status') != 'ok': continue
-        sku = norm_sku(r.get('sku'))
-        labels = [clean_text(x.get('label')) for x in (r.get('breadcrumb') or []) if isinstance(x, dict) and clean_text(x.get('label'))]
-        labels = [x for x in labels if x.lower() not in {'home', 'home page'}]
-        if sku and labels:
-            out[sku] = ' / '.join(labels[:5])
+    for audit_path in DISCOMP_AUDITS:
+        if not audit_path.exists():
+            continue
+        for line in audit_path.read_text(encoding='utf-8', errors='ignore').splitlines():
+            try: r = json.loads(line)
+            except Exception: continue
+            if r.get('status') != 'ok': continue
+            sku = norm_sku(r.get('sku'))
+            labels = [clean_text(x.get('label')) for x in (r.get('breadcrumb') or []) if isinstance(x, dict) and clean_text(x.get('label'))]
+            labels = [x for x in labels if x.lower() not in {'home', 'home page'}]
+            if sku and labels:
+                # Later audit files intentionally override older partial runs for the same SKU.
+                out[sku] = ' / '.join(labels[:5])
     return out
 
 
@@ -164,7 +172,9 @@ def candidate_updates(p: dict, *, private: dict[str,dict], audited: dict[str,str
         if priv:
             # Do not overwrite customer price fields. Use source title/description/warranty/carton only.
             title = clean_text((priv.get('discompEnrichment') or {}).get('title') or priv.get('title'))
-            if title: updates['title'] = title
+            if is_bad_discomp_login_text(title):
+                title = clean_text(priv.get('title'))
+            if title and not is_bad_discomp_login_text(title): updates['title'] = title
             # Do not mass-normalize warranty in this hierarchy pass; it is outside the requested scope.
             # carton values from existing private stage/cartonMatch are source-derived; never infer from pack text.
             ctn = priv.get('unitPerCarton')
@@ -205,7 +215,7 @@ def main():
     cartons = load_lifesmart_cartons()
     summary = {
         'apply': APPLY,
-        'sources': {'privateDiscomp': str(PRIVATE_DISCOMP), 'discompAudit': str(DISCOMP_AUDIT), 'lifesmartFinal': str(LIFESMART_FINAL), 'lifesmartCore': str(LIFESMART_CORE)},
+        'sources': {'privateDiscomp': str(PRIVATE_DISCOMP), 'discompAudits': [str(x) for x in DISCOMP_AUDITS], 'lifesmartFinal': str(LIFESMART_FINAL), 'lifesmartCore': str(LIFESMART_CORE)},
         'sourceCounts': {'privateDiscomp': len(private), 'discompAuditedCategories': len(audited), 'lifesmartRows': len(lifesmart), 'lifesmartCartonRows': sum(v is not None for v in cartons.values())},
         'files': {},
         'pricePreservationViolations': 0,

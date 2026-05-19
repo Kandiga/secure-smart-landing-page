@@ -160,13 +160,17 @@
     return [sourceCategoryLabel(p)].filter(Boolean);
   };
   const sourcePathSlug=(segments)=>segments.map(sourceCategorySlug).join('~')||'source';
+  const sourceTopLabel=(p)=>sourcePathSegments(p)[0] || categoryLabelBySlug[categorySlug(p)] || 'Catalogue';
+  const sourceTopSlug=(p)=>sourceCategorySlug(sourceTopLabel(p));
   const sourcePathValue=(primary,segments)=>`sourcepath:${primary}:${sourcePathSlug(segments)}`;
+  const sourcePrimaryMatches=(p,primary)=>categorySlug(p)===primary || sourceTopSlug(p)===primary;
   const sourcePathSelectionMatches=(p,primary,pathSlug,brandFilter='')=>{
-    if(categorySlug(p)!==primary) return false;
+    if(!sourcePrimaryMatches(p,primary)) return false;
     if(brandFilter&&brandSlug(p.brand||'')!==brandFilter) return false;
     const wanted=String(pathSlug||'');
     if(!wanted) return true;
-    const actual=sourcePathSlug(sourcePathSegments(p)).split('~');
+    const actualFull=sourcePathSlug(sourcePathSegments(p)).split('~');
+    const actual=(sourceTopSlug(p)===primary)?actualFull.slice(1):actualFull;
     const target=wanted.split('~');
     return actual.slice(0,target.length).join('~')===wanted;
   };
@@ -183,7 +187,7 @@
       const parts=String(c).split(':');
       if(parts[0]==='brand') return parts[1]===brand;
       if(parts[0]==='brandcat') return parts[1]===brand && parts[2]===primary && parts[3]===source;
-      if(parts[0]==='brandprimary') return parts[1]===brand && parts[2]===primary;
+      if(parts[0]==='brandprimary') return parts[1]===brand && sourcePrimaryMatches(p,parts[2]);
       if(parts[0]==='brandpath') return parts[1]===brand && sourcePathSelectionMatches(p,parts[2],parts[3]||'',parts[1]);
       if(parts[0]==='sourcepath') return sourcePathSelectionMatches(p,parts[1],parts[2]||'');
       return false;
@@ -234,8 +238,8 @@
   };
   const ensureCatalogEmptyState=()=>{let empty=document.getElementById('catalogEmptyState'); const grid=document.getElementById('productGrid'); if(!empty&&grid){empty=document.createElement('div'); empty.id='catalogEmptyState'; empty.className='ct-empty-state'; empty.hidden=true; empty.setAttribute('aria-live','polite'); grid.insertAdjacentElement('afterend',empty);} return empty;};
   const ensureLoadMore=()=>{let btn=document.getElementById('catalogLoadMore'); const grid=document.getElementById('productGrid'); if(!btn&&grid){btn=document.createElement('button'); btn.id='catalogLoadMore'; btn.className='ct-load-more'; btn.type='button'; btn.addEventListener('click',()=>{renderLimit+=80; renderProductGrid();}); grid.insertAdjacentElement('afterend',btn);} return btn;};
-  const ensureViewControls=()=>{const toolbar=document.querySelector('.ct-toolbar'); const grid=document.getElementById('productGrid'); if(!toolbar||!grid||toolbar.querySelector('[data-catalog-view]')) return; const wrap=document.createElement('div'); wrap.className='ct-view-toggle'; wrap.setAttribute('aria-label','Catalogue view mode'); const modes=[['list','Current'],['grid','Squares'],['compact','List']]; wrap.innerHTML=modes.map(([mode,label])=>`<button type="button" data-catalog-view="${mode}">${label}</button>`).join(''); toolbar.appendChild(wrap); wrap.addEventListener('click',(event)=>{const btn=event.target.closest('[data-catalog-view]'); if(!btn) return; localStorage.setItem('secureSmartCatalogView',btn.dataset.catalogView); applyViewMode();}); applyViewMode();};
-  const applyViewMode=()=>{const grid=document.getElementById('productGrid'); if(!grid) return; const mode=['grid','compact'].includes(localStorage.getItem('secureSmartCatalogView'))?localStorage.getItem('secureSmartCatalogView'):'list'; grid.dataset.view=mode; document.querySelectorAll('[data-catalog-view]').forEach(btn=>btn.classList.toggle('is-active',btn.dataset.catalogView===mode));};
+  const ensureViewControls=()=>{const toolbar=document.querySelector('.ct-toolbar'); const grid=document.getElementById('productGrid'); if(!toolbar||!grid) return; if(!toolbar.querySelector('#sortProducts')){const sort=document.createElement('select'); sort.id='sortProducts'; sort.className='ct-sort-select'; sort.setAttribute('aria-label','Sort products'); sort.innerHTML='<option value="cheapest">Cheapest</option><option value="expensive">Most expensive</option><option value="stock">Bestsellers</option><option value="latest">Latest</option>'; sort.addEventListener('change',filterCatalog); toolbar.appendChild(sort);} if(!toolbar.querySelector('[data-sort-tab]')){const sortTabs=document.createElement('div'); sortTabs.className='ct-discomp-sort-tabs'; const tabs=[['cheapest','Cheapest'],['expensive','Most expensive'],['stock','Bestsellers'],['latest','Latest']]; sortTabs.innerHTML=tabs.map(([value,label])=>`<button type="button" data-sort-tab="${value}">${label}</button>`).join(''); toolbar.appendChild(sortTabs); sortTabs.addEventListener('click',event=>{const btn=event.target.closest('[data-sort-tab]'); if(!btn) return; const select=document.getElementById('sortProducts'); if(select) select.value=btn.dataset.sortTab; filterCatalog();});} if(!toolbar.querySelector('[data-catalog-view]')){ const wrap=document.createElement('div'); wrap.className='ct-view-toggle'; wrap.setAttribute('aria-label','Catalogue view mode'); const modes=[['grid','▦'],['list','☰'],['compact','≡']]; wrap.innerHTML=modes.map(([mode,label])=>`<button type="button" data-catalog-view="${mode}" aria-label="${mode} view">${label}</button>`).join(''); toolbar.appendChild(wrap); wrap.addEventListener('click',(event)=>{const btn=event.target.closest('[data-catalog-view]'); if(!btn) return; localStorage.setItem('secureSmartCatalogView',btn.dataset.catalogView); applyViewMode();}); } applyViewMode();};
+  const applyViewMode=()=>{const grid=document.getElementById('productGrid'); if(!grid) return; const mode=['list','compact'].includes(localStorage.getItem('secureSmartCatalogView'))?localStorage.getItem('secureSmartCatalogView'):'grid'; grid.dataset.view=mode; document.querySelectorAll('[data-catalog-view]').forEach(btn=>btn.classList.toggle('is-active',btn.dataset.catalogView===mode)); const sort=document.getElementById('sortProducts')?.value||'cheapest'; document.querySelectorAll('[data-sort-tab]').forEach(btn=>btn.classList.toggle('is-active',btn.dataset.sortTab===sort));};
   const categoryParentForSlug=(slug)=>CATALOG_TREE.find(g=>g.slug===slug||g.children.some(c=>c.slug===slug));
   const categoryNodeForSlug=(slug)=>{for(const group of CATALOG_TREE){if(group.slug===slug) return group; const child=group.children.find(c=>c.slug===slug); if(child) return child;} return null;};
   const iconForLabel=(label)=>{const n=normalizeText(label); if(/wireless|wifi|lan|network|ubiquiti/.test(n)) return '📶'; if(/smart|life|iot|sensor|home/.test(n)) return '🏠'; if(/camera|security|nvr|access|door/.test(n)) return '🛡'; if(/optical|fiber|sfp|gpon/.test(n)) return '◇'; if(/cable|connector|accessor|mount/.test(n)) return '🔌'; if(/power|rack|cabinet|ups/.test(n)) return '⚡'; if(/lte|5g|industrial|teltonika/.test(n)) return '5G'; return (label||'S').trim().slice(0,2).toUpperCase();};
@@ -246,12 +250,13 @@
     const prefixLen=path.length;
     const nodes=new Map();
     products.forEach(p=>{
-      if(categorySlug(p)!==primary) return;
+      if(!sourcePrimaryMatches(p,primary)) return;
       if(brandFilter&&brandSlug(p.brand||'')!==brandFilter) return;
       const segs=sourcePathSegments(p);
-      const slugParts=sourcePathSlug(segs).split('~');
+      const navSegs=(sourceTopSlug(p)===primary)?segs.slice(1):segs;
+      const slugParts=sourcePathSlug(navSegs).split('~');
       if(path.length && slugParts.slice(0,prefixLen).join('~')!==prefixSlug) return;
-      const next=segs[prefixLen];
+      const next=navSegs[prefixLen];
       if(!next) return;
       const value=sourcePathValue(primary,[...path,next]);
       if(!nodes.has(value)) nodes.set(value,{value,label:next,count:0});
@@ -292,19 +297,20 @@
     const order=['LifeSmart','Ubiquiti','MikroTik','Teltonika','Huawei','RF elements','Aqara'];
     const brandSort=(a,b)=>{const ia=order.findIndex(x=>normalizeText(x)===normalizeText(a)); const ib=order.findIndex(x=>normalizeText(x)===normalizeText(b)); return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);};
     products.forEach(p=>{
-      const label=p.brand||'Other'; const bslug=brandSlug(label); const primary=categorySlug(p);
+      const label=p.brand||'Other'; const bslug=brandSlug(label); const primary=sourceTopSlug(p); const primaryLabel=sourceTopLabel(p);
       if(!brandNodes.has(bslug)) brandNodes.set(bslug,{slug:bslug,label,count:0,primaries:new Map()});
       const brandNode=brandNodes.get(bslug); brandNode.count+=1;
-      if(!brandNode.primaries.has(primary)) brandNode.primaries.set(primary,{slug:primary,label:categoryLabelBySlug[primary]||primary,count:0});
+      if(!brandNode.primaries.has(primary)) brandNode.primaries.set(primary,{slug:primary,label:primaryLabel,count:0});
       brandNode.primaries.get(primary).count+=1;
     });
     const brands=[...brandNodes.values()].sort((a,b)=>brandSort(a.label,b.label));
     const brandBySlug=Object.fromEntries(brands.map(b=>[b.slug,b]));
+    const sourceLabelForPrimary=(slug,brandFilter='')=>{const row=products.find(p=>sourceTopSlug(p)===slug && (!brandFilter||brandSlug(p.brand||'')===brandFilter)); return row?sourceTopLabel(row):(categoryLabelBySlug[slug]||slug.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()));};
     const parts=String(currentNavSelection||'all').split(':');
     const selectedType=parts[0];
     const selectedBrand=selectedType==='brand'?parts[1]:(selectedType==='brandprimary'||selectedType==='brandpath'?parts[1]:'');
-    const selectedPrimary=selectedType==='brandprimary'?parts[2]:(selectedType==='brandpath'?parts[2]:'');
-    const selectedPath=selectedType==='brandpath'?(parts[3]||''):'';
+    const selectedPrimary=selectedType==='sourcepath'?parts[1]:(selectedType==='brandprimary'?parts[2]:(selectedType==='brandpath'?parts[2]:''));
+    const selectedPath=selectedType==='sourcepath'?(parts[2]||''):(selectedType==='brandpath'?(parts[3]||''):'');
     const selectedBrandNode=brandBySlug[selectedBrand];
     let title='Product catalogue';
     let tiles=[];
@@ -315,13 +321,17 @@
       title=selectedBrandNode.label;
       tiles=[...selectedBrandNode.primaries.values()].sort((a,b)=>b.count-a.count||a.label.localeCompare(b.label)).map(x=>({value:`brandprimary:${selectedBrand}:${x.slug}`,label:x.label,count:x.count,brandSlug:selectedBrand,type:'primary'}));
     } else if(selectedType==='brandprimary'&&selectedBrandNode){
-      title=categoryLabelBySlug[selectedPrimary]||'Category';
+      title=sourceLabelForPrimary(selectedPrimary,selectedBrand);
       tiles=sourceTilesFor(products,selectedPrimary,[],selectedBrand).map(x=>({...x,value:`brandpath:${selectedBrand}:${selectedPrimary}:${String(x.value).split(':')[2]||''}`,brandSlug:selectedBrand,type:'source'}));
     } else if(selectedType==='brandpath'&&selectedBrandNode){
       const path=selectedPath.split('~').filter(Boolean).map(x=>x.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()));
-      title=path[path.length-1]||categoryLabelBySlug[selectedPrimary]||'Sub-category';
+      title=path[path.length-1]||sourceLabelForPrimary(selectedPrimary,selectedBrand)||'Sub-category';
       tiles=sourceTilesFor(products,selectedPrimary,path,selectedBrand).map(x=>({...x,value:`brandpath:${selectedBrand}:${selectedPrimary}:${String(x.value).split(':')[2]||''}`,brandSlug:selectedBrand,type:'source'}));
       if(!tiles.length && path.length>0) tiles=sourceTilesFor(products,selectedPrimary,path.slice(0,-1),selectedBrand).map(x=>({...x,value:`brandpath:${selectedBrand}:${selectedPrimary}:${String(x.value).split(':')[2]||''}`,brandSlug:selectedBrand,type:'source'}));
+    } else if(selectedType==='sourcepath'){
+      const path=selectedPath.split('~').filter(Boolean).map(x=>x.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()));
+      title=path[path.length-1]||sourceLabelForPrimary(selectedPrimary)||'Category';
+      tiles=sourceTilesFor(products,selectedPrimary,path,'').map(x=>({...x,value:`sourcepath:${selectedPrimary}:${String(x.value).split(':')[2]||''}`,brandSlug:'',type:'source'}));
     }
     const logoForBrand=(node)=>{const n=normalizeText(node?.label||''); const src=/lifesmart|life smart/.test(n)?'assets/brands/lifesmart-logo.svg':/huawei/.test(n)?'assets/brands/huawei-logo.svg':/teltonika/.test(n)?'assets/brands/teltonika-networks-logo.svg':/rf elements/.test(n)?'assets/brands/rf-elements-logo.png':/aqara/.test(n)?'assets/brands/aqara-logo.svg':''; return src?`<img alt="${safeAttr(node.label)} logo" src="${src}" loading="lazy"/>`:`<span>${escapeHtml((node?.label||'SS').trim().slice(0,2).toUpperCase())}</span>`;};
     const crumbs=[];
@@ -337,9 +347,9 @@
     };
     pushCrumb('Catalog','all');
     if(selectedBrandNode) pushCrumb(selectedBrandNode.label,`brand:${selectedBrandNode.slug}`);
-    if(selectedPrimary) pushCrumb(categoryLabelBySlug[selectedPrimary]||'Category',`brandprimary:${selectedBrand}:${selectedPrimary}`);
-    if(selectedType==='brandpath'){
-      const acc=[]; selectedPath.split('~').filter(Boolean).forEach(slug=>{acc.push(slug); pushCrumb(slug.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()),`brandpath:${selectedBrand}:${selectedPrimary}:${acc.join('~')}`);});
+    if(selectedPrimary) pushCrumb(sourceLabelForPrimary(selectedPrimary,selectedBrand),selectedBrand?`brandprimary:${selectedBrand}:${selectedPrimary}`:`sourcepath:${selectedPrimary}:`);
+    if(selectedType==='brandpath'||selectedType==='sourcepath'){
+      const acc=[]; selectedPath.split('~').filter(Boolean).forEach(slug=>{acc.push(slug); pushCrumb(slug.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()),selectedBrand?`brandpath:${selectedBrand}:${selectedPrimary}:${acc.join('~')}`:`sourcepath:${selectedPrimary}:${acc.join('~')}`);});
     }
     const parentNav=(()=>{
       if(currentNavSelection==='all') return '';
@@ -350,22 +360,33 @@
         if(pathParts.length>1) return `brandpath:${selectedBrand}:${selectedPrimary}:${pathParts.slice(0,-1).join('~')}`;
         return `brandprimary:${selectedBrand}:${selectedPrimary}`;
       }
+      if(selectedType==='sourcepath'){
+        const pathParts=selectedPath.split('~').filter(Boolean);
+        if(pathParts.length>1) return `sourcepath:${selectedPrimary}:${pathParts.slice(0,-1).join('~')}`;
+        if(pathParts.length===1) return `sourcepath:${selectedPrimary}:`;
+        return 'all';
+      }
       return 'all';
     })();
     const backButton=parentNav?`<button type="button" class="ct-nav-back" data-category-nav="${safeAttr(parentNav)}" aria-label="Go back one catalogue level">‹ Back</button>`:`<span class="ct-nav-root" aria-label="Top level">Brands</span>`;
+    const primaryOrder=['Wireless','LAN networks','Optical networks','Powering','Cabinets','Poles, brackets','Cameras, security','IoT, SMART','VoIP','Tools','Training, services'];
+    const primaryNodes=new Map();
+    products.forEach(p=>{if(selectedBrand&&brandSlug(p.brand||'')!==selectedBrand) return; const slug=sourceTopSlug(p); const label=sourceTopLabel(p); if(!primaryNodes.has(slug)) primaryNodes.set(slug,{slug,label,count:0}); primaryNodes.get(slug).count+=1;});
+    const primaryTabs=[...primaryNodes.values()].sort((a,b)=>{const ia=primaryOrder.findIndex(x=>normalizeText(x)===normalizeText(a.label)); const ib=primaryOrder.findIndex(x=>normalizeText(x)===normalizeText(b.label)); return (ia<0?99:ia)-(ib<0?99:ib)||b.count-a.count||a.label.localeCompare(b.label);}).map(node=>{const value=selectedBrand?`brandprimary:${selectedBrand}:${node.slug}`:`sourcepath:${node.slug}:`; const active=selectedPrimary===node.slug; return `<button type="button" data-category-nav="${safeAttr(value)}" class="${active?'is-active':''}">${escapeHtml(node.label)}</button>`;}).join('');
     const tileMarkup=tiles.length?tiles.map(tile=>{const bnode=brandBySlug[tile.brandSlug]; const icon=tile.type==='brand'?logoForBrand(bnode):`<span aria-hidden="true">${escapeHtml(iconForLabel(tile.label))}</span>`; const action=tile.type==='brand'?'Open brand categories':(tile.type==='primary'?'Open category sub-categories':'Open sub-category'); return `<button type="button" data-category-nav="${safeAttr(tile.value)}" class="ct-discomp-tile ${tile.value===currentNavSelection?'is-active':''}" aria-label="${safeAttr(`${action}: ${tile.label}, ${tile.count} items`)}">${icon}<b>${escapeHtml(tile.label)}</b><small>${tile.count.toLocaleString('en-US')} items</small><em aria-hidden="true">›</em></button>`;}).join(''):`<div class="ct-discomp-empty">No deeper sub-category level is available for this brand branch.</div>`;
-    nav.innerHTML=`<div class="ct-brand-nav-panel"><div class="ct-nav-tools">${backButton}<nav class="ct-discomp-crumbs" aria-label="Breadcrumb">${crumbs.join('')}</nav></div><div class="ct-discomp-head"><h2>${escapeHtml(title)}</h2><span>${countForSelection(products,currentNavSelection).toLocaleString('en-US')} products</span></div><div class="ct-discomp-tiles">${tileMarkup}</div></div>`;
+    nav.innerHTML=`<div class="ct-discomp-tabs" aria-label="Main Discomp-style categories">${primaryTabs}</div><div class="ct-brand-nav-panel"><div class="ct-nav-tools">${backButton}<nav class="ct-discomp-crumbs" aria-label="Breadcrumb">${crumbs.join('')}</nav></div><div class="ct-discomp-head"><h2>${escapeHtml(title)}</h2><span>${countForSelection(products,currentNavSelection).toLocaleString('en-US')} products</span></div><div class="ct-discomp-tiles">${tileMarkup}</div></div>`;
     nav.querySelectorAll('[data-category-nav]').forEach(btn=>btn.addEventListener('click',()=>{currentNavSelection=btn.dataset.categoryNav||'all'; renderDiscompNav(products); filterCatalog(); nav.scrollIntoView({block:'start',behavior:'smooth'});}));
   };
 
   const updateSidebarFilters=(products)=>{const root=document.querySelector('.ct-filter-block'); if(!root||root.dataset.liveReady) return; const brandCounts=new Map(); const categoryCounts=new Map(); const brandCategoryMap=new Map(); products.forEach(p=>{const brandLabel=p.brand||'Other'; const bslug=brandSlug(brandLabel); const primary=categorySlug(p); const sourceLabel=sourceCategoryLabel(p); const sourceSlug=sourceCategorySlug(sourceLabel); brandCounts.set(brandLabel,(brandCounts.get(brandLabel)||0)+1); productCategorySlugs(p).forEach(c=>categoryCounts.set(c,(categoryCounts.get(c)||0)+1)); if(!brandCategoryMap.has(brandLabel)) brandCategoryMap.set(brandLabel,{slug:bslug,count:0,primaries:new Map()}); const brandNode=brandCategoryMap.get(brandLabel); brandNode.count+=1; if(!brandNode.primaries.has(primary)) brandNode.primaries.set(primary,{slug:primary,label:categoryLabelBySlug[primary]||primary,count:0,sources:new Map()}); const primaryNode=brandNode.primaries.get(primary); primaryNode.count+=1; if(!primaryNode.sources.has(sourceSlug)) primaryNode.sources.set(sourceSlug,{slug:sourceSlug,label:sourceLabel,count:0}); primaryNode.sources.get(sourceSlug).count+=1;}); const order=['LifeSmart','Ubiquiti','MikroTik','Teltonika','Huawei','RF elements']; const brandSort=(a,b)=>{const ia=order.findIndex(x=>normalizeText(x)===normalizeText(a)); const ib=order.findIndex(x=>normalizeText(x)===normalizeText(b)); return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);}; const brands=[...brandCounts.keys()].sort(brandSort); const tree=CATALOG_TREE.map((group,idx)=>{const children=group.children.filter(c=>(categoryCounts.get(c.slug)||0)>0).map(c=>`<label class="ct-tree-leaf"><input data-category-filter type="checkbox" value="${safeAttr(c.slug)}"/> <span>${escapeHtml(c.label)}</span><small class="ct-filter-count">${categoryCounts.get(c.slug)||0}</small></label>`).join(''); if(!children) return ''; return `<details class="ct-cat-tree-group" ${idx<2?'open':''}><summary><span class="ct-cat-toggle" aria-hidden="true"></span><b>${escapeHtml(group.label)}</b><small>${categoryCounts.get(group.slug)||0}</small></summary><div class="ct-cat-tree-children">${children}</div></details>`;}).join(''); const brandTree=brands.map((brand,idx)=>{const node=brandCategoryMap.get(brand); const primaryGroups=[...node.primaries.values()].sort((a,b)=>b.count-a.count||a.label.localeCompare(b.label)).map(primary=>{const sources=[...primary.sources.values()].sort((a,b)=>b.count-a.count||a.label.localeCompare(b.label)); const sourceLeaves=sources.map(src=>`<label class="ct-tree-leaf ct-source-leaf"><input data-category-filter type="checkbox" value="${safeAttr(brandCategoryValue(node.slug,primary.slug,src.slug))}"/> <span>${escapeHtml(src.label)}</span><small class="ct-filter-count">${src.count}</small></label>`).join(''); return `<details class="ct-cat-tree-group ct-brand-primary"><summary><span class="ct-cat-toggle" aria-hidden="true"></span><b>${escapeHtml(primary.label)}</b><small>${primary.count}</small></summary><div class="ct-cat-tree-children"><label class="ct-tree-leaf"><input data-category-filter type="checkbox" value="${safeAttr(`brandprimary:${node.slug}:${primary.slug}`)}"/> <span>All ${escapeHtml(primary.label)}</span><small class="ct-filter-count">${primary.count}</small></label>${sourceLeaves}</div></details>`;}).join(''); return `<details class="ct-cat-tree-group ct-brand-tree" ${idx<2?'open':''}><summary><span class="ct-cat-toggle" aria-hidden="true"></span><b>${escapeHtml(brand)}</b><small>${node.count}</small></summary><div class="ct-cat-tree-children"><label class="ct-tree-leaf ct-brand-all"><input data-brand-filter type="checkbox" value="${safeAttr(node.slug)}"/> <span>All ${escapeHtml(brand)}</span><small class="ct-filter-count">${node.count}</small></label>${primaryGroups}</div></details>`;}).join(''); root.innerHTML=`<div class="ct-filter-section ct-m2k-tree"><h3>Product families</h3><p class="ct-filter-help">Choose a family across all brands, or use the brand tree below for each brand's categories and source sub-categories.</p>${tree}</div><div class="ct-filter-section ct-m2k-tree ct-brand-taxonomy"><h3>${UI().brands} by category</h3><p class="ct-filter-help">Open a brand to see every category and sub-category available for that brand. LifeSmart uses its Smart Home spreadsheet categories.</p>${brandTree}</div>`; root.dataset.liveReady='1'; root.querySelectorAll('[data-brand-filter],[data-category-filter]').forEach(i=>i.addEventListener('change',filterCatalog));};
+  const sortVisibleProducts=()=>{const mode=document.getElementById('sortProducts')?.value||'cheapest'; const stockRank=p=>/in stock/i.test(p.availability||'')?0:1; const price=p=>Number(p.displayPriceUsd||0)||Number.MAX_SAFE_INTEGER; visibleProducts.sort((a,b)=>{if(mode==='expensive') return (Number(b.displayPriceUsd||0)||0)-(Number(a.displayPriceUsd||0)||0)||String(a.title||'').localeCompare(String(b.title||'')); if(mode==='stock') return stockRank(a)-stockRank(b)||price(a)-price(b)||String(a.title||'').localeCompare(String(b.title||'')); if(mode==='latest') return String(b.sku||'').localeCompare(String(a.sku||'')); return price(a)-price(b)||String(a.title||'').localeCompare(String(b.title||''));}); applyViewMode();};
   const renderProductGrid=()=>{const grid=document.getElementById('productGrid'); if(!grid) return; ensureViewControls(); applyViewMode(); const slice=visibleProducts.slice(0,renderLimit); grid.innerHTML=slice.map(productCard).join(''); applyViewMode(); const btn=ensureLoadMore(); if(btn){btn.hidden=visibleProducts.length<=renderLimit; btn.textContent=`${UI().showMore} (${Math.min(renderLimit,visibleProducts.length)} / ${visibleProducts.length})`;}
     refreshAllPriceWidgets(); updateCartUI(); };
   function filterCatalog(){
     const input=document.getElementById('catalogSearch'); const rawQuery=(input?.value||'').trim(); const activeEl=document.querySelector('.ct-filter-chip.is-active, .ct-category-strip [data-filter].is-active'); const active=activeEl?.dataset.filter||'all'; const inStock=document.getElementById('inStockOnly')?.checked; const brands=[...document.querySelectorAll('[data-brand-filter]:checked')].map(i=>normalizeText(i.value)); const categories=[...document.querySelectorAll('[data-category-filter]:checked')].map(i=>i.value); if(currentNavSelection&&currentNavSelection!=='all'&&!categories.includes(currentNavSelection)) categories.push(currentNavSelection);
     const source=liveProducts.length?liveProducts:[...document.querySelectorAll('.ct-product-card')];
     if(liveProducts.length){
-      visibleProducts=liveProducts.filter(p=>{const pCategories=productCategorySlugs(p); const hasSearch=!!normalizeText(rawQuery); const okCat=hasSearch||((active==='all'||pCategories.includes(active)) && categorySelectionMatches(p,categories)); const okText=productMatches(p,rawQuery); const okStock=!inStock||/in stock/i.test(p.availability||''); const okBrand=!brands.length||brands.includes(brandSlug(p.brand||'')); return okCat&&okText&&okStock&&okBrand;}); if(normalizeText(rawQuery)){visibleProducts=visibleProducts.map((p,i)=>({p,i,s:searchScore(p,rawQuery)})).sort((a,b)=>b.s-a.s||a.i-b.i).map(x=>x.p);}
+      visibleProducts=liveProducts.filter(p=>{const pCategories=productCategorySlugs(p); const hasSearch=!!normalizeText(rawQuery); const okCat=hasSearch||((active==='all'||pCategories.includes(active)) && categorySelectionMatches(p,categories)); const okText=productMatches(p,rawQuery); const okStock=!inStock||/in stock/i.test(p.availability||''); const okBrand=!brands.length||brands.includes(brandSlug(p.brand||'')); return okCat&&okText&&okStock&&okBrand;}); if(normalizeText(rawQuery)){visibleProducts=visibleProducts.map((p,i)=>({p,i,s:searchScore(p,rawQuery)})).sort((a,b)=>b.s-a.s||a.i-b.i).map(x=>x.p);} else {sortVisibleProducts();}
       renderLimit=80; renderProductGrid();
       const rc=document.getElementById('resultCount'); if(rc){const shownNow=Math.min(renderLimit,visibleProducts.length); rc.textContent=shownNow+' / '+visibleProducts.length+' '+L().items;}
     } else {
