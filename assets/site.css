@@ -2456,3 +2456,10 @@ html:has(.marketing-video-page),body.marketing-video-page{background:#07111f!imp
 .ss-video-featured .ss-video-cinema:first-of-type{margin-top:0!important}
 .ss-video-cinema.protect .ss-video-cinema-copy span{font-size:clamp(20px,2vw,32px)!important;letter-spacing:.08em!important;font-weight:1000!important;color:#fff7e8!important;text-shadow:0 0 22px rgba(154,255,247,.22)}
 .ss-video-cinema.protect .ss-video-cinema-copy h3{text-transform:uppercase!important}
+
+
+/* Netanel screenshot correction 2026-05-19: brand rail logos. Huawei is a real flower+wordmark, Grandstream removed in HTML, Ubiquiti uses a clean larger wordmark. */
+.ss-home-vendor-ticker .vendor-logo.ubiquiti-brand span{display:none!important}
+.ss-home-vendor-ticker .vendor-logo.huawei-brand img{max-width:142px!important;max-height:42px!important}
+.ss-home-vendor-ticker .vendor-logo.ubiquiti-brand img{max-width:150px!important;max-height:42px!important}
+@media(max-width:680px){.ss-home-vendor-ticker .vendor-logo.huawei-brand img{max-width:112px!important;max-height:31px!important}.ss-home-vendor-ticker .vendor-logo.ubiquiti-brand img{max-width:118px!important;max-height:31px!important}}
