@@ -163,34 +163,9 @@
   const sourceTopLabel=(p)=>sourcePathSegments(p)[0] || categoryLabelBySlug[categorySlug(p)] || 'Catalogue';
   const sourceTopSlug=(p)=>sourceCategorySlug(sourceTopLabel(p));
   const sourcePathValue=(primary,segments)=>`sourcepath:${primary}:${sourcePathSlug(segments)}`;
-  const DISCOMP_BRAND_ROOTS={
-    [brandSlug('LifeSmart')]:['Smart Home'],
-    [brandSlug('Ubiquiti')]:['Wireless','IoT, SMART','Cameras, security','LAN networks','Powering','Optical networks','Cabinets','Training, services','VoIP'],
-    [brandSlug('MikroTik')]:['Wireless','IoT, SMART','Cameras, security','LAN networks','Powering','Optical networks','Cabinets'],
-    [brandSlug('Huawei')]:['Wireless','IoT, SMART','LAN networks','Powering','Optical networks'],
-    [brandSlug('Teltonika')]:['Routers','Switches','Software','Accessories'],
-    [brandSlug('RF elements')]:['Wireless','Tools']
-  };
-  const discompRootLabelsForBrand=(brand)=>DISCOMP_BRAND_ROOTS[brandSlug(brand||'')]||null;
-  const discompRootLabelForSlug=(brand,slug)=>{const labels=discompRootLabelsForBrand(brand)||[]; return labels.find(label=>sourceCategorySlug(label)===slug)||'';};
   const sourcePrimaryMatches=(p,primary)=>categorySlug(p)===primary || sourceTopSlug(p)===primary;
-  const teltonikaRootSlugFor=(p)=>{
-    const text=normalizeText([p.sku,p.title,p.category,p.specsSearch].filter(Boolean).join(' '));
-    if(/\b(rms|license|licence|software|management)\b/.test(text)) return sourceCategorySlug('Software');
-    if(/\b(switch|tsw[0-9]|ethernet switch)\b/.test(text)) return sourceCategorySlug('Switches');
-    if(/\b(router|rut[0-9a-z]*|rutm|rutx|trb|trm|otd|gateway|modem)\b/.test(text)) return sourceCategorySlug('Routers');
-    return sourceCategorySlug('Accessories');
-  };
-  const discompBrandPrimaryMatches=(p,brandFilter,primary)=>{
-    if(brandFilter&&brandSlug(p.brand||'')!==brandFilter) return false;
-    const label=discompRootLabelForSlug(p.brand||'',primary);
-    if(!label) return sourcePrimaryMatches(p,primary);
-    const b=brandSlug(p.brand||'');
-    if(b===brandSlug('Teltonika')) return teltonikaRootSlugFor(p)===primary;
-    return sourceTopSlug(p)===primary || sourcePrimaryMatches(p,primary);
-  };
   const sourcePathSelectionMatches=(p,primary,pathSlug,brandFilter='')=>{
-    if(brandFilter?!discompBrandPrimaryMatches(p,brandFilter,primary):!sourcePrimaryMatches(p,primary)) return false;
+    if(!sourcePrimaryMatches(p,primary)) return false;
     if(brandFilter&&brandSlug(p.brand||'')!==brandFilter) return false;
     const wanted=String(pathSlug||'');
     if(!wanted) return true;
@@ -212,7 +187,7 @@
       const parts=String(c).split(':');
       if(parts[0]==='brand') return parts[1]===brand;
       if(parts[0]==='brandcat') return parts[1]===brand && parts[2]===primary && parts[3]===source;
-      if(parts[0]==='brandprimary') return parts[1]===brand && discompBrandPrimaryMatches(p,parts[1],parts[2]);
+      if(parts[0]==='brandprimary') return parts[1]===brand && sourcePrimaryMatches(p,parts[2]);
       if(parts[0]==='brandpath') return parts[1]===brand && sourcePathSelectionMatches(p,parts[2],parts[3]||'',parts[1]);
       if(parts[0]==='sourcepath') return sourcePathSelectionMatches(p,parts[1],parts[2]||'');
       return false;
@@ -275,7 +250,7 @@
     const prefixLen=path.length;
     const nodes=new Map();
     products.forEach(p=>{
-      if(brandFilter?!discompBrandPrimaryMatches(p,brandFilter,primary):!sourcePrimaryMatches(p,primary)) return;
+      if(!sourcePrimaryMatches(p,primary)) return;
       if(brandFilter&&brandSlug(p.brand||'')!==brandFilter) return;
       const segs=sourcePathSegments(p);
       const navSegs=(sourceTopSlug(p)===primary)?segs.slice(1):segs;
@@ -322,21 +297,15 @@
     const order=['LifeSmart','Ubiquiti','MikroTik','Teltonika','Huawei','RF elements','Aqara'];
     const brandSort=(a,b)=>{const ia=order.findIndex(x=>normalizeText(x)===normalizeText(a)); const ib=order.findIndex(x=>normalizeText(x)===normalizeText(b)); return (ia<0?99:ia)-(ib<0?99:ib)||a.localeCompare(b);};
     products.forEach(p=>{
-      const label=p.brand||'Other'; const bslug=brandSlug(label); const configuredRoots=discompRootLabelsForBrand(label);
-      if(!brandNodes.has(bslug)){
-        const primaries=new Map();
-        (configuredRoots||[]).forEach(rootLabel=>primaries.set(sourceCategorySlug(rootLabel),{slug:sourceCategorySlug(rootLabel),label:rootLabel,count:0,sourceBacked:true}));
-        brandNodes.set(bslug,{slug:bslug,label,count:0,primaries});
-      }
+      const label=p.brand||'Other'; const bslug=brandSlug(label); const primary=sourceTopSlug(p); const primaryLabel=sourceTopLabel(p);
+      if(!brandNodes.has(bslug)) brandNodes.set(bslug,{slug:bslug,label,count:0,primaries:new Map()});
       const brandNode=brandNodes.get(bslug); brandNode.count+=1;
-      const matchedRoot=(configuredRoots||[]).find(rootLabel=>discompBrandPrimaryMatches(p,bslug,sourceCategorySlug(rootLabel)));
-      const primary=matchedRoot?sourceCategorySlug(matchedRoot):sourceTopSlug(p); const primaryLabel=matchedRoot||sourceTopLabel(p);
       if(!brandNode.primaries.has(primary)) brandNode.primaries.set(primary,{slug:primary,label:primaryLabel,count:0});
       brandNode.primaries.get(primary).count+=1;
     });
     const brands=[...brandNodes.values()].sort((a,b)=>brandSort(a.label,b.label));
     const brandBySlug=Object.fromEntries(brands.map(b=>[b.slug,b]));
-    const sourceLabelForPrimary=(slug,brandFilter='')=>{const configured=brandFilter?discompRootLabelForSlug(brandFilter,slug):''; if(configured) return configured; const row=products.find(p=>sourceTopSlug(p)===slug && (!brandFilter||brandSlug(p.brand||'')===brandFilter)); return row?sourceTopLabel(row):(categoryLabelBySlug[slug]||String(slug||'').split('-').filter(Boolean).map(part=>part.charAt(0).toUpperCase()+part.slice(1)).join(' '));};
+    const sourceLabelForPrimary=(slug,brandFilter='')=>{const row=products.find(p=>sourceTopSlug(p)===slug && (!brandFilter||brandSlug(p.brand||'')===brandFilter)); return row?sourceTopLabel(row):(categoryLabelBySlug[slug]||slug.replace(/-/g,' ').replace(/\b\w/g,c=>c.toUpperCase()));};
     const parts=String(currentNavSelection||'all').split(':');
     const selectedType=parts[0];
     const selectedBrand=selectedType==='brand'?parts[1]:(selectedType==='brandprimary'||selectedType==='brandpath'?parts[1]:'');
@@ -350,9 +319,7 @@
       tiles=brands.map(b=>({value:`brand:${b.slug}`,label:b.label,count:b.count,brandSlug:b.slug,type:'brand'}));
     } else if(selectedType==='brand'&&selectedBrandNode){
       title=selectedBrandNode.label;
-      const configured=discompRootLabelsForBrand(selectedBrandNode.label);
-      const orderIndex=(node)=>configured?configured.findIndex(label=>sourceCategorySlug(label)===node.slug):-1;
-      tiles=[...selectedBrandNode.primaries.values()].sort((a,b)=>{const ia=orderIndex(a), ib=orderIndex(b); return (ia<0?99:ia)-(ib<0?99:ib)||b.count-a.count||a.label.localeCompare(b.label);}).map(x=>({value:`brandprimary:${selectedBrand}:${x.slug}`,label:x.label,count:x.count,brandSlug:selectedBrand,type:'primary'}));
+      tiles=[...selectedBrandNode.primaries.values()].sort((a,b)=>b.count-a.count||a.label.localeCompare(b.label)).map(x=>({value:`brandprimary:${selectedBrand}:${x.slug}`,label:x.label,count:x.count,brandSlug:selectedBrand,type:'primary'}));
     } else if(selectedType==='brandprimary'&&selectedBrandNode){
       title=sourceLabelForPrimary(selectedPrimary,selectedBrand);
       tiles=sourceTilesFor(products,selectedPrimary,[],selectedBrand).map(x=>({...x,value:`brandpath:${selectedBrand}:${selectedPrimary}:${String(x.value).split(':')[2]||''}`,brandSlug:selectedBrand,type:'source'}));
@@ -404,9 +371,7 @@
     const backButton=parentNav?`<button type="button" class="ct-nav-back" data-category-nav="${safeAttr(parentNav)}" aria-label="Go back one catalogue level">‹ Back</button>`:`<span class="ct-nav-root" aria-label="Top level">Brands</span>`;
     const primaryOrder=['Wireless','LAN networks','Optical networks','Powering','Cabinets','Poles, brackets','Cameras, security','IoT, SMART','VoIP','Tools','Training, services'];
     const primaryNodes=new Map();
-    const configuredTabs=selectedBrandNode?discompRootLabelsForBrand(selectedBrandNode.label):null;
-    (configuredTabs||[]).forEach(label=>primaryNodes.set(sourceCategorySlug(label),{slug:sourceCategorySlug(label),label,count:0}));
-    products.forEach(p=>{if(selectedBrand&&brandSlug(p.brand||'')!==selectedBrand) return; const matched=(configuredTabs||[]).find(label=>discompBrandPrimaryMatches(p,selectedBrand,sourceCategorySlug(label))); const slug=matched?sourceCategorySlug(matched):sourceTopSlug(p); const label=matched||sourceTopLabel(p); if(!primaryNodes.has(slug)) primaryNodes.set(slug,{slug,label,count:0}); primaryNodes.get(slug).count+=1;});
+    products.forEach(p=>{if(selectedBrand&&brandSlug(p.brand||'')!==selectedBrand) return; const slug=sourceTopSlug(p); const label=sourceTopLabel(p); if(!primaryNodes.has(slug)) primaryNodes.set(slug,{slug,label,count:0}); primaryNodes.get(slug).count+=1;});
     const primaryTabs=[...primaryNodes.values()].sort((a,b)=>{const ia=primaryOrder.findIndex(x=>normalizeText(x)===normalizeText(a.label)); const ib=primaryOrder.findIndex(x=>normalizeText(x)===normalizeText(b.label)); return (ia<0?99:ia)-(ib<0?99:ib)||b.count-a.count||a.label.localeCompare(b.label);}).map(node=>{const value=selectedBrand?`brandprimary:${selectedBrand}:${node.slug}`:`sourcepath:${node.slug}:`; const active=selectedPrimary===node.slug; return `<button type="button" data-category-nav="${safeAttr(value)}" class="${active?'is-active':''}">${escapeHtml(node.label)}</button>`;}).join('');
     const tileMarkup=tiles.length?tiles.map(tile=>{const bnode=brandBySlug[tile.brandSlug]; const icon=tile.type==='brand'?logoForBrand(bnode):`<span aria-hidden="true">${escapeHtml(iconForLabel(tile.label))}</span>`; const action=tile.type==='brand'?'Open brand categories':(tile.type==='primary'?'Open category sub-categories':'Open sub-category'); return `<button type="button" data-category-nav="${safeAttr(tile.value)}" class="ct-discomp-tile ${tile.value===currentNavSelection?'is-active':''}" aria-label="${safeAttr(`${action}: ${tile.label}, ${tile.count} items`)}">${icon}<b>${escapeHtml(tile.label)}</b><small>${tile.count.toLocaleString('en-US')} items</small><em aria-hidden="true">›</em></button>`;}).join(''):`<div class="ct-discomp-empty">No deeper sub-category level is available for this brand branch.</div>`;
     nav.innerHTML=`<div class="ct-discomp-tabs" aria-label="Main Discomp-style categories">${primaryTabs}</div><div class="ct-brand-nav-panel"><div class="ct-nav-tools">${backButton}<nav class="ct-discomp-crumbs" aria-label="Breadcrumb">${crumbs.join('')}</nav></div><div class="ct-discomp-head"><h2>${escapeHtml(title)}</h2><span>${countForSelection(products,currentNavSelection).toLocaleString('en-US')} products</span></div><div class="ct-discomp-tiles">${tileMarkup}</div></div>`;
