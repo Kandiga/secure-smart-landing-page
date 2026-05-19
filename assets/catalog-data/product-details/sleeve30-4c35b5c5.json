@@ -1,1 +1,25 @@
-{"id":"mikrotik-sleeve30","brand":"MikroTik","sku":"Sleeve30","title":"MikroTik Sleeve 30 Kit - radom with collar for mANT30","category":"Wireless / MikroTik / Accessories","description":"The Sleeve30 kit for mANT30 parabolic antenna will enhance point-to-point link performance by reducing noise and will also reduce impact on adjacent RF devices by removing the side radiation from the antenna Sleeve30 Kit also reduces wind load and protects antenna reflector and feed from harsh environment, improving PtP link sustainability. Sleeve30 shell is made of corrosion resistive, lightweight aluminum; front cover has excellent RF signal transparency Aluminum shell Front cover Fasteners Silicone sealant","availability":"In stock","unitPerCarton":1,"warranty":"24 months","displayPriceUsd":142,"fullCartonUnitPriceUsd":137,"imageUrl":"assets/catalog-data/public-images/mikrotik-sleeve30-1f77e1ad8c.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "mikrotik-sleeve30",
+  "brand": "MikroTik",
+  "sku": "Sleeve30",
+  "title": "MikroTik Sleeve 30 Kit - radom with collar for mANT30",
+  "category": "MikroTik / Wireless / Accessories",
+  "description": "The Sleeve30 kit for mANT30 parabolic antenna will enhance point-to-point link performance by reducing noise and will also reduce impact on adjacent RF devices by removing the side radiation from the antenna Sleeve30 Kit also reduces wind load and protects antenna reflector and feed from harsh environment, improving PtP link sustainability. Sleeve30 shell is made of corrosion resistive, lightweight aluminum; front cover has excellent RF signal transparency Aluminum shell Front cover Fasteners Silicone sealant",
+  "availability": "In Stock 3 pcs.",
+  "unitPerCarton": 1,
+  "warranty": "24 months",
+  "displayPriceUsd": 142,
+  "fullCartonUnitPriceUsd": 137,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-sleeve30-1f77e1ad8c.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 3,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-sleeve-30-kit-radom-with-collar-for-mant30_d71780.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-accessories_c16588567.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Accessories"
+  ]
+}

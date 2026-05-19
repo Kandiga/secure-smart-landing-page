@@ -1,1 +1,26 @@
-{"id":"mikrotik-ddq-da0001","brand":"MikroTik","sku":"DDQ+DA0001","title":"MikroTik DDQ+DA0001 - QSFP-DD DAC cable, 1 m","category":"Wireless / MikroTik / DAC cables","description":"A 1 m direct-attach metallic cable for high-speed network connectivity (up to 400 Gb/s) with integrated QSFP-DD modules. Its short length makes it suitable for connecting devices over short distances, for example between racks in server rooms. The integrated QSFP-DD modules support plug-and-play technology and are backward compatible with QSFP modules = QSFP+ (40 Gbit/s), QSFP28 (100 Gbit/s), QSFP56 (200 Gbit/s)","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":74,"fullCartonUnitPriceUsd":74,"imageUrl":"assets/catalog-data/public-images/mikrotik-ddq-da0001-6a6da1a9ff.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Format QSFP-DD Transmission speed 400, 40 Gbps, 100 Gbps, 200 Gbps AOC/DAC cable type Passive Physical characteristics Length [m] 1"}
+{
+  "id": "mikrotik-ddq-da0001",
+  "brand": "MikroTik",
+  "sku": "DDQ+DA0001",
+  "title": "MikroTik DDQ+DA0001 - QSFP-DD DAC cable, 1 m",
+  "category": "MikroTik / Wireless / DAC cables",
+  "description": "A 1 m direct-attach metallic cable for high-speed network connectivity (up to 400 Gb/s) with integrated QSFP-DD modules. Its short length makes it suitable for connecting devices over short distances, for example between racks in server rooms. The integrated QSFP-DD modules support plug-and-play technology and are backward compatible with QSFP modules = QSFP+ (40 Gbit/s), QSFP28 (100 Gbit/s), QSFP56 (200 Gbit/s)",
+  "availability": "In Stock 18 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 74,
+  "fullCartonUnitPriceUsd": 74,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-ddq-da0001-6a6da1a9ff.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Format QSFP-DD Transmission speed 400, 40 Gbps, 100 Gbps, 200 Gbps AOC/DAC cable type Passive Physical characteristics Length [m] 1",
+  "stockQtyVisible": 18,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-ddq-da0001-qsfp-dd-dac-cable-1-m_d130463.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-dac-cables_c16588556.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "DAC cables"
+  ]
+}

@@ -1,1 +1,26 @@
-{"id":"ubiquiti-ns-wm","brand":"Ubiquiti","sku":"NS-WM","title":"Ubiquiti window or wall holder for NanoStation","category":"Wireless / Accessories / Mounting brackets","description":"Excellent plastic holder designed to places where it is not possible to drill through the suction cup so it can be mounted on the window. The holder can be locked in all directions","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":19,"fullCartonUnitPriceUsd":18.34,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ns-wm-f6969a6556.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-ns-wm",
+  "brand": "Ubiquiti",
+  "sku": "NS-WM",
+  "title": "Ubiquiti window or wall holder for NanoStation",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "Excellent plastic holder designed to places where it is not possible to drill through the suction cup so it can be mounted on the window. The holder can be locked in all directions",
+  "availability": "In Stock 3 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 19,
+  "fullCartonUnitPriceUsd": 18.34,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ns-wm-f6969a6556.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 3,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-window-or-wall-holder-for-nanostation_d28106.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

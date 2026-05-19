@@ -1,1 +1,44 @@
-{"id":"rf-elements-sbx-am","brand":"RF elements","sku":"SBX-AM","title":"RF elements StationBox® ALU-Mini","category":"Wireless / MikroTik / Mounting boxes","description":"StationBox is a compact outdoor enclosure for wireless platforms, access points, and all things IoT. StationBox ALU-Mini is a customizable solution for wide range of applications whenever a reliable and durable enclosure is necessary SBX ALU-Mini is designed for builders. Design is slick and ready for customization. Is available 3D model that will enable extensive customization to be quick and easy The all new mounting bracket on the StationBoxn ALU-Mini enables easy and quick installation on a pole or a wall. The bracket is made of extruded aluminium to maximize the durability StationBox® ALU-Mini Mounting Bracket Blind Plate Hose Clamp 2x Screw M3 x 10 mm 4x Screw 3,5 x 45 mm with Wall Plug","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":29,"fullCartonUnitPriceUsd":27.99,"imageUrl":"assets/catalog-data/public-images/rf-elements-sbx-am-23b4b5d682.jpg","documents":[],"shippingDimensions":{"unit":{"dimensionCount":1,"lengthCm":18,"widthCm":19,"heightCm":9.5,"volumeCm3":3249,"weightKg":1},"carton":{"pcsPerCarton":20,"lengthCm":100,"widthCm":38,"heightCm":22,"volumeCm3":83600,"weightKg":18.5}},"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "rf-elements-sbx-am",
+  "brand": "RF elements",
+  "sku": "SBX-AM",
+  "title": "RF elements StationBox® ALU-Mini",
+  "category": "RF elements / Wireless / MikroTik / Mounting boxes",
+  "description": "StationBox is a compact outdoor enclosure for wireless platforms, access points, and all things IoT. StationBox ALU-Mini is a customizable solution for wide range of applications whenever a reliable and durable enclosure is necessary SBX ALU-Mini is designed for builders. Design is slick and ready for customization. Is available 3D model that will enable extensive customization to be quick and easy The all new mounting bracket on the StationBoxn ALU-Mini enables easy and quick installation on a pole or a wall. The bracket is made of extruded aluminium to maximize the durability StationBox® ALU-Mini Mounting Bracket Blind Plate Hose Clamp 2x Screw M3 x 10 mm 4x Screw 3,5 x 45 mm with Wall Plug",
+  "availability": "In Stock 18 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 29,
+  "fullCartonUnitPriceUsd": 27.99,
+  "imageUrl": "assets/catalog-data/public-images/rf-elements-sbx-am-23b4b5d682.jpg",
+  "documents": [],
+  "shippingDimensions": {
+    "unit": {
+      "dimensionCount": 1,
+      "lengthCm": 18,
+      "widthCm": 19,
+      "heightCm": 9.5,
+      "volumeCm3": 3249,
+      "weightKg": 1
+    },
+    "carton": {
+      "pcsPerCarton": 20,
+      "lengthCm": 100,
+      "widthCm": 38,
+      "heightCm": 22,
+      "volumeCm3": 83600,
+      "weightKg": 18.5
+    }
+  },
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 18,
+  "discompProductUrl": "https://www.discomp.cz/rf-elements-stationbox-alu-mini_d92488.html",
+  "discompCategoryUrl": "https://www.discomp.cz/rf-elements-wireless-mikrotik-mounting-boxes_c16588579.html",
+  "discompSourcePath": [
+    "RF elements",
+    "Wireless",
+    "MikroTik",
+    "Mounting boxes"
+  ]
+}

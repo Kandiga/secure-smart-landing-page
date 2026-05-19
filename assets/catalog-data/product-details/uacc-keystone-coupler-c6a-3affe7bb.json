@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-keystone-coupler-c6a","brand":"Ubiquiti","sku":"UACC-Keystone-Coupler-C6A","title":"Ubiquiti UACC-Keystone-Coupler-C6A RJ45 coupler, Cat6a (12pcs)","category":"LAN networks / Keystone / Cat.6a","description":"Keystone couplers enable easy connection of pre-terminated Ethernet cables using RJ45 connectors on both sides. Thanks to their double-sided design, they allow seamless connection of two cables without signal loss or compromising the Cat6 standard. The couplers easily snap into blank patch panels, wall plates, or holders, ensuring quick and tidy installation. An ideal solution for professional and home use, where cable management or expansion is needed. The package includes 12 pieces","availability":"In stock","unitPerCarton":56,"warranty":"24 months","displayPriceUsd":44,"fullCartonUnitPriceUsd":42.46,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-keystone-coupler-c6a-b74d3d6957.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-keystone-coupler-c6a",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Keystone-Coupler-C6A",
+  "title": "Ubiquiti UACC-Keystone-Coupler-C6A RJ45 coupler, Cat6a (12pcs)",
+  "category": "Ubiquiti / LAN networks / Keystone / Cat.6a",
+  "description": "Keystone couplers enable easy connection of pre-terminated Ethernet cables using RJ45 connectors on both sides. Thanks to their double-sided design, they allow seamless connection of two cables without signal loss or compromising the Cat6 standard. The couplers easily snap into blank patch panels, wall plates, or holders, ensuring quick and tidy installation. An ideal solution for professional and home use, where cable management or expansion is needed. The package includes 12 pieces",
+  "availability": "In Stock 64 pcs.",
+  "unitPerCarton": 56,
+  "warranty": "24 months",
+  "displayPriceUsd": 44,
+  "fullCartonUnitPriceUsd": 42.46,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-keystone-coupler-c6a-b74d3d6957.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 64,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-keystone-coupler-c6a-rj45-coupler-cat6a-12pcs-_d128387.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-keystone-cat-6a_c16591888.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Keystone",
+    "Cat.6a"
+  ]
+}

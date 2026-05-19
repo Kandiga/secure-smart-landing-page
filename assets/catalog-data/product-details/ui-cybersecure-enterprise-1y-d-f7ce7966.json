@@ -1,1 +1,25 @@
-{"id":"ubiquiti-ui-cybersecure-enterprise-1y-d","brand":"Ubiquiti","sku":"UI-CyberSecure Enterprise-1Y-D","title":"UniFi CyberSecure Enterprise for 1 year","category":"Training, services / UniFi","description":"CyberSecure Enterprise is a premium security add-on for enterprise UniFi gateways that extends built-in security features with advanced threat protection and cloud-based content filtering. Protection is applied directly at the network lev","availability":"To order / expected","unitPerCarton":null,"warranty":"To be confirmed","displayPriceUsd":608,"fullCartonUnitPriceUsd":608,"imageUrl":null,"documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "ubiquiti-ui-cybersecure-enterprise-1y-d",
+  "brand": "Ubiquiti",
+  "sku": "UI-CyberSecure Enterprise-1Y-D",
+  "title": "UniFi CyberSecure Enterprise for 1 year",
+  "category": "Ubiquiti / Training, services / UniFi",
+  "description": "CyberSecure Enterprise is a premium security add-on for enterprise UniFi gateways that extends built-in security features with advanced threat protection and cloud-based content filtering. Protection is applied directly at the network lev",
+  "availability": "To order within 1d",
+  "unitPerCarton": null,
+  "warranty": "To be confirmed",
+  "displayPriceUsd": 608,
+  "fullCartonUnitPriceUsd": 608,
+  "imageUrl": null,
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/unifi-cybersecure-enterprise-for-1-year_d131604.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-training-services-unifi_c16592615.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Training, services",
+    "UniFi"
+  ]
+}

@@ -1,1 +1,27 @@
-{"id":"mikrotik-r11e-5hnd","brand":"MikroTik","sku":"R11e-5HnD","title":"MikroTik R11e-5HnD - 5GHz miniPCI-e card, 2x MMCX","category":"Wireless / MikroTik / MiniPCI cards","description":"High power 4920-5920MHz 802.11a/n dual chain wireless card in miniPCI-e format. Ideally suited for the new RB912 series, RB800 or our new miniPCIe adapter card - RB14e The card features built-in LED indicators for wireless mode, connection status (connected, searching, disabled), TX and RX activity and wireless signal strength - just looking at the card will help with installation and alignment","availability":"In stock","unitPerCarton":50,"warranty":"24 months","displayPriceUsd":34,"fullCartonUnitPriceUsd":32.81,"imageUrl":"assets/catalog-data/public-images/mikrotik-r11e-5hnd-c3e2d0c861.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Sensitivity [dBm] 96 Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a Transmission speed - 5GHz [Mb/s] 300 Tx power 5GHz [dBm] 27 Security WPA, WPA2, AES-CCM & TKIP Encryption, 802.1x, 64/128/152bit WEP Connectors and Interfaces Bus type miniPCI-e RF connectors (2) MMCX Power Max. power consumption [W] 5 Physical characteristics Operating temperature [°C] 30 up to 65 Width [mm] 30 Height [mm] 13 Depth [mm] 51"}
+{
+  "id": "mikrotik-r11e-5hnd",
+  "brand": "MikroTik",
+  "sku": "R11e-5HnD",
+  "title": "MikroTik R11e-5HnD - 5GHz miniPCI-e card, 2x MMCX",
+  "category": "MikroTik / Wireless / MiniPCI cards / MiniPCI Express",
+  "description": "High power 4920-5920MHz 802.11a/n dual chain wireless card in miniPCI-e format. Ideally suited for the new RB912 series, RB800 or our new miniPCIe adapter card - RB14e The card features built-in LED indicators for wireless mode, connection status (connected, searching, disabled), TX and RX activity and wireless signal strength - just looking at the card will help with installation and alignment",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 50,
+  "warranty": "24 months",
+  "displayPriceUsd": 34,
+  "fullCartonUnitPriceUsd": 32.81,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-r11e-5hnd-c3e2d0c861.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Sensitivity [dBm] 96 Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a Transmission speed - 5GHz [Mb/s] 300 Tx power 5GHz [dBm] 27 Security WPA, WPA2, AES-CCM & TKIP Encryption, 802.1x, 64/128/152bit WEP Connectors and Interfaces Bus type miniPCI-e RF connectors (2) MMCX Power Max. power consumption [W] 5 Physical characteristics Operating temperature [°C] 30 up to 65 Width [mm] 30 Height [mm] 13 Depth [mm] 51",
+  "stockQtyVisible": 249,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-r11e-5hnd-5ghz-minipci-e-card-2x-mmcx_d52761.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-minipci-cards-minipci-express_c15888499.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "MiniPCI cards",
+    "MiniPCI Express"
+  ]
+}

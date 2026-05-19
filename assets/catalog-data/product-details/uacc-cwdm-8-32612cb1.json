@@ -1,1 +1,25 @@
-{"id":"ubiquiti-uacc-cwdm-8","brand":"Ubiquiti","sku":"UACC-CWDM-8","title":"Ubiquiti UACC-CWDM-8 - 8-channel CWDM Mux/Demux modul","category":"Optical networks / Accessories","description":"8-channel CWDM Mux/Demux (1450 to 1590 nm) designed to increase the capacity of existing optical infrastructure, with the option for rack mounting (8) channel ports in the range of 1450 to 1590 nm (1) Duplex LC UPC communication port for connecting to another 8-channel CWDM Mux/Demux using a pair of single-mode optical cables (1) Duplex LC UPC monitoring port for easy monitoring with a power meter or optical spectrum analyzer (1) Duplex LC UPC expansion port for connecting to a 4-channel CWDM Mux/Demux to add additional channels Compatible with USW-Aggregation and USW-Pro-Aggregation switches","availability":"In stock","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":387,"fullCartonUnitPriceUsd":373.46,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-cwdm-8-a62fb92f0c.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-cwdm-8",
+  "brand": "Ubiquiti",
+  "sku": "UACC-CWDM-8",
+  "title": "Ubiquiti UACC-CWDM-8 - 8-channel CWDM Mux/Demux modul",
+  "category": "Ubiquiti / Optical networks / Accessories",
+  "description": "8-channel CWDM Mux/Demux (1450 to 1590 nm) designed to increase the capacity of existing optical infrastructure, with the option for rack mounting (8) channel ports in the range of 1450 to 1590 nm (1) Duplex LC UPC communication port for connecting to another 8-channel CWDM Mux/Demux using a pair of single-mode optical cables (1) Duplex LC UPC monitoring port for easy monitoring with a power meter or optical spectrum analyzer (1) Duplex LC UPC expansion port for connecting to a 4-channel CWDM Mux/Demux to add additional channels Compatible with USW-Aggregation and USW-Pro-Aggregation switches",
+  "availability": "In Stock 1 pcs.",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 387,
+  "fullCartonUnitPriceUsd": 373.46,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-cwdm-8-a62fb92f0c.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 1,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-cwdm-8-8-channel-cwdm-mux-demux-modul_d127802.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-accessories_c16591864.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "Accessories"
+  ]
+}

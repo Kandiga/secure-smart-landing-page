@@ -1,1 +1,26 @@
-{"id":"ubiquiti-ua-g3-flex-w","brand":"Ubiquiti","sku":"UA-G3-Flex-W","title":"Ubiquiti UA-G3-Flex-W, UniFi Access Reader G3 Flex, white","category":"Cameras, security / UniFi Access","description":"Ubiquiti Reader Flex is the third generation of access readers, supporting authorization via NFC card, Apple Touch Pass *, the UniFi Identity mobile app, or a numeric code. Thanks to the built-in speaker, it is possible to configure entry and exit greeting messages . The mechanical design of the keypad ensures functionality even with moisture or most gloves . Its IP55 certification guarantees suitability for outdoor use The reader features (1) 10/100Mbps Ethernet port with POE support. The minimum required version of the application is UniFi Access 3.0.15 * Users will receive 10 free Touch Passes in the first year to get started. Additional passes are per user per year Reader (2) Drilling templates (2) Mounting frames Cover frame Rubber cover for the RJ45 connector Installation accessories","availability":"In stock","unitPerCarton":24,"warranty":"24 months","displayPriceUsd":197,"fullCartonUnitPriceUsd":190.11,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ua-g3-flex-w-ba412d6a28.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (1) 10/100Mbps Power Power over Ethernet 44 .. 57V DC Power type PoE Max. power consumption [W] 5"}
+{
+  "id": "ubiquiti-ua-g3-flex-w",
+  "brand": "Ubiquiti",
+  "sku": "UA-G3-Flex-W",
+  "title": "Ubiquiti UA-G3-Flex-W, UniFi Access Reader G3 Flex, white",
+  "category": "Ubiquiti / Cameras, security / UniFi Access",
+  "description": "Ubiquiti Reader Flex is the third generation of access readers, supporting authorization via NFC card, Apple Touch Pass *, the UniFi Identity mobile app, or a numeric code. Thanks to the built-in speaker, it is possible to configure entry and exit greeting messages . The mechanical design of the keypad ensures functionality even with moisture or most gloves . Its IP55 certification guarantees suitability for outdoor use The reader features (1) 10/100Mbps Ethernet port with POE support. The minimum required version of the application is UniFi Access 3.0.15 * Users will receive 10 free Touch Passes in the first year to get started. Additional passes are per user per year Reader (2) Drilling templates (2) Mounting frames Cover frame Rubber cover for the RJ45 connector Installation accessories",
+  "availability": "In Stock 38 pcs.",
+  "unitPerCarton": 24,
+  "warranty": "24 months",
+  "displayPriceUsd": 197,
+  "fullCartonUnitPriceUsd": 190.11,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ua-g3-flex-w-ba412d6a28.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (1) 10/100Mbps Power Power over Ethernet 44 .. 57V DC Power type PoE Max. power consumption [W] 5",
+  "stockQtyVisible": 38,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-ua-g3-flex-w-unifi-access-reader-g3-flex-white_d128732.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-unifi-access_c16587756.html?page=2",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "UniFi Access"
+  ]
+}

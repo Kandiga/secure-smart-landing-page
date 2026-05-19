@@ -1,1 +1,26 @@
-{"id":"mikrotik-rb911g-5hpnd","brand":"MikroTik","sku":"RB911G-5HPnD","title":"MikroTik RouterBOARD RB911G-5HPnD, 802.11a/n, RouterOS L3, 2xMMCX","category":"Wireless / MikroTik / RouterBOARD","description":"The RB911G-5HPnD is a small wireless router with an integrated 5Ghz high power wireless card. The Gigabit port helps to utilize the full potential of 802.11n wireless speeds The integrated wireless card is capable of up to 1000mW output power. It has built in 16kV ESD protection on both the Ethernet and the MMCX ports","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":51,"fullCartonUnitPriceUsd":49.22,"imageUrl":"assets/catalog-data/public-images/mikrotik-rb911g-5hpnd-4eaed821a4.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Tx power [dBm] 30 Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a Transmission speed - 5GHz [Mb/s] 300 5GHz MIMO 2 x 2 Type of antenna Detachable Connectors and Interfaces RF connectors (2) MMCX LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 8 .. 30V DC Power type DC connector, PoE PoE type PoE-In (only) Max. power consumption [W] 11 Power via connector/terminal 8 .. 30V DC Physical characteristics Design RouterBOARD Operating temperature [°C] 40 up to 70 Width [mm] 105 Height [mm] 15 Depth [mm] 105 Hardware CPU AR9342 CPU frequency [MHz] 600 CPU cores 1 Internal storage [MB] 128 RAM [MB] 32"}
+{
+  "id": "mikrotik-rb911g-5hpnd",
+  "brand": "MikroTik",
+  "sku": "RB911G-5HPnD",
+  "title": "MikroTik RouterBOARD RB911G-5HPnD, 802.11a/n, RouterOS L3, 2xMMCX",
+  "category": "MikroTik / Wireless / RouterBOARD",
+  "description": "The RB911G-5HPnD is a small wireless router with an integrated 5Ghz high power wireless card. The Gigabit port helps to utilize the full potential of 802.11n wireless speeds The integrated wireless card is capable of up to 1000mW output power. It has built in 16kV ESD protection on both the Ethernet and the MMCX ports",
+  "availability": "In Stock 47 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 51,
+  "fullCartonUnitPriceUsd": 49.22,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rb911g-5hpnd-4eaed821a4.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Tx power [dBm] 30 Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a Transmission speed - 5GHz [Mb/s] 300 5GHz MIMO 2 x 2 Type of antenna Detachable Connectors and Interfaces RF connectors (2) MMCX LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 8 .. 30V DC Power type DC connector, PoE PoE type PoE-In (only) Max. power consumption [W] 11 Power via connector/terminal 8 .. 30V DC Physical characteristics Design RouterBOARD Operating temperature [°C] 40 up to 70 Width [mm] 105 Height [mm] 15 Depth [mm] 105 Hardware CPU AR9342 CPU frequency [MHz] 600 CPU cores 1 Internal storage [MB] 128 RAM [MB] 32",
+  "stockQtyVisible": 47,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-routerboard-rb911g-5hpnd-802-11a-n-routeros-l3-2xmmcx_d48236.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-routerboard_c16588560.html?page=6",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "RouterBOARD"
+  ]
+}

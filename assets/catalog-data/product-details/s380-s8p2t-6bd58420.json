@@ -1,1 +1,26 @@
-{"id":"huawei-s380-s8p2t","brand":"Huawei","sku":"S380-S8P2T","title":"Huawei S380-S8P2T multi-service router, 2x WAN, 8x POE LAN","category":"LAN networks / Routers and Firewalls","description":"Huawei S380-S8P2T is a multi-service gatewyay that can serve up to 250 users with its performance. It has (2) Gbit WAN port and (8) Gbit LAN ports with 802.3at PoE support for connecting devices in a local network. Desktop version, which is powered by an external adapter with a voltage of 56 DC. PoE budget of the switch is 124W. Thanks to the maximum consumption of 21,8W , there is no need for active cooling, therefore the router is fanless The S380 series routers can also serve as a local controller for eKit AP . Configuration is done exclusively through the routerâs web interface and does not depend on any cloud application Huawei eKitEngine S380 series Multi-Service Gateway include various models, such as those with 4 downlink GE electrical ports, 8 downlink GE electrical ports (PoE/non-PoE ports), or GE uplink ports. The router can also serve as a controller for Huawei eKit wireless APs, eliminating the need to purchase and deploy additional devices. With features like easy installation and deployment, as well as flexible Ethernet networking, the products can be widely used for indoor coverage in SME markets… Device Power adapter 56V / 2,68A Ground cable","availability":"In stock","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":384,"fullCartonUnitPriceUsd":384,"imageUrl":"assets/catalog-data/public-images/huawei-s380-s8p2t-0719d381a9.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces WAN Ports 2 WAN speed (2) 1G + (1) 1G WAN/LAN Multiple WAN Yes LAN speed (7) 1G + (1) 1G LAN/WAN Gigabit LAN Yes Power Power type DC connector PoE-Out standards 802.3af, 802.3at PoE Out ports 8 Max. power consumption [W] 145 Power via connector/terminal 56V DC Physical characteristics Design Desktop Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 0 up to 40 Width [mm] 210 Height [mm] 35 Depth [mm] 130"}
+{
+  "id": "huawei-s380-s8p2t",
+  "brand": "Huawei",
+  "sku": "S380-S8P2T",
+  "title": "Huawei S380-S8P2T multi-service router, 2x WAN, 8x POE LAN",
+  "category": "Huawei / LAN networks / Routers and Firewalls",
+  "description": "Huawei S380-S8P2T is a multi-service gatewyay that can serve up to 250 users with its performance. It has (2) Gbit WAN port and (8) Gbit LAN ports with 802.3at PoE support for connecting devices in a local network. Desktop version, which is powered by an external adapter with a voltage of 56 DC. PoE budget of the switch is 124W. Thanks to the maximum consumption of 21,8W , there is no need for active cooling, therefore the router is fanless The S380 series routers can also serve as a local controller for eKit AP . Configuration is done exclusively through the routerâs web interface and does not depend on any cloud application Huawei eKitEngine S380 series Multi-Service Gateway include various models, such as those with 4 downlink GE electrical ports, 8 downlink GE electrical ports (PoE/non-PoE ports), or GE uplink ports. The router can also serve as a controller for Huawei eKit wireless APs, eliminating the need to purchase and deploy additional devices. With features like easy installation and deployment, as well as flexible Ethernet networking, the products can be widely used for indoor coverage in SME markets… Device Power adapter 56V / 2,68A Ground cable",
+  "availability": "In Stock 4 pcs.",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 384,
+  "fullCartonUnitPriceUsd": 384,
+  "imageUrl": "assets/catalog-data/public-images/huawei-s380-s8p2t-0719d381a9.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces WAN Ports 2 WAN speed (2) 1G + (1) 1G WAN/LAN Multiple WAN Yes LAN speed (7) 1G + (1) 1G LAN/WAN Gigabit LAN Yes Power Power type DC connector PoE-Out standards 802.3af, 802.3at PoE Out ports 8 Max. power consumption [W] 145 Power via connector/terminal 56V DC Physical characteristics Design Desktop Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 0 up to 40 Width [mm] 210 Height [mm] 35 Depth [mm] 130",
+  "stockQtyVisible": 4,
+  "discompProductUrl": "https://www.discomp.cz/huawei-s380-s8p2t-multi-service-router-2x-wan-8x-poe-lan_d125686.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-lan-networks-routers-and-firewalls_c16591672.html",
+  "discompSourcePath": [
+    "Huawei",
+    "LAN networks",
+    "Routers and Firewalls"
+  ]
+}

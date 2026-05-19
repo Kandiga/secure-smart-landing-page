@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-g6-pro-360-fm-b","brand":"Ubiquiti","sku":"UACC-G6-Pro-360-FM-B","title":"Ubiquiti G6 Pro 360 Flush Mount, black","category":"Cameras, security / Mounting boxes and brackets / Wallmount","description":"G6 Pro 360 camera mounting accessory for recessed installation into a wall or ceiling Compatibility : UVC-G6-Pro-360 Holder Mounting accessories Note : G6 Pro 360 top cover must be removed disabling IR, Microphone, Speaker and Status Light","availability":"In stock","unitPerCarton":12,"warranty":"24 months","displayPriceUsd":45,"fullCartonUnitPriceUsd":43.43,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-g6-pro-360-fm-b-635cfad7c5.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Design On the wall, Ceiling Purpose Indoor Material Polycarbonate Weight [g] 245 Width [mm] 190 Height [mm] 190 Depth [mm] 71 Color Black"}
+{
+  "id": "ubiquiti-uacc-g6-pro-360-fm-b",
+  "brand": "Ubiquiti",
+  "sku": "UACC-G6-Pro-360-FM-B",
+  "title": "Ubiquiti G6 Pro 360 Flush Mount, black",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Wallmount",
+  "description": "G6 Pro 360 camera mounting accessory for recessed installation into a wall or ceiling Compatibility : UVC-G6-Pro-360 Holder Mounting accessories Note : G6 Pro 360 top cover must be removed disabling IR, Microphone, Speaker and Status Light",
+  "availability": "In Stock 7 pcs.",
+  "unitPerCarton": 12,
+  "warranty": "24 months",
+  "displayPriceUsd": 45,
+  "fullCartonUnitPriceUsd": 43.43,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-g6-pro-360-fm-b-635cfad7c5.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Design On the wall, Ceiling Purpose Indoor Material Polycarbonate Weight [g] 245 Width [mm] 190 Height [mm] 190 Depth [mm] 71 Color Black",
+  "stockQtyVisible": 7,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-g6-pro-360-flush-mount-black_d130704.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-wallmount_c16588781.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Wallmount"
+  ]
+}

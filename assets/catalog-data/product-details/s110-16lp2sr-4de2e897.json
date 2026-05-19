@@ -1,1 +1,27 @@
-{"id":"huawei-s110-16lp2sr","brand":"Huawei","sku":"S110-16LP2SR","title":"Huawei S110-16LP2SR Gigabit PoE switch, 2x SFP","category":"LAN networks / Switches / eKit Switches","description":"Huawei S110-16LP2SR is a PoE switch with support for active power supply 802.3af/at with a PoE budget of 124W , which is equipped with 16 PoE ports and 2 SFP slots for uplink . Switch without management is in a metal rackmount chassis, it is possible to mount it on the wall or use as desktop. A pair of switches is located on the front. The first one allows you to choose between Standard, Port Isolation, Uplink aggregation and Flow control disabling modes. The second switch is used to switch the… Huawei eKitEngine S110 series switches ( S110 for short) are unmanaged switches designed for the distribution market outside China. The whole series adopts an all-new crystal-like appearance design with great visual impacts, winning itself the German Red Dot Design Award 2022 . The newly launched colorways of Silk White and Silver Frost are becoming increasingly popular. In addition, the iconic Huawei logo on eKitEngine S110 series switches gives them a more refreshing look. In terms of… Device 230V AC Power Cable Rack mounts (6) Screws (4) Self-Adhesive Rubber Pads","availability":"In stock","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":213,"fullCartonUnitPriceUsd":213,"imageUrl":"assets/catalog-data/public-images/huawei-s110-16lp2sr-dd16500ea6.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces LAN speed (16) 10/100/1000Mbps Optical interfaces (2) 1000Mbps Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at PoE Out ports 16 PoE budget [W] 124 Max. power consumption [W] 22 Power via connector/terminal 230V AC Physical characteristics Design On the wall, Desktop, Rackmount Fans No Chassis design Metal Operating temperature [°C] 0 up to 45 Width [mm] 442 Height [mm] 44 Depth [mm] 260"}
+{
+  "id": "huawei-s110-16lp2sr",
+  "brand": "Huawei",
+  "sku": "S110-16LP2SR",
+  "title": "Huawei S110-16LP2SR Gigabit PoE switch, 2x SFP",
+  "category": "Huawei / LAN networks / Switches / eKit Switches",
+  "description": "Huawei S110-16LP2SR is a PoE switch with support for active power supply 802.3af/at with a PoE budget of 124W , which is equipped with 16 PoE ports and 2 SFP slots for uplink . Switch without management is in a metal rackmount chassis, it is possible to mount it on the wall or use as desktop. A pair of switches is located on the front. The first one allows you to choose between Standard, Port Isolation, Uplink aggregation and Flow control disabling modes. The second switch is used to switch the… Huawei eKitEngine S110 series switches ( S110 for short) are unmanaged switches designed for the distribution market outside China. The whole series adopts an all-new crystal-like appearance design with great visual impacts, winning itself the German Red Dot Design Award 2022 . The newly launched colorways of Silk White and Silver Frost are becoming increasingly popular. In addition, the iconic Huawei logo on eKitEngine S110 series switches gives them a more refreshing look. In terms of… Device 230V AC Power Cable Rack mounts (6) Screws (4) Self-Adhesive Rubber Pads",
+  "availability": "In Stock 4 pcs.",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 213,
+  "fullCartonUnitPriceUsd": 213,
+  "imageUrl": "assets/catalog-data/public-images/huawei-s110-16lp2sr-dd16500ea6.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces LAN speed (16) 10/100/1000Mbps Optical interfaces (2) 1000Mbps Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at PoE Out ports 16 PoE budget [W] 124 Max. power consumption [W] 22 Power via connector/terminal 230V AC Physical characteristics Design On the wall, Desktop, Rackmount Fans No Chassis design Metal Operating temperature [°C] 0 up to 45 Width [mm] 442 Height [mm] 44 Depth [mm] 260",
+  "stockQtyVisible": 4,
+  "discompProductUrl": "https://www.discomp.cz/huawei-s110-16lp2sr-gigabit-poe-switch-2x-sfp_d125636.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-lan-networks-switches-ekit-switches_c16591802.html",
+  "discompSourcePath": [
+    "Huawei",
+    "LAN networks",
+    "Switches",
+    "eKit Switches"
+  ]
+}

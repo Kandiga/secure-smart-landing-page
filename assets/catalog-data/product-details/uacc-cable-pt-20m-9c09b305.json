@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-cable-pt-20m","brand":"Ubiquiti","sku":"UACC-Cable-PT-20M","title":"Ubiquiti UACC-Cable-PT-20M - UISP power TransPort cable, 20m","category":"Powering / Power cables and adapters / DC cables","description":"Power two-core outdoor DC cable from Ubiquiti from the UISP TransPort series of cables with special Power TransPort connectors on both sides and 20m long . The cable is very robust, contains 2 wires with a cross-section of AWG 12, and its white sheath is made of thermoplastic elastomer","availability":"In stock","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":74,"fullCartonUnitPriceUsd":71.41,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-cable-pt-20m-f94a991493.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-cable-pt-20m",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Cable-PT-20M",
+  "title": "Ubiquiti UACC-Cable-PT-20M - UISP power TransPort cable, 20m",
+  "category": "Ubiquiti / Powering / Power cables and adapters / DC cables",
+  "description": "Power two-core outdoor DC cable from Ubiquiti from the UISP TransPort series of cables with special Power TransPort connectors on both sides and 20m long . The cable is very robust, contains 2 wires with a cross-section of AWG 12, and its white sheath is made of thermoplastic elastomer",
+  "availability": "In Stock 4 pcs.",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 74,
+  "fullCartonUnitPriceUsd": 71.41,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-cable-pt-20m-f94a991493.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 4,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-cable-pt-20m-uisp-power-transport-cable-20m_d122133.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-power-cables-and-adapters-dc-cables_c14513533.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Power cables and adapters",
+    "DC cables"
+  ]
+}

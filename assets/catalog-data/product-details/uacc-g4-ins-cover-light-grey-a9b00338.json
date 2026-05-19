@@ -1,1 +1,25 @@
-{"id":"ubiquiti-uacc-g4-ins-cover-light-grey","brand":"Ubiquiti","sku":"UACC-G4-INS-Cover-Light Grey","title":"Ubiquiti UACC-G4-INS-Cover-Light Grey, Rubber cover for G4 Instant camera","category":"Cameras, security / Cameras accessories","description":"The rubber case in light gray color is intended for the Ubiquiti UniFi Protect G4 Instant camera. The case instantly transforms the aesthetics of your G4 Instant camera, so it blends seamlessly into the surrounding area as you envision it. The rubber cases are available in 3 shades of grey","availability":"In stock","unitPerCarton":80,"warranty":"24 months","displayPriceUsd":9,"fullCartonUnitPriceUsd":8.69,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-g4-ins-cover-light-grey-250e9c55ff.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-g4-ins-cover-light-grey",
+  "brand": "Ubiquiti",
+  "sku": "UACC-G4-INS-Cover-Light Grey",
+  "title": "Ubiquiti UACC-G4-INS-Cover-Light Grey, Rubber cover for G4 Instant camera",
+  "category": "Ubiquiti / Cameras, security / Cameras accessories",
+  "description": "The rubber case in light gray color is intended for the Ubiquiti UniFi Protect G4 Instant camera. The case instantly transforms the aesthetics of your G4 Instant camera, so it blends seamlessly into the surrounding area as you envision it. The rubber cases are available in 3 shades of grey",
+  "availability": "In Stock 31 pcs.",
+  "unitPerCarton": 80,
+  "warranty": "24 months",
+  "displayPriceUsd": 9,
+  "fullCartonUnitPriceUsd": 8.69,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-g4-ins-cover-light-grey-250e9c55ff.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 31,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-g4-ins-cover-light-grey-rubber-cover-for-g4-instant-camera_d121427.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-cameras-accessories_c16591508.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Cameras accessories"
+  ]
+}

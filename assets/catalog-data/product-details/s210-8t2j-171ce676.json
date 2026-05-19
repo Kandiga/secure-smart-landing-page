@@ -1,1 +1,27 @@
-{"id":"huawei-s210-8t2j","brand":"Huawei","sku":"S210-8T2J","title":"Huawei S210-8T2J Gbit Cloud Switch","category":"LAN networks / Switches / eKit Switches","description":"Huawei S210-8T2J is a reliable managed cloud L2 switch with a switching capacity of 26Gbps , (8) Gbit ports and (2) 2.5G SFP slots . It supports management via a local web interface as well as cloud management ( eKit SNC / eKit mobile app ). The maximum power consumption is 10.9W (8) Gbit ports and (2) 2.5G SFP slots Passive cooling - silent operation, suitable for office environments Huawei Online Upgrade Platform (HOUP) - automatic one-click updates Protection against DoS attacks and other security features Automatic loop prevention, VLAN, QoS and uplink port link aggregation Device Power adapter and cable Rubber feet","availability":"To order / expected","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":86,"fullCartonUnitPriceUsd":86,"imageUrl":"assets/catalog-data/public-images/huawei-s210-8t2j-382db2dc39.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces LAN speed (8) 10/100/1000Mbps Optical interfaces (2) 1G/2.5Gbps Power Power type DC connector Max. power consumption [W] 10.9 Power via connector/terminal 12V / 1A Physical characteristics Design Desktop \"U\" positions 0,8 Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 45 Weight [g] 950 Width [mm] 195 Height [mm] 35 Depth [mm] 130 General Switchning capacity [Gbps] 26 MAC address table 8000 Packet forwarding rate [Mpps] 19,5"}
+{
+  "id": "huawei-s210-8t2j",
+  "brand": "Huawei",
+  "sku": "S210-8T2J",
+  "title": "Huawei S210-8T2J Gbit Cloud Switch",
+  "category": "Huawei / LAN networks / Switches / eKit Switches",
+  "description": "Huawei S210-8T2J is a reliable managed cloud L2 switch with a switching capacity of 26Gbps , (8) Gbit ports and (2) 2.5G SFP slots . It supports management via a local web interface as well as cloud management ( eKit SNC / eKit mobile app ). The maximum power consumption is 10.9W (8) Gbit ports and (2) 2.5G SFP slots Passive cooling - silent operation, suitable for office environments Huawei Online Upgrade Platform (HOUP) - automatic one-click updates Protection against DoS attacks and other security features Automatic loop prevention, VLAN, QoS and uplink port link aggregation Device Power adapter and cable Rubber feet",
+  "availability": "Ordered, unknown date",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 86,
+  "fullCartonUnitPriceUsd": 86,
+  "imageUrl": "assets/catalog-data/public-images/huawei-s210-8t2j-382db2dc39.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces LAN speed (8) 10/100/1000Mbps Optical interfaces (2) 1G/2.5Gbps Power Power type DC connector Max. power consumption [W] 10.9 Power via connector/terminal 12V / 1A Physical characteristics Design Desktop \"U\" positions 0,8 Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 45 Weight [g] 950 Width [mm] 195 Height [mm] 35 Depth [mm] 130 General Switchning capacity [Gbps] 26 MAC address table 8000 Packet forwarding rate [Mpps] 19,5",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/huawei-s210-8t2j-gbit-cloud-switch_d130970.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-lan-networks-switches-ekit-switches_c16591802.html",
+  "discompSourcePath": [
+    "Huawei",
+    "LAN networks",
+    "Switches",
+    "eKit Switches"
+  ]
+}

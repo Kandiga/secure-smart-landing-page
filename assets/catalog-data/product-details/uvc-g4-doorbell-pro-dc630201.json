@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uvc-g4-doorbell-pro","brand":"Ubiquiti","sku":"UVC-G4 Doorbell Pro","title":"Ubiquiti UVC-G4 Doorbell Pro - UniFi Protect G4 Doorbell Pro","category":"Cameras, security / Videophones and bells / Door Bells","description":"The G4 Doorbell Pro is a WiFi-enabled video doorbell equipped with a primary 5MP camera and a secondary 8MP package camera . The doorbell's main camera is equipped with IR LED to provide enhanced night vision that, when combined with the built-in porch light, ensures a reliably clear surveillance feed around the clock. The G4 Doorbell Pro also features echo-cancelling, two-way audio so you can interact with visitors, and its programmable display allows you to give alerts or delivery… Streams 1080p HD video at 30 FPS Dual-band WiFi Gigabit Ethernet via UACC-Adapter-DBPOE adapter - not included in the package (1) 5MP camera with an IR LED [Video output: 1600x1200 (2MP), 30 FPS] (1) 8MP package camera [Video output: 1600x1200 (2MP), 2 FPS, no IR LED] Two-way audio with echo cancellation Built-in porch light that illuminates objects up to 2 meters away Motion detection sensor IPX4-rated, weather-resistant casing Programmable display Easy, Bluetooth-powered setup via the UniFi Protect mobile app Managed with the UniFi Protect application: Version 1.21.0 and later (web) / 1.5.8 or later (iOS) / 1.4.8 or later (Android) Device (2) cable reduction (2) mounting bracket Attachment material DIN power supply","availability":"To order / expected","unitPerCarton":12,"warranty":"24 months","displayPriceUsd":344,"fullCartonUnitPriceUsd":331.96,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-g4-doorbell-pro-a4d0bb51f2.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Camera Illumination IR Illumination range [m] 2 Viewing Angle [°] 138 Wireless features WiFi standards 802.11ac, 802.11n, 802.11a, 802.11b/g Image Resolution 5MP Max. resolution [pixels] 1600 x 1200 (UXGA) Connectors and Interfaces Audio Microphone, Speaker Other features LCD display Power Power type AC terminal Power via connector/terminal 16 .. 24V AC"}
+{
+  "id": "ubiquiti-uvc-g4-doorbell-pro",
+  "brand": "Ubiquiti",
+  "sku": "UVC-G4 Doorbell Pro",
+  "title": "Ubiquiti UVC-G4 Doorbell Pro - UniFi Protect G4 Doorbell Pro",
+  "category": "Ubiquiti / Cameras, security / Videophones and bells / Door Bells",
+  "description": "The G4 Doorbell Pro is a WiFi-enabled video doorbell equipped with a primary 5MP camera and a secondary 8MP package camera . The doorbell's main camera is equipped with IR LED to provide enhanced night vision that, when combined with the built-in porch light, ensures a reliably clear surveillance feed around the clock. The G4 Doorbell Pro also features echo-cancelling, two-way audio so you can interact with visitors, and its programmable display allows you to give alerts or delivery… Streams 1080p HD video at 30 FPS Dual-band WiFi Gigabit Ethernet via UACC-Adapter-DBPOE adapter - not included in the package (1) 5MP camera with an IR LED [Video output: 1600x1200 (2MP), 30 FPS] (1) 8MP package camera [Video output: 1600x1200 (2MP), 2 FPS, no IR LED] Two-way audio with echo cancellation Built-in porch light that illuminates objects up to 2 meters away Motion detection sensor IPX4-rated, weather-resistant casing Programmable display Easy, Bluetooth-powered setup via the UniFi Protect mobile app Managed with the UniFi Protect application: Version 1.21.0 and later (web) / 1.5.8 or later (iOS) / 1.4.8 or later (Android) Device (2) cable reduction (2) mounting bracket Attachment material DIN power supply",
+  "availability": "Not In Stock",
+  "unitPerCarton": 12,
+  "warranty": "24 months",
+  "displayPriceUsd": 344,
+  "fullCartonUnitPriceUsd": 331.96,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-g4-doorbell-pro-a4d0bb51f2.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Camera Illumination IR Illumination range [m] 2 Viewing Angle [°] 138 Wireless features WiFi standards 802.11ac, 802.11n, 802.11a, 802.11b/g Image Resolution 5MP Max. resolution [pixels] 1600 x 1200 (UXGA) Connectors and Interfaces Audio Microphone, Speaker Other features LCD display Power Power type AC terminal Power via connector/terminal 16 .. 24V AC",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uvc-g4-doorbell-pro-unifi-protect-g4-doorbell-pro_d115945.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-videophones-and-bells-door-bells_c16591511.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Videophones and bells",
+    "Door Bells"
+  ]
+}

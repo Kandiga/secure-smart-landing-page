@@ -1,1 +1,26 @@
-{"id":"mikrotik-e60iugs","brand":"MikroTik","sku":"E60iUGS","title":"MikroTik RouterBOARD E60iUGS, hEX S","category":"Wireless / MikroTik / RouterBOARD","description":"MikroTik hEX S is a compact, powerful, and affordable wired router that is an ideal choice for smart homes or small offices. The device features 5 Gigabit Ethernet ports , with Ether1 supporting PoE-in and Ether5 offering PoE-out , allowing you to power another device directly from the router. The PoE-out voltage matches the input voltage supplied to the router. One of its main advantages is the 2.5G SFP port , which enables you to fully utilize high-speed connections â such as to a NAS… Inside, you'll find a dual-core ARM processor running at 950 MHz and 512 MB of RAM , providing enough power for more demanding networking tasks. The RouterOS v7 operating system offers advanced features such as VLANs, bonding, traffic shaping, advanced routing , and more â all without the need to purchase additional licenses or upgrades hEX S device 24V / 1.2A power adapter","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":65,"fullCartonUnitPriceUsd":62.73,"imageUrl":"assets/catalog-data/public-images/mikrotik-e60iugs-31c869bae0.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Multiple WAN Yes LAN speed (5) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (1) 1G/2.5Gbps USB Yes Power Power over Ethernet 802.3af, 802.3at, 18 .. 57V DC Power type DC connector, PoE PoE type PoE-Out + PoE-In PoE Out ports 1 Max. power consumption [W] 5 Power via connector/terminal 12 .. 57V DC Physical characteristics Design On the wall, Desktop Fans No Chassis design Plastic Buttons Reset Operating temperature [°C] 40 up to 70 Width [mm] 113 Height [mm] 28 Depth [mm] 89 Hardware CPU EN7562CT CPU frequency [MHz] 950 CPU cores 2 Internal storage [MB] 128 RAM [MB] 512"}
+{
+  "id": "mikrotik-e60iugs",
+  "brand": "MikroTik",
+  "sku": "E60iUGS",
+  "title": "MikroTik RouterBOARD E60iUGS, hEX S",
+  "category": "MikroTik / Wireless / RouterBOARD",
+  "description": "MikroTik hEX S is a compact, powerful, and affordable wired router that is an ideal choice for smart homes or small offices. The device features 5 Gigabit Ethernet ports , with Ether1 supporting PoE-in and Ether5 offering PoE-out , allowing you to power another device directly from the router. The PoE-out voltage matches the input voltage supplied to the router. One of its main advantages is the 2.5G SFP port , which enables you to fully utilize high-speed connections â such as to a NAS… Inside, you'll find a dual-core ARM processor running at 950 MHz and 512 MB of RAM , providing enough power for more demanding networking tasks. The RouterOS v7 operating system offers advanced features such as VLANs, bonding, traffic shaping, advanced routing , and more â all without the need to purchase additional licenses or upgrades hEX S device 24V / 1.2A power adapter",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 65,
+  "fullCartonUnitPriceUsd": 62.73,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-e60iugs-31c869bae0.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Multiple WAN Yes LAN speed (5) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (1) 1G/2.5Gbps USB Yes Power Power over Ethernet 802.3af, 802.3at, 18 .. 57V DC Power type DC connector, PoE PoE type PoE-Out + PoE-In PoE Out ports 1 Max. power consumption [W] 5 Power via connector/terminal 12 .. 57V DC Physical characteristics Design On the wall, Desktop Fans No Chassis design Plastic Buttons Reset Operating temperature [°C] 40 up to 70 Width [mm] 113 Height [mm] 28 Depth [mm] 89 Hardware CPU EN7562CT CPU frequency [MHz] 950 CPU cores 2 Internal storage [MB] 128 RAM [MB] 512",
+  "stockQtyVisible": 248,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-routerboard-e60iugs-hex-s_d129693.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-routerboard_c16588560.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "RouterBOARD"
+  ]
+}

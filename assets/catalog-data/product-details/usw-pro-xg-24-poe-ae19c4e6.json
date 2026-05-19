@@ -1,1 +1,27 @@
-{"id":"ubiquiti-usw-pro-xg-24-poe","brand":"Ubiquiti","sku":"USW-Pro-XG-24-PoE","title":"Ubiquiti Unifi Switch USW-Pro-XG-24-PoE","category":"LAN networks / Switches / UniFi Switches","description":"The UniFi Switch USW-Pro-XG-24-PoE is a managed L3 PoE switch with a switching capacity of 460 Gbps , (8) 2.5-Gigabit LAN, (16) 10-Gigabit LAN ports and two SFP28 (25G/10G/1G) ports. All Ethernet ports support PoE+++ 802.3af/at/bt PoE-Out with output power of up to 90W/port and a total PoE budget of 720 W . The ports feature Etherlighting , allowing you to color-illuminate ports to indicate port location, speed/connection, and VLAN. The switch is powered via 230V AC, and the USP RPS DC port… (8) 2.5G ports â supports 802.3af/at/bt PoE+++ (90W/port) (16) 10G ports â supports 802.3af/at/bt PoE+++ (90W/port) (2) 25/10/1G SFP28 ports 720 W PoE budget Etherlighting â visual indication of port information Rack-mountable Management via UniFi Network Server The USW-Pro-XG-24-PoE does not feature a web interface, but is centrally managed using the UniFi Network Server with support for the UniFi mobile app. It offers an extensive set of advanced L2 and L3 switching protocols and features, including per-port operation modes (switching, mirroring, or aggregation). The UniFi Network Server and mobile app allow administrators to configure and monitor nearly all switch functions via a graphical user interface from anywhere Device Power cable Rack-mount brackets","availability":"To order / expected","unitPerCarton":1,"warranty":"24 months","displayPriceUsd":2130,"fullCartonUnitPriceUsd":2130,"imageUrl":"assets/catalog-data/public-images/ubiquiti-usw-pro-xg-24-poe-266b808aac.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces LAN speed (8) 2.5G/1G/100M/10M + (16) 10G/5G/2.5G/1G/100M/10M Optical interfaces (2) 1/10/25Gbps Other features Touchscreen Power Power type Mains power (230V), UniFi SmartPower RPS PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, 802.3bt Redundant power supply Yes PoE Out ports 24 PoE budget [W] 720 Max. power consumption [W] 150 Power via connector/terminal 52V DC, 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 480 General Switchning capacity [Gbps] 460 MAC address table 128000 Packet forwarding rate [Mpps] 342"}
+{
+  "id": "ubiquiti-usw-pro-xg-24-poe",
+  "brand": "Ubiquiti",
+  "sku": "USW-Pro-XG-24-PoE",
+  "title": "Ubiquiti Unifi Switch USW-Pro-XG-24-PoE",
+  "category": "Ubiquiti / LAN networks / Switches / UniFi Switches",
+  "description": "The UniFi Switch USW-Pro-XG-24-PoE is a managed L3 PoE switch with a switching capacity of 460 Gbps , (8) 2.5-Gigabit LAN, (16) 10-Gigabit LAN ports and two SFP28 (25G/10G/1G) ports. All Ethernet ports support PoE+++ 802.3af/at/bt PoE-Out with output power of up to 90W/port and a total PoE budget of 720 W . The ports feature Etherlighting , allowing you to color-illuminate ports to indicate port location, speed/connection, and VLAN. The switch is powered via 230V AC, and the USP RPS DC port… (8) 2.5G ports â supports 802.3af/at/bt PoE+++ (90W/port) (16) 10G ports â supports 802.3af/at/bt PoE+++ (90W/port) (2) 25/10/1G SFP28 ports 720 W PoE budget Etherlighting â visual indication of port information Rack-mountable Management via UniFi Network Server The USW-Pro-XG-24-PoE does not feature a web interface, but is centrally managed using the UniFi Network Server with support for the UniFi mobile app. It offers an extensive set of advanced L2 and L3 switching protocols and features, including per-port operation modes (switching, mirroring, or aggregation). The UniFi Network Server and mobile app allow administrators to configure and monitor nearly all switch functions via a graphical user interface from anywhere Device Power cable Rack-mount brackets",
+  "availability": "Not In Stock",
+  "unitPerCarton": 1,
+  "warranty": "24 months",
+  "displayPriceUsd": 2130,
+  "fullCartonUnitPriceUsd": 2130,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-usw-pro-xg-24-poe-266b808aac.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces LAN speed (8) 2.5G/1G/100M/10M + (16) 10G/5G/2.5G/1G/100M/10M Optical interfaces (2) 1/10/25Gbps Other features Touchscreen Power Power type Mains power (230V), UniFi SmartPower RPS PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, 802.3bt Redundant power supply Yes PoE Out ports 24 PoE budget [W] 720 Max. power consumption [W] 150 Power via connector/terminal 52V DC, 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 480 General Switchning capacity [Gbps] 460 MAC address table 128000 Packet forwarding rate [Mpps] 342",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-switch-usw-pro-xg-24-poe_d129530.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-unifi-switches_c16172908.html?page=2",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "UniFi Switches"
+  ]
+}

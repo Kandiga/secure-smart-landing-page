@@ -1,1 +1,27 @@
-{"id":"ubiquiti-u-airwire","brand":"Ubiquiti","sku":"U-AirWire","title":"Ubiquiti AirWire, Wi-Fi 7 USB-C adapter","category":"Wireless / WiFi and Bluetooth adapters / USB","description":"The Ubiquiti U-AirWire is a high-speed USB-C dual-band Wi-Fi 7 adapter with an integrated directional antenna, supporting STR MLO for simultaneous, aggregated use of the 5GHz and 6GHz bands , delivering full-duplex connectivity and significantly higher throughput. In Enhanced mode, it achieves speeds of up to 10Gbps (5Gbps full-duplex). It requires a UniFi WiFi AP and is compatible with older models, however STR MLO functionality requires a UniFi U7 or E7 Device USB C-C cable","availability":"To order / expected","unitPerCarton":14,"warranty":"24 months","displayPriceUsd":225,"fullCartonUnitPriceUsd":217.13,"imageUrl":"assets/catalog-data/public-images/ubiquiti-u-airwire-743bbe7263.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Wireless frequency 5 + 6 GHz (dual band) WiFi standards 802.11n, 802.11ac, 802.11ax, 802.11be MU-MIMO Yes Transmission speed - 5GHz [Mb/s] 4300 Transmission speed - 6GHz [Mb/s] 5800 Tx power 5GHz [dBm] 25 Tx power 6GHz [dBm] 20 5GHz MIMO 2 x 2 6GHz MIMO 2 x 2 Type of antenna Fixed Antenna gain [dBi] 11 Connectors and Interfaces Interface USB Type-C Physical characteristics Operating temperature [°C] 10 up to 40 Width [mm] 117 Height [mm] 43 Depth [mm] 117 General Type of network card WLAN"}
+{
+  "id": "ubiquiti-u-airwire",
+  "brand": "Ubiquiti",
+  "sku": "U-AirWire",
+  "title": "Ubiquiti AirWire, Wi-Fi 7 USB-C adapter",
+  "category": "Ubiquiti / Wireless / WiFi and Bluetooth adapters / USB",
+  "description": "The Ubiquiti U-AirWire is a high-speed USB-C dual-band Wi-Fi 7 adapter with an integrated directional antenna, supporting STR MLO for simultaneous, aggregated use of the 5GHz and 6GHz bands , delivering full-duplex connectivity and significantly higher throughput. In Enhanced mode, it achieves speeds of up to 10Gbps (5Gbps full-duplex). It requires a UniFi WiFi AP and is compatible with older models, however STR MLO functionality requires a UniFi U7 or E7 Device USB C-C cable",
+  "availability": "In Stock 13 pcs.",
+  "unitPerCarton": 14,
+  "warranty": "24 months",
+  "displayPriceUsd": 225,
+  "fullCartonUnitPriceUsd": 217.13,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-u-airwire-743bbe7263.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Wireless frequency 5 + 6 GHz (dual band) WiFi standards 802.11n, 802.11ac, 802.11ax, 802.11be MU-MIMO Yes Transmission speed - 5GHz [Mb/s] 4300 Transmission speed - 6GHz [Mb/s] 5800 Tx power 5GHz [dBm] 25 Tx power 6GHz [dBm] 20 5GHz MIMO 2 x 2 6GHz MIMO 2 x 2 Type of antenna Fixed Antenna gain [dBi] 11 Connectors and Interfaces Interface USB Type-C Physical characteristics Operating temperature [°C] 10 up to 40 Width [mm] 117 Height [mm] 43 Depth [mm] 117 General Type of network card WLAN",
+  "stockQtyVisible": 13,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-airwire-wi-fi-7-usb-c-adapter_d131664.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-wifi-and-bluetooth-adapters-usb_c16592644.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "WiFi and Bluetooth adapters",
+    "USB"
+  ]
+}

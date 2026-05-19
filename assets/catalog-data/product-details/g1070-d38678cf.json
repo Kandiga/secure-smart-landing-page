@@ -1,1 +1,26 @@
-{"id":"mikrotik-g1070","brand":"MikroTik","sku":"G1070","title":"MikroTik Open Frame 500W PSU for CRS328-24P-4S+RM","category":"Wireless / MikroTik / Accessories","description":"Replacement 500 W power supply for MikroTik CRS328-24P-4S+RM PoE switch","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":187,"fullCartonUnitPriceUsd":187,"imageUrl":"assets/catalog-data/public-images/mikrotik-g1070-3c3010939f.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Power The input voltage [V] 230V AC Power type Mains power (230V) Power [W] 500"}
+{
+  "id": "mikrotik-g1070",
+  "brand": "MikroTik",
+  "sku": "G1070",
+  "title": "MikroTik Open Frame 500W PSU for CRS328-24P-4S+RM",
+  "category": "MikroTik / Wireless / Accessories",
+  "description": "Replacement 500 W power supply for MikroTik CRS328-24P-4S+RM PoE switch",
+  "availability": "In Stock 4 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 187,
+  "fullCartonUnitPriceUsd": 187,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-g1070-3c3010939f.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Power The input voltage [V] 230V AC Power type Mains power (230V) Power [W] 500",
+  "stockQtyVisible": 4,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-open-frame-500w-psu-for-crs328-24p-4s-rm_d127621.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-accessories_c16588567.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Accessories"
+  ]
+}

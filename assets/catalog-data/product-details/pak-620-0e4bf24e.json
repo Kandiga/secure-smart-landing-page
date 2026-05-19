@@ -1,1 +1,26 @@
-{"id":"ubiquiti-pak-620","brand":"Ubiquiti","sku":"PAK-620","title":"Ubiquiti PAK-620 Precision Alignment Kit, for RD-5G30-LW, AF-5G30-S45, PBE-5AC-620, PBE-M5-620","category":"Wireless / Accessories / Mounting brackets","description":"Precision Alignment Kit to better attach the antenna. Precision two-axis alignment enhances beam directivity for maximum PtP or backhaul performance airFiber®AF-5G30-S45 PowerBeam â¢ PBE-5AC-620 PowerBeam PBE-M5-620 RocketDish â¢ RD-5G30-LW","availability":"In stock","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":35,"fullCartonUnitPriceUsd":33.78,"imageUrl":"assets/catalog-data/public-images/ubiquiti-pak-620-8876ab4a1c.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-pak-620",
+  "brand": "Ubiquiti",
+  "sku": "PAK-620",
+  "title": "Ubiquiti PAK-620 Precision Alignment Kit, for RD-5G30-LW, AF-5G30-S45, PBE-5AC-620, PBE-M5-620",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "Precision Alignment Kit to better attach the antenna. Precision two-axis alignment enhances beam directivity for maximum PtP or backhaul performance airFiber®AF-5G30-S45 PowerBeam â¢ PBE-5AC-620 PowerBeam PBE-M5-620 RocketDish â¢ RD-5G30-LW",
+  "availability": "In Stock 5 pcs.",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 35,
+  "fullCartonUnitPriceUsd": 33.78,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-pak-620-8876ab4a1c.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 5,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-pak-620-precision-alignment-kit-for-rd-5g30-lw-af-5g30-s45-pbe-5ac-620-pbe-m5-620_d66367.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

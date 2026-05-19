@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uvc-g4-bullet-3","brand":"Ubiquiti","sku":"UVC-G4-Bullet-3","title":"Ubiquiti UVC-G4-Bullet - UniFi Video Camera G4 Bullet, 3 pack","category":"Cameras, security / IP cameras / Bullet","description":"UniFi G4 Bullet camera has 4Mpx sensor (2688 x 1520, 24fps), lens with fixed focal length about 4mm , viewing angle 86° , IR illumination for night vision, audio microphone and Gigabit port with PoE support. Thanks to the great holder, you are able to direct the camera in all 3 axes The camera supports for powering PoE adapter or Switch supports 802.3af standard. Maximum camera power consumption is only 4W ! With the Unifi Protect mobile app, you can watch live images on all cameras connected to the NVR. The app is available for iOS and Android The camera already has built-in IR diodes for very short illumination (maximum 5-10m depending on the real environment). For the need for quality night vision, we recommend purchasing an external UVC-G4-IRExtender light, which you simply install directly on the camera (3) Device (3) Bracket + screws","availability":"In stock","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":649,"fullCartonUnitPriceUsd":626.29,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-g4-bullet-3-92ca830246.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Camera Lens type Fixed Lens [mm] 4 (fixed) Illumination IR Illumination range [m] 5 Viewing Angle [°] 86 Day/night mode IR cut filter Image Resolution 4MP Max. resolution [pixels] 2688 x 1520 Connectors and Interfaces Audio Microphone LAN speed (1) 10/100/1000Mbps Power Power over Ethernet 802.3af Power type PoE Max. power consumption [W] 4 Physical characteristics Purpose Outdoor Operating temperature [°C] 20 up to 40 Weight [g] 458 Width [mm] 75 Height [mm] 75 Depth [mm] 140 Color White Compression standard Video compression H.264 General Camera class UniFi Protect"}
+{
+  "id": "ubiquiti-uvc-g4-bullet-3",
+  "brand": "Ubiquiti",
+  "sku": "UVC-G4-Bullet-3",
+  "title": "Ubiquiti UVC-G4-Bullet - UniFi Video Camera G4 Bullet, 3 pack",
+  "category": "Ubiquiti / Cameras, security / IP cameras / Bullet",
+  "description": "UniFi G4 Bullet camera has 4Mpx sensor (2688 x 1520, 24fps), lens with fixed focal length about 4mm , viewing angle 86° , IR illumination for night vision, audio microphone and Gigabit port with PoE support. Thanks to the great holder, you are able to direct the camera in all 3 axes The camera supports for powering PoE adapter or Switch supports 802.3af standard. Maximum camera power consumption is only 4W ! With the Unifi Protect mobile app, you can watch live images on all cameras connected to the NVR. The app is available for iOS and Android The camera already has built-in IR diodes for very short illumination (maximum 5-10m depending on the real environment). For the need for quality night vision, we recommend purchasing an external UVC-G4-IRExtender light, which you simply install directly on the camera (3) Device (3) Bracket + screws",
+  "availability": "Not In Stock",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 649,
+  "fullCartonUnitPriceUsd": 626.29,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-g4-bullet-3-92ca830246.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Camera Lens type Fixed Lens [mm] 4 (fixed) Illumination IR Illumination range [m] 5 Viewing Angle [°] 86 Day/night mode IR cut filter Image Resolution 4MP Max. resolution [pixels] 2688 x 1520 Connectors and Interfaces Audio Microphone LAN speed (1) 10/100/1000Mbps Power Power over Ethernet 802.3af Power type PoE Max. power consumption [W] 4 Physical characteristics Purpose Outdoor Operating temperature [°C] 20 up to 40 Weight [g] 458 Width [mm] 75 Height [mm] 75 Depth [mm] 140 Color White Compression standard Video compression H.264 General Camera class UniFi Protect",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uvc-g4-bullet-unifi-video-camera-g4-bullet-3-pack_d109545.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-ip-cameras-bullet_c16591486.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "IP cameras",
+    "Bullet"
+  ]
+}

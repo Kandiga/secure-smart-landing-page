@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-adapter-dbac","brand":"Ubiquiti","sku":"UACC-Adapter-DBAC","title":"Ubiquiti UACC-Adapter-DBAC, G4 Doorbell Pro AC power adapter, 7m cable","category":"Powering / Power adapters / 5V","description":"The stylish power adapter for the classic EU socket is intended primarily for powering the G4 Doorbell Pro from the doorbell, it has an output voltage of 5V, a current of 2A and maximum power 10W . The adapter has a USB-C output connector on the bottom, which is ready to connect the included 7m cable with USB-C connectors on both sides","availability":"In stock","unitPerCarton":24,"warranty":"24 months","displayPriceUsd":35,"fullCartonUnitPriceUsd":33.78,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-adapter-dbac-8c8262bcfa.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Power Power [W] 10 Output Voltage [V] 5 Output Current [A] 2"}
+{
+  "id": "ubiquiti-uacc-adapter-dbac",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Adapter-DBAC",
+  "title": "Ubiquiti UACC-Adapter-DBAC, G4 Doorbell Pro AC power adapter, 7m cable",
+  "category": "Ubiquiti / Powering / Power adapters / 5V",
+  "description": "The stylish power adapter for the classic EU socket is intended primarily for powering the G4 Doorbell Pro from the doorbell, it has an output voltage of 5V, a current of 2A and maximum power 10W . The adapter has a USB-C output connector on the bottom, which is ready to connect the included 7m cable with USB-C connectors on both sides",
+  "availability": "In Stock 20 pcs.",
+  "unitPerCarton": 24,
+  "warranty": "24 months",
+  "displayPriceUsd": 35,
+  "fullCartonUnitPriceUsd": 33.78,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-adapter-dbac-8c8262bcfa.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Power Power [W] 10 Output Voltage [V] 5 Output Current [A] 2",
+  "stockQtyVisible": 20,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-adapter-dbac-g4-doorbell-pro-ac-power-adapter-7m-cable_d121509.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-power-adapters-5v_c16591492.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Power adapters",
+    "5V"
+  ]
+}

@@ -1,1 +1,27 @@
-{"id":"mikrotik-rb952ui-5ac2nd","brand":"MikroTik","sku":"RB952Ui-5ac2nD","title":"MikroTik RouterBOARD RB952Ui-5ac2nD, hAP ac lite","category":"Wireless / WiFi Routers / WiFi 5","description":"The hAP ac lite is a Dual-band Access Point/Router, that provides Wifi coverage for 2.4GHz and 5GHz frequencies at the same time. The device is very small and will look good in any home or office, wall mounting anchor holes are provided Dual chain wireless 2.4GHz Single chain wireless 5GHz 650MHz CPU 64MB of RAM 5x 10/100Mbps Ethernet ports Passive PoE output on port 5 USB port for 3G/4G modem The hAP ac lite can be powered from the power jack or with passive PoE from a PoE injector. Unit provides PoE output function for port 5 - it can power other PoE capable devices with the same voltage as applied to the unit. Maximum load on the port is 500mA Device Power adapter 24V/1.2A","availability":"In stock","unitPerCarton":40,"warranty":"24 months","displayPriceUsd":54,"fullCartonUnitPriceUsd":52.11,"imageUrl":"assets/catalog-data/public-images/mikrotik-rb952ui-5ac2nd-2382bd0e60.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Tx power [dBm] 23 Wireless frequency 2.4 + 5 GHz (dual band) WiFi standards 802.11ac, 802.11n, 802.11a, 802.11b/g Transmission speed - 5GHz [Mb/s] 433 Transmission speed - 2.4GHz [Mb/s] 300 2.4GHz MIMO 2 x 2 5GHz MIMO 1 x 1 SISO Type of antenna Built-in Antenna gain [dBi] < 2 Connectors and Interfaces LAN speed (5) 10/100Mbps USB Yes Power Power over Ethernet 8 .. 30V DC Power type DC connector, PoE PoE type PoE-Out + PoE-In PoE Out ports 1 Max. power consumption [W] 7 Power via connector/terminal 8 .. 30V DC Physical characteristics Design Desktop Operating temperature [°C] 20 up to 70 Width [mm] 113 Height [mm] 28 Depth [mm] 89 Hardware CPU QCA9531 CPU frequency [MHz] 650 CPU cores 1 Internal storage [MB] 16 RAM [MB] 64"}
+{
+  "id": "mikrotik-rb952ui-5ac2nd",
+  "brand": "MikroTik",
+  "sku": "RB952Ui-5ac2nD",
+  "title": "MikroTik RouterBOARD RB952Ui-5ac2nD, hAP ac lite",
+  "category": "MikroTik / Wireless / WiFi Routers / WiFi 5",
+  "description": "The hAP ac lite is a Dual-band Access Point/Router, that provides Wifi coverage for 2.4GHz and 5GHz frequencies at the same time. The device is very small and will look good in any home or office, wall mounting anchor holes are provided Dual chain wireless 2.4GHz Single chain wireless 5GHz 650MHz CPU 64MB of RAM 5x 10/100Mbps Ethernet ports Passive PoE output on port 5 USB port for 3G/4G modem The hAP ac lite can be powered from the power jack or with passive PoE from a PoE injector. Unit provides PoE output function for port 5 - it can power other PoE capable devices with the same voltage as applied to the unit. Maximum load on the port is 500mA Device Power adapter 24V/1.2A",
+  "availability": "In Stock 24 pcs.",
+  "unitPerCarton": 40,
+  "warranty": "24 months",
+  "displayPriceUsd": 54,
+  "fullCartonUnitPriceUsd": 52.11,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rb952ui-5ac2nd-2382bd0e60.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Tx power [dBm] 23 Wireless frequency 2.4 + 5 GHz (dual band) WiFi standards 802.11ac, 802.11n, 802.11a, 802.11b/g Transmission speed - 5GHz [Mb/s] 433 Transmission speed - 2.4GHz [Mb/s] 300 2.4GHz MIMO 2 x 2 5GHz MIMO 1 x 1 SISO Type of antenna Built-in Antenna gain [dBi] < 2 Connectors and Interfaces LAN speed (5) 10/100Mbps USB Yes Power Power over Ethernet 8 .. 30V DC Power type DC connector, PoE PoE type PoE-Out + PoE-In PoE Out ports 1 Max. power consumption [W] 7 Power via connector/terminal 8 .. 30V DC Physical characteristics Design Desktop Operating temperature [°C] 20 up to 70 Width [mm] 113 Height [mm] 28 Depth [mm] 89 Hardware CPU QCA9531 CPU frequency [MHz] 650 CPU cores 1 Internal storage [MB] 16 RAM [MB] 64",
+  "stockQtyVisible": 24,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-routerboard-rb952ui-5ac2nd-hap-ac-lite_d71768.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-wifi-routers-wifi-5_c16591326.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "WiFi Routers",
+    "WiFi 5"
+  ]
+}

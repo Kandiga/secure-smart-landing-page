@@ -1,1 +1,45 @@
-{"id":"rf-elements-tpa-rm5","brand":"RF elements","sku":"TPA-RM5","title":"RF elements TPA-RM5 TwistPort adaptor for Rocket M5","category":"Wireless / Antennas / TwistPort and other adapters","description":"TwistPort Adaptors for connectorized radios allow easy integration with Ubiquiti Rocket M5 and UAP Outdoor5 . TwistPort Adaptors for Ubiquiti Rocket Radios use special coaxial connectors without threads, so the integration is revolutionary easy. Simply slide the radio into the Adaptor until you hear âclickâ. To unlock, press the button and slide the radio out Symmetrical Sectors feature industry changing TwistPort Connector, our patent pending quick-locking waveguide port. TwistPortTM is virtually lossless: there are no coaxial RF connectors or RF cables, that cause significant signal loss. Connection and disconnection is brilliantly simple \"twist and snap\" and can be done with one hand TwistPort Adaptors make most popular connectorized radios and MikroTik RouterBoards compatible with TwistPort antennas. Integration into TwistPort eco-system ensures the benefits of low loss, high scalability, easy co-location, simple deployment and easy maintenance","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":16,"fullCartonUnitPriceUsd":15.44,"imageUrl":"assets/catalog-data/public-images/rf-elements-tpa-rm5-5f4e63eb6e.jpg","documents":[],"shippingDimensions":{"unit":{"dimensionCount":1,"lengthCm":13,"widthCm":13.5,"heightCm":12,"volumeCm3":2106,"weightKg":0.5},"carton":{"pcsPerCarton":20,"lengthCm":61,"widthCm":29,"heightCm":28,"volumeCm3":49532,"weightKg":10.4}},"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,8 Cross-Pol Isolation [dB] 37 Wireless frequency 5 GHz Connectors and Interfaces Rocket kit Yes RF connectors TwistPort"}
+{
+  "id": "rf-elements-tpa-rm5",
+  "brand": "RF elements",
+  "sku": "TPA-RM5",
+  "title": "RF elements TPA-RM5 TwistPort adaptor for Rocket M5",
+  "category": "RF elements / Wireless / Antennas / TwistPort and other adapters",
+  "description": "TwistPort Adaptors for connectorized radios allow easy integration with Ubiquiti Rocket M5 and UAP Outdoor5 . TwistPort Adaptors for Ubiquiti Rocket Radios use special coaxial connectors without threads, so the integration is revolutionary easy. Simply slide the radio into the Adaptor until you hear âclickâ. To unlock, press the button and slide the radio out Symmetrical Sectors feature industry changing TwistPort Connector, our patent pending quick-locking waveguide port. TwistPortTM is virtually lossless: there are no coaxial RF connectors or RF cables, that cause significant signal loss. Connection and disconnection is brilliantly simple \"twist and snap\" and can be done with one hand TwistPort Adaptors make most popular connectorized radios and MikroTik RouterBoards compatible with TwistPort antennas. Integration into TwistPort eco-system ensures the benefits of low loss, high scalability, easy co-location, simple deployment and easy maintenance",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 16,
+  "fullCartonUnitPriceUsd": 15.44,
+  "imageUrl": "assets/catalog-data/public-images/rf-elements-tpa-rm5-5f4e63eb6e.jpg",
+  "documents": [],
+  "shippingDimensions": {
+    "unit": {
+      "dimensionCount": 1,
+      "lengthCm": 13,
+      "widthCm": 13.5,
+      "heightCm": 12,
+      "volumeCm3": 2106,
+      "weightKg": 0.5
+    },
+    "carton": {
+      "pcsPerCarton": 20,
+      "lengthCm": 61,
+      "widthCm": 29,
+      "heightCm": 28,
+      "volumeCm3": 49532,
+      "weightKg": 10.4
+    }
+  },
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,8 Cross-Pol Isolation [dB] 37 Wireless frequency 5 GHz Connectors and Interfaces Rocket kit Yes RF connectors TwistPort",
+  "stockQtyVisible": 199,
+  "discompProductUrl": "https://www.discomp.cz/rf-elements-tpa-rm5-twistport-adaptor-for-rocket-m5_d88427.html",
+  "discompCategoryUrl": "https://www.discomp.cz/rf-elements-wireless-antennas-twistport-and-other-adapters_c16587963.html",
+  "discompSourcePath": [
+    "RF elements",
+    "Wireless",
+    "Antennas",
+    "TwistPort and other adapters"
+  ]
+}

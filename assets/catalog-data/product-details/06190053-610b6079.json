@@ -1,1 +1,26 @@
-{"id":"huawei-06190053","brand":"Huawei","sku":"06190053","title":"Huawei ICD OPS i7 D - Computer Module for IdeaHub","category":"IoT, SMART / Interactive whiteboards","description":"The Huawei ICD OPS i7 D is a compact computer module based on the Intel OPS-C standard , designed for integration with Huawei IdeaHub intelligent display. It is equipped with an Intel® Coreâ¢ i7-10700 processor and integrated Intel® UHD Graphics 630, supporting dual independent 4K output . Installation is simple - the module slides directly into the OPS slot, requiring no additional cables or external power supply The module includes 16GB DDR4 RAM and a 512GB M.2 SSD for fast system startup. It also offers (1) M.2 2230 slot for further expansion and (1) RJ-45 , (3) USB 3.0 , (3) USB 2.0 , (1) HDMI 1.4 , (1) DisplayPort 1.2 , audio line-out a mic-in . The operating system is Windows 10 IoT Enterprise","availability":"To order / expected","unitPerCarton":null,"warranty":"12 months","displayPriceUsd":1554,"fullCartonUnitPriceUsd":1554,"imageUrl":"assets/catalog-data/public-images/huawei-06190053-da5fd889c1.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces USB ports 3.0 3 M.2 slots 2 HDMI interface (resolution) [pixels] 4096 x 2160 (4K UHD) DP interface (resolution) [pixels] 4096 x 2160 (4K UHD) Audio 1 input, 1 output LAN speed (1) 10/100/1000Mbps USB ports 2.0 3 Power Max. power consumption [W] 90 Physical characteristics Buttons Reset, power Operating temperature [°C] 0 up to 40 Weight [kg] 1,5 Width [mm] 180 Height [mm] 30 Depth [mm] 195 Color Black"}
+{
+  "id": "huawei-06190053",
+  "brand": "Huawei",
+  "sku": "06190053",
+  "title": "Huawei ICD OPS i7 D - Computer Module for IdeaHub",
+  "category": "Huawei / IoT, SMART / Interactive whiteboards",
+  "description": "The Huawei ICD OPS i7 D is a compact computer module based on the Intel OPS-C standard , designed for integration with Huawei IdeaHub intelligent display. It is equipped with an Intel® Coreâ¢ i7-10700 processor and integrated Intel® UHD Graphics 630, supporting dual independent 4K output . Installation is simple - the module slides directly into the OPS slot, requiring no additional cables or external power supply The module includes 16GB DDR4 RAM and a 512GB M.2 SSD for fast system startup. It also offers (1) M.2 2230 slot for further expansion and (1) RJ-45 , (3) USB 3.0 , (3) USB 2.0 , (1) HDMI 1.4 , (1) DisplayPort 1.2 , audio line-out a mic-in . The operating system is Windows 10 IoT Enterprise",
+  "availability": "Not In Stock",
+  "unitPerCarton": null,
+  "warranty": "12 months",
+  "displayPriceUsd": 1554,
+  "fullCartonUnitPriceUsd": 1554,
+  "imageUrl": "assets/catalog-data/public-images/huawei-06190053-da5fd889c1.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces USB ports 3.0 3 M.2 slots 2 HDMI interface (resolution) [pixels] 4096 x 2160 (4K UHD) DP interface (resolution) [pixels] 4096 x 2160 (4K UHD) Audio 1 input, 1 output LAN speed (1) 10/100/1000Mbps USB ports 2.0 3 Power Max. power consumption [W] 90 Physical characteristics Buttons Reset, power Operating temperature [°C] 0 up to 40 Weight [kg] 1,5 Width [mm] 180 Height [mm] 30 Depth [mm] 195 Color Black",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/huawei-icd-ops-i7-d-computer-module-for-ideahub_d130767.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-iot-smart-interactive-whiteboards_c16592364.html",
+  "discompSourcePath": [
+    "Huawei",
+    "IoT, SMART",
+    "Interactive whiteboards"
+  ]
+}

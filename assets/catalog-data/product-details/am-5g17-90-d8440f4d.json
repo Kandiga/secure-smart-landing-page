@@ -1,1 +1,28 @@
-{"id":"ubiquiti-am-5g17-90","brand":"Ubiquiti","sku":"AM-5G17-90","title":"Ubiquiti sector antenna AirMax MIMO 17dBi 5GHz, 90°, rocket kit","category":"Wireless / Antennas / Sector antennas / 5GHz","description":"AM-5G17-90 airMAX Sector Antenna is a 17dBi Carrier Class 2x2 MIMO (Dual Polarity) Sector Antenna with 90° beam angle that was designed for 5GHz band and for integrate with Rocket M radios (RocketM sold separately). Every airMAX® Antenna has a built-in Rocketâ¢ mount , so no tools are needed to install the Rocket BaseStation. Package contains Antenna (2) RSMA male - RSMA male pigtail Holder + screws Antenna (2) RSMA male - RSMA male pigtail Holder + screws","availability":"In stock","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":80,"fullCartonUnitPriceUsd":77.2,"imageUrl":"assets/catalog-data/public-images/ubiquiti-am-5g17-90-1c9d2bf905.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,5 Cross-Pol Isolation [dB] 22 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 93 Azimuth beam width (-6dB) [°] 72 Antenna type Sector Antenna gain [dBi] 17 Connectors and Interfaces Rocket kit Yes RF connectors (2) RSMA female"}
+{
+  "id": "ubiquiti-am-5g17-90",
+  "brand": "Ubiquiti",
+  "sku": "AM-5G17-90",
+  "title": "Ubiquiti sector antenna AirMax MIMO 17dBi 5GHz, 90°, rocket kit",
+  "category": "Ubiquiti / Wireless / Antennas / Sector antennas / 5GHz",
+  "description": "AM-5G17-90 airMAX Sector Antenna is a 17dBi Carrier Class 2x2 MIMO (Dual Polarity) Sector Antenna with 90° beam angle that was designed for 5GHz band and for integrate with Rocket M radios (RocketM sold separately). Every airMAX® Antenna has a built-in Rocketâ¢ mount , so no tools are needed to install the Rocket BaseStation. Package contains Antenna (2) RSMA male - RSMA male pigtail Holder + screws Antenna (2) RSMA male - RSMA male pigtail Holder + screws",
+  "availability": "In Stock 7 pcs.",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 80,
+  "fullCartonUnitPriceUsd": 77.2,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-am-5g17-90-1c9d2bf905.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,5 Cross-Pol Isolation [dB] 22 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 93 Azimuth beam width (-6dB) [°] 72 Antenna type Sector Antenna gain [dBi] 17 Connectors and Interfaces Rocket kit Yes RF connectors (2) RSMA female",
+  "stockQtyVisible": 7,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-sector-antenna-airmax-mimo-17dbi-5ghz-90-rocket-kit_d16637.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-antennas-sector-antennas-5ghz_c15888552.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Antennas",
+    "Sector antennas",
+    "5GHz"
+  ]
+}

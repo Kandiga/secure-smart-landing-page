@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uvc-g4-doorbell-ps","brand":"Ubiquiti","sku":"UVC-G4-Doorbell-PS","title":"Ubiquiti UVC-G4-Doorbell-PS - Power Supply for UVC-G4-Doorbell","category":"Powering / Power adapters / 18V","description":"The UVC-4-Doorbell-PS-EU is an optional power adapter for the UVC-G4-Doorbell . Instead of using existing electrical wiring, one end connects to the doorbell and the other end plugs into a standard EU electrical outlet. Maximum distance: 6 m Standard EU electrical outlet Input: 220 - 240VAC, 50 Hz, 1A Max Output: 20VAC, 0.7A Cable length: 6 m (2) Spade wire connectors","availability":"To order / expected","unitPerCarton":30,"warranty":"24 months","displayPriceUsd":32,"fullCartonUnitPriceUsd":30.88,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-g4-doorbell-ps-b2bb049add.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Power Power [W] 14 Output Voltage [V] 20V AC Output Current [A] 0,7"}
+{
+  "id": "ubiquiti-uvc-g4-doorbell-ps",
+  "brand": "Ubiquiti",
+  "sku": "UVC-G4-Doorbell-PS",
+  "title": "Ubiquiti UVC-G4-Doorbell-PS - Power Supply for UVC-G4-Doorbell",
+  "category": "Ubiquiti / Powering / Power adapters / 18V",
+  "description": "The UVC-4-Doorbell-PS-EU is an optional power adapter for the UVC-G4-Doorbell . Instead of using existing electrical wiring, one end connects to the doorbell and the other end plugs into a standard EU electrical outlet. Maximum distance: 6 m Standard EU electrical outlet Input: 220 - 240VAC, 50 Hz, 1A Max Output: 20VAC, 0.7A Cable length: 6 m (2) Spade wire connectors",
+  "availability": "Not In Stock",
+  "unitPerCarton": 30,
+  "warranty": "24 months",
+  "displayPriceUsd": 32,
+  "fullCartonUnitPriceUsd": 30.88,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-g4-doorbell-ps-b2bb049add.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Power Power [W] 14 Output Voltage [V] 20V AC Output Current [A] 0,7",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uvc-g4-doorbell-ps-power-supply-for-uvc-g4-doorbell_d109959.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-power-adapters-18v_c16591501.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Power adapters",
+    "18V"
+  ]
+}

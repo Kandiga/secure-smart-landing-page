@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-fm-17cm","brand":"Ubiquiti","sku":"UACC-FM-17cm","title":"Ubiquiti UACC-FM-17cm - wall mount for UCG-Ultra/UCG-Max/UXG-Max","category":"Wireless / Accessories / Mounting brackets","description":"Magnetic wall mount for Cloud Gateway Max, Cloud Gateway Ultra, and Gateway Max","availability":"To order / expected","unitPerCarton":30,"warranty":"24 months","displayPriceUsd":35,"fullCartonUnitPriceUsd":33.78,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-fm-17cm-8ac54889c6.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-fm-17cm",
+  "brand": "Ubiquiti",
+  "sku": "UACC-FM-17cm",
+  "title": "Ubiquiti UACC-FM-17cm - wall mount for UCG-Ultra/UCG-Max/UXG-Max",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "Magnetic wall mount for Cloud Gateway Max, Cloud Gateway Ultra, and Gateway Max",
+  "availability": "Expected 30.6.2026",
+  "unitPerCarton": 30,
+  "warranty": "24 months",
+  "displayPriceUsd": 35,
+  "fullCartonUnitPriceUsd": 33.78,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-fm-17cm-8ac54889c6.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-fm-17cm-wall-mount-for-ucg-ultra-ucg-max-uxg-max_d127807.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

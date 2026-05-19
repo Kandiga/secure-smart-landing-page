@@ -1,1 +1,46 @@
-{"id":"rf-elements-hg3-cc-s40","brand":"RF elements","sku":"HG3-CC-S40","title":"RF elements Symmetrical Horn Antenna Carrier Class, 5GHz, 16dBi, 40°, Gen2","category":"Wireless / Antennas / Sector antennas / 5GHz","description":"Symmetrical Sectors are low loss scalar horn antennas with unique beam shape and characteristics. Their beam section is circular: azimuth and elevation radiation angles are identical. The beam pattern does not vary with frequency and antenna gain is balanced over a wide frequency range. These features make them excellent for use as Sector antennas. This antenna has 16dBi gain, 40° beam angle and (2) N-female connectors Symmetrical Sectors enable breakthrough scalability of wireless systems that fundamentally re-defines the approach to planning and deployment of wireless networks. We offer wide range of antenna models with exact beam pattern from 30° to 90°. You are no longer forced to compromise your network design with limitations of your current vendor Symmetrical Sectors are solid metal structures - they are built to last. We use the best available materials: die cast, stamped and extruded aluminium, high quality ABS plastic and stainless steel hardware Symmetrical Sector antennas are very compact. They only have 20 - 25% footprint of traditional Sector antennas. Compact size saves tower rental fees and makes them easy to install on places where mainstream Sectors would not be allowed due to their shape and size Antenna Holder Screws","availability":"In stock","unitPerCarton":5,"warranty":"24 months","displayPriceUsd":129,"fullCartonUnitPriceUsd":124.49,"imageUrl":"assets/catalog-data/public-images/rf-elements-hg3-cc-s40-31bfa972b7.jpg","documents":[],"shippingDimensions":{"unit":{"dimensionCount":1,"lengthCm":41,"widthCm":28.5,"heightCm":23.5,"volumeCm3":27459.8,"weightKg":3.6},"carton":{"pcsPerCarton":5,"lengthCm":44,"widthCm":120,"heightCm":30,"volumeCm3":158400,"weightKg":18.3}},"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,6 F/B ratio [dB] 35 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 40 Azimuth beam width (-6dB) [°] 40 Antenna type Sector Antenna gain [dBi] 16 Connectors and Interfaces RF connectors (2) N female"}
+{
+  "id": "rf-elements-hg3-cc-s40",
+  "brand": "RF elements",
+  "sku": "HG3-CC-S40",
+  "title": "RF elements Symmetrical Horn Antenna Carrier Class, 5GHz, 16dBi, 40°, Gen2",
+  "category": "RF elements / Wireless / Antennas / Sector antennas / 5GHz",
+  "description": "Symmetrical Sectors are low loss scalar horn antennas with unique beam shape and characteristics. Their beam section is circular: azimuth and elevation radiation angles are identical. The beam pattern does not vary with frequency and antenna gain is balanced over a wide frequency range. These features make them excellent for use as Sector antennas. This antenna has 16dBi gain, 40° beam angle and (2) N-female connectors Symmetrical Sectors enable breakthrough scalability of wireless systems that fundamentally re-defines the approach to planning and deployment of wireless networks. We offer wide range of antenna models with exact beam pattern from 30° to 90°. You are no longer forced to compromise your network design with limitations of your current vendor Symmetrical Sectors are solid metal structures - they are built to last. We use the best available materials: die cast, stamped and extruded aluminium, high quality ABS plastic and stainless steel hardware Symmetrical Sector antennas are very compact. They only have 20 - 25% footprint of traditional Sector antennas. Compact size saves tower rental fees and makes them easy to install on places where mainstream Sectors would not be allowed due to their shape and size Antenna Holder Screws",
+  "availability": "In Stock 1 pcs.",
+  "unitPerCarton": 5,
+  "warranty": "24 months",
+  "displayPriceUsd": 129,
+  "fullCartonUnitPriceUsd": 124.49,
+  "imageUrl": "assets/catalog-data/public-images/rf-elements-hg3-cc-s40-31bfa972b7.jpg",
+  "documents": [],
+  "shippingDimensions": {
+    "unit": {
+      "dimensionCount": 1,
+      "lengthCm": 41,
+      "widthCm": 28.5,
+      "heightCm": 23.5,
+      "volumeCm3": 27459.8,
+      "weightKg": 3.6
+    },
+    "carton": {
+      "pcsPerCarton": 5,
+      "lengthCm": 44,
+      "widthCm": 120,
+      "heightCm": 30,
+      "volumeCm3": 158400,
+      "weightKg": 18.3
+    }
+  },
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,6 F/B ratio [dB] 35 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 40 Azimuth beam width (-6dB) [°] 40 Antenna type Sector Antenna gain [dBi] 16 Connectors and Interfaces RF connectors (2) N female",
+  "stockQtyVisible": 1,
+  "discompProductUrl": "https://www.discomp.cz/rf-elements-symmetrical-horn-antenna-carrier-class-5ghz-16dbi-40-gen2_d88243.html",
+  "discompCategoryUrl": "https://www.discomp.cz/rf-elements-wireless-antennas-sector-antennas-5ghz_c15888335.html",
+  "discompSourcePath": [
+    "RF elements",
+    "Wireless",
+    "Antennas",
+    "Sector antennas",
+    "5GHz"
+  ]
+}

@@ -1,1 +1,27 @@
-{"id":"ubiquiti-ecs-aggregation","brand":"Ubiquiti","sku":"ECS-Aggregation","title":"Ubiquiti ECS-Aggregation - UniFi Enterprise Campus Aggregation switch","category":"LAN networks / Switches / UniFi Switches","description":"Notice: For this product, we provide individual project-based pricing depending on the configuration, scope, and conditions of the project. For more information, please contact your sales representative Ubiquiti UniFi Enterprise Campus Aggregation is a device from the Enterprise series designed for enterprise environments This aggregation switch with MC-LAG support is designed for high-availability installations. It features dual hot-swap power supplies with 550W each and five hot-swap fans. It offers 48x SFP28 ports for connecting access switches and 6x QSFP28 ports for uplink UniFi devices are centrally managed using the UniFi Network Server application. The application is available for download on Windows / Linux / macOS, or a standalone hardware controller can be purchased. The application is also included in selected UniFi routers Device (2) Rack-mount rails (2) 550W hot-swap power supplies (5) Hot-swap fans (2) Power cables (2) Rack-mount brackets Mounting kit","availability":"To order / expected","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":5159,"fullCartonUnitPriceUsd":5159,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ecs-aggregation-ec0bacff4f.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces Optical interfaces (6) 40G/100G + (48) 10G/25G Other features Touchscreen Power Power type Mains power (230V) Redundant power supply Yes Max. power consumption [W] 340 Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 496 General Switchning capacity [Gbps] 3600 MAC address table 128000 Packet forwarding rate [Mpps] 2400"}
+{
+  "id": "ubiquiti-ecs-aggregation",
+  "brand": "Ubiquiti",
+  "sku": "ECS-Aggregation",
+  "title": "Ubiquiti ECS-Aggregation - UniFi Enterprise Campus Aggregation switch",
+  "category": "Ubiquiti / LAN networks / Switches / UniFi Switches",
+  "description": "Notice: For this product, we provide individual project-based pricing depending on the configuration, scope, and conditions of the project. For more information, please contact your sales representative Ubiquiti UniFi Enterprise Campus Aggregation is a device from the Enterprise series designed for enterprise environments This aggregation switch with MC-LAG support is designed for high-availability installations. It features dual hot-swap power supplies with 550W each and five hot-swap fans. It offers 48x SFP28 ports for connecting access switches and 6x QSFP28 ports for uplink UniFi devices are centrally managed using the UniFi Network Server application. The application is available for download on Windows / Linux / macOS, or a standalone hardware controller can be purchased. The application is also included in selected UniFi routers Device (2) Rack-mount rails (2) 550W hot-swap power supplies (5) Hot-swap fans (2) Power cables (2) Rack-mount brackets Mounting kit",
+  "availability": "Expected 30.6.2026",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 5159,
+  "fullCartonUnitPriceUsd": 5159,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ecs-aggregation-ec0bacff4f.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces Optical interfaces (6) 40G/100G + (48) 10G/25G Other features Touchscreen Power Power type Mains power (230V) Redundant power supply Yes Max. power consumption [W] 340 Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 496 General Switchning capacity [Gbps] 3600 MAC address table 128000 Packet forwarding rate [Mpps] 2400",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-ecs-aggregation-unifi-enterprise-campus-aggregation-switch_d130158.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-unifi-switches_c16172908.html?page=2",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "UniFi Switches"
+  ]
+}

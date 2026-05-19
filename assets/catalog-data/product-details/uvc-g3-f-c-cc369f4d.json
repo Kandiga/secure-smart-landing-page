@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uvc-g3-f-c","brand":"Ubiquiti","sku":"UVC-G3-F-C","title":"Ubiquiti UVC-G3-F-C Ceiling mount accessory for UVC-G3-FLEX, 1-Pack","category":"Cameras, security / Mounting boxes and brackets / Concealed ceiling","description":"Recessed ceiling mount accessory for the UVC-G3-FLEX camera. Mount your camera inside the ceiling or a ceiling tile for a clean, low-profile installation. Includes mounting hardware for drywall, solid surface, or ceiling tile installation. Optional security screw locks the camera to the mount from above for added security GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"To order / expected","unitPerCarton":60,"warranty":"24 months","displayPriceUsd":22,"fullCartonUnitPriceUsd":21.23,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-g3-f-c-595816ea77.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uvc-g3-f-c",
+  "brand": "Ubiquiti",
+  "sku": "UVC-G3-F-C",
+  "title": "Ubiquiti UVC-G3-F-C Ceiling mount accessory for UVC-G3-FLEX, 1-Pack",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Concealed ceiling",
+  "description": "Recessed ceiling mount accessory for the UVC-G3-FLEX camera. Mount your camera inside the ceiling or a ceiling tile for a clean, low-profile installation. Includes mounting hardware for drywall, solid surface, or ceiling tile installation. Optional security screw locks the camera to the mount from above for added security GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "Not In Stock",
+  "unitPerCarton": 60,
+  "warranty": "24 months",
+  "displayPriceUsd": 22,
+  "fullCartonUnitPriceUsd": 21.23,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-g3-f-c-595816ea77.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uvc-g3-f-c-ceiling-mount-accessory-for-uvc-g3-flex-1-pack_d92968.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-concealed-ceiling_c16591510.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Concealed ceiling"
+  ]
+}

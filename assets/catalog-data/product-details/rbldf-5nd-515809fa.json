@@ -1,1 +1,27 @@
-{"id":"mikrotik-rbldf-5nd","brand":"MikroTik","sku":"RBLDF-5nD","title":"MikroTik RBLDF-5nD, LDF 5, 9dBi 5GHz antenna, 1x LAN, L3","category":"Wireless / Outdoor units / MikroTik","description":"LDF 5 or \"Lite dish feed\" is a very specific outdoor CPE device with two built-in antennas with 9dBi gain. LDF 5 was designed for mounting on satellite dish antenna instead of the original feed LNB with 40 mm mounting. Antenna gain maybe increased up to 33dBi when will be used with 100cm satellite dish LDF 5 unit includes 2x2 MIMO 5GHz radio part with transmission power up to 25dBm , compatibility with protocols 802.11a/n , maximum 300Mbps data rate, 1x 10/100Mbps LAN, 64MB RAM, 16MB flash, 600MHz processor and L3 license Device PoE injector Power adapter 24V / 0.38A","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":45,"fullCartonUnitPriceUsd":43.43,"imageUrl":"assets/catalog-data/public-images/mikrotik-rbldf-5nd-76cbf0c2d2.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Tx power [dBm] 25 Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a Transmission speed - 5GHz [Mb/s] 300 5GHz MIMO 2 x 2 Type of antenna Built-in Antenna gain [dBi] 9 Connectors and Interfaces LAN speed (1) 10/100Mbps Power Power over Ethernet 10 .. 30V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 6 Physical characteristics Design Outdoor Operating temperature [°C] 40 up to 70 Width [mm] 84 Height [mm] 84 Depth [mm] 115 Hardware CPU AR9344 CPU frequency [MHz] 600 CPU cores 1 Internal storage [MB] 16 RAM [MB] 64"}
+{
+  "id": "mikrotik-rbldf-5nd",
+  "brand": "MikroTik",
+  "sku": "RBLDF-5nD",
+  "title": "MikroTik RBLDF-5nD, LDF 5, 9dBi 5GHz antenna, 1x LAN, L3",
+  "category": "MikroTik / Wireless / PtP Backhaul / 5GHz",
+  "description": "LDF 5 or \"Lite dish feed\" is a very specific outdoor CPE device with two built-in antennas with 9dBi gain. LDF 5 was designed for mounting on satellite dish antenna instead of the original feed LNB with 40 mm mounting. Antenna gain maybe increased up to 33dBi when will be used with 100cm satellite dish LDF 5 unit includes 2x2 MIMO 5GHz radio part with transmission power up to 25dBm , compatibility with protocols 802.11a/n , maximum 300Mbps data rate, 1x 10/100Mbps LAN, 64MB RAM, 16MB flash, 600MHz processor and L3 license Device PoE injector Power adapter 24V / 0.38A",
+  "availability": "In Stock 21 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 45,
+  "fullCartonUnitPriceUsd": 43.43,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rbldf-5nd-76cbf0c2d2.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Tx power [dBm] 25 Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a Transmission speed - 5GHz [Mb/s] 300 5GHz MIMO 2 x 2 Type of antenna Built-in Antenna gain [dBi] 9 Connectors and Interfaces LAN speed (1) 10/100Mbps Power Power over Ethernet 10 .. 30V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 6 Physical characteristics Design Outdoor Operating temperature [°C] 40 up to 70 Width [mm] 84 Height [mm] 84 Depth [mm] 115 Hardware CPU AR9344 CPU frequency [MHz] 600 CPU cores 1 Internal storage [MB] 16 RAM [MB] 64",
+  "stockQtyVisible": 21,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-rbldf-5nd-ldf-5-9dbi-5ghz-antenna-1x-lan-l3_d79412.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-ptp-backhaul-5ghz_c16367747.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "PtP Backhaul",
+    "5GHz"
+  ]
+}

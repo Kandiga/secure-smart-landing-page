@@ -1,1 +1,27 @@
-{"id":"huawei-ar303w","brand":"Huawei","sku":"AR303W","title":"Huawei AR303W wireless Dual Band Wi-Fi router, 300+866Mbps, ETH/SFP WAN","category":"Wireless / WiFi Routers / WiFi 5","description":"Huawei AR303W is a powerful and compact enterprise router designed for small and medium-sized businesses, offering high-speed connectivity and advanced network functions. It features an ETH/SFP WAN port for connection flexibility, multi-WAN configuration options to increase reliability, integrated Wi-Fi , support for VPN protocols , and advanced security features to protect data. With easy management and centralized configuration capabilities, it is an ideal choice for businesses that require a… Device 12V / 2A DC power adapter","availability":"In stock","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":146,"fullCartonUnitPriceUsd":146,"imageUrl":"assets/catalog-data/public-images/huawei-ar303w-c7c101bd2f.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Wireless frequency 2.4 + 5 GHz (dual band) WiFi standards 802.11n, 802.11ac, 802.11b/g Transmission speed - 5GHz [Mb/s] 866 Transmission speed - 2.4GHz [Mb/s] 300 Security WEP, WPA, WPA2 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Type of antenna Fixed Fixed antennas 2 Connectors and Interfaces WAN speed (1) 10/100/1000Mbps + (1) 1000Mbps SFP LAN speed (4) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (1) 1000Mbps Combo USB ports 2.0 1 USB Yes Power Power via connector/terminal 12V / 2A Physical characteristics Buttons Reset Operating temperature [°C] 0 up to 40 Width [mm] 240 Height [mm] 38 Depth [mm] 162 Hardware RAM [MB] 1024"}
+{
+  "id": "huawei-ar303w",
+  "brand": "Huawei",
+  "sku": "AR303W",
+  "title": "Huawei AR303W wireless Dual Band Wi-Fi router, 300+866Mbps, ETH/SFP WAN",
+  "category": "Huawei / Wireless / WiFi Routers / WiFi 5",
+  "description": "Huawei AR303W is a powerful and compact enterprise router designed for small and medium-sized businesses, offering high-speed connectivity and advanced network functions. It features an ETH/SFP WAN port for connection flexibility, multi-WAN configuration options to increase reliability, integrated Wi-Fi , support for VPN protocols , and advanced security features to protect data. With easy management and centralized configuration capabilities, it is an ideal choice for businesses that require a… Device 12V / 2A DC power adapter",
+  "availability": "In Stock 10 pcs.",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 146,
+  "fullCartonUnitPriceUsd": 146,
+  "imageUrl": "assets/catalog-data/public-images/huawei-ar303w-c7c101bd2f.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Wireless frequency 2.4 + 5 GHz (dual band) WiFi standards 802.11n, 802.11ac, 802.11b/g Transmission speed - 5GHz [Mb/s] 866 Transmission speed - 2.4GHz [Mb/s] 300 Security WEP, WPA, WPA2 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Type of antenna Fixed Fixed antennas 2 Connectors and Interfaces WAN speed (1) 10/100/1000Mbps + (1) 1000Mbps SFP LAN speed (4) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (1) 1000Mbps Combo USB ports 2.0 1 USB Yes Power Power via connector/terminal 12V / 2A Physical characteristics Buttons Reset Operating temperature [°C] 0 up to 40 Width [mm] 240 Height [mm] 38 Depth [mm] 162 Hardware RAM [MB] 1024",
+  "stockQtyVisible": 10,
+  "discompProductUrl": "https://www.discomp.cz/huawei-ar303w-wireless-dual-band-wi-fi-router-300-866mbps-eth-sfp-wan_d127756.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-wireless-wifi-routers-wifi-5_c16591728.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Wireless",
+    "WiFi Routers",
+    "WiFi 5"
+  ]
+}

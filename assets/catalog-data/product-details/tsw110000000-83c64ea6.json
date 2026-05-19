@@ -1,1 +1,26 @@
-{"id":"teltonika-tsw110000000","brand":"Teltonika","sku":"TSW110000000","title":"Teltonika TSW110 Industrial Unmanaged Switch","category":"LAN networks / Switches","description":"TSW110 is a layer 2 unmanaged switch, which is a simplified version of our earlier product â TSW100 Possible to power up through the first LAN port It has five 10/100/1000 Mbps Ethernet ports for an economical high-bandwidth solution It offers a wide range of supported power supply voltages (9-30 V) Ideal for professional high bandwidth applications to provide reliable data connection Device 9W PSU","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":51,"fullCartonUnitPriceUsd":51,"imageUrl":"assets/catalog-data/public-images/teltonika-tsw110000000-fbd0fbac38.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces LAN speed (5) 10/100/1000Mbps Power Power type DC connector Max. power consumption [W] 2 Power via connector/terminal 9 .. 30V DC Physical characteristics Design Industry Fans No Chassis design Metal Operating temperature [°C] 40 up to 75 Weight [g] 229 Width [mm] 100 Height [mm] 30 Depth [mm] 85 General Switchning capacity [Gbps] 10 MAC address table 2000 Jumbo frame [Bytes] 9000"}
+{
+  "id": "teltonika-tsw110000000",
+  "brand": "Teltonika",
+  "sku": "TSW110000000",
+  "title": "Teltonika TSW110 Industrial Unmanaged Switch",
+  "category": "Teltonika / IoT, SMART / Switches",
+  "description": "TSW110 is a layer 2 unmanaged switch, which is a simplified version of our earlier product â TSW100 Possible to power up through the first LAN port It has five 10/100/1000 Mbps Ethernet ports for an economical high-bandwidth solution It offers a wide range of supported power supply voltages (9-30 V) Ideal for professional high bandwidth applications to provide reliable data connection Device 9W PSU",
+  "availability": "In Stock 13 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 51,
+  "fullCartonUnitPriceUsd": 51,
+  "imageUrl": "assets/catalog-data/public-images/teltonika-tsw110000000-fbd0fbac38.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces LAN speed (5) 10/100/1000Mbps Power Power type DC connector Max. power consumption [W] 2 Power via connector/terminal 9 .. 30V DC Physical characteristics Design Industry Fans No Chassis design Metal Operating temperature [°C] 40 up to 75 Weight [g] 229 Width [mm] 100 Height [mm] 30 Depth [mm] 85 General Switchning capacity [Gbps] 10 MAC address table 2000 Jumbo frame [Bytes] 9000",
+  "stockQtyVisible": 13,
+  "discompProductUrl": "https://www.discomp.cz/teltonika-tsw110-industrial-unmanaged-switch_d100825.html",
+  "discompCategoryUrl": "https://www.discomp.cz/iot-smart-teltonika-switches_c16589516.html",
+  "discompSourcePath": [
+    "Teltonika",
+    "IoT, SMART",
+    "Switches"
+  ]
+}

@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-cable-patch-outdoor-1m-bk","brand":"Ubiquiti","sku":"UACC-Cable-Patch-Outdoor-1M-BK","title":"Ubiquiti UACC-Cable-Patch-Outdoor-1M-BK, Outdoor UniFi patch cable, 1m, Cat5e, black","category":"LAN networks / Patch cables / Cat.5e (Color)","description":"The durable UniFi outdoor patch cable is designed to work in the harshest conditions. The cable is Cat.5e class with a length of 1m , shielding type STP, has an internal foil shielding, and a built-in ESD drain wireâall encased in a weatherproof, insulating black jacket and is terminated with shielded RJ45 connectors on both sides","availability":"In stock","unitPerCarton":90,"warranty":"24 months","displayPriceUsd":5,"fullCartonUnitPriceUsd":4.83,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-cable-patch-outdoor-1m-bk-1bdb2c0b7e.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Shielding type STP (U/FTP) Conductor wire gauge AWG24 Cable type Stranded Design Classic Purpose Outdoor Conductor material Copper Sheath material Thermoplastic Elastomer Length [m] 1 Color Black"}
+{
+  "id": "ubiquiti-uacc-cable-patch-outdoor-1m-bk",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Cable-Patch-Outdoor-1M-BK",
+  "title": "Ubiquiti UACC-Cable-Patch-Outdoor-1M-BK, Outdoor UniFi patch cable, 1m, Cat5e, black",
+  "category": "Ubiquiti / LAN networks / Patch cables / Cat.5e (Color)",
+  "description": "The durable UniFi outdoor patch cable is designed to work in the harshest conditions. The cable is Cat.5e class with a length of 1m , shielding type STP, has an internal foil shielding, and a built-in ESD drain wireâall encased in a weatherproof, insulating black jacket and is terminated with shielded RJ45 connectors on both sides",
+  "availability": "In Stock 79 pcs.",
+  "unitPerCarton": 90,
+  "warranty": "24 months",
+  "displayPriceUsd": 5,
+  "fullCartonUnitPriceUsd": 4.83,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-cable-patch-outdoor-1m-bk-1bdb2c0b7e.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Shielding type STP (U/FTP) Conductor wire gauge AWG24 Cable type Stranded Design Classic Purpose Outdoor Conductor material Copper Sheath material Thermoplastic Elastomer Length [m] 1 Color Black",
+  "stockQtyVisible": 79,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-cable-patch-outdoor-1m-bk-outdoor-unifi-patch-cable-1m-cat5e-black_d114719.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-patch-cables-cat-5e-color-_c16591472.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Patch cables",
+    "Cat.5e (Color)"
+  ]
+}

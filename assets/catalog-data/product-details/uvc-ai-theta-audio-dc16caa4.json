@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uvc-ai-theta-audio","brand":"Ubiquiti","sku":"UVC-AI-Theta-Audio","title":"Ubiquiti UVC-AI-Theta-Audio - AI Theta audio","category":"Cameras, security / Cameras accessories","description":"Plug-and-play high-performance audio module - microphone and speaker in one designed exclusively for the UniFi Protect AI Theta camera with a maximum consumption of 4.5W. The speaker is supplied with a 1m USB-C connecting cable and a plastic holder for ceiling or plasterboard wall","availability":"In stock","unitPerCarton":32,"warranty":"24 months","displayPriceUsd":79,"fullCartonUnitPriceUsd":76.24,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-ai-theta-audio-09aa49938b.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces USB-C ports 1 Power Max. power consumption [W] 4,5"}
+{
+  "id": "ubiquiti-uvc-ai-theta-audio",
+  "brand": "Ubiquiti",
+  "sku": "UVC-AI-Theta-Audio",
+  "title": "Ubiquiti UVC-AI-Theta-Audio - AI Theta audio",
+  "category": "Ubiquiti / Cameras, security / Cameras accessories",
+  "description": "Plug-and-play high-performance audio module - microphone and speaker in one designed exclusively for the UniFi Protect AI Theta camera with a maximum consumption of 4.5W. The speaker is supplied with a 1m USB-C connecting cable and a plastic holder for ceiling or plasterboard wall",
+  "availability": "In Stock 18 pcs.",
+  "unitPerCarton": 32,
+  "warranty": "24 months",
+  "displayPriceUsd": 79,
+  "fullCartonUnitPriceUsd": 76.24,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-ai-theta-audio-09aa49938b.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces USB-C ports 1 Power Max. power consumption [W] 4,5",
+  "stockQtyVisible": 18,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uvc-ai-theta-audio-ai-theta-audio_d121419.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-cameras-accessories_c16591508.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Cameras accessories"
+  ]
+}

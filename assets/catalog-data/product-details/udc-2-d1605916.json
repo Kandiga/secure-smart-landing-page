@@ -1,1 +1,27 @@
-{"id":"ubiquiti-udc-2","brand":"Ubiquiti","sku":"UDC-2","title":"Ubiquiti UniFi Direct Attach Copper Cable, 10Gbps, 2m","category":"Optical networks / DAC and AOC cables / DAC cables","description":"UDC-2 is highly cost-effective way to connect two SFP/SFP+ devices (switches, routers, servers...) for short distances - up to 2m . They provide a low cost, low power and low latency interconnect solution for 10-Gigabit Ethernet, Fiber Channel and other industry standards, and are direct attached compliant and fully conform to the SFP+ MSA specifications","availability":"To order / expected","unitPerCarton":100,"warranty":"24 months","displayPriceUsd":24,"fullCartonUnitPriceUsd":23.16,"imageUrl":"assets/catalog-data/public-images/ubiquiti-udc-2-d5b48d7bef.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Optics Format SFP, SFP+ Transmission speed 1 Gbps, 10 Gbps AOC/DAC cable type Passive Physical characteristics Length [m] 2 Operating temperature [°C] 0 up to 70"}
+{
+  "id": "ubiquiti-udc-2",
+  "brand": "Ubiquiti",
+  "sku": "UDC-2",
+  "title": "Ubiquiti UniFi Direct Attach Copper Cable, 10Gbps, 2m",
+  "category": "Ubiquiti / Optical networks / DAC and AOC cables / DAC cables",
+  "description": "UDC-2 is highly cost-effective way to connect two SFP/SFP+ devices (switches, routers, servers...) for short distances - up to 2m . They provide a low cost, low power and low latency interconnect solution for 10-Gigabit Ethernet, Fiber Channel and other industry standards, and are direct attached compliant and fully conform to the SFP+ MSA specifications",
+  "availability": "Not In Stock",
+  "unitPerCarton": 100,
+  "warranty": "24 months",
+  "displayPriceUsd": 24,
+  "fullCartonUnitPriceUsd": 23.16,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-udc-2-d5b48d7bef.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Optics Format SFP, SFP+ Transmission speed 1 Gbps, 10 Gbps AOC/DAC cable type Passive Physical characteristics Length [m] 2 Operating temperature [°C] 0 up to 70",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-direct-attach-copper-cable-10gbps-2m_d81135.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-dac-and-aoc-cables-dac-cables_c16591526.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "DAC and AOC cables",
+    "DAC cables"
+  ]
+}

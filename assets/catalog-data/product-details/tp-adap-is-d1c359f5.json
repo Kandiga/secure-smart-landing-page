@@ -1,1 +1,45 @@
-{"id":"rf-elements-tp-adap-is","brand":"RF elements","sku":"TP-ADAP-IS","title":"RF elements TP-ADAP-IS TwistPort adaptor for PrismStation, IsoStation","category":"Wireless / Antennas / TwistPort and other adapters","description":"TwistPort Adaptor for IsoStation and PrismStation from Ubiquiti Integrated Radios allows easy integration with any RF-Elements antenna with TwistPort connector. TwistPort Adaptor uses special coaxial connectors without threads, so the integration of IsoStation/PrismStation AP Radios is revolutionary easy Symmetrical Sectors feature industry changing TwistPortTM Connector, our patent pending quick-locking waveguide port. TwistPortTM is virtually lossless: there are no coaxial RF connectors or RF cables, that cause significant signal loss. Connection and disconnection is brilliantly simple \"twist and snap\" and can be done with one hand TwistPort Adaptors make most popular connectorized radios and MikroTik RouterBoards compatible with TwistPort antennas. Integration into TwistPort eco-system ensures the benefits of low loss, high scalability, easy co-location, simple deployment and easy maintenance PrismStationâ¢ 5AC IsoStationâ¢ 5AC IsoStationâ¢ M5","availability":"In stock","unitPerCarton":100,"warranty":"24 months","displayPriceUsd":21,"fullCartonUnitPriceUsd":20.27,"imageUrl":"assets/catalog-data/public-images/rf-elements-tp-adap-is-703f0695ba.jpg","documents":[],"shippingDimensions":{"unit":{"dimensionCount":1,"lengthCm":11,"widthCm":9.5,"heightCm":5,"volumeCm3":522.5,"weightKg":0.13},"carton":{"pcsPerCarton":100,"lengthCm":60,"widthCm":50,"heightCm":25,"volumeCm3":75000,"weightKg":14.2}},"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Wireless frequency 5 GHz Connectors and Interfaces RF connectors TwistPort Physical characteristics Purpose Outdoor Material Aluminum, UV stabilized ABS plastic Operating temperature [°C] 40 up to 60 Weight [g] 90 Width [mm] 90 Height [mm] 90 Depth [mm] 51"}
+{
+  "id": "rf-elements-tp-adap-is",
+  "brand": "RF elements",
+  "sku": "TP-ADAP-IS",
+  "title": "RF elements TP-ADAP-IS TwistPort adaptor for PrismStation, IsoStation",
+  "category": "RF elements / Wireless / Antennas / TwistPort and other adapters",
+  "description": "TwistPort Adaptor for IsoStation and PrismStation from Ubiquiti Integrated Radios allows easy integration with any RF-Elements antenna with TwistPort connector. TwistPort Adaptor uses special coaxial connectors without threads, so the integration of IsoStation/PrismStation AP Radios is revolutionary easy Symmetrical Sectors feature industry changing TwistPortTM Connector, our patent pending quick-locking waveguide port. TwistPortTM is virtually lossless: there are no coaxial RF connectors or RF cables, that cause significant signal loss. Connection and disconnection is brilliantly simple \"twist and snap\" and can be done with one hand TwistPort Adaptors make most popular connectorized radios and MikroTik RouterBoards compatible with TwistPort antennas. Integration into TwistPort eco-system ensures the benefits of low loss, high scalability, easy co-location, simple deployment and easy maintenance PrismStationâ¢ 5AC IsoStationâ¢ 5AC IsoStationâ¢ M5",
+  "availability": "In Stock 35 pcs.",
+  "unitPerCarton": 100,
+  "warranty": "24 months",
+  "displayPriceUsd": 21,
+  "fullCartonUnitPriceUsd": 20.27,
+  "imageUrl": "assets/catalog-data/public-images/rf-elements-tp-adap-is-703f0695ba.jpg",
+  "documents": [],
+  "shippingDimensions": {
+    "unit": {
+      "dimensionCount": 1,
+      "lengthCm": 11,
+      "widthCm": 9.5,
+      "heightCm": 5,
+      "volumeCm3": 522.5,
+      "weightKg": 0.13
+    },
+    "carton": {
+      "pcsPerCarton": 100,
+      "lengthCm": 60,
+      "widthCm": 50,
+      "heightCm": 25,
+      "volumeCm3": 75000,
+      "weightKg": 14.2
+    }
+  },
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Wireless frequency 5 GHz Connectors and Interfaces RF connectors TwistPort Physical characteristics Purpose Outdoor Material Aluminum, UV stabilized ABS plastic Operating temperature [°C] 40 up to 60 Weight [g] 90 Width [mm] 90 Height [mm] 90 Depth [mm] 51",
+  "stockQtyVisible": 35,
+  "discompProductUrl": "https://www.discomp.cz/rf-elements-tp-adap-is-twistport-adaptor-for-prismstation-isostation_d83540.html",
+  "discompCategoryUrl": "https://www.discomp.cz/rf-elements-wireless-antennas-twistport-and-other-adapters_c16587963.html",
+  "discompSourcePath": [
+    "RF elements",
+    "Wireless",
+    "Antennas",
+    "TwistPort and other adapters"
+  ]
+}

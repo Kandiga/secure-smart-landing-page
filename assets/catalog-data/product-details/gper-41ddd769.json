@@ -1,1 +1,26 @@
-{"id":"mikrotik-gper","brand":"MikroTik","sku":"GPER","title":"MikroTik GPER - Gigabit Passive Ethernet Repeater","category":"Wireless / MikroTik / Accessories","description":"The GPeR unit allows to extend Ethernet cable by additional hop (< 100 - 150 m to regular network devices, and up to 210 m to another GPeR unit) up to 1,500 m. Handy for highrise buildings, multi-apartment buildings, with many floors and sections, where very long Ethernet cables might be a problem Maximium allowed length of CAT6 Ethernet cable between GPeR and power source/router is up to 100 m (depending on cable quality, high quality - up to 150 m) Maximium allowed distance of CAT6 Ethernet cable between two GPeR devices is up to 210 m (depending on cable quality)","availability":"To order / expected","unitPerCarton":50,"warranty":"24 months","displayPriceUsd":26,"fullCartonUnitPriceUsd":25.09,"imageUrl":"assets/catalog-data/public-images/mikrotik-gper-babd9040c3.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (2) 10/100/1000Mbps Power Power over Ethernet 802.3af, 802.3at, 24 .. 57V DC Power type PoE PoE type PoE-Out + PoE-In PoE-Out standards 802.3af, 802.3at, Passive 24V, Passive 48V PoE Out ports 1 Max. power consumption [W] 2"}
+{
+  "id": "mikrotik-gper",
+  "brand": "MikroTik",
+  "sku": "GPER",
+  "title": "MikroTik GPER - Gigabit Passive Ethernet Repeater",
+  "category": "MikroTik / Wireless / Accessories",
+  "description": "The GPeR unit allows to extend Ethernet cable by additional hop (< 100 - 150 m to regular network devices, and up to 210 m to another GPeR unit) up to 1,500 m. Handy for highrise buildings, multi-apartment buildings, with many floors and sections, where very long Ethernet cables might be a problem Maximium allowed length of CAT6 Ethernet cable between GPeR and power source/router is up to 100 m (depending on cable quality, high quality - up to 150 m) Maximium allowed distance of CAT6 Ethernet cable between two GPeR devices is up to 210 m (depending on cable quality)",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 50,
+  "warranty": "24 months",
+  "displayPriceUsd": 26,
+  "fullCartonUnitPriceUsd": 25.09,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-gper-babd9040c3.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (2) 10/100/1000Mbps Power Power over Ethernet 802.3af, 802.3at, 24 .. 57V DC Power type PoE PoE type PoE-Out + PoE-In PoE-Out standards 802.3af, 802.3at, Passive 24V, Passive 48V PoE Out ports 1 Max. power consumption [W] 2",
+  "stockQtyVisible": 152,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-gper-gigabit-passive-ethernet-repeater_d90841.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-accessories_c16588567.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Accessories"
+  ]
+}

@@ -1,1 +1,26 @@
-{"id":"mikrotik-crs106-1c-5s","brand":"MikroTik","sku":"CRS106-1C-5S","title":"MikroTik Cloud Router Switch CRS106-1C-5S, 5x SFP + 1x Combo (SFP/ETH)","category":"Wireless / MikroTik / RouterBOARD","description":"CRS106-1C-5S is very small, cheap optical switch/router with RouterOS operating system, which includes 5x SFP and 1x combo (SFP / ETH) port. Cloud Router Switch is powered by QCA8511 processor clocked at 400MHz , includes 128MB of RAM , 16MB of storage space, L5 license and maximum power consumption 11W Router/switch can be powered via a standard power adapter (10 to 28V) but also through passive PoE. The package includes a power adapter 24V / 0.8A","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":55,"fullCartonUnitPriceUsd":53.08,"imageUrl":"assets/catalog-data/public-images/mikrotik-crs106-1c-5s-83d011cfcc.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (5) 1000Mbps + (1) 1000Mbps Combo Serial port RJ45 Power Power over Ethernet 11 .. 30V DC Power type DC connector, PoE PoE type PoE-In (only) Max. power consumption [W] 11 Power via connector/terminal 10 .. 28V DC Physical characteristics Design Desktop Fans No Chassis design Plastic Width [mm] 114 Height [mm] 29 Depth [mm] 137 Hardware CPU QCA8511-AL1C CPU frequency [MHz] 400 CPU cores 1 Internal storage [MB] 16 RAM [MB] 128"}
+{
+  "id": "mikrotik-crs106-1c-5s",
+  "brand": "MikroTik",
+  "sku": "CRS106-1C-5S",
+  "title": "MikroTik Cloud Router Switch CRS106-1C-5S, 5x SFP + 1x Combo (SFP/ETH)",
+  "category": "MikroTik / Wireless / RouterBOARD",
+  "description": "CRS106-1C-5S is very small, cheap optical switch/router with RouterOS operating system, which includes 5x SFP and 1x combo (SFP / ETH) port. Cloud Router Switch is powered by QCA8511 processor clocked at 400MHz , includes 128MB of RAM , 16MB of storage space, L5 license and maximum power consumption 11W Router/switch can be powered via a standard power adapter (10 to 28V) but also through passive PoE. The package includes a power adapter 24V / 0.8A",
+  "availability": "In Stock 6 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 55,
+  "fullCartonUnitPriceUsd": 53.08,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-crs106-1c-5s-83d011cfcc.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (5) 1000Mbps + (1) 1000Mbps Combo Serial port RJ45 Power Power over Ethernet 11 .. 30V DC Power type DC connector, PoE PoE type PoE-In (only) Max. power consumption [W] 11 Power via connector/terminal 10 .. 28V DC Physical characteristics Design Desktop Fans No Chassis design Plastic Width [mm] 114 Height [mm] 29 Depth [mm] 137 Hardware CPU QCA8511-AL1C CPU frequency [MHz] 400 CPU cores 1 Internal storage [MB] 16 RAM [MB] 128",
+  "stockQtyVisible": 6,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-cloud-router-switch-crs106-1c-5s-5x-sfp-1x-combo-sfp-eth-_d79408.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-routerboard_c16588560.html?page=2",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "RouterBOARD"
+  ]
+}

@@ -1,1 +1,27 @@
-{"id":"huawei-en8010ts-20","brand":"Huawei","sku":"EN8010Ts-20","title":"Huawei OptiXstar EN8010Ts-20, XGS-PON ONT bridge","category":"Optical networks / GPON / ONU units","description":"The Huawei OptiXstar EN8010Ts-20 is an XGS-PON bridging-type ONT in the Huawei all-optical access solution. It uses the XGS-PON technology to implement ultra-broadband access for users Auto-adaptive 10000Mbit/s, 5000Mbit/s, 2500Mbit/s, 1000Mbit/s, 100Mbit/s IGMP v2/v3 & MLD v1/v2 snooping Fast leave VLAN tag translation, transparent transmission, and removal for downstream multicast packets IGM/MLD protocol packet rate limitation Variable-length OMCI messages Rogue ONT detection and self-regulation PPPoE/DHCP simulation testing Device DC Power Adapter 12V / 1A","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":83,"fullCartonUnitPriceUsd":83,"imageUrl":"assets/catalog-data/public-images/huawei-en8010ts-20-41e9ca0195.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Transmission speed 9,95 / 9,95 Gbps Wavelength - Tx/Rx [nm] 1260 up to 1280 / 1575 up to 1580 Transfer type XGS-PON Polishing type APC Receiver sensitivity [dBm] 28 Connectors and Interfaces Optical Connectors (1) SC LAN speed (1) 100M/1G/2.5G/5G/10G Power Max. power consumption [W] 6 Power via connector/terminal 12V / 1A"}
+{
+  "id": "huawei-en8010ts-20",
+  "brand": "Huawei",
+  "sku": "EN8010Ts-20",
+  "title": "Huawei OptiXstar EN8010Ts-20, XGS-PON ONT bridge",
+  "category": "Huawei / Optical networks / GPON / ONU units",
+  "description": "The Huawei OptiXstar EN8010Ts-20 is an XGS-PON bridging-type ONT in the Huawei all-optical access solution. It uses the XGS-PON technology to implement ultra-broadband access for users Auto-adaptive 10000Mbit/s, 5000Mbit/s, 2500Mbit/s, 1000Mbit/s, 100Mbit/s IGMP v2/v3 & MLD v1/v2 snooping Fast leave VLAN tag translation, transparent transmission, and removal for downstream multicast packets IGM/MLD protocol packet rate limitation Variable-length OMCI messages Rogue ONT detection and self-regulation PPPoE/DHCP simulation testing Device DC Power Adapter 12V / 1A",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 83,
+  "fullCartonUnitPriceUsd": 83,
+  "imageUrl": "assets/catalog-data/public-images/huawei-en8010ts-20-41e9ca0195.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Transmission speed 9,95 / 9,95 Gbps Wavelength - Tx/Rx [nm] 1260 up to 1280 / 1575 up to 1580 Transfer type XGS-PON Polishing type APC Receiver sensitivity [dBm] 28 Connectors and Interfaces Optical Connectors (1) SC LAN speed (1) 100M/1G/2.5G/5G/10G Power Max. power consumption [W] 6 Power via connector/terminal 12V / 1A",
+  "stockQtyVisible": 650,
+  "discompProductUrl": "https://www.discomp.cz/huawei-optixstar-en8010ts-20-xgs-pon-ont-bridge_d125848.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-optical-networks-gpon-onu-units_c16592189.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Optical networks",
+    "GPON",
+    "ONU units"
+  ]
+}

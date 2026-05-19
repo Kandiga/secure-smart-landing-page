@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-cable-pt-3m","brand":"Ubiquiti","sku":"UACC-Cable-PT-3M","title":"Ubiquiti UACC-Cable-PT-3M - UISP power TransPort cable, 3m","category":"Powering / Power cables and adapters / DC cables","description":"Power two-core outdoor DC cable from Ubiquiti from the UISP TransPort series of cables with special Power TransPort connectors on both sides and 3m long . The cable is very robust, contains 2 wires with a cross-section of AWG 12, and its white sheath is made of thermoplastic elastomer","availability":"In stock","unitPerCarton":25,"warranty":"24 months","displayPriceUsd":24,"fullCartonUnitPriceUsd":23.16,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-cable-pt-3m-457ddb304d.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-cable-pt-3m",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Cable-PT-3M",
+  "title": "Ubiquiti UACC-Cable-PT-3M - UISP power TransPort cable, 3m",
+  "category": "Ubiquiti / Powering / Power cables and adapters / DC cables",
+  "description": "Power two-core outdoor DC cable from Ubiquiti from the UISP TransPort series of cables with special Power TransPort connectors on both sides and 3m long . The cable is very robust, contains 2 wires with a cross-section of AWG 12, and its white sheath is made of thermoplastic elastomer",
+  "availability": "In Stock 11 pcs.",
+  "unitPerCarton": 25,
+  "warranty": "24 months",
+  "displayPriceUsd": 24,
+  "fullCartonUnitPriceUsd": 23.16,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-cable-pt-3m-457ddb304d.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 11,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-cable-pt-3m-uisp-power-transport-cable-3m_d122130.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-power-cables-and-adapters-dc-cables_c14513533.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Power cables and adapters",
+    "DC cables"
+  ]
+}

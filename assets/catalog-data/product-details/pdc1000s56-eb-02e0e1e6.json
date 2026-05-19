@@ -1,1 +1,25 @@
-{"id":"huawei-pdc1000s56-eb","brand":"Huawei","sku":"PDC1000S56-EB","title":"Huawei PDC1000S56-EB napÃ¡jecÃ­ zdroj","category":"Powering / Other power supply","description":"Product description prepares GPSR","availability":"To order / expected","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":296,"fullCartonUnitPriceUsd":296,"imageUrl":null,"documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "huawei-pdc1000s56-eb",
+  "brand": "Huawei",
+  "sku": "PDC1000S56-EB",
+  "title": "Huawei PDC1000S56-EB napÃ¡jecÃ­ zdroj",
+  "category": "Huawei / Powering / Other power supply",
+  "description": "Product description prepares GPSR",
+  "availability": "Ordered, unknown date",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 296,
+  "fullCartonUnitPriceUsd": 296,
+  "imageUrl": null,
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/huawei-pdc1000s56-eb-power-module-for-s310_d131830.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-powering-other-power-supply_c16591870.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Powering",
+    "Other power supply"
+  ]
+}

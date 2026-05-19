@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-adapter-rj45-usbc-10ge","brand":"Ubiquiti","sku":"UACC-Adapter-RJ45-USBC-10GE","title":"Ubiquiti 10G USB-C ethernet adapter","category":"LAN networks / Network cards / USB","description":"The Ubiquiti network adapter enables 10Gb connectivity for your computer or laptop. It is equipped with a 1Ã 10Gb Ethernet port and a USB-C interface. Supports plug-and-play functionality with no driver installation required macOS 14.2 and later Windows 7/8/8.1 (32/64-bit), Windows 10/11 (32/64-bit) and later Linux Note: Full functionality requires a host USB-C port that supports USB4, Thunderbolt 3, or Thunderbolt 4 Adapter USB-C cable","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":186,"fullCartonUnitPriceUsd":179.49,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-adapter-rj45-usbc-10ge-fe3e97d5c6.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Interface USB Type-C LAN speed (1) 10 Gbps Gigabit LAN Yes"}
+{
+  "id": "ubiquiti-uacc-adapter-rj45-usbc-10ge",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Adapter-RJ45-USBC-10GE",
+  "title": "Ubiquiti 10G USB-C ethernet adapter",
+  "category": "Ubiquiti / LAN networks / Network cards / USB",
+  "description": "The Ubiquiti network adapter enables 10Gb connectivity for your computer or laptop. It is equipped with a 1Ã 10Gb Ethernet port and a USB-C interface. Supports plug-and-play functionality with no driver installation required macOS 14.2 and later Windows 7/8/8.1 (32/64-bit), Windows 10/11 (32/64-bit) and later Linux Note: Full functionality requires a host USB-C port that supports USB4, Thunderbolt 3, or Thunderbolt 4 Adapter USB-C cable",
+  "availability": "Expected 22.5.2026",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 186,
+  "fullCartonUnitPriceUsd": 179.49,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-adapter-rj45-usbc-10ge-fe3e97d5c6.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Interface USB Type-C LAN speed (1) 10 Gbps Gigabit LAN Yes",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-10g-usb-c-ethernet-adapter_d129400.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-network-cards-usb_c16592152.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Network cards",
+    "USB"
+  ]
+}

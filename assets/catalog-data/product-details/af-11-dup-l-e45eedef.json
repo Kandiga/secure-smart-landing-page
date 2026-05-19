@@ -1,1 +1,27 @@
-{"id":"ubiquiti-af-11-dup-l","brand":"Ubiquiti","sku":"AF-11-DUP-L","title":"Ubiquiti Duplexer for airFiber 11-L, Low Band (AF-11-DUP-L)","category":"Wireless / PtP Backhaul / 11GHz","description":"AF-11FX-DUP-L is a frequency duplexer for 2x2 MIMO usage with airFiber 11FX-L unit. Duplexer operates in the frequency band 10.700 - 10955MHz (low channel) a 11.200 - 11.445GHz (high channel)","availability":"To order / expected","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":210,"fullCartonUnitPriceUsd":202.65,"imageUrl":"assets/catalog-data/public-images/ubiquiti-af-11-dup-l-25d6435b6d.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Connectors N female - (2) SMA male"}
+{
+  "id": "ubiquiti-af-11-dup-l",
+  "brand": "Ubiquiti",
+  "sku": "AF-11-DUP-L",
+  "title": "Ubiquiti Duplexer for airFiber 11-L, Low Band (AF-11-DUP-L)",
+  "category": "Ubiquiti / Wireless / PtP Backhaul / 11GHz",
+  "description": "AF-11FX-DUP-L is a frequency duplexer for 2x2 MIMO usage with airFiber 11FX-L unit. Duplexer operates in the frequency band 10.700 - 10955MHz (low channel) a 11.200 - 11.445GHz (high channel)",
+  "availability": "Not In Stock",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 210,
+  "fullCartonUnitPriceUsd": 202.65,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-af-11-dup-l-25d6435b6d.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Connectors N female - (2) SMA male",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-duplexer-for-airfiber-11-l-low-band-af-11-dup-l-_d77363.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-ptp-backhaul-11ghz_c16591542.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "PtP Backhaul",
+    "11GHz"
+  ]
+}

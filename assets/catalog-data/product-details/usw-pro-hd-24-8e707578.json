@@ -1,1 +1,27 @@
-{"id":"ubiquiti-usw-pro-hd-24","brand":"Ubiquiti","sku":"USW-Pro-HD-24","title":"Ubiquiti UniFi Switch USW-Pro-HD-24","category":"LAN networks / Switches / UniFi Switches","description":"Ubiquiti USW-Pro-HD-24 is a 24-port PoE switch with L3 functionality. The switch features 22x 2.5Gb and 2x 10Gb ports . Additionally, the switch includes 4x SFP+ ports and supports redundant power via the Ubiquiti UniFi SmartPower Redundant Power System (USP-RPS) 1.3\" touch display 22x 2.5G + 2x 10G Ethernet with POE++ support 4x SFP+ ports Redundant power option (USP-RPS) Etherlighting technology for Ethernet and SFP ports L3 features: DHCP/DHCP relay, Inter-VLAN routing, Static routing, Network isolation with ACLs Managed via UniFi Network application v8.6.9 or later Switch 230V power cable 19\" rack mount brackets (4) Cage nuts (4) 10#-32 screws (8) M4 screws (4) Rubber adhesive feet","availability":"To order / expected","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":723,"fullCartonUnitPriceUsd":697.7,"imageUrl":"assets/catalog-data/public-images/ubiquiti-usw-pro-hd-24-80558021b3.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (2) 10/5/2.5/1Gbps + (22) 2.5/1Gbps, 100/10Mbps Optical interfaces (4) 1G/10Gbps Power Power type Mains power (230V) Redundant power supply Yes Max. power consumption [W] 50 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 285 General Switchning capacity [Gbps] 230 Packet forwarding rate [Mpps] 171"}
+{
+  "id": "ubiquiti-usw-pro-hd-24",
+  "brand": "Ubiquiti",
+  "sku": "USW-Pro-HD-24",
+  "title": "Ubiquiti UniFi Switch USW-Pro-HD-24",
+  "category": "Ubiquiti / LAN networks / Switches / PoE Switches",
+  "description": "Ubiquiti USW-Pro-HD-24 is a 24-port PoE switch with L3 functionality. The switch features 22x 2.5Gb and 2x 10Gb ports . Additionally, the switch includes 4x SFP+ ports and supports redundant power via the Ubiquiti UniFi SmartPower Redundant Power System (USP-RPS) 1.3\" touch display 22x 2.5G + 2x 10G Ethernet with POE++ support 4x SFP+ ports Redundant power option (USP-RPS) Etherlighting technology for Ethernet and SFP ports L3 features: DHCP/DHCP relay, Inter-VLAN routing, Static routing, Network isolation with ACLs Managed via UniFi Network application v8.6.9 or later Switch 230V power cable 19\" rack mount brackets (4) Cage nuts (4) 10#-32 screws (8) M4 screws (4) Rubber adhesive feet",
+  "availability": "Expected 10.7.2026",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 723,
+  "fullCartonUnitPriceUsd": 697.7,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-usw-pro-hd-24-80558021b3.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (2) 10/5/2.5/1Gbps + (22) 2.5/1Gbps, 100/10Mbps Optical interfaces (4) 1G/10Gbps Power Power type Mains power (230V) Redundant power supply Yes Max. power consumption [W] 50 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 285 General Switchning capacity [Gbps] 230 Packet forwarding rate [Mpps] 171",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-switch-usw-pro-hd-24_d128700.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-poe-switches_c16179437.html?page=2",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "PoE Switches"
+  ]
+}

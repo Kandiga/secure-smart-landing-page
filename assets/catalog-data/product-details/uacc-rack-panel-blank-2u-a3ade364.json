@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-rack-panel-blank-2u","brand":"Ubiquiti","sku":"UACC-Rack-Panel-Blank-2U","title":"Ubiquiti UACC-Rack-Panel-Blank-2U, rack mount OCD panel, 2U","category":"Cabinets / Accessories / Blanking panels","description":"Ubiquiti blanking strip for 19\" data cabinets, with a height of 2U and gray color . Suitable for elegantly blinding or covering unused positions in a data cabinet GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"To order / expected","unitPerCarton":8,"warranty":"24 months","displayPriceUsd":35,"fullCartonUnitPriceUsd":33.78,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-rack-panel-blank-2u-4091569423.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-rack-panel-blank-2u",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Rack-Panel-Blank-2U",
+  "title": "Ubiquiti UACC-Rack-Panel-Blank-2U, rack mount OCD panel, 2U",
+  "category": "Ubiquiti / Cabinets / Accessories / Blanking panels",
+  "description": "Ubiquiti blanking strip for 19\" data cabinets, with a height of 2U and gray color . Suitable for elegantly blinding or covering unused positions in a data cabinet GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "Ordered, unknown date",
+  "unitPerCarton": 8,
+  "warranty": "24 months",
+  "displayPriceUsd": 35,
+  "fullCartonUnitPriceUsd": 33.78,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-rack-panel-blank-2u-4091569423.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-rack-panel-blank-2u-rack-mount-ocd-panel-2u_d121227.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cabinets-accessories-blanking-panels_c16589526.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cabinets",
+    "Accessories",
+    "Blanking panels"
+  ]
+}

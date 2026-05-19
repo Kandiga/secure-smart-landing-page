@@ -1,1 +1,26 @@
-{"id":"ubiquiti-ua-hub-door","brand":"Ubiquiti","sku":"UA-Hub-Door","title":"Ubiquiti UA-Hub-Door - UniFi Access Hub","category":"Cameras, security / UniFi Access","description":"The UniFi Access Hub is an intelligent single-door IP controller that is part of the UniFi Access solution. The universal interface supports most electronic and magnetic locks and is compatible with 12V accessories (buttons, alarms, motion sensors, etc.) Integration with UniFi Access Controller Complete user management, role settings, NFC card assignments, statistics, control logs, etc Setting access permissions Remote management of UniFi Access devices via a single, simple interface (1) Input port for powering via 802.3bt (PoE++) switch (4) RJ-45 PoE+ 802.3af ports for connecting two UniFi Access readers and two UniFi Protect cameras or UniFi Protect doorbells (2) Dry contact and (2) powered relays for locks and auxiliary devices (30V DC) (4) Input relays for door control (entry, exit, remote opening, and position) (1) Power supply (12V DC / 0.33 A) for external devices Device Mounting accessories for wall installation","availability":"To order / expected","unitPerCarton":6,"warranty":"24 months","displayPriceUsd":220,"fullCartonUnitPriceUsd":212.3,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ua-hub-door-262091d5f0.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (5) 10/100/1000Mbps Power Power over Ethernet 802.3bt Power type PoE PoE type PoE-Out + PoE-In PoE-Out standards 802.3af PoE Out ports 4 Max. power consumption [W] 50"}
+{
+  "id": "ubiquiti-ua-hub-door",
+  "brand": "Ubiquiti",
+  "sku": "UA-Hub-Door",
+  "title": "Ubiquiti UA-Hub-Door - UniFi Access Hub",
+  "category": "Ubiquiti / Cameras, security / UniFi Access",
+  "description": "The UniFi Access Hub is an intelligent single-door IP controller that is part of the UniFi Access solution. The universal interface supports most electronic and magnetic locks and is compatible with 12V accessories (buttons, alarms, motion sensors, etc.) Integration with UniFi Access Controller Complete user management, role settings, NFC card assignments, statistics, control logs, etc Setting access permissions Remote management of UniFi Access devices via a single, simple interface (1) Input port for powering via 802.3bt (PoE++) switch (4) RJ-45 PoE+ 802.3af ports for connecting two UniFi Access readers and two UniFi Protect cameras or UniFi Protect doorbells (2) Dry contact and (2) powered relays for locks and auxiliary devices (30V DC) (4) Input relays for door control (entry, exit, remote opening, and position) (1) Power supply (12V DC / 0.33 A) for external devices Device Mounting accessories for wall installation",
+  "availability": "In Stock 32 pcs.",
+  "unitPerCarton": 6,
+  "warranty": "24 months",
+  "displayPriceUsd": 220,
+  "fullCartonUnitPriceUsd": 212.3,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ua-hub-door-262091d5f0.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (5) 10/100/1000Mbps Power Power over Ethernet 802.3bt Power type PoE PoE type PoE-Out + PoE-In PoE-Out standards 802.3af PoE Out ports 4 Max. power consumption [W] 50",
+  "stockQtyVisible": 32,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-ua-hub-door-unifi-access-hub_d127940.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-unifi-access_c16587756.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "UniFi Access"
+  ]
+}

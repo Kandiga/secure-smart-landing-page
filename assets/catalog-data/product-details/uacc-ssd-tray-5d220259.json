@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-ssd-tray","brand":"Ubiquiti","sku":"UACC-SSD-Tray","title":"Ubiquiti M.2 SSD Tray","category":"Cameras, security / Harddiscs / Accessories","description":"Optional storage insert for the Cloud Gateway Max and Cloud Gateway Fiber that enables the installation of M.2 NVMe SSD discs in sizes 2230, 2242, 2260, 2280, and 22110 Cloud Gateway Max a Cloud Gateway Fiber support M.2 NVMe PCIe Gen3x2. All M.2 NVMe SSDs are compatible , but speed is limited to Gen3x2 performance UCG-Max UCG-Fiber UNAS-Pro-8 UCG-Max-NS UNAS-Pro-4","availability":"To order / expected","unitPerCarton":50,"warranty":"24 months","displayPriceUsd":21,"fullCartonUnitPriceUsd":20.27,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-ssd-tray-351bbac971.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-ssd-tray",
+  "brand": "Ubiquiti",
+  "sku": "UACC-SSD-Tray",
+  "title": "Ubiquiti M.2 SSD Tray",
+  "category": "Ubiquiti / Cameras, security / Harddiscs / Accessories",
+  "description": "Optional storage insert for the Cloud Gateway Max and Cloud Gateway Fiber that enables the installation of M.2 NVMe SSD discs in sizes 2230, 2242, 2260, 2280, and 22110 Cloud Gateway Max a Cloud Gateway Fiber support M.2 NVMe PCIe Gen3x2. All M.2 NVMe SSDs are compatible , but speed is limited to Gen3x2 performance UCG-Max UCG-Fiber UNAS-Pro-8 UCG-Max-NS UNAS-Pro-4",
+  "availability": "Not In Stock",
+  "unitPerCarton": 50,
+  "warranty": "24 months",
+  "displayPriceUsd": 21,
+  "fullCartonUnitPriceUsd": 20.27,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-ssd-tray-351bbac971.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-m-2-ssd-tray_d129643.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-harddiscs-accessories_c16592444.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Harddiscs",
+    "Accessories"
+  ]
+}

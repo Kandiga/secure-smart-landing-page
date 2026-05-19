@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-om-sfp28-sr","brand":"Ubiquiti","sku":"UACC-OM-SFP28-SR","title":"Ubiquiti UACC-OM-SFP28-SR, 25 Gbps, Multi Mode, 100m","category":"Optical networks / SFP optical modules / SFP28","description":"Ubiquiti UACC-OM-SFP28-SR is an optical 2-fiber Multi Mode module type SFP28 with a speed of 25 Gbps and 2x LC connectors with upc polishing. The wavelength of the module Tx and Rx is 850nm and Tx power is allows range up to 100m","availability":"In stock","unitPerCarton":50,"warranty":"24 months","displayPriceUsd":55,"fullCartonUnitPriceUsd":53.08,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-om-sfp28-sr-cf1fc76b8d.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Optics Format SFP28 For cable type Multi Mode Transmission speed 25 Gbps Wavelength - Tx/Rx [nm] 850 Distance [km] 0,1 Transfer type 2-fiber Polishing type UPC Connectors and Interfaces Optical Connectors (2) LC Physical characteristics Operating temperature [°C] 0 up to 70 General Compatibility Universal"}
+{
+  "id": "ubiquiti-uacc-om-sfp28-sr",
+  "brand": "Ubiquiti",
+  "sku": "UACC-OM-SFP28-SR",
+  "title": "Ubiquiti UACC-OM-SFP28-SR, 25 Gbps, Multi Mode, 100m",
+  "category": "Ubiquiti / Optical networks / SFP optical modules / SFP28",
+  "description": "Ubiquiti UACC-OM-SFP28-SR is an optical 2-fiber Multi Mode module type SFP28 with a speed of 25 Gbps and 2x LC connectors with upc polishing. The wavelength of the module Tx and Rx is 850nm and Tx power is allows range up to 100m",
+  "availability": "In Stock 30 pcs.",
+  "unitPerCarton": 50,
+  "warranty": "24 months",
+  "displayPriceUsd": 55,
+  "fullCartonUnitPriceUsd": 53.08,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-om-sfp28-sr-cf1fc76b8d.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Optics Format SFP28 For cable type Multi Mode Transmission speed 25 Gbps Wavelength - Tx/Rx [nm] 850 Distance [km] 0,1 Transfer type 2-fiber Polishing type UPC Connectors and Interfaces Optical Connectors (2) LC Physical characteristics Operating temperature [°C] 0 up to 70 General Compatibility Universal",
+  "stockQtyVisible": 30,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-om-sfp28-sr-25-gbps-multi-mode-100m_d114715.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-sfp-optical-modules-sfp28_c16591480.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "SFP optical modules",
+    "SFP28"
+  ]
+}

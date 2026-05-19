@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-ofc-sa-mpmp-1m","brand":"Ubiquiti","sku":"UACC-OFC-SA-MPMP-1M","title":"Ubiquiti UACC-OFC-SA-MPMP-1M - fiber patch cable MPO-12 Type B APC, Single-mode SMG657A2, 1m","category":"Optical networks / Patch cords / Single Mode","description":"Ubiquiti UACC-OFC-SA-MPMP is an indoor optical patch cord with MPO connectors and APC polishing, designed to connect network optical components at speeds of up to 100 Gbps The package includes 1 piece with a length of 1 m GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"To order / expected","unitPerCarton":48,"warranty":"24 months","displayPriceUsd":73,"fullCartonUnitPriceUsd":70.45,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-ofc-sa-mpmp-1m-ccb455a5ae.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Optics Number of fibers 12 Fiber type Single Mode Core diameter [µm] 9/125 Polishing type APC Connectors and Interfaces Optical Connectors (2) MPO Physical characteristics Purpose Indoor Length [m] 1 LSZH (LSOH) Yes"}
+{
+  "id": "ubiquiti-uacc-ofc-sa-mpmp-1m",
+  "brand": "Ubiquiti",
+  "sku": "UACC-OFC-SA-MPMP-1M",
+  "title": "Ubiquiti UACC-OFC-SA-MPMP-1M - fiber patch cable MPO-12 Type B APC, Single-mode SMG657A2, 1m",
+  "category": "Ubiquiti / Optical networks / Patch cords / Single Mode",
+  "description": "Ubiquiti UACC-OFC-SA-MPMP is an indoor optical patch cord with MPO connectors and APC polishing, designed to connect network optical components at speeds of up to 100 Gbps The package includes 1 piece with a length of 1 m GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "Not In Stock",
+  "unitPerCarton": 48,
+  "warranty": "24 months",
+  "displayPriceUsd": 73,
+  "fullCartonUnitPriceUsd": 70.45,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-ofc-sa-mpmp-1m-ccb455a5ae.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Optics Number of fibers 12 Fiber type Single Mode Core diameter [µm] 9/125 Polishing type APC Connectors and Interfaces Optical Connectors (2) MPO Physical characteristics Purpose Indoor Length [m] 1 LSZH (LSOH) Yes",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-ofc-sa-mpmp-1m-fiber-patch-cable-mpo-12-type-b-apc-single-mode-smg657a2-1m_d130097.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-patch-cords-single-mode_c16591473.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "Patch cords",
+    "Single Mode"
+  ]
+}

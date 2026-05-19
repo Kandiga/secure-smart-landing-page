@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-om-sm-1g-s-20","brand":"Ubiquiti","sku":"UACC-OM-SM-1G-S-20","title":"Ubiquiti UACC-OM-SM-1G-S-20 (UF-SM-1G-S-20) - U Fiber, Single-Mode Module, 1G, BiDi, 20-Pack","category":"Optical networks / SFP optical modules / SFP","description":"UF-SM-1G-S is set of singlemode 1G SFP WDM modules with 1 LC connector. Wave length is 1310/1550nm , this modules are suitable for distance up to 3km . Modules are compatible with all Ubiquiti devices which contain SFP+ ports. Package contains 20 pieces - 10 function pairs","availability":"To order / expected","unitPerCarton":3,"warranty":"24 months","displayPriceUsd":232,"fullCartonUnitPriceUsd":223.88,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-om-sm-1g-s-20-02709aa8a3.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Optics Format SFP For cable type Single Mode Transmission speed 1 Gbps Distance [km] 3 Transfer type WDM Connectors and Interfaces Optical Connectors (1) LC General Compatibility Universal"}
+{
+  "id": "ubiquiti-uacc-om-sm-1g-s-20",
+  "brand": "Ubiquiti",
+  "sku": "UACC-OM-SM-1G-S-20",
+  "title": "Ubiquiti UACC-OM-SM-1G-S-20 (UF-SM-1G-S-20) - U Fiber, Single-Mode Module, 1G, BiDi, 20-Pack",
+  "category": "Ubiquiti / Optical networks / SFP optical modules / SFP",
+  "description": "UF-SM-1G-S is set of singlemode 1G SFP WDM modules with 1 LC connector. Wave length is 1310/1550nm , this modules are suitable for distance up to 3km . Modules are compatible with all Ubiquiti devices which contain SFP+ ports. Package contains 20 pieces - 10 function pairs",
+  "availability": "Expected 22.5.2026",
+  "unitPerCarton": 3,
+  "warranty": "24 months",
+  "displayPriceUsd": 232,
+  "fullCartonUnitPriceUsd": 223.88,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-om-sm-1g-s-20-02709aa8a3.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Optics Format SFP For cable type Single Mode Transmission speed 1 Gbps Distance [km] 3 Transfer type WDM Connectors and Interfaces Optical Connectors (1) LC General Compatibility Universal",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-om-sm-1g-s-20-uf-sm-1g-s-20-u-fiber-single-mode-module-1g-bidi-20-pack_d77383.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-sfp-optical-modules-sfp_c16591502.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "SFP optical modules",
+    "SFP"
+  ]
+}

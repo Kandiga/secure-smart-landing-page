@@ -1,1 +1,27 @@
-{"id":"huawei-ma5801-fl04","brand":"Huawei","sku":"MA5801-FL04","title":"Huawei SmartAX MA5801-FL04 compact OLT, 4x FlexPON, 1U","category":"Optical networks / GPON / OLT units","description":"As optical fiber access nodes keep moving closer to end users, OLTs are closer to end users. Deployment scenarios are complex and diversified. In this case, network needs OLTs with small volume and low density The MA5801-FL04-H1 is a small-sized box-shaped OLT. It provides four FlexPON service ports and can work with a FlexPON optical module to support GPON, XG(S)-PON, and XG(S)-PON&GPON access. It also provides a unified bearer platform for multiple services, such as broadband, voice, video streaming, and video backhaul services. The product enables one fiber network to carry all types of services, simplifying the network architecture and reducing the OPEX. It allows to connect up to 1024 ONTs The product provides multiple fiber to the home (FTTH) solutions to meet the requirements of economical and efficient network construction . MA5801-GP08 can be flexibly deployed in fast fixed mobile convergence (FMC) scenario, buildings, villages and other sparsely-populated areas In fast fixed mobile convergence (FMC) scenarios, mobile carriers fully use existing resources of backhaul networks and cabinet space when constructing FTTH networks. They deploy the MA5801 inside a mobile cabinet and route drop cables at a short distance so that nearby households can be covered under networks. All these implement fast deployment and fast go-to-market, shorten return on investment (ROI) periods, and achieve positive cycle of business The OLT is equipped with a single slot for a power module. An AC power supply is included, and an optional DC power supply can be purchased separately OLT…","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":2813,"fullCartonUnitPriceUsd":2813,"imageUrl":"assets/catalog-data/public-images/huawei-ma5801-fl04-cafcf56cae.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Transfer type GPON, XG-PON, XGS-PON Connectors and Interfaces LAN speed (2) 100/1000/2500Mbps PON SFP cages 4 Optical interfaces (4) 1G/10Gbps Serial port RJ45 Power Max. power consumption [W] 79 Power via connector/terminal 38 .. -72V DC, 230V AC Physical characteristics Fans Yes Buttons Reset Operating temperature [°C] 40 up to 60 Weight [kg] 3,2 Width [mm] 442 Height [mm] 44 Depth [mm] 220"}
+{
+  "id": "huawei-ma5801-fl04",
+  "brand": "Huawei",
+  "sku": "MA5801-FL04",
+  "title": "Huawei SmartAX MA5801-FL04 compact OLT, 4x FlexPON, 1U",
+  "category": "Huawei / Optical networks / GPON / OLT units",
+  "description": "As optical fiber access nodes keep moving closer to end users, OLTs are closer to end users. Deployment scenarios are complex and diversified. In this case, network needs OLTs with small volume and low density The MA5801-FL04-H1 is a small-sized box-shaped OLT. It provides four FlexPON service ports and can work with a FlexPON optical module to support GPON, XG(S)-PON, and XG(S)-PON&GPON access. It also provides a unified bearer platform for multiple services, such as broadband, voice, video streaming, and video backhaul services. The product enables one fiber network to carry all types of services, simplifying the network architecture and reducing the OPEX. It allows to connect up to 1024 ONTs The product provides multiple fiber to the home (FTTH) solutions to meet the requirements of economical and efficient network construction . MA5801-GP08 can be flexibly deployed in fast fixed mobile convergence (FMC) scenario, buildings, villages and other sparsely-populated areas In fast fixed mobile convergence (FMC) scenarios, mobile carriers fully use existing resources of backhaul networks and cabinet space when constructing FTTH networks. They deploy the MA5801 inside a mobile cabinet and route drop cables at a short distance so that nearby households can be covered under networks. All these implement fast deployment and fast go-to-market, shorten return on investment (ROI) periods, and achieve positive cycle of business The OLT is equipped with a single slot for a power module. An AC power supply is included, and an optional DC power supply can be purchased separately OLT…",
+  "availability": "In Stock 1 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 2813,
+  "fullCartonUnitPriceUsd": 2813,
+  "imageUrl": "assets/catalog-data/public-images/huawei-ma5801-fl04-cafcf56cae.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Transfer type GPON, XG-PON, XGS-PON Connectors and Interfaces LAN speed (2) 100/1000/2500Mbps PON SFP cages 4 Optical interfaces (4) 1G/10Gbps Serial port RJ45 Power Max. power consumption [W] 79 Power via connector/terminal 38 .. -72V DC, 230V AC Physical characteristics Fans Yes Buttons Reset Operating temperature [°C] 40 up to 60 Weight [kg] 3,2 Width [mm] 442 Height [mm] 44 Depth [mm] 220",
+  "stockQtyVisible": 1,
+  "discompProductUrl": "https://www.discomp.cz/huawei-smartax-ma5801-fl04-compact-olt-4x-flexpon-1u_d128499.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-optical-networks-gpon-olt-units_c16592196.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Optical networks",
+    "GPON",
+    "OLT units"
+  ]
+}

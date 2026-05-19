@@ -1,1 +1,27 @@
-{"id":"huawei-atb3120-s-8-xc-upc-2","brand":"Huawei","sku":"ATB3120-S-8-XC/UPC-2","title":"Huawei FTTR Active Distribution Unit (ADU) , PoF","category":"Optical networks / MiniFTTO / Active devices","description":"The ATB3120-S-8 ADU (Active Distribution Unit) is an active optical device used to connect the main FTTR and the sub FTTR. It provides optical signals and power input for the sub FTTR. The products can be installed in an indoor information box or on a wall The distribution unit features 1 input photoelectric XC port, 1 cascade XC port, and 8 photoelectric PoF XC ports Photoelectric composite interface Multi-level splitting Unified Puyu 2.0 appearance design No need for closure opening, simplifying fiber connection and disconnection Device Power adapter","availability":"To order / expected","unitPerCarton":null,"warranty":"To be confirmed","displayPriceUsd":236,"fullCartonUnitPriceUsd":236,"imageUrl":"assets/catalog-data/public-images/huawei-atb3120-s-8-xc-upc-2-a79f4d8b37.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces Optical Connectors (8) XC"}
+{
+  "id": "huawei-atb3120-s-8-xc-upc-2",
+  "brand": "Huawei",
+  "sku": "ATB3120-S-8-XC/UPC-2",
+  "title": "Huawei FTTR Active Distribution Unit (ADU) , PoF",
+  "category": "Huawei / Optical networks / MiniFTTO / Active devices",
+  "description": "The ATB3120-S-8 ADU (Active Distribution Unit) is an active optical device used to connect the main FTTR and the sub FTTR. It provides optical signals and power input for the sub FTTR. The products can be installed in an indoor information box or on a wall The distribution unit features 1 input photoelectric XC port, 1 cascade XC port, and 8 photoelectric PoF XC ports Photoelectric composite interface Multi-level splitting Unified Puyu 2.0 appearance design No need for closure opening, simplifying fiber connection and disconnection Device Power adapter",
+  "availability": "Not In Stock",
+  "unitPerCarton": null,
+  "warranty": "To be confirmed",
+  "displayPriceUsd": 236,
+  "fullCartonUnitPriceUsd": 236,
+  "imageUrl": "assets/catalog-data/public-images/huawei-atb3120-s-8-xc-upc-2-a79f4d8b37.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces Optical Connectors (8) XC",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/huawei-fttr-active-distribution-unit-adu-pof_d129373.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-optical-networks-miniftto-active-devices_c16592272.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Optical networks",
+    "MiniFTTO",
+    "Active devices"
+  ]
+}

@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-u7-pro-xg-wall-cover","brand":"Ubiquiti","sku":"UACC-U7-Pro-XG-Wall-Cover","title":"Ubiquiti UACC-U7-Pro-XG-Wall-Cover, Paintable cover for U7 Pro XG Wall","category":"Wireless / Accessories / Other accessories","description":"Cover for U7 Pro XG Wall that can be painted for a customized appearance","availability":"In stock","unitPerCarton":30,"warranty":"24 months","displayPriceUsd":34,"fullCartonUnitPriceUsd":32.81,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-u7-pro-xg-wall-cover-8fd66ac09c.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-u7-pro-xg-wall-cover",
+  "brand": "Ubiquiti",
+  "sku": "UACC-U7-Pro-XG-Wall-Cover",
+  "title": "Ubiquiti UACC-U7-Pro-XG-Wall-Cover, Paintable cover for U7 Pro XG Wall",
+  "category": "Ubiquiti / Wireless / Accessories / Other accessories",
+  "description": "Cover for U7 Pro XG Wall that can be painted for a customized appearance",
+  "availability": "In Stock 14 pcs.",
+  "unitPerCarton": 30,
+  "warranty": "24 months",
+  "displayPriceUsd": 34,
+  "fullCartonUnitPriceUsd": 32.81,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-u7-pro-xg-wall-cover-8fd66ac09c.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 14,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-u7-pro-xg-wall-cover-paintable-cover-for-u7-pro-xg-wall_d131184.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-other-accessories_c15888323.html?page=2",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Other accessories"
+  ]
+}

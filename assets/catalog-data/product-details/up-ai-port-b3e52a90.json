@@ -1,1 +1,26 @@
-{"id":"ubiquiti-up-ai-port","brand":"Ubiquiti","sku":"UP-AI-Port","title":"Ubiquiti UP-AI-Port, UniFi Protect AI Port","category":"Cameras, security / Cameras accessories","description":"The AI device enhances the functionality of any UniFi Protect camera or third-party camera with AI-powered detection, classification, and recognition capabilities. The device can be mounted on a wall or a pipe with a diameter of at least 45mm Each AI-Port supports exactly one third-party camera or a UniFi Protect G3/G4/G5 camera. Future firmware updates will enable support for multiple cameras. The camera does not need to be directly connected to the AI-Port; it only needs to be on the same LAN and paired with the AI-Port via the Protect application The AI-Port can be powered via an 802.3af/at/bt PoE input. With 802.3at input power, the PoE output provides up to 12.95W, and with 802.3bt input power, the output provides up to 25.5W Detection: Motion, people, vehicle, animals, speech Classification: Vehicle color, vehicle type Recognition: Face recognition, license plate recognition ONVIF 2K: up to 2 cameras ONVIF HD: up to 3 cameras UniFi Protect: up to 5 cameras * Support for multiple cameras is planned in a future firmware update Device Wall/pipe mount (2) Zip ties (2) Screws and wall plugs","availability":"To order / expected","unitPerCarton":15,"warranty":"24 months","displayPriceUsd":220,"fullCartonUnitPriceUsd":212.3,"imageUrl":"assets/catalog-data/public-images/ubiquiti-up-ai-port-b5de699103.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Power Power over Ethernet Yes PoE Input ports 1 PoE type PoE-Out + PoE-In PoE-Out standards 802.3af, 802.3at PoE Out ports 1"}
+{
+  "id": "ubiquiti-up-ai-port",
+  "brand": "Ubiquiti",
+  "sku": "UP-AI-Port",
+  "title": "Ubiquiti UP-AI-Port, UniFi Protect AI Port",
+  "category": "Ubiquiti / Cameras, security / Cameras accessories",
+  "description": "The AI device enhances the functionality of any UniFi Protect camera or third-party camera with AI-powered detection, classification, and recognition capabilities. The device can be mounted on a wall or a pipe with a diameter of at least 45mm Each AI-Port supports exactly one third-party camera or a UniFi Protect G3/G4/G5 camera. Future firmware updates will enable support for multiple cameras. The camera does not need to be directly connected to the AI-Port; it only needs to be on the same LAN and paired with the AI-Port via the Protect application The AI-Port can be powered via an 802.3af/at/bt PoE input. With 802.3at input power, the PoE output provides up to 12.95W, and with 802.3bt input power, the output provides up to 25.5W Detection: Motion, people, vehicle, animals, speech Classification: Vehicle color, vehicle type Recognition: Face recognition, license plate recognition ONVIF 2K: up to 2 cameras ONVIF HD: up to 3 cameras UniFi Protect: up to 5 cameras * Support for multiple cameras is planned in a future firmware update Device Wall/pipe mount (2) Zip ties (2) Screws and wall plugs",
+  "availability": "In Stock 22 pcs.",
+  "unitPerCarton": 15,
+  "warranty": "24 months",
+  "displayPriceUsd": 220,
+  "fullCartonUnitPriceUsd": 212.3,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-up-ai-port-b5de699103.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Power Power over Ethernet Yes PoE Input ports 1 PoE type PoE-Out + PoE-In PoE-Out standards 802.3af, 802.3at PoE Out ports 1",
+  "stockQtyVisible": 22,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-up-ai-port-unifi-protect-ai-port_d128684.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-cameras-accessories_c16591508.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Cameras accessories"
+  ]
+}

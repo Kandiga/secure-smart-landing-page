@@ -1,1 +1,26 @@
-{"id":"ubiquiti-nhd-cover-camo-3","brand":"Ubiquiti","sku":"nHD-cover-Camo-3","title":"Ubiquiti case for UAP nanoHD, U6 Lite a U6+, Camo Design, 3-Pack","category":"Wireless / Accessories / Other accessories","description":"nHD-cover-Camo-3 is a set of 3 covers for UAP-nanoHD, U6 Lite, U6+ and *UAP-AC-LITE with Camo design. For demanding customers is available up to 6 optional skins allow the UniFi AP to blend into its surroundings Cover for UAP-AC-LITE is not officially supported by manufacturer. After testing and comparing UAP-AC-LITE and UAP-nanoHD, LITE version is 1mm lower and fits into the cover without any problem (3) cover with motive","availability":"In stock","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":42,"fullCartonUnitPriceUsd":40.53,"imageUrl":"assets/catalog-data/public-images/ubiquiti-nhd-cover-camo-3-af7ef3381f.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-nhd-cover-camo-3",
+  "brand": "Ubiquiti",
+  "sku": "nHD-cover-Camo-3",
+  "title": "Ubiquiti case for UAP nanoHD, U6 Lite a U6+, Camo Design, 3-Pack",
+  "category": "Ubiquiti / Wireless / Accessories / Other accessories",
+  "description": "nHD-cover-Camo-3 is a set of 3 covers for UAP-nanoHD, U6 Lite, U6+ and *UAP-AC-LITE with Camo design. For demanding customers is available up to 6 optional skins allow the UniFi AP to blend into its surroundings Cover for UAP-AC-LITE is not officially supported by manufacturer. After testing and comparing UAP-AC-LITE and UAP-nanoHD, LITE version is 1mm lower and fits into the cover without any problem (3) cover with motive",
+  "availability": "In Stock 89 pcs.",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 42,
+  "fullCartonUnitPriceUsd": 40.53,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-nhd-cover-camo-3-af7ef3381f.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 89,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-case-for-uap-nanohd-u6-lite-a-u6-camo-design-3-pack_d87806.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-other-accessories_c15888323.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Other accessories"
+  ]
+}

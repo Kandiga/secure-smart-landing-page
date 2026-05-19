@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-reader-pro-am-b","brand":"Ubiquiti","sku":"UACC-Reader-Pro-AM-B","title":"Ubiquiti UACC-Reader-Pro-AM-B","category":"Cameras, security / Mounting boxes and brackets / Wallmount","description":"Wall mounting box for the Ubiquiti UA-G2-Pro reader in black Box Mounting kit","availability":"To order / expected","unitPerCarton":36,"warranty":"24 months","displayPriceUsd":35,"fullCartonUnitPriceUsd":33.78,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-reader-pro-am-b-95f15f2616.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-reader-pro-am-b",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Reader-Pro-AM-B",
+  "title": "Ubiquiti UACC-Reader-Pro-AM-B",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Mast boxes",
+  "description": "Wall mounting box for the Ubiquiti UA-G2-Pro reader in black Box Mounting kit",
+  "availability": "Expected 30.6.2026",
+  "unitPerCarton": 36,
+  "warranty": "24 months",
+  "displayPriceUsd": 35,
+  "fullCartonUnitPriceUsd": 33.78,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-reader-pro-am-b-95f15f2616.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-reader-pro-am-b_d126286.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-mast-boxes_c16588812.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Mast boxes"
+  ]
+}

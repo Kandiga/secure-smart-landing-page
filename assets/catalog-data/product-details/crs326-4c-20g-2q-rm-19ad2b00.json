@@ -1,1 +1,26 @@
-{"id":"mikrotik-crs326-4c-20g-2q-rm","brand":"MikroTik","sku":"CRS326-4C+20G+2Q+RM","title":"MikroTik Cloud Router Switch CRS326-4C+20G+2Q+RM","category":"Wireless / MikroTik / RouterBOARD","description":"The optical-metallic Cloud Router Switch CRS326-4C+20G+2Q+RM with installation in a 19\" rack is an ideal solution for building a 2.5 Gbps LAN network . The switch contains 20x 100/1000/2500 Mbps ethernet, 4x combo 2.5 Gbps (LAN) / 10 Gbps (SFP+), 2x QSFP+ with a speed of 40 Gbps/port, 1x ethernet management port and 1x console RJ45 port. The device can be powered by two integrated power supplies , thus offering redundant power . The maximum consumption of the device is 70 W with connected SFP… Thanks to the Marvel switch chip, the device can easily use the potential of the RouterOS operating system - VLANs, Jumbo frames, ACL rules, port aggregation and much more","availability":"In stock","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":943,"fullCartonUnitPriceUsd":910,"imageUrl":"assets/catalog-data/public-images/mikrotik-crs326-4c-20g-2q-rm-37f50f6571.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (24) 100M/1G/2.5G Gigabit LAN Yes Optical interfaces (4) 10Gbps combo + (2) 40Gbps Serial port RJ45 Power Power type Mains power (230V) Redundant power supply Yes Max. power consumption [W] 70 Power via connector/terminal 230V AC Physical characteristics Design Rackmount \"U\" positions 1 Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 20 up to 60 Width [mm] 443 Height [mm] 44 Depth [mm] 258 Hardware CPU QCA9531 CPU frequency [MHz] 650 CPU cores 1 Internal storage [MB] 32 RAM [MB] 128"}
+{
+  "id": "mikrotik-crs326-4c-20g-2q-rm",
+  "brand": "MikroTik",
+  "sku": "CRS326-4C+20G+2Q+RM",
+  "title": "MikroTik Cloud Router Switch CRS326-4C+20G+2Q+RM",
+  "category": "MikroTik / Wireless / RouterBOARD",
+  "description": "The optical-metallic Cloud Router Switch CRS326-4C+20G+2Q+RM with installation in a 19\" rack is an ideal solution for building a 2.5 Gbps LAN network . The switch contains 20x 100/1000/2500 Mbps ethernet, 4x combo 2.5 Gbps (LAN) / 10 Gbps (SFP+), 2x QSFP+ with a speed of 40 Gbps/port, 1x ethernet management port and 1x console RJ45 port. The device can be powered by two integrated power supplies , thus offering redundant power . The maximum consumption of the device is 70 W with connected SFP… Thanks to the Marvel switch chip, the device can easily use the potential of the RouterOS operating system - VLANs, Jumbo frames, ACL rules, port aggregation and much more",
+  "availability": "In Stock 3 pcs.",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 943,
+  "fullCartonUnitPriceUsd": 910,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-crs326-4c-20g-2q-rm-37f50f6571.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (24) 100M/1G/2.5G Gigabit LAN Yes Optical interfaces (4) 10Gbps combo + (2) 40Gbps Serial port RJ45 Power Power type Mains power (230V) Redundant power supply Yes Max. power consumption [W] 70 Power via connector/terminal 230V AC Physical characteristics Design Rackmount \"U\" positions 1 Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 20 up to 60 Width [mm] 443 Height [mm] 44 Depth [mm] 258 Hardware CPU QCA9531 CPU frequency [MHz] 650 CPU cores 1 Internal storage [MB] 32 RAM [MB] 128",
+  "stockQtyVisible": 3,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-cloud-router-switch-crs326-4c-20g-2q-rm_d125021.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-routerboard_c16588560.html?page=3",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "RouterBOARD"
+  ]
+}

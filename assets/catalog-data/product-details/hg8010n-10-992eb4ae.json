@@ -1,1 +1,27 @@
-{"id":"huawei-hg8010n-10","brand":"Huawei","sku":"HG8010N-10","title":"Huawei OptiXstar HG8010N-10, GPON ONT bridge","category":"Optical networks / GPON / ONU units","description":"The Huawei OptiXstar HG8010N-10 is an ONT unit for use in bridge mode, equipped with (1) SC/APC port for connection to a GPON installation and (1) 2.5G port for connecting a router. It is ideally suited for scenarios where you prefer your own customer-side routing solution or when the customer requires the use of their own router Device Power adapter 12V/1A","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":34,"fullCartonUnitPriceUsd":34,"imageUrl":"assets/catalog-data/public-images/huawei-hg8010n-10-a9690d13bb.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Wavelength - Tx/Rx [nm] 1310 / 1490 Transfer type GPON Polishing type APC Receiver sensitivity [dBm] 27 Connectors and Interfaces Optical Connectors (1) SC LAN speed (1) 100/1000/2500Mbps Power Max. power consumption [W] 5 Power via connector/terminal 12V / 1A"}
+{
+  "id": "huawei-hg8010n-10",
+  "brand": "Huawei",
+  "sku": "HG8010N-10",
+  "title": "Huawei OptiXstar HG8010N-10, GPON ONT bridge",
+  "category": "Huawei / Optical networks / GPON / ONU units",
+  "description": "The Huawei OptiXstar HG8010N-10 is an ONT unit for use in bridge mode, equipped with (1) SC/APC port for connection to a GPON installation and (1) 2.5G port for connecting a router. It is ideally suited for scenarios where you prefer your own customer-side routing solution or when the customer requires the use of their own router Device Power adapter 12V/1A",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 34,
+  "fullCartonUnitPriceUsd": 34,
+  "imageUrl": "assets/catalog-data/public-images/huawei-hg8010n-10-a9690d13bb.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Wavelength - Tx/Rx [nm] 1310 / 1490 Transfer type GPON Polishing type APC Receiver sensitivity [dBm] 27 Connectors and Interfaces Optical Connectors (1) SC LAN speed (1) 100/1000/2500Mbps Power Max. power consumption [W] 5 Power via connector/terminal 12V / 1A",
+  "stockQtyVisible": 2612,
+  "discompProductUrl": "https://www.discomp.cz/huawei-optixstar-hg8010n-10-gpon-ont-bridge_d130899.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-optical-networks-gpon-onu-units_c16592189.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Optical networks",
+    "GPON",
+    "ONU units"
+  ]
+}

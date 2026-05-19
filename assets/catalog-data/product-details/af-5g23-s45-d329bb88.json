@@ -1,1 +1,28 @@
-{"id":"ubiquiti-af-5g23-s45","brand":"Ubiquiti","sku":"AF-5G23-S45","title":"Ubiquiti airFiber Dish 23dBi, 5GHz, Slant 45","category":"Wireless / Antennas / Directional antennas / 5GHz","description":"The compact form factor allows the airFiber X Antennas to be used in various applications , from carrier backhauls between towers to PtP bridging between buildings. Housed in a compact form factor (378-mm diameter size), the AF-5G23-S45 offers 23dBi of gain and features the following advantages: Low sidelobes reduce interference from other transmitters in the area. High isolation enhances performance for co-location in tower-mounted installations. The low-profile design with integrated radome… Low sidelobes reduce interference from other transmitters in the area High isolation enhances performance for co-location in tower-mounted installations The low-profile design with integrated radome reduces wind-loading Antenna Protective shroud (2) RSMA male - RSMA male pigtail Mount bracket + screws","availability":"To order / expected","unitPerCarton":1,"warranty":"24 months","displayPriceUsd":104,"fullCartonUnitPriceUsd":104,"imageUrl":"assets/catalog-data/public-images/ubiquiti-af-5g23-s45-9afabd724b.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features MIMO, SISO 2 x 2 (slant - 45 ° turned) Polarization Slant (+- 45 °) VSWR < 1,5 F/B ratio [dB] 30 Cross-Pol Isolation [dB] 35 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 10 Azimuth beam width (-6dB) [°] 10 Antenna type Directional Antenna gain [dBi] 23 Connectors and Interfaces Rocket kit Yes RF connectors (2) RSMA female"}
+{
+  "id": "ubiquiti-af-5g23-s45",
+  "brand": "Ubiquiti",
+  "sku": "AF-5G23-S45",
+  "title": "Ubiquiti airFiber Dish 23dBi, 5GHz, Slant 45",
+  "category": "Ubiquiti / Wireless / Antennas / Directional antennas / 5GHz",
+  "description": "The compact form factor allows the airFiber X Antennas to be used in various applications , from carrier backhauls between towers to PtP bridging between buildings. Housed in a compact form factor (378-mm diameter size), the AF-5G23-S45 offers 23dBi of gain and features the following advantages: Low sidelobes reduce interference from other transmitters in the area. High isolation enhances performance for co-location in tower-mounted installations. The low-profile design with integrated radome… Low sidelobes reduce interference from other transmitters in the area High isolation enhances performance for co-location in tower-mounted installations The low-profile design with integrated radome reduces wind-loading Antenna Protective shroud (2) RSMA male - RSMA male pigtail Mount bracket + screws",
+  "availability": "Expected 20.6.2026",
+  "unitPerCarton": 1,
+  "warranty": "24 months",
+  "displayPriceUsd": 104,
+  "fullCartonUnitPriceUsd": 104,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-af-5g23-s45-9afabd724b.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 (slant - 45 ° turned) Polarization Slant (+- 45 °) VSWR < 1,5 F/B ratio [dB] 30 Cross-Pol Isolation [dB] 35 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 10 Azimuth beam width (-6dB) [°] 10 Antenna type Directional Antenna gain [dBi] 23 Connectors and Interfaces Rocket kit Yes RF connectors (2) RSMA female",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-airfiber-dish-23dbi-5ghz-slant-45_d65376.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-antennas-directional-antennas-5ghz_c15888480.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Antennas",
+    "Directional antennas",
+    "5GHz"
+  ]
+}

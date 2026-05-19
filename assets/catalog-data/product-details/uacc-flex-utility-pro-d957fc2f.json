@@ -1,1 +1,25 @@
-{"id":"ubiquiti-uacc-flex-utility-pro","brand":"Ubiquiti","sku":"UACC-Flex-Utility-Pro","title":"Ubiquiti UACC-Flex-Utility-Pro - Universal Outdoor Enclosure","category":"Cabinets / Outdoor boxes","description":"A universal outdoor weatherproof enclosure with IPX6 protection rating . Protect your networking gear in any environment with this versatile, durable enclosure, designed for both wall and pole mounting . The enclosure features ample internal space to house a power adapter or PoE injector USW-Flex-2.5G-5 USW-Ultra USW-Flex-2.5G-8 USW-Ultra-60W USW-Flex-2.5G-8-PoE USW-Ultra-210W USW-Flex","availability":"To order / expected","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":70,"fullCartonUnitPriceUsd":67.55,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-flex-utility-pro-8095fb4839.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-flex-utility-pro",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Flex-Utility-Pro",
+  "title": "Ubiquiti UACC-Flex-Utility-Pro - Universal Outdoor Enclosure",
+  "category": "Ubiquiti / Cabinets / Outdoor boxes",
+  "description": "A universal outdoor weatherproof enclosure with IPX6 protection rating . Protect your networking gear in any environment with this versatile, durable enclosure, designed for both wall and pole mounting . The enclosure features ample internal space to house a power adapter or PoE injector USW-Flex-2.5G-5 USW-Ultra USW-Flex-2.5G-8 USW-Ultra-60W USW-Flex-2.5G-8-PoE USW-Ultra-210W USW-Flex",
+  "availability": "Ordered, unknown date",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 70,
+  "fullCartonUnitPriceUsd": 67.55,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-flex-utility-pro-8095fb4839.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-flex-utility-pro-universal-outdoor-enclosure_d130477.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cabinets-outdoor-boxes_c16051089.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cabinets",
+    "Outdoor boxes"
+  ]
+}

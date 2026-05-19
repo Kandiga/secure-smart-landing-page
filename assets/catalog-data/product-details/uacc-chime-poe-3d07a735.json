@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-chime-poe","brand":"Ubiquiti","sku":"UACC-Chime-PoE","title":"Ubiquiti UACC-Chime-PoE, smart chime","category":"Cameras, security / Videophones and bells / Door Bells","description":"Ubiquiti UACC-Chime-PoE is a speaker, as the name implies, the power supply is via PoE (44-57 V DC). It needs no setup, just connect to the appropriate supported device. The volume of the speaker reaches up to 80 dB Ubiquiti UVC-G4 Doorbell Pro PoE Kit (this product already includes the speaker) Ubiquiti UVC-G4 Doorbell Pro Ubiquiti UVC-G4-DoorBell Pro Ubiquiti UA-G2-Pro Ubiquiti UA-G2 Ubiquiti UA-G2-SK-Pro Ubiquiti UA-G2-SK Ubiquiti UA-Hub Ubiquiti UA-Intercom Device Mounting box designed to be built into the wall Wall mounting box Screws, dowels Iron rail","availability":"To order / expected","unitPerCarton":16,"warranty":"24 months","displayPriceUsd":94,"fullCartonUnitPriceUsd":90.71,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-chime-poe-765241b2e0.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Power Power over Ethernet 44 .. 57V DC Max. power consumption [W] 3"}
+{
+  "id": "ubiquiti-uacc-chime-poe",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Chime-PoE",
+  "title": "Ubiquiti UACC-Chime-PoE, smart chime",
+  "category": "Ubiquiti / Cameras, security / Videophones and bells / Door Bells",
+  "description": "Ubiquiti UACC-Chime-PoE is a speaker, as the name implies, the power supply is via PoE (44-57 V DC). It needs no setup, just connect to the appropriate supported device. The volume of the speaker reaches up to 80 dB Ubiquiti UVC-G4 Doorbell Pro PoE Kit (this product already includes the speaker) Ubiquiti UVC-G4 Doorbell Pro Ubiquiti UVC-G4-DoorBell Pro Ubiquiti UA-G2-Pro Ubiquiti UA-G2 Ubiquiti UA-G2-SK-Pro Ubiquiti UA-G2-SK Ubiquiti UA-Hub Ubiquiti UA-Intercom Device Mounting box designed to be built into the wall Wall mounting box Screws, dowels Iron rail",
+  "availability": "Expected 4.6.2026",
+  "unitPerCarton": 16,
+  "warranty": "24 months",
+  "displayPriceUsd": 94,
+  "fullCartonUnitPriceUsd": 90.71,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-chime-poe-765241b2e0.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Power Power over Ethernet 44 .. 57V DC Max. power consumption [W] 3",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-chime-poe-smart-chime_d126381.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-videophones-and-bells-door-bells_c16591511.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Videophones and bells",
+    "Door Bells"
+  ]
+}

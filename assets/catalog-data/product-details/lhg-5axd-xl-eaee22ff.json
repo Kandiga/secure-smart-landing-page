@@ -1,1 +1,26 @@
-{"id":"mikrotik-lhg-5axd-xl","brand":"MikroTik","sku":"LHG-5axD-XL","title":"MikroTik RouterBOARD LHG-5axD-XL, LHG XL 5 ax","category":"Wireless / Outdoor units / MikroTik","description":"The LHG XL 5 ax is a lightweight wireless device with Wi-Fi 6 support for the 5 GHz band , featuring an integrated 27 dBi high-gain grid antenna that ensures excellent wind resistance. It is ideal for point-to-point links or as a client unit for long-distance connections. The unit is equipped with a Gigabit Ethernet port that supports passive PoE power supply in the range of 12â28 V The 802.11ax standard brings significant improvements for long-distance wireless links â including greater spectral efficiency, advanced modulation (1024-QAM), and lower latency. The result is higher performance even in noisy environments, and faster, more stable connections over greater distances. Combined with WPA3 encryption and the modern RouterOS v7 operating system, the LHG ax series is ready to meet the challenges of todayâs wireless networks Compared to conventional solutions, the LHG XL 5 ax features an integrated radio module placed directly in the antennaâs focal point, eliminating all RF cable losses The device is delivered in a compact and easy-to-assemble package , making transport and installation straightforward Device Power adapter 24V / 0.38A PoE injector Faston connector for grounding (2) metal hose clamps Antenna tilt mounting kit","availability":"In stock","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":111,"fullCartonUnitPriceUsd":107.12,"imageUrl":"assets/catalog-data/public-images/mikrotik-lhg-5axd-xl-7e1e2ecedd.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a, 802.11ac, 802.11ax 5GHz MIMO 2 x 2 Type of antenna Built-in Antenna gain [dBi] 27 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 12 .. 28V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 5 Physical characteristics Design Outdoor Operating temperature [°C] 40 up to 70 Width [mm] 550 Height [mm] 550 Depth [mm] 245 Hardware CPU IPQ-5010 CPU frequency [MHz] 800 CPU cores 2 Internal storage [MB] 128 RAM [MB] 256"}
+{
+  "id": "mikrotik-lhg-5axd-xl",
+  "brand": "MikroTik",
+  "sku": "LHG-5axD-XL",
+  "title": "MikroTik RouterBOARD LHG-5axD-XL, LHG XL 5 ax",
+  "category": "MikroTik / Wireless / Outdoor units",
+  "description": "The LHG XL 5 ax is a lightweight wireless device with Wi-Fi 6 support for the 5 GHz band , featuring an integrated 27 dBi high-gain grid antenna that ensures excellent wind resistance. It is ideal for point-to-point links or as a client unit for long-distance connections. The unit is equipped with a Gigabit Ethernet port that supports passive PoE power supply in the range of 12â28 V The 802.11ax standard brings significant improvements for long-distance wireless links â including greater spectral efficiency, advanced modulation (1024-QAM), and lower latency. The result is higher performance even in noisy environments, and faster, more stable connections over greater distances. Combined with WPA3 encryption and the modern RouterOS v7 operating system, the LHG ax series is ready to meet the challenges of todayâs wireless networks Compared to conventional solutions, the LHG XL 5 ax features an integrated radio module placed directly in the antennaâs focal point, eliminating all RF cable losses The device is delivered in a compact and easy-to-assemble package , making transport and installation straightforward Device Power adapter 24V / 0.38A PoE injector Faston connector for grounding (2) metal hose clamps Antenna tilt mounting kit",
+  "availability": "In Stock 43 pcs.",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 111,
+  "fullCartonUnitPriceUsd": 107.12,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-lhg-5axd-xl-7e1e2ecedd.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a, 802.11ac, 802.11ax 5GHz MIMO 2 x 2 Type of antenna Built-in Antenna gain [dBi] 27 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 12 .. 28V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 5 Physical characteristics Design Outdoor Operating temperature [°C] 40 up to 70 Width [mm] 550 Height [mm] 550 Depth [mm] 245 Hardware CPU IPQ-5010 CPU frequency [MHz] 800 CPU cores 2 Internal storage [MB] 128 RAM [MB] 256",
+  "stockQtyVisible": 43,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-routerboard-lhg-5axd-xl-lhg-xl-5-ax_d129696.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-outdoor-units_c15888564.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Outdoor units"
+  ]
+}

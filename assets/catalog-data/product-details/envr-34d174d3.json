@@ -1,1 +1,27 @@
-{"id":"ubiquiti-envr","brand":"Ubiquiti","sku":"ENVR","title":"Ubiquiti ENVR - UniFi Enterprise Network Video Recorder","category":"Cameras, security / IP NVR Recorders / UniFi Video","description":"Notice: For this product, we provide individual project-based pricing depending on the configuration, scope, and conditions of the project. For more information, please contact your sales representative Ubiquiti UniFi Enterprise Network Video Recorder is a device from the Enterprise series designed for business environments This powerful recorder for UniFi Protect cameras, with a height of 3U and 16 bays for 2.5 / 3\" hard drives with RAID1 suppor, is capable of supporting up to 70 cameras at 4K (8MP) resolution, up to 140 cameras at 2K (4MP) resolution , or up to 210 cameras at FullHD (2MP) resolution . It is equipped with dual hot-swap power supplies, each rated at 550W . Up to 310W of power is allocated for hard drives. Network communication is provided via 1x 10G Ethernet and 2x 10G SFP+ ports Device Rails for 19\" rack Mounting kit for rails (2) 230V power cables (4) Cable management accessories","availability":"To order / expected","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":2579,"fullCartonUnitPriceUsd":2579,"imageUrl":"assets/catalog-data/public-images/ubiquiti-envr-eccc23fd14.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Image Max. recording resolution 8MP Connectors and Interfaces LAN speed (1) 10GE + (2) SFP+ Power Redundant power supply Yes Max. power consumption [W] 410 Power via connector/terminal 230V AC Physical characteristics Design Rackmount \"U\" positions 3 Operating temperature [°C] 5 up to 40 Weight [g] 19500 Width [mm] 482 Height [mm] 132 Depth [mm] 480 Hardware Number of supported IP cameras 210 Number of supported HDD 16 General Camera class UniFi Protect Software Raid level 1 - mirroring"}
+{
+  "id": "ubiquiti-envr",
+  "brand": "Ubiquiti",
+  "sku": "ENVR",
+  "title": "Ubiquiti ENVR - UniFi Enterprise Network Video Recorder",
+  "category": "Ubiquiti / Cameras, security / IP NVR Recorders / UniFi Video",
+  "description": "Notice: For this product, we provide individual project-based pricing depending on the configuration, scope, and conditions of the project. For more information, please contact your sales representative Ubiquiti UniFi Enterprise Network Video Recorder is a device from the Enterprise series designed for business environments This powerful recorder for UniFi Protect cameras, with a height of 3U and 16 bays for 2.5 / 3\" hard drives with RAID1 suppor, is capable of supporting up to 70 cameras at 4K (8MP) resolution, up to 140 cameras at 2K (4MP) resolution , or up to 210 cameras at FullHD (2MP) resolution . It is equipped with dual hot-swap power supplies, each rated at 550W . Up to 310W of power is allocated for hard drives. Network communication is provided via 1x 10G Ethernet and 2x 10G SFP+ ports Device Rails for 19\" rack Mounting kit for rails (2) 230V power cables (4) Cable management accessories",
+  "availability": "In Stock > 5 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 2579,
+  "fullCartonUnitPriceUsd": 2579,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-envr-eccc23fd14.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Image Max. recording resolution 8MP Connectors and Interfaces LAN speed (1) 10GE + (2) SFP+ Power Redundant power supply Yes Max. power consumption [W] 410 Power via connector/terminal 230V AC Physical characteristics Design Rackmount \"U\" positions 3 Operating temperature [°C] 5 up to 40 Weight [g] 19500 Width [mm] 482 Height [mm] 132 Depth [mm] 480 Hardware Number of supported IP cameras 210 Number of supported HDD 16 General Camera class UniFi Protect Software Raid level 1 - mirroring",
+  "stockQtyVisible": 7,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-envr-unifi-enterprise-network-video-recorder_d130162.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-ip-nvr-recorders-unifi-video_c15944704.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "IP NVR Recorders",
+    "UniFi Video"
+  ]
+}

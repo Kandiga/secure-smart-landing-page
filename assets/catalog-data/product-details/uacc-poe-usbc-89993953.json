@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-poe-usbc","brand":"Ubiquiti","sku":"UACC-PoE+-USBC","title":"Ubiquiti UACC-PoE+-USBC, PoE Integrated AC Adapter","category":"Powering / Pasive PoE / PoE injectors","description":"An AC adapter with integrated PoE, enabling the UniFi Cloud Gateway device to support PoE output on a single port. Adapter is equiped with USB-C 5V/5A output and integrated PoE 48V/0.65A . PoE power is supplied on all pins: 1, 2, 4, 5 (+) and 3, 6, 7, 8 (-). The adapter supports LAN speeds of up to 10Gb . The USB-C/Ethernet cable is 150 cm long, while the power cable is 180 cm long. With this adapter, you can connect your home router with USB-C power and an antenna or LTE for internet access… Compatible with: UCG-Ultra UCG-Max UXG-Lite UXG-Max UX","availability":"In stock","unitPerCarton":9,"warranty":"24 months","displayPriceUsd":54,"fullCartonUnitPriceUsd":52.11,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-poe-usbc-e33f831dce.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000/2500/5000/10000 Gigabit LAN Yes Power The input voltage [V] 230V AC Pin powering 1,2,4,5 (+), 3,6,7,8 (-) PoE Out ports 1 Output Voltage [V] 48 Output Current [A] 0,65"}
+{
+  "id": "ubiquiti-uacc-poe-usbc",
+  "brand": "Ubiquiti",
+  "sku": "UACC-PoE+-USBC",
+  "title": "Ubiquiti UACC-PoE+-USBC, PoE Integrated AC Adapter",
+  "category": "Ubiquiti / Powering / Pasive PoE / PoE injectors",
+  "description": "An AC adapter with integrated PoE, enabling the UniFi Cloud Gateway device to support PoE output on a single port. Adapter is equiped with USB-C 5V/5A output and integrated PoE 48V/0.65A . PoE power is supplied on all pins: 1, 2, 4, 5 (+) and 3, 6, 7, 8 (-). The adapter supports LAN speeds of up to 10Gb . The USB-C/Ethernet cable is 150 cm long, while the power cable is 180 cm long. With this adapter, you can connect your home router with USB-C power and an antenna or LTE for internet access… Compatible with: UCG-Ultra UCG-Max UXG-Lite UXG-Max UX",
+  "availability": "In Stock 20 pcs.",
+  "unitPerCarton": 9,
+  "warranty": "24 months",
+  "displayPriceUsd": 54,
+  "fullCartonUnitPriceUsd": 52.11,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-poe-usbc-e33f831dce.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000/2500/5000/10000 Gigabit LAN Yes Power The input voltage [V] 230V AC Pin powering 1,2,4,5 (+), 3,6,7,8 (-) PoE Out ports 1 Output Voltage [V] 48 Output Current [A] 0,65",
+  "stockQtyVisible": 20,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-poe-usbc-poe-integrated-ac-adapter_d128972.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-pasive-poe-poe-injectors_c16591506.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Pasive PoE",
+    "PoE injectors"
+  ]
+}

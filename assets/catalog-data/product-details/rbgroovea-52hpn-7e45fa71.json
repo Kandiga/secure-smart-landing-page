@@ -1,1 +1,26 @@
-{"id":"mikrotik-rbgroovea-52hpn","brand":"MikroTik","sku":"RBGrooveA-52HPn","title":"MikroTik RBGrooveA-52HPn","category":"Wireless / Outdoor units / MikroTik","description":"Our smallest outdoor series model - a fully featured wireless RouterBOARD powered by RouterOS. Weatherproof, durable and ready to use. It has one 10/100 Ethernet port with PoE support and a built in wireless radio. It has software selectable 2 or 5GHz wireless mode, and high 500mW output power! GrooveA has also supports AP mode With the Nv2 TDMA technology, up to 125Mbit aggregate throughput is possible! It has a built-in N-male connector, and pole attachment points, so you can attach it to an antenna directly, or use a standard antenna cable. LED signal indicators make it easy to install and align Device Power adapter 24V/0.38A PoE injector 6dBi 2.4/5Ghz Omni antenna Metal ring","availability":"To order / expected","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":74,"fullCartonUnitPriceUsd":71.41,"imageUrl":"assets/catalog-data/public-images/mikrotik-rbgroovea-52hpn-0dfa3a93bd.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Tx power [dBm] 27 Wireless frequency 2.4 GHz, 5 GHz WiFi standards 802.11b/g, 802.11a, 802.11n Transmission speed - 5GHz [Mb/s] 150 Transmission speed - 2.4GHz [Mb/s] 150 2.4GHz MIMO 1 x 1 SISO 5GHz MIMO 1 x 1 SISO Type of antenna Detachable Connectors and Interfaces RF connectors (1) N male LAN speed (1) 10/100Mbps Power Power over Ethernet 9 .. 30V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 4,5 Physical characteristics Design Outdoor Operating temperature [°C] 30 up to 70 Width [mm] 44 Height [mm] 177 Depth [mm] 44 Hardware CPU AR9342 CPU frequency [MHz] 600 CPU cores 1 Internal storage [MB] 128 RAM [MB] 128"}
+{
+  "id": "mikrotik-rbgroovea-52hpn",
+  "brand": "MikroTik",
+  "sku": "RBGrooveA-52HPn",
+  "title": "MikroTik RBGrooveA-52HPn",
+  "category": "MikroTik / Wireless / Outdoor units",
+  "description": "Our smallest outdoor series model - a fully featured wireless RouterBOARD powered by RouterOS. Weatherproof, durable and ready to use. It has one 10/100 Ethernet port with PoE support and a built in wireless radio. It has software selectable 2 or 5GHz wireless mode, and high 500mW output power! GrooveA has also supports AP mode With the Nv2 TDMA technology, up to 125Mbit aggregate throughput is possible! It has a built-in N-male connector, and pole attachment points, so you can attach it to an antenna directly, or use a standard antenna cable. LED signal indicators make it easy to install and align Device Power adapter 24V/0.38A PoE injector 6dBi 2.4/5Ghz Omni antenna Metal ring",
+  "availability": "Expected 9.6.2026",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 74,
+  "fullCartonUnitPriceUsd": 71.41,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rbgroovea-52hpn-0dfa3a93bd.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Tx power [dBm] 27 Wireless frequency 2.4 GHz, 5 GHz WiFi standards 802.11b/g, 802.11a, 802.11n Transmission speed - 5GHz [Mb/s] 150 Transmission speed - 2.4GHz [Mb/s] 150 2.4GHz MIMO 1 x 1 SISO 5GHz MIMO 1 x 1 SISO Type of antenna Detachable Connectors and Interfaces RF connectors (1) N male LAN speed (1) 10/100Mbps Power Power over Ethernet 9 .. 30V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 4,5 Physical characteristics Design Outdoor Operating temperature [°C] 30 up to 70 Width [mm] 44 Height [mm] 177 Depth [mm] 44 Hardware CPU AR9342 CPU frequency [MHz] 600 CPU cores 1 Internal storage [MB] 128 RAM [MB] 128",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-rbgroovea-52hpn_d49613.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-outdoor-units_c15888564.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Outdoor units"
+  ]
+}

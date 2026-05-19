@@ -1,1 +1,27 @@
-{"id":"ubiquiti-usw-24","brand":"Ubiquiti","sku":"USW-24","title":"Ubiquiti UniFi Switch USW-24","category":"LAN networks / Switches / UniFi Switches","description":"The USW-24 is a configurable Layer 2 switch with 24 Gigabit Ethernet ports and 2 SFP ports. The SFP ports provide 1 Gbps fiber uplink options to your enterprise network. The USW-24 features a 1.3\" touchscreen, compact size, and fanless design . The touchscreen displays the current switch state and information for quick diagnosis. Managed and configured by the UniFi Network Controller with UniFi mobile app support, the USW-24 switch offers an extensive suite of advanced Layer 2 switching… Managed and configured by the UniFi Network Controller with UniFi mobile app support, the USW-24-POE offers an extensive suite of advanced Layer 2 switching protocols and features, including operation mode (switching, mirroring, or aggregate) per port. The UniFi Network Controller and mobile app allow admins to configure and monitor virtually all of the switch features in a graphical user interface from anywhere On the touch screen , you can immediately see the most important information such as error conditions, warnings, port statistics, power consumption of connected devices, network load and more Device Power adapter Rackmount ears","availability":"To order / expected","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":270,"fullCartonUnitPriceUsd":260.55,"imageUrl":"assets/catalog-data/public-images/ubiquiti-usw-24-ca0937b428.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (24) 10/100/1000Mbps Optical interfaces (2) 1000Mbps Other features Touchscreen Power Power type Mains power (230V) Max. power consumption [W] 25 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans No Chassis design Metal Operating temperature [°C] 5 up to 45 Width [mm] 442 Height [mm] 44 Depth [mm] 200 General Switchning capacity [Gbps] 52 MAC address table 16000 Jumbo frame [Bytes] 9000 Packet forwarding rate [Mpps] 39"}
+{
+  "id": "ubiquiti-usw-24",
+  "brand": "Ubiquiti",
+  "sku": "USW-24",
+  "title": "Ubiquiti UniFi Switch USW-24",
+  "category": "Ubiquiti / LAN networks / Switches / UniFi Switches",
+  "description": "The USW-24 is a configurable Layer 2 switch with 24 Gigabit Ethernet ports and 2 SFP ports. The SFP ports provide 1 Gbps fiber uplink options to your enterprise network. The USW-24 features a 1.3\" touchscreen, compact size, and fanless design . The touchscreen displays the current switch state and information for quick diagnosis. Managed and configured by the UniFi Network Controller with UniFi mobile app support, the USW-24 switch offers an extensive suite of advanced Layer 2 switching… Managed and configured by the UniFi Network Controller with UniFi mobile app support, the USW-24-POE offers an extensive suite of advanced Layer 2 switching protocols and features, including operation mode (switching, mirroring, or aggregate) per port. The UniFi Network Controller and mobile app allow admins to configure and monitor virtually all of the switch features in a graphical user interface from anywhere On the touch screen , you can immediately see the most important information such as error conditions, warnings, port statistics, power consumption of connected devices, network load and more Device Power adapter Rackmount ears",
+  "availability": "In Stock 29 pcs.",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 270,
+  "fullCartonUnitPriceUsd": 260.55,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-usw-24-ca0937b428.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (24) 10/100/1000Mbps Optical interfaces (2) 1000Mbps Other features Touchscreen Power Power type Mains power (230V) Max. power consumption [W] 25 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans No Chassis design Metal Operating temperature [°C] 5 up to 45 Width [mm] 442 Height [mm] 44 Depth [mm] 200 General Switchning capacity [Gbps] 52 MAC address table 16000 Jumbo frame [Bytes] 9000 Packet forwarding rate [Mpps] 39",
+  "stockQtyVisible": 29,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-switch-usw-24_d97727.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-unifi-switches_c16172908.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "UniFi Switches"
+  ]
+}

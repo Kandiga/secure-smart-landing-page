@@ -1,1 +1,26 @@
-{"id":"ubiquiti-quick-mount","brand":"Ubiquiti","sku":"Quick-Mount","title":"Ubiquiti Quick-Mount for Ubiquiti CPE Products","category":"Wireless / Accessories / Mounting brackets","description":"Toolless Quick-Mounts for Ubiquiti CPE Products Designed for additional mounting flexibility and device alignment options, the Quick-Mount accessory kit features an easy-to-use, toolless design No tools required Quick and easy installation Supports NanoStation, NanoStation Loco, and NanoBeam devices Flexible, easy alignment NBE-2AC-13 NBE-M5-16 UBB GBE NBE-5AC-Gen2 NBE-M5-19 loco5AC NS-5AC LTU-Lite GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"To order / expected","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":23,"fullCartonUnitPriceUsd":22.2,"imageUrl":"assets/catalog-data/public-images/ubiquiti-quick-mount-31af0ad6f9.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-quick-mount",
+  "brand": "Ubiquiti",
+  "sku": "Quick-Mount",
+  "title": "Ubiquiti Quick-Mount for Ubiquiti CPE Products",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "Toolless Quick-Mounts for Ubiquiti CPE Products Designed for additional mounting flexibility and device alignment options, the Quick-Mount accessory kit features an easy-to-use, toolless design No tools required Quick and easy installation Supports NanoStation, NanoStation Loco, and NanoBeam devices Flexible, easy alignment NBE-2AC-13 NBE-M5-16 UBB GBE NBE-5AC-Gen2 NBE-M5-19 loco5AC NS-5AC LTU-Lite GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "Expected 20.6.2026",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 23,
+  "fullCartonUnitPriceUsd": 22.2,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-quick-mount-31af0ad6f9.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-quick-mount-for-ubiquiti-cpe-products_d97713.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

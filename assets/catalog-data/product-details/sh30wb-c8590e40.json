@@ -1,1 +1,46 @@
-{"id":"rf-elements-sh30wb","brand":"RF elements","sku":"SH30WB","title":"RF elements Symmetrical Horn Sector antenna with TwistPort, 5/6GHz, 18 dBi, 30°","category":"Wireless / Antennas / Antennas with TwistPort","description":"30° Symmetrical Horn Antennas have a symmetrical beam pattern with depressed sidelobes. They offer excellent noise rejection and supreme scalability options. They are perfect for high-density AP clusters and dense co-location deployments Wideband performance covering 5 & 6 GHz unlicensed spectrum bands Industry-changing TwistPortâ¢ waveguide connector. Connect directly to waveguide ported radios or use TP Adaptor to common coaxial connectors Built of high grade aluminum for extreme outdoor resistance including harsh salt water environments Extremely lightweigth for low tower load Compact for low wind loading UBR mounting bracket with stainless steel hardware with anti-seize coating Industry leading ergonomics with integrated handle for easy deployment","availability":"To order / expected","unitPerCarton":5,"warranty":"24 months","displayPriceUsd":250,"fullCartonUnitPriceUsd":241.25,"imageUrl":"assets/catalog-data/public-images/rf-elements-sh30wb-f99104e5a1.jpg","documents":[],"shippingDimensions":{"unit":{"dimensionCount":1,"lengthCm":0,"widthCm":0,"heightCm":0,"volumeCm3":0,"weightKg":3.288},"carton":{"pcsPerCarton":5,"lengthCm":119,"widthCm":39,"heightCm":27,"volumeCm3":125307,"weightKg":15}},"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features MIMO, SISO 2 x 2 Polarization VH F/B ratio [dB] 30 Wireless frequency 5 GHz, 6 GHz Elevation beam width (-6dB) [°] 30 Azimuth beam width (-6dB) [°] 30 Antenna type Sector Antenna gain [dBi] 18 Physical characteristics Designed for mast diameter [mm] 40 up to 80 Wind load [km/h] 160 Protection class IP65 Purpose Outdoor Material Aluminum, UV stabilized ABS plastic, Stainless steel Operating temperature [°C] 35 up to 60 Weight [kg] 2,3 Width [mm] 216 Height [mm] 239 Depth [mm] 246"}
+{
+  "id": "rf-elements-sh30wb",
+  "brand": "RF elements",
+  "sku": "SH30WB",
+  "title": "RF elements Symmetrical Horn Sector antenna with TwistPort, 5/6GHz, 18 dBi, 30°",
+  "category": "RF elements / Wireless / Antennas / Sector antennas / 5GHz",
+  "description": "30° Symmetrical Horn Antennas have a symmetrical beam pattern with depressed sidelobes. They offer excellent noise rejection and supreme scalability options. They are perfect for high-density AP clusters and dense co-location deployments Wideband performance covering 5 & 6 GHz unlicensed spectrum bands Industry-changing TwistPortâ¢ waveguide connector. Connect directly to waveguide ported radios or use TP Adaptor to common coaxial connectors Built of high grade aluminum for extreme outdoor resistance including harsh salt water environments Extremely lightweigth for low tower load Compact for low wind loading UBR mounting bracket with stainless steel hardware with anti-seize coating Industry leading ergonomics with integrated handle for easy deployment",
+  "availability": "Expected 30.7.2026",
+  "unitPerCarton": 5,
+  "warranty": "24 months",
+  "displayPriceUsd": 250,
+  "fullCartonUnitPriceUsd": 241.25,
+  "imageUrl": "assets/catalog-data/public-images/rf-elements-sh30wb-f99104e5a1.jpg",
+  "documents": [],
+  "shippingDimensions": {
+    "unit": {
+      "dimensionCount": 1,
+      "lengthCm": 0,
+      "widthCm": 0,
+      "heightCm": 0,
+      "volumeCm3": 0,
+      "weightKg": 3.288
+    },
+    "carton": {
+      "pcsPerCarton": 5,
+      "lengthCm": 119,
+      "widthCm": 39,
+      "heightCm": 27,
+      "volumeCm3": 125307,
+      "weightKg": 15
+    }
+  },
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 Polarization VH F/B ratio [dB] 30 Wireless frequency 5 GHz, 6 GHz Elevation beam width (-6dB) [°] 30 Azimuth beam width (-6dB) [°] 30 Antenna type Sector Antenna gain [dBi] 18 Physical characteristics Designed for mast diameter [mm] 40 up to 80 Wind load [km/h] 160 Protection class IP65 Purpose Outdoor Material Aluminum, UV stabilized ABS plastic, Stainless steel Operating temperature [°C] 35 up to 60 Weight [kg] 2,3 Width [mm] 216 Height [mm] 239 Depth [mm] 246",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/rf-elements-symmetrical-horn-sector-antenna-with-twistport-5-6ghz-18-dbi-30-_d126806.html",
+  "discompCategoryUrl": "https://www.discomp.cz/rf-elements-wireless-antennas-sector-antennas-5ghz_c15888335.html",
+  "discompSourcePath": [
+    "RF elements",
+    "Wireless",
+    "Antennas",
+    "Sector antennas",
+    "5GHz"
+  ]
+}

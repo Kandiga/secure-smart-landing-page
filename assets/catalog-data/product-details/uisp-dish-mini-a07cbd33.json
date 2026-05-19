@@ -1,1 +1,28 @@
-{"id":"ubiquiti-uisp-dish-mini","brand":"Ubiquiti","sku":"UISP-Dish-Mini","title":"Ubiquiti UISP-Dish-Mini parabolic antenna, 26dBi, 5-7GHz","category":"Wireless / Antennas / Directional antennas / 5GHz","description":"The Ubiquiti UISP Dish Mini is a well-designed parabolic antenna with a 420 mm diameter and a gain of 26 dBi . Its special WaveGuide adapter allows compatibility with Wave MLO5, airFiber 5XHD, and Rocket Prism units. The direct connection between the antenna and the radio eliminates the need for RF cables , simplifying installation, saving space on the mast, reducing signal loss, and minimizing the risk of water ingress The precisely engineered shape of the feed and dish allows for a total depth of just 21 cm (including the radio mount). The antenna supports a wide frequency range of 5150 â 6875 MHz . The bracket design enables easy mounting on masts with a diameter of 25 â 75 mm Antenna with feed WaveGuide adapter Mast mount","availability":"In stock","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":179,"fullCartonUnitPriceUsd":172.74,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uisp-dish-mini-b34c20c49e.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 2,0 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 7,6 Azimuth beam width (-6dB) [°] 7,6 Antenna type Directional Antenna gain [dBi] 26 Connectors and Interfaces RF connectors WaveGuide"}
+{
+  "id": "ubiquiti-uisp-dish-mini",
+  "brand": "Ubiquiti",
+  "sku": "UISP-Dish-Mini",
+  "title": "Ubiquiti UISP-Dish-Mini parabolic antenna, 26dBi, 5-7GHz",
+  "category": "Ubiquiti / Wireless / Antennas / Directional antennas / 5GHz",
+  "description": "The Ubiquiti UISP Dish Mini is a well-designed parabolic antenna with a 420 mm diameter and a gain of 26 dBi . Its special WaveGuide adapter allows compatibility with Wave MLO5, airFiber 5XHD, and Rocket Prism units. The direct connection between the antenna and the radio eliminates the need for RF cables , simplifying installation, saving space on the mast, reducing signal loss, and minimizing the risk of water ingress The precisely engineered shape of the feed and dish allows for a total depth of just 21 cm (including the radio mount). The antenna supports a wide frequency range of 5150 â 6875 MHz . The bracket design enables easy mounting on masts with a diameter of 25 â 75 mm Antenna with feed WaveGuide adapter Mast mount",
+  "availability": "In Stock 15 pcs.",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 179,
+  "fullCartonUnitPriceUsd": 172.74,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uisp-dish-mini-b34c20c49e.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 2,0 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 7,6 Azimuth beam width (-6dB) [°] 7,6 Antenna type Directional Antenna gain [dBi] 26 Connectors and Interfaces RF connectors WaveGuide",
+  "stockQtyVisible": 15,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uisp-dish-mini-parabolic-antenna-26dbi-5-7ghz_d129881.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-antennas-directional-antennas-5ghz_c15888480.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Antennas",
+    "Directional antennas",
+    "5GHz"
+  ]
+}

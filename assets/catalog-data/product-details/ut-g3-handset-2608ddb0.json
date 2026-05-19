@@ -1,1 +1,26 @@
-{"id":"ubiquiti-ut-g3-handset","brand":"Ubiquiti","sku":"UT-G3-Handset","title":"Ubiquiti UT-G3-Handset, wireless handset for UTP G3 Phones","category":"VoIP / VoIP Phones","description":"The Ubiquiti UT-G3-Handset is a wireless handset designed for third-generation UniFi VOIP phones, connecting via Bluetooth. The handset features Mute, Volume +/-, and call answer/end buttons. An integrated omnidirectional microphone and high-quality speaker ensure clear audio transmission. A long battery life is provided by a 1000 mAh Li-ion battery. The handset replaces the original wired receiver and charges directly through the phone UTP-G3-Touch-Pro UTP-G3-Touch-Enterprise UTP-G3-Wall","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":109,"fullCartonUnitPriceUsd":105.19,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ut-g3-handset-e21d606632.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Image Screen size [\"] 0,96 Display resolution 80 x 160 Connectors and Interfaces Other features Bluetooth"}
+{
+  "id": "ubiquiti-ut-g3-handset",
+  "brand": "Ubiquiti",
+  "sku": "UT-G3-Handset",
+  "title": "Ubiquiti UT-G3-Handset, wireless handset for UTP G3 Phones",
+  "category": "Ubiquiti / VoIP / VoIP Phones",
+  "description": "The Ubiquiti UT-G3-Handset is a wireless handset designed for third-generation UniFi VOIP phones, connecting via Bluetooth. The handset features Mute, Volume +/-, and call answer/end buttons. An integrated omnidirectional microphone and high-quality speaker ensure clear audio transmission. A long battery life is provided by a 1000 mAh Li-ion battery. The handset replaces the original wired receiver and charges directly through the phone UTP-G3-Touch-Pro UTP-G3-Touch-Enterprise UTP-G3-Wall",
+  "availability": "In Stock 3 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 109,
+  "fullCartonUnitPriceUsd": 105.19,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ut-g3-handset-e21d606632.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Image Screen size [\"] 0,96 Display resolution 80 x 160 Connectors and Interfaces Other features Bluetooth",
+  "stockQtyVisible": 3,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-ut-g3-handset-wireless-handset-for-utp-g3-phones_d128786.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-voip-voip-phones_c16592069.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "VoIP",
+    "VoIP Phones"
+  ]
+}

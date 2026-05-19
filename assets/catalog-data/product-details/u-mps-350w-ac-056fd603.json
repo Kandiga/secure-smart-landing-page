@@ -1,1 +1,25 @@
-{"id":"ubiquiti-u-mps-350w-ac","brand":"Ubiquiti","sku":"U-MPS-350W-AC","title":"Ubiquiti U-MPS-350W-AC, Power Supply, AC/DC, 350W","category":"Powering / Other power supply","description":"U-MPS-350W-AC is a backup power module with a power of 350W and is designed for selected Ubiquiti UniFi PoE Switches in a 19\" rack with removable power supplies. The power supply can be used as an auxiliary power supply for supplying another 350W PoE output or as a backup to the primary power supply. The output voltage of the module is 54V DC US-L2-24-POE US-L2-48-POE","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":124,"fullCartonUnitPriceUsd":124,"imageUrl":"assets/catalog-data/public-images/ubiquiti-u-mps-350w-ac-2925a49fef.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "ubiquiti-u-mps-350w-ac",
+  "brand": "Ubiquiti",
+  "sku": "U-MPS-350W-AC",
+  "title": "Ubiquiti U-MPS-350W-AC, Power Supply, AC/DC, 350W",
+  "category": "Ubiquiti / Powering / Other power supply",
+  "description": "U-MPS-350W-AC is a backup power module with a power of 350W and is designed for selected Ubiquiti UniFi PoE Switches in a 19\" rack with removable power supplies. The power supply can be used as an auxiliary power supply for supplying another 350W PoE output or as a backup to the primary power supply. The output voltage of the module is 54V DC US-L2-24-POE US-L2-48-POE",
+  "availability": "In Stock 6 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 124,
+  "fullCartonUnitPriceUsd": 124,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-u-mps-350w-ac-2925a49fef.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 6,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-u-mps-350w-ac-power-supply-ac-dc-350w_d84026.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-other-power-supply_c14513341.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Other power supply"
+  ]
+}

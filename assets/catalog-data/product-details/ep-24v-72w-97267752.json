@@ -1,1 +1,27 @@
-{"id":"ubiquiti-ep-24v-72w","brand":"Ubiquiti","sku":"EP-24V-72W","title":"Ubiquiti EP-24V-72W, EdgePower, 24V, 72W","category":"Powering / Industrial powersource / Power sources with charging (UPS)","description":"The EdgePower 24V 72W is a UNMS monitored and managed 24V DC power supply with integrated battery backup. This product provides WISPs with an easy-to-install 24V redundant power supply that includes a management user interface and simple 12V battery backup charger with multiple 24V outputs for small sites 100-240VAC, 50-60 Hz, Universal Input 24V DC Output (terminal connector with dual DC barrel jack included) 12V Lead Acid Battery Input* Two, 10/100 Ethernet, 24V Passive PoE output, switch-ports *12V Battery not included Device Power cord Mount brackets Screws and Anchors Powe cable with DC jack Power cable with Ring Terminals","availability":"To order / expected","unitPerCarton":8,"warranty":"24 months","displayPriceUsd":179,"fullCartonUnitPriceUsd":172.74,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ep-24v-72w-1a8a4e3423.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (2) 10/100Mbps Power Pin powering 4,5 (+), 7,8 (-) Charging function Yes PoE-Out standards Passive 24V Power [W] 72 Redundant power supply Yes PoE Out ports 2 Output Voltage [V] 24 PoE budget [W] 72 Output Current [A] 3 Max. power consumption [W] 2 Power via connector/terminal 230V AC Physical characteristics Max. operating humidity [%] 90 Construction Rackmount Input and output power Terminal block Buttons Reset Operating temperature [°C] 0 up to 40 Weight [g] 650 Width [mm] 192 Height [mm] 44 Depth [mm] 115"}
+{
+  "id": "ubiquiti-ep-24v-72w",
+  "brand": "Ubiquiti",
+  "sku": "EP-24V-72W",
+  "title": "Ubiquiti EP-24V-72W, EdgePower, 24V, 72W",
+  "category": "Ubiquiti / Powering / Industrial powersource / Power sources with charging (UPS)",
+  "description": "The EdgePower 24V 72W is a UNMS monitored and managed 24V DC power supply with integrated battery backup. This product provides WISPs with an easy-to-install 24V redundant power supply that includes a management user interface and simple 12V battery backup charger with multiple 24V outputs for small sites 100-240VAC, 50-60 Hz, Universal Input 24V DC Output (terminal connector with dual DC barrel jack included) 12V Lead Acid Battery Input* Two, 10/100 Ethernet, 24V Passive PoE output, switch-ports *12V Battery not included Device Power cord Mount brackets Screws and Anchors Powe cable with DC jack Power cable with Ring Terminals",
+  "availability": "Not In Stock",
+  "unitPerCarton": 8,
+  "warranty": "24 months",
+  "displayPriceUsd": 179,
+  "fullCartonUnitPriceUsd": 172.74,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ep-24v-72w-1a8a4e3423.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (2) 10/100Mbps Power Pin powering 4,5 (+), 7,8 (-) Charging function Yes PoE-Out standards Passive 24V Power [W] 72 Redundant power supply Yes PoE Out ports 2 Output Voltage [V] 24 PoE budget [W] 72 Output Current [A] 3 Max. power consumption [W] 2 Power via connector/terminal 230V AC Physical characteristics Max. operating humidity [%] 90 Construction Rackmount Input and output power Terminal block Buttons Reset Operating temperature [°C] 0 up to 40 Weight [g] 650 Width [mm] 192 Height [mm] 44 Depth [mm] 115",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-ep-24v-72w-edgepower-24v-72w_d90940.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-industrial-powersource-power-sources-with-charging-ups-_c16591512.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Industrial powersource",
+    "Power sources with charging (UPS)"
+  ]
+}

@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-rack-pm-kit","brand":"Ubiquiti","sku":"UACC-Rack-PM-Kit","title":"Ubiquiti UACC-Rack-PM-Kit - Rack mount kit, 20-Pack","category":"Cabinets / Accessories / Installation kits","description":"1U snap-in inserts with two threads for easy and precise rack installation. The possibility to pair multiple inserts for mounting larger devices (20) inserts (40) screws","availability":"In stock","unitPerCarton":27,"warranty":"24 months","displayPriceUsd":59,"fullCartonUnitPriceUsd":56.94,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-rack-pm-kit-3bba5154fa.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-rack-pm-kit",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Rack-PM-Kit",
+  "title": "Ubiquiti UACC-Rack-PM-Kit - Rack mount kit, 20-Pack",
+  "category": "Ubiquiti / Cabinets / Accessories / Installation kits",
+  "description": "1U snap-in inserts with two threads for easy and precise rack installation. The possibility to pair multiple inserts for mounting larger devices (20) inserts (40) screws",
+  "availability": "In Stock 13 pcs.",
+  "unitPerCarton": 27,
+  "warranty": "24 months",
+  "displayPriceUsd": 59,
+  "fullCartonUnitPriceUsd": 56.94,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-rack-pm-kit-3bba5154fa.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 13,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-rack-pm-kit-rack-mount-kit-20-pack_d128403.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cabinets-accessories-installation-kits_c16591901.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cabinets",
+    "Accessories",
+    "Installation kits"
+  ]
+}

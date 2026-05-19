@@ -1,1 +1,26 @@
-{"id":"mikrotik-ccr2004-16g-2s","brand":"MikroTik","sku":"CCR2004-16G-2S+","title":"MikroTik Cloud Core Router, CCR2004-16G-2S+","category":"Wireless / MikroTik / RouterBOARD","description":"CCR2004-16G-2S+ is a 19\" rack router from the new line of CCR routers, which comes with the highest ratio power per 1 core of all CCRs, which is the most important aspect for more demanding operations based on processing per-connection (eg. QoS). The router is powered by a CPU with a 64bit ARM architecture with a clock speed of 1 700 MHz, has 4GB of DDR4 RAM and 128MB of NAND storage The router has 16Ã Gigabit LAN , 2Ã SFP+ slot (possibility to connect 1G and 10G modules) and serial port type RJ45. On the back, the router has two fans and 2 redundant sources Powerful rackmount device with ARM 64bit architecture CPU 1700 MHz, 4 cores, 4GB RAM, 128MB NAND Redundant power - 2 sources Active cooling due to 2 fans Interface: (16) Gigabit, (2) SFP/SFP+ Pre-installed RouterOS L6 Device Rack mounts (2) Power cord","availability":"In stock","unitPerCarton":5,"warranty":"24 months","displayPriceUsd":438,"fullCartonUnitPriceUsd":422.67,"imageUrl":"assets/catalog-data/public-images/mikrotik-ccr2004-16g-2s-e2b7d622a0.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Multiple WAN Yes LAN speed (16) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (2) 1G/10Gbps Serial port RJ45 Power Power type Mains power (230V) Max. power consumption [W] 48 Power via connector/terminal 230V AC Physical characteristics Design Rackmount \"U\" positions 1 Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 20 up to 60 Width [mm] 443 Height [mm] 44 Depth [mm] 210 Hardware CPU AL32400 CPU frequency [MHz] 1700 CPU cores 4 Internal storage [MB] 128 RAM [MB] 4096"}
+{
+  "id": "mikrotik-ccr2004-16g-2s",
+  "brand": "MikroTik",
+  "sku": "CCR2004-16G-2S+",
+  "title": "MikroTik Cloud Core Router, CCR2004-16G-2S+",
+  "category": "MikroTik / Wireless / RouterBOARD",
+  "description": "CCR2004-16G-2S+ is a 19\" rack router from the new line of CCR routers, which comes with the highest ratio power per 1 core of all CCRs, which is the most important aspect for more demanding operations based on processing per-connection (eg. QoS). The router is powered by a CPU with a 64bit ARM architecture with a clock speed of 1 700 MHz, has 4GB of DDR4 RAM and 128MB of NAND storage The router has 16Ã Gigabit LAN , 2Ã SFP+ slot (possibility to connect 1G and 10G modules) and serial port type RJ45. On the back, the router has two fans and 2 redundant sources Powerful rackmount device with ARM 64bit architecture CPU 1700 MHz, 4 cores, 4GB RAM, 128MB NAND Redundant power - 2 sources Active cooling due to 2 fans Interface: (16) Gigabit, (2) SFP/SFP+ Pre-installed RouterOS L6 Device Rack mounts (2) Power cord",
+  "availability": "In Stock 32 pcs.",
+  "unitPerCarton": 5,
+  "warranty": "24 months",
+  "displayPriceUsd": 438,
+  "fullCartonUnitPriceUsd": 422.67,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-ccr2004-16g-2s-e2b7d622a0.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Multiple WAN Yes LAN speed (16) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (2) 1G/10Gbps Serial port RJ45 Power Power type Mains power (230V) Max. power consumption [W] 48 Power via connector/terminal 230V AC Physical characteristics Design Rackmount \"U\" positions 1 Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 20 up to 60 Width [mm] 443 Height [mm] 44 Depth [mm] 210 Hardware CPU AL32400 CPU frequency [MHz] 1700 CPU cores 4 Internal storage [MB] 128 RAM [MB] 4096",
+  "stockQtyVisible": 32,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-cloud-core-router-ccr2004-16g-2s-_d110170.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-routerboard_c16588560.html?page=2",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "RouterBOARD"
+  ]
+}

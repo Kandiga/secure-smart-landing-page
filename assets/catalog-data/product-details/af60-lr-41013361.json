@@ -1,1 +1,27 @@
-{"id":"ubiquiti-af60-lr","brand":"Ubiquiti","sku":"AF60-LR","title":"Ubiquiti AF60-LR, airFiber 60 LR, price per piece","category":"Wireless / PtP Backhaul / 60GHz","description":"UBNT AF60-LR, airFiber 60 LR is an improved/more powerful version of the 60 GHz (57 to 71 GHz) link from Ubiquiti with Wave technology for long-distance data transmission. It is a Gigabit PTP 60 GHz solution for a maximum distance of up to 12 km with the possibility of setting both the classic bandwidth 2160 MHz and half the bandwidth of 1080 MHz for maximum transfer rate 1.8 Gbps AirFiber 60 LR is a very robust unit including a metal precision holder, a mesh parabolic antenna with a gain of 38 dBi and 3 plastic legs holding a radiator, which contains a 60GHz radio unit with Gigabit Ethernet port supporting passive 48V power supply and GPS module. In addition, the unit includes Bluetooth for quick setup via the UISP mobile app Device itself Precision Alignment Mount ( 60G-PM ) Gigabit PoE power adapter 48 V/0.65 A Power cord Radom cover","availability":"To order / expected","unitPerCarton":1,"warranty":"24 months","displayPriceUsd":352,"fullCartonUnitPriceUsd":352,"imageUrl":"assets/catalog-data/public-images/ubiquiti-af60-lr-630cb8e5c1.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Channel bandwidth [MHz] 1080, 2160 Output power 60GHz [dBm] 21 Antenna gain [dBi] 38 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Power Power over Ethernet 48V DC Power type PoE Max. power consumption [W] 18 Physical characteristics Designed for mast diameter [mm] 28 up to 50 Operating temperature [°C] 40 up to 60 Weight [g] 2700 Width [mm] 413 Height [mm] 413 Depth [mm] 360"}
+{
+  "id": "ubiquiti-af60-lr",
+  "brand": "Ubiquiti",
+  "sku": "AF60-LR",
+  "title": "Ubiquiti AF60-LR, airFiber 60 LR, price per piece",
+  "category": "Ubiquiti / Wireless / PtP Backhaul / 60GHz",
+  "description": "UBNT AF60-LR, airFiber 60 LR is an improved/more powerful version of the 60 GHz (57 to 71 GHz) link from Ubiquiti with Wave technology for long-distance data transmission. It is a Gigabit PTP 60 GHz solution for a maximum distance of up to 12 km with the possibility of setting both the classic bandwidth 2160 MHz and half the bandwidth of 1080 MHz for maximum transfer rate 1.8 Gbps AirFiber 60 LR is a very robust unit including a metal precision holder, a mesh parabolic antenna with a gain of 38 dBi and 3 plastic legs holding a radiator, which contains a 60GHz radio unit with Gigabit Ethernet port supporting passive 48V power supply and GPS module. In addition, the unit includes Bluetooth for quick setup via the UISP mobile app Device itself Precision Alignment Mount ( 60G-PM ) Gigabit PoE power adapter 48 V/0.65 A Power cord Radom cover",
+  "availability": "Not In Stock",
+  "unitPerCarton": 1,
+  "warranty": "24 months",
+  "displayPriceUsd": 352,
+  "fullCartonUnitPriceUsd": 352,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-af60-lr-630cb8e5c1.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Channel bandwidth [MHz] 1080, 2160 Output power 60GHz [dBm] 21 Antenna gain [dBi] 38 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Power Power over Ethernet 48V DC Power type PoE Max. power consumption [W] 18 Physical characteristics Designed for mast diameter [mm] 28 up to 50 Operating temperature [°C] 40 up to 60 Weight [g] 2700 Width [mm] 413 Height [mm] 413 Depth [mm] 360",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-af60-lr-airfiber-60-lr-price-per-piece_d99992.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-ptp-backhaul-60ghz_c16591519.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "PtP Backhaul",
+    "60GHz"
+  ]
+}

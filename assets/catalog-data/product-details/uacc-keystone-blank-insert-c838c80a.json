@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-keystone-blank-insert","brand":"Ubiquiti","sku":"UACC-Keystone-Blank-Insert","title":"Ubiquiti UACC-Keystone-Blank-Insert for patch panel (24pcs)","category":"Cabinets / Accessories / Blanking panels","description":"24-pack of snap-in inserts that cover unused ports on the UniFi 24-Port Blank Keystone Patch Panel while maintaining its aesthetic. Easy snap-in installation Uniform aesthetic with 24-Port Blank Keystone Patch Panel (24) Keystone Blank Inserts","availability":"In stock","unitPerCarton":120,"warranty":"24 months","displayPriceUsd":23,"fullCartonUnitPriceUsd":22.2,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-keystone-blank-insert-bda2acaec2.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-keystone-blank-insert",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Keystone-Blank-Insert",
+  "title": "Ubiquiti UACC-Keystone-Blank-Insert for patch panel (24pcs)",
+  "category": "Ubiquiti / Cabinets / Accessories / Blanking panels",
+  "description": "24-pack of snap-in inserts that cover unused ports on the UniFi 24-Port Blank Keystone Patch Panel while maintaining its aesthetic. Easy snap-in installation Uniform aesthetic with 24-Port Blank Keystone Patch Panel (24) Keystone Blank Inserts",
+  "availability": "In Stock 51 pcs.",
+  "unitPerCarton": 120,
+  "warranty": "24 months",
+  "displayPriceUsd": 23,
+  "fullCartonUnitPriceUsd": 22.2,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-keystone-blank-insert-bda2acaec2.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 51,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-keystone-blank-insert-for-patch-panel-24pcs-_d124483.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cabinets-accessories-blanking-panels_c16589526.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cabinets",
+    "Accessories",
+    "Blanking panels"
+  ]
+}

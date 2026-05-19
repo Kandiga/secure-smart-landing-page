@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-camera-jb-w","brand":"Ubiquiti","sku":"UACC-Camera-JB-W","title":"Ubiquiti UACC-Camera-JB-W, camera junction box for UVC-G3/4/5/AI, white","category":"Cameras, security / Mounting boxes and brackets / Mounting boxes","description":"Tamper-resistant junction box for UniFi Bullet, Dome, and Turret cameras that enhances mounting durability, aesthetics, and ease of maintenance Supports flat surface, pole and pendant mounting Includes side and rear 3/4\" conduit entrances UVC-G4-DOME UVC-G4-BULLET UVC-G4-PRO UVC-G5-Dome UVC-G5-Bullet UVC-G5-Dome-Ultra UVC-G5-Turret-Ultra UVC-G5-Pro UVC-AI-Bullet UVC-AI-Pro UVC-AI-DSLR","availability":"To order / expected","unitPerCarton":12,"warranty":"24 months","displayPriceUsd":58,"fullCartonUnitPriceUsd":55.97,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-camera-jb-w-d6d15f55ac.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Design On the wall Purpose Outdoor Material Polycarbonate, Aluminum alloy Weight [g] 470 Width [mm] 140 Height [mm] 60 Depth [mm] 140 Color White"}
+{
+  "id": "ubiquiti-uacc-camera-jb-w",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Camera-JB-W",
+  "title": "Ubiquiti UACC-Camera-JB-W, camera junction box for UVC-G3/4/5/AI, white",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Mounting boxes",
+  "description": "Tamper-resistant junction box for UniFi Bullet, Dome, and Turret cameras that enhances mounting durability, aesthetics, and ease of maintenance Supports flat surface, pole and pendant mounting Includes side and rear 3/4\" conduit entrances UVC-G4-DOME UVC-G4-BULLET UVC-G4-PRO UVC-G5-Dome UVC-G5-Bullet UVC-G5-Dome-Ultra UVC-G5-Turret-Ultra UVC-G5-Pro UVC-AI-Bullet UVC-AI-Pro UVC-AI-DSLR",
+  "availability": "Not In Stock",
+  "unitPerCarton": 12,
+  "warranty": "24 months",
+  "displayPriceUsd": 58,
+  "fullCartonUnitPriceUsd": 55.97,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-camera-jb-w-d6d15f55ac.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Design On the wall Purpose Outdoor Material Polycarbonate, Aluminum alloy Weight [g] 470 Width [mm] 140 Height [mm] 60 Depth [mm] 140 Color White",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-camera-jb-w-camera-junction-box-for-uvc-g3-4-5-ai-white_d125251.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-mounting-boxes_c16591543.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Mounting boxes"
+  ]
+}

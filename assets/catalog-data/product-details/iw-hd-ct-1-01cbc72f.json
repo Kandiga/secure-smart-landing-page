@@ -1,1 +1,26 @@
-{"id":"ubiquiti-iw-hd-ct-1","brand":"Ubiquiti","sku":"IW-HD-CT-1","title":"Ubiquiti UAP In-Wall HD Cover, Concrete Design, 1-Pack","category":"Wireless / Accessories / Other accessories","description":"IW-HD-CT is a cover for Ubiquiti UAP In-Wall HD with a concrete theme. For demanding customers, there are a total of 5 optional cover designs to choose from GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":15,"fullCartonUnitPriceUsd":15,"imageUrl":"assets/catalog-data/public-images/ubiquiti-iw-hd-ct-1-baa2e48326.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "ubiquiti-iw-hd-ct-1",
+  "brand": "Ubiquiti",
+  "sku": "IW-HD-CT-1",
+  "title": "Ubiquiti UAP In-Wall HD Cover, Concrete Design, 1-Pack",
+  "category": "Ubiquiti / Wireless / Accessories / Other accessories",
+  "description": "IW-HD-CT is a cover for Ubiquiti UAP In-Wall HD with a concrete theme. For demanding customers, there are a total of 5 optional cover designs to choose from GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "In Stock 11 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 15,
+  "fullCartonUnitPriceUsd": 15,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-iw-hd-ct-1-baa2e48326.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 11,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uap-in-wall-hd-cover-concrete-design-1-pack_d122231.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-other-accessories_c15888323.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Other accessories"
+  ]
+}

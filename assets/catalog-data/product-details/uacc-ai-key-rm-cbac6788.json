@@ -1,1 +1,25 @@
-{"id":"ubiquiti-uacc-ai-key-rm","brand":"Ubiquiti","sku":"UACC-AI-Key-RM","title":"Ubiquiti UACC-AI-Key-RM, Rack mount for AI Key","category":"Cameras, security / Cameras accessories","description":"The Ubiquiti AI Key Rack Mount is designed to mount up to (3) AI-Keys into a 19\" rack . Unused positions are fitted with blanking covers","availability":"In stock","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":101,"fullCartonUnitPriceUsd":97.47,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-ai-key-rm-a95035acf1.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-ai-key-rm",
+  "brand": "Ubiquiti",
+  "sku": "UACC-AI-Key-RM",
+  "title": "Ubiquiti UACC-AI-Key-RM, Rack mount for AI Key",
+  "category": "Ubiquiti / Cameras, security / Cameras accessories",
+  "description": "The Ubiquiti AI Key Rack Mount is designed to mount up to (3) AI-Keys into a 19\" rack . Unused positions are fitted with blanking covers",
+  "availability": "In Stock 3 pcs.",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 101,
+  "fullCartonUnitPriceUsd": 97.47,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-ai-key-rm-a95035acf1.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 3,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-ai-key-rm-rack-mount-for-ai-key_d131450.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-cameras-accessories_c16591508.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Cameras accessories"
+  ]
+}

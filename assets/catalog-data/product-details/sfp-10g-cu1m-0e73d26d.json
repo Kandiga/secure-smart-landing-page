@@ -1,1 +1,27 @@
-{"id":"huawei-sfp-10g-cu1m","brand":"Huawei","sku":"SFP-10G-CU1M","title":"Huawei 10G SFP+ DAC cable, passive, DDM, 1m","category":"Optical networks / DAC and AOC cables / DAC cables","description":"Huawei 10G SFP+ DAC cable in 1m length is a fast and cheap solution for easily connecting two network active devices at 10Gbps speed without the need to purchase separate SFP+ modules and optical patch cables A quality twinax DAC cable can be used to connect Huawei S-series switches. In addition, the cables can be used for stacking GPSR","availability":"To order / expected","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":55,"fullCartonUnitPriceUsd":55,"imageUrl":"assets/catalog-data/public-images/huawei-sfp-10g-cu1m-3a591eebbf.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Format SFP+ Transmission speed 10 Gbps AOC/DAC cable type Passive Physical characteristics Length [m] 1 Operating temperature [°C] 0 up to 70"}
+{
+  "id": "huawei-sfp-10g-cu1m",
+  "brand": "Huawei",
+  "sku": "SFP-10G-CU1M",
+  "title": "Huawei 10G SFP+ DAC cable, passive, DDM, 1m",
+  "category": "Huawei / Optical networks / DAC and AOC cables / DAC cables",
+  "description": "Huawei 10G SFP+ DAC cable in 1m length is a fast and cheap solution for easily connecting two network active devices at 10Gbps speed without the need to purchase separate SFP+ modules and optical patch cables A quality twinax DAC cable can be used to connect Huawei S-series switches. In addition, the cables can be used for stacking GPSR",
+  "availability": "Not In Stock",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 55,
+  "fullCartonUnitPriceUsd": 55,
+  "imageUrl": "assets/catalog-data/public-images/huawei-sfp-10g-cu1m-3a591eebbf.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Format SFP+ Transmission speed 10 Gbps AOC/DAC cable type Passive Physical characteristics Length [m] 1 Operating temperature [°C] 0 up to 70",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/huawei-10g-sfp-dac-cable-passive-ddm-1m_d125663.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-optical-networks-dac-and-aoc-cables-dac-cables_c16591676.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Optical networks",
+    "DAC and AOC cables",
+    "DAC cables"
+  ]
+}

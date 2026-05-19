@@ -1,1 +1,27 @@
-{"id":"huawei-s220s-24lp4jx","brand":"Huawei","sku":"S220S-24LP4JX","title":"Huawei S220S-24LP4JX GIgabit PoE switch, 2x 2.5G SFP, 2x SFP+","category":"LAN networks / Switches / eKit Switches","description":"Huawei S220S-24LP4JX is a manageable L2 switch equipped with 24x 1Gbit Ethernet with PoE+ support, 2x 2.5G SFP and 2x SFP+ ports . The total PoE budget is 195W . With its number of PoE Ethernet ports, it is suitable for less power-demanding powered devices, such as most standard IP cameras. It supports all common L2 features and extensive management options, including management via the Huawei eKit App , enabling cloud management. With the Huawei Online Upgrade Platform (HOUP) service, the… The Huawei eKitEngine S220S series switches are L2 GE/10GE designed for small and medium-sized businesses (SMBs). Advanced features, high reliability, extensive device management options, rack mounting, built-in 230V AC power supply, and fanless design enable use in various installation scenarios Device 230V AC Power Cable Ground Cable Rack mounts (4) Screws (4) Self-Adhesive Rubber Pads","availability":"In stock","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":258,"fullCartonUnitPriceUsd":258,"imageUrl":"assets/catalog-data/public-images/huawei-s220s-24lp4jx-2d5815dd3b.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces LAN speed (24) 10/100/1000Mbps Optical interfaces (2) 1G/2.5G + (2) 1/10G Power Power type Mains power (230V) PoE-Out standards 802.3af, 802.3at PoE Out ports 24 PoE budget [W] 195 Max. power consumption [W] 278 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 220 General Switchning capacity [Gbps] 98 MAC address table 16000 Packet forwarding rate [Mpps] 73"}
+{
+  "id": "huawei-s220s-24lp4jx",
+  "brand": "Huawei",
+  "sku": "S220S-24LP4JX",
+  "title": "Huawei S220S-24LP4JX GIgabit PoE switch, 2x 2.5G SFP, 2x SFP+",
+  "category": "Huawei / LAN networks / Switches / eKit Switches",
+  "description": "Huawei S220S-24LP4JX is a manageable L2 switch equipped with 24x 1Gbit Ethernet with PoE+ support, 2x 2.5G SFP and 2x SFP+ ports . The total PoE budget is 195W . With its number of PoE Ethernet ports, it is suitable for less power-demanding powered devices, such as most standard IP cameras. It supports all common L2 features and extensive management options, including management via the Huawei eKit App , enabling cloud management. With the Huawei Online Upgrade Platform (HOUP) service, the… The Huawei eKitEngine S220S series switches are L2 GE/10GE designed for small and medium-sized businesses (SMBs). Advanced features, high reliability, extensive device management options, rack mounting, built-in 230V AC power supply, and fanless design enable use in various installation scenarios Device 230V AC Power Cable Ground Cable Rack mounts (4) Screws (4) Self-Adhesive Rubber Pads",
+  "availability": "In Stock 6 pcs.",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 258,
+  "fullCartonUnitPriceUsd": 258,
+  "imageUrl": "assets/catalog-data/public-images/huawei-s220s-24lp4jx-2d5815dd3b.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces LAN speed (24) 10/100/1000Mbps Optical interfaces (2) 1G/2.5G + (2) 1/10G Power Power type Mains power (230V) PoE-Out standards 802.3af, 802.3at PoE Out ports 24 PoE budget [W] 195 Max. power consumption [W] 278 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 220 General Switchning capacity [Gbps] 98 MAC address table 16000 Packet forwarding rate [Mpps] 73",
+  "stockQtyVisible": 6,
+  "discompProductUrl": "https://www.discomp.cz/huawei-s220s-24lp4jx-gigabit-poe-switch-2x-2-5g-sfp-2x-sfp-_d127749.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-lan-networks-switches-ekit-switches_c16591802.html?page=2",
+  "discompSourcePath": [
+    "Huawei",
+    "LAN networks",
+    "Switches",
+    "eKit Switches"
+  ]
+}

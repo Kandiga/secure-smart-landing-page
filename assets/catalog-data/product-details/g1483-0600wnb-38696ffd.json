@@ -1,1 +1,25 @@
-{"id":"mikrotik-g1483-0600wnb","brand":"MikroTik","sku":"G1483-0600WNB","title":"MikroTik G1483-0600WNB - Hot Swap 600W power supply for CRS320-8P-8B-4S+RM","category":"Wireless / MikroTik / Accessories","description":"Hot-swap 54.5V 10.35A power supply for the CRS320-8P-8B-4S+RM PoE++ switch. The switch comes with a single 600W PSU and an expansion slot for a second PSU that can raise the total power output all the way to 1150 Watts , up to 90 Watts per PoE++ port","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":131,"fullCartonUnitPriceUsd":131,"imageUrl":"assets/catalog-data/public-images/mikrotik-g1483-0600wnb-54f9d2bd19.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "mikrotik-g1483-0600wnb",
+  "brand": "MikroTik",
+  "sku": "G1483-0600WNB",
+  "title": "MikroTik G1483-0600WNB - Hot Swap 600W power supply for CRS320-8P-8B-4S+RM",
+  "category": "MikroTik / Wireless / Accessories",
+  "description": "Hot-swap 54.5V 10.35A power supply for the CRS320-8P-8B-4S+RM PoE++ switch. The switch comes with a single 600W PSU and an expansion slot for a second PSU that can raise the total power output all the way to 1150 Watts , up to 90 Watts per PoE++ port",
+  "availability": "In Stock 4 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 131,
+  "fullCartonUnitPriceUsd": 131,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-g1483-0600wnb-54f9d2bd19.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 4,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-g1483-0600wnb-hot-swap-600w-power-supply-for-crs320-8p-8b-4s-rm_d126938.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-accessories_c16588567.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Accessories"
+  ]
+}

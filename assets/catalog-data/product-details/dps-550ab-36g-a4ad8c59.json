@@ -1,1 +1,25 @@
-{"id":"mikrotik-dps-550ab-36g","brand":"MikroTik","sku":"DPS-550AB-36G","title":"MikroTik DPS-550AB-36G Hot Swap Power Supply for RDS2216","category":"Wireless / MikroTik / Accessories","description":"Replacement hot-swap power supply for the RDS2216 . Output voltage and power: 12V / 550W GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":134,"fullCartonUnitPriceUsd":134,"imageUrl":"assets/catalog-data/public-images/mikrotik-dps-550ab-36g-cb41925e81.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "mikrotik-dps-550ab-36g",
+  "brand": "MikroTik",
+  "sku": "DPS-550AB-36G",
+  "title": "MikroTik DPS-550AB-36G Hot Swap Power Supply for RDS2216",
+  "category": "MikroTik / Wireless / Accessories",
+  "description": "Replacement hot-swap power supply for the RDS2216 . Output voltage and power: 12V / 550W GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "In Stock 2 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 134,
+  "fullCartonUnitPriceUsd": 134,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-dps-550ab-36g-cb41925e81.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 2,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-dps-550ab-36g-hot-swap-power-supply-for-rds2216_d129526.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-accessories_c16588567.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Accessories"
+  ]
+}

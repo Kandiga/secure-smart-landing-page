@@ -1,1 +1,26 @@
-{"id":"mikrotik-rbsxtg-5hpacd-sa","brand":"MikroTik","sku":"RBSXTG-5HPacD-SA","title":"MikroTik RouterBOARD RBSXTG-5HPacD-SA, SXT SA5 ac, L4","category":"Wireless / Outdoor units / MikroTik","description":"The new AC standard is here, with up to 866Mbit over the air datarate, 256-QAM modulation, and 80MHz channels. 802.11ac opens up new possibilities and speeds never possible before The SXT ac is a new member in our 802.11ac product lineup, currently two models are available â with regular 28 degree antenna, and the SA model with a 90 wide beam- width sector antenna. Also supports 802.11a/n mode and is compatible with all legacy RouterBOARD devices, including Nstream and Nv2 protocols. Both devices come with Gigabit Ethernet. New products are backwards compatible- for example, you can replace your 5GHz 802.11an legacy Access Point with new 802.11ac product and your… Device Holder Power adapter 24V/0.8A Passive PoE injector Metal ring","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":112,"fullCartonUnitPriceUsd":108.08,"imageUrl":"assets/catalog-data/public-images/mikrotik-rbsxtg-5hpacd-sa-4e6e395691.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Tx power [dBm] 30 Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a, 802.11ac Transmission speed - 5GHz [Mb/s] 866 5GHz MIMO 2 x 2 Type of antenna Built-in Antenna gain [dBi] 13 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes USB Yes Power Power over Ethernet 802.3af, 802.3at, 15 .. 60V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 12 Physical characteristics Design Outdoor Operating temperature [°C] 30 up to 80 Width [mm] 140 Height [mm] 140 Depth [mm] 56 Hardware CPU QCA9557 CPU frequency [MHz] 720 CPU cores 1 Internal storage [MB] 128 RAM [MB] 128"}
+{
+  "id": "mikrotik-rbsxtg-5hpacd-sa",
+  "brand": "MikroTik",
+  "sku": "RBSXTG-5HPacD-SA",
+  "title": "MikroTik RouterBOARD RBSXTG-5HPacD-SA, SXT SA5 ac, L4",
+  "category": "MikroTik / Wireless / Outdoor units",
+  "description": "The new AC standard is here, with up to 866Mbit over the air datarate, 256-QAM modulation, and 80MHz channels. 802.11ac opens up new possibilities and speeds never possible before The SXT ac is a new member in our 802.11ac product lineup, currently two models are available â with regular 28 degree antenna, and the SA model with a 90 wide beam- width sector antenna. Also supports 802.11a/n mode and is compatible with all legacy RouterBOARD devices, including Nstream and Nv2 protocols. Both devices come with Gigabit Ethernet. New products are backwards compatible- for example, you can replace your 5GHz 802.11an legacy Access Point with new 802.11ac product and your… Device Holder Power adapter 24V/0.8A Passive PoE injector Metal ring",
+  "availability": "In Stock 59 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 112,
+  "fullCartonUnitPriceUsd": 108.08,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rbsxtg-5hpacd-sa-4e6e395691.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Tx power [dBm] 30 Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a, 802.11ac Transmission speed - 5GHz [Mb/s] 866 5GHz MIMO 2 x 2 Type of antenna Built-in Antenna gain [dBi] 13 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes USB Yes Power Power over Ethernet 802.3af, 802.3at, 15 .. 60V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 12 Physical characteristics Design Outdoor Operating temperature [°C] 30 up to 80 Width [mm] 140 Height [mm] 140 Depth [mm] 56 Hardware CPU QCA9557 CPU frequency [MHz] 720 CPU cores 1 Internal storage [MB] 128 RAM [MB] 128",
+  "stockQtyVisible": 59,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-routerboard-rbsxtg-5hpacd-sa-sxt-sa5-ac-l4_d60902.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-outdoor-units_c15888564.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Outdoor units"
+  ]
+}

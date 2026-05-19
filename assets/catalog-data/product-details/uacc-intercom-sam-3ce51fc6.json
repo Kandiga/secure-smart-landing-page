@@ -1,1 +1,25 @@
-{"id":"ubiquiti-uacc-intercom-sam","brand":"Ubiquiti","sku":"UACC-Intercom-SAM","title":"Ubiquiti UACC-Intercom-SAM, surface mount for UA-Intercom, angle 5° upward","category":"Cameras, security / UniFi Access","description":"UACC-Intercom-SAM is a mounting accessory for fixing the UA-Intercom intercom to a surface at an angle of 5° upwards . The holder is made of UV stable polycarbonate","availability":"In stock","unitPerCarton":28,"warranty":"24 months","displayPriceUsd":55,"fullCartonUnitPriceUsd":53.08,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-intercom-sam-dd23ffd30b.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-intercom-sam",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Intercom-SAM",
+  "title": "Ubiquiti UACC-Intercom-SAM, surface mount for UA-Intercom, angle 5° upward",
+  "category": "Ubiquiti / Cameras, security / UniFi Access",
+  "description": "UACC-Intercom-SAM is a mounting accessory for fixing the UA-Intercom intercom to a surface at an angle of 5° upwards . The holder is made of UV stable polycarbonate",
+  "availability": "In Stock 3 pcs.",
+  "unitPerCarton": 28,
+  "warranty": "24 months",
+  "displayPriceUsd": 55,
+  "fullCartonUnitPriceUsd": 53.08,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-intercom-sam-dd23ffd30b.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 3,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-intercom-sam-surface-mount-for-ua-intercom-angle-5-upward_d125267.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-unifi-access_c16587756.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "UniFi Access"
+  ]
+}

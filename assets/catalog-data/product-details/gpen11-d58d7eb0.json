@@ -1,1 +1,26 @@
-{"id":"mikrotik-gpen11","brand":"MikroTik","sku":"GPEN11","title":"MikroTik GPEN11 Gigabit Fixed PoE injector","category":"Wireless / MikroTik / Accessories","description":"The GPEN11 is a power injector that can be mounted on a wall, and will power your uplink devices with PoE power The GPEN11 is part of the GPEN (Gigabit Passive Ethernet Network) concept, which aims to replace GPON installations with lower cost and more easy to deploy ethernet alternative GPEN11 can be mounted inside customer premises, next to the WiFi router which provides the connectivity to the users. The GPEN11 itself will then power the ISP router, whether a outdoor wireless unit mounted on a roof, or the network switch The GPEN unit can be securely attached to a wall, or communications cabinet. The ethernet cable can be routed either directly through itâs bottom cable opening, or into the wall, as preferred Injector Screw kit","availability":"In stock","unitPerCarton":30,"warranty":"24 months","displayPriceUsd":13,"fullCartonUnitPriceUsd":12.55,"imageUrl":"assets/catalog-data/public-images/mikrotik-gpen11-016cbd7e2a.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power PoE-Out standards Passive 54V, Passive 24V, Passive 48V PoE Out ports 1 Output Voltage [V] 12 .. 57V DC"}
+{
+  "id": "mikrotik-gpen11",
+  "brand": "MikroTik",
+  "sku": "GPEN11",
+  "title": "MikroTik GPEN11 Gigabit Fixed PoE injector",
+  "category": "MikroTik / Wireless / Accessories",
+  "description": "The GPEN11 is a power injector that can be mounted on a wall, and will power your uplink devices with PoE power The GPEN11 is part of the GPEN (Gigabit Passive Ethernet Network) concept, which aims to replace GPON installations with lower cost and more easy to deploy ethernet alternative GPEN11 can be mounted inside customer premises, next to the WiFi router which provides the connectivity to the users. The GPEN11 itself will then power the ISP router, whether a outdoor wireless unit mounted on a roof, or the network switch The GPEN unit can be securely attached to a wall, or communications cabinet. The ethernet cable can be routed either directly through itâs bottom cable opening, or into the wall, as preferred Injector Screw kit",
+  "availability": "In Stock 32 pcs.",
+  "unitPerCarton": 30,
+  "warranty": "24 months",
+  "displayPriceUsd": 13,
+  "fullCartonUnitPriceUsd": 12.55,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-gpen11-016cbd7e2a.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power PoE-Out standards Passive 54V, Passive 24V, Passive 48V PoE Out ports 1 Output Voltage [V] 12 .. 57V DC",
+  "stockQtyVisible": 32,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-gpen11-gigabit-fixed-poe-injector_d90616.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-accessories_c16588567.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Accessories"
+  ]
+}

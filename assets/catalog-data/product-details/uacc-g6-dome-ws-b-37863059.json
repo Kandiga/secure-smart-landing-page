@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-g6-dome-ws-b","brand":"Ubiquiti","sku":"UACC-G6-Dome-WS-B","title":"Ubiquiti Weather Shield for G6 Dome Cameras, Black","category":"Cameras, security / Mounting boxes and brackets / Wallmount","description":"G6 Dome camera (UVC-G6-Dome) accessory for optimal image quality and protection from the elements when installed outdoors on a wall or pole. In black Weather shield Mounting kit","availability":"In stock","unitPerCarton":8,"warranty":"24 months","displayPriceUsd":34,"fullCartonUnitPriceUsd":32.81,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-g6-dome-ws-b-76945c6f92.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Design On the wall, On the mast Purpose Outdoor Material Polycarbonate Weight [g] 173 Width [mm] 176 Height [mm] 150 Depth [mm] 154 Color Black"}
+{
+  "id": "ubiquiti-uacc-g6-dome-ws-b",
+  "brand": "Ubiquiti",
+  "sku": "UACC-G6-Dome-WS-B",
+  "title": "Ubiquiti Weather Shield for G6 Dome Cameras, Black",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Mast boxes",
+  "description": "G6 Dome camera (UVC-G6-Dome) accessory for optimal image quality and protection from the elements when installed outdoors on a wall or pole. In black Weather shield Mounting kit",
+  "availability": "In Stock 5 pcs.",
+  "unitPerCarton": 8,
+  "warranty": "24 months",
+  "displayPriceUsd": 34,
+  "fullCartonUnitPriceUsd": 32.81,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-g6-dome-ws-b-76945c6f92.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Design On the wall, On the mast Purpose Outdoor Material Polycarbonate Weight [g] 173 Width [mm] 176 Height [mm] 150 Depth [mm] 154 Color Black",
+  "stockQtyVisible": 5,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-weather-shield-for-g6-dome-cameras-black_d130626.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-mast-boxes_c16588812.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Mast boxes"
+  ]
+}

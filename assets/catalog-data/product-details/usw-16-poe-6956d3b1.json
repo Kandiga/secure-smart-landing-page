@@ -1,1 +1,27 @@
-{"id":"ubiquiti-usw-16-poe","brand":"Ubiquiti","sku":"USW-16-POE","title":"Ubiquiti UniFi Switch USW-16-POE Gen2","category":"LAN networks / Switches / UniFi Switches","description":"USW-16-POE is a configurable Gigabit Layer 2 switch with 16 Gigabit Ethernet ports including eight auto-sensing 802.3at PoE+ ports, and 2 SFP ports. It provides Gigabit PoE links to your RJ45 Ethernet devices and Gigabit fiber uplink options to your enterprise network. The USW-16-POE features a 1.3\" touch LCM to provide status information. With a depth of 7.9\", the compact fanless design can be easily installed in a SOHO rack cabinet Managed and configured by the UniFi Network Controller with UniFi mobile app support, the USW-16-POE offers an extensive suite of advanced Layer 2 switching protocols and features, including operation mode (switching, mirroring, or aggregate) per port. The UniFi Network Controller and mobile app allow admins to configure and monitor virtually all of the switch features in a graphical user interface from anywhere Device Power cord Rackmount ears","availability":"In stock","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":357,"fullCartonUnitPriceUsd":344.51,"imageUrl":"assets/catalog-data/public-images/ubiquiti-usw-16-poe-d2d5eb9689.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (16) 10/100/1000Mbps Optical interfaces (2) 1000Mbps Other features Touchscreen Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at PoE Out ports 8 PoE budget [W] 42 Max. power consumption [W] 18 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans No Chassis design Metal Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 200 General Switchning capacity [Gbps] 36 MAC address table 16000 Jumbo frame [Bytes] 9000 Packet forwarding rate [Mpps] 26,78"}
+{
+  "id": "ubiquiti-usw-16-poe",
+  "brand": "Ubiquiti",
+  "sku": "USW-16-POE",
+  "title": "Ubiquiti UniFi Switch USW-16-POE Gen2",
+  "category": "Ubiquiti / LAN networks / Switches / PoE Switches",
+  "description": "USW-16-POE is a configurable Gigabit Layer 2 switch with 16 Gigabit Ethernet ports including eight auto-sensing 802.3at PoE+ ports, and 2 SFP ports. It provides Gigabit PoE links to your RJ45 Ethernet devices and Gigabit fiber uplink options to your enterprise network. The USW-16-POE features a 1.3\" touch LCM to provide status information. With a depth of 7.9\", the compact fanless design can be easily installed in a SOHO rack cabinet Managed and configured by the UniFi Network Controller with UniFi mobile app support, the USW-16-POE offers an extensive suite of advanced Layer 2 switching protocols and features, including operation mode (switching, mirroring, or aggregate) per port. The UniFi Network Controller and mobile app allow admins to configure and monitor virtually all of the switch features in a graphical user interface from anywhere Device Power cord Rackmount ears",
+  "availability": "In Stock 57 pcs.",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 357,
+  "fullCartonUnitPriceUsd": 344.51,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-usw-16-poe-d2d5eb9689.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (16) 10/100/1000Mbps Optical interfaces (2) 1000Mbps Other features Touchscreen Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at PoE Out ports 8 PoE budget [W] 42 Max. power consumption [W] 18 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans No Chassis design Metal Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 200 General Switchning capacity [Gbps] 36 MAC address table 16000 Jumbo frame [Bytes] 9000 Packet forwarding rate [Mpps] 26,78",
+  "stockQtyVisible": 57,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-switch-usw-16-poe-gen2_d92382.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-poe-switches_c16179437.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "PoE Switches"
+  ]
+}

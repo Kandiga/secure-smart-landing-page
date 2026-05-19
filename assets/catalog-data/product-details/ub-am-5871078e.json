@@ -1,1 +1,26 @@
-{"id":"ubiquiti-ub-am","brand":"Ubiquiti","sku":"UB-AM","title":"Ubiquiti Universal antenna holder for all NanoStation and LocoStation","category":"Wireless / Accessories / Mounting brackets","description":"The Universal Arm Bracket is designed for convenient wall or pole mounting of the NanoStation®M. 90° tilt adjustment allows for easy positioning","availability":"To order / expected","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":7,"fullCartonUnitPriceUsd":6.76,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ub-am-a41a311623.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-ub-am",
+  "brand": "Ubiquiti",
+  "sku": "UB-AM",
+  "title": "Ubiquiti Universal antenna holder for all NanoStation and LocoStation",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "The Universal Arm Bracket is designed for convenient wall or pole mounting of the NanoStation®M. 90° tilt adjustment allows for easy positioning",
+  "availability": "Expected 22.5.2026",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 7,
+  "fullCartonUnitPriceUsd": 6.76,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ub-am-a41a311623.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-universal-antenna-holder-for-all-nanostation-and-locostation_d31648.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

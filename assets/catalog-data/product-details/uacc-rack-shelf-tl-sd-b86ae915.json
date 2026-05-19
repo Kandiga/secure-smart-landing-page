@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-rack-shelf-tl-sd","brand":"Ubiquiti","sku":"UACC-Rack-Shelf-TL-SD","title":"Ubiquiti UACC-Rack-Shelf-TL-SD Toolless Mini Rack Shelf for U-Rack-6U-TL","category":"Cabinets / Accessories / Shelves","description":"Well-crafted shelf that fits perfectly into the U-Rack-6U-TL cabinet. It has a depth of 230 mm and occupies 1U of rack height The shelf is made of cold-rolled carbon steel and has a load capacity of 20 kg GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"In stock","unitPerCarton":3,"warranty":"24 months","displayPriceUsd":60,"fullCartonUnitPriceUsd":57.9,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-rack-shelf-tl-sd-a7883021ba.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-rack-shelf-tl-sd",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Rack-Shelf-TL-SD",
+  "title": "Ubiquiti UACC-Rack-Shelf-TL-SD Toolless Mini Rack Shelf for U-Rack-6U-TL",
+  "category": "Ubiquiti / Cabinets / Accessories / Shelves",
+  "description": "Well-crafted shelf that fits perfectly into the U-Rack-6U-TL cabinet. It has a depth of 230 mm and occupies 1U of rack height The shelf is made of cold-rolled carbon steel and has a load capacity of 20 kg GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "In Stock 4 pcs.",
+  "unitPerCarton": 3,
+  "warranty": "24 months",
+  "displayPriceUsd": 60,
+  "fullCartonUnitPriceUsd": 57.9,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-rack-shelf-tl-sd-a7883021ba.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 4,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-rack-shelf-tl-sd-toolless-mini-rack-shelf-for-u-rack-6u-tl_d129883.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cabinets-accessories-shelves_c16591894.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cabinets",
+    "Accessories",
+    "Shelves"
+  ]
+}

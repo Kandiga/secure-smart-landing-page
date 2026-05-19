@@ -1,1 +1,25 @@
-{"id":"mikrotik-k-79","brand":"MikroTik","sku":"K-79","title":"MikroTik K-79 - Rackmount ears set for RB5009 series (for mounting up to four RB5009 in rack)","category":"Wireless / MikroTik / Holders","description":"With this kit, it is possible to mount 1, 2, 3 or up to 4 MikroTik devices in a single 1U with a size of 19\". It is above all a perfect use of space which is not never enough in the rack The K-79 gull ears are compatible only with these MikroTik devices : RB5009UG+S+IN RB5009UPr+S+IN L009UiGS-RM","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":7,"fullCartonUnitPriceUsd":7,"imageUrl":"assets/catalog-data/public-images/mikrotik-k-79-1e19d81119.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "mikrotik-k-79",
+  "brand": "MikroTik",
+  "sku": "K-79",
+  "title": "MikroTik K-79 - Rackmount ears set for RB5009 series (for mounting up to four RB5009 in rack)",
+  "category": "MikroTik / Wireless / Holders",
+  "description": "With this kit, it is possible to mount 1, 2, 3 or up to 4 MikroTik devices in a single 1U with a size of 19\". It is above all a perfect use of space which is not never enough in the rack The K-79 gull ears are compatible only with these MikroTik devices : RB5009UG+S+IN RB5009UPr+S+IN L009UiGS-RM",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 7,
+  "fullCartonUnitPriceUsd": 7,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-k-79-1e19d81119.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 154,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-k-79-rackmount-ears-set-for-rb5009-series-for-mounting-up-to-four-rb5009-in-rack-_d110174.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-holders_c16588561.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Holders"
+  ]
+}

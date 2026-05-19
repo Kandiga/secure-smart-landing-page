@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-eth-sp-din","brand":"Ubiquiti","sku":"UACC-ETH-SP-DIN","title":"Ubiquiti UACC-ETH-SP-DIN - Ethernet Surge Protector, for DIN rail","category":"LAN networks / Surge Protectors","description":"Ubiquiti UACC-ETH-SP-DIN is a Bidirectional Ethernet surge protection designed for DIN rail installation. It supports Ethernet speeds up to 10Gbps , including POE++ power delivery. Everything you need for installation is included in the package Device DIN rail Grounding cable M3 screw (2) Screw and wall plug","availability":"In stock","unitPerCarton":70,"warranty":"24 months","displayPriceUsd":32,"fullCartonUnitPriceUsd":30.88,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-eth-sp-din-a8769cb88f.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Gigabit LAN Yes"}
+{
+  "id": "ubiquiti-uacc-eth-sp-din",
+  "brand": "Ubiquiti",
+  "sku": "UACC-ETH-SP-DIN",
+  "title": "Ubiquiti UACC-ETH-SP-DIN - Ethernet Surge Protector, for DIN rail",
+  "category": "Ubiquiti / LAN networks / Surge Protectors",
+  "description": "Ubiquiti UACC-ETH-SP-DIN is a Bidirectional Ethernet surge protection designed for DIN rail installation. It supports Ethernet speeds up to 10Gbps , including POE++ power delivery. Everything you need for installation is included in the package Device DIN rail Grounding cable M3 screw (2) Screw and wall plug",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 70,
+  "warranty": "24 months",
+  "displayPriceUsd": 32,
+  "fullCartonUnitPriceUsd": 30.88,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-eth-sp-din-a8769cb88f.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Gigabit LAN Yes",
+  "stockQtyVisible": 400,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-eth-sp-din-ethernet-surge-protector-for-din-rail_d130079.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-surge-protectors_c15944821.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Surge Protectors"
+  ]
+}

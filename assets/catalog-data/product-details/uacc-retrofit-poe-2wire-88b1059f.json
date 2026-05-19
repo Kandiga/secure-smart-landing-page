@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-retrofit-poe-2wire","brand":"Ubiquiti","sku":"UACC-Retrofit-PoE-2Wire","title":"Ubiquiti UACC-Retrofit-PoE-2Wire PoE extender","category":"LAN networks / Powerline","description":"A pair of extenders that allow you to extend PoE over twisted pair or coaxial cables. This solution is ideal for situations where replacing the original cabling is not an option. Each extender features a 1x 10/100 Mbit ETH port and a two-pin connector, which can be fitted with a terminal block or an coaxial adapter. Powering the extenders is handled via the PoE-IN port with PoE++ (50V DC, 1.2A), while on the other side, you get a PoE-OUT PoE+ output (48V DC, 0.6A). The transmission over twisted… (2) Extenders (2) Terminal blocks (2) Coax adapters (2) Plastic covers Mounting bracket Wall plugs and screws","availability":"To order / expected","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":109,"fullCartonUnitPriceUsd":105.19,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-retrofit-poe-2wire-dc55980e7d.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Ethernet speed [Mb/s] 10/100 LAN speed (1) 10/100Mbps Power Output Power / 1port [W] 30 PoE-Out standards 802.3af, 802.3at PoE Out ports 1 Output Voltage [V] 48 Max. power consumption [W] 3"}
+{
+  "id": "ubiquiti-uacc-retrofit-poe-2wire",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Retrofit-PoE-2Wire",
+  "title": "Ubiquiti UACC-Retrofit-PoE-2Wire PoE extender",
+  "category": "Ubiquiti / Powering / Active PoE / PoE Extenders",
+  "description": "A pair of extenders that allow you to extend PoE over twisted pair or coaxial cables. This solution is ideal for situations where replacing the original cabling is not an option. Each extender features a 1x 10/100 Mbit ETH port and a two-pin connector, which can be fitted with a terminal block or an coaxial adapter. Powering the extenders is handled via the PoE-IN port with PoE++ (50V DC, 1.2A), while on the other side, you get a PoE-OUT PoE+ output (48V DC, 0.6A). The transmission over twisted… (2) Extenders (2) Terminal blocks (2) Coax adapters (2) Plastic covers Mounting bracket Wall plugs and screws",
+  "availability": "Expected 22.5.2026",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 109,
+  "fullCartonUnitPriceUsd": 105.19,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-retrofit-poe-2wire-dc55980e7d.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Ethernet speed [Mb/s] 10/100 LAN speed (1) 10/100Mbps Power Output Power / 1port [W] 30 PoE-Out standards 802.3af, 802.3at PoE Out ports 1 Output Voltage [V] 48 Max. power consumption [W] 3",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-retrofit-poe-2wire-poe-extender_d128801.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-active-poe-poe-extenders_c16591490.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Active PoE",
+    "PoE Extenders"
+  ]
+}

@@ -1,1 +1,27 @@
-{"id":"mikrotik-rbd53ig-5hacd2hnd","brand":"MikroTik","sku":"RBD53iG-5HacD2HnD","title":"MikroTik hAP ac3 â WiFi 5 router pro domÃ¡cnosti i firmy","category":"Wireless / WiFi Routers / WiFi 5","description":"Forget about endless searching for the perfect router and scrolling through an eternity of reviews and specifications! We have created a single affordable home access point that has all the features you might need for years to come With 5 Gigabit Ethernet ports, 256 MB of RAM and quad-core CPU, hAP ac3 can satisfy even the biggest and most demanding households. With PoE support, it can power or be powered by other devices. There is a 128 MB NAND and a full-size USB port that you can use to add extra storage. The new enclosure allows mounting the device vertically or horizontally. A wall mount set is also included Stop sharing the frequency with all your neighbors! Strong dual-chain dual-band 2.4/5 GHz wireless for concurrent coverage will solve most interference issues in a crowded environment. This is a must-have these days! You can use the 2.4 GHz channel for older devices and the 5 GHz channel for everything else, since this frequency is less cluttered Device Power adapter 24V/1.5A Base leg / pad Screws","availability":"In stock","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":104,"fullCartonUnitPriceUsd":100.36,"imageUrl":"assets/catalog-data/public-images/mikrotik-rbd53ig-5hacd2hnd-16acc6e318.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Wireless frequency 2.4 + 5 GHz (dual band) WiFi standards 802.11ac, 802.11n, 802.11a, 802.11b/g Transmission speed - 5GHz [Mb/s] 866 Transmission speed - 2.4GHz [Mb/s] 300 Tx power 2.4GHz [dBm] 25 Tx power 5GHz [dBm] 26 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Type of antenna Detachable Antenna gain [dBi] 5 Connectors and Interfaces RF connectors (2) RSMA female LAN speed (5) 10/100/1000Mbps Gigabit LAN Yes USB Yes Power Power over Ethernet 18 .. 28V DC PoE type PoE-Out + PoE-In PoE Out ports 1 PoE budget [W] 18 Max. power consumption [W] 12 Power via connector/terminal 12 .. 28V DC Physical characteristics Design Desktop Purpose Indoor Buttons Reset, mode Operating temperature [°C] 40 up to 70 Width [mm] 251 Height [mm] 39 Depth [mm] 129 Hardware CPU IPQ-4019 CPU frequency [MHz] 716 CPU cores 4 Internal storage [MB] 128 RAM [MB] 256"}
+{
+  "id": "mikrotik-rbd53ig-5hacd2hnd",
+  "brand": "MikroTik",
+  "sku": "RBD53iG-5HacD2HnD",
+  "title": "MikroTik hAP ac3 â WiFi 5 router pro domÃ¡cnosti i firmy",
+  "category": "MikroTik / Wireless / WiFi Routers / WiFi 5",
+  "description": "Forget about endless searching for the perfect router and scrolling through an eternity of reviews and specifications! We have created a single affordable home access point that has all the features you might need for years to come With 5 Gigabit Ethernet ports, 256 MB of RAM and quad-core CPU, hAP ac3 can satisfy even the biggest and most demanding households. With PoE support, it can power or be powered by other devices. There is a 128 MB NAND and a full-size USB port that you can use to add extra storage. The new enclosure allows mounting the device vertically or horizontally. A wall mount set is also included Stop sharing the frequency with all your neighbors! Strong dual-chain dual-band 2.4/5 GHz wireless for concurrent coverage will solve most interference issues in a crowded environment. This is a must-have these days! You can use the 2.4 GHz channel for older devices and the 5 GHz channel for everything else, since this frequency is less cluttered Device Power adapter 24V/1.5A Base leg / pad Screws",
+  "availability": "In Stock 23 pcs.",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 104,
+  "fullCartonUnitPriceUsd": 100.36,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rbd53ig-5hacd2hnd-16acc6e318.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Wireless frequency 2.4 + 5 GHz (dual band) WiFi standards 802.11ac, 802.11n, 802.11a, 802.11b/g Transmission speed - 5GHz [Mb/s] 866 Transmission speed - 2.4GHz [Mb/s] 300 Tx power 2.4GHz [dBm] 25 Tx power 5GHz [dBm] 26 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Type of antenna Detachable Antenna gain [dBi] 5 Connectors and Interfaces RF connectors (2) RSMA female LAN speed (5) 10/100/1000Mbps Gigabit LAN Yes USB Yes Power Power over Ethernet 18 .. 28V DC PoE type PoE-Out + PoE-In PoE Out ports 1 PoE budget [W] 18 Max. power consumption [W] 12 Power via connector/terminal 12 .. 28V DC Physical characteristics Design Desktop Purpose Indoor Buttons Reset, mode Operating temperature [°C] 40 up to 70 Width [mm] 251 Height [mm] 39 Depth [mm] 129 Hardware CPU IPQ-4019 CPU frequency [MHz] 716 CPU cores 4 Internal storage [MB] 128 RAM [MB] 256",
+  "stockQtyVisible": 23,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-rbd53ig-5hacd2hnd-hap-ac3_d98392.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-wifi-routers-wifi-5_c16591326.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "WiFi Routers",
+    "WiFi 5"
+  ]
+}

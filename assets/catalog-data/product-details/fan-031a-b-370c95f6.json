@@ -1,1 +1,27 @@
-{"id":"huawei-fan-031a-b","brand":"Huawei","sku":"FAN-031A-B","title":"Huawei FAN-031A-B hotswap fan module for S620","category":"LAN networks / Switches / eKit Switches","description":"Huawei FAN-031A-B is a hot-swap fan designed for the S620-24T16X8Y2CZ switch and other models in the Enterprise series The fan has a maximum speed of 24,500 RPM and a power consumption of 21.6W GPSR","availability":"In stock","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":141,"fullCartonUnitPriceUsd":141,"imageUrl":"assets/catalog-data/public-images/huawei-fan-031a-b-82c8169489.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Power Max. power consumption [W] 22"}
+{
+  "id": "huawei-fan-031a-b",
+  "brand": "Huawei",
+  "sku": "FAN-031A-B",
+  "title": "Huawei FAN-031A-B hotswap fan module for S620",
+  "category": "Huawei / LAN networks / Switches / eKit Switches",
+  "description": "Huawei FAN-031A-B is a hot-swap fan designed for the S620-24T16X8Y2CZ switch and other models in the Enterprise series The fan has a maximum speed of 24,500 RPM and a power consumption of 21.6W GPSR",
+  "availability": "In Stock 1 pcs.",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 141,
+  "fullCartonUnitPriceUsd": 141,
+  "imageUrl": "assets/catalog-data/public-images/huawei-fan-031a-b-82c8169489.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Power Max. power consumption [W] 22",
+  "stockQtyVisible": 1,
+  "discompProductUrl": "https://www.discomp.cz/huawei-fan-031a-b-hotswap-fan-module-for-s620_d127758.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-lan-networks-switches-ekit-switches_c16591802.html?page=3",
+  "discompSourcePath": [
+    "Huawei",
+    "LAN networks",
+    "Switches",
+    "eKit Switches"
+  ]
+}

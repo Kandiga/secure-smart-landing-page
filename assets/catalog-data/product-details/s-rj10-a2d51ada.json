@@ -1,1 +1,26 @@
-{"id":"mikrotik-s-rj10","brand":"MikroTik","sku":"S+RJ10","title":"MikroTik RJ45 SFP+ 10/100/1000M/2.5G/5G/10G copper module","category":"Wireless / MikroTik / SFP modules","description":"This unique module opens up a whole world of high speed connectivity possibilities, offering up to 10 Gbps speeds over regular familiar twisted-pair cables in your existing products that have SFP+ ports. Any MikroTik device that has SFP+ ports can now be used without installing any optical fiber, just plug the S+RJ10 and your network can be upgraded to 10 Gbps, making it ready for the next generation of RJ45 hardware","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":61,"fullCartonUnitPriceUsd":61,"imageUrl":"assets/catalog-data/public-images/mikrotik-s-rj10-8ac5c1b5f7.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Format SFP+ For cable type Metallic Transmission speed 10 Mbps, 1 Gbps, 2.5 Gbps, 5 Gbps, 10 Gbps Distance [km] 0,2 Transfer type Metallic Connectors and Interfaces Optical Connectors RJ45 Power Max. power consumption [W] 2,4 General Compatibility Universal"}
+{
+  "id": "mikrotik-s-rj10",
+  "brand": "MikroTik",
+  "sku": "S+RJ10",
+  "title": "MikroTik RJ45 SFP+ 10/100/1000M/2.5G/5G/10G copper module",
+  "category": "MikroTik / Wireless / SFP modules",
+  "description": "This unique module opens up a whole world of high speed connectivity possibilities, offering up to 10 Gbps speeds over regular familiar twisted-pair cables in your existing products that have SFP+ ports. Any MikroTik device that has SFP+ ports can now be used without installing any optical fiber, just plug the S+RJ10 and your network can be upgraded to 10 Gbps, making it ready for the next generation of RJ45 hardware",
+  "availability": "In Stock 36 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 61,
+  "fullCartonUnitPriceUsd": 61,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-s-rj10-8ac5c1b5f7.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Format SFP+ For cable type Metallic Transmission speed 10 Mbps, 1 Gbps, 2.5 Gbps, 5 Gbps, 10 Gbps Distance [km] 0,2 Transfer type Metallic Connectors and Interfaces Optical Connectors RJ45 Power Max. power consumption [W] 2,4 General Compatibility Universal",
+  "stockQtyVisible": 36,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-rj45-sfp-10-100-1000m-2-5g-5g-10g-copper-module_d82667.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-sfp-modules_c16588578.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "SFP modules"
+  ]
+}

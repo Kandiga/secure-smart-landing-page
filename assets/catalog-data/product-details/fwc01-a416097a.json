@@ -1,1 +1,26 @@
-{"id":"huawei-fwc01","brand":"Huawei","sku":"FWC01","title":"Huawei FWC01 - FTTR Transparent Optical Cable Clip","category":"Optical networks / GPON / Splitters","description":"Huawei FWC01 is a set of installation clips for optical FTTR cables. The plastic accessories help secure the cable, protect it when passing through walls, and ensure the proper bending radius in both inner and outer corners 50Ã self-adhesive cable clips 20Ã external corner cable supporter 4Ã wall-throughing cable supporter 5Ã plane corner clips * * The plane corner clip is intended for use with self-adhesive cables only. The other clips are suitable for both self-adhesive cables and cables with hot-melt adhesive GPSR","availability":"In stock","unitPerCarton":null,"warranty":"To be confirmed","displayPriceUsd":38,"fullCartonUnitPriceUsd":38,"imageUrl":"assets/catalog-data/public-images/huawei-fwc01-f3d9606bb4.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "huawei-fwc01",
+  "brand": "Huawei",
+  "sku": "FWC01",
+  "title": "Huawei FWC01 - FTTR Transparent Optical Cable Clip",
+  "category": "Huawei / Optical networks / GPON / Splitters",
+  "description": "Huawei FWC01 is a set of installation clips for optical FTTR cables. The plastic accessories help secure the cable, protect it when passing through walls, and ensure the proper bending radius in both inner and outer corners 50Ã self-adhesive cable clips 20Ã external corner cable supporter 4Ã wall-throughing cable supporter 5Ã plane corner clips * * The plane corner clip is intended for use with self-adhesive cables only. The other clips are suitable for both self-adhesive cables and cables with hot-melt adhesive GPSR",
+  "availability": "In Stock 34 pcs.",
+  "unitPerCarton": null,
+  "warranty": "To be confirmed",
+  "displayPriceUsd": 38,
+  "fullCartonUnitPriceUsd": 38,
+  "imageUrl": "assets/catalog-data/public-images/huawei-fwc01-f3d9606bb4.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 34,
+  "discompProductUrl": "https://www.discomp.cz/huawei-fwc01-fttr-transparent-optical-cable-clip_d129382.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-optical-networks-gpon-splitters_c16592265.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Optical networks",
+    "GPON",
+    "Splitters"
+  ]
+}

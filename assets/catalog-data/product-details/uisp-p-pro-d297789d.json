@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uisp-p-pro","brand":"Ubiquiti","sku":"UISP-P-Pro","title":"Ubiquiti UISP-P-Pro uninterruptible power system UISP Power Pro","category":"Powering / Industrial powersource / Power sources with charging (UPS)","description":"Uninterruptible power management system designed to support high-capacity WISP deployment sites. Equipped with one power source from the factory, it provides a power of 240W at an output voltage of 27V DC. Optionally, a second power supply can also be purchased and installed, thanks to which the output power will increase up to 480W. In addition to power supply from the 230V network, the UISP Power Pro can also be powered by a lead-acid battery with a voltage of 24V as a backup (the maximum… The device has three TransPort outputs, which are compatible with selected devices from the UISP product line. In addition to the TransPort outputs, there are 2 shafts for power sources on the front (1 installed from the factory), a connector for a lead-acid battery, and there is also a 1.3\" touch screen, 1x R45 management port and a connector for an LTE module with antenna For immediate notification of a change in status, an LTE module is available, which is included in the package with mounting accessories. After inserting a SIM card with SMS-over-LTE (LTE Cat M1) support, the device sends notifications about its status. The LTE module can be attached directly to the device or using an extension cable to a magnetic surface, or an adhesive holder can be used UISP Console UISP Router (installed with UISP Box) UISP Router Pro UISP Switch (installed with UISP Box) UISP Switch Pro Device (2) Rack ears (4) M4 screws (4) Rack Mount Kit Power cord Cable for connecting a lead-acid battery LTE module with antenna Extension cable for LTE module with magnetic holder Sticking LTE module holder…","availability":"In stock","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":587,"fullCartonUnitPriceUsd":566.46,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uisp-p-pro-4c21b6677d.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Power Charging function Yes Power [W] 240 / 480 Output Voltage [V] 27 Physical characteristics Construction Rackmount Operating temperature [°C] 10 up to 50 Weight [g] 4160 Width [mm] 442 Height [mm] 44 Depth [mm] 268"}
+{
+  "id": "ubiquiti-uisp-p-pro",
+  "brand": "Ubiquiti",
+  "sku": "UISP-P-Pro",
+  "title": "Ubiquiti UISP-P-Pro uninterruptible power system UISP Power Pro",
+  "category": "Ubiquiti / Powering / Industrial powersource / Power sources with charging (UPS)",
+  "description": "Uninterruptible power management system designed to support high-capacity WISP deployment sites. Equipped with one power source from the factory, it provides a power of 240W at an output voltage of 27V DC. Optionally, a second power supply can also be purchased and installed, thanks to which the output power will increase up to 480W. In addition to power supply from the 230V network, the UISP Power Pro can also be powered by a lead-acid battery with a voltage of 24V as a backup (the maximum… The device has three TransPort outputs, which are compatible with selected devices from the UISP product line. In addition to the TransPort outputs, there are 2 shafts for power sources on the front (1 installed from the factory), a connector for a lead-acid battery, and there is also a 1.3\" touch screen, 1x R45 management port and a connector for an LTE module with antenna For immediate notification of a change in status, an LTE module is available, which is included in the package with mounting accessories. After inserting a SIM card with SMS-over-LTE (LTE Cat M1) support, the device sends notifications about its status. The LTE module can be attached directly to the device or using an extension cable to a magnetic surface, or an adhesive holder can be used UISP Console UISP Router (installed with UISP Box) UISP Router Pro UISP Switch (installed with UISP Box) UISP Switch Pro Device (2) Rack ears (4) M4 screws (4) Rack Mount Kit Power cord Cable for connecting a lead-acid battery LTE module with antenna Extension cable for LTE module with magnetic holder Sticking LTE module holder…",
+  "availability": "In Stock 2 pcs.",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 587,
+  "fullCartonUnitPriceUsd": 566.46,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uisp-p-pro-4c21b6677d.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Power Charging function Yes Power [W] 240 / 480 Output Voltage [V] 27 Physical characteristics Construction Rackmount Operating temperature [°C] 10 up to 50 Weight [g] 4160 Width [mm] 442 Height [mm] 44 Depth [mm] 268",
+  "stockQtyVisible": 2,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uisp-p-pro-uninterruptible-power-system-uisp-power-pro_d122385.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-industrial-powersource-power-sources-with-charging-ups-_c16591512.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Industrial powersource",
+    "Power sources with charging (UPS)"
+  ]
+}

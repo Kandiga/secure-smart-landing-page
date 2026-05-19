@@ -1,1 +1,26 @@
-{"id":"mikrotik-r11e-lte7","brand":"MikroTik","sku":"R11e-LTE7","title":"MikroTik R11e-LTE7, LTE miniPCI-e modem, 2x u.Fl","category":"Wireless / MikroTik / MiniPCI cards","description":"The MikroTik R11e-LTE7 is an LTE modem in the miniPCIe card form factor that supports 4G LTE and 3G networks. It is suitable for RouterBoards and can serve as a drop-in replacement for the R11eL-FG621-EA, offering higher speeds , support for LTE bands 28 and 32 and a smaller size The modem supports LTE Cat. 7 offering 300Mbps downlink and 100Mbps uplink . It utilizes 2x2 MIMO on the downlink and carrier aggregation , which allows the simultaneous use of multiple LTE bands . This feature improves response times and connection stability in high-traffic areas and can enhance transmission efficiency in locations with weaker signal conditions. The device is equipped with (2) u.Fl connectors for connecting antennas","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":61,"fullCartonUnitPriceUsd":58.87,"imageUrl":"assets/catalog-data/public-images/mikrotik-r11e-lte7-f8945e61b6.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Wireless frequency LTE, 3G (GSM) 4G/LTE bands support (1) 2100 MHz, (3) 1800 MHz, (7) 2600 MHz, (8) 900 MHz, (20) 800 MHz, (38) 2600 MHz, (40) 2300 MHz,… Connectors and Interfaces Bus type miniPCI-e RF connectors (2) u.Fl Power Max. power consumption [W] 5"}
+{
+  "id": "mikrotik-r11e-lte7",
+  "brand": "MikroTik",
+  "sku": "R11e-LTE7",
+  "title": "MikroTik R11e-LTE7, LTE miniPCI-e modem, 2x u.Fl",
+  "category": "MikroTik / Wireless / MiniPCI cards",
+  "description": "The MikroTik R11e-LTE7 is an LTE modem in the miniPCIe card form factor that supports 4G LTE and 3G networks. It is suitable for RouterBoards and can serve as a drop-in replacement for the R11eL-FG621-EA, offering higher speeds , support for LTE bands 28 and 32 and a smaller size The modem supports LTE Cat. 7 offering 300Mbps downlink and 100Mbps uplink . It utilizes 2x2 MIMO on the downlink and carrier aggregation , which allows the simultaneous use of multiple LTE bands . This feature improves response times and connection stability in high-traffic areas and can enhance transmission efficiency in locations with weaker signal conditions. The device is equipped with (2) u.Fl connectors for connecting antennas",
+  "availability": "In Stock 28 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 61,
+  "fullCartonUnitPriceUsd": 58.87,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-r11e-lte7-f8945e61b6.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Wireless frequency LTE, 3G (GSM) 4G/LTE bands support (1) 2100 MHz, (3) 1800 MHz, (7) 2600 MHz, (8) 900 MHz, (20) 800 MHz, (38) 2600 MHz, (40) 2300 MHz,… Connectors and Interfaces Bus type miniPCI-e RF connectors (2) u.Fl Power Max. power consumption [W] 5",
+  "stockQtyVisible": 28,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-r11e-lte7-lte-minipci-e-modem-2x-u-fl_d130884.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-minipci-cards_c16588580.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "MiniPCI cards"
+  ]
+}

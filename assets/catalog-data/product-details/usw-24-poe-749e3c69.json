@@ -1,1 +1,27 @@
-{"id":"ubiquiti-usw-24-poe","brand":"Ubiquiti","sku":"USW-24-POE","title":"Ubiquiti UniFi Switch USW-24-POE Gen2","category":"LAN networks / Switches / UniFi Switches","description":"USW-24-POE is a configurable Gigabit Layer 2 switch with 24 Gigabit Ethernet ports including 16 auto-sensing 802.3at PoE+ ports, and 2 SFP ports. It provides Gigabit PoE links to your RJ45 Ethernet devices and Gigabit fiber uplink options to your enterprise network. The USW-24-POE features a 1.3\" touch LCM to provide status information. With a depth of 7.9\", the compact fanless design can be easily installed in a SOHO rack cabinet Managed and configured by the UniFi Network Controller with UniFi mobile app support, the USW-24-POE offers an extensive suite of advanced Layer 2 switching protocols and features, including operation mode (switching, mirroring, or aggregate) per port. The UniFi Network Controller and mobile app allow admins to configure and monitor virtually all of the switch features in a graphical user interface from anywhere Device Power cord Rackmount ears","availability":"To order / expected","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":452,"fullCartonUnitPriceUsd":436.18,"imageUrl":"assets/catalog-data/public-images/ubiquiti-usw-24-poe-4567ff4f5b.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (24) 10/100/1000Mbps Optical interfaces (2) 1000Mbps Other features Touchscreen Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at PoE Out ports 16 PoE budget [W] 95 Max. power consumption [W] 25 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans No Chassis design Metal Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 200 General Switchning capacity [Gbps] 52 MAC address table 16000 Jumbo frame [Bytes] 9000 Packet forwarding rate [Mpps] 38,69"}
+{
+  "id": "ubiquiti-usw-24-poe",
+  "brand": "Ubiquiti",
+  "sku": "USW-24-POE",
+  "title": "Ubiquiti UniFi Switch USW-24-POE Gen2",
+  "category": "Ubiquiti / LAN networks / Switches / PoE Switches",
+  "description": "USW-24-POE is a configurable Gigabit Layer 2 switch with 24 Gigabit Ethernet ports including 16 auto-sensing 802.3at PoE+ ports, and 2 SFP ports. It provides Gigabit PoE links to your RJ45 Ethernet devices and Gigabit fiber uplink options to your enterprise network. The USW-24-POE features a 1.3\" touch LCM to provide status information. With a depth of 7.9\", the compact fanless design can be easily installed in a SOHO rack cabinet Managed and configured by the UniFi Network Controller with UniFi mobile app support, the USW-24-POE offers an extensive suite of advanced Layer 2 switching protocols and features, including operation mode (switching, mirroring, or aggregate) per port. The UniFi Network Controller and mobile app allow admins to configure and monitor virtually all of the switch features in a graphical user interface from anywhere Device Power cord Rackmount ears",
+  "availability": "Expected 29.5.2026",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 452,
+  "fullCartonUnitPriceUsd": 436.18,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-usw-24-poe-4567ff4f5b.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (24) 10/100/1000Mbps Optical interfaces (2) 1000Mbps Other features Touchscreen Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at PoE Out ports 16 PoE budget [W] 95 Max. power consumption [W] 25 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans No Chassis design Metal Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 200 General Switchning capacity [Gbps] 52 MAC address table 16000 Jumbo frame [Bytes] 9000 Packet forwarding rate [Mpps] 38,69",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-switch-usw-24-poe-gen2_d92383.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-poe-switches_c16179437.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "PoE Switches"
+  ]
+}

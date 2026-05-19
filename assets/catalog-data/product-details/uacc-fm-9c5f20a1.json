@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-fm","brand":"Ubiquiti","sku":"UACC-FM","title":"Ubiquiti UACC-FM - wall mount for UX and UXG-Lite","category":"Wireless / Accessories / Mounting brackets","description":"Magnetic wall mount for UniFi Express and Gateway Lite devices Holder Dowels and screws","availability":"In stock","unitPerCarton":60,"warranty":"24 months","displayPriceUsd":34,"fullCartonUnitPriceUsd":32.81,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-fm-3ef23d2992.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-fm",
+  "brand": "Ubiquiti",
+  "sku": "UACC-FM",
+  "title": "Ubiquiti UACC-FM - wall mount for UX and UXG-Lite",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "Magnetic wall mount for UniFi Express and Gateway Lite devices Holder Dowels and screws",
+  "availability": "In Stock 46 pcs.",
+  "unitPerCarton": 60,
+  "warranty": "24 months",
+  "displayPriceUsd": 34,
+  "fullCartonUnitPriceUsd": 32.81,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-fm-3ef23d2992.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 46,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-fm-wall-mount-for-ux-and-uxg-lite_d126388.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

@@ -1,1 +1,27 @@
-{"id":"ubiquiti-n-sw","brand":"Ubiquiti","sku":"N-SW","title":"Ubiquiti N-SW, NanoSwitch","category":"LAN networks / Switches / PoE Switches","description":"N-SW is very simple non managable PoE switch with 4x Gigabit LAN with passive PoE powering PoE In â RJ45 port supports 10/100/1000 Ethernet connections, and supports passive 24V, 2-pair PoE to power the switch PoE Out â RJ45 ports support 10/100/1000 Ethernet connections, and the three passive 24V, 2-pair PoE ports provide up to 24W PoE output The NanoSwitch features an outdoor weatherproof form factor. Operating Temperature: -30 to 70° C (-22 to 158° F) Device Screw (2) Metal ring","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":40,"fullCartonUnitPriceUsd":38.6,"imageUrl":"assets/catalog-data/public-images/ubiquiti-n-sw-2c888a2944.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (4) 10/100/1000Mbps Power Power over Ethernet 21 .. 26V DC Power type PoE PoE type PoE-Out + PoE-In PoE-Out standards Passive 24V PoE Out ports 3 PoE budget [W] 24 Max. power consumption [W] 1,5 Physical characteristics Design Outdoor Fans No Chassis design Plastic Operating temperature [°C] 30 up to 70 Width [mm] 94 Height [mm] 196 Depth [mm] 32"}
+{
+  "id": "ubiquiti-n-sw",
+  "brand": "Ubiquiti",
+  "sku": "N-SW",
+  "title": "Ubiquiti N-SW, NanoSwitch",
+  "category": "Ubiquiti / LAN networks / Switches / PoE Switches",
+  "description": "N-SW is very simple non managable PoE switch with 4x Gigabit LAN with passive PoE powering PoE In â RJ45 port supports 10/100/1000 Ethernet connections, and supports passive 24V, 2-pair PoE to power the switch PoE Out â RJ45 ports support 10/100/1000 Ethernet connections, and the three passive 24V, 2-pair PoE ports provide up to 24W PoE output The NanoSwitch features an outdoor weatherproof form factor. Operating Temperature: -30 to 70° C (-22 to 158° F) Device Screw (2) Metal ring",
+  "availability": "In Stock 72 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 40,
+  "fullCartonUnitPriceUsd": 38.6,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-n-sw-2c888a2944.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (4) 10/100/1000Mbps Power Power over Ethernet 21 .. 26V DC Power type PoE PoE type PoE-Out + PoE-In PoE-Out standards Passive 24V PoE Out ports 3 PoE budget [W] 24 Max. power consumption [W] 1,5 Physical characteristics Design Outdoor Fans No Chassis design Plastic Operating temperature [°C] 30 up to 70 Width [mm] 94 Height [mm] 196 Depth [mm] 32",
+  "stockQtyVisible": 72,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-n-sw-nanoswitch_d82887.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-poe-switches_c16179437.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "PoE Switches"
+  ]
+}

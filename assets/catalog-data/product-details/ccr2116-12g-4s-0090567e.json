@@ -1,1 +1,26 @@
-{"id":"mikrotik-ccr2116-12g-4s","brand":"MikroTik","sku":"CCR2116-12G-4S+","title":"MikroTik Cloud Core Router, CCR2116-12G-4S+","category":"Wireless / MikroTik / RouterBOARD","description":"Thanks to its very strong configuration, it is the perfect device for professionals in busy locations. There is 4x SFP+ with speed 1/10 Gbps and 13x 10 / 100 / 1000Mbps ethernet, console port type RJ45, 4 fans, 2 redundant power supplies with input voltage 100 - 240 V and M.2 PCI-e slot for SSD up to 8 TB RouterOS v7 level 6 is pre-installed, offering 128 MB of internal storage and 16 GB of DDR4 RAM . The maximum power consumption of the device is maintained at an acceptable 72 W with connected peripherals. Thanks to the new RouterOS v7, the router has up to 6 times higher performance when loading BGP (4) 1G/10G SFP+ (13) 10 / 100 / 1000Mbps Ethernet (1) console RJ45 port Processor AL731400, frequency 2 GHz, ARM 64bit 16GB RAM (DDR4) Storage 128 MB, NAND + M.2 PCI-e slot (unmounted) RouterOS v7, Level 6 operating system Dimensions 443 x 199 x 44 mm (4) 40 x 40mm fans (1) Devices (2) Power cord (1) 19 \"rack mounts","availability":"In stock","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":937,"fullCartonUnitPriceUsd":904.21,"imageUrl":"assets/catalog-data/public-images/mikrotik-ccr2116-12g-4s-ba3ab175a3.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces M.2 slots 1 Multiple WAN Yes LAN speed (13) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (4) 1G/10Gbps Serial port RJ45 Power Power type Mains power (230V) Redundant power supply Yes Max. power consumption [W] 60 Power via connector/terminal 230V AC Physical characteristics Design Rackmount \"U\" positions 1 Fans Yes Chassis design Metal Buttons Reset, mode Operating temperature [°C] 20 up to 60 Width [mm] 443 Height [mm] 44 Depth [mm] 199 Hardware CPU AL73400 CPU frequency [MHz] 2000 CPU cores 16 Internal storage [MB] 128 RAM [MB] 16384"}
+{
+  "id": "mikrotik-ccr2116-12g-4s",
+  "brand": "MikroTik",
+  "sku": "CCR2116-12G-4S+",
+  "title": "MikroTik Cloud Core Router, CCR2116-12G-4S+",
+  "category": "MikroTik / Wireless / RouterBOARD",
+  "description": "Thanks to its very strong configuration, it is the perfect device for professionals in busy locations. There is 4x SFP+ with speed 1/10 Gbps and 13x 10 / 100 / 1000Mbps ethernet, console port type RJ45, 4 fans, 2 redundant power supplies with input voltage 100 - 240 V and M.2 PCI-e slot for SSD up to 8 TB RouterOS v7 level 6 is pre-installed, offering 128 MB of internal storage and 16 GB of DDR4 RAM . The maximum power consumption of the device is maintained at an acceptable 72 W with connected peripherals. Thanks to the new RouterOS v7, the router has up to 6 times higher performance when loading BGP (4) 1G/10G SFP+ (13) 10 / 100 / 1000Mbps Ethernet (1) console RJ45 port Processor AL731400, frequency 2 GHz, ARM 64bit 16GB RAM (DDR4) Storage 128 MB, NAND + M.2 PCI-e slot (unmounted) RouterOS v7, Level 6 operating system Dimensions 443 x 199 x 44 mm (4) 40 x 40mm fans (1) Devices (2) Power cord (1) 19 \"rack mounts",
+  "availability": "In Stock 19 pcs.",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 937,
+  "fullCartonUnitPriceUsd": 904.21,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-ccr2116-12g-4s-ba3ab175a3.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces M.2 slots 1 Multiple WAN Yes LAN speed (13) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (4) 1G/10Gbps Serial port RJ45 Power Power type Mains power (230V) Redundant power supply Yes Max. power consumption [W] 60 Power via connector/terminal 230V AC Physical characteristics Design Rackmount \"U\" positions 1 Fans Yes Chassis design Metal Buttons Reset, mode Operating temperature [°C] 20 up to 60 Width [mm] 443 Height [mm] 44 Depth [mm] 199 Hardware CPU AL73400 CPU frequency [MHz] 2000 CPU cores 16 Internal storage [MB] 128 RAM [MB] 16384",
+  "stockQtyVisible": 19,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-cloud-core-router-ccr2116-12g-4s-_d113244.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-routerboard_c16588560.html?page=2",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "RouterBOARD"
+  ]
+}

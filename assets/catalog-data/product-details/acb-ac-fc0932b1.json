@@ -1,1 +1,27 @@
-{"id":"ubiquiti-acb-ac","brand":"Ubiquiti","sku":"ACB-AC","title":"Ubiquiti ACB-AC, airCube AC, DualBand Wi-Fi AP / Router","category":"Wireless / WiFi Routers / WiFi 5","description":"AirCube AC is home router with modern design and very powerful / discrete antenna system hidden under a plastic chassis. The body of the router is in black matt color is complemented by an elegant white backlit base The Router features 3x 10/100/1000 Mbps LAN ports (1st LAN port supports PoE IN), 1x 10/100/1000 Mbps LAN/WAN port with PoE output PoE, power connector and 2x2 MIMO WiFi radio supporting 300Mbps speed in 2.4GHz and 5GHz radio part supporting 866Mbps speed Router can be powering via packed 24V power adapter or via 24V passive injector connected to the 1st LAN port, which will also power an outdoor unit such as Loco, PowerBeam, NanoBeam and other CPE connected to the WAN port WEB UI - Enables a standalone utility for basic configuration UMobile app - Supports quick setup and status information UNMS - Provides advanced remote control of Ubiquiti® devices Device Power adapter 24V / 0.83A","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":80,"fullCartonUnitPriceUsd":77.2,"imageUrl":"assets/catalog-data/public-images/ubiquiti-acb-ac-fc6bb2bb3d.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Wireless frequency 2.4 + 5 GHz (dual band) WiFi standards 802.11ac, 802.11n, 802.11a, 802.11b/g Transmission speed - 5GHz [Mb/s] 866 Transmission speed - 2.4GHz [Mb/s] 300 Tx power 2.4GHz [dBm] 22 Tx power 5GHz [dBm] 22 Security WPA2 AES 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Type of antenna Built-in Internal antennas 1 Antenna gain [dBi] 4, 5 Connectors and Interfaces WAN speed (1) 10/100/1000Mbps LAN speed (3) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 24V DC PoE type PoE-Out + PoE-In Max. power consumption [W] 8,5 Power via connector/terminal 24V DC Physical characteristics Purpose Indoor Buttons Reset Operating temperature [°C] 10 up to 50 Weight [g] 280 Width [mm] 90 Height [mm] 88 Depth [mm] 90"}
+{
+  "id": "ubiquiti-acb-ac",
+  "brand": "Ubiquiti",
+  "sku": "ACB-AC",
+  "title": "Ubiquiti ACB-AC, airCube AC, DualBand Wi-Fi AP / Router",
+  "category": "Ubiquiti / Wireless / WiFi Routers / WiFi 5",
+  "description": "AirCube AC is home router with modern design and very powerful / discrete antenna system hidden under a plastic chassis. The body of the router is in black matt color is complemented by an elegant white backlit base The Router features 3x 10/100/1000 Mbps LAN ports (1st LAN port supports PoE IN), 1x 10/100/1000 Mbps LAN/WAN port with PoE output PoE, power connector and 2x2 MIMO WiFi radio supporting 300Mbps speed in 2.4GHz and 5GHz radio part supporting 866Mbps speed Router can be powering via packed 24V power adapter or via 24V passive injector connected to the 1st LAN port, which will also power an outdoor unit such as Loco, PowerBeam, NanoBeam and other CPE connected to the WAN port WEB UI - Enables a standalone utility for basic configuration UMobile app - Supports quick setup and status information UNMS - Provides advanced remote control of Ubiquiti® devices Device Power adapter 24V / 0.83A",
+  "availability": "In Stock 17 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 80,
+  "fullCartonUnitPriceUsd": 77.2,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-acb-ac-fc6bb2bb3d.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Wireless frequency 2.4 + 5 GHz (dual band) WiFi standards 802.11ac, 802.11n, 802.11a, 802.11b/g Transmission speed - 5GHz [Mb/s] 866 Transmission speed - 2.4GHz [Mb/s] 300 Tx power 2.4GHz [dBm] 22 Tx power 5GHz [dBm] 22 Security WPA2 AES 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Type of antenna Built-in Internal antennas 1 Antenna gain [dBi] 4, 5 Connectors and Interfaces WAN speed (1) 10/100/1000Mbps LAN speed (3) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 24V DC PoE type PoE-Out + PoE-In Max. power consumption [W] 8,5 Power via connector/terminal 24V DC Physical characteristics Purpose Indoor Buttons Reset Operating temperature [°C] 10 up to 50 Weight [g] 280 Width [mm] 90 Height [mm] 88 Depth [mm] 90",
+  "stockQtyVisible": 17,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-acb-ac-aircube-ac-dualband-wi-fi-ap-router_d81948.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-wifi-routers-wifi-5_c16591333.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "WiFi Routers",
+    "WiFi 5"
+  ]
+}

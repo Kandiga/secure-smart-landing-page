@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-lock-strike-secure-15mm","brand":"Ubiquiti","sku":"UACC-Lock-Strike-Secure-15mm","title":"Ubiquiti UACC-Lock-Strike-Secure-15mm - Electric Fail-Secure Lock, 15mm","category":"Cameras, security / UniFi Access","description":"Electric strike lock that connects to a UniFi Access Hub . The lock is fail-secure, remaining locked in the event of failure . It can be installed in wooden, steel, and aluminum frames. Holding force of up to 1200 kg . Power is supplied via a two-wire terminal block 12V/400mA UA-Hub-Door EAH-8 UA-Hub-Door-Mini UA-Ultra UA-Hub-Gate","availability":"In stock","unitPerCarton":16,"warranty":"24 months","displayPriceUsd":101,"fullCartonUnitPriceUsd":97.47,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-lock-strike-secure-15mm-ab08de2e01.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Power Power type DC terminal Power via connector/terminal 12V DC"}
+{
+  "id": "ubiquiti-uacc-lock-strike-secure-15mm",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Lock-Strike-Secure-15mm",
+  "title": "Ubiquiti UACC-Lock-Strike-Secure-15mm - Electric Fail-Secure Lock, 15mm",
+  "category": "Ubiquiti / Cameras, security / UniFi Access",
+  "description": "Electric strike lock that connects to a UniFi Access Hub . The lock is fail-secure, remaining locked in the event of failure . It can be installed in wooden, steel, and aluminum frames. Holding force of up to 1200 kg . Power is supplied via a two-wire terminal block 12V/400mA UA-Hub-Door EAH-8 UA-Hub-Door-Mini UA-Ultra UA-Hub-Gate",
+  "availability": "In Stock 6 pcs.",
+  "unitPerCarton": 16,
+  "warranty": "24 months",
+  "displayPriceUsd": 101,
+  "fullCartonUnitPriceUsd": 97.47,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-lock-strike-secure-15mm-ab08de2e01.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Power Power type DC terminal Power via connector/terminal 12V DC",
+  "stockQtyVisible": 6,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-lock-strike-secure-15mm-electric-fail-secure-lock-15mm_d130483.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-unifi-access_c16587756.html?page=2",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "UniFi Access"
+  ]
+}

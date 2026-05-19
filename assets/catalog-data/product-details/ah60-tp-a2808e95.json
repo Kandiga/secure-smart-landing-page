@@ -1,1 +1,39 @@
-{"id":"rf-elements-ah60-tp","brand":"RF elements","sku":"AH60-TP","title":"RF elements Asymmetrical Horn Antenna with TwistPort, 5GHz, 17dBi, 60°","category":"Wireless / Antennas / Antennas with TwistPort","description":"AH60-TP is a 5GHz sector antenna of the \"horn\" type from the RF elements workshop and features an 60° asymmetric beam angle, 17 dBi gain and a Twistport connector. This antenna offers the perfect combination of features and functions that address the major weaknesses of today's mainstream sector antennas Asymmetrical Horn TP Antennas feature our industry-changing TwistPort connector, a patent-pending quick-locking waveguide port. TwistPort is virtually lossless: there are no coaxial connectors or cables that attenuate signal. Connecting radios is ingeniously simple - âtwist and lockâ - with a single hand! Mainstream patch array sector antennas have radiation pattern extremely wide in azimuth and extremely flat in elevation plane. If an AP is deployed on a tall tower, customers near the tower suffer from low AP signal level. Asymmetrical Horn TP Antennas provide valuable extra degrees in elevation beam width, shrinking the null zone while preserving increased gain for long range performance Horn TP Antennas provide extraordinary scalability options. Asymmetrical Horn TP Antennas are new addition to the tool box. Unique beam performance, precise radiation patterns and increased gain push system scalability even further For use with third-party products such as MikroTik, Ubiquiti or Cambium, RF elements offer a wide range of adapters that allow you to easily connect these devices to the TwistPort connector. This allows you to transfer any unit to another antenna with a single click without screwing pigtails Asymmetrical Horn AH60-TP Antenna features an innovative…","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":284,"fullCartonUnitPriceUsd":284,"imageUrl":"assets/catalog-data/public-images/rf-elements-ah60-tp-8ba962a642.jpg","documents":[],"shippingDimensions":{"unit":{"dimensionCount":1,"lengthCm":36,"widthCm":14.5,"heightCm":55,"volumeCm3":28710,"weightKg":6.3},"carton":null},"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Polarization VH F/B ratio [dB] 27 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 25 Azimuth beam width (-6dB) [°] 60 Antenna type Sector Antenna gain [dBi] 17 Connectors and Interfaces RF connectors TwistPort Physical characteristics Designed for mast diameter [mm] 40 up to 80 Wind load [km/h] 160 Protection class IP55 Purpose Outdoor Material Aluminum, UV stabilized ABS plastic, Stainless steel, Polycarbonate Operating temperature [°C] 35 up to 60 Weight [kg] 4,7 Width [mm] 101 Height [mm] 334 Depth [mm] 457"}
+{
+  "id": "rf-elements-ah60-tp",
+  "brand": "RF elements",
+  "sku": "AH60-TP",
+  "title": "RF elements Asymmetrical Horn Antenna with TwistPort, 5GHz, 17dBi, 60°",
+  "category": "RF elements / Wireless / Antennas / Sector antennas / 5GHz",
+  "description": "AH60-TP is a 5GHz sector antenna of the \"horn\" type from the RF elements workshop and features an 60° asymmetric beam angle, 17 dBi gain and a Twistport connector. This antenna offers the perfect combination of features and functions that address the major weaknesses of today's mainstream sector antennas Asymmetrical Horn TP Antennas feature our industry-changing TwistPort connector, a patent-pending quick-locking waveguide port. TwistPort is virtually lossless: there are no coaxial connectors or cables that attenuate signal. Connecting radios is ingeniously simple - âtwist and lockâ - with a single hand! Mainstream patch array sector antennas have radiation pattern extremely wide in azimuth and extremely flat in elevation plane. If an AP is deployed on a tall tower, customers near the tower suffer from low AP signal level. Asymmetrical Horn TP Antennas provide valuable extra degrees in elevation beam width, shrinking the null zone while preserving increased gain for long range performance Horn TP Antennas provide extraordinary scalability options. Asymmetrical Horn TP Antennas are new addition to the tool box. Unique beam performance, precise radiation patterns and increased gain push system scalability even further For use with third-party products such as MikroTik, Ubiquiti or Cambium, RF elements offer a wide range of adapters that allow you to easily connect these devices to the TwistPort connector. This allows you to transfer any unit to another antenna with a single click without screwing pigtails Asymmetrical Horn AH60-TP Antenna features an innovative…",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 284,
+  "fullCartonUnitPriceUsd": 284,
+  "imageUrl": "assets/catalog-data/public-images/rf-elements-ah60-tp-8ba962a642.jpg",
+  "documents": [],
+  "shippingDimensions": {
+    "unit": {
+      "dimensionCount": 1,
+      "lengthCm": 36,
+      "widthCm": 14.5,
+      "heightCm": 55,
+      "volumeCm3": 28710,
+      "weightKg": 6.3
+    },
+    "carton": null
+  },
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Polarization VH F/B ratio [dB] 27 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 25 Azimuth beam width (-6dB) [°] 60 Antenna type Sector Antenna gain [dBi] 17 Connectors and Interfaces RF connectors TwistPort Physical characteristics Designed for mast diameter [mm] 40 up to 80 Wind load [km/h] 160 Protection class IP55 Purpose Outdoor Material Aluminum, UV stabilized ABS plastic, Stainless steel, Polycarbonate Operating temperature [°C] 35 up to 60 Weight [kg] 4,7 Width [mm] 101 Height [mm] 334 Depth [mm] 457",
+  "stockQtyVisible": 237,
+  "discompProductUrl": "https://www.discomp.cz/rf-elements-asymmetrical-horn-antenna-with-twistport-5ghz-17dbi-60-_d113547.html",
+  "discompCategoryUrl": "https://www.discomp.cz/rf-elements-wireless-antennas-sector-antennas-5ghz_c15888335.html",
+  "discompSourcePath": [
+    "RF elements",
+    "Wireless",
+    "Antennas",
+    "Sector antennas",
+    "5GHz"
+  ]
+}

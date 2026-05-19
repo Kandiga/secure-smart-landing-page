@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-g5-ptz-cm","brand":"Ubiquiti","sku":"UACC-G5-PTZ-CM","title":"Ubiquiti G5 PTZ - Corner mount for UVC-G5-PTZ","category":"Cameras, security / Mounting boxes and brackets / Wallmount","description":"Corner mount designed for the Ubiquiti UniFi G5 PTZ camera. Weather-resistant","availability":"To order / expected","unitPerCarton":45,"warranty":"24 months","displayPriceUsd":22,"fullCartonUnitPriceUsd":21.23,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-g5-ptz-cm-b67a3b32e2.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-g5-ptz-cm",
+  "brand": "Ubiquiti",
+  "sku": "UACC-G5-PTZ-CM",
+  "title": "Ubiquiti G5 PTZ - Corner mount for UVC-G5-PTZ",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Wallmount",
+  "description": "Corner mount designed for the Ubiquiti UniFi G5 PTZ camera. Weather-resistant",
+  "availability": "Expected 30.6.2026",
+  "unitPerCarton": 45,
+  "warranty": "24 months",
+  "displayPriceUsd": 22,
+  "fullCartonUnitPriceUsd": 21.23,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-g5-ptz-cm-b67a3b32e2.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-g5-ptz-corner-mount-for-uvc-g5-ptz_d127592.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-wallmount_c16588781.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Wallmount"
+  ]
+}

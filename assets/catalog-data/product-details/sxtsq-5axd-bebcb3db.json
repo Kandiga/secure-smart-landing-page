@@ -1,1 +1,27 @@
-{"id":"mikrotik-sxtsq-5axd","brand":"MikroTik","sku":"SXTsq-5axD","title":"MikroTik SXTsq-5axD, Wi-Fi 6 outdoor CPE, RouterOS L4","category":"Wireless / Outdoor units / MikroTik","description":"The new SXTsq 5 ax â MikroTikâs first outdoor CPE device with Wi-Fi 6 support â combines cutting-edge wireless technology with the proven and compact SXTsq design. Despite the upgrade to Wi-Fi 6 and a modern dual-core processor based on the ARM architecture, this unit retains the same price level as the previous Wi-Fi 5 model â making it one of the most cost-effective rugged CPE devices on the market. The housing is built to withstand all weather conditions and offers three different… The device features a dual-polarized antenna with a gain of 16 dBi and, thanks to its Wi-Fi 6 radio module, it reaches a maximum modulation rate of up to 1200 Mbps . Network connectivity is provided via 1Ã Gigabit Ethernet port, which also supports passive PoE input in the range of 12â28 V. The unit's maximum power consumption is 6 W Wi-Fi 6 (802.11a/n/ac/ax), up to 1200 Mbps More powerful ARM processor compared to the predecessor 1Ã Gigabit Ethernet port 16 dBi antenna gain RouterOS v7 with L4 license â can be configured as an AP Device 24 V / 0.38 A power adapter PoE injector Metal mounting strap","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":61,"fullCartonUnitPriceUsd":58.87,"imageUrl":"assets/catalog-data/public-images/mikrotik-sxtsq-5axd-f06ff2017d.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Tx power [dBm] 25 Wireless frequency 5 GHz WiFi standards 802.11ax, 802.11ac, 802.11n, 802.11a Transmission speed - 5GHz [Mb/s] 1201 Tx power 5GHz [dBm] 24 Elevation beam width (-6dB) [°] 23 Azimuth beam width (-6dB) [°] 23 5GHz MIMO 2 x 2 Type of antenna Built-in Antenna gain [dBi] 16 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 12 .. 28V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 6 Physical characteristics Protection class IP55 Design Outdoor Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 70 Width [mm] 129 Height [mm] 129 Depth [mm] 34 Hardware CPU Dual-Core IPQ-5010 800 MHz CPU frequency [MHz] 800 CPU cores 2 Internal storage [MB] 128 RAM [MB] 256"}
+{
+  "id": "mikrotik-sxtsq-5axd",
+  "brand": "MikroTik",
+  "sku": "SXTsq-5axD",
+  "title": "MikroTik SXTsq-5axD, Wi-Fi 6 outdoor CPE, RouterOS L4",
+  "category": "MikroTik / Wireless / PtP Backhaul / 5GHz",
+  "description": "The new SXTsq 5 ax â MikroTikâs first outdoor CPE device with Wi-Fi 6 support â combines cutting-edge wireless technology with the proven and compact SXTsq design. Despite the upgrade to Wi-Fi 6 and a modern dual-core processor based on the ARM architecture, this unit retains the same price level as the previous Wi-Fi 5 model â making it one of the most cost-effective rugged CPE devices on the market. The housing is built to withstand all weather conditions and offers three different… The device features a dual-polarized antenna with a gain of 16 dBi and, thanks to its Wi-Fi 6 radio module, it reaches a maximum modulation rate of up to 1200 Mbps . Network connectivity is provided via 1Ã Gigabit Ethernet port, which also supports passive PoE input in the range of 12â28 V. The unit's maximum power consumption is 6 W Wi-Fi 6 (802.11a/n/ac/ax), up to 1200 Mbps More powerful ARM processor compared to the predecessor 1Ã Gigabit Ethernet port 16 dBi antenna gain RouterOS v7 with L4 license â can be configured as an AP Device 24 V / 0.38 A power adapter PoE injector Metal mounting strap",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 61,
+  "fullCartonUnitPriceUsd": 58.87,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-sxtsq-5axd-f06ff2017d.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Tx power [dBm] 25 Wireless frequency 5 GHz WiFi standards 802.11ax, 802.11ac, 802.11n, 802.11a Transmission speed - 5GHz [Mb/s] 1201 Tx power 5GHz [dBm] 24 Elevation beam width (-6dB) [°] 23 Azimuth beam width (-6dB) [°] 23 5GHz MIMO 2 x 2 Type of antenna Built-in Antenna gain [dBi] 16 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 12 .. 28V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 6 Physical characteristics Protection class IP55 Design Outdoor Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 70 Width [mm] 129 Height [mm] 129 Depth [mm] 34 Hardware CPU Dual-Core IPQ-5010 800 MHz CPU frequency [MHz] 800 CPU cores 2 Internal storage [MB] 128 RAM [MB] 256",
+  "stockQtyVisible": 112,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-sxtsq-5axd-wi-fi-6-outdoor-cpe-routeros-l4_d129429.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-ptp-backhaul-5ghz_c16367747.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "PtP Backhaul",
+    "5GHz"
+  ]
+}

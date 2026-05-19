@@ -1,1 +1,26 @@
-{"id":"ubiquiti-utp-g3-touch-wall","brand":"Ubiquiti","sku":"UTP-G3-Touch-Wall","title":"Ubiquiti G3 Touch Wall, UniFi phone G3 Wall","category":"VoIP / VoIP Phones","description":"The 3rd generation of Ubiquiti VoIP phones, the G3 Wall model, features a 7\" touchscreen display with a resolution of 1280 Ã 800 px and wall mounting . It is part of the UniFi Talk product line. On the back, there are two Gigabit LAN ports âone supports PoE+ input power, while the other is equipped with PoE Passthrough functionality. Additionally, a USB-C connector provides an alternative power option. The phone includes integrated Wi-Fi 5 (802.11ac) and Bluetooth 4.2. For convenient… Wall mounting 7\" touchscreen display (1280 Ã 800 px) 5 MP camera Ergonomic handset with Mute function PoE-in + PoE Passthrough Modern design UniFi Talk and Talk Relay applications","availability":"In stock","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":440,"fullCartonUnitPriceUsd":424.6,"imageUrl":"assets/catalog-data/public-images/ubiquiti-utp-g3-touch-wall-212f4f0763.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features WiFi standards 802.11n, 802.11a, 802.11ac, 802.11b/g Image Screen size [\"] 7 Camera resolution 5MP Display resolution 1280 x 800 Connectors and Interfaces Touchscreen Yes LAN speed (2) 10/100/1000Mbps Gigabit LAN Yes Other features Touchscreen, Speaker, Bluetooth"}
+{
+  "id": "ubiquiti-utp-g3-touch-wall",
+  "brand": "Ubiquiti",
+  "sku": "UTP-G3-Touch-Wall",
+  "title": "Ubiquiti G3 Touch Wall, UniFi phone G3 Wall",
+  "category": "Ubiquiti / VoIP / VoIP Phones",
+  "description": "The 3rd generation of Ubiquiti VoIP phones, the G3 Wall model, features a 7\" touchscreen display with a resolution of 1280 Ã 800 px and wall mounting . It is part of the UniFi Talk product line. On the back, there are two Gigabit LAN ports âone supports PoE+ input power, while the other is equipped with PoE Passthrough functionality. Additionally, a USB-C connector provides an alternative power option. The phone includes integrated Wi-Fi 5 (802.11ac) and Bluetooth 4.2. For convenient… Wall mounting 7\" touchscreen display (1280 Ã 800 px) 5 MP camera Ergonomic handset with Mute function PoE-in + PoE Passthrough Modern design UniFi Talk and Talk Relay applications",
+  "availability": "In Stock 3 pcs.",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 440,
+  "fullCartonUnitPriceUsd": 424.6,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-utp-g3-touch-wall-212f4f0763.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features WiFi standards 802.11n, 802.11a, 802.11ac, 802.11b/g Image Screen size [\"] 7 Camera resolution 5MP Display resolution 1280 x 800 Connectors and Interfaces Touchscreen Yes LAN speed (2) 10/100/1000Mbps Gigabit LAN Yes Other features Touchscreen, Speaker, Bluetooth",
+  "stockQtyVisible": 3,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-g3-touch-wall-unifi-phone-g3-wall_d128789.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-voip-voip-phones_c16592069.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "VoIP",
+    "VoIP Phones"
+  ]
+}

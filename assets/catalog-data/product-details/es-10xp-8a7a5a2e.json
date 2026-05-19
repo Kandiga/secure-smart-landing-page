@@ -1,1 +1,27 @@
-{"id":"ubiquiti-es-10xp","brand":"Ubiquiti","sku":"ES-10XP","title":"Ubiquiti Edgeswitch 10XP","category":"LAN networks / Switches / Edge Switches","description":"The EdgeSwitch 10XP is the ideal WISP device for which it is the best affordable solution in the SFP managed POE switch category. The device is equipped with 8 Gigabit Ethernet ports. On all ports, the switch offers POE Out function. Thanks to the two SFP ports, there is no problem with optical connectivity. The redesigned web interface offers intuitive control. Device management is possible managed also over Ubiquiti Network Management System (UNMS) (8) Gigabit RJ45 Ports (2) SFP Ports (8) POE Out ports Powering over external DC adapter Wall or Rack mountable (for rack mountig use optional ER-ERMKIT) Device Power adapter 24V / 2.5A Power cord Screws","availability":"In stock","unitPerCarton":8,"warranty":"24 months","displayPriceUsd":131,"fullCartonUnitPriceUsd":126.42,"imageUrl":"assets/catalog-data/public-images/ubiquiti-es-10xp-a4883615a8.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (8) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (2) 1000Mbps Power Power type DC connector PoE type PoE-Out (only) PoE-Out standards Passive 24V PoE Out ports 8 PoE budget [W] 60 Max. power consumption [W] 8 Power via connector/terminal 9 .. 30V DC Physical characteristics Design Desktop Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 10 up to 50 Weight [g] 500 Width [mm] 207 Height [mm] 31 Depth [mm] 90 General Switchning capacity [Gbps] 20 MAC address table 16000 Packet forwarding rate [Mpps] 14,9"}
+{
+  "id": "ubiquiti-es-10xp",
+  "brand": "Ubiquiti",
+  "sku": "ES-10XP",
+  "title": "Ubiquiti Edgeswitch 10XP",
+  "category": "Ubiquiti / LAN networks / Switches / Edge Switches",
+  "description": "The EdgeSwitch 10XP is the ideal WISP device for which it is the best affordable solution in the SFP managed POE switch category. The device is equipped with 8 Gigabit Ethernet ports. On all ports, the switch offers POE Out function. Thanks to the two SFP ports, there is no problem with optical connectivity. The redesigned web interface offers intuitive control. Device management is possible managed also over Ubiquiti Network Management System (UNMS) (8) Gigabit RJ45 Ports (2) SFP Ports (8) POE Out ports Powering over external DC adapter Wall or Rack mountable (for rack mountig use optional ER-ERMKIT) Device Power adapter 24V / 2.5A Power cord Screws",
+  "availability": "Not In Stock",
+  "unitPerCarton": 8,
+  "warranty": "24 months",
+  "displayPriceUsd": 131,
+  "fullCartonUnitPriceUsd": 126.42,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-es-10xp-a4883615a8.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (8) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (2) 1000Mbps Power Power type DC connector PoE type PoE-Out (only) PoE-Out standards Passive 24V PoE Out ports 8 PoE budget [W] 60 Max. power consumption [W] 8 Power via connector/terminal 9 .. 30V DC Physical characteristics Design Desktop Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 10 up to 50 Weight [g] 500 Width [mm] 207 Height [mm] 31 Depth [mm] 90 General Switchning capacity [Gbps] 20 MAC address table 16000 Packet forwarding rate [Mpps] 14,9",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-edgeswitch-10xp_d87804.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-edge-switches_c16172907.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "Edge Switches"
+  ]
+}

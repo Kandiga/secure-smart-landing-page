@@ -1,1 +1,27 @@
-{"id":"rf-elements-tpa-sma6","brand":"RF elements","sku":"TPA-SMA6","title":"RF elements TPA-SMA TwistPort adaptor for 6Ghz with 2x RP-SMA connectors","category":"Wireless / Antennas / TwistPort and other adapters","description":"The TPA-SMA6 provides two RP-SMA female coaxial interface to TwistPortâ¢ enabled antennas any WB antenna: SH30WB, SH60WB, SH90WB,AH60WB, AH90WB, UD29WB 5 GHz Antennas: UH-TP-5-24, HG3-TP-S30, UD-TP-21, UD-TP-24, UD-TP-27","availability":"To order / expected","unitPerCarton":100,"warranty":"24 months","displayPriceUsd":26,"fullCartonUnitPriceUsd":25.09,"imageUrl":"assets/catalog-data/public-images/rf-elements-tpa-sma6-040b34b4ec.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Wireless frequency 6 GHz Connectors and Interfaces RF connectors (2) RP-SMA female Power Impedance [ohms] 50"}
+{
+  "id": "rf-elements-tpa-sma6",
+  "brand": "RF elements",
+  "sku": "TPA-SMA6",
+  "title": "RF elements TPA-SMA TwistPort adaptor for 6Ghz with 2x RP-SMA connectors",
+  "category": "RF elements / Wireless / Antennas / TwistPort and other adapters",
+  "description": "The TPA-SMA6 provides two RP-SMA female coaxial interface to TwistPortâ¢ enabled antennas any WB antenna: SH30WB, SH60WB, SH90WB,AH60WB, AH90WB, UD29WB 5 GHz Antennas: UH-TP-5-24, HG3-TP-S30, UD-TP-21, UD-TP-24, UD-TP-27",
+  "availability": "In Stock 44 pcs.",
+  "unitPerCarton": 100,
+  "warranty": "24 months",
+  "displayPriceUsd": 26,
+  "fullCartonUnitPriceUsd": 25.09,
+  "imageUrl": "assets/catalog-data/public-images/rf-elements-tpa-sma6-040b34b4ec.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Wireless frequency 6 GHz Connectors and Interfaces RF connectors (2) RP-SMA female Power Impedance [ohms] 50",
+  "stockQtyVisible": 44,
+  "discompProductUrl": "https://www.discomp.cz/rf-elements-tpa-sma-twistport-adaptor-for-6ghz-with-2x-rp-sma-connectors_d126811.html",
+  "discompCategoryUrl": "https://www.discomp.cz/rf-elements-wireless-antennas-twistport-and-other-adapters_c16587963.html",
+  "discompSourcePath": [
+    "RF elements",
+    "Wireless",
+    "Antennas",
+    "TwistPort and other adapters"
+  ]
+}

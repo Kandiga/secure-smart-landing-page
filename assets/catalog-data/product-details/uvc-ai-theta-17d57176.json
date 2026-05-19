@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uvc-ai-theta","brand":"Ubiquiti","sku":"UVC-AI-Theta","title":"Ubiquiti UVC-AI-Theta - UniFi Protect AI Theta camera","category":"Cameras, security / IP cameras / Special","description":"UniFi Protect UVC AI Theta is a special camera unit (hub) with an Ethernet port, information display and two USB-C ports for connecting the camera at a distance of up to 30m (a 1m connecting cable is included in the package) and an audio microphone/speaker, which is not included in the package. In the package there are 2 cameras with different characteristics and it is possible to connect only one of them The panoramic camera has a 12MP sensor, a resolution of 2560 x 2560px at 20 fps and a fixed lens with a viewing angle of 180° The wide-angle camera is directional, has an 8MP sensor, a max. resolution of 3264 x 2448px at 24 fps and a fixed lens with a viewing angle of 98° The hub connects to the network using a 10/100/1000 Mbps Ethernet port which supports power via PoE 37 - 57V DC with a maximum consumption of 12.5W. The hub is intended for indoor use only, supports H.264 and MJPEG compression, and thanks to the powerful CPU supports intelligent AI detection of movement, people, cars and license plates 8MP, 98° wide viewing angle, max. 24 fps 12MP, 180° panoramic viewing angle, max. 20 fps Possibility of additional purchase of audio module with microphone and speaker Power supply via PoE, max. consumption 12.5W Color LCM display for monitoring device status Advanced AI processor for long range intelligent detection Managed by UniFi Protect software - from version 2.7.18 (web) or 1.11.0 (mobile app) Note: UniFI Protect is required to run this product with full functionality, we recommend using it with UniFi Dream Machine Pro or UniFi Protect Network Video Recorder…","availability":"To order / expected","unitPerCarton":16,"warranty":"24 months","displayPriceUsd":345,"fullCartonUnitPriceUsd":332.93,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-ai-theta-7b57eb1acd.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Camera Lens type Fixed Viewing Angle [°] 98 Day/night mode Electronic Image Resolution 8MP Max. resolution [pixels] 3264 x 2448 Connectors and Interfaces USB-C ports 2 LAN speed (1) 10/100/1000Mbps Power Power over Ethernet 37 .. 57V DC Power type PoE Max. power consumption [W] 12,5 Physical characteristics Purpose Indoor Operating temperature [°C] 20 up to 40 Width [mm] 23 Height [mm] 23 Depth [mm] 44 Color White Compression standard Video compression H.264 General Camera class UniFi Protect Software Default IP address Dynamic from DHCP"}
+{
+  "id": "ubiquiti-uvc-ai-theta",
+  "brand": "Ubiquiti",
+  "sku": "UVC-AI-Theta",
+  "title": "Ubiquiti UVC-AI-Theta - UniFi Protect AI Theta camera",
+  "category": "Ubiquiti / Cameras, security / IP cameras / Special",
+  "description": "UniFi Protect UVC AI Theta is a special camera unit (hub) with an Ethernet port, information display and two USB-C ports for connecting the camera at a distance of up to 30m (a 1m connecting cable is included in the package) and an audio microphone/speaker, which is not included in the package. In the package there are 2 cameras with different characteristics and it is possible to connect only one of them The panoramic camera has a 12MP sensor, a resolution of 2560 x 2560px at 20 fps and a fixed lens with a viewing angle of 180° The wide-angle camera is directional, has an 8MP sensor, a max. resolution of 3264 x 2448px at 24 fps and a fixed lens with a viewing angle of 98° The hub connects to the network using a 10/100/1000 Mbps Ethernet port which supports power via PoE 37 - 57V DC with a maximum consumption of 12.5W. The hub is intended for indoor use only, supports H.264 and MJPEG compression, and thanks to the powerful CPU supports intelligent AI detection of movement, people, cars and license plates 8MP, 98° wide viewing angle, max. 24 fps 12MP, 180° panoramic viewing angle, max. 20 fps Possibility of additional purchase of audio module with microphone and speaker Power supply via PoE, max. consumption 12.5W Color LCM display for monitoring device status Advanced AI processor for long range intelligent detection Managed by UniFi Protect software - from version 2.7.18 (web) or 1.11.0 (mobile app) Note: UniFI Protect is required to run this product with full functionality, we recommend using it with UniFi Dream Machine Pro or UniFi Protect Network Video Recorder…",
+  "availability": "In Stock 22 pcs.",
+  "unitPerCarton": 16,
+  "warranty": "24 months",
+  "displayPriceUsd": 345,
+  "fullCartonUnitPriceUsd": 332.93,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-ai-theta-7b57eb1acd.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Camera Lens type Fixed Viewing Angle [°] 98 Day/night mode Electronic Image Resolution 8MP Max. resolution [pixels] 3264 x 2448 Connectors and Interfaces USB-C ports 2 LAN speed (1) 10/100/1000Mbps Power Power over Ethernet 37 .. 57V DC Power type PoE Max. power consumption [W] 12,5 Physical characteristics Purpose Indoor Operating temperature [°C] 20 up to 40 Width [mm] 23 Height [mm] 23 Depth [mm] 44 Color White Compression standard Video compression H.264 General Camera class UniFi Protect Software Default IP address Dynamic from DHCP",
+  "stockQtyVisible": 22,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uvc-ai-theta-unifi-protect-ai-theta-camera_d121418.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-ip-cameras-special_c16591481.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "IP cameras",
+    "Special"
+  ]
+}

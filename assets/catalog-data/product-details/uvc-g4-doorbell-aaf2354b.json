@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uvc-g4-doorbell","brand":"Ubiquiti","sku":"UVC-G4-DoorBell","title":"Ubiquiti UVC-G4-DoorBell - UniFi Protect G4 Doorbell","category":"Cameras, security / Videophones and bells / Door Bells","description":"UniFi Protect G4 Doorbell is a Wi-Fi video doorbell with a built-in display and real-time two-way audio communication. The camera features a high-quality 5MP sensor with enhanced night vision. Image streams can be viewed in up to 1600x1200 (2MP) HD at 30 FPS. UniFi Protect G4 Doorbell includes a PIR sensor for instant motion detection alerts. Integration with UniFi Protect provides an easy-to-use interface UniFI Protect is required to run this product with full functionality, we recommend using it with UniFi Dream Machine PRO or UniFi Protect Network Video Recorder 1600x1200 (2MP) HD stream with night vision Integrated entrance lighting Real-time two-way audio with echo cancellation Built-in display Dual-band 802.11ac Wi-Fi PIR motion detection sensor Weather-resistant UniFi Protect integration Device (DoorBell) (2) Plastic base for wall installation","availability":"To order / expected","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":220,"fullCartonUnitPriceUsd":212.3,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-g4-doorbell-29b24d2c04.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Camera Lens type Fixed Illumination IR PIR motion sensor Yes Viewing Angle [°] 138 Wireless features Wireless frequency 5 GHz WiFi standards 802.11ac Integrated WiFi Yes Image Resolution 5MP Max. resolution [pixels] 1600 x 1200 (UXGA) Connectors and Interfaces Audio Microphone, Speaker Power Power type AC terminal Max. power consumption [W] 12 Power via connector/terminal 16 .. 24V AC Physical characteristics Protection class IPX4 Purpose Outdoor Operating temperature [°C] 10 up to 40 Width [mm] 47 Height [mm] 118 Depth [mm] 26 Compression standard Video compression H.264"}
+{
+  "id": "ubiquiti-uvc-g4-doorbell",
+  "brand": "Ubiquiti",
+  "sku": "UVC-G4-DoorBell",
+  "title": "Ubiquiti UVC-G4-DoorBell - UniFi Protect G4 Doorbell",
+  "category": "Ubiquiti / Cameras, security / Videophones and bells / Door Bells",
+  "description": "UniFi Protect G4 Doorbell is a Wi-Fi video doorbell with a built-in display and real-time two-way audio communication. The camera features a high-quality 5MP sensor with enhanced night vision. Image streams can be viewed in up to 1600x1200 (2MP) HD at 30 FPS. UniFi Protect G4 Doorbell includes a PIR sensor for instant motion detection alerts. Integration with UniFi Protect provides an easy-to-use interface UniFI Protect is required to run this product with full functionality, we recommend using it with UniFi Dream Machine PRO or UniFi Protect Network Video Recorder 1600x1200 (2MP) HD stream with night vision Integrated entrance lighting Real-time two-way audio with echo cancellation Built-in display Dual-band 802.11ac Wi-Fi PIR motion detection sensor Weather-resistant UniFi Protect integration Device (DoorBell) (2) Plastic base for wall installation",
+  "availability": "Ordered, unknown date",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 220,
+  "fullCartonUnitPriceUsd": 212.3,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-g4-doorbell-29b24d2c04.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Camera Lens type Fixed Illumination IR PIR motion sensor Yes Viewing Angle [°] 138 Wireless features Wireless frequency 5 GHz WiFi standards 802.11ac Integrated WiFi Yes Image Resolution 5MP Max. resolution [pixels] 1600 x 1200 (UXGA) Connectors and Interfaces Audio Microphone, Speaker Power Power type AC terminal Max. power consumption [W] 12 Power via connector/terminal 16 .. 24V AC Physical characteristics Protection class IPX4 Purpose Outdoor Operating temperature [°C] 10 up to 40 Width [mm] 47 Height [mm] 118 Depth [mm] 26 Compression standard Video compression H.264",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uvc-g4-doorbell-unifi-protect-g4-doorbell_d98664.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-videophones-and-bells-door-bells_c16591511.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Videophones and bells",
+    "Door Bells"
+  ]
+}

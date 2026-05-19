@@ -1,1 +1,27 @@
-{"id":"ubiquiti-sr71-15","brand":"Ubiquiti","sku":"SR71-15","title":"Ubiquiti SR71-15 miniPCI, 500 mW, 802.11a/n, 5Ghz, 2xMMCX","category":"Wireless / PC Engines Alix / MiniPCI cards","description":"UBNT SR71-15 mini PCI card with excellent sensitivity 97dBm with output power 500mW. This card belongs to the proven very powerful line of SuperRange cards. Its advantages are a high range of operating temperatures and very high sensitivity. This card allows you to make connections up to a distance of 50 km","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":19,"fullCartonUnitPriceUsd":19,"imageUrl":"assets/catalog-data/public-images/ubiquiti-sr71-15-3ac23d3a95.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Sensitivity [dBm] 97 Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a Transmission speed - 5GHz [Mb/s] 300 Tx power 5GHz [dBm] 27 Security WPA, WPA2, AES-CCM & TKIP Encryption, 802.1x, 64/128/152bit WEP Connectors and Interfaces Bus type miniPCI RF connectors (2) MMCX Power Max. power consumption [W] 4,3 Physical characteristics Operating temperature [°C] 40 up to 85 Width [mm] 60 Height [mm] 7 Depth [mm] 55"}
+{
+  "id": "ubiquiti-sr71-15",
+  "brand": "Ubiquiti",
+  "sku": "SR71-15",
+  "title": "Ubiquiti SR71-15 miniPCI, 500 mW, 802.11a/n, 5Ghz, 2xMMCX",
+  "category": "Ubiquiti / Wireless / MiniPCI cards / MiniPCI",
+  "description": "UBNT SR71-15 mini PCI card with excellent sensitivity 97dBm with output power 500mW. This card belongs to the proven very powerful line of SuperRange cards. Its advantages are a high range of operating temperatures and very high sensitivity. This card allows you to make connections up to a distance of 50 km",
+  "availability": "In Stock 94 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 19,
+  "fullCartonUnitPriceUsd": 19,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-sr71-15-3ac23d3a95.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Sensitivity [dBm] 97 Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a Transmission speed - 5GHz [Mb/s] 300 Tx power 5GHz [dBm] 27 Security WPA, WPA2, AES-CCM & TKIP Encryption, 802.1x, 64/128/152bit WEP Connectors and Interfaces Bus type miniPCI RF connectors (2) MMCX Power Max. power consumption [W] 4,3 Physical characteristics Operating temperature [°C] 40 up to 85 Width [mm] 60 Height [mm] 7 Depth [mm] 55",
+  "stockQtyVisible": 94,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-sr71-15-minipci-500-mw-802-11a-n-5ghz-2xmmcx_d19371.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-minipci-cards-minipci_c16591531.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "MiniPCI cards",
+    "MiniPCI"
+  ]
+}

@@ -1,1 +1,26 @@
-{"id":"ubiquiti-usp-cable","brand":"Ubiquiti","sku":"USP-Cable","title":"Ubiquiti UniFi Smart Power Cable, USP-Cable","category":"Powering / Power cables and adapters / DC cables","description":"USP-Cable is a special DC power cable designed for the Ubiquiti SmartPower System . This cable connecting UniFi Switch and the UniFi SmartPower (USP-RPS) from which it will receive power if the built-in power source fails. The cable is 1.5m long and has special connectors at its ends with a simple tool-free installation GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"In stock","unitPerCarton":12,"warranty":"24 months","displayPriceUsd":36,"fullCartonUnitPriceUsd":34.74,"imageUrl":"assets/catalog-data/public-images/ubiquiti-usp-cable-661e71567c.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-usp-cable",
+  "brand": "Ubiquiti",
+  "sku": "USP-Cable",
+  "title": "Ubiquiti UniFi Smart Power Cable, USP-Cable",
+  "category": "Ubiquiti / Powering / Power cables and adapters / DC cables",
+  "description": "USP-Cable is a special DC power cable designed for the Ubiquiti SmartPower System . This cable connecting UniFi Switch and the UniFi SmartPower (USP-RPS) from which it will receive power if the built-in power source fails. The cable is 1.5m long and has special connectors at its ends with a simple tool-free installation GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "In Stock 11 pcs.",
+  "unitPerCarton": 12,
+  "warranty": "24 months",
+  "displayPriceUsd": 36,
+  "fullCartonUnitPriceUsd": 34.74,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-usp-cable-661e71567c.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 11,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-smart-power-cable-usp-cable_d95728.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-power-cables-and-adapters-dc-cables_c14513533.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Power cables and adapters",
+    "DC cables"
+  ]
+}

@@ -1,1 +1,27 @@
-{"id":"mikrotik-acrpsma","brand":"MikroTik","sku":"ACRPSMA","title":"MikroTik Flex-guide (RPSMA to RPSMA cable 500mm) ACRPSMA","category":"Wireless / MikroTik / Accessories","description":"A super low loss 50cm long RPSMA cable for superior connection quality, suited for indoor and outdoor use, this cable provides superior matching and loss values The name of this cable comes from combining the words âflexibleâ and âwaveguideâ, to denote the high end features of this product The inner conductor is silver plated copper, and both connectors are soldered, not crimped, for the best possible signal quality. Ideally suited for our BaseBox and other products with RPSMA connectors, and works with most antennas","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":8,"fullCartonUnitPriceUsd":8,"imageUrl":"assets/catalog-data/public-images/mikrotik-acrpsma-858e9324e4.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Wireless frequency 0 up to 6 GHz Connectors and Interfaces Connectors RSMA male - RSMA male"}
+{
+  "id": "mikrotik-acrpsma",
+  "brand": "MikroTik",
+  "sku": "ACRPSMA",
+  "title": "MikroTik Flex-guide (RPSMA to RPSMA cable 500mm) ACRPSMA",
+  "category": "MikroTik / Wireless / RF cables and accessories / Pigtails 2.4 and 5GHz",
+  "description": "A super low loss 50cm long RPSMA cable for superior connection quality, suited for indoor and outdoor use, this cable provides superior matching and loss values The name of this cable comes from combining the words âflexibleâ and âwaveguideâ, to denote the high end features of this product The inner conductor is silver plated copper, and both connectors are soldered, not crimped, for the best possible signal quality. Ideally suited for our BaseBox and other products with RPSMA connectors, and works with most antennas",
+  "availability": "In Stock 14 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 8,
+  "fullCartonUnitPriceUsd": 8,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-acrpsma-858e9324e4.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Wireless frequency 0 up to 6 GHz Connectors and Interfaces Connectors RSMA male - RSMA male",
+  "stockQtyVisible": 14,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-flex-guide-rpsma-to-rpsma-cable-500mm-acrpsma_d57855.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-rf-cables-and-accessories-pigtails-2-4-and-5ghz_c15888354.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "RF cables and accessories",
+    "Pigtails 2.4 and 5GHz"
+  ]
+}

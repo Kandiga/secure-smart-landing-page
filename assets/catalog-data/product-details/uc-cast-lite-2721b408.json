@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uc-cast-lite","brand":"Ubiquiti","sku":"UC-Cast-Lite","title":"Ubiquiti UC-Cast-Lite, Display Cast Lite","category":"Cameras, security / UniFi Access","description":"Display Cast Lite is a new digital signage player designed for media playback on HDMI displays. The device can play multimedia or presentations from Unifi Connect. The player can be connected to the network using 2.4GHz or 5GHz Wi-Fi 6 (802.11 a/b/g/n/ac/ax) and is powered via a USB-C port 5V/1A Media player USB-C power adapter Wall mount holder Wall plugs and screws (2) Cable ties Drilling template","availability":"In stock","unitPerCarton":16,"warranty":"24 months","displayPriceUsd":193,"fullCartonUnitPriceUsd":186.25,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uc-cast-lite-4fed71a3dd.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Wireless frequency 2.4 GHz, 5 GHz WiFi standards 802.11n, 802.11a, 802.11ac, 802.11b/g, 802.11ax Integrated WiFi Yes Power Power type USB-C"}
+{
+  "id": "ubiquiti-uc-cast-lite",
+  "brand": "Ubiquiti",
+  "sku": "UC-Cast-Lite",
+  "title": "Ubiquiti UC-Cast-Lite, Display Cast Lite",
+  "category": "Ubiquiti / Cameras, security / UniFi Access",
+  "description": "Display Cast Lite is a new digital signage player designed for media playback on HDMI displays. The device can play multimedia or presentations from Unifi Connect. The player can be connected to the network using 2.4GHz or 5GHz Wi-Fi 6 (802.11 a/b/g/n/ac/ax) and is powered via a USB-C port 5V/1A Media player USB-C power adapter Wall mount holder Wall plugs and screws (2) Cable ties Drilling template",
+  "availability": "In Stock 36 pcs.",
+  "unitPerCarton": 16,
+  "warranty": "24 months",
+  "displayPriceUsd": 193,
+  "fullCartonUnitPriceUsd": 186.25,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uc-cast-lite-4fed71a3dd.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Wireless frequency 2.4 GHz, 5 GHz WiFi standards 802.11n, 802.11a, 802.11ac, 802.11b/g, 802.11ax Integrated WiFi Yes Power Power type USB-C",
+  "stockQtyVisible": 36,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uc-cast-lite-display-cast-lite_d128799.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-unifi-access_c16587756.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "UniFi Access"
+  ]
+}

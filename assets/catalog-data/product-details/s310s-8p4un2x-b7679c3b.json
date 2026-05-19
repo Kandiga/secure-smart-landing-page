@@ -1,1 +1,27 @@
-{"id":"huawei-s310s-8p4un2x","brand":"Huawei","sku":"S310S-8P4UN2X","title":"Huawei S310S-8P4UN2X 2.5G Cloud PoE Switch","category":"LAN networks / Switches / eKit Switches","description":"Huawei S310S-8P4UN2X is a reliable managed cloud L2+ PoE switch with a switching capacity of 76Gbps , (8) Gbit PoE+ ports , (4) 2.5G PoE++ ports and (2) SFP+ slots . It supports management via a local web interface as well as cloud management ( eKit SNC / eKit mobile app ). The maximum power consumption is 20.8W (without PoE load) (8) Gbit PoE+ ports , (4) 2.5G PoE++ ports and (2) SFP+ slots PoE 802.3af/at/bt with a total budget of 125W Perpetual PoE - ensures uninterrupted power supply to connected PoE devices even during switch restarts or upgrades Huawei Online Upgrade Platform (HOUP) - automatic one-click updates Passive cooling - silent operation, suitable for office environments L2+ functions: static and policy-based routing, ARP, DHCP Protection against DoS attacks and other security features Automatic loop prevention, VLAN, QoS, DHCP/IGMP snooping, link aggregation Device Power adapter and cable Grounding cable Rack mounts Rubber feet","availability":"In stock","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":265,"fullCartonUnitPriceUsd":265,"imageUrl":"assets/catalog-data/public-images/huawei-s310s-8p4un2x-097709950a.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces LAN speed (8) 10/100/1000Mbps + (4) 100/1000/2500Mbps Optical interfaces (2) 1G/2.5G/10G Power Power type DC connector PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, 802.3bt PoE Out ports 12 PoE budget [W] 125 Max. power consumption [W] 160 Power via connector/terminal 54 .. 57V DC Physical characteristics Design Rackmount \"U\" positions 1 Fans No Chassis design Metal Buttons Reset, mode Operating temperature [°C] 5 up to 45 Weight [g] 2510 Width [mm] 250 Height [mm] 44 Depth [mm] 180 General Switchning capacity [Gbps] 76 MAC address table 16000 Packet forwarding rate [Mpps] 56"}
+{
+  "id": "huawei-s310s-8p4un2x",
+  "brand": "Huawei",
+  "sku": "S310S-8P4UN2X",
+  "title": "Huawei S310S-8P4UN2X 2.5G Cloud PoE Switch",
+  "category": "Huawei / LAN networks / Switches / eKit Switches",
+  "description": "Huawei S310S-8P4UN2X is a reliable managed cloud L2+ PoE switch with a switching capacity of 76Gbps , (8) Gbit PoE+ ports , (4) 2.5G PoE++ ports and (2) SFP+ slots . It supports management via a local web interface as well as cloud management ( eKit SNC / eKit mobile app ). The maximum power consumption is 20.8W (without PoE load) (8) Gbit PoE+ ports , (4) 2.5G PoE++ ports and (2) SFP+ slots PoE 802.3af/at/bt with a total budget of 125W Perpetual PoE - ensures uninterrupted power supply to connected PoE devices even during switch restarts or upgrades Huawei Online Upgrade Platform (HOUP) - automatic one-click updates Passive cooling - silent operation, suitable for office environments L2+ functions: static and policy-based routing, ARP, DHCP Protection against DoS attacks and other security features Automatic loop prevention, VLAN, QoS, DHCP/IGMP snooping, link aggregation Device Power adapter and cable Grounding cable Rack mounts Rubber feet",
+  "availability": "In Stock 1 pcs.",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 265,
+  "fullCartonUnitPriceUsd": 265,
+  "imageUrl": "assets/catalog-data/public-images/huawei-s310s-8p4un2x-097709950a.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces LAN speed (8) 10/100/1000Mbps + (4) 100/1000/2500Mbps Optical interfaces (2) 1G/2.5G/10G Power Power type DC connector PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, 802.3bt PoE Out ports 12 PoE budget [W] 125 Max. power consumption [W] 160 Power via connector/terminal 54 .. 57V DC Physical characteristics Design Rackmount \"U\" positions 1 Fans No Chassis design Metal Buttons Reset, mode Operating temperature [°C] 5 up to 45 Weight [g] 2510 Width [mm] 250 Height [mm] 44 Depth [mm] 180 General Switchning capacity [Gbps] 76 MAC address table 16000 Packet forwarding rate [Mpps] 56",
+  "stockQtyVisible": 1,
+  "discompProductUrl": "https://www.discomp.cz/huawei-s310s-8p4un2x-2-5g-cloud-poe-switch_d130976.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-lan-networks-switches-ekit-switches_c16591802.html",
+  "discompSourcePath": [
+    "Huawei",
+    "LAN networks",
+    "Switches",
+    "eKit Switches"
+  ]
+}

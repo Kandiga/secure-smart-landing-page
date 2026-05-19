@@ -1,1 +1,26 @@
-{"id":"ubiquiti-utp-g3-touch-enterprise","brand":"Ubiquiti","sku":"UTP-G3-Touch-Enterprise","title":"Ubiquiti UTP-G3-Touch-Enterprise","category":"VoIP / VoIP Phones","description":"Ubiquiti UTP G3 Touch Enterprise is the new generation of VOIP desk phones. The phone is controlled via a 7\" display with a resolution of 1280 x 800 HD , which supports Multi-touch technology. For connectivity, there are 2 gigabit LAN ports available. The phone can be powered via PoE+ or USB-C with a maximum power consumption of 5 W 7\" touch screen 5MP video camera Power supply via USB-C and PoE+","availability":"To order / expected","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":330,"fullCartonUnitPriceUsd":318.45,"imageUrl":"assets/catalog-data/public-images/ubiquiti-utp-g3-touch-enterprise-b6ecba6ecc.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features WiFi standards 802.11a, 802.11b/g, 802.11n, 802.11ac Image Screen size [\"] 7 Display resolution 1280 x 800 Connectors and Interfaces Touchscreen Yes LAN speed (2) 10/100/1000Mbps Gigabit LAN Yes Other features 3,5 jack connector, Bluetooth"}
+{
+  "id": "ubiquiti-utp-g3-touch-enterprise",
+  "brand": "Ubiquiti",
+  "sku": "UTP-G3-Touch-Enterprise",
+  "title": "Ubiquiti UTP-G3-Touch-Enterprise",
+  "category": "Ubiquiti / VoIP / VoIP Phones",
+  "description": "Ubiquiti UTP G3 Touch Enterprise is the new generation of VOIP desk phones. The phone is controlled via a 7\" display with a resolution of 1280 x 800 HD , which supports Multi-touch technology. For connectivity, there are 2 gigabit LAN ports available. The phone can be powered via PoE+ or USB-C with a maximum power consumption of 5 W 7\" touch screen 5MP video camera Power supply via USB-C and PoE+",
+  "availability": "Expected 21.5.2026",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 330,
+  "fullCartonUnitPriceUsd": 318.45,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-utp-g3-touch-enterprise-b6ecba6ecc.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features WiFi standards 802.11a, 802.11b/g, 802.11n, 802.11ac Image Screen size [\"] 7 Display resolution 1280 x 800 Connectors and Interfaces Touchscreen Yes LAN speed (2) 10/100/1000Mbps Gigabit LAN Yes Other features 3,5 jack connector, Bluetooth",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-utp-g3-touch-enterprise_d128916.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-voip-voip-phones_c16592069.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "VoIP",
+    "VoIP Phones"
+  ]
+}

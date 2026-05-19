@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-wave-ap-micro-mount","brand":"Ubiquiti","sku":"UACC-Wave-AP-Micro-Mount","title":"Ubiquiti Wave AP Micro - Pole Mount","category":"Wireless / Accessories / Mounting brackets","description":"Pole mount that supports up to 4 Ubiquiti Wave AP Micro or Wave AP Gen2 devices. Suitable for poles with a diameter of 25-76mm","availability":"In stock","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":115,"fullCartonUnitPriceUsd":110.98,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-wave-ap-micro-mount-bf609348be.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-wave-ap-micro-mount",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Wave-AP-Micro-Mount",
+  "title": "Ubiquiti Wave AP Micro - Pole Mount",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "Pole mount that supports up to 4 Ubiquiti Wave AP Micro or Wave AP Gen2 devices. Suitable for poles with a diameter of 25-76mm",
+  "availability": "In Stock 2 pcs.",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 115,
+  "fullCartonUnitPriceUsd": 110.98,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-wave-ap-micro-mount-bf609348be.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 2,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-wave-ap-micro-pole-mount_d130513.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

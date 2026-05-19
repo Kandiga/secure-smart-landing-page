@@ -1,1 +1,26 @@
-{"id":"ubiquiti-nbe-16-wm","brand":"Ubiquiti","sku":"NBE-16-WM","title":"Ubiquiti window mount for NanoBeam M5 16dBi","category":"Wireless / Accessories / Mounting brackets","description":"Excellent plastic holder designed for places where it is not possible to drill, so thanks to the suction cup it can be mounted from the inside of the window The bracket is compatible with NBE-5AC-16 and NBE-M5-16","availability":"In stock","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":7,"fullCartonUnitPriceUsd":6.76,"imageUrl":"assets/catalog-data/public-images/ubiquiti-nbe-16-wm-12a0d1c163.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-nbe-16-wm",
+  "brand": "Ubiquiti",
+  "sku": "NBE-16-WM",
+  "title": "Ubiquiti window mount for NanoBeam M5 16dBi",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "Excellent plastic holder designed for places where it is not possible to drill, so thanks to the suction cup it can be mounted from the inside of the window The bracket is compatible with NBE-5AC-16 and NBE-M5-16",
+  "availability": "In Stock 17 pcs.",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 7,
+  "fullCartonUnitPriceUsd": 6.76,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-nbe-16-wm-12a0d1c163.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 17,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-window-mount-for-nanobeam-m5-16dbi_d73375.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

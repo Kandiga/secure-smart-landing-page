@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-cable-c6a-cmr","brand":"Ubiquiti","sku":"UACC-Cable-C6A-CMR","title":"Ubiquiti UACC-Cable-C6A-CMR, UniFi Cable, CAT6, CMR, 23 AWG, 305m","category":"LAN networks / LAN cables / Cat.6","description":"Ubiquiti introduces UniFi Category 6a Indoor Ethernet Cable for your high-speed UniFi and general indoor network deployments. Available in lengths of 1000 ft (305 m), UniFi Cable is Category 6a UTP (Unshielded Twisted Pair) cabling that supports speeds of up to 1G Ethernet . It uses 23 AWG solid copper conductor pairs and an anti-crosstalk divider , which improves pair isolation. CMR (Communications Multipurpose cable, Riser) cabling is flame-retardant and can be run vertically between floors…","availability":"To order / expected","unitPerCarton":1,"warranty":"24 months","displayPriceUsd":327,"fullCartonUnitPriceUsd":327,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-cable-c6a-cmr-f255b6d4d1.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Physical characteristics Shielding type UTP (U/UTP) Installation temperature [°C] 0 up to 60 Conductor wire gauge AWG23 Cable type Solid Purpose Indoor Conductor material Copper Sheath material PVC Length [m] 305 Color White"}
+{
+  "id": "ubiquiti-uacc-cable-c6a-cmr",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Cable-C6A-CMR",
+  "title": "Ubiquiti UACC-Cable-C6A-CMR, UniFi Cable, CAT6, CMR, 23 AWG, 305m",
+  "category": "Ubiquiti / LAN networks / LAN cables / Cat.6",
+  "description": "Ubiquiti introduces UniFi Category 6a Indoor Ethernet Cable for your high-speed UniFi and general indoor network deployments. Available in lengths of 1000 ft (305 m), UniFi Cable is Category 6a UTP (Unshielded Twisted Pair) cabling that supports speeds of up to 1G Ethernet . It uses 23 AWG solid copper conductor pairs and an anti-crosstalk divider , which improves pair isolation. CMR (Communications Multipurpose cable, Riser) cabling is flame-retardant and can be run vertically between floors…",
+  "availability": "Expected 21.5.2026",
+  "unitPerCarton": 1,
+  "warranty": "24 months",
+  "displayPriceUsd": 327,
+  "fullCartonUnitPriceUsd": 327,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-cable-c6a-cmr-f255b6d4d1.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Physical characteristics Shielding type UTP (U/UTP) Installation temperature [°C] 0 up to 60 Conductor wire gauge AWG23 Cable type Solid Purpose Indoor Conductor material Copper Sheath material PVC Length [m] 305 Color White",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-cable-c6a-cmr-unifi-cable-cat6-cmr-23-awg-305m_d128728.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-lan-cables-cat-6_c16591495.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "LAN cables",
+    "Cat.6"
+  ]
+}

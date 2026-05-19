@@ -1,1 +1,27 @@
-{"id":"huawei-sfp-10g-sr-ekit","brand":"Huawei","sku":"SFP-10G-SR-eKit","title":"Huawei SFP-10G-SR-eKit, SFP+ optical module, Multi-Mode, 400m, 10G, LC","category":"Optical networks / SFP optical modules / SFP+","description":"Huawei SFP-10G-SR-eKit is a multi-mode SFP+ module with a maximum throughput of 10Gbps , 850nm wavelength and two LC connectors for connection up to a distance of 400m (OM4). The module has built-in digital diagnostic functions (DDMI) including monitoring of optical power, voltage, temperature or other key parameters","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":109,"fullCartonUnitPriceUsd":109,"imageUrl":"assets/catalog-data/public-images/huawei-sfp-10g-sr-ekit-7c7fc2b7c8.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Format SFP+ For cable type Multi Mode Transmission speed 10 Gbps Wavelength - Tx/Rx [nm] 850 Distance [km] 0,4 Transfer type 2-fiber Tx power [dBm] 7,3 up to -1 Receiver sensitivity [dBm] 11,1 Connectors and Interfaces Optical Connectors (2) LC Physical characteristics Operating temperature [°C] 0 up to 70 General Compatibility Universal"}
+{
+  "id": "huawei-sfp-10g-sr-ekit",
+  "brand": "Huawei",
+  "sku": "SFP-10G-SR-eKit",
+  "title": "Huawei SFP-10G-SR-eKit, SFP+ optical module, Multi-Mode, 400m, 10G, LC",
+  "category": "Huawei / Optical networks / SFP optical modules / SFP+",
+  "description": "Huawei SFP-10G-SR-eKit is a multi-mode SFP+ module with a maximum throughput of 10Gbps , 850nm wavelength and two LC connectors for connection up to a distance of 400m (OM4). The module has built-in digital diagnostic functions (DDMI) including monitoring of optical power, voltage, temperature or other key parameters",
+  "availability": "In Stock 7 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 109,
+  "fullCartonUnitPriceUsd": 109,
+  "imageUrl": "assets/catalog-data/public-images/huawei-sfp-10g-sr-ekit-7c7fc2b7c8.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Format SFP+ For cable type Multi Mode Transmission speed 10 Gbps Wavelength - Tx/Rx [nm] 850 Distance [km] 0,4 Transfer type 2-fiber Tx power [dBm] 7,3 up to -1 Receiver sensitivity [dBm] 11,1 Connectors and Interfaces Optical Connectors (2) LC Physical characteristics Operating temperature [°C] 0 up to 70 General Compatibility Universal",
+  "stockQtyVisible": 7,
+  "discompProductUrl": "https://www.discomp.cz/huawei-sfp-10g-sr-ekit-sfp-optical-module-multi-mode-400m-10g-lc_d131061.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-optical-networks-sfp-optical-modules-sfp-_c16591674.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Optical networks",
+    "SFP optical modules",
+    "SFP+"
+  ]
+}

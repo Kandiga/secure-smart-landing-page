@@ -1,1 +1,26 @@
-{"id":"mikrotik-xs-da0001","brand":"MikroTik","sku":"XS+DA0001","title":"MikroTik XS+DA0001 - SFP/SFP+/SFP28 DAC cable, 1m","category":"Wireless / MikroTik / DAC cables","description":"We are releasing new direct attach cables that support not only SFP 1G and SFP+ 10G, but also the 25G SFP28 standard! With the new direct attach cables you get more features for the same price! This is highly cost-effective way to connect two SFP/SFP+/SFP28 devices (for example two units of CCR2004-1G-12S+2XS) for very short distances , within racks and across adjacent racks They provide a low cost, low power and low latency interconnect solution for 25-Gigabit Ethernet, Fiber Channel and other industry standards, and are direct attached compliant and fully conform to the SFP+ MSA specifications GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":27,"fullCartonUnitPriceUsd":27,"imageUrl":"assets/catalog-data/public-images/mikrotik-xs-da0001-5f1d7f7932.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Format SFP, SFP+, SFP28 Transmission speed 1 Gbps, 10 Gbps, 25 Gbps AOC/DAC cable type Passive"}
+{
+  "id": "mikrotik-xs-da0001",
+  "brand": "MikroTik",
+  "sku": "XS+DA0001",
+  "title": "MikroTik XS+DA0001 - SFP/SFP+/SFP28 DAC cable, 1m",
+  "category": "MikroTik / Wireless / DAC cables",
+  "description": "We are releasing new direct attach cables that support not only SFP 1G and SFP+ 10G, but also the 25G SFP28 standard! With the new direct attach cables you get more features for the same price! This is highly cost-effective way to connect two SFP/SFP+/SFP28 devices (for example two units of CCR2004-1G-12S+2XS) for very short distances , within racks and across adjacent racks They provide a low cost, low power and low latency interconnect solution for 25-Gigabit Ethernet, Fiber Channel and other industry standards, and are direct attached compliant and fully conform to the SFP+ MSA specifications GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "In Stock 43 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 27,
+  "fullCartonUnitPriceUsd": 27,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-xs-da0001-5f1d7f7932.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Format SFP, SFP+, SFP28 Transmission speed 1 Gbps, 10 Gbps, 25 Gbps AOC/DAC cable type Passive",
+  "stockQtyVisible": 43,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-xs-da0001-sfp-sfp-sfp28-dac-cable-1m_d98619.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-dac-cables_c16588556.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "DAC cables"
+  ]
+}

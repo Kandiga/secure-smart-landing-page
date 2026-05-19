@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uvc-g4-doorbell-pro-poe-kit","brand":"Ubiquiti","sku":"UVC-G4 Doorbell Pro PoE Kit","title":"Ubiquiti UVC-G4 Doorbell Pro PoE Kit - UniFi Protect G4 Doorbell Professional PoE kit","category":"Cameras, security / Videophones and bells / Door Bells","description":"The UVC-G4 Doorbell Pro PoE Kit is a set of indoor doorbell and outdoor push-button video doorbell with Ethernet-only data transmission. The outdoor unit features a front primary 5MP camera and a bottom secondary 8MP camera to view what is on the mat at the door. The main camera of the doorbell is equipped with an IR LED to provide better night vision which, combined with the bottom light, ensures reliable clear monitoring throughout the day. The doorbell also features echo cancellation and… Both cameras have a 1080p HD stream at 30 fps Gigabit LAN with 802.3af PoE (1) 5MP main camera with IR illumination [1600x1200 (2MP), 30 fps] (1) 8MP bottom camera without IR [1600x1200 (2MP), 2 fps] Two-way audio with echo cancellation Built-in porch light that illuminates objects up to 2 meters away Motion sensor IPX4 degree of protection, weatherproof cover Programmable display Easy setup via UniFi Protect app Device (outdoor unit) Device (indoor unit) (5) Mounting Bracket Gripping material","availability":"To order / expected","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":442,"fullCartonUnitPriceUsd":426.53,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-g4-doorbell-pro-poe-kit-5274813cdf.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Camera Illumination IR Illumination range [m] 2 Viewing Angle [°] 138 Image Resolution 5MP Max. resolution [pixels] 1600 x 1200 (UXGA) Connectors and Interfaces Audio Microphone, Speaker Other features LCD display Power Power over Ethernet 802.3af, 37 .. 57V DC Power type PoE Max. power consumption [W] 7"}
+{
+  "id": "ubiquiti-uvc-g4-doorbell-pro-poe-kit",
+  "brand": "Ubiquiti",
+  "sku": "UVC-G4 Doorbell Pro PoE Kit",
+  "title": "Ubiquiti UVC-G4 Doorbell Pro PoE Kit - UniFi Protect G4 Doorbell Professional PoE kit",
+  "category": "Ubiquiti / Cameras, security / Videophones and bells / Door Bells",
+  "description": "The UVC-G4 Doorbell Pro PoE Kit is a set of indoor doorbell and outdoor push-button video doorbell with Ethernet-only data transmission. The outdoor unit features a front primary 5MP camera and a bottom secondary 8MP camera to view what is on the mat at the door. The main camera of the doorbell is equipped with an IR LED to provide better night vision which, combined with the bottom light, ensures reliable clear monitoring throughout the day. The doorbell also features echo cancellation and… Both cameras have a 1080p HD stream at 30 fps Gigabit LAN with 802.3af PoE (1) 5MP main camera with IR illumination [1600x1200 (2MP), 30 fps] (1) 8MP bottom camera without IR [1600x1200 (2MP), 2 fps] Two-way audio with echo cancellation Built-in porch light that illuminates objects up to 2 meters away Motion sensor IPX4 degree of protection, weatherproof cover Programmable display Easy setup via UniFi Protect app Device (outdoor unit) Device (indoor unit) (5) Mounting Bracket Gripping material",
+  "availability": "Expected 4.6.2026",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 442,
+  "fullCartonUnitPriceUsd": 426.53,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-g4-doorbell-pro-poe-kit-5274813cdf.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Camera Illumination IR Illumination range [m] 2 Viewing Angle [°] 138 Image Resolution 5MP Max. resolution [pixels] 1600 x 1200 (UXGA) Connectors and Interfaces Audio Microphone, Speaker Other features LCD display Power Power over Ethernet 802.3af, 37 .. 57V DC Power type PoE Max. power consumption [W] 7",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uvc-g4-doorbell-pro-poe-kit-unifi-protect-g4-doorbell-professional-poe-kit_d122073.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-videophones-and-bells-door-bells_c16591511.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Videophones and bells",
+    "Door Bells"
+  ]
+}

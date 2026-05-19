@@ -1,1 +1,27 @@
-{"id":"ubiquiti-ins-3af-i-g","brand":"Ubiquiti","sku":"INS-3AF-I-G","title":"Ubiquiti INS-3AF-I-G - Gigabit PoE converter 802.3af/24V, indoor","category":"Powering / Active PoE / PoE converters","description":"Internal PoE converter for powering most RouterBOARDs or devices from Ubiquiti with a gigabit LAN port. It is a converter from active power supply known as 802.3af to passive PoE 24V/0.5A with a maximum load of 12W","availability":"To order / expected","unitPerCarton":150,"warranty":"24 months","displayPriceUsd":21,"fullCartonUnitPriceUsd":20.27,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ins-3af-i-g-bba372b996.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power Output Power / 1port [W] 12,8 Pin powering 4,5 (+), 7,8 (-) PoE-Out standards 802.3af PoE Out ports 1 Output Voltage [V] 24"}
+{
+  "id": "ubiquiti-ins-3af-i-g",
+  "brand": "Ubiquiti",
+  "sku": "INS-3AF-I-G",
+  "title": "Ubiquiti INS-3AF-I-G - Gigabit PoE converter 802.3af/24V, indoor",
+  "category": "Ubiquiti / Powering / Active PoE / PoE converters",
+  "description": "Internal PoE converter for powering most RouterBOARDs or devices from Ubiquiti with a gigabit LAN port. It is a converter from active power supply known as 802.3af to passive PoE 24V/0.5A with a maximum load of 12W",
+  "availability": "Expected 5.6.2026",
+  "unitPerCarton": 150,
+  "warranty": "24 months",
+  "displayPriceUsd": 21,
+  "fullCartonUnitPriceUsd": 20.27,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ins-3af-i-g-bba372b996.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power Output Power / 1port [W] 12,8 Pin powering 4,5 (+), 7,8 (-) PoE-Out standards 802.3af PoE Out ports 1 Output Voltage [V] 24",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-ins-3af-i-g-gigabit-poe-converter-802-3af-24v-indoor_d77371.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-active-poe-poe-converters_c16591515.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Active PoE",
+    "PoE converters"
+  ]
+}

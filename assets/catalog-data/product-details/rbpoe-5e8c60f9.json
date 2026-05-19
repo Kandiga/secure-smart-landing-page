@@ -1,1 +1,26 @@
-{"id":"mikrotik-rbpoe","brand":"MikroTik","sku":"RBPOE","title":"MikroTik Passive PoE adapter","category":"Wireless / MikroTik / Accessories","description":"Low-cost passive PoE base unit for powering passive PoE devices over ethernet. Simply connect your power source to the injector, and then use an ethernet cable to connect the injector to the RouterBOARD device. Helps reducing number of wires that lead up the tower, and in other situations For using with RouterBOARDS that support 10-28V PoE powering, input needs to be at least 18V to accomodate any losses in cables GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":3,"fullCartonUnitPriceUsd":3,"imageUrl":"assets/catalog-data/public-images/mikrotik-rbpoe-9000a01131.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces Ethernet speed [Mb/s] 10/100 Power The input voltage [V] 9 .. 48V DC Pin powering 4,5 (+), 7,8 (-) PoE Out ports 1"}
+{
+  "id": "mikrotik-rbpoe",
+  "brand": "MikroTik",
+  "sku": "RBPOE",
+  "title": "MikroTik Passive PoE adapter",
+  "category": "MikroTik / Wireless / Accessories",
+  "description": "Low-cost passive PoE base unit for powering passive PoE devices over ethernet. Simply connect your power source to the injector, and then use an ethernet cable to connect the injector to the RouterBOARD device. Helps reducing number of wires that lead up the tower, and in other situations For using with RouterBOARDS that support 10-28V PoE powering, input needs to be at least 18V to accomodate any losses in cables GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "In Stock 76 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 3,
+  "fullCartonUnitPriceUsd": 3,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rbpoe-9000a01131.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces Ethernet speed [Mb/s] 10/100 Power The input voltage [V] 9 .. 48V DC Pin powering 4,5 (+), 7,8 (-) PoE Out ports 1",
+  "stockQtyVisible": 76,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-passive-poe-adapter_d30092.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-accessories_c16588567.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Accessories"
+  ]
+}

@@ -1,1 +1,27 @@
-{"id":"huawei-qsfp-40g-lr4-ekit","brand":"Huawei","sku":"QSFP-40G-LR4-eKit","title":"Huawei QSFP-40G-LR4-eKit, QSFP+ optical module, Single-Mode, 10km, 40G, LC","category":"Optical networks / SFP optical modules / QSFP+","description":"Huawei QSFP-40G-LR4-eKit is a single-mode QSFP+ module with a maximum throughput of 40Gbps , 4 channels, wavelengths 1271nm, 1291nm, 1311nm, 1331nm and two LC connectors for connection up to a distance of 10km . The module has built-in digital diagnostic functions (DDMI) including monitoring of optical power, voltage, temperature or other key parameters","availability":"To order / expected","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":2473,"fullCartonUnitPriceUsd":2473,"imageUrl":"assets/catalog-data/public-images/huawei-qsfp-40g-lr4-ekit-8ba7e69c6d.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Format QSFP+ For cable type Single Mode Transmission speed 40 Gbps Wavelength - Tx/Rx [nm] 1271 to 1331 Distance [km] 10 Transfer type 2-fiber Tx power [dBm] 7 up to 2.3 Receiver sensitivity [dBm] 11.5 Connectors and Interfaces Optical Connectors (2) LC Physical characteristics Operating temperature [°C] 0 up to 70 General Compatibility Universal"}
+{
+  "id": "huawei-qsfp-40g-lr4-ekit",
+  "brand": "Huawei",
+  "sku": "QSFP-40G-LR4-eKit",
+  "title": "Huawei QSFP-40G-LR4-eKit, QSFP+ optical module, Single-Mode, 10km, 40G, LC",
+  "category": "Huawei / Optical networks / SFP optical modules / QSFP+",
+  "description": "Huawei QSFP-40G-LR4-eKit is a single-mode QSFP+ module with a maximum throughput of 40Gbps , 4 channels, wavelengths 1271nm, 1291nm, 1311nm, 1331nm and two LC connectors for connection up to a distance of 10km . The module has built-in digital diagnostic functions (DDMI) including monitoring of optical power, voltage, temperature or other key parameters",
+  "availability": "Not In Stock",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 2473,
+  "fullCartonUnitPriceUsd": 2473,
+  "imageUrl": "assets/catalog-data/public-images/huawei-qsfp-40g-lr4-ekit-8ba7e69c6d.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Format QSFP+ For cable type Single Mode Transmission speed 40 Gbps Wavelength - Tx/Rx [nm] 1271 to 1331 Distance [km] 10 Transfer type 2-fiber Tx power [dBm] 7 up to 2.3 Receiver sensitivity [dBm] 11.5 Connectors and Interfaces Optical Connectors (2) LC Physical characteristics Operating temperature [°C] 0 up to 70 General Compatibility Universal",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/huawei-qsfp-40g-lr4-ekit-qsfp-optical-module-single-mode-10km-40g-lc_d131070.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-optical-networks-sfp-optical-modules-qsfp-_c16592368.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Optical networks",
+    "SFP optical modules",
+    "QSFP+"
+  ]
+}

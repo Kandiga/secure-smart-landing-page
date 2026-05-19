@@ -1,1 +1,27 @@
-{"id":"ubiquiti-usw-lite-8-poe","brand":"Ubiquiti","sku":"USW-Lite-8-PoE","title":"Ubiquiti UniFi Switch USW-Lite-8-PoE","category":"LAN networks / Switches / UniFi Switches","description":"The USW-Lite-8-PoE is a fully managed Layer 2 switch with 8 Gigabit Ethernet ports for your RJ45 Ethernet devices. Four ports also offer auto-sensing 802.3at PoE+ that provide upto a total PoE wattage of 52W for UniFi Access Points or other PoE devices Managed and configured by the UniFi Network Controller with UniFi mobile app support, the USW-Lite-8-PoE offers Layer 2 switching protocols and features. The UniFi NetworkController and mobile app allow admins to configure and monitor virtually all of the switch features in a graphical user interface from anywhere The major difference between the UniFiSwitch and EdgeSwitch series switches is in management - WebGUI management of EdgeSwitch switches is replaced by the UniFi Controller on UniFi Switch models Device Wallmount holder Power adapter 54V / 1.1A Power cord","availability":"To order / expected","unitPerCarton":9,"warranty":"24 months","displayPriceUsd":132,"fullCartonUnitPriceUsd":127.38,"imageUrl":"assets/catalog-data/public-images/ubiquiti-usw-lite-8-poe-59f93412d4.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (8) 10/100/1000Mbps Power Power type DC connector PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at PoE Out ports 4 PoE budget [W] 52 Max. power consumption [W] 8 Power via connector/terminal 50 .. 57V DC Physical characteristics Design Desktop Fans No Chassis design Plastic Operating temperature [°C] 15 up to 40 Width [mm] 164 Height [mm] 32 Depth [mm] 100 General Switchning capacity [Gbps] 16 Jumbo frame [Bytes] 9000"}
+{
+  "id": "ubiquiti-usw-lite-8-poe",
+  "brand": "Ubiquiti",
+  "sku": "USW-Lite-8-PoE",
+  "title": "Ubiquiti UniFi Switch USW-Lite-8-PoE",
+  "category": "Ubiquiti / LAN networks / Switches / PoE Switches",
+  "description": "The USW-Lite-8-PoE is a fully managed Layer 2 switch with 8 Gigabit Ethernet ports for your RJ45 Ethernet devices. Four ports also offer auto-sensing 802.3at PoE+ that provide upto a total PoE wattage of 52W for UniFi Access Points or other PoE devices Managed and configured by the UniFi Network Controller with UniFi mobile app support, the USW-Lite-8-PoE offers Layer 2 switching protocols and features. The UniFi NetworkController and mobile app allow admins to configure and monitor virtually all of the switch features in a graphical user interface from anywhere The major difference between the UniFiSwitch and EdgeSwitch series switches is in management - WebGUI management of EdgeSwitch switches is replaced by the UniFi Controller on UniFi Switch models Device Wallmount holder Power adapter 54V / 1.1A Power cord",
+  "availability": "Expected 21.5.2026",
+  "unitPerCarton": 9,
+  "warranty": "24 months",
+  "displayPriceUsd": 132,
+  "fullCartonUnitPriceUsd": 127.38,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-usw-lite-8-poe-59f93412d4.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (8) 10/100/1000Mbps Power Power type DC connector PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at PoE Out ports 4 PoE budget [W] 52 Max. power consumption [W] 8 Power via connector/terminal 50 .. 57V DC Physical characteristics Design Desktop Fans No Chassis design Plastic Operating temperature [°C] 15 up to 40 Width [mm] 164 Height [mm] 32 Depth [mm] 100 General Switchning capacity [Gbps] 16 Jumbo frame [Bytes] 9000",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-switch-usw-lite-8-poe_d98038.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-poe-switches_c16179437.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "PoE Switches"
+  ]
+}

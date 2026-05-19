@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-g6-180-fm-w","brand":"Ubiquiti","sku":"UACC-G6-180-FM-W","title":"Ubiquiti G6 180 Camera Flush Mount, White","category":"Cameras, security / Mounting boxes and brackets / Ceiling","description":"G6 180 camera mounting accessory for recessed ceiling installation","availability":"In stock","unitPerCarton":30,"warranty":"24 months","displayPriceUsd":34,"fullCartonUnitPriceUsd":32.81,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-g6-180-fm-w-0c18bb9e17.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Design Ceiling Purpose Indoor Material Polycarbonate Weight [g] 212 Width [mm] 102 Height [mm] 174 Depth [mm] 105 Color White"}
+{
+  "id": "ubiquiti-uacc-g6-180-fm-w",
+  "brand": "Ubiquiti",
+  "sku": "UACC-G6-180-FM-W",
+  "title": "Ubiquiti G6 180 Camera Flush Mount, White",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Ceiling",
+  "description": "G6 180 camera mounting accessory for recessed ceiling installation",
+  "availability": "In Stock 5 pcs.",
+  "unitPerCarton": 30,
+  "warranty": "24 months",
+  "displayPriceUsd": 34,
+  "fullCartonUnitPriceUsd": 32.81,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-g6-180-fm-w-0c18bb9e17.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Design Ceiling Purpose Indoor Material Polycarbonate Weight [g] 212 Width [mm] 102 Height [mm] 174 Depth [mm] 105 Color White",
+  "stockQtyVisible": 5,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-g6-180-camera-flush-mount-white_d131363.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-ceiling_c16591474.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Ceiling"
+  ]
+}

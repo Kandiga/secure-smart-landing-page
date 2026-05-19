@@ -1,1 +1,26 @@
-{"id":"ubiquiti-ua-hub-gate","brand":"Ubiquiti","sku":"UA-Hub-Gate","title":"Ubiquiti UA-Hub-Gate, UniFi Access Gate Hub","category":"Cameras, security / UniFi Access","description":"UA-Hub-Gate , part of the UniFi Access product line, enables convenient control of entry gates and doors. Operation can be easily automated using connected readers, intercoms, and AI cameras , facilitated by four RJ45 PoE output ports with a total power budget of 28W . The controller is designed for indoor use but can be installed outdoors in a weatherproof enclosure (2) Gate operator terminals (dry) Lock terminal for side door (12V) AUX terminal for an external siren (5) Additional inputs for sensors and emergency (5) 10/100/1000Mbps LAN ports (1x PoE-in, 4x with PoE Passthrough support) With a connected UniFi Protect camera featuring AI capabilities, the gate can be opened automatically based on license plate recognition. The controller can connect up to 4 readers, intercoms, or cameras, with a maximum power consumption of 28W Device DIN rail (2) Screws and wall plugs","availability":"To order / expected","unitPerCarton":6,"warranty":"24 months","displayPriceUsd":304,"fullCartonUnitPriceUsd":293.36,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ua-hub-gate-71d6f52b59.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (5) 10/100/1000Mbps Power Power over Ethernet 50V DC Power type PoE PoE type PoE-Out + PoE-In PoE-Out standards Passive 48V PoE Out ports 4 Max. power consumption [W] 22"}
+{
+  "id": "ubiquiti-ua-hub-gate",
+  "brand": "Ubiquiti",
+  "sku": "UA-Hub-Gate",
+  "title": "Ubiquiti UA-Hub-Gate, UniFi Access Gate Hub",
+  "category": "Ubiquiti / Cameras, security / UniFi Access",
+  "description": "UA-Hub-Gate , part of the UniFi Access product line, enables convenient control of entry gates and doors. Operation can be easily automated using connected readers, intercoms, and AI cameras , facilitated by four RJ45 PoE output ports with a total power budget of 28W . The controller is designed for indoor use but can be installed outdoors in a weatherproof enclosure (2) Gate operator terminals (dry) Lock terminal for side door (12V) AUX terminal for an external siren (5) Additional inputs for sensors and emergency (5) 10/100/1000Mbps LAN ports (1x PoE-in, 4x with PoE Passthrough support) With a connected UniFi Protect camera featuring AI capabilities, the gate can be opened automatically based on license plate recognition. The controller can connect up to 4 readers, intercoms, or cameras, with a maximum power consumption of 28W Device DIN rail (2) Screws and wall plugs",
+  "availability": "Expected 22.5.2026",
+  "unitPerCarton": 6,
+  "warranty": "24 months",
+  "displayPriceUsd": 304,
+  "fullCartonUnitPriceUsd": 293.36,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ua-hub-gate-71d6f52b59.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (5) 10/100/1000Mbps Power Power over Ethernet 50V DC Power type PoE PoE type PoE-Out + PoE-In PoE-Out standards Passive 48V PoE Out ports 4 Max. power consumption [W] 22",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-ua-hub-gate-unifi-access-gate-hub_d128686.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-unifi-access_c16587756.html?page=2",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "UniFi Access"
+  ]
+}

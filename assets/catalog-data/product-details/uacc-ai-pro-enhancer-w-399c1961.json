@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-ai-pro-enhancer-w","brand":"Ubiquiti","sku":"UACC-AI-Pro-Enhancer-W","title":"Ubiquiti Al Pro Enhancer W - External IR enhancer for AI Pro camera, white","category":"Cameras, security / Cameras accessories / Ilumination","description":"IR LED light/illuminator with long-range and FloodLight for the UVC-AI-Pro camera. The integrated radar enhances detection accuracy and allows measuring the distance of people up to 20 m and vehicles up to 35 m. The device also features a built-in speaker , is weather-resistant ( IPX5 ), and has a maximum power consumption of 15 W . Installation is simple, and the illuminator is made from high-quality materials - aluminum alloy and polycarbonate Extends IR range up to 40 m Built-in floodlight with high brightness of 600 lm Integrated radar enhances distance detection accuracy Built-in high-performance speaker Weather-resistant according to IPX5","availability":"In stock","unitPerCarton":6,"warranty":"24 months","displayPriceUsd":208,"fullCartonUnitPriceUsd":200.72,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-ai-pro-enhancer-w-668ee70d47.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Camera Illumination Hybrid IR / White light Illumination range [m] 40 Connectors and Interfaces Audio Speaker Power Max. power consumption [W] 15"}
+{
+  "id": "ubiquiti-uacc-ai-pro-enhancer-w",
+  "brand": "Ubiquiti",
+  "sku": "UACC-AI-Pro-Enhancer-W",
+  "title": "Ubiquiti Al Pro Enhancer W - External IR enhancer for AI Pro camera, white",
+  "category": "Ubiquiti / Cameras, security / Cameras accessories / Ilumination",
+  "description": "IR LED light/illuminator with long-range and FloodLight for the UVC-AI-Pro camera. The integrated radar enhances detection accuracy and allows measuring the distance of people up to 20 m and vehicles up to 35 m. The device also features a built-in speaker , is weather-resistant ( IPX5 ), and has a maximum power consumption of 15 W . Installation is simple, and the illuminator is made from high-quality materials - aluminum alloy and polycarbonate Extends IR range up to 40 m Built-in floodlight with high brightness of 600 lm Integrated radar enhances distance detection accuracy Built-in high-performance speaker Weather-resistant according to IPX5",
+  "availability": "In Stock 12 pcs.",
+  "unitPerCarton": 6,
+  "warranty": "24 months",
+  "displayPriceUsd": 208,
+  "fullCartonUnitPriceUsd": 200.72,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-ai-pro-enhancer-w-668ee70d47.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Camera Illumination Hybrid IR / White light Illumination range [m] 40 Connectors and Interfaces Audio Speaker Power Max. power consumption [W] 15",
+  "stockQtyVisible": 12,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-al-pro-enhancer-w-external-ir-enhancer-for-ai-pro-camera-white_d127809.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-cameras-accessories-ilumination_c16591536.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Cameras accessories",
+    "Ilumination"
+  ]
+}

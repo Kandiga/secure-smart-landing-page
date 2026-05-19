@@ -1,1 +1,26 @@
-{"id":"mikrotik-crs305-1g-4s-in","brand":"MikroTik","sku":"CRS305-1G-4S+IN","title":"MikroTik Cloud Router Switch CRS305-1G-4S+IN, Dual Boot","category":"Wireless / MikroTik / RouterBOARD","description":"The CRS305 is a compact yet very powerful switch, featuring four SFP+ ports, for up to 10 Gbit per port. The device has a 1 Gbit copper ethernet port for management access and two DC jacks for power redundancy. The device is a very sleek and compact metallic case without any fans, for silent operation The device has a âDual bootâ feature that allows you to choose between two operating systems - RouterOS or SwOS. If you prefer to have a simplified operating system with only switch specific features, use SwOS. If you would like the ability to use routing and other Layer 3 features in your CRS, use RouterOS. You can select the desired operating system from RouterOS, from SwOS or from the RouterBOOT loader settings. All the feature set comes with a disruptive price, providing the best… Device Power adapter 24V / 0.8A","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":140,"fullCartonUnitPriceUsd":135.1,"imageUrl":"assets/catalog-data/public-images/mikrotik-crs305-1g-4s-in-5b2bd3bee4.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (4) 10Gbps Power Power over Ethernet 802.3af, 802.3at, 12 .. 57V DC Power type DC connector, PoE PoE type PoE-In (only) Redundant power supply Yes Max. power consumption [W] 12 Power via connector/terminal 12 .. 57V DC Physical characteristics Design Desktop Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 40 up to 70 Width [mm] 115 Height [mm] 28 Depth [mm] 141 Hardware CPU frequency [MHz] 800 CPU cores 1 Internal storage [MB] 16 RAM [MB] 512 General Switchning capacity [Gbps] 82"}
+{
+  "id": "mikrotik-crs305-1g-4s-in",
+  "brand": "MikroTik",
+  "sku": "CRS305-1G-4S+IN",
+  "title": "MikroTik Cloud Router Switch CRS305-1G-4S+IN, Dual Boot",
+  "category": "MikroTik / Wireless / RouterBOARD",
+  "description": "The CRS305 is a compact yet very powerful switch, featuring four SFP+ ports, for up to 10 Gbit per port. The device has a 1 Gbit copper ethernet port for management access and two DC jacks for power redundancy. The device is a very sleek and compact metallic case without any fans, for silent operation The device has a âDual bootâ feature that allows you to choose between two operating systems - RouterOS or SwOS. If you prefer to have a simplified operating system with only switch specific features, use SwOS. If you would like the ability to use routing and other Layer 3 features in your CRS, use RouterOS. You can select the desired operating system from RouterOS, from SwOS or from the RouterBOOT loader settings. All the feature set comes with a disruptive price, providing the best… Device Power adapter 24V / 0.8A",
+  "availability": "In Stock 31 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 140,
+  "fullCartonUnitPriceUsd": 135.1,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-crs305-1g-4s-in-5b2bd3bee4.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (4) 10Gbps Power Power over Ethernet 802.3af, 802.3at, 12 .. 57V DC Power type DC connector, PoE PoE type PoE-In (only) Redundant power supply Yes Max. power consumption [W] 12 Power via connector/terminal 12 .. 57V DC Physical characteristics Design Desktop Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 40 up to 70 Width [mm] 115 Height [mm] 28 Depth [mm] 141 Hardware CPU frequency [MHz] 800 CPU cores 1 Internal storage [MB] 16 RAM [MB] 512 General Switchning capacity [Gbps] 82",
+  "stockQtyVisible": 31,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-cloud-router-switch-crs305-1g-4s-in-dual-boot_d88143.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-routerboard_c16588560.html?page=2",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "RouterBOARD"
+  ]
+}

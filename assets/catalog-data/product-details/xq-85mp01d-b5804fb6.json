@@ -1,1 +1,26 @@
-{"id":"mikrotik-xq-85mp01d","brand":"MikroTik","sku":"XQ+85MP01D","title":"MikroTik QSFP28 optical module XQ+85MP01D, MM, 100m, 100G","category":"Wireless / MikroTik / SFP modules","description":"XQ+85MP01D is a Multimode QSFP28 module with a maximum throughput of 100 Gbps, 4 channels of 25 Gbps, one 12-fiber MPO connector for connection up to a distance of 100 m . The module is compatible with all active elements from MikroTik and also with devices of other manufacturers \"cisco compatibile\" with a QSFP28 port The module has built-in digital diagnostic functions (DDMI) including optical power monitoring and will work well in environments up to 70 °C. The module has been designed to meet the harshest conditions including temperature and will act as a reliable solution for all your devices with QSFP28 ports with speed of 100 Gbps","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":84,"fullCartonUnitPriceUsd":84,"imageUrl":"assets/catalog-data/public-images/mikrotik-xq-85mp01d-d6f1443e38.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Format QSFP28 For cable type Multi Mode Transmission speed 100 Gbps Wavelength - Tx/Rx [nm] 850 Distance [km] 0,1 Transfer type 12-fiber Polishing type UPC Connectors and Interfaces Optical Connectors MPO Physical characteristics Operating temperature [°C] 0 up to 70 General Compatibility Universal"}
+{
+  "id": "mikrotik-xq-85mp01d",
+  "brand": "MikroTik",
+  "sku": "XQ+85MP01D",
+  "title": "MikroTik QSFP28 optical module XQ+85MP01D, MM, 100m, 100G",
+  "category": "MikroTik / Wireless / SFP modules",
+  "description": "XQ+85MP01D is a Multimode QSFP28 module with a maximum throughput of 100 Gbps, 4 channels of 25 Gbps, one 12-fiber MPO connector for connection up to a distance of 100 m . The module is compatible with all active elements from MikroTik and also with devices of other manufacturers \"cisco compatibile\" with a QSFP28 port The module has built-in digital diagnostic functions (DDMI) including optical power monitoring and will work well in environments up to 70 °C. The module has been designed to meet the harshest conditions including temperature and will act as a reliable solution for all your devices with QSFP28 ports with speed of 100 Gbps",
+  "availability": "In Stock 19 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 84,
+  "fullCartonUnitPriceUsd": 84,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-xq-85mp01d-d6f1443e38.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Format QSFP28 For cable type Multi Mode Transmission speed 100 Gbps Wavelength - Tx/Rx [nm] 850 Distance [km] 0,1 Transfer type 12-fiber Polishing type UPC Connectors and Interfaces Optical Connectors MPO Physical characteristics Operating temperature [°C] 0 up to 70 General Compatibility Universal",
+  "stockQtyVisible": 19,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-qsfp28-optical-module-xq-85mp01d-mm-100m-100g_d116044.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-sfp-modules_c16588578.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "SFP modules"
+  ]
+}

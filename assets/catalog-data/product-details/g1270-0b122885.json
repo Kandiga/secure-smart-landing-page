@@ -1,1 +1,26 @@
-{"id":"mikrotik-g1270","brand":"MikroTik","sku":"G1270","title":"MikroTik Open Frame 750W PSU for CRS354-48P-4S+2Q+RM","category":"Wireless / MikroTik / Accessories","description":"Replacement 750 W power supply for MikroTik CRS354-48P-4S+2Q+RM PoE switch","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":243,"fullCartonUnitPriceUsd":243,"imageUrl":"assets/catalog-data/public-images/mikrotik-g1270-c61756a682.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Power The input voltage [V] 230V AC Power type Mains power (230V) Power [W] 750"}
+{
+  "id": "mikrotik-g1270",
+  "brand": "MikroTik",
+  "sku": "G1270",
+  "title": "MikroTik Open Frame 750W PSU for CRS354-48P-4S+2Q+RM",
+  "category": "MikroTik / Wireless / Accessories",
+  "description": "Replacement 750 W power supply for MikroTik CRS354-48P-4S+2Q+RM PoE switch",
+  "availability": "In Stock 1 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 243,
+  "fullCartonUnitPriceUsd": 243,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-g1270-c61756a682.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Power The input voltage [V] 230V AC Power type Mains power (230V) Power [W] 750",
+  "stockQtyVisible": 1,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-open-frame-750w-psu-for-crs354-48p-4s-2q-rm_d127622.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-accessories_c16588567.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Accessories"
+  ]
+}

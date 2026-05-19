@@ -1,1 +1,26 @@
-{"id":"mikrotik-rb760igs","brand":"MikroTik","sku":"RB760iGS","title":"MikroTik RouterBOARD RB760iGS, hEX S","category":"Wireless / MikroTik / RouterBOARD","description":"hEX S is a five port Gigabit Ethernet router for locations where wireless connectivity is not required. Compared to the hEX, the hEX S also features an SFP port and PoE output on the last port It is affordable, small and easy to use, but at the same time comes with a very powerful dual core 880 MHz CPU and 256 MB RAM, capable of all the advanced configurations that RouterOS supports. The device has a USB 2.0, PoE output for Ethernet port #5 and a 1.25Gbit/s SFP cage IPsec hardware encryption (~470 Mbps) and The Dude server package is supported, microSD slot on it provides improved r/w speed for file storage and Dude Device Power adapter 24V / 1.2A","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":74,"fullCartonUnitPriceUsd":71.41,"imageUrl":"assets/catalog-data/public-images/mikrotik-rb760igs-095d935ef2.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Multiple WAN Yes Slot for Memory Card microSD LAN speed (5) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (1) 1000Mbps USB Yes Power Power over Ethernet 802.3af, 802.3at, 12 .. 57V DC Power type DC connector, PoE PoE type PoE-Out + PoE-In PoE Out ports 1 Max. power consumption [W] 11 Power via connector/terminal 12 .. 57V DC Physical characteristics Design Desktop Fans No Chassis design Plastic Operating temperature [°C] 40 up to 70 Width [mm] 113 Height [mm] 28 Depth [mm] 89 Hardware CPU MT7621A CPU frequency [MHz] 880 CPU cores 2 Internal storage [MB] 16 RAM [MB] 256"}
+{
+  "id": "mikrotik-rb760igs",
+  "brand": "MikroTik",
+  "sku": "RB760iGS",
+  "title": "MikroTik RouterBOARD RB760iGS, hEX S",
+  "category": "MikroTik / Wireless / RouterBOARD",
+  "description": "hEX S is a five port Gigabit Ethernet router for locations where wireless connectivity is not required. Compared to the hEX, the hEX S also features an SFP port and PoE output on the last port It is affordable, small and easy to use, but at the same time comes with a very powerful dual core 880 MHz CPU and 256 MB RAM, capable of all the advanced configurations that RouterOS supports. The device has a USB 2.0, PoE output for Ethernet port #5 and a 1.25Gbit/s SFP cage IPsec hardware encryption (~470 Mbps) and The Dude server package is supported, microSD slot on it provides improved r/w speed for file storage and Dude Device Power adapter 24V / 1.2A",
+  "availability": "In Stock 48 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 74,
+  "fullCartonUnitPriceUsd": 71.41,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rb760igs-095d935ef2.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Multiple WAN Yes Slot for Memory Card microSD LAN speed (5) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (1) 1000Mbps USB Yes Power Power over Ethernet 802.3af, 802.3at, 12 .. 57V DC Power type DC connector, PoE PoE type PoE-Out + PoE-In PoE Out ports 1 Max. power consumption [W] 11 Power via connector/terminal 12 .. 57V DC Physical characteristics Design Desktop Fans No Chassis design Plastic Operating temperature [°C] 40 up to 70 Width [mm] 113 Height [mm] 28 Depth [mm] 89 Hardware CPU MT7621A CPU frequency [MHz] 880 CPU cores 2 Internal storage [MB] 16 RAM [MB] 256",
+  "stockQtyVisible": 48,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-routerboard-rb760igs-hex-s_d85088.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-routerboard_c16588560.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "RouterBOARD"
+  ]
+}

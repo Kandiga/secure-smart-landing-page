@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-g5-ptz-sm","brand":"Ubiquiti","sku":"UACC-G5-PTZ-SM","title":"Ubiquiti G5 PTZ - Surface mount for UVC-G5-PTZ","category":"Cameras, security / Mounting boxes and brackets / Ceiling","description":"Surface mount bracket for ceiling designed for the Ubiquiti UniFi G5 PTZ camera","availability":"In stock","unitPerCarton":30,"warranty":"24 months","displayPriceUsd":34,"fullCartonUnitPriceUsd":32.81,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-g5-ptz-sm-0c80772fde.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-g5-ptz-sm",
+  "brand": "Ubiquiti",
+  "sku": "UACC-G5-PTZ-SM",
+  "title": "Ubiquiti G5 PTZ - Surface mount for UVC-G5-PTZ",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Ceiling",
+  "description": "Surface mount bracket for ceiling designed for the Ubiquiti UniFi G5 PTZ camera",
+  "availability": "In Stock 15 pcs.",
+  "unitPerCarton": 30,
+  "warranty": "24 months",
+  "displayPriceUsd": 34,
+  "fullCartonUnitPriceUsd": 32.81,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-g5-ptz-sm-0c80772fde.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 15,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-g5-ptz-surface-mount-for-uvc-g5-ptz_d127595.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-ceiling_c16591474.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Ceiling"
+  ]
+}

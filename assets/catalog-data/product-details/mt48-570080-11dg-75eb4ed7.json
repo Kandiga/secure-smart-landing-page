@@ -1,1 +1,26 @@
-{"id":"mikrotik-mt48-570080-11dg","brand":"MikroTik","sku":"MT48-570080-11DG","title":"MikroTik MT48-570080-11DG, power adapter 57V 0.8A, 45.6W, GPEN","category":"Wireless / MikroTik / Accessories","description":"Power adapter with output voltage 57V DC, maximum current 0.8A, total output power 45,6W and connector 5.5 / 2.1mm. The power source is part of the MikroTik GPEN concept, which provides all the benefits of GPON GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":11,"fullCartonUnitPriceUsd":11,"imageUrl":"assets/catalog-data/public-images/mikrotik-mt48-570080-11dg-b0caffac91.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Power Power [W] 45 Output Voltage [V] 57 Output Current [A] 0,8"}
+{
+  "id": "mikrotik-mt48-570080-11dg",
+  "brand": "MikroTik",
+  "sku": "MT48-570080-11DG",
+  "title": "MikroTik MT48-570080-11DG, power adapter 57V 0.8A, 45.6W, GPEN",
+  "category": "MikroTik / Wireless / Accessories",
+  "description": "Power adapter with output voltage 57V DC, maximum current 0.8A, total output power 45,6W and connector 5.5 / 2.1mm. The power source is part of the MikroTik GPEN concept, which provides all the benefits of GPON GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "In Stock 43 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 11,
+  "fullCartonUnitPriceUsd": 11,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-mt48-570080-11dg-b0caffac91.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Power Power [W] 45 Output Voltage [V] 57 Output Current [A] 0,8",
+  "stockQtyVisible": 43,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-mt48-570080-11dg-power-adapter-57v-0-8a-45-6w-gpen_d94037.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-accessories_c16588567.html?page=2",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Accessories"
+  ]
+}

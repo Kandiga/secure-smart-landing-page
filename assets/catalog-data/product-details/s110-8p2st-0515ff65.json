@@ -1,1 +1,27 @@
-{"id":"huawei-s110-8p2st","brand":"Huawei","sku":"S110-8P2ST","title":"Huawei S110-8P2ST Gigabit PoE switch, 1x SFP","category":"LAN networks / Switches / eKit Switches","description":"Huawei S110-8P2ST is a PoE switch with active PoE 802.3af/at support with PoE budget of 124W , which is equipped with 8 PoE ports, 1 port without PoE and SFP slot for uplink . Desktop switch without management is in a metal chassis, it is also possible to mount it on the wall. A pair of switches is located on the front. The first one allows you to choose between Standard, Port Isolation and Flow control disabling modes. The second switch is used to switch the state of the LEDs between port and… Huawei eKitEngine S110 series switches ( S110 for short) are unmanaged switches designed for the distribution market outside China. The whole series adopts an all-new crystal-like appearance design with great visual impacts, winning itself the German Red Dot Design Award 2022 . The newly launched colorways of Silk White and Silver Frost are becoming increasingly popular. In addition, the iconic Huawei logo on eKitEngine S110 series switches gives them a more refreshing look. In terms of… Device Power adapter 56V/2.68 A","availability":"In stock","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":132,"fullCartonUnitPriceUsd":132,"imageUrl":"assets/catalog-data/public-images/huawei-s110-8p2st-57afb5eda9.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces LAN speed (9) 10/100/1000Mbps Optical interfaces (1) 1000Mbps Power Power type DC connector PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at PoE Out ports 8 PoE budget [W] 124 Max. power consumption [W] 11 Power via connector/terminal 56V DC Physical characteristics Design On the wall, Desktop Fans No Chassis design Metal Operating temperature [°C] 0 up to 40 Width [mm] 270 Height [mm] 37 Depth [mm] 132"}
+{
+  "id": "huawei-s110-8p2st",
+  "brand": "Huawei",
+  "sku": "S110-8P2ST",
+  "title": "Huawei S110-8P2ST Gigabit PoE switch, 1x SFP",
+  "category": "Huawei / LAN networks / Switches / eKit Switches",
+  "description": "Huawei S110-8P2ST is a PoE switch with active PoE 802.3af/at support with PoE budget of 124W , which is equipped with 8 PoE ports, 1 port without PoE and SFP slot for uplink . Desktop switch without management is in a metal chassis, it is also possible to mount it on the wall. A pair of switches is located on the front. The first one allows you to choose between Standard, Port Isolation and Flow control disabling modes. The second switch is used to switch the state of the LEDs between port and… Huawei eKitEngine S110 series switches ( S110 for short) are unmanaged switches designed for the distribution market outside China. The whole series adopts an all-new crystal-like appearance design with great visual impacts, winning itself the German Red Dot Design Award 2022 . The newly launched colorways of Silk White and Silver Frost are becoming increasingly popular. In addition, the iconic Huawei logo on eKitEngine S110 series switches gives them a more refreshing look. In terms of… Device Power adapter 56V/2.68 A",
+  "availability": "In Stock 11 pcs.",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 132,
+  "fullCartonUnitPriceUsd": 132,
+  "imageUrl": "assets/catalog-data/public-images/huawei-s110-8p2st-57afb5eda9.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces LAN speed (9) 10/100/1000Mbps Optical interfaces (1) 1000Mbps Power Power type DC connector PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at PoE Out ports 8 PoE budget [W] 124 Max. power consumption [W] 11 Power via connector/terminal 56V DC Physical characteristics Design On the wall, Desktop Fans No Chassis design Metal Operating temperature [°C] 0 up to 40 Width [mm] 270 Height [mm] 37 Depth [mm] 132",
+  "stockQtyVisible": 11,
+  "discompProductUrl": "https://www.discomp.cz/huawei-s110-8p2st-gigabit-poe-switch-1x-sfp_d125634.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-lan-networks-switches-ekit-switches_c16591802.html",
+  "discompSourcePath": [
+    "Huawei",
+    "LAN networks",
+    "Switches",
+    "eKit Switches"
+  ]
+}

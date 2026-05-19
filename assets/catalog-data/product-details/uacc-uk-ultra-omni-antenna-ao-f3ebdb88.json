@@ -1,1 +1,28 @@
-{"id":"ubiquiti-uacc-uk-ultra-omni-antenna-ao","brand":"Ubiquiti","sku":"UACC-UK-Ultra-Omni-Antenna-AO","title":"Ubiquiti UACC-UK-Ultra-Omni-Antenna-AO, Omnidirectional antenna for UK-Ultra","category":"Wireless / Antennas / Omnidirectional antennas / 2.4GHz","description":"The Ubiquiti UACC-UK-Ultra-Omni-Antenna-AO is a dual-band omnidirectional antenna designed for the Ubiquiti Swiss Army Knife Ultra (UK-Ultra), featuring a gain of 3dBi in the 2.4GHz band and 4dBi in the 5GHz band. Thanks to its IPX6 certification, the antenna can be installed outdoors, providing coverage for larger areas compared to the UK-Ultra when using its integrated antenna","availability":"In stock","unitPerCarton":50,"warranty":"24 months","displayPriceUsd":17,"fullCartonUnitPriceUsd":16.41,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-uk-ultra-omni-antenna-ao-f1d0839329.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features MIMO, SISO 2 x 2 Wireless frequency 2.4 + 5 GHz (dual band) Antenna type Omnidirectional Antenna gain [dBi] 3, 4 Connectors and Interfaces RF connectors (2) RSMA male"}
+{
+  "id": "ubiquiti-uacc-uk-ultra-omni-antenna-ao",
+  "brand": "Ubiquiti",
+  "sku": "UACC-UK-Ultra-Omni-Antenna-AO",
+  "title": "Ubiquiti UACC-UK-Ultra-Omni-Antenna-AO, Omnidirectional antenna for UK-Ultra",
+  "category": "Ubiquiti / Wireless / Antennas / Omnidirectional antennas / 2.4GHz",
+  "description": "The Ubiquiti UACC-UK-Ultra-Omni-Antenna-AO is a dual-band omnidirectional antenna designed for the Ubiquiti Swiss Army Knife Ultra (UK-Ultra), featuring a gain of 3dBi in the 2.4GHz band and 4dBi in the 5GHz band. Thanks to its IPX6 certification, the antenna can be installed outdoors, providing coverage for larger areas compared to the UK-Ultra when using its integrated antenna",
+  "availability": "In Stock 25 pcs.",
+  "unitPerCarton": 50,
+  "warranty": "24 months",
+  "displayPriceUsd": 17,
+  "fullCartonUnitPriceUsd": 16.41,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-uk-ultra-omni-antenna-ao-f1d0839329.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 Wireless frequency 2.4 + 5 GHz (dual band) Antenna type Omnidirectional Antenna gain [dBi] 3, 4 Connectors and Interfaces RF connectors (2) RSMA male",
+  "stockQtyVisible": 25,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-uk-ultra-omni-antenna-ao-omnidirectional-antenna-for-uk-ultra_d131557.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-antennas-omnidirectional-antennas-2-4ghz_c15888424.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Antennas",
+    "Omnidirectional antennas",
+    "2.4GHz"
+  ]
+}

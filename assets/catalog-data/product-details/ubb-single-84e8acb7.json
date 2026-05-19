@@ -1,1 +1,27 @@
-{"id":"ubiquiti-ubb-single","brand":"Ubiquiti","sku":"UBB-Single","title":"Ubiquiti UBB, UniFi Building Bridge, single unit","category":"Wireless / PtP Backhaul / 60GHz","description":"The Ubiquiti UniFi Building Bridge is a 60GHz PtP bridge with a 5GHz backup , designed to extend your network, for example to a neighbouring building. The unit is equipped with (1) 1Gbit PoE-In port, delivers throughput of up to 1.7Gbps and supports a maximum range of up to 500m . For alignment, it features integrated LED lighting on the sides that indicates the direction the unit should be adjusted to achieve a better signal Device Articulating pole mount Gigabit PoE injector 48V/0.32A Metal strap","availability":"To order / expected","unitPerCarton":12,"warranty":"24 months","displayPriceUsd":316,"fullCartonUnitPriceUsd":304.94,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ubb-single-4107cd4c2b.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Channel bandwidth [MHz] 2160, 1080 Transmission speed - 5GHz [Mb/s] 866 Transmission speed - 60GHz [Mb/s] 1700 Output power 60GHz [dBm] 19 Security WPA2 AES Antenna gain [dBi] 17 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Other features Bluetooth Power Power over Ethernet 802.3af, 44 .. 57V DC Power type PoE Max. power consumption [W] 11"}
+{
+  "id": "ubiquiti-ubb-single",
+  "brand": "Ubiquiti",
+  "sku": "UBB-Single",
+  "title": "Ubiquiti UBB, UniFi Building Bridge, single unit",
+  "category": "Ubiquiti / Wireless / PtP Backhaul / 60GHz",
+  "description": "The Ubiquiti UniFi Building Bridge is a 60GHz PtP bridge with a 5GHz backup , designed to extend your network, for example to a neighbouring building. The unit is equipped with (1) 1Gbit PoE-In port, delivers throughput of up to 1.7Gbps and supports a maximum range of up to 500m . For alignment, it features integrated LED lighting on the sides that indicates the direction the unit should be adjusted to achieve a better signal Device Articulating pole mount Gigabit PoE injector 48V/0.32A Metal strap",
+  "availability": "Ordered, unknown date",
+  "unitPerCarton": 12,
+  "warranty": "24 months",
+  "displayPriceUsd": 316,
+  "fullCartonUnitPriceUsd": 304.94,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ubb-single-4107cd4c2b.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Channel bandwidth [MHz] 2160, 1080 Transmission speed - 5GHz [Mb/s] 866 Transmission speed - 60GHz [Mb/s] 1700 Output power 60GHz [dBm] 19 Security WPA2 AES Antenna gain [dBi] 17 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Other features Bluetooth Power Power over Ethernet 802.3af, 44 .. 57V DC Power type PoE Max. power consumption [W] 11",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-ubb-unifi-building-bridge-single-unit_d131505.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-ptp-backhaul-60ghz_c16591519.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "PtP Backhaul",
+    "60GHz"
+  ]
+}

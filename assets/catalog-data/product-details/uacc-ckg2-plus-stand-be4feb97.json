@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-ckg2-plus-stand","brand":"Ubiquiti","sku":"UACC-CKG2-Plus Stand","title":"Ubiquiti UACC-CKG2-Plus Stand - Stand for Cloud Key G2 Plus","category":"Wireless / Accessories / Mounting brackets","description":"The elegant aluminum stand with non-slip feet is only for the Cloud Key G2 Plus from Ubiquiti, which will hold the controller in an upright position . The dimensions of the base are 134 x 72 mm","availability":"In stock","unitPerCarton":36,"warranty":"24 months","displayPriceUsd":22,"fullCartonUnitPriceUsd":21.23,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-ckg2-plus-stand-f8c3e3fb2a.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-ckg2-plus-stand",
+  "brand": "Ubiquiti",
+  "sku": "UACC-CKG2-Plus Stand",
+  "title": "Ubiquiti UACC-CKG2-Plus Stand - Stand for Cloud Key G2 Plus",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "The elegant aluminum stand with non-slip feet is only for the Cloud Key G2 Plus from Ubiquiti, which will hold the controller in an upright position . The dimensions of the base are 134 x 72 mm",
+  "availability": "In Stock 32 pcs.",
+  "unitPerCarton": 36,
+  "warranty": "24 months",
+  "displayPriceUsd": 22,
+  "fullCartonUnitPriceUsd": 21.23,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-ckg2-plus-stand-f8c3e3fb2a.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 32,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-ckg2-plus-stand-stand-for-cloud-key-g2-plus_d121168.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uvc-g4-doorbell-pro-poe-kit-white","brand":"Ubiquiti","sku":"UVC-G4 Doorbell Pro PoE Kit-White","title":"Ubiquiti UVC-G4 Doorbell Pro PoE Kit - UniFi Protect G4 Doorbell Professional PoE kit - white","category":"Cameras, security / Videophones and bells / Door Bells","description":"The G4 Doorbell Pro is a WiFi-enabled video doorbell equipped with a primary 5MP camera and a secondary 8MP package camera . The doorbell's main camera is equipped with IR LED to provide enhanced night vision that, when combined with the built-in porch light, ensures a reliably clear surveillance feed around the clock. The G4 Doorbell Pro also features echo-cancelling, two-way audio so you can interact with visitors, and its programmable display allows you to give alerts or delivery… The smart doorbell from the UniFi Protect family by Ubiquiti wirelessly connects to your existing WiFi network and subsequently pairs with the existing UniFi Protect Doorbell without the need for additional cable pulling . The doorbell is powered directly from a 230 V AC electrical outlet and is supported in the UniFi Protect application from version 2.0 (web) / 1.6.2 (iOS) or 1.6.0 (Android) Streams 1080p HD video at 30 FPS Dual-band WiFi Gigabit Ethernet via UACC-Adapter-DBPOE adapter - not included in the package (1) 5MP camera with an IR LED [Video output: 1600x1200 (2MP), 30 FPS] (1) 8MP package camera [Video output: 1600x1200 (2MP), 2 FPS, no IR LED] Two-way audio with echo cancellation Built-in porch light that illuminates objects up to 2 meters away Motion detection sensor IPX4-rated, weather-resistant casing Programmable display Easy, Bluetooth-powered setup via the UniFi Protect mobile app Managed with the UniFi Protect application: Version 1.21.0 and later (web) / 1.5.8 or later (iOS) / 1.4.8 or later (Android) Device (2) cable reduction (2) mounting bracket Ubiquiti UP-Chime -…","availability":"To order / expected","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":442,"fullCartonUnitPriceUsd":426.53,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-g4-doorbell-pro-poe-kit-white-943afd59a8.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Camera Illumination IR Illumination range [m] 2 Viewing Angle [°] 138 Image Resolution 5MP Max. resolution [pixels] 1600 x 1200 (UXGA) Connectors and Interfaces Audio Microphone, Speaker Other features LCD display Power Power over Ethernet 802.3af, 37 .. 57V DC Power type PoE Max. power consumption [W] 7"}
+{
+  "id": "ubiquiti-uvc-g4-doorbell-pro-poe-kit-white",
+  "brand": "Ubiquiti",
+  "sku": "UVC-G4 Doorbell Pro PoE Kit-White",
+  "title": "Ubiquiti UVC-G4 Doorbell Pro PoE Kit - UniFi Protect G4 Doorbell Professional PoE kit - white",
+  "category": "Ubiquiti / Cameras, security / Videophones and bells / Door Bells",
+  "description": "The G4 Doorbell Pro is a WiFi-enabled video doorbell equipped with a primary 5MP camera and a secondary 8MP package camera . The doorbell's main camera is equipped with IR LED to provide enhanced night vision that, when combined with the built-in porch light, ensures a reliably clear surveillance feed around the clock. The G4 Doorbell Pro also features echo-cancelling, two-way audio so you can interact with visitors, and its programmable display allows you to give alerts or delivery… The smart doorbell from the UniFi Protect family by Ubiquiti wirelessly connects to your existing WiFi network and subsequently pairs with the existing UniFi Protect Doorbell without the need for additional cable pulling . The doorbell is powered directly from a 230 V AC electrical outlet and is supported in the UniFi Protect application from version 2.0 (web) / 1.6.2 (iOS) or 1.6.0 (Android) Streams 1080p HD video at 30 FPS Dual-band WiFi Gigabit Ethernet via UACC-Adapter-DBPOE adapter - not included in the package (1) 5MP camera with an IR LED [Video output: 1600x1200 (2MP), 30 FPS] (1) 8MP package camera [Video output: 1600x1200 (2MP), 2 FPS, no IR LED] Two-way audio with echo cancellation Built-in porch light that illuminates objects up to 2 meters away Motion detection sensor IPX4-rated, weather-resistant casing Programmable display Easy, Bluetooth-powered setup via the UniFi Protect mobile app Managed with the UniFi Protect application: Version 1.21.0 and later (web) / 1.5.8 or later (iOS) / 1.4.8 or later (Android) Device (2) cable reduction (2) mounting bracket Ubiquiti UP-Chime -…",
+  "availability": "Not In Stock",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 442,
+  "fullCartonUnitPriceUsd": 426.53,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-g4-doorbell-pro-poe-kit-white-943afd59a8.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Camera Illumination IR Illumination range [m] 2 Viewing Angle [°] 138 Image Resolution 5MP Max. resolution [pixels] 1600 x 1200 (UXGA) Connectors and Interfaces Audio Microphone, Speaker Other features LCD display Power Power over Ethernet 802.3af, 37 .. 57V DC Power type PoE Max. power consumption [W] 7",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uvc-g4-doorbell-pro-poe-kit-unifi-protect-g4-doorbell-professional-poe-kit-white_d124526.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-videophones-and-bells-door-bells_c16591511.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Videophones and bells",
+    "Door Bells"
+  ]
+}

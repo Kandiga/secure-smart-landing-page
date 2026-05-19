@@ -1,1 +1,27 @@
-{"id":"ubiquiti-usw-flex","brand":"Ubiquiti","sku":"USW-FLEX","title":"Ubiquiti UniFi Switch USW-FLEX","category":"LAN networks / Switches / UniFi Switches","description":"The USW-Flex supports a maximum PoE output budget of 46W when powered by 60W 802.3bt PoE++. Four ports offer auto-sensing 802.3af PoE output to power multiple devices on the network The USW-Flex can be installed horizontally or vertically making it ideal for desktop, magnetic wall-mount, and pole-mount installations The USW-Flex is designed for indoor or outdoor use. With its weatherproof housing and versatile mounting options, the USW-Flex provides both flexibility and durability for environments with extreme temperature variations A single instance of the UniFi Controller running in the cloud can manage multiple UniFi sites within a centralized interface. Each site is logically separated and has its own network monitoring, configuration, maps, statistics, and admin accounts Device Wall mount Pole Mount Port cover Screws + anchors (2) zip ties","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":120,"fullCartonUnitPriceUsd":115.8,"imageUrl":"assets/catalog-data/public-images/ubiquiti-usw-flex-7d792d0a9f.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (5) 10/100/1000Mbps Power Power over Ethernet 802.3bt, 802.3af, 802.3at, 44 .. 57V DC Power type PoE PoE type PoE-Out + PoE-In PoE-Out standards 802.3af PoE Out ports 4 PoE budget [W] 46 Max. power consumption [W] 5 Physical characteristics Design Outdoor Fans No Chassis design Plastic Buttons Reset Operating temperature [°C] 40 up to 65 Width [mm] 123 Height [mm] 28 Depth [mm] 107 General MAC address table 16000 Jumbo frame [Bytes] 9000"}
+{
+  "id": "ubiquiti-usw-flex",
+  "brand": "Ubiquiti",
+  "sku": "USW-FLEX",
+  "title": "Ubiquiti UniFi Switch USW-FLEX",
+  "category": "Ubiquiti / LAN networks / Switches / PoE Switches",
+  "description": "The USW-Flex supports a maximum PoE output budget of 46W when powered by 60W 802.3bt PoE++. Four ports offer auto-sensing 802.3af PoE output to power multiple devices on the network The USW-Flex can be installed horizontally or vertically making it ideal for desktop, magnetic wall-mount, and pole-mount installations The USW-Flex is designed for indoor or outdoor use. With its weatherproof housing and versatile mounting options, the USW-Flex provides both flexibility and durability for environments with extreme temperature variations A single instance of the UniFi Controller running in the cloud can manage multiple UniFi sites within a centralized interface. Each site is logically separated and has its own network monitoring, configuration, maps, statistics, and admin accounts Device Wall mount Pole Mount Port cover Screws + anchors (2) zip ties",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 120,
+  "fullCartonUnitPriceUsd": 115.8,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-usw-flex-7d792d0a9f.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (5) 10/100/1000Mbps Power Power over Ethernet 802.3bt, 802.3af, 802.3at, 44 .. 57V DC Power type PoE PoE type PoE-Out + PoE-In PoE-Out standards 802.3af PoE Out ports 4 PoE budget [W] 46 Max. power consumption [W] 5 Physical characteristics Design Outdoor Fans No Chassis design Plastic Buttons Reset Operating temperature [°C] 40 up to 65 Width [mm] 123 Height [mm] 28 Depth [mm] 107 General MAC address table 16000 Jumbo frame [Bytes] 9000",
+  "stockQtyVisible": 372,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-switch-usw-flex_d91657.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-poe-switches_c16179437.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "PoE Switches"
+  ]
+}

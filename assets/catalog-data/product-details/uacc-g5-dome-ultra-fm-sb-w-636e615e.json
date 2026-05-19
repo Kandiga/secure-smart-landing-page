@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-g5-dome-ultra-fm-sb-w","brand":"Ubiquiti","sku":"UACC-G5-Dome-Ultra-FM-SB-W","title":"Ubiquiti UACC-G5-Dome-Ultra-FM-SB-W, flush mount for UVC-G5-DOME","category":"Cameras, security / Mounting boxes and brackets / Concealed ceiling","description":"UACC-G5-Dome-Ultra-FM-SB-W in white is designed for mounting UVC-G5-DOME cameras into ceiling panels or walls. With a bracket depth of 88 mm, you can install your camera in a way that minimally disrupts the overall appearance of the interior. The glass dome is made of smoked glass for enhanced discretion","availability":"In stock","unitPerCarton":27,"warranty":"24 months","displayPriceUsd":45,"fullCartonUnitPriceUsd":43.43,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-g5-dome-ultra-fm-sb-w-2136477cb3.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Design Concealed ceiling Purpose Indoor Material Polycarbonate Weight [g] 130 Width [mm] 100 Height [mm] 88 Depth [mm] 100 Color White"}
+{
+  "id": "ubiquiti-uacc-g5-dome-ultra-fm-sb-w",
+  "brand": "Ubiquiti",
+  "sku": "UACC-G5-Dome-Ultra-FM-SB-W",
+  "title": "Ubiquiti UACC-G5-Dome-Ultra-FM-SB-W, flush mount for UVC-G5-DOME",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Concealed ceiling",
+  "description": "UACC-G5-Dome-Ultra-FM-SB-W in white is designed for mounting UVC-G5-DOME cameras into ceiling panels or walls. With a bracket depth of 88 mm, you can install your camera in a way that minimally disrupts the overall appearance of the interior. The glass dome is made of smoked glass for enhanced discretion",
+  "availability": "In Stock 19 pcs.",
+  "unitPerCarton": 27,
+  "warranty": "24 months",
+  "displayPriceUsd": 45,
+  "fullCartonUnitPriceUsd": 43.43,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-g5-dome-ultra-fm-sb-w-2136477cb3.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Design Concealed ceiling Purpose Indoor Material Polycarbonate Weight [g] 130 Width [mm] 100 Height [mm] 88 Depth [mm] 100 Color White",
+  "stockQtyVisible": 19,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-g5-dome-ultra-fm-sb-w-flush-mount-for-uvc-g5-dome_d128679.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-concealed-ceiling_c16591510.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Concealed ceiling"
+  ]
+}

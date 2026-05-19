@@ -1,1 +1,27 @@
-{"id":"ubiquiti-ua-g3-intercom","brand":"Ubiquiti","sku":"UA-G3-Intercom","title":"Ubiquiti G3 Intercom","category":"Cameras, security / Videophones and bells / Door Bells","description":"UA-G3-Intercom is a brand new generation of high-end video intercom suitable for both indoor and outdoor use (operating temperature -30°C to +60°C), ideal for managing access to residential and commercial buildings The intercom combines a robust and durable design with advanced features to ensure secure and convenient access. This intercom allows unlocking access through various methods, such as NFC card, UniFi Identity mobile app, PIN code, or QR code , offering flexibility in choosing the preferred method Thanks to the built-in directory and doorbell function, visitors can easily communicate with users, who can grant them access. A single intercom can also be connected to multiple home video phones, so installations in apartment buildings are not a problem Its easy installation and Power over Ethernet (PoE) powering through the UA-Hub allow for implementation in both existing and new systems. The UA-Intercom is designed to meet the demanding requirements for reliability and performance, providing security and comfort for users Enhance your access control and communication system with the UA-Intercom from Ubiquiti â a combination of security, comfort, and modern technology in your building Unlocking via NFC card, UniFi Identity mobile app, PIN code, or QR code Directory and doorbell function for granting access Connection to UniFi Access Hub, powered via PoE Durable design for indoor and outdoor use Touchscreen display Integrated camera Two-way audio Intercom Wall mount Drilling template Mounting kit","availability":"To order / expected","unitPerCarton":8,"warranty":"24 months","displayPriceUsd":418,"fullCartonUnitPriceUsd":403.37,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ua-g3-intercom-31f19a3427.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Camera Illumination White light Image Max. resolution [pixels] 1024 x 600 Power Power over Ethernet 48V DC, 802.3af Power type PoE PoE type PoE-In (only) PoE Out ports 1 Max. power consumption [W] 13"}
+{
+  "id": "ubiquiti-ua-g3-intercom",
+  "brand": "Ubiquiti",
+  "sku": "UA-G3-Intercom",
+  "title": "Ubiquiti G3 Intercom",
+  "category": "Ubiquiti / Cameras, security / Videophones and bells / Door Bells",
+  "description": "UA-G3-Intercom is a brand new generation of high-end video intercom suitable for both indoor and outdoor use (operating temperature -30°C to +60°C), ideal for managing access to residential and commercial buildings The intercom combines a robust and durable design with advanced features to ensure secure and convenient access. This intercom allows unlocking access through various methods, such as NFC card, UniFi Identity mobile app, PIN code, or QR code , offering flexibility in choosing the preferred method Thanks to the built-in directory and doorbell function, visitors can easily communicate with users, who can grant them access. A single intercom can also be connected to multiple home video phones, so installations in apartment buildings are not a problem Its easy installation and Power over Ethernet (PoE) powering through the UA-Hub allow for implementation in both existing and new systems. The UA-Intercom is designed to meet the demanding requirements for reliability and performance, providing security and comfort for users Enhance your access control and communication system with the UA-Intercom from Ubiquiti â a combination of security, comfort, and modern technology in your building Unlocking via NFC card, UniFi Identity mobile app, PIN code, or QR code Directory and doorbell function for granting access Connection to UniFi Access Hub, powered via PoE Durable design for indoor and outdoor use Touchscreen display Integrated camera Two-way audio Intercom Wall mount Drilling template Mounting kit",
+  "availability": "Expected 20.7.2026",
+  "unitPerCarton": 8,
+  "warranty": "24 months",
+  "displayPriceUsd": 418,
+  "fullCartonUnitPriceUsd": 403.37,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ua-g3-intercom-31f19a3427.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Camera Illumination White light Image Max. resolution [pixels] 1024 x 600 Power Power over Ethernet 48V DC, 802.3af Power type PoE PoE type PoE-In (only) PoE Out ports 1 Max. power consumption [W] 13",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-g3-intercom_d129241.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-videophones-and-bells-door-bells_c16591511.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Videophones and bells",
+    "Door Bells"
+  ]
+}

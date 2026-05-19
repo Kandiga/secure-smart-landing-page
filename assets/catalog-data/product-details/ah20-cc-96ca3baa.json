@@ -1,1 +1,46 @@
-{"id":"rf-elements-ah20-cc","brand":"RF elements","sku":"AH20-CC","title":"RF elements Asymmetrical Horn Antenna Carrier Class, 5GHz, 20,5dBi, 20°","category":"Wireless / Antennas / Sector antennas / 5GHz","description":"AH20-CC is a 5GHz sector antenna of the \"horn\" type of a new generation from the RF elements workshop and is characterized by 20° asymmetric beam angle (30° in the elevation plane) , gain 20.5 dBi and 2x N-Female connectors. This antenna offers the perfect combination of features and functions that address the major weaknesses of today's mainstream sector antennas Asymmetrical Horn CC Antennas have naturally suppressed side lobes because of their optimized design: they focus energy into a single main beam. Absence of side lobes enables excellent noise immunity of a network when using Asymmetrical Horn CC Antennas Mainstream patch array sector antennas have radiation pattern extremely wide in the azimuth and extremely narrow in the elevation plane. If an AP is deployed on a tall tower, customers near the tower suffer from low AP signal level. Asymmetrical Horn CC Antennas provide valuable extra degrees of the elevation beam width, shrinking the null zone while preserving the increased gain for long-range performance Unique radiation characteristics, minimal side lobes and extremely low back radiation allow the placement of multiple antennas at one point and the construction of multiple separate points, which will allow better distribution of load on individual APs and increase speeds to individual clients Aymxx-CC asymmetric antennas are equipped with an innovative mounting system. Mounting the bracket and antenna is separate and performed in two steps Antenna Precision holder","availability":"In stock","unitPerCarton":1,"warranty":"24 months","displayPriceUsd":348,"fullCartonUnitPriceUsd":336,"imageUrl":"assets/catalog-data/public-images/rf-elements-ah20-cc-3eecb8869c.jpg","documents":[],"shippingDimensions":{"unit":{"dimensionCount":1,"lengthCm":33,"widthCm":47.5,"heightCm":24,"volumeCm3":37620,"weightKg":5.7},"carton":{"pcsPerCarton":1,"lengthCm":47.5,"widthCm":33,"heightCm":22.5,"volumeCm3":35268.8,"weightKg":5.7}},"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,8 F/B ratio [dB] 35 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 30 Azimuth beam width (-6dB) [°] 20 Antenna type Sector Antenna gain [dBi] 20,5 Connectors and Interfaces RF connectors (2) N female"}
+{
+  "id": "rf-elements-ah20-cc",
+  "brand": "RF elements",
+  "sku": "AH20-CC",
+  "title": "RF elements Asymmetrical Horn Antenna Carrier Class, 5GHz, 20,5dBi, 20°",
+  "category": "RF elements / Wireless / Antennas / Sector antennas / 5GHz",
+  "description": "AH20-CC is a 5GHz sector antenna of the \"horn\" type of a new generation from the RF elements workshop and is characterized by 20° asymmetric beam angle (30° in the elevation plane) , gain 20.5 dBi and 2x N-Female connectors. This antenna offers the perfect combination of features and functions that address the major weaknesses of today's mainstream sector antennas Asymmetrical Horn CC Antennas have naturally suppressed side lobes because of their optimized design: they focus energy into a single main beam. Absence of side lobes enables excellent noise immunity of a network when using Asymmetrical Horn CC Antennas Mainstream patch array sector antennas have radiation pattern extremely wide in the azimuth and extremely narrow in the elevation plane. If an AP is deployed on a tall tower, customers near the tower suffer from low AP signal level. Asymmetrical Horn CC Antennas provide valuable extra degrees of the elevation beam width, shrinking the null zone while preserving the increased gain for long-range performance Unique radiation characteristics, minimal side lobes and extremely low back radiation allow the placement of multiple antennas at one point and the construction of multiple separate points, which will allow better distribution of load on individual APs and increase speeds to individual clients Aymxx-CC asymmetric antennas are equipped with an innovative mounting system. Mounting the bracket and antenna is separate and performed in two steps Antenna Precision holder",
+  "availability": "In Stock 1 pcs.",
+  "unitPerCarton": 1,
+  "warranty": "24 months",
+  "displayPriceUsd": 348,
+  "fullCartonUnitPriceUsd": 336,
+  "imageUrl": "assets/catalog-data/public-images/rf-elements-ah20-cc-3eecb8869c.jpg",
+  "documents": [],
+  "shippingDimensions": {
+    "unit": {
+      "dimensionCount": 1,
+      "lengthCm": 33,
+      "widthCm": 47.5,
+      "heightCm": 24,
+      "volumeCm3": 37620,
+      "weightKg": 5.7
+    },
+    "carton": {
+      "pcsPerCarton": 1,
+      "lengthCm": 47.5,
+      "widthCm": 33,
+      "heightCm": 22.5,
+      "volumeCm3": 35268.8,
+      "weightKg": 5.7
+    }
+  },
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,8 F/B ratio [dB] 35 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 30 Azimuth beam width (-6dB) [°] 20 Antenna type Sector Antenna gain [dBi] 20,5 Connectors and Interfaces RF connectors (2) N female",
+  "stockQtyVisible": 1,
+  "discompProductUrl": "https://www.discomp.cz/rf-elements-asymmetrical-horn-antenna-carrier-class-5ghz-20-5dbi-20-_d111196.html",
+  "discompCategoryUrl": "https://www.discomp.cz/rf-elements-wireless-antennas-sector-antennas-5ghz_c15888335.html",
+  "discompSourcePath": [
+    "RF elements",
+    "Wireless",
+    "Antennas",
+    "Sector antennas",
+    "5GHz"
+  ]
+}

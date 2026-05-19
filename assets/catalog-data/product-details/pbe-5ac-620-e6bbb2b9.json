@@ -1,1 +1,27 @@
-{"id":"ubiquiti-pbe-5ac-620","brand":"Ubiquiti","sku":"PBE-5AC-620","title":"Ubiquiti PowerBeam5 AC 620mm, PBE-5AC-620","category":"Wireless / Outdoor units / AirMAX AC","description":"The PBE-5AC-620 is a suitable device for PtP connections with a 29dBi antenna gain from the airMAX AC series, which achieves very high transmission speeds and a stable connection even in a noisy environment. The unit is compatible only with other airMAX AC products and is designed for outdoor use. In the unit is possible to set very wild channel width 10/20/30/40/50/60 and 80MHz , real throughput in good condition may by up to 450Mbps+ can be achieved using 256QAM airMAX® ac products offer improved latency, noise immunity , scalability and significantly increased throughput performance Ubiquitiâs InnerFeed technology integrates the radio into the feedhorn of an antenna, so there is no need for cables to connect the radio to the antenna. This improves performance because it eliminates cable losses The form factor of the PowerBeamâ¢ ac features the highest gain for its size. The PowerBeam acâs excellent beam directivity provides the best performance in high-noise environments Device (feed) Parabolic antenna Gigabit PoE injector Power cord Plastic feed house Holder","availability":"In stock","unitPerCarton":1,"warranty":"24 months","displayPriceUsd":220,"fullCartonUnitPriceUsd":220,"imageUrl":"assets/catalog-data/public-images/ubiquiti-pbe-5ac-620-f586b6c708.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Wireless frequency 5 GHz WiFi standards airMAX ac Transmission speed - 5GHz [Mb/s] 866 Tx power 5GHz [dBm] 24 Security WPA2 AES 5GHz MIMO 2 x 2 Type of antenna Built-in Internal antennas 2 Antenna gain [dBi] 29 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 20 .. 26V DC PoE type PoE-In (only) Max. power consumption [W] 8,5 Physical characteristics Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 70 Weight [g] 6400 Width [mm] 650 Height [mm] 650 Depth [mm] 386 Hardware CPU Atheros MIPS 74KC CPU frequency [MHz] 720 RAM [MB] 128"}
+{
+  "id": "ubiquiti-pbe-5ac-620",
+  "brand": "Ubiquiti",
+  "sku": "PBE-5AC-620",
+  "title": "Ubiquiti PowerBeam5 AC 620mm, PBE-5AC-620",
+  "category": "Ubiquiti / Wireless / PtP Backhaul / 5GHz",
+  "description": "The PBE-5AC-620 is a suitable device for PtP connections with a 29dBi antenna gain from the airMAX AC series, which achieves very high transmission speeds and a stable connection even in a noisy environment. The unit is compatible only with other airMAX AC products and is designed for outdoor use. In the unit is possible to set very wild channel width 10/20/30/40/50/60 and 80MHz , real throughput in good condition may by up to 450Mbps+ can be achieved using 256QAM airMAX® ac products offer improved latency, noise immunity , scalability and significantly increased throughput performance Ubiquitiâs InnerFeed technology integrates the radio into the feedhorn of an antenna, so there is no need for cables to connect the radio to the antenna. This improves performance because it eliminates cable losses The form factor of the PowerBeamâ¢ ac features the highest gain for its size. The PowerBeam acâs excellent beam directivity provides the best performance in high-noise environments Device (feed) Parabolic antenna Gigabit PoE injector Power cord Plastic feed house Holder",
+  "availability": "In Stock 79 pcs.",
+  "unitPerCarton": 1,
+  "warranty": "24 months",
+  "displayPriceUsd": 220,
+  "fullCartonUnitPriceUsd": 220,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-pbe-5ac-620-f586b6c708.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Wireless frequency 5 GHz WiFi standards airMAX ac Transmission speed - 5GHz [Mb/s] 866 Tx power 5GHz [dBm] 24 Security WPA2 AES 5GHz MIMO 2 x 2 Type of antenna Built-in Internal antennas 2 Antenna gain [dBi] 29 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 20 .. 26V DC PoE type PoE-In (only) Max. power consumption [W] 8,5 Physical characteristics Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 70 Weight [g] 6400 Width [mm] 650 Height [mm] 650 Depth [mm] 386 Hardware CPU Atheros MIPS 74KC CPU frequency [MHz] 720 RAM [MB] 128",
+  "stockQtyVisible": 79,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-powerbeam5-ac-620mm-pbe-5ac-620_d63748.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-ptp-backhaul-5ghz_c16591518.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "PtP Backhaul",
+    "5GHz"
+  ]
+}

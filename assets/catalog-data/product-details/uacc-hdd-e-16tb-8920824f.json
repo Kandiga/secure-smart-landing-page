@@ -1,1 +1,41 @@
-{"id":"ubiquiti-uacc-hdd-e-16tb","brand":"Ubiquiti","sku":"UACC-HDD-E-16TB","title":"Ubiquiti Enterprise 3.5\" HDD, 16 TB","category":"Cameras, security / IP NVR Recorders / UniFi Video","description":"Enterprise-grade 3.5\" SATA hard drive ideal for storage-intensive UniFi camera security and NAS systems. Workload rating: 550 TB/year. Mean time between failure (MTBF): 2.5 million hours. Verified and optimized for UniFi device compatibility.","availability":"To order / expected","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":553,"fullCartonUnitPriceUsd":553,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-hdd-e-16tb-f2d493bc70.webp","documents":[],"technicalParameters":{"Overview":{"Dimensions":"147 x 101.9 x 26.1 mm (5.75 x 4 x 1\")","Weight":"720 g (1.6 lb)","Form Factor":"3.5-inch HDD","Capacity":"16 TB","Power Method":"5V/12V input","Interface":"SATA 6 Gb/s"},"Performance":{"Workload rating":"550 TB/year","MTBF":"2.5 million hours"}},"enrichmentStatus":"official-manufacturer-data","cartonAvailable":false,"detailPath":"assets/catalog-data/product-details/uacc-hdd-e-16tb-8920824f.json"}
+{
+  "id": "ubiquiti-uacc-hdd-e-16tb",
+  "brand": "Ubiquiti",
+  "sku": "UACC-HDD-E-16TB",
+  "title": "Ubiquiti Enterprise 3.5\" HDD, 16 TB",
+  "category": "Ubiquiti / Cameras, security / Harddiscs / Serial ATA 3.5\"",
+  "description": "Enterprise-grade 3.5\" SATA hard drive ideal for storage-intensive UniFi camera security and NAS systems. Workload rating: 550 TB/year. Mean time between failure (MTBF): 2.5 million hours. Verified and optimized for UniFi device compatibility.",
+  "availability": "Expected 30.6.2026",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 553,
+  "fullCartonUnitPriceUsd": 553,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-hdd-e-16tb-f2d493bc70.webp",
+  "documents": [],
+  "technicalParameters": {
+    "Overview": {
+      "Dimensions": "147 x 101.9 x 26.1 mm (5.75 x 4 x 1\")",
+      "Weight": "720 g (1.6 lb)",
+      "Form Factor": "3.5-inch HDD",
+      "Capacity": "16 TB",
+      "Power Method": "5V/12V input",
+      "Interface": "SATA 6 Gb/s"
+    },
+    "Performance": {
+      "Workload rating": "550 TB/year",
+      "MTBF": "2.5 million hours"
+    }
+  },
+  "enrichmentStatus": "official-manufacturer-data",
+  "cartonAvailable": false,
+  "detailPath": "assets/catalog-data/product-details/uacc-hdd-e-16tb-8920824f.json",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-enterprise-3-5-hdd-hard-drive-16tb_d127597.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-harddiscs-serial-ata-3-5-_c16592659.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Harddiscs",
+    "Serial ATA 3.5\""
+  ]
+}

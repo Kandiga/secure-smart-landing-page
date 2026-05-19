@@ -1,1 +1,26 @@
-{"id":"ubiquiti-ua-button","brand":"Ubiquiti","sku":"UA-Button","title":"Ubiquiti UA-Button, Ubiquiti Access Button","category":"Cameras, security / Videophones and bells / Door Bells","description":"Push-to-exit button designed for UniFi Access Hubs. Package content: Mounting frame White cover Black cover Screws Mounting frame White cover Black cover Screws","availability":"To order / expected","unitPerCarton":25,"warranty":"24 months","displayPriceUsd":44,"fullCartonUnitPriceUsd":42.46,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ua-button-229c948e5d.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-ua-button",
+  "brand": "Ubiquiti",
+  "sku": "UA-Button",
+  "title": "Ubiquiti UA-Button, Ubiquiti Access Button",
+  "category": "Ubiquiti / Cameras, security / Videophones and bells / Door Bells",
+  "description": "Push-to-exit button designed for UniFi Access Hubs. Package content: Mounting frame White cover Black cover Screws Mounting frame White cover Black cover Screws",
+  "availability": "Expected 30.6.2026",
+  "unitPerCarton": 25,
+  "warranty": "24 months",
+  "displayPriceUsd": 44,
+  "fullCartonUnitPriceUsd": 42.46,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ua-button-229c948e5d.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-ua-button-ubiquiti-access-button_d126968.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-videophones-and-bells-door-bells_c16591511.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Videophones and bells",
+    "Door Bells"
+  ]
+}

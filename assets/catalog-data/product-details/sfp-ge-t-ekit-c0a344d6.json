@@ -1,1 +1,27 @@
-{"id":"huawei-sfp-ge-t-ekit","brand":"Huawei","sku":"SFP-GE-T-eKit","title":"Huawei SFP-GE-T-eKit, SFP 10/100/1000M copper module, RJ-45, 100m","category":"Optical networks / SFP optical modules / SFP","description":"Huawei SFP-GE-T-eKit is a Gigabit SFP copper module with an RJ45 connector for metallic cable and 10/100/1000Mbps transmission rate. The module has a range of 100m","availability":"To order / expected","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":84,"fullCartonUnitPriceUsd":84,"imageUrl":"assets/catalog-data/public-images/huawei-sfp-ge-t-ekit-5ee2e7523e.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Format SFP For cable type Metallic Transmission speed 10 Mbps, 100 Mbps, 1 Gbps Distance [km] 0,1 Transfer type Metallic Connectors and Interfaces Optical Connectors RJ45"}
+{
+  "id": "huawei-sfp-ge-t-ekit",
+  "brand": "Huawei",
+  "sku": "SFP-GE-T-eKit",
+  "title": "Huawei SFP-GE-T-eKit, SFP 10/100/1000M copper module, RJ-45, 100m",
+  "category": "Huawei / Optical networks / SFP optical modules / SFP",
+  "description": "Huawei SFP-GE-T-eKit is a Gigabit SFP copper module with an RJ45 connector for metallic cable and 10/100/1000Mbps transmission rate. The module has a range of 100m",
+  "availability": "Not In Stock",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 84,
+  "fullCartonUnitPriceUsd": 84,
+  "imageUrl": "assets/catalog-data/public-images/huawei-sfp-ge-t-ekit-5ee2e7523e.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Format SFP For cable type Metallic Transmission speed 10 Mbps, 100 Mbps, 1 Gbps Distance [km] 0,1 Transfer type Metallic Connectors and Interfaces Optical Connectors RJ45",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/huawei-sfp-ge-t-ekit-sfp-10-100-1000m-copper-module-rj-45-100m_d131058.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-optical-networks-sfp-optical-modules-sfp_c16591664.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Optical networks",
+    "SFP optical modules",
+    "SFP"
+  ]
+}

@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-ai-ms-4-am-w","brand":"Ubiquiti","sku":"UACC-AI-MS-4-AM-W","title":"Ubiquiti Wall/pole/corner mount for AI Multi Sensor 4, white","category":"Cameras, security / Mounting boxes and brackets / Wallmount","description":"White mounting bracket for the AI Multi Sensor 4 camera (UVC-AI-MS-4), designed for installation on a wall, pole or building exterior corner","availability":"To order / expected","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":257,"fullCartonUnitPriceUsd":257,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-ai-ms-4-am-w-ac338dd3ce.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Physical characteristics Designed for mast diameter [mm] 50 up to 100 Design On the wall, On the mast, Corner Purpose Outdoor Material Aluminum alloy Width [mm] 250 Height [mm] 150 Depth [mm] 350 Color White"}
+{
+  "id": "ubiquiti-uacc-ai-ms-4-am-w",
+  "brand": "Ubiquiti",
+  "sku": "UACC-AI-MS-4-AM-W",
+  "title": "Ubiquiti Wall/pole/corner mount for AI Multi Sensor 4, white",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Mast boxes",
+  "description": "White mounting bracket for the AI Multi Sensor 4 camera (UVC-AI-MS-4), designed for installation on a wall, pole or building exterior corner",
+  "availability": "Expected 30.7.2026",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 257,
+  "fullCartonUnitPriceUsd": 257,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-ai-ms-4-am-w-ac338dd3ce.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Physical characteristics Designed for mast diameter [mm] 50 up to 100 Design On the wall, On the mast, Corner Purpose Outdoor Material Aluminum alloy Width [mm] 250 Height [mm] 150 Depth [mm] 350 Color White",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-wall-pole-corner-mount-for-ai-multi-sensor-4-white_d131686.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-mast-boxes_c16588812.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Mast boxes"
+  ]
+}

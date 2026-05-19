@@ -1,1 +1,25 @@
-{"id":"ubiquiti-ui-prosupport-3y-bh-eu-d","brand":"Ubiquiti","sku":"UI-ProSupport-3Y-BH-EU-D","title":"UniFi Professional Site Support for 3 years, Business Hours EU","category":"Training, services / UniFi","description":"Elevate the management of your UniFi network with paid professional support from Ubiquiti. Trained personnel will provide you with remote telephone support. The license is always activated for one physical location only. Support staff are","availability":"To order / expected","unitPerCarton":null,"warranty":"To be confirmed","displayPriceUsd":3946,"fullCartonUnitPriceUsd":3946,"imageUrl":null,"documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "ubiquiti-ui-prosupport-3y-bh-eu-d",
+  "brand": "Ubiquiti",
+  "sku": "UI-ProSupport-3Y-BH-EU-D",
+  "title": "UniFi Professional Site Support for 3 years, Business Hours EU",
+  "category": "Ubiquiti / Training, services / UniFi",
+  "description": "Elevate the management of your UniFi network with paid professional support from Ubiquiti. Trained personnel will provide you with remote telephone support. The license is always activated for one physical location only. Support staff are",
+  "availability": "To order within 3d",
+  "unitPerCarton": null,
+  "warranty": "To be confirmed",
+  "displayPriceUsd": 3946,
+  "fullCartonUnitPriceUsd": 3946,
+  "imageUrl": null,
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/unifi-professional-site-support-for-3-years-business-hours-eu_d126900.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-training-services-unifi_c16592615.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Training, services",
+    "UniFi"
+  ]
+}

@@ -1,1 +1,26 @@
-{"id":"mikrotik-rbsxtsq5nd","brand":"MikroTik","sku":"RBSXTsq5nD","title":"MikroTik RouterBOARD RBSXTsq5nD, SXTsq Lite5, L3","category":"Wireless / Outdoor units / MikroTik","description":"The SXTsq Lite5 is a compact and lightweight outdoor wireless device with an integrated antenna. Perfect for point to point links of up to 12 kilometers or as a CPE unit. It is compact, weatherproof and easy to mount. The SXTsq Lite5 retains a 16dBi antenna like the SXT Lite5, our previous model, yet the antenna design has been improved and the physical size has been dramatically reduced - the SXTsq is two times thinner The enclosure includes slots for directly attaching a metallic ring mount in three different mounting places, with ability to be mounted on horizontal railings. The device includes one 10/100Mbit ethernet port . There is also an easily accessilble grounding connection to protect it against lightning Device PoE injector Power adapter 24V/0.38A Metal ring","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":43,"fullCartonUnitPriceUsd":43,"imageUrl":"assets/catalog-data/public-images/mikrotik-rbsxtsq5nd-e5238de1ce.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Tx power [dBm] 25 Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a Transmission speed - 5GHz [Mb/s] 300 Elevation beam width (-6dB) [°] 23 Azimuth beam width (-6dB) [°] 23 5GHz MIMO 2 x 2 Type of antenna Built-in Antenna gain [dBi] 16 Connectors and Interfaces LAN speed (1) 10/100Mbps Power Power over Ethernet 10 .. 30V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 6 Physical characteristics Design Outdoor Operating temperature [°C] 40 up to 70 Width [mm] 129 Height [mm] 129 Depth [mm] 34 Hardware CPU AR9344 CPU frequency [MHz] 600 CPU cores 1 Internal storage [MB] 16 RAM [MB] 64"}
+{
+  "id": "mikrotik-rbsxtsq5nd",
+  "brand": "MikroTik",
+  "sku": "RBSXTsq5nD",
+  "title": "MikroTik RouterBOARD RBSXTsq5nD, SXTsq Lite5, L3",
+  "category": "MikroTik / Wireless / Outdoor units",
+  "description": "The SXTsq Lite5 is a compact and lightweight outdoor wireless device with an integrated antenna. Perfect for point to point links of up to 12 kilometers or as a CPE unit. It is compact, weatherproof and easy to mount. The SXTsq Lite5 retains a 16dBi antenna like the SXT Lite5, our previous model, yet the antenna design has been improved and the physical size has been dramatically reduced - the SXTsq is two times thinner The enclosure includes slots for directly attaching a metallic ring mount in three different mounting places, with ability to be mounted on horizontal railings. The device includes one 10/100Mbit ethernet port . There is also an easily accessilble grounding connection to protect it against lightning Device PoE injector Power adapter 24V/0.38A Metal ring",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 43,
+  "fullCartonUnitPriceUsd": 43,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rbsxtsq5nd-e5238de1ce.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Tx power [dBm] 25 Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a Transmission speed - 5GHz [Mb/s] 300 Elevation beam width (-6dB) [°] 23 Azimuth beam width (-6dB) [°] 23 5GHz MIMO 2 x 2 Type of antenna Built-in Antenna gain [dBi] 16 Connectors and Interfaces LAN speed (1) 10/100Mbps Power Power over Ethernet 10 .. 30V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 6 Physical characteristics Design Outdoor Operating temperature [°C] 40 up to 70 Width [mm] 129 Height [mm] 129 Depth [mm] 34 Hardware CPU AR9344 CPU frequency [MHz] 600 CPU cores 1 Internal storage [MB] 16 RAM [MB] 64",
+  "stockQtyVisible": 134,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-routerboard-rbsxtsq5nd-sxtsq-lite5-l3_d82018.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-outdoor-units_c15888564.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Outdoor units"
+  ]
+}

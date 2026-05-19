@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-poe-10g","brand":"Ubiquiti","sku":"UACC-PoE++-10G","title":"Ubiquiti 10G PoE+++ Injector (90W)","category":"Powering / Pasive PoE / PoE injectors","description":"Ubiquiti 10G PoE+++ is a high-quality 10Gbps PoE injector with one PoE output port for powering devices with a voltage of 54V with maximum output power of 90W , which is sufficient for powering energy-intensive devices. Power is conducted on all the wires 1,2,4.5 (+) and 3,6,7.8 (-). The device also includes surge, peak pulse, and overcurrent protection Device Wall mount bracket AC power cord Screws and wall plugs","availability":"In stock","unitPerCarton":40,"warranty":"24 months","displayPriceUsd":43,"fullCartonUnitPriceUsd":41.5,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-poe-10g-26cdc952f5.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000/2500/5000/10000 Gigabit LAN Yes Power The input voltage [V] 100 .. 240V AC Output Power [W] 90 Pin powering 1,2,4,5 (+), 3,6,7,8 (-) PoE Out ports 1 Output Voltage [V] 54 Output Current [A] 1,12"}
+{
+  "id": "ubiquiti-uacc-poe-10g",
+  "brand": "Ubiquiti",
+  "sku": "UACC-PoE++-10G",
+  "title": "Ubiquiti 10G PoE+++ Injector (90W)",
+  "category": "Ubiquiti / Powering / Pasive PoE / PoE injectors",
+  "description": "Ubiquiti 10G PoE+++ is a high-quality 10Gbps PoE injector with one PoE output port for powering devices with a voltage of 54V with maximum output power of 90W , which is sufficient for powering energy-intensive devices. Power is conducted on all the wires 1,2,4.5 (+) and 3,6,7.8 (-). The device also includes surge, peak pulse, and overcurrent protection Device Wall mount bracket AC power cord Screws and wall plugs",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 40,
+  "warranty": "24 months",
+  "displayPriceUsd": 43,
+  "fullCartonUnitPriceUsd": 41.5,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-poe-10g-26cdc952f5.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000/2500/5000/10000 Gigabit LAN Yes Power The input voltage [V] 100 .. 240V AC Output Power [W] 90 Pin powering 1,2,4,5 (+), 3,6,7,8 (-) PoE Out ports 1 Output Voltage [V] 54 Output Current [A] 1,12",
+  "stockQtyVisible": 193,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-poe-10g-10gigabit-poe-injector-54v-1-12a-60w-white_d128921.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-pasive-poe-poe-injectors_c16591506.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Pasive PoE",
+    "PoE injectors"
+  ]
+}

@@ -1,1 +1,27 @@
-{"id":"ubiquiti-u-cable-patch-1m-rj45","brand":"Ubiquiti","sku":"U-Cable-Patch-1M-RJ45","title":"Ubiquiti U-Cable-Patch-1M-RJ45, UniFi Ethernet Patch Cable, 1m, Cat6, white","category":"LAN networks / Patch cables / Cat.6 (Color)","description":"UniFi Ethernet patch cable UC-PATCH-RJ45 white color with length 1m is ideal for connecting (not only) UniFi devices in racks. Ultra thin design 3mm. Made in white, blue and black colour The cable has passed the certification test TIA-568-B.2 Cat6 Channel test by the Fluke","availability":"To order / expected","unitPerCarton":120,"warranty":"24 months","displayPriceUsd":3,"fullCartonUnitPriceUsd":2.9,"imageUrl":"assets/catalog-data/public-images/ubiquiti-u-cable-patch-1m-rj45-9358620020.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Shielding type UTP (U/UTP) Conductor wire gauge AWG30 Cable type Stranded Design Extra slim Purpose Indoor Conductor material Copper Sheath material Thermoplastic Elastomer Length [m] 1 Color White"}
+{
+  "id": "ubiquiti-u-cable-patch-1m-rj45",
+  "brand": "Ubiquiti",
+  "sku": "U-Cable-Patch-1M-RJ45",
+  "title": "Ubiquiti U-Cable-Patch-1M-RJ45, UniFi Ethernet Patch Cable, 1m, Cat6, white",
+  "category": "Ubiquiti / LAN networks / Patch cables / Cat.6 (Color)",
+  "description": "UniFi Ethernet patch cable UC-PATCH-RJ45 white color with length 1m is ideal for connecting (not only) UniFi devices in racks. Ultra thin design 3mm. Made in white, blue and black colour The cable has passed the certification test TIA-568-B.2 Cat6 Channel test by the Fluke",
+  "availability": "Ordered, unknown date",
+  "unitPerCarton": 120,
+  "warranty": "24 months",
+  "displayPriceUsd": 3,
+  "fullCartonUnitPriceUsd": 2.9,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-u-cable-patch-1m-rj45-9358620020.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Shielding type UTP (U/UTP) Conductor wire gauge AWG30 Cable type Stranded Design Extra slim Purpose Indoor Conductor material Copper Sheath material Thermoplastic Elastomer Length [m] 1 Color White",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-u-cable-patch-1m-rj45-unifi-ethernet-patch-cable-1m-cat6-white_d95180.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-patch-cables-cat-6-color-_c16591469.html?page=2",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Patch cables",
+    "Cat.6 (Color)"
+  ]
+}

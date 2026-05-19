@@ -1,1 +1,25 @@
-{"id":"ubiquiti-uacc-fiber-sr-kit","brand":"Ubiquiti","sku":"UACC-Fiber-SR-Kit","title":"Ubiquiti Fiber Strain Relief Kit","category":"Optical networks / Connecting cable boxes","description":"UV-resistant enclosure, designed for pole or wall mounting, with a removable reel for organization and reduced physical strain on fiber optic cables","availability":"In stock","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":35,"fullCartonUnitPriceUsd":33.78,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-fiber-sr-kit-df3bb049ac.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-fiber-sr-kit",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Fiber-SR-Kit",
+  "title": "Ubiquiti Fiber Strain Relief Kit",
+  "category": "Ubiquiti / Optical networks / Connecting cable boxes",
+  "description": "UV-resistant enclosure, designed for pole or wall mounting, with a removable reel for organization and reduced physical strain on fiber optic cables",
+  "availability": "In Stock 14 pcs.",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 35,
+  "fullCartonUnitPriceUsd": 33.78,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-fiber-sr-kit-df3bb049ac.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 14,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-fiber-strain-relief-kit_d124830.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-connecting-cable-boxes_c16589094.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "Connecting cable boxes"
+  ]
+}

@@ -1,1 +1,26 @@
-{"id":"mikrotik-gesp","brand":"MikroTik","sku":"GESP","title":"MikroTik GESP - Gigabit Surge Protector, waterproof enclosure, IP68","category":"Wireless / MikroTik / Accessories","description":"You canât buy safety, but you can buy an RBGESP surge protector and keep your setup safe. RBGESP is Gigabit Ethernet Surge Protector that can be used to protect the network from lightning or surge damages Hereâs what a typical use-case would be like. You have a mast with some antennas. And some switches on the ground. Put the GESP surge protectors on each end. They come sealed inside a new and improved IP67 weatherproof enclosure. Your antennas are now safe during a lightning storm In addition to the surge arrester itself, the outer case also includes a dowel with a screw and a special metal plate for attachment to a wall or rack","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":27,"fullCartonUnitPriceUsd":27,"imageUrl":"assets/catalog-data/public-images/mikrotik-gesp-6cc5636d80.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces Gigabit LAN Yes"}
+{
+  "id": "mikrotik-gesp",
+  "brand": "MikroTik",
+  "sku": "GESP",
+  "title": "MikroTik GESP - Gigabit Surge Protector, waterproof enclosure, IP68",
+  "category": "MikroTik / Wireless / Accessories",
+  "description": "You canât buy safety, but you can buy an RBGESP surge protector and keep your setup safe. RBGESP is Gigabit Ethernet Surge Protector that can be used to protect the network from lightning or surge damages Hereâs what a typical use-case would be like. You have a mast with some antennas. And some switches on the ground. Put the GESP surge protectors on each end. They come sealed inside a new and improved IP67 weatherproof enclosure. Your antennas are now safe during a lightning storm In addition to the surge arrester itself, the outer case also includes a dowel with a screw and a special metal plate for attachment to a wall or rack",
+  "availability": "In Stock 78 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 27,
+  "fullCartonUnitPriceUsd": 27,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-gesp-6cc5636d80.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces Gigabit LAN Yes",
+  "stockQtyVisible": 78,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-gesp-gigabit-surge-protector-waterproof-enclosure-ip68_d101445.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-accessories_c16588567.html?page=2",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Accessories"
+  ]
+}

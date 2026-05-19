@@ -1,1 +1,26 @@
-{"id":"teltonika-trb500000000","brand":"Teltonika","sku":"TRB500000000","title":"Teltonika TRB500 Industrial 5G Gateway","category":"Wireless / 3G/LTE/5G / Routers","description":"The Teltonika TRB500 5G gateway is among the compact and energy-efficient devices with a Gigabit Ethernet interface and two configurable I/Os. The device delivers ultra-low latency 5G network speeds for critical infrastructure and high data throughput. This is ensured by 4 additional external antennas (included in the package), which enable use in a 4Ã4 MIMO configuration Compact size A powerful 5G system Can be equipped with additional external antennas TRB500 is shipped with the RutOS operating system , which provides advanced security features and compatibility with a remote management system (Teltonika RMS) for optimized remote management and monitoring capabilities of large groups of devices Advanced 5G gateway Supports 5G networks Offers 4x SMA port for external antennas RutOS operating system Interface: 1Ã 10/100/1000 Mbps LAN, 1Ã SIM slot (Mini SIM â 2FF), 2Ã adjustable I/O","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":477,"fullCartonUnitPriceUsd":477,"imageUrl":"assets/catalog-data/public-images/teltonika-trb500000000-daa02f578f.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Wireless frequency 3G (GSM), 4G (GSM), 5G (GSM) Connectors and Interfaces RF connectors (4) SMA female LAN speed (1) 10/100/1000Mbps SIM slot Yes SIM slots quantity 1 Power Power type DC connector Max. power consumption [W] 6 Power via connector/terminal 9 .. 30V DC Physical characteristics Protection class IP30 Design Desktop, DIN rail Operating temperature [°C] 40 up to 75 Weight [g] 241 Width [mm] 100 Height [mm] 30 Depth [mm] 93 Hardware Internal storage [MB] 512 RAM [MB] 256 Software Supported VPN PPTP, L2TP, IPSec, OpenVPN, WireGuard, ZeroTier, GRE Operating system RutOS (OpenWrt based Linux OS)"}
+{
+  "id": "teltonika-trb500000000",
+  "brand": "Teltonika",
+  "sku": "TRB500000000",
+  "title": "Teltonika TRB500 Industrial 5G Gateway",
+  "category": "Teltonika / IoT, SMART / Routers",
+  "description": "The Teltonika TRB500 5G gateway is among the compact and energy-efficient devices with a Gigabit Ethernet interface and two configurable I/Os. The device delivers ultra-low latency 5G network speeds for critical infrastructure and high data throughput. This is ensured by 4 additional external antennas (included in the package), which enable use in a 4Ã4 MIMO configuration Compact size A powerful 5G system Can be equipped with additional external antennas TRB500 is shipped with the RutOS operating system , which provides advanced security features and compatibility with a remote management system (Teltonika RMS) for optimized remote management and monitoring capabilities of large groups of devices Advanced 5G gateway Supports 5G networks Offers 4x SMA port for external antennas RutOS operating system Interface: 1Ã 10/100/1000 Mbps LAN, 1Ã SIM slot (Mini SIM â 2FF), 2Ã adjustable I/O",
+  "availability": "In Stock 14 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 477,
+  "fullCartonUnitPriceUsd": 477,
+  "imageUrl": "assets/catalog-data/public-images/teltonika-trb500000000-daa02f578f.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Wireless frequency 3G (GSM), 4G (GSM), 5G (GSM) Connectors and Interfaces RF connectors (4) SMA female LAN speed (1) 10/100/1000Mbps SIM slot Yes SIM slots quantity 1 Power Power type DC connector Max. power consumption [W] 6 Power via connector/terminal 9 .. 30V DC Physical characteristics Protection class IP30 Design Desktop, DIN rail Operating temperature [°C] 40 up to 75 Weight [g] 241 Width [mm] 100 Height [mm] 30 Depth [mm] 93 Hardware Internal storage [MB] 512 RAM [MB] 256 Software Supported VPN PPTP, L2TP, IPSec, OpenVPN, WireGuard, ZeroTier, GRE Operating system RutOS (OpenWrt based Linux OS)",
+  "stockQtyVisible": 14,
+  "discompProductUrl": "https://www.discomp.cz/teltonika-trb500-industrial-5g-gateway_d119316.html",
+  "discompCategoryUrl": "https://www.discomp.cz/iot-smart-teltonika-routers_c15616396.html",
+  "discompSourcePath": [
+    "Teltonika",
+    "IoT, SMART",
+    "Routers"
+  ]
+}

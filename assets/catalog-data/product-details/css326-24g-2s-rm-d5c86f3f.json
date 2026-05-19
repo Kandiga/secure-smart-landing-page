@@ -1,1 +1,26 @@
-{"id":"mikrotik-css326-24g-2s-rm","brand":"MikroTik","sku":"CSS326-24G-2S+RM","title":"MikroTik Cloud Smart Switch, CSS326-24G-2S+RM","category":"Wireless / MikroTik / RouterBOARD","description":"Cloud Smart Switch 326-24G-2S+RM is SwOS powered 24 port Gigabit Ethernet switch with two SFP+ ports in 1U rackmount case that provides wire speed connectivity with several new switching features It gives you all the basic functionality for a managed switch, plus more: allows to manage port-to-port forwarding, apply MAC filter, configure VLANs, mirror traffic, apply bandwidth limitation and even adjust some MAC and IP header fields. SFP cage supports both 1.25 Gb SFP and 10 Gb SFP+ modules Device Power adapter Rack ears","availability":"In stock","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":152,"fullCartonUnitPriceUsd":146.68,"imageUrl":"assets/catalog-data/public-images/mikrotik-css326-24g-2s-rm-9125028a83.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (24) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (2) 1G/10Gbps Serial port RJ45 Power Power over Ethernet 10 .. 30V DC Power type DC connector, PoE PoE type PoE-In (only) Max. power consumption [W] 19 Power via connector/terminal 10 .. 30V DC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Operating temperature [°C] 20 up to 70 Width [mm] 440 Height [mm] 44 Depth [mm] 144 Hardware Internal storage [MB] 2"}
+{
+  "id": "mikrotik-css326-24g-2s-rm",
+  "brand": "MikroTik",
+  "sku": "CSS326-24G-2S+RM",
+  "title": "MikroTik Cloud Smart Switch, CSS326-24G-2S+RM",
+  "category": "MikroTik / Wireless / RouterBOARD",
+  "description": "Cloud Smart Switch 326-24G-2S+RM is SwOS powered 24 port Gigabit Ethernet switch with two SFP+ ports in 1U rackmount case that provides wire speed connectivity with several new switching features It gives you all the basic functionality for a managed switch, plus more: allows to manage port-to-port forwarding, apply MAC filter, configure VLANs, mirror traffic, apply bandwidth limitation and even adjust some MAC and IP header fields. SFP cage supports both 1.25 Gb SFP and 10 Gb SFP+ modules Device Power adapter Rack ears",
+  "availability": "In Stock 16 pcs.",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 152,
+  "fullCartonUnitPriceUsd": 146.68,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-css326-24g-2s-rm-9125028a83.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (24) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (2) 1G/10Gbps Serial port RJ45 Power Power over Ethernet 10 .. 30V DC Power type DC connector, PoE PoE type PoE-In (only) Max. power consumption [W] 19 Power via connector/terminal 10 .. 30V DC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Operating temperature [°C] 20 up to 70 Width [mm] 440 Height [mm] 44 Depth [mm] 144 Hardware Internal storage [MB] 2",
+  "stockQtyVisible": 16,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-cloud-smart-switch-css326-24g-2s-rm_d79563.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-routerboard_c16588560.html?page=2",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "RouterBOARD"
+  ]
+}

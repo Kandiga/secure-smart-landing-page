@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-reader-pro-jb-w","brand":"Ubiquiti","sku":"UACC-Reader-Pro-JB-W","title":"Ubiquiti UACC-Reader-Pro-JB white, box for readers and doorbells","category":"Cameras, security / Mounting boxes and brackets / Wallmount","description":"Mounting box for Ubiquiti Pro series readers or smart doorbell. The box is white Ubiquiti UA-G2-Pro Ubiquiti UVC-G4 Doorbell Pro PoE Kit Box Dowels, screws","availability":"To order / expected","unitPerCarton":16,"warranty":"24 months","displayPriceUsd":35,"fullCartonUnitPriceUsd":33.78,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-reader-pro-jb-w-7ee4094d11.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-reader-pro-jb-w",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Reader-Pro-JB-W",
+  "title": "Ubiquiti UACC-Reader-Pro-JB white, box for readers and doorbells",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Mast boxes",
+  "description": "Mounting box for Ubiquiti Pro series readers or smart doorbell. The box is white Ubiquiti UA-G2-Pro Ubiquiti UVC-G4 Doorbell Pro PoE Kit Box Dowels, screws",
+  "availability": "Expected 30.6.2026",
+  "unitPerCarton": 16,
+  "warranty": "24 months",
+  "displayPriceUsd": 35,
+  "fullCartonUnitPriceUsd": 33.78,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-reader-pro-jb-w-7ee4094d11.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-reader-pro-jb-white-box-for-readers-and-doorbells_d126287.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-mast-boxes_c16588812.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Mast boxes"
+  ]
+}

@@ -1,1 +1,39 @@
-{"id":"rf-elements-uh-tp-5-24","brand":"RF elements","sku":"UH-TP-5-24","title":"RF elements directional antenna UltraHornâ¢ TP 5-24 with TwistPort, 5GHz, 24dBi","category":"Wireless / Antennas / Antennas with TwistPort","description":"UH-TP-5-24 UltraHorn TP antenna is highly directional ( 11° beam angle) scalar horn antennas for point-to-point connections in 5GHz band and 24 dBi antenna gain. They offer all the benefits of scalar horns: ultra noise rejection, lossless connection of radio and symmetrical beam with no side lobes. These unique radiation properties make them excellent antennas for long links in environments with a high level of noise UltraHornTM TP Antennas feature our industry changing TwistPort connector , a patent pending quicklocking waveguide port. There are no coaxial RF connectors or RF cables anymore that makes TwistPortTM virtually lossless connector. Connection of radio is brilliantly simple - âtwist and lockâ - all done with one hand! UltraHorn antenna Precision holder","availability":"In stock","unitPerCarton":1,"warranty":"24 months","displayPriceUsd":326,"fullCartonUnitPriceUsd":315,"imageUrl":"assets/catalog-data/public-images/rf-elements-uh-tp-5-24-ecbf5e6b98.jpg","documents":[],"shippingDimensions":{"unit":{"dimensionCount":1,"lengthCm":57,"widthCm":57,"heightCm":66,"volumeCm3":214434,"weightKg":13.6},"carton":null},"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Polarization VH F/B ratio [dB] 40 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 11 Azimuth beam width (-6dB) [°] 11 Antenna type Directional Antenna gain [dBi] 24 Connectors and Interfaces RF connectors TwistPort Physical characteristics Antenna design Horn Designed for mast diameter [mm] 30 up to 80 Wind load [km/h] 160 Purpose Outdoor Material Aluminum, Stainless steel, ABS plastic, Polycarbonate, Polypropylene Width [mm] 572 Height [mm] 635 Depth [mm] 578"}
+{
+  "id": "rf-elements-uh-tp-5-24",
+  "brand": "RF elements",
+  "sku": "UH-TP-5-24",
+  "title": "RF elements directional antenna UltraHornâ¢ TP 5-24 with TwistPort, 5GHz, 24dBi",
+  "category": "RF elements / Wireless / Antennas / Directional antennas / 5GHz",
+  "description": "UH-TP-5-24 UltraHorn TP antenna is highly directional ( 11° beam angle) scalar horn antennas for point-to-point connections in 5GHz band and 24 dBi antenna gain. They offer all the benefits of scalar horns: ultra noise rejection, lossless connection of radio and symmetrical beam with no side lobes. These unique radiation properties make them excellent antennas for long links in environments with a high level of noise UltraHornTM TP Antennas feature our industry changing TwistPort connector , a patent pending quicklocking waveguide port. There are no coaxial RF connectors or RF cables anymore that makes TwistPortTM virtually lossless connector. Connection of radio is brilliantly simple - âtwist and lockâ - all done with one hand! UltraHorn antenna Precision holder",
+  "availability": "In Stock 73 pcs.",
+  "unitPerCarton": 1,
+  "warranty": "24 months",
+  "displayPriceUsd": 326,
+  "fullCartonUnitPriceUsd": 315,
+  "imageUrl": "assets/catalog-data/public-images/rf-elements-uh-tp-5-24-ecbf5e6b98.jpg",
+  "documents": [],
+  "shippingDimensions": {
+    "unit": {
+      "dimensionCount": 1,
+      "lengthCm": 57,
+      "widthCm": 57,
+      "heightCm": 66,
+      "volumeCm3": 214434,
+      "weightKg": 13.6
+    },
+    "carton": null
+  },
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Polarization VH F/B ratio [dB] 40 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 11 Azimuth beam width (-6dB) [°] 11 Antenna type Directional Antenna gain [dBi] 24 Connectors and Interfaces RF connectors TwistPort Physical characteristics Antenna design Horn Designed for mast diameter [mm] 30 up to 80 Wind load [km/h] 160 Purpose Outdoor Material Aluminum, Stainless steel, ABS plastic, Polycarbonate, Polypropylene Width [mm] 572 Height [mm] 635 Depth [mm] 578",
+  "stockQtyVisible": 73,
+  "discompProductUrl": "https://www.discomp.cz/rf-elements-directional-antenna-ultrahorn-tp-5-24-with-twistport-5ghz-24dbi_d80911.html",
+  "discompCategoryUrl": "https://www.discomp.cz/rf-elements-wireless-antennas-directional-antennas-5ghz_c15888544.html",
+  "discompSourcePath": [
+    "RF elements",
+    "Wireless",
+    "Antennas",
+    "Directional antennas",
+    "5GHz"
+  ]
+}

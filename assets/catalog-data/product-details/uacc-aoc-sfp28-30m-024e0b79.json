@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-aoc-sfp28-30m","brand":"Ubiquiti","sku":"UACC-AOC-SFP28-30M","title":"Ubiquiti UACC-AOC-SFP28-30M, AOC cable, 25 Gbps, 30m","category":"Optical networks / DAC and AOC cables / AOC cables","description":"The active Multi Mode optical cable is used for direct connection of two SFP28 ports with a link speed of 25 Gbps . This ultra-thin (3mm) optical cable is 30 m long but is also available in other variants. The cable is ideal for creating connections between switches or routers that provide 25 Gbps","availability":"In stock","unitPerCarton":30,"warranty":"24 months","displayPriceUsd":83,"fullCartonUnitPriceUsd":80.1,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-aoc-sfp28-30m-d0c6f72aef.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Optics Fiber type Multi Mode Core diameter [µm] 50/125 (OM4) Format SFP, SFP+, SFP28 Transmission speed 1 Gbps, 10 Gbps, 25 Gbps Wavelength - Tx/Rx [nm] 850 AOC/DAC cable type Active"}
+{
+  "id": "ubiquiti-uacc-aoc-sfp28-30m",
+  "brand": "Ubiquiti",
+  "sku": "UACC-AOC-SFP28-30M",
+  "title": "Ubiquiti UACC-AOC-SFP28-30M, AOC cable, 25 Gbps, 30m",
+  "category": "Ubiquiti / Optical networks / DAC and AOC cables / AOC cables",
+  "description": "The active Multi Mode optical cable is used for direct connection of two SFP28 ports with a link speed of 25 Gbps . This ultra-thin (3mm) optical cable is 30 m long but is also available in other variants. The cable is ideal for creating connections between switches or routers that provide 25 Gbps",
+  "availability": "In Stock 14 pcs.",
+  "unitPerCarton": 30,
+  "warranty": "24 months",
+  "displayPriceUsd": 83,
+  "fullCartonUnitPriceUsd": 80.1,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-aoc-sfp28-30m-d0c6f72aef.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Optics Fiber type Multi Mode Core diameter [µm] 50/125 (OM4) Format SFP, SFP+, SFP28 Transmission speed 1 Gbps, 10 Gbps, 25 Gbps Wavelength - Tx/Rx [nm] 850 AOC/DAC cable type Active",
+  "stockQtyVisible": 14,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-aoc-sfp28-30m-aoc-cable-25-gbps-30m_d114708.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-dac-and-aoc-cables-aoc-cables_c16591534.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "DAC and AOC cables",
+    "AOC cables"
+  ]
+}

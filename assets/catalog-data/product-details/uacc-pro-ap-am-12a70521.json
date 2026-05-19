@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-pro-ap-am","brand":"Ubiquiti","sku":"UACC-Pro-AP-AM","title":"Ubiquiti UACC-Pro-AP-AM - Wall mount for U6-Pro and UAP-AC-PRO","category":"Wireless / Accessories / Mounting brackets","description":"The plastic wall holder is intended for horizontal installation of Access Points from Ubiquiti, specifically for U6-Pro and UAP-AC-PRO . The holder is attached to the wall using two screws and dowels, which are included in the package. The overall dimensions of the holder are 174 x 189 x 30 mm","availability":"In stock","unitPerCarton":30,"warranty":"24 months","displayPriceUsd":29,"fullCartonUnitPriceUsd":27.99,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-pro-ap-am-821dc6c58d.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-pro-ap-am",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Pro-AP-AM",
+  "title": "Ubiquiti UACC-Pro-AP-AM - Wall mount for U6-Pro and UAP-AC-PRO",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "The plastic wall holder is intended for horizontal installation of Access Points from Ubiquiti, specifically for U6-Pro and UAP-AC-PRO . The holder is attached to the wall using two screws and dowels, which are included in the package. The overall dimensions of the holder are 174 x 189 x 30 mm",
+  "availability": "In Stock 40 pcs.",
+  "unitPerCarton": 30,
+  "warranty": "24 months",
+  "displayPriceUsd": 29,
+  "fullCartonUnitPriceUsd": 27.99,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-pro-ap-am-821dc6c58d.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 40,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-pro-ap-am-wall-mount-for-u6-pro-and-uap-ac-pro_d116786.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-gb-plate-w","brand":"Ubiquiti","sku":"UACC-GB-Plate-W","title":"Ubiquiti UACC-GB-Plate-W - Gang Box Mounting Plate","category":"Cameras, security / Mounting boxes and brackets / Wallmount","description":"Ubiquiti UACC-GB-Plate-W is a mounting plate designed to interface UniFi Protect cameras with multiple types of Gang Boxes and Junction Boxes 1-gang 2-gang 4\" octagon 3.5\" round 4\" square 4\" round European outlet UVC-AI-Dome, UVC-AI-Turret, UVC-AI-PRO, UVC-AI-DSLR, UVC-AI-LPR UVC-G5-Dome-Ultra, UVC-G5-Turret-Ultra, UVC-G5-PTZ, UVC-G5-Pro, UVC-G5-Bullet UVC-G4-Pro, UVC-G4-Bullet UVC-G3-Pro, UVC-G3-Bullet","availability":"To order / expected","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":44,"fullCartonUnitPriceUsd":42.46,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-gb-plate-w-83e3b15a38.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Design On the wall Material Polycarbonate, Steel Weight [g] 183 Width [mm] 137 Height [mm] 137 Depth [mm] 11 Anti-corrosion protection Yes"}
+{
+  "id": "ubiquiti-uacc-gb-plate-w",
+  "brand": "Ubiquiti",
+  "sku": "UACC-GB-Plate-W",
+  "title": "Ubiquiti UACC-GB-Plate-W - Gang Box Mounting Plate",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Wallmount",
+  "description": "Ubiquiti UACC-GB-Plate-W is a mounting plate designed to interface UniFi Protect cameras with multiple types of Gang Boxes and Junction Boxes 1-gang 2-gang 4\" octagon 3.5\" round 4\" square 4\" round European outlet UVC-AI-Dome, UVC-AI-Turret, UVC-AI-PRO, UVC-AI-DSLR, UVC-AI-LPR UVC-G5-Dome-Ultra, UVC-G5-Turret-Ultra, UVC-G5-PTZ, UVC-G5-Pro, UVC-G5-Bullet UVC-G4-Pro, UVC-G4-Bullet UVC-G3-Pro, UVC-G3-Bullet",
+  "availability": "Expected 30.6.2026",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 44,
+  "fullCartonUnitPriceUsd": 42.46,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-gb-plate-w-83e3b15a38.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Design On the wall Material Polycarbonate, Steel Weight [g] 183 Width [mm] 137 Height [mm] 137 Depth [mm] 11 Anti-corrosion protection Yes",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-gb-plate-w-gang-box-mounting-plate_d128919.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-wallmount_c16588781.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Wallmount"
+  ]
+}

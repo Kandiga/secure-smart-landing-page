@@ -1,1 +1,27 @@
-{"id":"huawei-h0-xc-upc-sc-upc-100","brand":"Huawei","sku":"H0-XC/UPC-SC/UPC-100","title":"Huawei FTTR transparent self-adhesive optical patch cord, ,XC/UPC,SC/UPC,SM, 10m","category":"Optical networks / MiniFTTO / Fiber optic cables","description":"The indoor pre-connected transparent bow type cable (pre-adhesive cable) with hot melt adhesive is suitable for indoor cabling scenarios. It can be routed in exposed manner or through a pipe. It can be rapidly deployed on applicable surfaces. After routing the optical cable, use adhesive or cable clips fixed. It has an elegant appearance , does not affect residence decoration and can be conveniently routed on various decoration materials The cable with XC/UPC - SC/UPC connectors in a length of 10m is made of G.657A2 fiber","availability":"To order / expected","unitPerCarton":null,"warranty":"To be confirmed","displayPriceUsd":16,"fullCartonUnitPriceUsd":16,"imageUrl":"assets/catalog-data/public-images/huawei-h0-xc-upc-sc-upc-100-7cefb427c5.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Number of fibers 1 Fiber type Single Mode Core diameter [µm] 9/125 Polishing type UPC Connectors and Interfaces Optical Connectors XC - SC"}
+{
+  "id": "huawei-h0-xc-upc-sc-upc-100",
+  "brand": "Huawei",
+  "sku": "H0-XC/UPC-SC/UPC-100",
+  "title": "Huawei FTTR transparent self-adhesive optical patch cord, ,XC/UPC,SC/UPC,SM, 10m",
+  "category": "Huawei / Optical networks / MiniFTTO / Fiber optic cables",
+  "description": "The indoor pre-connected transparent bow type cable (pre-adhesive cable) with hot melt adhesive is suitable for indoor cabling scenarios. It can be routed in exposed manner or through a pipe. It can be rapidly deployed on applicable surfaces. After routing the optical cable, use adhesive or cable clips fixed. It has an elegant appearance , does not affect residence decoration and can be conveniently routed on various decoration materials The cable with XC/UPC - SC/UPC connectors in a length of 10m is made of G.657A2 fiber",
+  "availability": "Not In Stock",
+  "unitPerCarton": null,
+  "warranty": "To be confirmed",
+  "displayPriceUsd": 16,
+  "fullCartonUnitPriceUsd": 16,
+  "imageUrl": "assets/catalog-data/public-images/huawei-h0-xc-upc-sc-upc-100-7cefb427c5.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Number of fibers 1 Fiber type Single Mode Core diameter [µm] 9/125 Polishing type UPC Connectors and Interfaces Optical Connectors XC - SC",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/huawei-fttr-transparent-self-adhesive-optical-patch-cord-xc-upc-sc-upc-sm-10m_d129371.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-optical-networks-miniftto-fiber-optic-cables_c16592309.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Optical networks",
+    "MiniFTTO",
+    "Fiber optic cables"
+  ]
+}

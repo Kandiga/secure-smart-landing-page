@@ -1,1 +1,27 @@
-{"id":"huawei-sfp-stack-cu1m5","brand":"Huawei","sku":"SFP+STACK-CU1M5","title":"Huawei SFP+ dedicated stack cable, 1.5m","category":"Optical networks / DAC and AOC cables / DAC cables","description":"Huawei SFP+STACK-CU0M5 is dedicated stack copper cable with length of 1,5m equipped with SFP+ connectors, which is used for device stacking. Stacking using stack cables removes the need of configurations Bend radius of the cable is 25mm GPSR","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":54,"fullCartonUnitPriceUsd":54,"imageUrl":"assets/catalog-data/public-images/huawei-sfp-stack-cu1m5-4a2467db16.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Format SFP+ AOC/DAC cable type Passive"}
+{
+  "id": "huawei-sfp-stack-cu1m5",
+  "brand": "Huawei",
+  "sku": "SFP+STACK-CU1M5",
+  "title": "Huawei SFP+ dedicated stack cable, 1.5m",
+  "category": "Huawei / Optical networks / DAC and AOC cables / DAC cables",
+  "description": "Huawei SFP+STACK-CU0M5 is dedicated stack copper cable with length of 1,5m equipped with SFP+ connectors, which is used for device stacking. Stacking using stack cables removes the need of configurations Bend radius of the cable is 25mm GPSR",
+  "availability": "In Stock 9 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 54,
+  "fullCartonUnitPriceUsd": 54,
+  "imageUrl": "assets/catalog-data/public-images/huawei-sfp-stack-cu1m5-4a2467db16.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Format SFP+ AOC/DAC cable type Passive",
+  "stockQtyVisible": 9,
+  "discompProductUrl": "https://www.discomp.cz/huawei-sfp-dedicated-stack-cable-1-5m_d125669.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-optical-networks-dac-and-aoc-cables-dac-cables_c16591676.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Optical networks",
+    "DAC and AOC cables",
+    "DAC cables"
+  ]
+}

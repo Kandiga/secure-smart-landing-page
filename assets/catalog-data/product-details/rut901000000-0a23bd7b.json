@@ -1,1 +1,26 @@
-{"id":"teltonika-rut901000000","brand":"Teltonika","sku":"RUT901000000","title":"Teltonika RUT901 Industrial Cellular Router","category":"IoT, SMART / Teltonika / Routers","description":"The RUT901 cellular router delivers the top-rated features of its predecessors, the RUT950 and RUT951, to the market The router features dual SIM 4G cellular connectivity and Wi-Fi, as well as 4x Ethernet interfaces, to meet the needs of the many varied IoT solutions The device guarantees high-performance, providing automatic WAN failover to an available backup connection, guaranteeing network continuity and eliminating downtime The RUT901 is dedicated to professional industrial use cases with its high customization possibilities, security features, industrial protocols, and compatibility with Teltonika Networksâ Remote Management System (RMS) Device 9 W PSU 2 x LTE antennas (swivel, SMA male) 2 x Wi-Fi antennas (swivel, RP-SMA male) Ethernet cable (1.5 m) SIM Adapter kit QSG (Quick Start Guide)","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":165,"fullCartonUnitPriceUsd":165,"imageUrl":"assets/catalog-data/public-images/teltonika-rut901000000-e65faeba54.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Wireless frequency 2.4 GHz WiFi standards 802.11n, 802.11b/g Transmission speed - 2.4GHz [Mb/s] 300 Connectors and Interfaces WAN Ports 1 WAN speed (1) 10/100Mbps RF connectors (2) SMA female, (2) RP-SMA female LAN speed (3) 10/100Mbps SIM slot Yes SIM slots quantity 2 Power Power type DC connector Max. power consumption [W] 7 Power via connector/terminal 9 .. 30V DC Physical characteristics Protection class IP30 Buttons Reset Operating temperature [°C] 40 up to 75 Weight [g] 297 Width [mm] 110 Height [mm] 50 Depth [mm] 100 Hardware CPU Mediatek, 580 Mhz, MIPS 24KEc CPU frequency [MHz] 580 Internal storage [MB] 16 RAM [MB] 128"}
+{
+  "id": "teltonika-rut901000000",
+  "brand": "Teltonika",
+  "sku": "RUT901000000",
+  "title": "Teltonika RUT901 Industrial Cellular Router",
+  "category": "Teltonika / IoT, SMART / Routers",
+  "description": "The RUT901 cellular router delivers the top-rated features of its predecessors, the RUT950 and RUT951, to the market The router features dual SIM 4G cellular connectivity and Wi-Fi, as well as 4x Ethernet interfaces, to meet the needs of the many varied IoT solutions The device guarantees high-performance, providing automatic WAN failover to an available backup connection, guaranteeing network continuity and eliminating downtime The RUT901 is dedicated to professional industrial use cases with its high customization possibilities, security features, industrial protocols, and compatibility with Teltonika Networksâ Remote Management System (RMS) Device 9 W PSU 2 x LTE antennas (swivel, SMA male) 2 x Wi-Fi antennas (swivel, RP-SMA male) Ethernet cable (1.5 m) SIM Adapter kit QSG (Quick Start Guide)",
+  "availability": "In Stock 35 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 165,
+  "fullCartonUnitPriceUsd": 165,
+  "imageUrl": "assets/catalog-data/public-images/teltonika-rut901000000-e65faeba54.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Wireless frequency 2.4 GHz WiFi standards 802.11n, 802.11b/g Transmission speed - 2.4GHz [Mb/s] 300 Connectors and Interfaces WAN Ports 1 WAN speed (1) 10/100Mbps RF connectors (2) SMA female, (2) RP-SMA female LAN speed (3) 10/100Mbps SIM slot Yes SIM slots quantity 2 Power Power type DC connector Max. power consumption [W] 7 Power via connector/terminal 9 .. 30V DC Physical characteristics Protection class IP30 Buttons Reset Operating temperature [°C] 40 up to 75 Weight [g] 297 Width [mm] 110 Height [mm] 50 Depth [mm] 100 Hardware CPU Mediatek, 580 Mhz, MIPS 24KEc CPU frequency [MHz] 580 Internal storage [MB] 16 RAM [MB] 128",
+  "stockQtyVisible": 35,
+  "discompProductUrl": "https://www.discomp.cz/teltonika-rut901-industrial-cellular-router_d120299.html",
+  "discompCategoryUrl": "https://www.discomp.cz/iot-smart-teltonika-routers_c15616396.html",
+  "discompSourcePath": [
+    "Teltonika",
+    "IoT, SMART",
+    "Routers"
+  ]
+}

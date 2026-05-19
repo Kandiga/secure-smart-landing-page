@@ -1,1 +1,27 @@
-{"id":"ubiquiti-wave-pico","brand":"Ubiquiti","sku":"Wave-Pico","title":"Ubiquiti Wave Pico, UISP Wave Pico","category":"Wireless / PtP Backhaul / 60GHz","description":"The Ubiquiti Wave-Pico is a 60 GHz point-to-multipoint (PtMP) client device with built-in 5GHz Wifi 6 (802.11ax) backup radio. Max link range when used with Wave-AP is 1.3 km or 0.9 km when used with Wave-AP-micro. The throughput of the device is 2 Gbps(1 Gbps duplex) and 5 GHz backup can reach up to 800 Mbps . Unit is euiped with 1 Gbps LAN port with PoE 48V DC support. To simplify setup, the device is equipped with integrated Bluetooth to connect to the UISP mobile app or there is an option… Range up to 1.3 km when using Wave AP Power supply via PoE Throughput in the 60 GHz band 2000 Mbps, in the 5 GHz band up to 800 Mbps Integrated Bluetooth for setup via the UISP mobile app * Distance depends on total radiated power, which may vary from country to country Before putting the link into operation, it must first be registered on the 60ghz.ctu.cz portal in accordance with VO-R/12 Device Device holder for 20 to 53 mm diameter loops Gigabit adapter 48V DC 0.5A QuickStart","availability":"To order / expected","unitPerCarton":8,"warranty":"24 months","displayPriceUsd":216,"fullCartonUnitPriceUsd":208.44,"imageUrl":"assets/catalog-data/public-images/ubiquiti-wave-pico-d8b9a1feff.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Transmission speed - 5GHz [Mb/s] 800 Transmission speed - 60GHz [Mb/s] 2000 Security WPA2 AES Elevation beam width (-6dB) [°] 6 Azimuth beam width (-6dB) [°] 6 Antenna gain [dBi] 9, 25,7 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Other features Bluetooth Power Power over Ethernet Yes, 48V DC Power type PoE Max. power consumption [W] 10 Physical characteristics Designed for mast diameter [mm] 20 up to 53 Protection class IPX6 Operating temperature [°C] 40 up to 60 Weight [g] 410 Width [mm] 152 Height [mm] 56 Depth [mm] 152 Hardware RAM [MB] 512"}
+{
+  "id": "ubiquiti-wave-pico",
+  "brand": "Ubiquiti",
+  "sku": "Wave-Pico",
+  "title": "Ubiquiti Wave Pico, UISP Wave Pico",
+  "category": "Ubiquiti / Wireless / PtP Backhaul / 60GHz",
+  "description": "The Ubiquiti Wave-Pico is a 60 GHz point-to-multipoint (PtMP) client device with built-in 5GHz Wifi 6 (802.11ax) backup radio. Max link range when used with Wave-AP is 1.3 km or 0.9 km when used with Wave-AP-micro. The throughput of the device is 2 Gbps(1 Gbps duplex) and 5 GHz backup can reach up to 800 Mbps . Unit is euiped with 1 Gbps LAN port with PoE 48V DC support. To simplify setup, the device is equipped with integrated Bluetooth to connect to the UISP mobile app or there is an option… Range up to 1.3 km when using Wave AP Power supply via PoE Throughput in the 60 GHz band 2000 Mbps, in the 5 GHz band up to 800 Mbps Integrated Bluetooth for setup via the UISP mobile app * Distance depends on total radiated power, which may vary from country to country Before putting the link into operation, it must first be registered on the 60ghz.ctu.cz portal in accordance with VO-R/12 Device Device holder for 20 to 53 mm diameter loops Gigabit adapter 48V DC 0.5A QuickStart",
+  "availability": "Expected 20.7.2026",
+  "unitPerCarton": 8,
+  "warranty": "24 months",
+  "displayPriceUsd": 216,
+  "fullCartonUnitPriceUsd": 208.44,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-wave-pico-d8b9a1feff.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Transmission speed - 5GHz [Mb/s] 800 Transmission speed - 60GHz [Mb/s] 2000 Security WPA2 AES Elevation beam width (-6dB) [°] 6 Azimuth beam width (-6dB) [°] 6 Antenna gain [dBi] 9, 25,7 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Other features Bluetooth Power Power over Ethernet Yes, 48V DC Power type PoE Max. power consumption [W] 10 Physical characteristics Designed for mast diameter [mm] 20 up to 53 Protection class IPX6 Operating temperature [°C] 40 up to 60 Weight [g] 410 Width [mm] 152 Height [mm] 56 Depth [mm] 152 Hardware RAM [MB] 512",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-wave-pico-uisp-wave-pico_d124998.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-ptp-backhaul-60ghz_c16591519.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "PtP Backhaul",
+    "60GHz"
+  ]
+}

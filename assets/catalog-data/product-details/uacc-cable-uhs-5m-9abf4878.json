@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-cable-uhs-5m","brand":"Ubiquiti","sku":"UACC-Cable-UHS-5M","title":"Ubiquiti UACC-Cable-UHS-5M, HDMI 2.1b cable, 5m","category":"Cameras, security / LCD monitor / HDMI, Displayport cables","description":"Ubiquiti UACC-Cable-UHS-5M is an ultra-thin unidirectional high-speed optical HDMI 2.1b cable , 5m in length, designed for professional A/V and camera streaming GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"In stock","unitPerCarton":48,"warranty":"24 months","displayPriceUsd":55,"fullCartonUnitPriceUsd":53.08,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-cable-uhs-5m-ed4c4c52f5.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-cable-uhs-5m",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Cable-UHS-5M",
+  "title": "Ubiquiti UACC-Cable-UHS-5M, HDMI 2.1b cable, 5m",
+  "category": "Ubiquiti / Cameras, security / LCD monitor / HDMI, Displayport cables",
+  "description": "Ubiquiti UACC-Cable-UHS-5M is an ultra-thin unidirectional high-speed optical HDMI 2.1b cable , 5m in length, designed for professional A/V and camera streaming GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "In Stock 44 pcs.",
+  "unitPerCarton": 48,
+  "warranty": "24 months",
+  "displayPriceUsd": 55,
+  "fullCartonUnitPriceUsd": 53.08,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-cable-uhs-5m-ed4c4c52f5.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 44,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-cable-uhs-5m-hdmi-2-1b-cable-5m_d131624.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-lcd-monitor-hdmi-displayport-cables_c16592622.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "LCD monitor",
+    "HDMI, Displayport cables"
+  ]
+}

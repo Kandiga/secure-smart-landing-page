@@ -1,1 +1,25 @@
-{"id":"mikrotik-qmp-lhg","brand":"MikroTik","sku":"QMP-LHG","title":"MikroTik quickMOUNT PRO - Adjustable holder for LHG units","category":"Wireless / MikroTik / Holders","description":"The quickMOUNT pro LHG is a advanced wall or pole mount adapter for our new LHG antennas. The quickMOUNT pro gives possibility to turn antenna within 140° both in horizontal and vertical plane. With the quickMOUNT pro it is possible to perfectly set antenna alignment using integrated graduated scale","availability":"In stock","unitPerCarton":30,"warranty":"24 months","displayPriceUsd":6,"fullCartonUnitPriceUsd":5.79,"imageUrl":"assets/catalog-data/public-images/mikrotik-qmp-lhg-5ccca340ff.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "mikrotik-qmp-lhg",
+  "brand": "MikroTik",
+  "sku": "QMP-LHG",
+  "title": "MikroTik quickMOUNT PRO - Adjustable holder for LHG units",
+  "category": "MikroTik / Wireless / Holders",
+  "description": "The quickMOUNT pro LHG is a advanced wall or pole mount adapter for our new LHG antennas. The quickMOUNT pro gives possibility to turn antenna within 140° both in horizontal and vertical plane. With the quickMOUNT pro it is possible to perfectly set antenna alignment using integrated graduated scale",
+  "availability": "In Stock 29 pcs.",
+  "unitPerCarton": 30,
+  "warranty": "24 months",
+  "displayPriceUsd": 6,
+  "fullCartonUnitPriceUsd": 5.79,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-qmp-lhg-5ccca340ff.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 29,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-quickmount-pro-adjustable-holder-for-lhg-units_d75575.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-holders_c16588561.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Holders"
+  ]
+}

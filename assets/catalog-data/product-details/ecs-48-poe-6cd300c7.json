@@ -1,1 +1,27 @@
-{"id":"ubiquiti-ecs-48-poe","brand":"Ubiquiti","sku":"ECS-48-PoE","title":"Ubiquiti ECS-48-PoE - UniFi Enterprise Campus 48 PoE switch","category":"LAN networks / Switches / UniFi Switches","description":"Notice: For this product, we provide individual project-based pricing depending on the configuration, scope, and conditions of the project. For more information, please contact your sales representative Ubiquiti UniFi Enterprise Campus 48 PoE is a device from the Enterprise series designed for enterprise environments This 48-port L2/L3 PoE switch offers 16x 2.5G Ethernet, 32x 10G Ethernet (all ports support PoE+++ 90W), and 4x SFP28. All ports are equipped with Etherlighting technology, which facilitates visual cable management. The switch features dual redundant hot-swap power supplies with 1200W each, providing a PoE budget of 950W (or 2150W in shared mode, which will be available in future firmware versions). Efficient cooling is ensured by four hot-swap fans UniFi devices are centrally managed using the UniFi Network Server application. The application is available for download on Windows / Linux / macOS, or a standalone hardware controller can be purchased. The application is also included in selected UniFi routers Device (2) Rack-mount rails (2) 1200W hot-swap power supplies (4) Hot-swap fans (2) Power cables (2) Rack-mount brackets Mounting kit","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":4514,"fullCartonUnitPriceUsd":4514,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ecs-48-poe-2d86b1ed73.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces LAN speed (16) 2.5G/1G/100M/10M + (32) 10G/5G/2.5G/1G/100M/10M Optical interfaces (4) 1/10/25Gbps Other features LCD display Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, 802.3bt Redundant power supply Yes PoE Out ports 48 PoE budget [W] 950 Max. power consumption [W] 250 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 496 General Switchning capacity [Gbps] 920 MAC address table 128000 Packet forwarding rate [Mpps] 684"}
+{
+  "id": "ubiquiti-ecs-48-poe",
+  "brand": "Ubiquiti",
+  "sku": "ECS-48-PoE",
+  "title": "Ubiquiti ECS-48-PoE - UniFi Enterprise Campus 48 PoE switch",
+  "category": "Ubiquiti / LAN networks / Switches / PoE Switches",
+  "description": "Notice: For this product, we provide individual project-based pricing depending on the configuration, scope, and conditions of the project. For more information, please contact your sales representative Ubiquiti UniFi Enterprise Campus 48 PoE is a device from the Enterprise series designed for enterprise environments This 48-port L2/L3 PoE switch offers 16x 2.5G Ethernet, 32x 10G Ethernet (all ports support PoE+++ 90W), and 4x SFP28. All ports are equipped with Etherlighting technology, which facilitates visual cable management. The switch features dual redundant hot-swap power supplies with 1200W each, providing a PoE budget of 950W (or 2150W in shared mode, which will be available in future firmware versions). Efficient cooling is ensured by four hot-swap fans UniFi devices are centrally managed using the UniFi Network Server application. The application is available for download on Windows / Linux / macOS, or a standalone hardware controller can be purchased. The application is also included in selected UniFi routers Device (2) Rack-mount rails (2) 1200W hot-swap power supplies (4) Hot-swap fans (2) Power cables (2) Rack-mount brackets Mounting kit",
+  "availability": "In Stock 1 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 4514,
+  "fullCartonUnitPriceUsd": 4514,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ecs-48-poe-2d86b1ed73.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces LAN speed (16) 2.5G/1G/100M/10M + (32) 10G/5G/2.5G/1G/100M/10M Optical interfaces (4) 1/10/25Gbps Other features LCD display Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, 802.3bt Redundant power supply Yes PoE Out ports 48 PoE budget [W] 950 Max. power consumption [W] 250 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 496 General Switchning capacity [Gbps] 920 MAC address table 128000 Packet forwarding rate [Mpps] 684",
+  "stockQtyVisible": 1,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-ecs-48-poe-unifi-enterprise-campus-48-poe-switch_d130156.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-poe-switches_c16179437.html?page=2",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "PoE Switches"
+  ]
+}

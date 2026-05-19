@@ -1,1 +1,27 @@
-{"id":"mikrotik-mtao-lte-5d-sq","brand":"MikroTik","sku":"MTAO-LTE-5D-SQ","title":"MikroTik MTAO-LTE-5D-SQ, mANT LTE 5o 5dBi LTE antenna with two SMA connectors","category":"Wireless / MikroTik / Antennas","description":"The mANT LTE is an omnidirectional antenna specifically designed for LTE frequencies . It is an excellent companion to our LTE devices, such as the wAP LTE and LtAP series. The antenna has a 5 dBi gain , improving your connection in the areas with inadequate LTE service coverage, allowing you to increase your connection speed The device housing is a flat design for easy mounting, but the antenna itself is omnidirectional and does not have to be accurately pointed, allowing simple installation The device is compatible with the frequency range 699MHz - 2.7 GHz","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":18,"fullCartonUnitPriceUsd":17.37,"imageUrl":"assets/catalog-data/public-images/mikrotik-mtao-lte-5d-sq-b1ccc6318a.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features MIMO, SISO 2 x 2 Wireless frequency LTE Antenna type Directional Antenna gain [dBi] 5 Connectors and Interfaces RF connectors (2) SMA female"}
+{
+  "id": "mikrotik-mtao-lte-5d-sq",
+  "brand": "MikroTik",
+  "sku": "MTAO-LTE-5D-SQ",
+  "title": "MikroTik MTAO-LTE-5D-SQ, mANT LTE 5o 5dBi LTE antenna with two SMA connectors",
+  "category": "MikroTik / Wireless / 3G/LTE/5G / Antennas",
+  "description": "The mANT LTE is an omnidirectional antenna specifically designed for LTE frequencies . It is an excellent companion to our LTE devices, such as the wAP LTE and LtAP series. The antenna has a 5 dBi gain , improving your connection in the areas with inadequate LTE service coverage, allowing you to increase your connection speed The device housing is a flat design for easy mounting, but the antenna itself is omnidirectional and does not have to be accurately pointed, allowing simple installation The device is compatible with the frequency range 699MHz - 2.7 GHz",
+  "availability": "In Stock 10 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 18,
+  "fullCartonUnitPriceUsd": 17.37,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-mtao-lte-5d-sq-b1ccc6318a.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 Wireless frequency LTE Antenna type Directional Antenna gain [dBi] 5 Connectors and Interfaces RF connectors (2) SMA female",
+  "stockQtyVisible": 10,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-mtao-lte-5d-sq-mant-lte-5o-5dbi-lte-antenna-with-two-sma-connectors_d85095.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-3g-lte-5g-antennas_c16591564.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "3G/LTE/5G",
+    "Antennas"
+  ]
+}

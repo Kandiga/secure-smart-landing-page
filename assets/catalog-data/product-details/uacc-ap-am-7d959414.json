@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-ap-am","brand":"Ubiquiti","sku":"UACC-AP-AM","title":"Ubiquiti UACC-AP-AM - Wall mount for Unifi AP","category":"Wireless / Accessories / Mounting brackets","description":"Wall mount for Unifi Access Points. It is made from plastic and weights only 160 grams. Dimensions are 200,5 x 175,1 x 31,2 mm. Compatible devices U7-Pro U7-Pro-Max U6-Pro U6-Enterprise U6-LR UAP-AC-PRO UAP-AC-HD UAP-AC-SHD U7-Pro U7-Pro-Max U6-Pro U6-Enterprise U6-LR UAP-AC-PRO UAP-AC-HD UAP-AC-SHD","availability":"To order / expected","unitPerCarton":12,"warranty":"24 months","displayPriceUsd":34,"fullCartonUnitPriceUsd":32.81,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-ap-am-fd5d78e146.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-ap-am",
+  "brand": "Ubiquiti",
+  "sku": "UACC-AP-AM",
+  "title": "Ubiquiti UACC-AP-AM - Wall mount for Unifi AP",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "Wall mount for Unifi Access Points. It is made from plastic and weights only 160 grams. Dimensions are 200,5 x 175,1 x 31,2 mm. Compatible devices U7-Pro U7-Pro-Max U6-Pro U6-Enterprise U6-LR UAP-AC-PRO UAP-AC-HD UAP-AC-SHD U7-Pro U7-Pro-Max U6-Pro U6-Enterprise U6-LR UAP-AC-PRO UAP-AC-HD UAP-AC-SHD",
+  "availability": "Expected 21.5.2026",
+  "unitPerCarton": 12,
+  "warranty": "24 months",
+  "displayPriceUsd": 34,
+  "fullCartonUnitPriceUsd": 32.81,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-ap-am-fd5d78e146.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-ap-am-wall-mount-for-unifi-ap_d126860.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

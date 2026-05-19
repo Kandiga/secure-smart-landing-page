@@ -1,1 +1,25 @@
-{"id":"ubiquiti-udb-iot","brand":"Ubiquiti","sku":"UDB-IoT","title":"Ubiquiti UDB-IoT, Wireless Wi-Fi bridge","category":"Wireless","description":"The Ubiquiti Device Bridge IoT is a compact wireless Wi-Fi 4 bridge for IoT devices featuring (1) 10/100Mbps port , an internal antenna and (1) RP-SMA connector for an external antenna . It connects any ethernet device to a 2.4GHz UniFi Wi-Fi network using the Auto-Link function. The deviceâs maximum power consumption is 2.3W (1) 10/100Mbps port and (1) RP-SMA female connector for an external antenna Wireless throughput up to 300Mbps at 2.4GHz (2x2) Internal antenna LED signal strength indicator UniFi Wi-Fi Auto-Link for automatic connection to UniFi APs Power supply via USB-C , or 4-pin automotive DC connector (9-30V) Device External omnidirectional antenna Wall mounting kit DIN rail mounting kit","availability":"To order / expected","unitPerCarton":45,"warranty":"24 months","displayPriceUsd":58,"fullCartonUnitPriceUsd":55.97,"imageUrl":"assets/catalog-data/public-images/ubiquiti-udb-iot-2e1758403a.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Wireless frequency 2.4 GHz WiFi standards 802.11n, 802.11a, 802.11b/g Transmission speed - 2.4GHz [Mb/s] 300 Tx power 2.4GHz [dBm] 20 Security WPA2 AES 2.4GHz MIMO 2 x 2 Internal antennas 1 Detachable antennas 1 Antenna gain [dBi] 3 Connectors and Interfaces RF connectors (1) RP-SMA female LAN speed (1) 10/100Mbps Power Power type 4-pin automotive, USB-C Max. power consumption [W] 2,3 Power via connector/terminal 5V / 1A, 9 .. 30V DC"}
+{
+  "id": "ubiquiti-udb-iot",
+  "brand": "Ubiquiti",
+  "sku": "UDB-IoT",
+  "title": "Ubiquiti UDB-IoT, Wireless Wi-Fi bridge",
+  "category": "Ubiquiti / IoT, SMART",
+  "description": "The Ubiquiti Device Bridge IoT is a compact wireless Wi-Fi 4 bridge for IoT devices featuring (1) 10/100Mbps port , an internal antenna and (1) RP-SMA connector for an external antenna . It connects any ethernet device to a 2.4GHz UniFi Wi-Fi network using the Auto-Link function. The deviceâs maximum power consumption is 2.3W (1) 10/100Mbps port and (1) RP-SMA female connector for an external antenna Wireless throughput up to 300Mbps at 2.4GHz (2x2) Internal antenna LED signal strength indicator UniFi Wi-Fi Auto-Link for automatic connection to UniFi APs Power supply via USB-C , or 4-pin automotive DC connector (9-30V) Device External omnidirectional antenna Wall mounting kit DIN rail mounting kit",
+  "availability": "Expected 20.7.2026",
+  "unitPerCarton": 45,
+  "warranty": "24 months",
+  "displayPriceUsd": 58,
+  "fullCartonUnitPriceUsd": 55.97,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-udb-iot-2e1758403a.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Wireless frequency 2.4 GHz WiFi standards 802.11n, 802.11a, 802.11b/g Transmission speed - 2.4GHz [Mb/s] 300 Tx power 2.4GHz [dBm] 20 Security WPA2 AES 2.4GHz MIMO 2 x 2 Internal antennas 1 Detachable antennas 1 Antenna gain [dBi] 3 Connectors and Interfaces RF connectors (1) RP-SMA female LAN speed (1) 10/100Mbps Power Power type 4-pin automotive, USB-C Max. power consumption [W] 2,3 Power via connector/terminal 5V / 1A, 9 .. 30V DC",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-udb-iot-wireless-wi-fi-bridge_d130998.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-iot-smart_c16591494.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "IoT, SMART"
+  ]
+}

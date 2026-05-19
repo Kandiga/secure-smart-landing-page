@@ -1,1 +1,26 @@
-{"id":"ubiquiti-utp-touchmax","brand":"Ubiquiti","sku":"UTP-TouchMax","title":"Ubiquiti Phone Touch Max, UTP-TouchMax","category":"VoIP / VoIP Phones","description":"Ubiquiti Phone Touch Max is the new generation of VOIP desktop phones. The phone is operated using a 7\" display with a resolution of 1280 x 800 HD , which supports Multi-touch technology. There are 2 gigabit LAN ports available for connection. On the side of the phone, there is a button for quickly muting the microphone. The phone can be powered via PoE+ or USB-C with a maximum power consumption of 5 W 7\" touch display 5MP video camera Mute button Powered via USB-C and PoE+","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":351,"fullCartonUnitPriceUsd":351,"imageUrl":"assets/catalog-data/public-images/ubiquiti-utp-touchmax-779e46cb5c.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features WiFi standards 802.11n, 802.11a, 802.11ac, 802.11b/g Image Screen size [\"] 7 Camera resolution 5MP Display resolution 1280 x 800 Connectors and Interfaces Touchscreen Yes LAN speed (2) 10/100/1000Mbps Gigabit LAN Yes Other features 3,5 jack connector, Bluetooth"}
+{
+  "id": "ubiquiti-utp-touchmax",
+  "brand": "Ubiquiti",
+  "sku": "UTP-TouchMax",
+  "title": "Ubiquiti Phone Touch Max, UTP-TouchMax",
+  "category": "Ubiquiti / VoIP / VoIP Phones",
+  "description": "Ubiquiti Phone Touch Max is the new generation of VOIP desktop phones. The phone is operated using a 7\" display with a resolution of 1280 x 800 HD , which supports Multi-touch technology. There are 2 gigabit LAN ports available for connection. On the side of the phone, there is a button for quickly muting the microphone. The phone can be powered via PoE+ or USB-C with a maximum power consumption of 5 W 7\" touch display 5MP video camera Mute button Powered via USB-C and PoE+",
+  "availability": "In Stock 8 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 351,
+  "fullCartonUnitPriceUsd": 351,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-utp-touchmax-779e46cb5c.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features WiFi standards 802.11n, 802.11a, 802.11ac, 802.11b/g Image Screen size [\"] 7 Camera resolution 5MP Display resolution 1280 x 800 Connectors and Interfaces Touchscreen Yes LAN speed (2) 10/100/1000Mbps Gigabit LAN Yes Other features 3,5 jack connector, Bluetooth",
+  "stockQtyVisible": 8,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-phone-touch-max-utp-touchmax_d127323.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-voip-voip-phones_c16592069.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "VoIP",
+    "VoIP Phones"
+  ]
+}

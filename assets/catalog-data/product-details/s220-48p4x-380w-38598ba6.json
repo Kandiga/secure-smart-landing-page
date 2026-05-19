@@ -1,1 +1,27 @@
-{"id":"huawei-s220-48p4x-380w","brand":"Huawei","sku":"S220-48P4X(380W)","title":"Huawei S220-48P4S Gigabit PoE switch, 4x SFP+","category":"LAN networks / Switches / eKit Switches","description":"Huawei S220-48P4X is a managed L2 switch that is equipped with 48 Gbit ethernet ports with 802.3af/at support and 4 SFP+ slots . It supports all common L2 functions and offers a wide range of management options, including management with the Huawei eKit App , which enables cloud management. Thanks to the Huawei Online Upgrade Platform (HOUP) service, the switch offers the option of automatic one-click updates Flexible Ethernet Networking: In addition to supporting traditional Spanning Tree Protocol (STP), Rapid Spanning Tree Protocol (RSTP), and Multiple Spanning Tree Protocol (MSTP), eKitEngine S220 series switches support the latest Ethernet Ring Protection Switching (ERPS) standard as defined in ITU-T G.8032. This standard provides millisecond-level protection switching based on traditional Ethernet MAC and bridging functions Diversified Security Control: eKitEngine S220 series switches support multiple security authentication modes, including MAC address authentication and 802.1X authentication . They dynamically deliver user policies such as VLAN, QoS, and ACL. The switches support port-based authentication and multi-mode authentication. They also provide protection against DoS attacks and user-targeted attacks, such as bogus DHCP servers, IP/MAC spoofing attacks, and DHCP request flood attacks. They can generate… Easy Operations and Maintenance: eKitEngine S220 series switches can be managed using SNMPv1, SNMPv2c, SNMPv3, CLI, web system , and SSHv2.0 , enabling convenient configuration and monitoring PoE Power Supply: PoE models in the eKitEngine S220 series offer…","availability":"In stock","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":619,"fullCartonUnitPriceUsd":619,"imageUrl":"assets/catalog-data/public-images/huawei-s220-48p4x-380w-9c4cf3b41b.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces LAN speed (48) 10/100/1000Mbps Optical interfaces (4) 1G/10Gbps Serial port RJ45 Power Power type Mains power (230V) PoE-Out standards 802.3af, 802.3at PoE Out ports 48 PoE budget [W] 380 Max. power consumption [W] 463 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Chassis design Metal Buttons Reset, mode Operating temperature [°C] 5 up to 50 Width [mm] 442 Height [mm] 44 Depth [mm] 220 General Switchning capacity [Gbps] 176 MAC address table 16000 Packet forwarding rate [Mpps] 131"}
+{
+  "id": "huawei-s220-48p4x-380w",
+  "brand": "Huawei",
+  "sku": "S220-48P4X(380W)",
+  "title": "Huawei S220-48P4S Gigabit PoE switch, 4x SFP+",
+  "category": "Huawei / LAN networks / Switches / eKit Switches",
+  "description": "Huawei S220-48P4X is a managed L2 switch that is equipped with 48 Gbit ethernet ports with 802.3af/at support and 4 SFP+ slots . It supports all common L2 functions and offers a wide range of management options, including management with the Huawei eKit App , which enables cloud management. Thanks to the Huawei Online Upgrade Platform (HOUP) service, the switch offers the option of automatic one-click updates Flexible Ethernet Networking: In addition to supporting traditional Spanning Tree Protocol (STP), Rapid Spanning Tree Protocol (RSTP), and Multiple Spanning Tree Protocol (MSTP), eKitEngine S220 series switches support the latest Ethernet Ring Protection Switching (ERPS) standard as defined in ITU-T G.8032. This standard provides millisecond-level protection switching based on traditional Ethernet MAC and bridging functions Diversified Security Control: eKitEngine S220 series switches support multiple security authentication modes, including MAC address authentication and 802.1X authentication . They dynamically deliver user policies such as VLAN, QoS, and ACL. The switches support port-based authentication and multi-mode authentication. They also provide protection against DoS attacks and user-targeted attacks, such as bogus DHCP servers, IP/MAC spoofing attacks, and DHCP request flood attacks. They can generate… Easy Operations and Maintenance: eKitEngine S220 series switches can be managed using SNMPv1, SNMPv2c, SNMPv3, CLI, web system , and SSHv2.0 , enabling convenient configuration and monitoring PoE Power Supply: PoE models in the eKitEngine S220 series offer…",
+  "availability": "In Stock 3 pcs.",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 619,
+  "fullCartonUnitPriceUsd": 619,
+  "imageUrl": "assets/catalog-data/public-images/huawei-s220-48p4x-380w-9c4cf3b41b.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces LAN speed (48) 10/100/1000Mbps Optical interfaces (4) 1G/10Gbps Serial port RJ45 Power Power type Mains power (230V) PoE-Out standards 802.3af, 802.3at PoE Out ports 48 PoE budget [W] 380 Max. power consumption [W] 463 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Chassis design Metal Buttons Reset, mode Operating temperature [°C] 5 up to 50 Width [mm] 442 Height [mm] 44 Depth [mm] 220 General Switchning capacity [Gbps] 176 MAC address table 16000 Packet forwarding rate [Mpps] 131",
+  "stockQtyVisible": 3,
+  "discompProductUrl": "https://www.discomp.cz/huawei-s220-48p4s-gigabit-poe-switch-4x-sfp-_d125644.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-lan-networks-switches-ekit-switches_c16591802.html?page=2",
+  "discompSourcePath": [
+    "Huawei",
+    "LAN networks",
+    "Switches",
+    "eKit Switches"
+  ]
+}

@@ -1,1 +1,28 @@
-{"id":"ubiquiti-amo-5g10","brand":"Ubiquiti","sku":"AMO-5G10","title":"Ubiquiti dual omni antenna airMAX 2x2 MIMO 5GHz, 10dBi, rocket kit","category":"Wireless / Antennas / Omnidirectional antennas / 5GHz","description":"AMO-5G10 is 2x2 MIMO omnidirectional antenna with 10dBi gain, 360°/12° beam angles and is designed for 5GHz band. It was designed to seamlessly integrate with Rocket M radio series. Plug and Play Integration Every airMAX® Antenna has a built-in Rocketâ¢ mount, so no tools are needed to install the Rocket BaseStation. Package contains Antenna (2) RSMA male - RSMA male pigtail Holder + screws Antenna (2) RSMA male - RSMA male pigtail Holder + screws","availability":"In stock","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":124,"fullCartonUnitPriceUsd":119.66,"imageUrl":"assets/catalog-data/public-images/ubiquiti-amo-5g10-b822db596a.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,6 Cross-Pol Isolation [dB] 25 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 12 Azimuth beam width (-6dB) [°] 360 Antenna type Omnidirectional Antenna gain [dBi] 10 Connectors and Interfaces Rocket kit Yes RF connectors (2) RSMA female"}
+{
+  "id": "ubiquiti-amo-5g10",
+  "brand": "Ubiquiti",
+  "sku": "AMO-5G10",
+  "title": "Ubiquiti dual omni antenna airMAX 2x2 MIMO 5GHz, 10dBi, rocket kit",
+  "category": "Ubiquiti / Wireless / Antennas / Omnidirectional antennas / 5GHz",
+  "description": "AMO-5G10 is 2x2 MIMO omnidirectional antenna with 10dBi gain, 360°/12° beam angles and is designed for 5GHz band. It was designed to seamlessly integrate with Rocket M radio series. Plug and Play Integration Every airMAX® Antenna has a built-in Rocketâ¢ mount, so no tools are needed to install the Rocket BaseStation. Package contains Antenna (2) RSMA male - RSMA male pigtail Holder + screws Antenna (2) RSMA male - RSMA male pigtail Holder + screws",
+  "availability": "In Stock 4 pcs.",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 124,
+  "fullCartonUnitPriceUsd": 119.66,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-amo-5g10-b822db596a.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,6 Cross-Pol Isolation [dB] 25 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 12 Azimuth beam width (-6dB) [°] 360 Antenna type Omnidirectional Antenna gain [dBi] 10 Connectors and Interfaces Rocket kit Yes RF connectors (2) RSMA female",
+  "stockQtyVisible": 4,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-dual-omni-antenna-airmax-2x2-mimo-5ghz-10dbi-rocket-kit_d30986.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-antennas-omnidirectional-antennas-5ghz_c15888343.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Antennas",
+    "Omnidirectional antennas",
+    "5GHz"
+  ]
+}

@@ -1,1 +1,26 @@
-{"id":"huawei-s380-s8t2t","brand":"Huawei","sku":"S380-S8T2T","title":"Huawei S380-S8T2T multi-service router, 2x WAN, 8x LAN","category":"LAN networks / Routers and Firewalls","description":"Huawei S380-S8T2T is a multi-service gatewyay that can serve up to 300 users with its performance. It has (2) 1Gbit WAN port and (8) 1Gbit LAN ports for connecting devices in a local network. Rackmount version, which is powered directly from mains with 230V AC voltage. Thanks to the maximum consumption of 10,55W , there is no need for active cooling, therefore the router is fanless The S380 series routers can also serve as a local controller for eKit AP . Configuration is done exclusively through the routerâs web interface and does not depend on any cloud application Huawei eKitEngine S380 series Multi-Service Gateway include various models, such as those with 4 downlink GE electrical ports, 8 downlink GE electrical ports (PoE/non-PoE ports), or GE uplink ports. The router can also serve as a controller for Huawei eKit wireless APs, eliminating the need to purchase and deploy additional devices. With features like easy installation and deployment, as well as flexible Ethernet networking, the products can be widely used for indoor coverage in SME markets… Device Power cord 230V Rack mounts (6) Å rouby Ground cable (4) Rubber feets","availability":"In stock","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":231,"fullCartonUnitPriceUsd":231,"imageUrl":"assets/catalog-data/public-images/huawei-s380-s8t2t-959f6b9902.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces WAN Ports 3 WAN speed (2) 1G + (1) 1G WAN/LAN Multiple WAN Yes LAN speed (7) 1G + (1) 1G LAN/WAN Gigabit LAN Yes Power Power type Mains power (230V) Max. power consumption [W] 11 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 0 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 160"}
+{
+  "id": "huawei-s380-s8t2t",
+  "brand": "Huawei",
+  "sku": "S380-S8T2T",
+  "title": "Huawei S380-S8T2T multi-service router, 2x WAN, 8x LAN",
+  "category": "Huawei / LAN networks / Routers and Firewalls",
+  "description": "Huawei S380-S8T2T is a multi-service gatewyay that can serve up to 300 users with its performance. It has (2) 1Gbit WAN port and (8) 1Gbit LAN ports for connecting devices in a local network. Rackmount version, which is powered directly from mains with 230V AC voltage. Thanks to the maximum consumption of 10,55W , there is no need for active cooling, therefore the router is fanless The S380 series routers can also serve as a local controller for eKit AP . Configuration is done exclusively through the routerâs web interface and does not depend on any cloud application Huawei eKitEngine S380 series Multi-Service Gateway include various models, such as those with 4 downlink GE electrical ports, 8 downlink GE electrical ports (PoE/non-PoE ports), or GE uplink ports. The router can also serve as a controller for Huawei eKit wireless APs, eliminating the need to purchase and deploy additional devices. With features like easy installation and deployment, as well as flexible Ethernet networking, the products can be widely used for indoor coverage in SME markets… Device Power cord 230V Rack mounts (6) Å rouby Ground cable (4) Rubber feets",
+  "availability": "In Stock 2 pcs.",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 231,
+  "fullCartonUnitPriceUsd": 231,
+  "imageUrl": "assets/catalog-data/public-images/huawei-s380-s8t2t-959f6b9902.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces WAN Ports 3 WAN speed (2) 1G + (1) 1G WAN/LAN Multiple WAN Yes LAN speed (7) 1G + (1) 1G LAN/WAN Gigabit LAN Yes Power Power type Mains power (230V) Max. power consumption [W] 11 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 0 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 160",
+  "stockQtyVisible": 2,
+  "discompProductUrl": "https://www.discomp.cz/huawei-s380-s8t2t-multi-service-router-2x-wan-8x-lan_d125687.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-lan-networks-routers-and-firewalls_c16591672.html",
+  "discompSourcePath": [
+    "Huawei",
+    "LAN networks",
+    "Routers and Firewalls"
+  ]
+}

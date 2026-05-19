@@ -1,1 +1,27 @@
-{"id":"ubiquiti-usw-pro-8-poe","brand":"Ubiquiti","sku":"USW-Pro-8-PoE","title":"Ubiquiti UniFi switch USW-Pro-8-PoE","category":"LAN networks / Switches / UniFi Switches","description":"The Ubiquiti USW-Pro-8-PoE is a new switch that offers up to 6 POE/POE+ ports capable of delivering up to 30 W, as well as 2 POE++ ports that can deliver up to 60 W. The total maximum output power is 120 W. The switch has 2 SFP+ ports with speeds up to 10 Gbps, which is ideal for transferring even larger files. On the front of the switch you will find a touch control panel with AR settings as well. The switch can also be mounted on the wall with the appropriate bracket Support new POE++ Very speed SFP+ ports with 10 Gbps Support L3 Maximum output power 120W for POE Can be mounted on the wall","availability":"To order / expected","unitPerCarton":6,"warranty":"24 months","displayPriceUsd":358,"fullCartonUnitPriceUsd":345.47,"imageUrl":"assets/catalog-data/public-images/ubiquiti-usw-pro-8-poe-678bb19d70.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (8) 10/100/1000Mbps Optical interfaces (2) 1G/10Gbps Other features Touchscreen Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, 802.3bt PoE Out ports 8 PoE budget [W] 120 Max. power consumption [W] 150 Power via connector/terminal 230V AC (directly to the wall outlet) Physical characteristics Design Desktop Fans No Chassis design Plastic Buttons Reset Operating temperature [°C] 5 up to 45 Width [mm] 248 Height [mm] 200 Depth [mm] 44 General Switchning capacity [Gbps] 56"}
+{
+  "id": "ubiquiti-usw-pro-8-poe",
+  "brand": "Ubiquiti",
+  "sku": "USW-Pro-8-PoE",
+  "title": "Ubiquiti UniFi switch USW-Pro-8-PoE",
+  "category": "Ubiquiti / LAN networks / Switches / PoE Switches",
+  "description": "The Ubiquiti USW-Pro-8-PoE is a new switch that offers up to 6 POE/POE+ ports capable of delivering up to 30 W, as well as 2 POE++ ports that can deliver up to 60 W. The total maximum output power is 120 W. The switch has 2 SFP+ ports with speeds up to 10 Gbps, which is ideal for transferring even larger files. On the front of the switch you will find a touch control panel with AR settings as well. The switch can also be mounted on the wall with the appropriate bracket Support new POE++ Very speed SFP+ ports with 10 Gbps Support L3 Maximum output power 120W for POE Can be mounted on the wall",
+  "availability": "Expected 22.5.2026",
+  "unitPerCarton": 6,
+  "warranty": "24 months",
+  "displayPriceUsd": 358,
+  "fullCartonUnitPriceUsd": 345.47,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-usw-pro-8-poe-678bb19d70.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (8) 10/100/1000Mbps Optical interfaces (2) 1G/10Gbps Other features Touchscreen Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, 802.3bt PoE Out ports 8 PoE budget [W] 120 Max. power consumption [W] 150 Power via connector/terminal 230V AC (directly to the wall outlet) Physical characteristics Design Desktop Fans No Chassis design Plastic Buttons Reset Operating temperature [°C] 5 up to 45 Width [mm] 248 Height [mm] 200 Depth [mm] 44 General Switchning capacity [Gbps] 56",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-switch-usw-pro-8-poe_d122778.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-poe-switches_c16179437.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "PoE Switches"
+  ]
+}

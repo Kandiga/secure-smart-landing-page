@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uvc-ai-ptz-precision-w","brand":"Ubiquiti","sku":"UVC-AI-PTZ-Precision-W","title":"Ubiquiti AI PTZ Precision - 8MP PTZ IP Camera, White","category":"Cameras, security / IP cameras / Speed dome (PTZ)","description":"Notice: For this product, we provide individual project-based pricing depending on the configuration, scope, and conditions of the project. For more information, please contact your sales representative Ubiquiti AI PTZ Precision is a device from the Enterprise series designed for enterprise environments The camera features an 8MP sensor (3840 x 2160px) at 30 fps, a varifocal lens (31x optical zoom), and adaptive IR illumination for night vision up to 100 meters. The camera has a durable housing made of aluminum and polycarbonate, with IP66 protection against dust and powerful water jets. It connects to the network via Gigabit LAN with PoE support (42 to 57V DC) and a maximum power consumption of 51W 4K (8MP), 30 FPS video (3840 x 2160px) Advanced AI detection of various objects and events LiDAR for faster autofocus Night mode with IR LEDs and IR cut filter IP66 weather-resistant housing Power via PoE (42 to 57V DC) Compatible with the AI Horn Speaker Managed through UniFi Protect software White color Device Screws, wall plugs Wall / Pole / Desk mount brackets","availability":"In stock","unitPerCarton":1,"warranty":"24 months","displayPriceUsd":2579,"fullCartonUnitPriceUsd":2579,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-ai-ptz-precision-w-9dbe00f52f.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Camera Zoom (optical) 31x Lens type Varifocal - motorized Lens [mm] 6.91 up to 214.64 (adjustable) Illumination IR Illumination range [m] 100 Viewing Angle [°] 2 up to 59 Day/night mode IR cut filter Image sensor [\"] 1/1.8 Pan and Tilt Pan: 360 ° endless; Tilt: 0 ° ~ 120 ° Pan 360 ° endless; Tilt: 0 ° ~ 120 ° Image Resolution 8MP Max. resolution [pixels] 3840 x 2160 (4K UHD) Connectors and Interfaces Slot for Memory Card microSD LAN speed (1) 1000Mbps Power Power over Ethernet 802.3bt, 42 .. 57V DC Power type PoE Max. power consumption [W] 51 Physical characteristics Protection class IP66 Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 50 Weight [g] 5500 Width [mm] 241 Height [mm] 241 Depth [mm] 349 Color White Hardware CPU Quad-Core ARM Cortex-A53"}
+{
+  "id": "ubiquiti-uvc-ai-ptz-precision-w",
+  "brand": "Ubiquiti",
+  "sku": "UVC-AI-PTZ-Precision-W",
+  "title": "Ubiquiti AI PTZ Precision - 8MP PTZ IP Camera, White",
+  "category": "Ubiquiti / Cameras, security / IP cameras / Speed dome (PTZ)",
+  "description": "Notice: For this product, we provide individual project-based pricing depending on the configuration, scope, and conditions of the project. For more information, please contact your sales representative Ubiquiti AI PTZ Precision is a device from the Enterprise series designed for enterprise environments The camera features an 8MP sensor (3840 x 2160px) at 30 fps, a varifocal lens (31x optical zoom), and adaptive IR illumination for night vision up to 100 meters. The camera has a durable housing made of aluminum and polycarbonate, with IP66 protection against dust and powerful water jets. It connects to the network via Gigabit LAN with PoE support (42 to 57V DC) and a maximum power consumption of 51W 4K (8MP), 30 FPS video (3840 x 2160px) Advanced AI detection of various objects and events LiDAR for faster autofocus Night mode with IR LEDs and IR cut filter IP66 weather-resistant housing Power via PoE (42 to 57V DC) Compatible with the AI Horn Speaker Managed through UniFi Protect software White color Device Screws, wall plugs Wall / Pole / Desk mount brackets",
+  "availability": "In Stock > 5 pcs.",
+  "unitPerCarton": 1,
+  "warranty": "24 months",
+  "displayPriceUsd": 2579,
+  "fullCartonUnitPriceUsd": 2579,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-ai-ptz-precision-w-9dbe00f52f.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Camera Zoom (optical) 31x Lens type Varifocal - motorized Lens [mm] 6.91 up to 214.64 (adjustable) Illumination IR Illumination range [m] 100 Viewing Angle [°] 2 up to 59 Day/night mode IR cut filter Image sensor [\"] 1/1.8 Pan and Tilt Pan: 360 ° endless; Tilt: 0 ° ~ 120 ° Pan 360 ° endless; Tilt: 0 ° ~ 120 ° Image Resolution 8MP Max. resolution [pixels] 3840 x 2160 (4K UHD) Connectors and Interfaces Slot for Memory Card microSD LAN speed (1) 1000Mbps Power Power over Ethernet 802.3bt, 42 .. 57V DC Power type PoE Max. power consumption [W] 51 Physical characteristics Protection class IP66 Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 50 Weight [g] 5500 Width [mm] 241 Height [mm] 241 Depth [mm] 349 Color White Hardware CPU Quad-Core ARM Cortex-A53",
+  "stockQtyVisible": 16,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-ai-ptz-precision-8mp-ptz-ip-camera-white_d130391.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-ip-cameras-speed-dome-ptz-_c16591529.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "IP cameras",
+    "Speed dome (PTZ)"
+  ]
+}

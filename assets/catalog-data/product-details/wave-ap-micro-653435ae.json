@@ -1,1 +1,27 @@
-{"id":"ubiquiti-wave-ap-micro","brand":"Ubiquiti","sku":"Wave-AP-Micro","title":"Ubiquiti Wave-AP-Micro, UISP Wave Access Point Micro","category":"Wireless / PtP Backhaul / 60GHz","description":"The Wave Access Point Micro is a 60GHz point-to-multipoint (PtMP) transmitter unit with built-in 5 GHz backup (WiFi 6 - 802.11ax) from Ubiquiti with a range up to 6km against the Wave LR or 4km against the smaller Wave Nano unit and is ideal for ISPs. The very discreet device is also equipped with integrated GPS , Bluetooth for simple initial setup from a mobile via the UISP mobile application , a 2.5 Gigabit LAN port with support for power via PoE - 24 and 48V DC. The device only supports… Compact dimensions - 284 Ã 156 Ã 76 mm 60 GHz spectrum with low interference - 57 to 71 GHz Built-in 60 GHz antenna with 20 dBi gain and 90° / 7° radiation angle Range up to 6 km - depends on the regulation in the country used , up to 15 clients support Throughput 5 Gbps (2.5 Gbps FD) Supports half channel width to achieve longer distance or better availability in bad weather Supported channels: 58320, 59400, 60480, 61560, 62640, 63720, 64800, 65880, 66960, 68040, 69120, 70200 MHz - depends on place of use 2.5 Gigabit LAN port with passive PoE support (24 or 48V DC) Built-in GPS Settings via web management and bluetooth - UISP mobile application Device Fine Tuning Holder PoE power adapter 48 V/0.65 A Power cord","availability":"In stock","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":545,"fullCartonUnitPriceUsd":525.93,"imageUrl":"assets/catalog-data/public-images/ubiquiti-wave-ap-micro-72f53427c0.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Channel bandwidth [MHz] 1080, 2160 Transmission speed - 5GHz [Mb/s] 1201 Transmission speed - 60GHz [Mb/s] 5000 Security WPA2 AES Elevation beam width (-6dB) [°] 7 Azimuth beam width (-6dB) [°] 90 Antenna gain [dBi] 20 Connectors and Interfaces LAN speed (1) 100/1000/2500Mbps GPS modul Yes Other features Bluetooth Power Power over Ethernet 24V DC, 48V DC Power type PoE Max. power consumption [W] 24 Physical characteristics Designed for mast diameter [mm] 35 up to 60 Protection class IPX6 Radom Yes Operating temperature [°C] 40 up to 60 Weight [g] 1300 Width [mm] 156 Height [mm] 284 Depth [mm] 76 Hardware CPU ARM Cortex-A53 CPU frequency [MHz] 1400 RAM [MB] 512 Software Operating system airOS"}
+{
+  "id": "ubiquiti-wave-ap-micro",
+  "brand": "Ubiquiti",
+  "sku": "Wave-AP-Micro",
+  "title": "Ubiquiti Wave-AP-Micro, UISP Wave Access Point Micro",
+  "category": "Ubiquiti / Wireless / PtP Backhaul / 60GHz",
+  "description": "The Wave Access Point Micro is a 60GHz point-to-multipoint (PtMP) transmitter unit with built-in 5 GHz backup (WiFi 6 - 802.11ax) from Ubiquiti with a range up to 6km against the Wave LR or 4km against the smaller Wave Nano unit and is ideal for ISPs. The very discreet device is also equipped with integrated GPS , Bluetooth for simple initial setup from a mobile via the UISP mobile application , a 2.5 Gigabit LAN port with support for power via PoE - 24 and 48V DC. The device only supports… Compact dimensions - 284 Ã 156 Ã 76 mm 60 GHz spectrum with low interference - 57 to 71 GHz Built-in 60 GHz antenna with 20 dBi gain and 90° / 7° radiation angle Range up to 6 km - depends on the regulation in the country used , up to 15 clients support Throughput 5 Gbps (2.5 Gbps FD) Supports half channel width to achieve longer distance or better availability in bad weather Supported channels: 58320, 59400, 60480, 61560, 62640, 63720, 64800, 65880, 66960, 68040, 69120, 70200 MHz - depends on place of use 2.5 Gigabit LAN port with passive PoE support (24 or 48V DC) Built-in GPS Settings via web management and bluetooth - UISP mobile application Device Fine Tuning Holder PoE power adapter 48 V/0.65 A Power cord",
+  "availability": "In Stock 23 pcs.",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 545,
+  "fullCartonUnitPriceUsd": 525.93,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-wave-ap-micro-72f53427c0.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Channel bandwidth [MHz] 1080, 2160 Transmission speed - 5GHz [Mb/s] 1201 Transmission speed - 60GHz [Mb/s] 5000 Security WPA2 AES Elevation beam width (-6dB) [°] 7 Azimuth beam width (-6dB) [°] 90 Antenna gain [dBi] 20 Connectors and Interfaces LAN speed (1) 100/1000/2500Mbps GPS modul Yes Other features Bluetooth Power Power over Ethernet 24V DC, 48V DC Power type PoE Max. power consumption [W] 24 Physical characteristics Designed for mast diameter [mm] 35 up to 60 Protection class IPX6 Radom Yes Operating temperature [°C] 40 up to 60 Weight [g] 1300 Width [mm] 156 Height [mm] 284 Depth [mm] 76 Hardware CPU ARM Cortex-A53 CPU frequency [MHz] 1400 RAM [MB] 512 Software Operating system airOS",
+  "stockQtyVisible": 23,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-wave-ap-micro-uisp-wave-access-point-micro_d121816.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-ptp-backhaul-60ghz_c16591519.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "PtP Backhaul",
+    "60GHz"
+  ]
+}

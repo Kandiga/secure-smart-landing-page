@@ -1,1 +1,26 @@
-{"id":"mikrotik-rbgroovega-52hpacn","brand":"MikroTik","sku":"RBGrooveGA-52HPacn","title":"MikroTik RBGrooveGA-52HPacn","category":"Wireless / Outdoor units / MikroTik","description":"Smallest outdoor series model - a fully featured wireless RouterBOARD powered by RouterOS. Weatherproof, durable and ready to use. Now with 802.11ac support, a Gigabit Ethernet port and a selectable wireless band (2.4GHz or 5GHz, up to 80 MHz wide channel). The new Gigabit port will help you utilise the full benefit of 802.11ac high speed wireless. The Groove A (AP model) comes with Level 4 license and includes a Dual Band 2.4/5GHz Omni directional antenna (6dBi 2.4GHz, 8dBi 5GHz), so you can… Device Power adapter Plastic zip tie Gigabit PoE injector 6dBi omni antenna (8dBi 5GHz)","availability":"In stock","unitPerCarton":40,"warranty":"24 months","displayPriceUsd":94,"fullCartonUnitPriceUsd":90.71,"imageUrl":"assets/catalog-data/public-images/mikrotik-rbgroovega-52hpacn-51b62ed02e.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Tx power [dBm] 26 Wireless frequency 2.4 GHz, 5 GHz WiFi standards 802.11ac, 802.11n, 802.11a, 802.11b/g Transmission speed - 5GHz [Mb/s] 433 Transmission speed - 2.4GHz [Mb/s] 150 2.4GHz MIMO 1 x 1 SISO 5GHz MIMO 1 x 1 SISO Type of antenna Detachable Connectors and Interfaces RF connectors (1) N male LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 11 .. 30V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 5 Physical characteristics Design Outdoor Operating temperature [°C] 40 up to 70 Width [mm] 44 Height [mm] 177 Depth [mm] 44 Hardware CPU QCA9556 CPU frequency [MHz] 720 CPU cores 1 Internal storage [MB] 16 RAM [MB] 64"}
+{
+  "id": "mikrotik-rbgroovega-52hpacn",
+  "brand": "MikroTik",
+  "sku": "RBGrooveGA-52HPacn",
+  "title": "MikroTik RBGrooveGA-52HPacn",
+  "category": "MikroTik / Wireless / Outdoor units",
+  "description": "Smallest outdoor series model - a fully featured wireless RouterBOARD powered by RouterOS. Weatherproof, durable and ready to use. Now with 802.11ac support, a Gigabit Ethernet port and a selectable wireless band (2.4GHz or 5GHz, up to 80 MHz wide channel). The new Gigabit port will help you utilise the full benefit of 802.11ac high speed wireless. The Groove A (AP model) comes with Level 4 license and includes a Dual Band 2.4/5GHz Omni directional antenna (6dBi 2.4GHz, 8dBi 5GHz), so you can… Device Power adapter Plastic zip tie Gigabit PoE injector 6dBi omni antenna (8dBi 5GHz)",
+  "availability": "In Stock 29 pcs.",
+  "unitPerCarton": 40,
+  "warranty": "24 months",
+  "displayPriceUsd": 94,
+  "fullCartonUnitPriceUsd": 90.71,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rbgroovega-52hpacn-51b62ed02e.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Tx power [dBm] 26 Wireless frequency 2.4 GHz, 5 GHz WiFi standards 802.11ac, 802.11n, 802.11a, 802.11b/g Transmission speed - 5GHz [Mb/s] 433 Transmission speed - 2.4GHz [Mb/s] 150 2.4GHz MIMO 1 x 1 SISO 5GHz MIMO 1 x 1 SISO Type of antenna Detachable Connectors and Interfaces RF connectors (1) N male LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 11 .. 30V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 5 Physical characteristics Design Outdoor Operating temperature [°C] 40 up to 70 Width [mm] 44 Height [mm] 177 Depth [mm] 44 Hardware CPU QCA9556 CPU frequency [MHz] 720 CPU cores 1 Internal storage [MB] 16 RAM [MB] 64",
+  "stockQtyVisible": 29,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-rbgroovega-52hpacn_d75577.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-outdoor-units_c15888564.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Outdoor units"
+  ]
+}

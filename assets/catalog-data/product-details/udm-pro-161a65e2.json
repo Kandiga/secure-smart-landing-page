@@ -1,1 +1,26 @@
-{"id":"ubiquiti-udm-pro","brand":"Ubiquiti","sku":"UDM-Pro","title":"Ubiquiti UDM-Pro - UniFi Dream Machine Pro","category":"LAN networks / Routers and Firewalls","description":"UniFi Dream Machine Pro from Ubiquiti is an all-in-one network solution for small or medium-sized businesses. It is a very powerful 1U device to 19\" rack and combines the following features: Manageable 8-port Gigabit switch with one SFP/SFP+ port and VLAN support Multiple WAN capability via Gigabit Ethernet or SFP/SFP+ port UniFi Security Gateway - offers advanced firewall policies and persistent threat management to act as an Intrusion Prevention System (IPS) and Intrusion Detection System (IDS) UniFi Controller - The UniFi Network Controller can provision UniFi devices, map out networks, and quickly manage system traffic UniFi Video - the 3.5\" HDD slot is used for storing camera recordings VPN server UniFi Dream Machine Pro offers significantly higher performance than previous generations of UniFi Security Gateway. The device is equipped with a 4-core ARM Cortex-A57 CPU clocked at 1.7 GHz , 4 GB RAM, and an internal 16GB eMMC storage. With such a device, the iPerf3 throughput test showed a worthy 3.5Gbps Zero Handoff Roaming - uninterrupted transition between APs Wireless uplink (fits where the data cable cannot be reached) Up to 4 SSID Detailed traffic statistics Guest network Load balance of clients Speed limit for each SSID Device Rackmount ears Power cord","availability":"In stock","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":477,"fullCartonUnitPriceUsd":460.31,"imageUrl":"assets/catalog-data/public-images/ubiquiti-udm-pro-234881aa24.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces WAN Ports 2 WAN speed (1) 10/100/1000Mbps Number of HDD slots 1 Multiple WAN Yes LAN speed (8) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (2) 1G/10Gbps Other features Bluetooth Power Power type Mains power (230V), UniFi SmartPower RPS Redundant power supply Yes Max. power consumption [W] 33 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Operating temperature [°C] 10 up to 40 Weight [g] 5 Width [mm] 442 Height [mm] 44 Depth [mm] 286 Hardware CPU ARM Cortex-A57 CPU frequency [MHz] 1700 CPU cores 4 RAM [MB] 4096"}
+{
+  "id": "ubiquiti-udm-pro",
+  "brand": "Ubiquiti",
+  "sku": "UDM-Pro",
+  "title": "Ubiquiti UDM-Pro - UniFi Dream Machine Pro",
+  "category": "Ubiquiti / LAN networks / Controllers",
+  "description": "UniFi Dream Machine Pro from Ubiquiti is an all-in-one network solution for small or medium-sized businesses. It is a very powerful 1U device to 19\" rack and combines the following features: Manageable 8-port Gigabit switch with one SFP/SFP+ port and VLAN support Multiple WAN capability via Gigabit Ethernet or SFP/SFP+ port UniFi Security Gateway - offers advanced firewall policies and persistent threat management to act as an Intrusion Prevention System (IPS) and Intrusion Detection System (IDS) UniFi Controller - The UniFi Network Controller can provision UniFi devices, map out networks, and quickly manage system traffic UniFi Video - the 3.5\" HDD slot is used for storing camera recordings VPN server UniFi Dream Machine Pro offers significantly higher performance than previous generations of UniFi Security Gateway. The device is equipped with a 4-core ARM Cortex-A57 CPU clocked at 1.7 GHz , 4 GB RAM, and an internal 16GB eMMC storage. With such a device, the iPerf3 throughput test showed a worthy 3.5Gbps Zero Handoff Roaming - uninterrupted transition between APs Wireless uplink (fits where the data cable cannot be reached) Up to 4 SSID Detailed traffic statistics Guest network Load balance of clients Speed limit for each SSID Device Rackmount ears Power cord",
+  "availability": "In Stock 71 pcs.",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 477,
+  "fullCartonUnitPriceUsd": 460.31,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-udm-pro-234881aa24.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces WAN Ports 2 WAN speed (1) 10/100/1000Mbps Number of HDD slots 1 Multiple WAN Yes LAN speed (8) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (2) 1G/10Gbps Other features Bluetooth Power Power type Mains power (230V), UniFi SmartPower RPS Redundant power supply Yes Max. power consumption [W] 33 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Operating temperature [°C] 10 up to 40 Weight [g] 5 Width [mm] 442 Height [mm] 44 Depth [mm] 286 Hardware CPU ARM Cortex-A57 CPU frequency [MHz] 1700 CPU cores 4 RAM [MB] 4096",
+  "stockQtyVisible": 71,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-udm-pro-unifi-dream-machine-pro_d93915.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-controllers_c15944645.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Controllers"
+  ]
+}

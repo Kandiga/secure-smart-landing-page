@@ -1,1 +1,26 @@
-{"id":"mikrotik-crs328-24p-4s-rm","brand":"MikroTik","sku":"CRS328-24P-4S+RM","title":"MikroTik Cloud Router Switch CRS328-24P-4S+RM, PoE switch, 500W","category":"Wireless / MikroTik / RouterBOARD","description":"CRS328-24P-4S+RM is a 28 independent port switch , it has 24 Gigabit Ethernet ports, which offer different power output options: Passive PoE, low voltage PoE, 802.3af/at (Type 1 âPoEâ / Type 2 âPoE+â) with auto-sensing. The four SFP+ ports provide up to 10 Gbps connectivity options via either optical fiber or Ethernet modules (not included) CRS328-24P-4S+RM comes in a 1U rackmount case with 100-240 V AC 500 W power supply built-in . The device consumes up to 44 W leaving guaranteed 450 W (3x150 W per every 8 Ethernet ports) to power your PoE devices. Each port can provide up to 30 W of power with any power output option you choose The device has a âDual bootâ feature that allows you to choose between two operating systems - RouterOS or SwOS . If you prefer to have a simplified operating system with only switch specific features, use SwOS. If you would like the ability to use routing and other Layer 3 features in your CRS, use RouterOS. You can select the desired operating system from RouterOS, from SwOS or from the RouterBOOT loader settings. All the feature set comes with disruptive price, providing best… Device Power cord Rackmount ears","availability":"In stock","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":511,"fullCartonUnitPriceUsd":493.12,"imageUrl":"assets/catalog-data/public-images/mikrotik-crs328-24p-4s-rm-9b60a346bc.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Touchscreen No LAN speed (24) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (4) 10Gbps Serial port RJ45 Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, Passive 24V PoE Out ports 24 PoE budget [W] 450 Max. power consumption [W] 44 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset, mode Operating temperature [°C] 20 up to 60 Width [mm] 443 Height [mm] 44 Depth [mm] 305 Hardware CPU 98DX3236A1 CPU frequency [MHz] 800 CPU cores 1 Internal storage [MB] 16 RAM [MB] 512 General Switchning capacity [Gbps] 128 Packet forwarding rate [Mpps] 95,2"}
+{
+  "id": "mikrotik-crs328-24p-4s-rm",
+  "brand": "MikroTik",
+  "sku": "CRS328-24P-4S+RM",
+  "title": "MikroTik Cloud Router Switch CRS328-24P-4S+RM, PoE switch, 500W",
+  "category": "MikroTik / Wireless / RouterBOARD",
+  "description": "CRS328-24P-4S+RM is a 28 independent port switch , it has 24 Gigabit Ethernet ports, which offer different power output options: Passive PoE, low voltage PoE, 802.3af/at (Type 1 âPoEâ / Type 2 âPoE+â) with auto-sensing. The four SFP+ ports provide up to 10 Gbps connectivity options via either optical fiber or Ethernet modules (not included) CRS328-24P-4S+RM comes in a 1U rackmount case with 100-240 V AC 500 W power supply built-in . The device consumes up to 44 W leaving guaranteed 450 W (3x150 W per every 8 Ethernet ports) to power your PoE devices. Each port can provide up to 30 W of power with any power output option you choose The device has a âDual bootâ feature that allows you to choose between two operating systems - RouterOS or SwOS . If you prefer to have a simplified operating system with only switch specific features, use SwOS. If you would like the ability to use routing and other Layer 3 features in your CRS, use RouterOS. You can select the desired operating system from RouterOS, from SwOS or from the RouterBOOT loader settings. All the feature set comes with disruptive price, providing best… Device Power cord Rackmount ears",
+  "availability": "In Stock 31 pcs.",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 511,
+  "fullCartonUnitPriceUsd": 493.12,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-crs328-24p-4s-rm-9b60a346bc.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Touchscreen No LAN speed (24) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (4) 10Gbps Serial port RJ45 Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, Passive 24V PoE Out ports 24 PoE budget [W] 450 Max. power consumption [W] 44 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset, mode Operating temperature [°C] 20 up to 60 Width [mm] 443 Height [mm] 44 Depth [mm] 305 Hardware CPU 98DX3236A1 CPU frequency [MHz] 800 CPU cores 1 Internal storage [MB] 16 RAM [MB] 512 General Switchning capacity [Gbps] 128 Packet forwarding rate [Mpps] 95,2",
+  "stockQtyVisible": 31,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-cloud-router-switch-crs328-24p-4s-rm-poe-switch-500w_d84596.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-routerboard_c16588560.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "RouterBOARD"
+  ]
+}

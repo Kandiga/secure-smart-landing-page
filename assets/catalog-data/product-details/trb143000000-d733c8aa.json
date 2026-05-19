@@ -1,1 +1,26 @@
-{"id":"teltonika-trb143000000","brand":"Teltonika","sku":"TRB143000000","title":"Teltonika TRB143 M-BUS Gateway","category":"Wireless / 3G/LTE/5G / Routers","description":"The TRB143 industrial gateway was designed with an integrated M-Bus interface specifically for telemetry and utility-monitoring applications. It features cellular and wired connectivity, one Gigabit Ethernet port, and a pair of digital Inputs/Outputs, making it applicable to a variety of environment-monitoring scenarios M-BUS INTERFACE: Supporting up to 250 client devices CONNECTIVITY: 4G/LTE (Cat 4), 3G, 2G DURABILITY: Rugged aluminum housing COMPACT: Simple integration Device 18 W PSU Mobile antenna (magnetic mount, SMA male, 3 m cable) Hex key LAN cable QSG (Quick Start Guide)","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":209,"fullCartonUnitPriceUsd":209,"imageUrl":"assets/catalog-data/public-images/teltonika-trb143000000-7d33e129cf.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Wireless frequency LTE, 2G (GSM), 3G (GSM), 4G (GSM) Type of antenna Detachable Detachable antennas 1 Integrated 4G/LTE radio part Yes Connectors and Interfaces RF connectors (1) SMA female LAN speed (1) 10/100/1000Mbps SIM slot Yes SIM slots quantity 1 Power Power over Ethernet 12 .. 30V DC Power type 4-pin automotive PoE type PoE-In (only) Max. power consumption [W] 6 Power via connector/terminal 12 .. 30V DC Physical characteristics Protection class IP30 Design Desktop Purpose Indoor Buttons Reset Operating temperature [°C] 40 up to 75 Weight [g] 145 Width [mm] 75 Height [mm] 25 Depth [mm] 73 Hardware CPU ARM Cortex A7 CPU frequency [MHz] 1300 Internal storage [MB] 512 RAM [MB] 256"}
+{
+  "id": "teltonika-trb143000000",
+  "brand": "Teltonika",
+  "sku": "TRB143000000",
+  "title": "Teltonika TRB143 M-BUS Gateway",
+  "category": "Teltonika / IoT, SMART / Routers",
+  "description": "The TRB143 industrial gateway was designed with an integrated M-Bus interface specifically for telemetry and utility-monitoring applications. It features cellular and wired connectivity, one Gigabit Ethernet port, and a pair of digital Inputs/Outputs, making it applicable to a variety of environment-monitoring scenarios M-BUS INTERFACE: Supporting up to 250 client devices CONNECTIVITY: 4G/LTE (Cat 4), 3G, 2G DURABILITY: Rugged aluminum housing COMPACT: Simple integration Device 18 W PSU Mobile antenna (magnetic mount, SMA male, 3 m cable) Hex key LAN cable QSG (Quick Start Guide)",
+  "availability": "In Stock 5 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 209,
+  "fullCartonUnitPriceUsd": 209,
+  "imageUrl": "assets/catalog-data/public-images/teltonika-trb143000000-7d33e129cf.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Wireless frequency LTE, 2G (GSM), 3G (GSM), 4G (GSM) Type of antenna Detachable Detachable antennas 1 Integrated 4G/LTE radio part Yes Connectors and Interfaces RF connectors (1) SMA female LAN speed (1) 10/100/1000Mbps SIM slot Yes SIM slots quantity 1 Power Power over Ethernet 12 .. 30V DC Power type 4-pin automotive PoE type PoE-In (only) Max. power consumption [W] 6 Power via connector/terminal 12 .. 30V DC Physical characteristics Protection class IP30 Design Desktop Purpose Indoor Buttons Reset Operating temperature [°C] 40 up to 75 Weight [g] 145 Width [mm] 75 Height [mm] 25 Depth [mm] 73 Hardware CPU ARM Cortex A7 CPU frequency [MHz] 1300 Internal storage [MB] 512 RAM [MB] 256",
+  "stockQtyVisible": 5,
+  "discompProductUrl": "https://www.discomp.cz/teltonika-trb143-m-bus-gateway_d120297.html",
+  "discompCategoryUrl": "https://www.discomp.cz/iot-smart-teltonika-routers_c15616396.html",
+  "discompSourcePath": [
+    "Teltonika",
+    "IoT, SMART",
+    "Routers"
+  ]
+}

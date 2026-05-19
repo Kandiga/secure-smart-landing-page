@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-om-mm-10g-d-2","brand":"Ubiquiti","sku":"UACC-OM-MM-10G-D-2","title":"Ubiquiti UACC-OM-MM-10G-D-2 (UF-MM-10G) - U Fiber, Multi-Mode Module, 10G, 2-Pack","category":"Optical networks / SFP optical modules / SFP+","description":"UF-MM-10G is multimode 10G SFP+ module with 2 LC connectors. Wave length is 850nm and it is suitable for distances up to 300m . Module is compatible with all Ubiquiti products which contain SFP+ ports. Package contains 2 pieces","availability":"To order / expected","unitPerCarton":80,"warranty":"24 months","displayPriceUsd":44,"fullCartonUnitPriceUsd":42.46,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-om-mm-10g-d-2-d7cd0aee50.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Optics Format SFP+ For cable type Multi Mode Transmission speed 10 Gbps Wavelength - Tx/Rx [nm] 850 Distance [km] 0,3 Transfer type 2-fiber Connectors and Interfaces Optical Connectors (2) LC General Compatibility Universal"}
+{
+  "id": "ubiquiti-uacc-om-mm-10g-d-2",
+  "brand": "Ubiquiti",
+  "sku": "UACC-OM-MM-10G-D-2",
+  "title": "Ubiquiti UACC-OM-MM-10G-D-2 (UF-MM-10G) - U Fiber, Multi-Mode Module, 10G, 2-Pack",
+  "category": "Ubiquiti / Optical networks / SFP optical modules / SFP+",
+  "description": "UF-MM-10G is multimode 10G SFP+ module with 2 LC connectors. Wave length is 850nm and it is suitable for distances up to 300m . Module is compatible with all Ubiquiti products which contain SFP+ ports. Package contains 2 pieces",
+  "availability": "Expected 5.6.2026",
+  "unitPerCarton": 80,
+  "warranty": "24 months",
+  "displayPriceUsd": 44,
+  "fullCartonUnitPriceUsd": 42.46,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-om-mm-10g-d-2-d7cd0aee50.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Optics Format SFP+ For cable type Multi Mode Transmission speed 10 Gbps Wavelength - Tx/Rx [nm] 850 Distance [km] 0,3 Transfer type 2-fiber Connectors and Interfaces Optical Connectors (2) LC General Compatibility Universal",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-om-mm-10g-d-2-uf-mm-10g-u-fiber-multi-mode-module-10g-2-pack_d77374.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-sfp-optical-modules-sfp-_c16591541.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "SFP optical modules",
+    "SFP+"
+  ]
+}

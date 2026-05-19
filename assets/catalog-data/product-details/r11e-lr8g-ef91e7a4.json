@@ -1,1 +1,26 @@
-{"id":"mikrotik-r11e-lr8g","brand":"MikroTik","sku":"R11e-LR8G","title":"MikroTik R11e-LR8G, LoRa miniPCI-e card, 863-870 MHz","category":"Wireless / MikroTik / MiniPCI cards","description":"The new MiniPCI-e card for LoRaWAN networks from MikroTik delivers a reliable LoRa solution at an even better price. It operates in the 863â870 MHz frequency range and offers improved RX sensitivity of up to -141 dBm , which increases range and enhances reliabilityâeven in challenging conditions. The integrated GPS chip allows LoRa packets to include timestamps, simplifying IoT project management. Support for Listen Before Talk technology improves communication efficiency The LoRa network (Long Range) is ideal for long-distance wireless communication with low power consumption, making it suitable for Internet of Things (IoT) applications. It uses low-frequency bands and allows devices to connect over tens of kilometers, making it perfect for monitoring sensors, smart meters, or outdoor equipment","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":57,"fullCartonUnitPriceUsd":57,"imageUrl":"assets/catalog-data/public-images/mikrotik-r11e-lr8g-4c6b8ee697.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Sensitivity [dBm] 141 Wireless frequency 863 - 870 MHz Connectors and Interfaces Bus type miniPCI-e RF connectors (1) u.Fl Power Max. power consumption [W] 1,3 Physical characteristics Operating temperature [°C] 40 up to 70"}
+{
+  "id": "mikrotik-r11e-lr8g",
+  "brand": "MikroTik",
+  "sku": "R11e-LR8G",
+  "title": "MikroTik R11e-LR8G, LoRa miniPCI-e card, 863-870 MHz",
+  "category": "MikroTik / Wireless / MiniPCI cards",
+  "description": "The new MiniPCI-e card for LoRaWAN networks from MikroTik delivers a reliable LoRa solution at an even better price. It operates in the 863â870 MHz frequency range and offers improved RX sensitivity of up to -141 dBm , which increases range and enhances reliabilityâeven in challenging conditions. The integrated GPS chip allows LoRa packets to include timestamps, simplifying IoT project management. Support for Listen Before Talk technology improves communication efficiency The LoRa network (Long Range) is ideal for long-distance wireless communication with low power consumption, making it suitable for Internet of Things (IoT) applications. It uses low-frequency bands and allows devices to connect over tens of kilometers, making it perfect for monitoring sensors, smart meters, or outdoor equipment",
+  "availability": "In Stock 88 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 57,
+  "fullCartonUnitPriceUsd": 57,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-r11e-lr8g-4c6b8ee697.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Sensitivity [dBm] 141 Wireless frequency 863 - 870 MHz Connectors and Interfaces Bus type miniPCI-e RF connectors (1) u.Fl Power Max. power consumption [W] 1,3 Physical characteristics Operating temperature [°C] 40 up to 70",
+  "stockQtyVisible": 88,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-r11e-lr8g-lora-minipci-e-card-863-870-mhz_d128664.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-minipci-cards_c16588580.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "MiniPCI cards"
+  ]
+}

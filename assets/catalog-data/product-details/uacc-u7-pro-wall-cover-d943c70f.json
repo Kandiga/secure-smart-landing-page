@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-u7-pro-wall-cover","brand":"Ubiquiti","sku":"UACC-U7-Pro-Wall-Cover","title":"Ubiquiti UACC-U7-Pro-Wall-Cover - Paintable cover","category":"Wireless / Accessories / Other accessories","description":"Wall cover for U7-Pro-Wall , which can be painted to customize its appearance","availability":"In stock","unitPerCarton":30,"warranty":"24 months","displayPriceUsd":34,"fullCartonUnitPriceUsd":32.81,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-u7-pro-wall-cover-3e333ece08.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-u7-pro-wall-cover",
+  "brand": "Ubiquiti",
+  "sku": "UACC-U7-Pro-Wall-Cover",
+  "title": "Ubiquiti UACC-U7-Pro-Wall-Cover - Paintable cover",
+  "category": "Ubiquiti / Wireless / Accessories / Other accessories",
+  "description": "Wall cover for U7-Pro-Wall , which can be painted to customize its appearance",
+  "availability": "In Stock 22 pcs.",
+  "unitPerCarton": 30,
+  "warranty": "24 months",
+  "displayPriceUsd": 34,
+  "fullCartonUnitPriceUsd": 32.81,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-u7-pro-wall-cover-3e333ece08.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 22,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-u7-pro-wall-cover-paintable-cover_d127808.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-other-accessories_c15888323.html?page=2",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Other accessories"
+  ]
+}

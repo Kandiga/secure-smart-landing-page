@@ -1,1 +1,27 @@
-{"id":"ubiquiti-lbe-5ac-gen2-5","brand":"Ubiquiti","sku":"LBE-5AC-Gen2-5","title":"Ubiquiti LBE-5AC-Gen2 - LiteBeam 5AC Generation 2, 5-Pack, PoE not included","category":"Wireless / Outdoor units / AirMAX AC","description":"The LiteBeam AC is an ultra-lightweight airMAX ac CPE device with incredible range and disruptive pricing The LiteBeam AC integrates a separate Wi-Fi radio for fast and easy setup using your mobile device Featuring enhanced protection against ESD events, the LiteBeam AC offers a more robust mount with separate azimuth and elevation adjustments airOS 8 provides powerful features, including airMAX ac protocol support, real-time RF analytics, and an all-new design for enhanced usability The LiteBeam AC provides 23 dBi of gain for long-distance connectivity and uses a directional antenna pattern for improved noise immunity Featuring the freedom of three-axis alignment, the LiteBeam AC fully assembles in seconds â no tools needed. Only a single wrench is required for pole-mounting A lightweight form factor contained within ultra-compact packaging, the LiteBeam AC is ideal for shipping and logistics Notice : the package does not contain PoE adapter. We can offer Gigabit or 100Mbps version Devices Antenna Holder Metal strap","availability":"To order / expected","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":355,"fullCartonUnitPriceUsd":342.58,"imageUrl":"assets/catalog-data/public-images/ubiquiti-lbe-5ac-gen2-5-4abf441894.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Sensitivity [dBm] 96 Frequency range [MHz] 5150 - 5875 Wireless frequency 5 GHz WiFi standards airMAX ac Transmission speed - 5GHz [Mb/s] 866 Tx power 5GHz [dBm] 25 Security WPA2 AES 5GHz MIMO 2 x 2 Type of antenna Built-in Internal antennas 2 Antenna gain [dBi] 23 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 24V DC PoE type PoE-In (only) Max. power consumption [W] 7 Physical characteristics Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 70 Weight [g] 980 Width [mm] 358 Height [mm] 272 Depth [mm] 272 Hardware CPU MIPS 74Kc CPU frequency [MHz] 650 RAM [MB] 64"}
+{
+  "id": "ubiquiti-lbe-5ac-gen2-5",
+  "brand": "Ubiquiti",
+  "sku": "LBE-5AC-Gen2-5",
+  "title": "Ubiquiti LBE-5AC-Gen2 - LiteBeam 5AC Generation 2, 5-Pack, PoE not included",
+  "category": "Ubiquiti / Wireless / Outdoor units / AirMAX AC",
+  "description": "The LiteBeam AC is an ultra-lightweight airMAX ac CPE device with incredible range and disruptive pricing The LiteBeam AC integrates a separate Wi-Fi radio for fast and easy setup using your mobile device Featuring enhanced protection against ESD events, the LiteBeam AC offers a more robust mount with separate azimuth and elevation adjustments airOS 8 provides powerful features, including airMAX ac protocol support, real-time RF analytics, and an all-new design for enhanced usability The LiteBeam AC provides 23 dBi of gain for long-distance connectivity and uses a directional antenna pattern for improved noise immunity Featuring the freedom of three-axis alignment, the LiteBeam AC fully assembles in seconds â no tools needed. Only a single wrench is required for pole-mounting A lightweight form factor contained within ultra-compact packaging, the LiteBeam AC is ideal for shipping and logistics Notice : the package does not contain PoE adapter. We can offer Gigabit or 100Mbps version Devices Antenna Holder Metal strap",
+  "availability": "Expected 20.7.2026",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 355,
+  "fullCartonUnitPriceUsd": 342.58,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-lbe-5ac-gen2-5-4abf441894.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Sensitivity [dBm] 96 Frequency range [MHz] 5150 - 5875 Wireless frequency 5 GHz WiFi standards airMAX ac Transmission speed - 5GHz [Mb/s] 866 Tx power 5GHz [dBm] 25 Security WPA2 AES 5GHz MIMO 2 x 2 Type of antenna Built-in Internal antennas 2 Antenna gain [dBi] 23 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 24V DC PoE type PoE-In (only) Max. power consumption [W] 7 Physical characteristics Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 70 Weight [g] 980 Width [mm] 358 Height [mm] 272 Depth [mm] 272 Hardware CPU MIPS 74Kc CPU frequency [MHz] 650 RAM [MB] 64",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-lbe-5ac-gen2-litebeam-5ac-generation-2-5-pack-poe-not-included_d82713.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-outdoor-units-airmax-ac_c16591471.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Outdoor units",
+    "AirMAX AC"
+  ]
+}

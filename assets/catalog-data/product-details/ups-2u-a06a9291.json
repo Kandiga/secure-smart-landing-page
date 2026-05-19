@@ -1,1 +1,27 @@
-{"id":"ubiquiti-ups-2u","brand":"Ubiquiti","sku":"UPS-2U","title":"Ubiquiti UniFi UPS 2U","category":"Powering / Power Supplies UPS / Backup power","description":"The Ubiquiti UniFi UPS 2 U is a backup power supply unit designed for network devices, ensuring their operation during a power outage. The device features a â2 Uâ rackmount and includes 8 power sockets for connecting equipment. Of these, 4 sockets (C13) provide surge protection, while the remaining 4 sockets (C13) offer combined protection âboth surge and power outage protection . Continuous power is ensured by a (2) hot-swap replaceable batteries , which allow battery replacement while… The device is equipped with a Power button and a Factory Reset button, and features LED indicator . LED indicator displays the status of the device itself and indicates the battery status . At full load , the backup power supply can power connected devices for approximately 2,3 minutes. At half load , the runtime extends to about 8 minutes . Charging the battery to 90 % capacity takes approximately 6 to 8 hours . The UPS-2U unit connects to the network interface via a 10/100 Mbps port and… Sockets (4) battery backup/surge protection and (4) battery backup Battery (2) hot-swap Lead Acid 12 V, 9 Ah Buttons (1) power and (1) factory reset Battery Charging Time 6 - 8 hours recovery to 90 % capacity Weatherproofing IP20 Power Method (1) TN system, 220 â 240 V AC, 10 A Max., 50/60 Hz Short Circuit Protection at On-Line Mode Breaker, 250 V AC, 10 A Network interface (1) 10/100 Mbps port and (2) Gbps ports for network communication surge protection UCG-Fiber UDM-Pro-Max UDM UDR7 UX7 USW-24 USW-48 USW-Aggregation USW-Enterprise-24-PoE USW-Flex-2.5G-8 USW-Flex USW-Flex-Mini USW-Flex-XG…","availability":"To order / expected","unitPerCarton":1,"warranty":"24 months","displayPriceUsd":326,"fullCartonUnitPriceUsd":326,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ups-2u-85dec6503f.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Light LED quantity 1 Connectors and Interfaces Quantity of sockets (IEC C13) 8 Communication Interface LAN Sockets quantity 8 Management LAN (1) 10/100Mbps Power The input voltage [V] 230V AC Power [VA] 1500 Power type Mains power (230V) Power [W] 1000 Output Voltage [V] 230V AC Technology Line-Interactive Physical characteristics Rackmount Yes Protection class IP20 Design Rackmount Material Steel \"U\" positions 2 LED indication Yes Buttons Reset, power Operating temperature [°C] 0 up to 40 Weight [kg] 14 Width [mm] 442 Height [mm] 87 Depth [mm] 300"}
+{
+  "id": "ubiquiti-ups-2u",
+  "brand": "Ubiquiti",
+  "sku": "UPS-2U",
+  "title": "Ubiquiti UniFi UPS 2U",
+  "category": "Ubiquiti / Powering / Power Supplies UPS / Backup power",
+  "description": "The Ubiquiti UniFi UPS 2 U is a backup power supply unit designed for network devices, ensuring their operation during a power outage. The device features a â2 Uâ rackmount and includes 8 power sockets for connecting equipment. Of these, 4 sockets (C13) provide surge protection, while the remaining 4 sockets (C13) offer combined protection âboth surge and power outage protection . Continuous power is ensured by a (2) hot-swap replaceable batteries , which allow battery replacement while… The device is equipped with a Power button and a Factory Reset button, and features LED indicator . LED indicator displays the status of the device itself and indicates the battery status . At full load , the backup power supply can power connected devices for approximately 2,3 minutes. At half load , the runtime extends to about 8 minutes . Charging the battery to 90 % capacity takes approximately 6 to 8 hours . The UPS-2U unit connects to the network interface via a 10/100 Mbps port and… Sockets (4) battery backup/surge protection and (4) battery backup Battery (2) hot-swap Lead Acid 12 V, 9 Ah Buttons (1) power and (1) factory reset Battery Charging Time 6 - 8 hours recovery to 90 % capacity Weatherproofing IP20 Power Method (1) TN system, 220 â 240 V AC, 10 A Max., 50/60 Hz Short Circuit Protection at On-Line Mode Breaker, 250 V AC, 10 A Network interface (1) 10/100 Mbps port and (2) Gbps ports for network communication surge protection UCG-Fiber UDM-Pro-Max UDM UDR7 UX7 USW-24 USW-48 USW-Aggregation USW-Enterprise-24-PoE USW-Flex-2.5G-8 USW-Flex USW-Flex-Mini USW-Flex-XG…",
+  "availability": "Ordered, unknown date",
+  "unitPerCarton": 1,
+  "warranty": "24 months",
+  "displayPriceUsd": 326,
+  "fullCartonUnitPriceUsd": 326,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ups-2u-85dec6503f.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Light LED quantity 1 Connectors and Interfaces Quantity of sockets (IEC C13) 8 Communication Interface LAN Sockets quantity 8 Management LAN (1) 10/100Mbps Power The input voltage [V] 230V AC Power [VA] 1500 Power type Mains power (230V) Power [W] 1000 Output Voltage [V] 230V AC Technology Line-Interactive Physical characteristics Rackmount Yes Protection class IP20 Design Rackmount Material Steel \"U\" positions 2 LED indication Yes Buttons Reset, power Operating temperature [°C] 0 up to 40 Weight [kg] 14 Width [mm] 442 Height [mm] 87 Depth [mm] 300",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-ups-2u_d130579.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-power-supplies-ups-backup-power_c16592334.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Power Supplies UPS",
+    "Backup power"
+  ]
+}

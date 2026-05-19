@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-lite-ap-am","brand":"Ubiquiti","sku":"UACC-Lite-AP-AM","title":"Ubiquiti UACC-Lite-AP-AM - Wallmount for U6-Lite, UAP-nanoHD and a UAP-AC-Lite","category":"Wireless / Accessories / Mounting brackets","description":"The plastic wall mount is intended for horizontal installation of Access Points from Ubiquiti, specifically for U6-Lite , UAP-nanoHD and UAP-AC-Lite . The holder is attached to the wall using two screws and dowels, which are included in the package. The overall dimensions of the holder are 149 x 89 x 29 mm","availability":"In stock","unitPerCarton":50,"warranty":"24 months","displayPriceUsd":23,"fullCartonUnitPriceUsd":22.2,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-lite-ap-am-ea546d046b.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-lite-ap-am",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Lite-AP-AM",
+  "title": "Ubiquiti UACC-Lite-AP-AM - Wallmount for U6-Lite, UAP-nanoHD and a UAP-AC-Lite",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "The plastic wall mount is intended for horizontal installation of Access Points from Ubiquiti, specifically for U6-Lite , UAP-nanoHD and UAP-AC-Lite . The holder is attached to the wall using two screws and dowels, which are included in the package. The overall dimensions of the holder are 149 x 89 x 29 mm",
+  "availability": "In Stock 38 pcs.",
+  "unitPerCarton": 50,
+  "warranty": "24 months",
+  "displayPriceUsd": 23,
+  "fullCartonUnitPriceUsd": 22.2,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-lite-ap-am-ea546d046b.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 38,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-lite-ap-am-wallmount-for-u6-lite-uap-nanohd-and-a-uap-ac-lite_d116785.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

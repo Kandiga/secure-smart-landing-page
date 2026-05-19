@@ -1,1 +1,25 @@
-{"id":"ubiquiti-ui-cybersecure-1y-d","brand":"Ubiquiti","sku":"UI-CyberSecure-1Y-D","title":"UniFi CyberSecure for 1 year","category":"Training, services / UniFi","description":"CyberSecure is a premium security add-on for UniFi gateways that extends built-in security features with advanced threat protection and cloud-based content filtering. Protection is applied directly at the network level, so there is no nee","availability":"In stock","unitPerCarton":null,"warranty":"To be confirmed","displayPriceUsd":122,"fullCartonUnitPriceUsd":122,"imageUrl":null,"documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "ubiquiti-ui-cybersecure-1y-d",
+  "brand": "Ubiquiti",
+  "sku": "UI-CyberSecure-1Y-D",
+  "title": "UniFi CyberSecure for 1 year",
+  "category": "Ubiquiti / Training, services / UniFi",
+  "description": "CyberSecure is a premium security add-on for UniFi gateways that extends built-in security features with advanced threat protection and cloud-based content filtering. Protection is applied directly at the network level, so there is no nee",
+  "availability": "In Stock 2 pcs.",
+  "unitPerCarton": null,
+  "warranty": "To be confirmed",
+  "displayPriceUsd": 122,
+  "fullCartonUnitPriceUsd": 122,
+  "imageUrl": null,
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 2,
+  "discompProductUrl": "https://www.discomp.cz/unifi-cybersecure-for-1-year_d131603.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-training-services-unifi_c16592615.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Training, services",
+    "UniFi"
+  ]
+}

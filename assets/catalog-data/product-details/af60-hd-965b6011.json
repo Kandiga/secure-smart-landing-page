@@ -1,1 +1,27 @@
-{"id":"ubiquiti-af60-hd","brand":"Ubiquiti","sku":"AF60-HD","title":"Ubiquiti AF60-HD, airFiber 60 HD, price per piece","category":"Wireless / PtP Backhaul / 60GHz","description":"The airFiber 60 HD (AF60 HD) is a 60 GHz radio designed to create superior mid-range, point-to-point (PtP) links up to 2 km . The AF60 HD delivers low-interference, low-latency throughput within the 60 GHz spectrum. Compact and highly durable, the AF60 HD also features integrated GPS and a Bluetooth management radio to simplify setup, configuration, and monitoring. This bridge is ideal for ISPs looking to maximize signal linking with cost-effective equipment Compact dimensions - 189 x 189 x 89 mm Low-interference 60 GHz spectrum - 57 up to 66 GHz Range up to 2 km Support channel bonding to achieve up to a 6 Gbps throughput rate (with 4320 MHz) (1) 1/10G SFP+ port , (1) Gigabit LAN port with passive PoE (48V DC) Terragraph-certified Integrated GPS Easy setup via bluetooth - UISP mobile app Device Holder Power PoE adapter Power cord","availability":"To order / expected","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":428,"fullCartonUnitPriceUsd":413.02,"imageUrl":"assets/catalog-data/public-images/ubiquiti-af60-hd-202cd7e91c.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Channel bandwidth [MHz] 2160, 4320 Transmission speed - 60GHz [Mb/s] 6000 Security WPA2 AES Elevation beam width (-6dB) [°] 3 Azimuth beam width (-6dB) [°] 3 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Optical interfaces (1) 1/10Gbps GPS modul Yes Power Power over Ethernet 48V DC Power type PoE Max. power consumption [W] 29 Physical characteristics Designed for mast diameter [mm] 28 up to 50 Protection class IPX6 Radom Yes Operating temperature [°C] 40 up to 55 Weight [g] 1800 Width [mm] 189 Height [mm] 189 Depth [mm] 89"}
+{
+  "id": "ubiquiti-af60-hd",
+  "brand": "Ubiquiti",
+  "sku": "AF60-HD",
+  "title": "Ubiquiti AF60-HD, airFiber 60 HD, price per piece",
+  "category": "Ubiquiti / Wireless / PtP Backhaul / 60GHz",
+  "description": "The airFiber 60 HD (AF60 HD) is a 60 GHz radio designed to create superior mid-range, point-to-point (PtP) links up to 2 km . The AF60 HD delivers low-interference, low-latency throughput within the 60 GHz spectrum. Compact and highly durable, the AF60 HD also features integrated GPS and a Bluetooth management radio to simplify setup, configuration, and monitoring. This bridge is ideal for ISPs looking to maximize signal linking with cost-effective equipment Compact dimensions - 189 x 189 x 89 mm Low-interference 60 GHz spectrum - 57 up to 66 GHz Range up to 2 km Support channel bonding to achieve up to a 6 Gbps throughput rate (with 4320 MHz) (1) 1/10G SFP+ port , (1) Gigabit LAN port with passive PoE (48V DC) Terragraph-certified Integrated GPS Easy setup via bluetooth - UISP mobile app Device Holder Power PoE adapter Power cord",
+  "availability": "Not In Stock",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 428,
+  "fullCartonUnitPriceUsd": 413.02,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-af60-hd-202cd7e91c.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Channel bandwidth [MHz] 2160, 4320 Transmission speed - 60GHz [Mb/s] 6000 Security WPA2 AES Elevation beam width (-6dB) [°] 3 Azimuth beam width (-6dB) [°] 3 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Optical interfaces (1) 1/10Gbps GPS modul Yes Power Power over Ethernet 48V DC Power type PoE Max. power consumption [W] 29 Physical characteristics Designed for mast diameter [mm] 28 up to 50 Protection class IPX6 Radom Yes Operating temperature [°C] 40 up to 55 Weight [g] 1800 Width [mm] 189 Height [mm] 189 Depth [mm] 89",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-af60-hd-airfiber-60-hd-price-per-piece_d114237.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-ptp-backhaul-60ghz_c16591519.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "PtP Backhaul",
+    "60GHz"
+  ]
+}

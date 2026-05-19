@@ -1,1 +1,26 @@
-{"id":"mikrotik-rb912uag-5hpnd-out","brand":"MikroTik","sku":"RB912UAG-5HPnD-OUT","title":"MikroTik RB912UAG-5HPnD-OUT, BaseBox 5","category":"Wireless / Outdoor units / MikroTik","description":"The RB912 in an outdoor enclosure, fit with two RPSMA connectors for antennas, and a cable hood for protection against moisture. Also available are three additional places for antenna connectors, in case you wish to use the RB912 miniPCIe slot for one more wireless interface to make a dual band device The case can be opened with one hand, and is protected against the elements. USB, Ethernet and a Grounding wire exits are provided on the bottom, behind a protective door Comes with a mounting loop for tower/pole mounting, and a separate DIN rail mount is also provided. Package also includes a PoE injector and power supply unit Box contains: RB912 outdoor unit, PSU, PoE injector, mounting loop, DIN rail mount","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":84,"fullCartonUnitPriceUsd":81.06,"imageUrl":"assets/catalog-data/public-images/mikrotik-rb912uag-5hpnd-out-1f3d9c2f85.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Tx power [dBm] 30 Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a Transmission speed - 5GHz [Mb/s] 300 5GHz MIMO 2 x 2 Type of antenna Detachable Connectors and Interfaces RF connectors (2) RSMA female LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes MiniPCI-e slots 1 USB Yes Power Power over Ethernet 8 .. 30V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 14 Physical characteristics Design Outdoor Operating temperature [°C] 30 up to 60 Width [mm] 135 Height [mm] 246 Depth [mm] 50 Hardware CPU AR9342 CPU frequency [MHz] 600 CPU cores 1 Internal storage [MB] 64 RAM [MB] 64"}
+{
+  "id": "mikrotik-rb912uag-5hpnd-out",
+  "brand": "MikroTik",
+  "sku": "RB912UAG-5HPnD-OUT",
+  "title": "MikroTik RB912UAG-5HPnD-OUT, BaseBox 5",
+  "category": "MikroTik / Wireless / Outdoor units",
+  "description": "The RB912 in an outdoor enclosure, fit with two RPSMA connectors for antennas, and a cable hood for protection against moisture. Also available are three additional places for antenna connectors, in case you wish to use the RB912 miniPCIe slot for one more wireless interface to make a dual band device The case can be opened with one hand, and is protected against the elements. USB, Ethernet and a Grounding wire exits are provided on the bottom, behind a protective door Comes with a mounting loop for tower/pole mounting, and a separate DIN rail mount is also provided. Package also includes a PoE injector and power supply unit Box contains: RB912 outdoor unit, PSU, PoE injector, mounting loop, DIN rail mount",
+  "availability": "In Stock 3 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 84,
+  "fullCartonUnitPriceUsd": 81.06,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rb912uag-5hpnd-out-1f3d9c2f85.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Tx power [dBm] 30 Wireless frequency 5 GHz WiFi standards 802.11n, 802.11a Transmission speed - 5GHz [Mb/s] 300 5GHz MIMO 2 x 2 Type of antenna Detachable Connectors and Interfaces RF connectors (2) RSMA female LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes MiniPCI-e slots 1 USB Yes Power Power over Ethernet 8 .. 30V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 14 Physical characteristics Design Outdoor Operating temperature [°C] 30 up to 60 Width [mm] 135 Height [mm] 246 Depth [mm] 50 Hardware CPU AR9342 CPU frequency [MHz] 600 CPU cores 1 Internal storage [MB] 64 RAM [MB] 64",
+  "stockQtyVisible": 3,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-rb912uag-5hpnd-out-basebox-5_d51037.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-outdoor-units_c15888564.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Outdoor units"
+  ]
+}

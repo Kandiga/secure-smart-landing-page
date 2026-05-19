@@ -1,1 +1,27 @@
-{"id":"ubiquiti-usw-pro-max-24","brand":"Ubiquiti","sku":"USW-Pro-Max-24","title":"Ubiquiti USW-Pro-Max-24","category":"LAN networks / Switches / UniFi Switches","description":"Ubiquiti Pro Max 24 is a quality switch. It has 8 LAN ports with speeds up to 2.5 Gbps . The other 16 ports have a speed of 1 Gbps. There are also 2 SFP+ ports with speeds up to 10 Gbps . The switch can be configured using UniFi Controller . It also features a touchscreen display with controls. On the back, in addition to the normal power supply, we also find a backup DC power supply, which is used for example in the event of a power failure Backup DC power supply Configurable via UniFi Controller High connection speed - 8 LAN ports at 2.5 Gbps and 16 LAN ports at 1 Gbps 2 SFP+ ports up to 10 Gbps Device Power cable Rack mounting kit","availability":"To order / expected","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":532,"fullCartonUnitPriceUsd":513.38,"imageUrl":"assets/catalog-data/public-images/ubiquiti-usw-pro-max-24-896412fe3b.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (8) 100/1000/2500 Mbps + (16) 10/100/1000 Mbps Optical interfaces (2) 10Gbps Other features Touchscreen Power Power type Mains power (230V) Redundant power supply Yes Max. power consumption [W] 50 Physical characteristics Design Rackmount Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 443 Height [mm] 48 Depth [mm] 325 General Switchning capacity [Gbps] 112"}
+{
+  "id": "ubiquiti-usw-pro-max-24",
+  "brand": "Ubiquiti",
+  "sku": "USW-Pro-Max-24",
+  "title": "Ubiquiti USW-Pro-Max-24",
+  "category": "Ubiquiti / LAN networks / Switches / UniFi Switches",
+  "description": "Ubiquiti Pro Max 24 is a quality switch. It has 8 LAN ports with speeds up to 2.5 Gbps . The other 16 ports have a speed of 1 Gbps. There are also 2 SFP+ ports with speeds up to 10 Gbps . The switch can be configured using UniFi Controller . It also features a touchscreen display with controls. On the back, in addition to the normal power supply, we also find a backup DC power supply, which is used for example in the event of a power failure Backup DC power supply Configurable via UniFi Controller High connection speed - 8 LAN ports at 2.5 Gbps and 16 LAN ports at 1 Gbps 2 SFP+ ports up to 10 Gbps Device Power cable Rack mounting kit",
+  "availability": "Expected 20.6.2026",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 532,
+  "fullCartonUnitPriceUsd": 513.38,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-usw-pro-max-24-896412fe3b.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (8) 100/1000/2500 Mbps + (16) 10/100/1000 Mbps Optical interfaces (2) 10Gbps Other features Touchscreen Power Power type Mains power (230V) Redundant power supply Yes Max. power consumption [W] 50 Physical characteristics Design Rackmount Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 443 Height [mm] 48 Depth [mm] 325 General Switchning capacity [Gbps] 112",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-usw-pro-max-24_d124826.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-unifi-switches_c16172908.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "UniFi Switches"
+  ]
+}

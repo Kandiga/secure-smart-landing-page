@@ -1,1 +1,26 @@
-{"id":"mikrotik-rb5009upr-s-out","brand":"MikroTik","sku":"RB5009UPr+S+OUT","title":"MikroTik RouterBOARD RB5009UPr+S+OUT","category":"Wireless / MikroTik / RouterBOARD","description":"RB5009UPr+S+OUT is a high performance PoE router that comes with passive cooling , IP66 outdoor chassis and high performance (60 - 90% higher than RB4011) which is due to the 64-bit ARM architecture of the processor with a clock speed of 1400 MHz, 1GB RAM type DDR4 and 1GB NAND storage. The router has 7x Gigabit LAN, 1x 2.5Gbit LAN with PoE IN and PoE OUT (802.3af/at) on all eight Ethernet ports with a total PoE budget of 130 W, DC terminal block (24 .. 57V DC), 1Ã SFP+ slot and 1Ã USB 3.0.… Powerful device with PoE and ARM 64bit architecture CPU 1400 MHz, 4 cores, 1 GB RAM, 1 GB NAND 2 types of power supply - DC terminal block, PoE (24 to 57 V DC) PoE IN and PoE out on all eight Ethernet ports! (PoE OUT works only if powered by DC terminal block) Passive cooling without fans Interfaces: (7) Gigabit, (1) 2.5Gigabit, (1) SFP/SFP+, (1) USB 3.0 RouterOS L5 version 7 pre-installed Outdoor chassis with IP66 protection Device Screws, dowels, metal clips (2) metal zip ties","availability":"In stock","unitPerCarton":5,"warranty":"24 months","displayPriceUsd":309,"fullCartonUnitPriceUsd":298.19,"imageUrl":"assets/catalog-data/public-images/mikrotik-rb5009upr-s-out-26163997f9.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Multiple WAN Yes LAN speed (7) 10/100/1000Mbps + (1) 100M/1G/2.5G Gigabit LAN Yes Optical interfaces (1) 1/10Gbps USB Yes Power Power over Ethernet 802.3af, 802.3at, 24 .. 57V DC Power type PoE, DC connector, DC terminal PoE Input ports 8 PoE type PoE-Out + PoE-In PoE-Out standards 802.3af, 802.3at, Passive 24V, Passive 48V PoE Out ports 8 PoE budget [W] 130 Max. power consumption [W] 15 Power via connector/terminal 24 .. 57V DC Physical characteristics Design Outdoor Fans No Chassis design Metal Operating temperature [°C] 40 up to 70 Width [mm] 222 Height [mm] 239 Depth [mm] 57 Hardware CPU 88F7040 CPU frequency [MHz] 1400 CPU cores 4 Internal storage [MB] 1024 RAM [MB] 1024"}
+{
+  "id": "mikrotik-rb5009upr-s-out",
+  "brand": "MikroTik",
+  "sku": "RB5009UPr+S+OUT",
+  "title": "MikroTik RouterBOARD RB5009UPr+S+OUT",
+  "category": "MikroTik / Wireless / RouterBOARD",
+  "description": "RB5009UPr+S+OUT is a high performance PoE router that comes with passive cooling , IP66 outdoor chassis and high performance (60 - 90% higher than RB4011) which is due to the 64-bit ARM architecture of the processor with a clock speed of 1400 MHz, 1GB RAM type DDR4 and 1GB NAND storage. The router has 7x Gigabit LAN, 1x 2.5Gbit LAN with PoE IN and PoE OUT (802.3af/at) on all eight Ethernet ports with a total PoE budget of 130 W, DC terminal block (24 .. 57V DC), 1Ã SFP+ slot and 1Ã USB 3.0.… Powerful device with PoE and ARM 64bit architecture CPU 1400 MHz, 4 cores, 1 GB RAM, 1 GB NAND 2 types of power supply - DC terminal block, PoE (24 to 57 V DC) PoE IN and PoE out on all eight Ethernet ports! (PoE OUT works only if powered by DC terminal block) Passive cooling without fans Interfaces: (7) Gigabit, (1) 2.5Gigabit, (1) SFP/SFP+, (1) USB 3.0 RouterOS L5 version 7 pre-installed Outdoor chassis with IP66 protection Device Screws, dowels, metal clips (2) metal zip ties",
+  "availability": "In Stock 53 pcs.",
+  "unitPerCarton": 5,
+  "warranty": "24 months",
+  "displayPriceUsd": 309,
+  "fullCartonUnitPriceUsd": 298.19,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rb5009upr-s-out-26163997f9.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Multiple WAN Yes LAN speed (7) 10/100/1000Mbps + (1) 100M/1G/2.5G Gigabit LAN Yes Optical interfaces (1) 1/10Gbps USB Yes Power Power over Ethernet 802.3af, 802.3at, 24 .. 57V DC Power type PoE, DC connector, DC terminal PoE Input ports 8 PoE type PoE-Out + PoE-In PoE-Out standards 802.3af, 802.3at, Passive 24V, Passive 48V PoE Out ports 8 PoE budget [W] 130 Max. power consumption [W] 15 Power via connector/terminal 24 .. 57V DC Physical characteristics Design Outdoor Fans No Chassis design Metal Operating temperature [°C] 40 up to 70 Width [mm] 222 Height [mm] 239 Depth [mm] 57 Hardware CPU 88F7040 CPU frequency [MHz] 1400 CPU cores 4 Internal storage [MB] 1024 RAM [MB] 1024",
+  "stockQtyVisible": 53,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-routerboard-rb5009upr-s-out_d121313.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-routerboard_c16588560.html?page=3",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "RouterBOARD"
+  ]
+}

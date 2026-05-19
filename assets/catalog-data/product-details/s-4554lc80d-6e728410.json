@@ -1,1 +1,26 @@
-{"id":"mikrotik-s-4554lc80d","brand":"MikroTik","sku":"S-4554LC80D","title":"MikroTik SFP module S-45/54LC80D, SM, 80km, 1.25G (one pair)","category":"Wireless / MikroTik / SFP modules","description":"The S-4554LC80D is sold as a kit of two single mode WDM modules with Gigabit speed, one LC connector on each side and maximum distance up to 80km. The wavelengths of the modules are 1490 / 1550nm and 1550 / 1490nm","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":84,"fullCartonUnitPriceUsd":84,"imageUrl":"assets/catalog-data/public-images/mikrotik-s-4554lc80d-3adabe455f.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Format SFP For cable type Single Mode Transmission speed 1 Gbps Wavelength - Tx/Rx [nm] 1490 / 1550, 1550 / 1490 Distance [km] 80 Transfer type WDM Tx power [dBm] 0 up to 5 Receiver sensitivity [dBm] 25 Connectors and Interfaces Optical Connectors (1) LC Physical characteristics Operating temperature [°C] 40 up to 85 General Compatibility Universal"}
+{
+  "id": "mikrotik-s-4554lc80d",
+  "brand": "MikroTik",
+  "sku": "S-4554LC80D",
+  "title": "MikroTik SFP module S-45/54LC80D, SM, 80km, 1.25G (one pair)",
+  "category": "MikroTik / Wireless / SFP modules",
+  "description": "The S-4554LC80D is sold as a kit of two single mode WDM modules with Gigabit speed, one LC connector on each side and maximum distance up to 80km. The wavelengths of the modules are 1490 / 1550nm and 1550 / 1490nm",
+  "availability": "In Stock 16 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 84,
+  "fullCartonUnitPriceUsd": 84,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-s-4554lc80d-3adabe455f.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Format SFP For cable type Single Mode Transmission speed 1 Gbps Wavelength - Tx/Rx [nm] 1490 / 1550, 1550 / 1490 Distance [km] 80 Transfer type WDM Tx power [dBm] 0 up to 5 Receiver sensitivity [dBm] 25 Connectors and Interfaces Optical Connectors (1) LC Physical characteristics Operating temperature [°C] 40 up to 85 General Compatibility Universal",
+  "stockQtyVisible": 16,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-sfp-module-s-45-54lc80d-sm-80km-1-25g-one-pair-_d88040.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-sfp-modules_c16588578.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "SFP modules"
+  ]
+}

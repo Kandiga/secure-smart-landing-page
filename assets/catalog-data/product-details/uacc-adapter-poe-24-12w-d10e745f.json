@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-adapter-poe-24-12w","brand":"Ubiquiti","sku":"UACC-Adapter-PoE-24-12W","title":"Ubiquiti 2.5G passive PoE injector, 24V, 12W","category":"Powering / Pasive PoE / PoE injectors","description":"Ubiquiti UACC-Adapter-PoE-24-12W is a high-quality 2.5Gbps passive 24V PoE injector with a maximum output power of 12W , a maximum current of 0.5A and a status LED indicator. Power is supplied over pins 4,5 (+) and 3,6,7,8 (-). It supports remote reset functionality and provides surge protection","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":10,"fullCartonUnitPriceUsd":9.65,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-adapter-poe-24-12w-7ab96c1ad0.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000/2500 Gigabit LAN Yes Power The input voltage [V] 230V AC Output Power [W] 12 Pin powering 4,5 (+), 3,6,7,8 (-) PoE Out ports 1 Output Voltage [V] 24 Output Current [A] 0,5 Efficiency [%] 83"}
+{
+  "id": "ubiquiti-uacc-adapter-poe-24-12w",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Adapter-PoE-24-12W",
+  "title": "Ubiquiti 2.5G passive PoE injector, 24V, 12W",
+  "category": "Ubiquiti / Powering / Pasive PoE / PoE injectors",
+  "description": "Ubiquiti UACC-Adapter-PoE-24-12W is a high-quality 2.5Gbps passive 24V PoE injector with a maximum output power of 12W , a maximum current of 0.5A and a status LED indicator. Power is supplied over pins 4,5 (+) and 3,6,7,8 (-). It supports remote reset functionality and provides surge protection",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 10,
+  "fullCartonUnitPriceUsd": 9.65,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-adapter-poe-24-12w-7ab96c1ad0.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000/2500 Gigabit LAN Yes Power The input voltage [V] 230V AC Output Power [W] 12 Pin powering 4,5 (+), 3,6,7,8 (-) PoE Out ports 1 Output Voltage [V] 24 Output Current [A] 0,5 Efficiency [%] 83",
+  "stockQtyVisible": 377,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-2-5g-passive-poe-injector-24v-12w_d131100.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-pasive-poe-poe-injectors_c16591506.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Pasive PoE",
+    "PoE injectors"
+  ]
+}

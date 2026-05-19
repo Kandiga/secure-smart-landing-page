@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uvc-g3-flex-3","brand":"Ubiquiti","sku":"UVC-G3-FLEX-3","title":"Ubiquiti UVC-G3-FLEX-3, UniFi Video Camera G3 Flex, 3 pack","category":"Cameras, security / IP cameras / Turret","description":"UVC-G3-FLEX offers a FullHD wide-angle lens for enhanced viewing capabilities. Thanks to the versatile mount, the camera can be installed on a wall, tube or board indoors and outdoors. IR LED and automatic IR cut filter provide excellent images throughout the 24 hours even in low light conditions The camera also offers an adjustable lens, as well as a swivel base to adjust the horizontal and vertical viewing angles The device can be powered via POE 802.3af, the AC adapter is not included. Motion detection is also included, so there is no need for continuous recording, which can save a lot of storage capacity FullHD @ 25fps resolution 4mm / F2.0 Widescreen POE 802.3af built-in microphone plate, wall and mast mounting Managed by UniFi Protect software (3) Camera (6) brackets (3) outdoor cover (3) safety screw (9) screws, dowels (6) cable ties","availability":"To order / expected","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":239,"fullCartonUnitPriceUsd":230.64,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-g3-flex-3-476a9a75ed.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Camera Lens type Fixed Lens [mm] 4 (fixed) Illumination IR Viewing Angle [°] 87 Day/night mode IR cut filter Image sensor [\"] 1/3 Image Resolution 2MP Max. resolution [pixels] 1920 x 1080 (Full HD) Connectors and Interfaces Audio Microphone LAN speed (1) 10/100Mbps Power Power over Ethernet 802.3af Power type PoE Max. power consumption [W] 4 Physical characteristics Purpose Outdoor Buttons Reset Operating temperature [°C] 20 up to 50 Weight [g] 170 Width [mm] 48 Height [mm] 108 Depth [mm] 48 Color White Compression standard Video compression H.264 General Camera class UniFi Protect"}
+{
+  "id": "ubiquiti-uvc-g3-flex-3",
+  "brand": "Ubiquiti",
+  "sku": "UVC-G3-FLEX-3",
+  "title": "Ubiquiti UVC-G3-FLEX-3, UniFi Video Camera G3 Flex, 3 pack",
+  "category": "Ubiquiti / Cameras, security / IP cameras / Turret",
+  "description": "UVC-G3-FLEX offers a FullHD wide-angle lens for enhanced viewing capabilities. Thanks to the versatile mount, the camera can be installed on a wall, tube or board indoors and outdoors. IR LED and automatic IR cut filter provide excellent images throughout the 24 hours even in low light conditions The camera also offers an adjustable lens, as well as a swivel base to adjust the horizontal and vertical viewing angles The device can be powered via POE 802.3af, the AC adapter is not included. Motion detection is also included, so there is no need for continuous recording, which can save a lot of storage capacity FullHD @ 25fps resolution 4mm / F2.0 Widescreen POE 802.3af built-in microphone plate, wall and mast mounting Managed by UniFi Protect software (3) Camera (6) brackets (3) outdoor cover (3) safety screw (9) screws, dowels (6) cable ties",
+  "availability": "Not In Stock",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 239,
+  "fullCartonUnitPriceUsd": 230.64,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-g3-flex-3-476a9a75ed.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Camera Lens type Fixed Lens [mm] 4 (fixed) Illumination IR Viewing Angle [°] 87 Day/night mode IR cut filter Image sensor [\"] 1/3 Image Resolution 2MP Max. resolution [pixels] 1920 x 1080 (Full HD) Connectors and Interfaces Audio Microphone LAN speed (1) 10/100Mbps Power Power over Ethernet 802.3af Power type PoE Max. power consumption [W] 4 Physical characteristics Purpose Outdoor Buttons Reset Operating temperature [°C] 20 up to 50 Weight [g] 170 Width [mm] 48 Height [mm] 108 Depth [mm] 48 Color White Compression standard Video compression H.264 General Camera class UniFi Protect",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uvc-g3-flex-3-unifi-video-camera-g3-flex-3-pack_d92148.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-ip-cameras-turret_c16591488.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "IP cameras",
+    "Turret"
+  ]
+}

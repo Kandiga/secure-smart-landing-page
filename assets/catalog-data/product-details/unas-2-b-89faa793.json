@@ -1,1 +1,26 @@
-{"id":"ubiquiti-unas-2-b","brand":"Ubiquiti","sku":"UNAS-2-B","title":"Ubiquiti UNAS 2, Black","category":"IoT, SMART / NAS Servers","description":"UniFi Network Attached Storage with (2) 3.5\" HDD bays , 2.5 GbE RJ-45 networking, USB-C connectivity, and an included PoE++ adapter, all in a compact footprint. Powered by a quad-core ARM Cortex-A55 processor, complemented by 4 GB of RAM Device 60W PoE++ adapter","availability":"In stock","unitPerCarton":6,"warranty":"24 months","displayPriceUsd":240,"fullCartonUnitPriceUsd":231.6,"imageUrl":"assets/catalog-data/public-images/ubiquiti-unas-2-b-1cf1d490bf.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Number of HDD slots 2 USB-C ports 1 LAN speed (1) 100/1000/2500Mbps Gigabit LAN Yes Other features LCD display, Bluetooth Power Power over Ethernet 802.3bt Power type PoE Max. power consumption [W] 60 Physical characteristics Design Desktop Material Polycarbonate LED indication Yes Operating temperature [°C] 5 up to 40 Weight [kg] 1,3 Width [mm] 129 Height [mm] 224 Depth [mm] 135 Color Black"}
+{
+  "id": "ubiquiti-unas-2-b",
+  "brand": "Ubiquiti",
+  "sku": "UNAS-2-B",
+  "title": "Ubiquiti UNAS 2, Black",
+  "category": "Ubiquiti / IoT, SMART / NAS Servers",
+  "description": "UniFi Network Attached Storage with (2) 3.5\" HDD bays , 2.5 GbE RJ-45 networking, USB-C connectivity, and an included PoE++ adapter, all in a compact footprint. Powered by a quad-core ARM Cortex-A55 processor, complemented by 4 GB of RAM Device 60W PoE++ adapter",
+  "availability": "In Stock 3 pcs.",
+  "unitPerCarton": 6,
+  "warranty": "24 months",
+  "displayPriceUsd": 240,
+  "fullCartonUnitPriceUsd": 231.6,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-unas-2-b-1cf1d490bf.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Number of HDD slots 2 USB-C ports 1 LAN speed (1) 100/1000/2500Mbps Gigabit LAN Yes Other features LCD display, Bluetooth Power Power over Ethernet 802.3bt Power type PoE Max. power consumption [W] 60 Physical characteristics Design Desktop Material Polycarbonate LED indication Yes Operating temperature [°C] 5 up to 40 Weight [kg] 1,3 Width [mm] 129 Height [mm] 224 Depth [mm] 135 Color Black",
+  "stockQtyVisible": 3,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unas-2-black_d130481.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-iot-smart-nas-servers_c16592479.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "IoT, SMART",
+    "NAS Servers"
+  ]
+}

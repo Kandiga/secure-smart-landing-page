@@ -1,1 +1,27 @@
-{"id":"mikrotik-cubeg-5ac60ay","brand":"MikroTik","sku":"CubeG-5ac60ay","title":"MikroTik CubeG-5ac60ay, Cube 60Pro ac","category":"Wireless / Outdoor units / MikroTik","description":"Cube 60Pro ac is a complete client antenna with a robust and easily adjustable holder, very decent dimensions, L4 licenses, 11° antenna (60 GHz ), Gigabit Ethernet with support for both passive and active PoE and is suitable for PTP or PTMP installations in the 60G Hz band working with 802.11ad/ay standards with real throughpu up to 1Gbps Full Duplex at a distance of 1000 m (Cube 60Pro ac + CubeSA 60Pro ac) and up to 2400 m in case of PTP (2Ã Cube 60Pro ac). The unit also has a 5GHz radio… 802.11ad/ay (60 GHz) + 802.11a/n/ac (5 GHz) support CPU: IPQ-4019 (716 MHz), 4 cores 256 MB RAM 64 MB flash storage Gigabit LAN with PoE support (18 .. 57V DC, 802.af/at) L4 license TDMA GPS Sync Maximum EIRP: 40 dBm L4 licensed device 24 V/0.8 A power adapter Gigabit POE injector Holder Metal cable tie","availability":"In stock","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":140,"fullCartonUnitPriceUsd":135.1,"imageUrl":"assets/catalog-data/public-images/mikrotik-cubeg-5ac60ay-e99103c646.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Wireless frequency 60 GHz WiFi standards 802.11ac, 802.11ad, 802.11ay, 802.11n, 802.11a Output power 60GHz [dBm] 40 (EIRP) Elevation beam width (-6dB) [°] 11 Azimuth beam width (-6dB) [°] 11 Type of antenna Built-in Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes GPS modul Yes Power Power over Ethernet 802.3af, 802.3at, 18 .. 57V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 13 Physical characteristics Design Outdoor Operating temperature [°C] 40 up to 70 Width [mm] 82 Height [mm] 95 Depth [mm] 115 Hardware CPU IPQ-4019 CPU frequency [MHz] 716 CPU cores 4 Internal storage [MB] 64 RAM [MB] 256"}
+{
+  "id": "mikrotik-cubeg-5ac60ay",
+  "brand": "MikroTik",
+  "sku": "CubeG-5ac60ay",
+  "title": "MikroTik CubeG-5ac60ay, Cube 60Pro ac",
+  "category": "MikroTik / Wireless / PtP Backhaul / 60GHz",
+  "description": "Cube 60Pro ac is a complete client antenna with a robust and easily adjustable holder, very decent dimensions, L4 licenses, 11° antenna (60 GHz ), Gigabit Ethernet with support for both passive and active PoE and is suitable for PTP or PTMP installations in the 60G Hz band working with 802.11ad/ay standards with real throughpu up to 1Gbps Full Duplex at a distance of 1000 m (Cube 60Pro ac + CubeSA 60Pro ac) and up to 2400 m in case of PTP (2Ã Cube 60Pro ac). The unit also has a 5GHz radio… 802.11ad/ay (60 GHz) + 802.11a/n/ac (5 GHz) support CPU: IPQ-4019 (716 MHz), 4 cores 256 MB RAM 64 MB flash storage Gigabit LAN with PoE support (18 .. 57V DC, 802.af/at) L4 license TDMA GPS Sync Maximum EIRP: 40 dBm L4 licensed device 24 V/0.8 A power adapter Gigabit POE injector Holder Metal cable tie",
+  "availability": "In Stock 58 pcs.",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 140,
+  "fullCartonUnitPriceUsd": 135.1,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-cubeg-5ac60ay-e99103c646.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Wireless frequency 60 GHz WiFi standards 802.11ac, 802.11ad, 802.11ay, 802.11n, 802.11a Output power 60GHz [dBm] 40 (EIRP) Elevation beam width (-6dB) [°] 11 Azimuth beam width (-6dB) [°] 11 Type of antenna Built-in Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes GPS modul Yes Power Power over Ethernet 802.3af, 802.3at, 18 .. 57V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 13 Physical characteristics Design Outdoor Operating temperature [°C] 40 up to 70 Width [mm] 82 Height [mm] 95 Depth [mm] 115 Hardware CPU IPQ-4019 CPU frequency [MHz] 716 CPU cores 4 Internal storage [MB] 64 RAM [MB] 256",
+  "stockQtyVisible": 58,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-cubeg-5ac60ay-cube-60pro-ac_d113806.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-ptp-backhaul-60ghz_c15888549.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "PtP Backhaul",
+    "60GHz"
+  ]
+}

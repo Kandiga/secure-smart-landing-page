@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uvc-ai-theta-pro","brand":"Ubiquiti","sku":"UVC-AI-Theta-Pro","title":"Ubiquiti UVC-AI-Theta-Pro","category":"Cameras, security / IP cameras / Special","description":"UniFi AI Theta Pro brings an enhanced generation of the UVC-AI-Theta module with a new camera capable of seamless 4K and 180° resolution at 24 FPS , delivering detailed and smooth images. A 1 Gbps Ethernet port with PoE support (37-57V DC, maximum power consumption 12.5W) is used for connectivity. Designed for indoor use, the device supports H.264 compression and uses a powerful CPU for intelligent motion detection, person, vehicle and license plate recognition . All this in a small and…","availability":"To order / expected","unitPerCarton":6,"warranty":"24 months","displayPriceUsd":374,"fullCartonUnitPriceUsd":360.91,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-ai-theta-pro-280e4ce813.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Camera Lens type Fixed Viewing Angle [°] 180 Image sensor [\"] 1/1.8 Image Resolution 8MP Max. resolution [pixels] 2160 x 2160 Connectors and Interfaces LAN speed (1) 1000Mbps Power Power over Ethernet 37 .. 57V DC Max. power consumption [W] 12,5 Power via connector/terminal 5V / 0,5A Physical characteristics Purpose Indoor Buttons Reset Operating temperature [°C] 20 up to 40 Weight [g] 448 Width [mm] 70 Height [mm] 140 Depth [mm] 38 Color White Compression standard Video compression H.264"}
+{
+  "id": "ubiquiti-uvc-ai-theta-pro",
+  "brand": "Ubiquiti",
+  "sku": "UVC-AI-Theta-Pro",
+  "title": "Ubiquiti UVC-AI-Theta-Pro",
+  "category": "Ubiquiti / Cameras, security / IP cameras / Special",
+  "description": "UniFi AI Theta Pro brings an enhanced generation of the UVC-AI-Theta module with a new camera capable of seamless 4K and 180° resolution at 24 FPS , delivering detailed and smooth images. A 1 Gbps Ethernet port with PoE support (37-57V DC, maximum power consumption 12.5W) is used for connectivity. Designed for indoor use, the device supports H.264 compression and uses a powerful CPU for intelligent motion detection, person, vehicle and license plate recognition . All this in a small and…",
+  "availability": "Expected 30.6.2026",
+  "unitPerCarton": 6,
+  "warranty": "24 months",
+  "displayPriceUsd": 374,
+  "fullCartonUnitPriceUsd": 360.91,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-ai-theta-pro-280e4ce813.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Camera Lens type Fixed Viewing Angle [°] 180 Image sensor [\"] 1/1.8 Image Resolution 8MP Max. resolution [pixels] 2160 x 2160 Connectors and Interfaces LAN speed (1) 1000Mbps Power Power over Ethernet 37 .. 57V DC Max. power consumption [W] 12,5 Power via connector/terminal 5V / 0,5A Physical characteristics Purpose Indoor Buttons Reset Operating temperature [°C] 20 up to 40 Weight [g] 448 Width [mm] 70 Height [mm] 140 Depth [mm] 38 Color White Compression standard Video compression H.264",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uvc-ai-theta-pro_d124524.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-ip-cameras-special_c16591481.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "IP cameras",
+    "Special"
+  ]
+}

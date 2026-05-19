@@ -1,1 +1,26 @@
-{"id":"teltonika-rutx50000000","brand":"Teltonika","sku":"RUTX50000000","title":"Teltonika RUTX50 Industrial 5G Router","category":"Wireless / 3G/LTE/5G / Routers","description":"Teltonika RUTX50 is an industrial multi-network router that offers 5G mobile communication for high-speed and data-intensive applications. 5G mobile communication with the option of dual SIM configuration is combined with 5 Gigabit Ethernet ports and dual-band Wi-Fi enabling reliable data transmission with ultra-low latency The power of 5G technology combined with a wide range of interfaces and industrial hardware features ensures adaptability for future upgrades and expansion of the entire system Compact size Powerful 5G / WiFi system Supports GNSS positioning RUTX50 is shipped with RutOS which provides advanced security features and specialized industry protocols for a wide range of professional application scenarios. It is fully compatible with Teltonika RMS remote management with the possibility of monitoring large groups of devices Combined router with variable connection Durable aluminum cover Supports 5G networks, dual-band WiFi ac and fixed gigabit ethernet RutOS operating system Interfaces: 5Ã 10/100/1000 Mbps (1Ã WAN, 4Ã LAN), 4Ã SMA for 5G, 2Ã RP-SMA for WiFi, 1Ã SMA for GNSS, 1Ã digital in, 1Ã digital out, 1Ã USB, 2Ã SIM slot (Mini SIM â 2FF)","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":606,"fullCartonUnitPriceUsd":606,"imageUrl":"assets/catalog-data/public-images/teltonika-rutx50000000-29064deef4.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Wireless frequency 2.4 + 5 GHz (dual band), LTE, 4G (GSM), 5G (GSM) WiFi standards 802.11n, 802.11ac, 802.11b/g, 802.11ac - wave2 Transmission speed - 5GHz [Mb/s] 866 Transmission speed - 2.4GHz [Mb/s] 300 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Connectors and Interfaces WAN Ports 1 WAN speed (1) 10/100/1000Mbps RF connectors (5) SMA male, (2) RP-SMA LAN speed (4) 10/100/1000Mbps SIM slot Yes SIM slots quantity 2 USB Yes GPS modul Yes Power Power over Ethernet 9 .. 50V DC Power type PoE, DC terminal Max. power consumption [W] 18 Power via connector/terminal 9 .. 50V DC Physical characteristics Buttons Reset Operating temperature [°C] 40 up to 75 Weight [g] 533 Width [mm] 132 Height [mm] 44 Depth [mm] 95 Hardware CPU ARM Cortex A7 CPU frequency [MHz] 717 Internal storage [MB] 256 RAM [MB] 256"}
+{
+  "id": "teltonika-rutx50000000",
+  "brand": "Teltonika",
+  "sku": "RUTX50000000",
+  "title": "Teltonika RUTX50 Industrial 5G Router",
+  "category": "Teltonika / IoT, SMART / Routers",
+  "description": "Teltonika RUTX50 is an industrial multi-network router that offers 5G mobile communication for high-speed and data-intensive applications. 5G mobile communication with the option of dual SIM configuration is combined with 5 Gigabit Ethernet ports and dual-band Wi-Fi enabling reliable data transmission with ultra-low latency The power of 5G technology combined with a wide range of interfaces and industrial hardware features ensures adaptability for future upgrades and expansion of the entire system Compact size Powerful 5G / WiFi system Supports GNSS positioning RUTX50 is shipped with RutOS which provides advanced security features and specialized industry protocols for a wide range of professional application scenarios. It is fully compatible with Teltonika RMS remote management with the possibility of monitoring large groups of devices Combined router with variable connection Durable aluminum cover Supports 5G networks, dual-band WiFi ac and fixed gigabit ethernet RutOS operating system Interfaces: 5Ã 10/100/1000 Mbps (1Ã WAN, 4Ã LAN), 4Ã SMA for 5G, 2Ã RP-SMA for WiFi, 1Ã SMA for GNSS, 1Ã digital in, 1Ã digital out, 1Ã USB, 2Ã SIM slot (Mini SIM â 2FF)",
+  "availability": "In Stock 58 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 606,
+  "fullCartonUnitPriceUsd": 606,
+  "imageUrl": "assets/catalog-data/public-images/teltonika-rutx50000000-29064deef4.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Wireless frequency 2.4 + 5 GHz (dual band), LTE, 4G (GSM), 5G (GSM) WiFi standards 802.11n, 802.11ac, 802.11b/g, 802.11ac - wave2 Transmission speed - 5GHz [Mb/s] 866 Transmission speed - 2.4GHz [Mb/s] 300 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Connectors and Interfaces WAN Ports 1 WAN speed (1) 10/100/1000Mbps RF connectors (5) SMA male, (2) RP-SMA LAN speed (4) 10/100/1000Mbps SIM slot Yes SIM slots quantity 2 USB Yes GPS modul Yes Power Power over Ethernet 9 .. 50V DC Power type PoE, DC terminal Max. power consumption [W] 18 Power via connector/terminal 9 .. 50V DC Physical characteristics Buttons Reset Operating temperature [°C] 40 up to 75 Weight [g] 533 Width [mm] 132 Height [mm] 44 Depth [mm] 95 Hardware CPU ARM Cortex A7 CPU frequency [MHz] 717 Internal storage [MB] 256 RAM [MB] 256",
+  "stockQtyVisible": 58,
+  "discompProductUrl": "https://www.discomp.cz/teltonika-rutx50-industrial-5g-router_d119315.html",
+  "discompCategoryUrl": "https://www.discomp.cz/iot-smart-teltonika-routers_c15616396.html",
+  "discompSourcePath": [
+    "Teltonika",
+    "IoT, SMART",
+    "Routers"
+  ]
+}

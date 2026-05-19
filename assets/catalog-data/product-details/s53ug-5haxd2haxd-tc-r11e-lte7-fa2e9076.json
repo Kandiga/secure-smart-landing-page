@@ -1,1 +1,27 @@
-{"id":"mikrotik-s53ug-5haxd2haxd-tc-r11e-lte7","brand":"MikroTik","sku":"S53UG+5HaxD2HaxD-TC&R11e-LTE7","title":"MikroTik S53UG+5HaxD2HaxD-TC&R11e-LTE7, Chateau LTE7 ax","category":"Wireless / WiFi Routers / WiFi 6 / 6E","description":"The MikroTik Chateau LTE7 ax is an elegant dual-band Wi-Fi 6 routerboard operating simultaneously in the 2.4GHz and 5GHz bands, delivering a maximum total throughput of up to 1.77Gbps (2.4GHz 2x2 - 574Mbps, 5GHz 2x2 - 1200Mbps) and is equipped with (1) 2.5G port , (4) 1Gbit ports and (2) external Wi-Fi antennas The router is supplied together with the R11e-LTE7 modem . The modem supports 4G LTE (Cat. 7) and 3G networks, with speeds of up to 300Mbps downlink and 100Mbps uplink . It utilizes 2x2 MIMO on the downlink and carrier aggregation , which allows the simultaneous use of multiple LTE bands . This feature improves response times and connection stability in high-traffic areas and can enhance transmission efficiency in locations with weaker signal conditions Device Power adapter 24V/1.2A UTP patch cable 1.5m","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":159,"fullCartonUnitPriceUsd":159,"imageUrl":"assets/catalog-data/public-images/mikrotik-s53ug-5haxd2haxd-tc-r11e-lte7-16d4303c32.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Sensitivity [dBm] 100 Wireless frequency 2.4 + 5 GHz (dual band), 3G (GSM), LTE WiFi standards 802.11n, 802.11a, 802.11ac, 802.11b/g, 802.11ax Transmission speed - 5GHz [Mb/s] 1201 Transmission speed - 2.4GHz [Mb/s] 574 Tx power 2.4GHz [dBm] 24 Tx power 5GHz [dBm] 24 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Type of antenna Built-in, Detachable Internal antennas 4 Detachable antennas 2 Antenna gain [dBi] 3, 6 Integrated 4G/LTE radio part Yes 4G/LTE bands support (1) 2100 MHz, (3) 1800 MHz, (7) 2600 MHz, (8) 900 MHz, (20) 800 MHz, (38) 2600 MHz, (40) 2300 MHz,… Connectors and Interfaces LAN speed (1) 1G/2.5Gbps + (4) 10/100/1000Mbps Gigabit LAN Yes USB ports 2.0 1 SIM slot Yes SIM slots quantity 1 USB Yes Power Power type DC connector Max. power consumption [W] 22 Power via connector/terminal 12 .. 28V DC Physical characteristics Design Desktop Purpose Indoor Buttons Reset, mode Operating temperature [°C] 40 up to 70 Width [mm] 240 Height [mm] 156 Depth [mm] 44 Hardware CPU IPQ-6010 CPU frequency [MHz] 1800 CPU cores 4 Internal storage [MB] 128 RAM [MB] 1024"}
+{
+  "id": "mikrotik-s53ug-5haxd2haxd-tc-r11e-lte7",
+  "brand": "MikroTik",
+  "sku": "S53UG+5HaxD2HaxD-TC&R11e-LTE7",
+  "title": "MikroTik S53UG+5HaxD2HaxD-TC&R11e-LTE7, Chateau LTE7 ax",
+  "category": "MikroTik / Wireless / 3G/LTE/5G / Routers",
+  "description": "The MikroTik Chateau LTE7 ax is an elegant dual-band Wi-Fi 6 routerboard operating simultaneously in the 2.4GHz and 5GHz bands, delivering a maximum total throughput of up to 1.77Gbps (2.4GHz 2x2 - 574Mbps, 5GHz 2x2 - 1200Mbps) and is equipped with (1) 2.5G port , (4) 1Gbit ports and (2) external Wi-Fi antennas The router is supplied together with the R11e-LTE7 modem . The modem supports 4G LTE (Cat. 7) and 3G networks, with speeds of up to 300Mbps downlink and 100Mbps uplink . It utilizes 2x2 MIMO on the downlink and carrier aggregation , which allows the simultaneous use of multiple LTE bands . This feature improves response times and connection stability in high-traffic areas and can enhance transmission efficiency in locations with weaker signal conditions Device Power adapter 24V/1.2A UTP patch cable 1.5m",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 159,
+  "fullCartonUnitPriceUsd": 159,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-s53ug-5haxd2haxd-tc-r11e-lte7-16d4303c32.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Sensitivity [dBm] 100 Wireless frequency 2.4 + 5 GHz (dual band), 3G (GSM), LTE WiFi standards 802.11n, 802.11a, 802.11ac, 802.11b/g, 802.11ax Transmission speed - 5GHz [Mb/s] 1201 Transmission speed - 2.4GHz [Mb/s] 574 Tx power 2.4GHz [dBm] 24 Tx power 5GHz [dBm] 24 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Type of antenna Built-in, Detachable Internal antennas 4 Detachable antennas 2 Antenna gain [dBi] 3, 6 Integrated 4G/LTE radio part Yes 4G/LTE bands support (1) 2100 MHz, (3) 1800 MHz, (7) 2600 MHz, (8) 900 MHz, (20) 800 MHz, (38) 2600 MHz, (40) 2300 MHz,… Connectors and Interfaces LAN speed (1) 1G/2.5Gbps + (4) 10/100/1000Mbps Gigabit LAN Yes USB ports 2.0 1 SIM slot Yes SIM slots quantity 1 USB Yes Power Power type DC connector Max. power consumption [W] 22 Power via connector/terminal 12 .. 28V DC Physical characteristics Design Desktop Purpose Indoor Buttons Reset, mode Operating temperature [°C] 40 up to 70 Width [mm] 240 Height [mm] 156 Depth [mm] 44 Hardware CPU IPQ-6010 CPU frequency [MHz] 1800 CPU cores 4 Internal storage [MB] 128 RAM [MB] 1024",
+  "stockQtyVisible": 125,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-s53ug-5haxd2haxd-tc-r11e-lte7-chateau-lte7-ax_d131203.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-3g-lte-5g-routers_c16591561.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "3G/LTE/5G",
+    "Routers"
+  ]
+}

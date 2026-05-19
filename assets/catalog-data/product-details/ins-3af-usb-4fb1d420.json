@@ -1,1 +1,27 @@
-{"id":"ubiquiti-ins-3af-usb","brand":"Ubiquiti","sku":"INS-3AF-USB","title":"Ubiquiti INS-3AF-USB - PoE converter 802.3af/5V USB, indoor","category":"Powering / Active PoE / PoE converters","description":"USB converter serve to powering any device by USB port. Its converting 802.3af PoE to 5V/2A with 10W maximum load Important note: converter does not convert data from Ethernet to USB, but only power supply","availability":"In stock","unitPerCarton":150,"warranty":"24 months","displayPriceUsd":18,"fullCartonUnitPriceUsd":17.37,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ins-3af-usb-80a23be286.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Power Output Power / 1port [W] 10 Pin powering 1,2 (+), 3,6 (-) Output Voltage [V] 5"}
+{
+  "id": "ubiquiti-ins-3af-usb",
+  "brand": "Ubiquiti",
+  "sku": "INS-3AF-USB",
+  "title": "Ubiquiti INS-3AF-USB - PoE converter 802.3af/5V USB, indoor",
+  "category": "Ubiquiti / Powering / Active PoE / PoE converters",
+  "description": "USB converter serve to powering any device by USB port. Its converting 802.3af PoE to 5V/2A with 10W maximum load Important note: converter does not convert data from Ethernet to USB, but only power supply",
+  "availability": "In Stock 63 pcs.",
+  "unitPerCarton": 150,
+  "warranty": "24 months",
+  "displayPriceUsd": 18,
+  "fullCartonUnitPriceUsd": 17.37,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ins-3af-usb-80a23be286.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Power Output Power / 1port [W] 10 Pin powering 1,2 (+), 3,6 (-) Output Voltage [V] 5",
+  "stockQtyVisible": 63,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-ins-3af-usb-poe-converter-802-3af-5v-usb-indoor_d82718.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-active-poe-poe-converters_c16591515.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Active PoE",
+    "PoE converters"
+  ]
+}

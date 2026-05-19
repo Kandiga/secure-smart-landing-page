@@ -1,1 +1,27 @@
-{"id":"huawei-sfp-10g-aoc10m","brand":"Huawei","sku":"SFP-10G-AOC10M","title":"Huawei 10G SFP+ AOC optical cable, active, DDM, 10m","category":"Optical networks / DAC and AOC cables / AOC cables","description":"The Huawei active optical cable SFP-10G-AOC10M of Multi Mode type is used for direct connection of two SFP+ ports with a line speed of 10 Gbps. With a length of 10m and a bend radius of 30mm , it is suitable for connecting a pair of active devices, for example, between neighboring cabinets GPSR","availability":"To order / expected","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":161,"fullCartonUnitPriceUsd":161,"imageUrl":"assets/catalog-data/public-images/huawei-sfp-10g-aoc10m-d3863e8042.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Fiber type Multi Mode Format SFP+ Transmission speed 10 Gbps Wavelength - Tx/Rx [nm] 850 AOC/DAC cable type Active Physical characteristics Length [m] 10 Operating temperature [°C] 0 up to 70"}
+{
+  "id": "huawei-sfp-10g-aoc10m",
+  "brand": "Huawei",
+  "sku": "SFP-10G-AOC10M",
+  "title": "Huawei 10G SFP+ AOC optical cable, active, DDM, 10m",
+  "category": "Huawei / Optical networks / DAC and AOC cables / AOC cables",
+  "description": "The Huawei active optical cable SFP-10G-AOC10M of Multi Mode type is used for direct connection of two SFP+ ports with a line speed of 10 Gbps. With a length of 10m and a bend radius of 30mm , it is suitable for connecting a pair of active devices, for example, between neighboring cabinets GPSR",
+  "availability": "Not In Stock",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 161,
+  "fullCartonUnitPriceUsd": 161,
+  "imageUrl": "assets/catalog-data/public-images/huawei-sfp-10g-aoc10m-d3863e8042.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Fiber type Multi Mode Format SFP+ Transmission speed 10 Gbps Wavelength - Tx/Rx [nm] 850 AOC/DAC cable type Active Physical characteristics Length [m] 10 Operating temperature [°C] 0 up to 70",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/huawei-10g-sfp-aoc-optical-cable-active-ddm-10m_d125665.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-optical-networks-dac-and-aoc-cables-aoc-cables_c16591803.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Optical networks",
+    "DAC and AOC cables",
+    "AOC cables"
+  ]
+}

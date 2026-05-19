@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-uplink-sfp28-30m","brand":"Ubiquiti","sku":"UACC-Uplink-SFP28-30M","title":"Ubiquiti UACC-Uplink-SFP28-30M - DAC cable, 1-25 Gbps, 30m","category":"Optical networks / DAC and AOC cables / AOC cables","description":"Passive DAC cable for direct connection between two SFP, SFP+, or SFP28 ports with a link speed of 25 Gbps. This cable is 30 meters long and is also available in 3m or 0.15m variants. The cable is ideal for creating short connections between switches, routers, and other UniFi devices. Supported data rates: 25/10/1 Gbps Compatible with: SFP, SFP+, SFP28 Automatic optimization of link speed and connection stability when interconnecting UniFi devices Cable length: 30m Supported data rates: 25/10/1 Gbps Compatible with: SFP, SFP+, SFP28 Automatic optimization of link speed and connection stability when interconnecting UniFi devices Cable length: 30m","availability":"To order / expected","unitPerCarton":40,"warranty":"24 months","displayPriceUsd":88,"fullCartonUnitPriceUsd":84.92,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-uplink-sfp28-30m-84b4f498f4.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Optics Format SFP, SFP+, SFP28 Transmission speed 1 Gbps, 10 Gbps, 25 Gbps AOC/DAC cable type Passive"}
+{
+  "id": "ubiquiti-uacc-uplink-sfp28-30m",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Uplink-SFP28-30M",
+  "title": "Ubiquiti UACC-Uplink-SFP28-30M - DAC cable, 1-25 Gbps, 30m",
+  "category": "Ubiquiti / Optical networks / DAC and AOC cables / AOC cables",
+  "description": "Passive DAC cable for direct connection between two SFP, SFP+, or SFP28 ports with a link speed of 25 Gbps. This cable is 30 meters long and is also available in 3m or 0.15m variants. The cable is ideal for creating short connections between switches, routers, and other UniFi devices. Supported data rates: 25/10/1 Gbps Compatible with: SFP, SFP+, SFP28 Automatic optimization of link speed and connection stability when interconnecting UniFi devices Cable length: 30m Supported data rates: 25/10/1 Gbps Compatible with: SFP, SFP+, SFP28 Automatic optimization of link speed and connection stability when interconnecting UniFi devices Cable length: 30m",
+  "availability": "Expected 30.6.2026",
+  "unitPerCarton": 40,
+  "warranty": "24 months",
+  "displayPriceUsd": 88,
+  "fullCartonUnitPriceUsd": 84.92,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-uplink-sfp28-30m-84b4f498f4.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Optics Format SFP, SFP+, SFP28 Transmission speed 1 Gbps, 10 Gbps, 25 Gbps AOC/DAC cable type Passive",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-uplink-sfp28-30m-dac-cable-1-25-gbps-30m_d127797.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-dac-and-aoc-cables-aoc-cables_c16591534.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "DAC and AOC cables",
+    "AOC cables"
+  ]
+}

@@ -1,1 +1,25 @@
-{"id":"mikrotik-g1040a-60wf","brand":"MikroTik","sku":"G1040A-60WF","title":"MikroTik G1040A-60WF - Internal power supply 12V, 60W","category":"Wireless / MikroTik / Accessories","description":"CCR2004-16G-2S+ comes with two hot-swap dual redundant power supplies. If one of them goes out of order at some point, the other one will take over. Then you can use this kit to replace the old power supply â and you donât even have to restart the router! The total power is 60W with an output voltage of 12V and a maximum current of 5A CCR2004-16G-2S+ CRS510-8XS-2XQ-IN","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":47,"fullCartonUnitPriceUsd":47,"imageUrl":"assets/catalog-data/public-images/mikrotik-g1040a-60wf-edb5ebd3a9.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "mikrotik-g1040a-60wf",
+  "brand": "MikroTik",
+  "sku": "G1040A-60WF",
+  "title": "MikroTik G1040A-60WF - Internal power supply 12V, 60W",
+  "category": "MikroTik / Wireless / Accessories",
+  "description": "CCR2004-16G-2S+ comes with two hot-swap dual redundant power supplies. If one of them goes out of order at some point, the other one will take over. Then you can use this kit to replace the old power supply â and you donât even have to restart the router! The total power is 60W with an output voltage of 12V and a maximum current of 5A CCR2004-16G-2S+ CRS510-8XS-2XQ-IN",
+  "availability": "In Stock 9 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 47,
+  "fullCartonUnitPriceUsd": 47,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-g1040a-60wf-edb5ebd3a9.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 9,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-g1040a-60wf-internal-power-supply-12v-60w_d113249.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-accessories_c16588567.html?page=2",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Accessories"
+  ]
+}

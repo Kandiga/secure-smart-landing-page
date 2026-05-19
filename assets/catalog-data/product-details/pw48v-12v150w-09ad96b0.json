@@ -1,1 +1,25 @@
-{"id":"mikrotik-pw48v-12v150w","brand":"MikroTik","sku":"PW48V-12V150W","title":"MikroTik PW48V-12V150W Hot Swap power supply for CCR1072-1G-8S+, -48V, 150W","category":"Wireless / MikroTik / Accessories","description":"We are now offering a Hot Swap -48V DC telecom power supply (product code PW48V-12V150W), available to purchase separately for use with CCR1072. Simply remove one of the current power supplies and replace with the new PW48V-12V150W for -48V installations - simple and easy. You don't even need to turn off the device","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":94,"fullCartonUnitPriceUsd":94,"imageUrl":"assets/catalog-data/public-images/mikrotik-pw48v-12v150w-8e7ff2a3e5.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "mikrotik-pw48v-12v150w",
+  "brand": "MikroTik",
+  "sku": "PW48V-12V150W",
+  "title": "MikroTik PW48V-12V150W Hot Swap power supply for CCR1072-1G-8S+, -48V, 150W",
+  "category": "MikroTik / Wireless / Accessories",
+  "description": "We are now offering a Hot Swap -48V DC telecom power supply (product code PW48V-12V150W), available to purchase separately for use with CCR1072. Simply remove one of the current power supplies and replace with the new PW48V-12V150W for -48V installations - simple and easy. You don't even need to turn off the device",
+  "availability": "In Stock 3 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 94,
+  "fullCartonUnitPriceUsd": 94,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-pw48v-12v150w-8e7ff2a3e5.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 3,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-pw48v-12v150w-hot-swap-power-supply-for-ccr1072-1g-8s-48v-150w_d82836.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-accessories_c16588567.html?page=2",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Accessories"
+  ]
+}

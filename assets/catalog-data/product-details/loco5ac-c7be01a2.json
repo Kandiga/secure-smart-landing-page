@@ -1,1 +1,26 @@
-{"id":"ubiquiti-loco5ac","brand":"Ubiquiti","sku":"Loco5AC","title":"Ubiquiti NanoStation 5AC Loco, Loco5AC","category":"Wireless / Outdoor units / AirMAX AC","description":"The NanoStation AC and NanoStation AC loco represent the next evolution of the iconic CPE design that revolutionized the Wireless ISP industry. NanoStation 5AC Loco is a very small, 13dBi airMAX ac outdoor CPE unit, with high speed throughput","availability":"In stock","unitPerCarton":20,"warranty":"To be confirmed","displayPriceUsd":54,"fullCartonUnitPriceUsd":52.11,"imageUrl":null,"documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-loco5ac",
+  "brand": "Ubiquiti",
+  "sku": "Loco5AC",
+  "title": "Ubiquiti NanoStation 5AC Loco, Loco5AC",
+  "category": "Ubiquiti / Wireless / Outdoor units / AirMAX AC",
+  "description": "The NanoStation AC and NanoStation AC loco represent the next evolution of the iconic CPE design that revolutionized the Wireless ISP industry. NanoStation 5AC Loco is a very small, 13dBi airMAX ac outdoor CPE unit, with high speed throughput",
+  "availability": "In Stock 91 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "To be confirmed",
+  "displayPriceUsd": 54,
+  "fullCartonUnitPriceUsd": 52.11,
+  "imageUrl": null,
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 91,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-nanostation-5ac-loco-loco5ac_d82886.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-outdoor-units-airmax-ac_c16591471.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Outdoor units",
+    "AirMAX AC"
+  ]
+}

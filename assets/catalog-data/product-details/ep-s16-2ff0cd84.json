@@ -1,1 +1,27 @@
-{"id":"ubiquiti-ep-s16","brand":"Ubiquiti","sku":"EP-S16","title":"Ubiquiti EP-S16, EdgePoint WISP switch, 16x GLAN, 2x SFP/SFP+","category":"LAN networks / Switches / Edge Switches","description":"Ubiquiti EdgePoint EP-S16 is an Gigabit L2/L3 outdoor switch with output POE on all 16 ports and input POE on the first two ports. With this product, you no longer have to pull the cables from the roof to the lower floors for each active element separately, or invent a complex solution including an outdoor cabinet, switch installation, power and POE. You now have all in one The device is very rich and includes (16) 10/100/1000Mbps Ethernet ports with PoE, (2) SFP/SFP+ 1/10Gbps ports, (1) serial RJ45 port and DC terminal block for direct power connection. The whole device is powered by an ARM processor Cortex-A9 with a 400MHz clock , 256MB RAM and 32MB of internal storage POE IN - Ethernet power supply for the EdgePoint EP-S16 has its limits, and for multiple connected devices it is recommended to use DC terminal power supply. If necessary, ports 1 and 2 are designated for POE IN purpose. The whole unit is powered via passive POE 54V / 1.5A by wires (+1, 2, 4, 5; -3, 6, 7, 8). If POE IN is used on ports 1 or 2, it is not possible to use the POE Out function on these ports POE Out - Ports are divided into two groups according to consumption and at the same time according to the wires over which the power is routed The first port group 1-4 supports passive POE 54V or 24V / 1.4A and is powered on all wires (+1, 2, 4, 5; -3, 6, 7, 8). These ports are designed to power eg AF-5X units The second port group 5-16 supports 802.3af/at or passive 24V / 0.7A . The passive POE is a power supply on the wires (+4, 5; -7, 8). Suitable for: PowerBeam units and cameras Designed for…","availability":"To order / expected","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":649,"fullCartonUnitPriceUsd":626.29,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ep-s16-9b95a02926.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (16) 10/100/1000Mbps Optical interfaces (2) 1G/10Gbps Serial port RJ45 Power Power type PoE, DC terminal PoE type PoE-Out + PoE-In PoE-Out standards 802.3af, 802.3at, Passive 24V, Passive 48V PoE Out ports 16 Max. power consumption [W] 40 Power via connector/terminal 42 .. 56V DC Physical characteristics Design Outdoor Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 20 up to 65 Width [mm] 326 Height [mm] 382 Depth [mm] 88 General MAC address table 16000"}
+{
+  "id": "ubiquiti-ep-s16",
+  "brand": "Ubiquiti",
+  "sku": "EP-S16",
+  "title": "Ubiquiti EP-S16, EdgePoint WISP switch, 16x GLAN, 2x SFP/SFP+",
+  "category": "Ubiquiti / LAN networks / Switches / Edge Switches",
+  "description": "Ubiquiti EdgePoint EP-S16 is an Gigabit L2/L3 outdoor switch with output POE on all 16 ports and input POE on the first two ports. With this product, you no longer have to pull the cables from the roof to the lower floors for each active element separately, or invent a complex solution including an outdoor cabinet, switch installation, power and POE. You now have all in one The device is very rich and includes (16) 10/100/1000Mbps Ethernet ports with PoE, (2) SFP/SFP+ 1/10Gbps ports, (1) serial RJ45 port and DC terminal block for direct power connection. The whole device is powered by an ARM processor Cortex-A9 with a 400MHz clock , 256MB RAM and 32MB of internal storage POE IN - Ethernet power supply for the EdgePoint EP-S16 has its limits, and for multiple connected devices it is recommended to use DC terminal power supply. If necessary, ports 1 and 2 are designated for POE IN purpose. The whole unit is powered via passive POE 54V / 1.5A by wires (+1, 2, 4, 5; -3, 6, 7, 8). If POE IN is used on ports 1 or 2, it is not possible to use the POE Out function on these ports POE Out - Ports are divided into two groups according to consumption and at the same time according to the wires over which the power is routed The first port group 1-4 supports passive POE 54V or 24V / 1.4A and is powered on all wires (+1, 2, 4, 5; -3, 6, 7, 8). These ports are designed to power eg AF-5X units The second port group 5-16 supports 802.3af/at or passive 24V / 0.7A . The passive POE is a power supply on the wires (+4, 5; -7, 8). Suitable for: PowerBeam units and cameras Designed for…",
+  "availability": "Expected 21.5.2026",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 649,
+  "fullCartonUnitPriceUsd": 626.29,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ep-s16-9b95a02926.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (16) 10/100/1000Mbps Optical interfaces (2) 1G/10Gbps Serial port RJ45 Power Power type PoE, DC terminal PoE type PoE-Out + PoE-In PoE-Out standards 802.3af, 802.3at, Passive 24V, Passive 48V PoE Out ports 16 Max. power consumption [W] 40 Power via connector/terminal 42 .. 56V DC Physical characteristics Design Outdoor Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 20 up to 65 Width [mm] 326 Height [mm] 382 Depth [mm] 88 General MAC address table 16000",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-ep-s16-edgepoint-wisp-switch-16x-glan-2x-sfp-sfp-_d71828.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-edge-switches_c16172907.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "Edge Switches"
+  ]
+}

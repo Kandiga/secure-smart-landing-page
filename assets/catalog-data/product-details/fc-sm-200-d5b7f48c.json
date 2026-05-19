@@ -1,1 +1,27 @@
-{"id":"ubiquiti-fc-sm-200","brand":"Ubiquiti","sku":"FC-SM-200","title":"Ubiquiti FC-SM-200, Fiber Cable, Single Mode, 200' (60m)","category":"Optical networks / Patch cords / Single Mode","description":"FC-SM-200 is 60 meter outdoor single mode optical cable with 6 LC connectors on each side. With this cable you save the cost of renting an optical splicer and related material. The cable is suitable, for example, for galvanic isolation of an indoor router / switch and an outdoor unit","availability":"In stock","unitPerCarton":5,"warranty":"24 months","displayPriceUsd":99,"fullCartonUnitPriceUsd":95.54,"imageUrl":"assets/catalog-data/public-images/ubiquiti-fc-sm-200-b841585b0a.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Optics Number of fibers 6 Fiber type Single Mode Core diameter [µm] 9/125 Connectors and Interfaces Optical Connectors LC - LC"}
+{
+  "id": "ubiquiti-fc-sm-200",
+  "brand": "Ubiquiti",
+  "sku": "FC-SM-200",
+  "title": "Ubiquiti FC-SM-200, Fiber Cable, Single Mode, 200' (60m)",
+  "category": "Ubiquiti / Optical networks / Patch cords / Single Mode",
+  "description": "FC-SM-200 is 60 meter outdoor single mode optical cable with 6 LC connectors on each side. With this cable you save the cost of renting an optical splicer and related material. The cable is suitable, for example, for galvanic isolation of an indoor router / switch and an outdoor unit",
+  "availability": "In Stock 28 pcs.",
+  "unitPerCarton": 5,
+  "warranty": "24 months",
+  "displayPriceUsd": 99,
+  "fullCartonUnitPriceUsd": 95.54,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-fc-sm-200-b841585b0a.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Optics Number of fibers 6 Fiber type Single Mode Core diameter [µm] 9/125 Connectors and Interfaces Optical Connectors LC - LC",
+  "stockQtyVisible": 28,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-fc-sm-200-fiber-cable-single-mode-200-60m-_d77369.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-patch-cords-single-mode_c16591473.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "Patch cords",
+    "Single Mode"
+  ]
+}

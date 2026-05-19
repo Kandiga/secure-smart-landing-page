@@ -1,1 +1,27 @@
-{"id":"ubiquiti-poe-48-24w-g","brand":"Ubiquiti","sku":"POE-48-24W-G","title":"Ubiquiti POE-48-24W-G, Gigabit PoE Injector, 48V/0.5A (24W)","category":"Powering / Pasive PoE / PoE injectors","description":"High-quality, stabilized Gigabit PoE power adapter with earthing, LED indication and output voltage 48V and max. current 0.5A. The maximum output power is 24W PoE adapter Power cord","availability":"In stock","unitPerCarton":50,"warranty":"24 months","displayPriceUsd":15,"fullCartonUnitPriceUsd":14.48,"imageUrl":"assets/catalog-data/public-images/ubiquiti-poe-48-24w-g-efe19e46c1.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power The input voltage [V] 230V AC Output Power [W] 24 Pin powering 4,5 (+), 7,8 (-) PoE Out ports 1 Output Voltage [V] 48 Output Current [A] 0,5 Efficiency [%] 80+"}
+{
+  "id": "ubiquiti-poe-48-24w-g",
+  "brand": "Ubiquiti",
+  "sku": "POE-48-24W-G",
+  "title": "Ubiquiti POE-48-24W-G, Gigabit PoE Injector, 48V/0.5A (24W)",
+  "category": "Ubiquiti / Powering / Pasive PoE / PoE injectors",
+  "description": "High-quality, stabilized Gigabit PoE power adapter with earthing, LED indication and output voltage 48V and max. current 0.5A. The maximum output power is 24W PoE adapter Power cord",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 50,
+  "warranty": "24 months",
+  "displayPriceUsd": 15,
+  "fullCartonUnitPriceUsd": 14.48,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-poe-48-24w-g-efe19e46c1.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power The input voltage [V] 230V AC Output Power [W] 24 Pin powering 4,5 (+), 7,8 (-) PoE Out ports 1 Output Voltage [V] 48 Output Current [A] 0,5 Efficiency [%] 80+",
+  "stockQtyVisible": 111,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-poe-48-24w-g-gigabit-poe-injector-48v-0-5a-24w-_d50002.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-pasive-poe-poe-injectors_c16591506.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Pasive PoE",
+    "PoE injectors"
+  ]
+}

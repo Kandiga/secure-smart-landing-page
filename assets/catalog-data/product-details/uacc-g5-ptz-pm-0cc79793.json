@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-g5-ptz-pm","brand":"Ubiquiti","sku":"UACC-G5-PTZ-PM","title":"Ubiquiti G5 PTZ - Pendant mount for UVC-G5-PTZ","category":"Cameras, security / Mounting boxes and brackets / Mast boxes","description":"Pendant mount designed for the Ubiquiti UniFi G5 PTZ camera. It is weather-resistant and features an internal G3/4\" thread","availability":"In stock","unitPerCarton":60,"warranty":"24 months","displayPriceUsd":22,"fullCartonUnitPriceUsd":21.23,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-g5-ptz-pm-6f97806532.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-g5-ptz-pm",
+  "brand": "Ubiquiti",
+  "sku": "UACC-G5-PTZ-PM",
+  "title": "Ubiquiti G5 PTZ - Pendant mount for UVC-G5-PTZ",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Mast boxes",
+  "description": "Pendant mount designed for the Ubiquiti UniFi G5 PTZ camera. It is weather-resistant and features an internal G3/4\" thread",
+  "availability": "In Stock 41 pcs.",
+  "unitPerCarton": 60,
+  "warranty": "24 months",
+  "displayPriceUsd": 22,
+  "fullCartonUnitPriceUsd": 21.23,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-g5-ptz-pm-6f97806532.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 41,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-g5-ptz-pendant-mount-for-uvc-g5-ptz_d127594.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-mast-boxes_c16588812.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Mast boxes"
+  ]
+}

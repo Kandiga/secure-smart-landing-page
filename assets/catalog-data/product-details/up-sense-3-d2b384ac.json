@@ -1,1 +1,27 @@
-{"id":"ubiquiti-up-sense-3","brand":"Ubiquiti","sku":"UP-Sense-3","title":"Ubiquiti UP-Sense-3 - UniFi Protect Smart Sensor, 3-pack","category":"IoT, SMART / Smart security / Motion sensors","description":"The UniFi Protect Smart Sensor is a battery-powered intelligent multi-sensor that detects motion and other environmental conditions such as humidity, temperature, light and more. The sensor transmits sensory data and alerts via Bluetooth to the UniFi Protect ecosystem Motion sensor (maximum range 5 m) Magnetic entry sensor for door or window open/close Accelerometer for garage door open/close Temperature sensor Humidity sensor Ambient light sensor Alarm sound sensor (detects UL217 and UL2034 alarm patterns) Water sensor for detecting leaks and floods (requires water sensor adapter accessory, only available in 3-pack at general release) BLE connectivity from Access Point in indoor setting (recommended range 15 m, performance will vary based on environment) For deployment and operation of the intelligent sensor, a UniFi Access Point with Bluetooth support or a SuperLink Gateway is required (3) Device (3)Magnetic contact (3) Adapter for water sensor","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":186,"fullCartonUnitPriceUsd":179.49,"imageUrl":"assets/catalog-data/public-images/ubiquiti-up-sense-3-e9c253982f.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Tx power 2.4GHz [dBm] 5 Antenna gain [dBi] < 2"}
+{
+  "id": "ubiquiti-up-sense-3",
+  "brand": "Ubiquiti",
+  "sku": "UP-Sense-3",
+  "title": "Ubiquiti UP-Sense-3 - UniFi Protect Smart Sensor, 3-pack",
+  "category": "Ubiquiti / IoT, SMART / Smart Home / Sensors",
+  "description": "The UniFi Protect Smart Sensor is a battery-powered intelligent multi-sensor that detects motion and other environmental conditions such as humidity, temperature, light and more. The sensor transmits sensory data and alerts via Bluetooth to the UniFi Protect ecosystem Motion sensor (maximum range 5 m) Magnetic entry sensor for door or window open/close Accelerometer for garage door open/close Temperature sensor Humidity sensor Ambient light sensor Alarm sound sensor (detects UL217 and UL2034 alarm patterns) Water sensor for detecting leaks and floods (requires water sensor adapter accessory, only available in 3-pack at general release) BLE connectivity from Access Point in indoor setting (recommended range 15 m, performance will vary based on environment) For deployment and operation of the intelligent sensor, a UniFi Access Point with Bluetooth support or a SuperLink Gateway is required (3) Device (3)Magnetic contact (3) Adapter for water sensor",
+  "availability": "In Stock 22 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 186,
+  "fullCartonUnitPriceUsd": 179.49,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-up-sense-3-e9c253982f.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Tx power 2.4GHz [dBm] 5 Antenna gain [dBi] < 2",
+  "stockQtyVisible": 22,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-up-sense-3-unifi-protect-smart-sensor-3-pack_d116790.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-iot-smart-smart-home-sensors_c16591479.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "IoT, SMART",
+    "Smart Home",
+    "Sensors"
+  ]
+}

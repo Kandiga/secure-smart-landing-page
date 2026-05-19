@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-rack-shelf-tl","brand":"Ubiquiti","sku":"UACC-Rack-Shelf-TL","title":"Ubiquiti UACC-Rack-Shelf-TL for U-Rack-6U-TL","category":"Cabinets / Accessories / Shelves","description":"Shelf for devices that are not intended for rack mounting. Compatible with U-Rack-6U-TL Easy installation without the use of tools Robust design with a weight capacity of up to 20 kg","availability":"To order / expected","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":60,"fullCartonUnitPriceUsd":57.9,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-rack-shelf-tl-efa35a1491.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-rack-shelf-tl",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Rack-Shelf-TL",
+  "title": "Ubiquiti UACC-Rack-Shelf-TL for U-Rack-6U-TL",
+  "category": "Ubiquiti / Cabinets / Accessories / Shelves",
+  "description": "Shelf for devices that are not intended for rack mounting. Compatible with U-Rack-6U-TL Easy installation without the use of tools Robust design with a weight capacity of up to 20 kg",
+  "availability": "Ordered, unknown date",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 60,
+  "fullCartonUnitPriceUsd": 57.9,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-rack-shelf-tl-efa35a1491.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-rack-shelf-tl-for-u-rack-6u-tl_d128404.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cabinets-accessories-shelves_c16591894.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cabinets",
+    "Accessories",
+    "Shelves"
+  ]
+}

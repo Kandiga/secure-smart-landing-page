@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-u7-pro-xg-wall-ts","brand":"Ubiquiti","sku":"UACC-U7-Pro-XG-Wall-TS","title":"Ubiquiti UACC-U7-Pro-XG-Wall-TS, Table stand for U7 Pro XG Wall","category":"Wireless / Accessories / Mounting brackets","description":"Elegant table stand for a U7 Pro XG Wall","availability":"In stock","unitPerCarton":15,"warranty":"24 months","displayPriceUsd":45,"fullCartonUnitPriceUsd":43.43,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-u7-pro-xg-wall-ts-4be26f99d8.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-u7-pro-xg-wall-ts",
+  "brand": "Ubiquiti",
+  "sku": "UACC-U7-Pro-XG-Wall-TS",
+  "title": "Ubiquiti UACC-U7-Pro-XG-Wall-TS, Table stand for U7 Pro XG Wall",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "Elegant table stand for a U7 Pro XG Wall",
+  "availability": "In Stock 15 pcs.",
+  "unitPerCarton": 15,
+  "warranty": "24 months",
+  "displayPriceUsd": 45,
+  "fullCartonUnitPriceUsd": 43.43,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-u7-pro-xg-wall-ts-4be26f99d8.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 15,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-u7-pro-xg-wall-ts-table-stand-for-u7-pro-xg-wall_d131181.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

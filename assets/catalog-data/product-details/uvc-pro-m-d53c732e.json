@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uvc-pro-m","brand":"Ubiquiti","sku":"UVC-Pro-M","title":"Ubiquiti UVC-Pro-M - large pole-mount accessory for one or two UVC-Pro","category":"Cameras, security / Mounting boxes and brackets / Mast boxes","description":"UBNT UVC-Pro-M is a metal mast holder with a maximum diameter of 160mm for mounting 1-2 UBNT UVC-Pro cameras Industrial design Designed for 160mm mast Up to 2 cameras","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":30,"fullCartonUnitPriceUsd":30,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-pro-m-c7aa75608f.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "ubiquiti-uvc-pro-m",
+  "brand": "Ubiquiti",
+  "sku": "UVC-Pro-M",
+  "title": "Ubiquiti UVC-Pro-M - large pole-mount accessory for one or two UVC-Pro",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Mast boxes",
+  "description": "UBNT UVC-Pro-M is a metal mast holder with a maximum diameter of 160mm for mounting 1-2 UBNT UVC-Pro cameras Industrial design Designed for 160mm mast Up to 2 cameras",
+  "availability": "In Stock 47 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 30,
+  "fullCartonUnitPriceUsd": 30,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-pro-m-c7aa75608f.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 47,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uvc-pro-m-large-pole-mount-accessory-for-one-or-two-uvc-pro_d61107.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-mast-boxes_c16588812.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Mast boxes"
+  ]
+}

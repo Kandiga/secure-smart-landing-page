@@ -1,1 +1,27 @@
-{"id":"ubiquiti-poe-54v-80w","brand":"Ubiquiti","sku":"POE-54V-80W","title":"Ubiquiti POE-54V-80W, Gigabit PoE Injector for EdgePoint, 54V/1.5A (80W)","category":"Powering / Pasive PoE / PoE injectors","description":"High-quality, stabilized Gigabit PoE power adapter with earthing, LED indication and output voltage 50V and max. current 1.5A. The maximum output power is 80W. It is not backward compatible with 100Mbps devices due to the power supply that runs through all 8 pins PoE adapter Power cord","availability":"In stock","unitPerCarton":50,"warranty":"24 months","displayPriceUsd":30,"fullCartonUnitPriceUsd":28.95,"imageUrl":"assets/catalog-data/public-images/ubiquiti-poe-54v-80w-5ca4b0fd75.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power The input voltage [V] 230V AC Output Power [W] 80 Pin powering 1,2,4,5 (+), 3,6,7,8 (-) PoE Out ports 1 Output Voltage [V] 54 Output Current [A] 1,5 Efficiency [%] 85+"}
+{
+  "id": "ubiquiti-poe-54v-80w",
+  "brand": "Ubiquiti",
+  "sku": "POE-54V-80W",
+  "title": "Ubiquiti POE-54V-80W, Gigabit PoE Injector for EdgePoint, 54V/1.5A (80W)",
+  "category": "Ubiquiti / Powering / Pasive PoE / PoE injectors",
+  "description": "High-quality, stabilized Gigabit PoE power adapter with earthing, LED indication and output voltage 50V and max. current 1.5A. The maximum output power is 80W. It is not backward compatible with 100Mbps devices due to the power supply that runs through all 8 pins PoE adapter Power cord",
+  "availability": "In Stock 8 pcs.",
+  "unitPerCarton": 50,
+  "warranty": "24 months",
+  "displayPriceUsd": 30,
+  "fullCartonUnitPriceUsd": 28.95,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-poe-54v-80w-5ca4b0fd75.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power The input voltage [V] 230V AC Output Power [W] 80 Pin powering 1,2,4,5 (+), 3,6,7,8 (-) PoE Out ports 1 Output Voltage [V] 54 Output Current [A] 1,5 Efficiency [%] 85+",
+  "stockQtyVisible": 8,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-poe-54v-80w-gigabit-poe-injector-for-edgepoint-54v-1-5a-80w-_d71835.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-pasive-poe-poe-injectors_c16591506.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Pasive PoE",
+    "PoE injectors"
+  ]
+}

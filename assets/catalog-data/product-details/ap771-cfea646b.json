@@ -1,1 +1,27 @@
-{"id":"huawei-ap771","brand":"Huawei","sku":"AP771","title":"Huawei AP771 Outdoor Dual Band WiFi 7 AP","category":"Wireless / Access Points / Huawei eKit","description":"Huawei eKitEngine AP771 is a high-performance outdoor omnidirectional Wi-Fi 7 access point . It operates simultaneously in two bands ( 2.4GHz and 5GHz ) and features modern technologies such as MU-MIMO , 4096-QAM , Multi-RU , OFDMA , MLO and preamble puncturing . The AP is equipped with a durable, fully sealed enclosure with IP65 protection. It provides connectivity with a total throughput of up to 3.57Gbps and has a maximum power consumption of 18.8W Wi-Fi 7 (802.11be) - extremely fast and stable connectivity Total throughput up to 3.57Gbps - 0.69Gbps on 2.4GHz (2Ã2) and 2.88Gbps on 5GHz (2Ã2) (1) 2.5G PoE+ port with 802.3at/af PoE+ support (functions are limited when using 802.3af) Coverage radius up to 130 meters thanks to built-in omnidirectional antennas Support for Fit / Fat / Cloud modes - flexible deployment in various environments Easy deployment and management via the HUAWEI eKit application IP65 weather-resistant enclosure and 6kA surge protection on the Ethernet port","availability":"In stock","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":177,"fullCartonUnitPriceUsd":177,"imageUrl":"assets/catalog-data/public-images/huawei-ap771-f09a7c858f.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Maximum modulation 4096 QAM Wireless frequency 2.4 + 5 GHz (dual band) WiFi standards 802.11n, 802.11a, 802.11ac, 802.11b/g, 802.11ax, 802.11be MU-MIMO Yes Transmission speed - 5GHz [Mb/s] 2880 Transmission speed - 2.4GHz [Mb/s] 688 Tx power 2.4GHz [dBm] 28 Tx power 5GHz [dBm] 27 Security WPA, WPA2, WPA3 Azimuth beam width (-6dB) [°] 360 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Type of antenna Built-in Roaming Yes Antenna gain [dBi] 7 Connectors and Interfaces LAN speed (1) 100/1000/2500Mbps Gigabit LAN Yes Power Power over Ethernet 802.3af, 802.3at PoE type PoE-In (only) Max. power consumption [W] 18.8 Physical characteristics Purpose Outdoor Buttons Reset Operating temperature [°C] 30 up to 60 Weight [g] 1140 Width [mm] 196 Height [mm] 270 Depth [mm] 51"}
+{
+  "id": "huawei-ap771",
+  "brand": "Huawei",
+  "sku": "AP771",
+  "title": "Huawei AP771 Outdoor Dual Band WiFi 7 AP",
+  "category": "Huawei / Wireless / Access Points / Huawei eKit",
+  "description": "Huawei eKitEngine AP771 is a high-performance outdoor omnidirectional Wi-Fi 7 access point . It operates simultaneously in two bands ( 2.4GHz and 5GHz ) and features modern technologies such as MU-MIMO , 4096-QAM , Multi-RU , OFDMA , MLO and preamble puncturing . The AP is equipped with a durable, fully sealed enclosure with IP65 protection. It provides connectivity with a total throughput of up to 3.57Gbps and has a maximum power consumption of 18.8W Wi-Fi 7 (802.11be) - extremely fast and stable connectivity Total throughput up to 3.57Gbps - 0.69Gbps on 2.4GHz (2Ã2) and 2.88Gbps on 5GHz (2Ã2) (1) 2.5G PoE+ port with 802.3at/af PoE+ support (functions are limited when using 802.3af) Coverage radius up to 130 meters thanks to built-in omnidirectional antennas Support for Fit / Fat / Cloud modes - flexible deployment in various environments Easy deployment and management via the HUAWEI eKit application IP65 weather-resistant enclosure and 6kA surge protection on the Ethernet port",
+  "availability": "In Stock 8 pcs.",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 177,
+  "fullCartonUnitPriceUsd": 177,
+  "imageUrl": "assets/catalog-data/public-images/huawei-ap771-f09a7c858f.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Maximum modulation 4096 QAM Wireless frequency 2.4 + 5 GHz (dual band) WiFi standards 802.11n, 802.11a, 802.11ac, 802.11b/g, 802.11ax, 802.11be MU-MIMO Yes Transmission speed - 5GHz [Mb/s] 2880 Transmission speed - 2.4GHz [Mb/s] 688 Tx power 2.4GHz [dBm] 28 Tx power 5GHz [dBm] 27 Security WPA, WPA2, WPA3 Azimuth beam width (-6dB) [°] 360 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Type of antenna Built-in Roaming Yes Antenna gain [dBi] 7 Connectors and Interfaces LAN speed (1) 100/1000/2500Mbps Gigabit LAN Yes Power Power over Ethernet 802.3af, 802.3at PoE type PoE-In (only) Max. power consumption [W] 18.8 Physical characteristics Purpose Outdoor Buttons Reset Operating temperature [°C] 30 up to 60 Weight [g] 1140 Width [mm] 196 Height [mm] 270 Depth [mm] 51",
+  "stockQtyVisible": 8,
+  "discompProductUrl": "https://www.discomp.cz/huawei-ap771-outdoor-dual-band-wifi-7-ap_d130966.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-wireless-access-points-huawei-ekit_c16591763.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Wireless",
+    "Access Points",
+    "Huawei eKit"
+  ]
+}

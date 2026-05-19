@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-ucg-industrial-rm","brand":"Ubiquiti","sku":"UACC-UCG-Industrial-RM","title":"Ubiquiti UACC-UCG-Industrial-RM, Rack mount for UCG-Industrial","category":"Wireless / Accessories / Mounting brackets","description":"The Ubiquiti UACC-UCG-Industrial-RM is designed to mount (1) UniFi Cloud Gateway Industrial (UCG-Industrial) into a 19\" rack . The longer mount includes a practical holder for the power adapter","availability":"In stock","unitPerCarton":5,"warranty":"24 months","displayPriceUsd":81,"fullCartonUnitPriceUsd":78.17,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-ucg-industrial-rm-4428a5d235.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-ucg-industrial-rm",
+  "brand": "Ubiquiti",
+  "sku": "UACC-UCG-Industrial-RM",
+  "title": "Ubiquiti UACC-UCG-Industrial-RM, Rack mount for UCG-Industrial",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "The Ubiquiti UACC-UCG-Industrial-RM is designed to mount (1) UniFi Cloud Gateway Industrial (UCG-Industrial) into a 19\" rack . The longer mount includes a practical holder for the power adapter",
+  "availability": "In Stock 8 pcs.",
+  "unitPerCarton": 5,
+  "warranty": "24 months",
+  "displayPriceUsd": 81,
+  "fullCartonUnitPriceUsd": 78.17,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-ucg-industrial-rm-4428a5d235.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 8,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-ucg-industrial-rm-rack-mount-for-ucg-industrial_d131628.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

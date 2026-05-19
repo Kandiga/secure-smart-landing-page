@@ -1,1 +1,27 @@
-{"id":"huawei-s210i-8p4sx","brand":"Huawei","sku":"S210I-8P4SX","title":"Huawei S210I-8P4SX Gigabit PoE smart industrial switch, 2x SFP, 2x SFP+, redundant power","category":"LAN networks / Switches / eKit Switches","description":"Huawei eKitEngine S210I-8P4SX is an industrial L2 switch with an extended temperature range, designed for demanding environments and installation in outdoor or industrial enclosures. It offers 8x 10/100/1000BASE-T PoE+ ports for powering connected devices, 2x GE SFP and 2x 10GE SFP+ uplink ports , and 1x DI/DO interface . It supports both local web interface and cloud management (SNC / eKit App) . Thanks to its passive cooling , IP40 protection , and wide input voltage range of 9.6 - 60V DC ,… 8x GLAN with PoE+ support with a total power budget of up to 240 W 2x GE SFP + 2x 10GE SFP+ uplink ports 1x DI/DO interface for integration into industrial solutions Passive cooling â silent operation, no fans Industrial design : IP40 protection, surge, reverse polarity, and overheating protection Redundant power supply : supports 1+1 hot backup Advanced features : STP/PSTP, ERPS, link aggregation, industrial protocol prioritization (PROFINET, GOOSE) Perpetual PoE â ensures uninterrupted power supply to connected devices (PD) even during switch reboot or upgrade Device 1x 5-pin Phoenix connector for DI/DO ports","availability":"In stock","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":232,"fullCartonUnitPriceUsd":232,"imageUrl":"assets/catalog-data/public-images/huawei-s210i-8p4sx-940d469ad5.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces LAN speed (8) 10/100/1000Mbps Optical interfaces (2) 1000Mbps + (2) 10Gbps Power Power type DC terminal PoE-Out standards 802.3af, 802.3at Redundant power supply Yes PoE Out ports 8 PoE budget [W] 240 Max. power consumption [W] 16 Power via connector/terminal (2) 9,6 .. 60V DC Physical characteristics Design DIN rail, Industry Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 40 up to 75 Width [mm] 44 Height [mm] 150 Depth [mm] 133 General Switchning capacity [Gbps] 60 Packet forwarding rate [Mpps] 44"}
+{
+  "id": "huawei-s210i-8p4sx",
+  "brand": "Huawei",
+  "sku": "S210I-8P4SX",
+  "title": "Huawei S210I-8P4SX Gigabit PoE smart industrial switch, 2x SFP, 2x SFP+, redundant power",
+  "category": "Huawei / LAN networks / Switches / eKit Switches",
+  "description": "Huawei eKitEngine S210I-8P4SX is an industrial L2 switch with an extended temperature range, designed for demanding environments and installation in outdoor or industrial enclosures. It offers 8x 10/100/1000BASE-T PoE+ ports for powering connected devices, 2x GE SFP and 2x 10GE SFP+ uplink ports , and 1x DI/DO interface . It supports both local web interface and cloud management (SNC / eKit App) . Thanks to its passive cooling , IP40 protection , and wide input voltage range of 9.6 - 60V DC ,… 8x GLAN with PoE+ support with a total power budget of up to 240 W 2x GE SFP + 2x 10GE SFP+ uplink ports 1x DI/DO interface for integration into industrial solutions Passive cooling â silent operation, no fans Industrial design : IP40 protection, surge, reverse polarity, and overheating protection Redundant power supply : supports 1+1 hot backup Advanced features : STP/PSTP, ERPS, link aggregation, industrial protocol prioritization (PROFINET, GOOSE) Perpetual PoE â ensures uninterrupted power supply to connected devices (PD) even during switch reboot or upgrade Device 1x 5-pin Phoenix connector for DI/DO ports",
+  "availability": "In Stock 43 pcs.",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 232,
+  "fullCartonUnitPriceUsd": 232,
+  "imageUrl": "assets/catalog-data/public-images/huawei-s210i-8p4sx-940d469ad5.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces LAN speed (8) 10/100/1000Mbps Optical interfaces (2) 1000Mbps + (2) 10Gbps Power Power type DC terminal PoE-Out standards 802.3af, 802.3at Redundant power supply Yes PoE Out ports 8 PoE budget [W] 240 Max. power consumption [W] 16 Power via connector/terminal (2) 9,6 .. 60V DC Physical characteristics Design DIN rail, Industry Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 40 up to 75 Width [mm] 44 Height [mm] 150 Depth [mm] 133 General Switchning capacity [Gbps] 60 Packet forwarding rate [Mpps] 44",
+  "stockQtyVisible": 43,
+  "discompProductUrl": "https://www.discomp.cz/huawei-s210i-8p4sx-gigabit-poe-smart-industrial-switch-2x-sfp-2x-sfp-redundant-power_d130285.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-lan-networks-switches-ekit-switches_c16591802.html",
+  "discompSourcePath": [
+    "Huawei",
+    "LAN networks",
+    "Switches",
+    "eKit Switches"
+  ]
+}

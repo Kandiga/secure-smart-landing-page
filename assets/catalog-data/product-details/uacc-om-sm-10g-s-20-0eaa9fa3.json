@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-om-sm-10g-s-20","brand":"Ubiquiti","sku":"UACC-OM-SM-10G-S-20","title":"Ubiquiti UACC-OM-SM-10G-S-20","category":"Optical networks / SFP optical modules / SFP+","description":"The Ubiquiti UACC-OM-SM-10G-S-20 is an SFP+ data transmission module using single-mode optical fiber. The data transfer rate is 10 Gbps, the maximum power consumption is 1 W, and the transmission range reaches 10 km SFP+ module Single-mode, 10 Gb/s Power consumption 1W Range 10 km GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"In stock","unitPerCarton":3,"warranty":"24 months","displayPriceUsd":1668,"fullCartonUnitPriceUsd":1609.62,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-om-sm-10g-s-20-9caa8fa08b.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Optics Format SFP+ For cable type Single Mode Transmission speed 10 Gbps Wavelength - Tx/Rx [nm] 1270 / 1330 Distance [km] 10 Transfer type 2-fiber Connectors and Interfaces Optical Connectors (1) LC Physical characteristics Operating temperature [°C] 0 up to 70"}
+{
+  "id": "ubiquiti-uacc-om-sm-10g-s-20",
+  "brand": "Ubiquiti",
+  "sku": "UACC-OM-SM-10G-S-20",
+  "title": "Ubiquiti UACC-OM-SM-10G-S-20",
+  "category": "Ubiquiti / Optical networks / SFP optical modules / SFP+",
+  "description": "The Ubiquiti UACC-OM-SM-10G-S-20 is an SFP+ data transmission module using single-mode optical fiber. The data transfer rate is 10 Gbps, the maximum power consumption is 1 W, and the transmission range reaches 10 km SFP+ module Single-mode, 10 Gb/s Power consumption 1W Range 10 km GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "In Stock 6 pcs.",
+  "unitPerCarton": 3,
+  "warranty": "24 months",
+  "displayPriceUsd": 1668,
+  "fullCartonUnitPriceUsd": 1609.62,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-om-sm-10g-s-20-9caa8fa08b.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Optics Format SFP+ For cable type Single Mode Transmission speed 10 Gbps Wavelength - Tx/Rx [nm] 1270 / 1330 Distance [km] 10 Transfer type 2-fiber Connectors and Interfaces Optical Connectors (1) LC Physical characteristics Operating temperature [°C] 0 up to 70",
+  "stockQtyVisible": 6,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-om-sm-10g-s-20_d124476.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-sfp-optical-modules-sfp-_c16591541.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "SFP optical modules",
+    "SFP+"
+  ]
+}

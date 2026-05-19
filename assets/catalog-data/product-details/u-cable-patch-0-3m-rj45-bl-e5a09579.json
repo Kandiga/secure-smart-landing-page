@@ -1,1 +1,27 @@
-{"id":"ubiquiti-u-cable-patch-0-3m-rj45-bl","brand":"Ubiquiti","sku":"U-Cable-Patch-0.3M-RJ45-BL","title":"Ubiquiti U-Cable-Patch-0.3M-RJ45-BL, UniFi Ethernet Patch Cable, 0.3m, Cat6, blue","category":"LAN networks / Patch cables / Cat.6 (Color)","description":"UniFi Ethernet patch cable UC-PATCH-RJ45 blue color with length 30cm is ideal for connecting (not only) UniFi devices in racks. Ultra thin design 3mm. Made in white, blue and black colour The cable has passed the certification test TIA-568-B.2 Cat6 Channel test by the Fluke","availability":"In stock","unitPerCarton":240,"warranty":"24 months","displayPriceUsd":3,"fullCartonUnitPriceUsd":2.9,"imageUrl":"assets/catalog-data/public-images/ubiquiti-u-cable-patch-0-3m-rj45-bl-e37c97f198.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Shielding type UTP (U/UTP) Conductor wire gauge AWG30 Cable type Stranded Design Extra slim Purpose Indoor Conductor material Copper Sheath material Thermoplastic Elastomer Length [m] 0,3 Color Blue"}
+{
+  "id": "ubiquiti-u-cable-patch-0-3m-rj45-bl",
+  "brand": "Ubiquiti",
+  "sku": "U-Cable-Patch-0.3M-RJ45-BL",
+  "title": "Ubiquiti U-Cable-Patch-0.3M-RJ45-BL, UniFi Ethernet Patch Cable, 0.3m, Cat6, blue",
+  "category": "Ubiquiti / LAN networks / Patch cables / Cat.6 (Color)",
+  "description": "UniFi Ethernet patch cable UC-PATCH-RJ45 blue color with length 30cm is ideal for connecting (not only) UniFi devices in racks. Ultra thin design 3mm. Made in white, blue and black colour The cable has passed the certification test TIA-568-B.2 Cat6 Channel test by the Fluke",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 240,
+  "warranty": "24 months",
+  "displayPriceUsd": 3,
+  "fullCartonUnitPriceUsd": 2.9,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-u-cable-patch-0-3m-rj45-bl-e37c97f198.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Shielding type UTP (U/UTP) Conductor wire gauge AWG30 Cable type Stranded Design Extra slim Purpose Indoor Conductor material Copper Sheath material Thermoplastic Elastomer Length [m] 0,3 Color Blue",
+  "stockQtyVisible": 160,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-u-cable-patch-0-3m-rj45-bl-unifi-ethernet-patch-cable-0-3m-cat6-blue_d95179.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-patch-cables-cat-6-color-_c16591469.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Patch cables",
+    "Cat.6 (Color)"
+  ]
+}

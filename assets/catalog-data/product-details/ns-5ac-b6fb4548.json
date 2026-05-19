@@ -1,1 +1,27 @@
-{"id":"ubiquiti-ns-5ac","brand":"Ubiquiti","sku":"NS-5AC","title":"Ubiquiti NS-5AC, NanoStation 5AC","category":"Wireless / Outdoor units / AirMAX AC","description":"NanoStation 5AC is discreet, 16dBi airMAX ac outdoor CPE unit, with high speed throughput and stability connectivity in high interference environment. The unit is compatible only with another airMAX ac unit. Unit allows set wild width of bandwidth 10/20/30/40/50/60 and 80MHz with 256QAM modulation. Real throughput may achieves real bandwidth 450Mbps+ Each NanoStation AC model integrates a separate Wi-Fi radio for fast and easy setup using your mobile device The NanoStation AC provides a secondary Ethernet port with software-enabled PoE. Use this port to conveniently power an external device, such as a PoE security camera, for seamless IP video integration airOS 8 provides powerful features, including airMAX® ac protocol support, real-time RF analytics, and an all-new design for enhanced usability Device PoE gigabit power adapter 24V/0.5A Power cord Screws + wall mount bracket Plastic strap","availability":"To order / expected","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":131,"fullCartonUnitPriceUsd":126.42,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ns-5ac-45a888f3d9.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Wireless frequency 5 GHz WiFi standards airMAX ac Transmission speed - 5GHz [Mb/s] 866 Tx power 5GHz [dBm] 25 Security WPA2 AES Elevation beam width (-6dB) [°] 45 Azimuth beam width (-6dB) [°] 45 5GHz MIMO 2 x 2 Type of antenna Built-in Internal antennas 2 Antenna gain [dBi] 16 Connectors and Interfaces LAN speed (2) 10/100/1000Mbps Gigabit LAN Yes Other features WiFi management radio Power Power over Ethernet 802.3af, 24V DC PoE type PoE-Out + PoE-In Max. power consumption [W] 8,5 Physical characteristics Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 70 Weight [g] 233 Width [mm] 84 Height [mm] 257 Depth [mm] 41 Hardware CPU Atheros MIPS 74KC CPU frequency [MHz] 560 RAM [MB] 64"}
+{
+  "id": "ubiquiti-ns-5ac",
+  "brand": "Ubiquiti",
+  "sku": "NS-5AC",
+  "title": "Ubiquiti NS-5AC, NanoStation 5AC",
+  "category": "Ubiquiti / Wireless / Outdoor units / AirMAX AC",
+  "description": "NanoStation 5AC is discreet, 16dBi airMAX ac outdoor CPE unit, with high speed throughput and stability connectivity in high interference environment. The unit is compatible only with another airMAX ac unit. Unit allows set wild width of bandwidth 10/20/30/40/50/60 and 80MHz with 256QAM modulation. Real throughput may achieves real bandwidth 450Mbps+ Each NanoStation AC model integrates a separate Wi-Fi radio for fast and easy setup using your mobile device The NanoStation AC provides a secondary Ethernet port with software-enabled PoE. Use this port to conveniently power an external device, such as a PoE security camera, for seamless IP video integration airOS 8 provides powerful features, including airMAX® ac protocol support, real-time RF analytics, and an all-new design for enhanced usability Device PoE gigabit power adapter 24V/0.5A Power cord Screws + wall mount bracket Plastic strap",
+  "availability": "Expected 30.6.2026",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 131,
+  "fullCartonUnitPriceUsd": 126.42,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ns-5ac-45a888f3d9.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Wireless frequency 5 GHz WiFi standards airMAX ac Transmission speed - 5GHz [Mb/s] 866 Tx power 5GHz [dBm] 25 Security WPA2 AES Elevation beam width (-6dB) [°] 45 Azimuth beam width (-6dB) [°] 45 5GHz MIMO 2 x 2 Type of antenna Built-in Internal antennas 2 Antenna gain [dBi] 16 Connectors and Interfaces LAN speed (2) 10/100/1000Mbps Gigabit LAN Yes Other features WiFi management radio Power Power over Ethernet 802.3af, 24V DC PoE type PoE-Out + PoE-In Max. power consumption [W] 8,5 Physical characteristics Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 70 Weight [g] 233 Width [mm] 84 Height [mm] 257 Depth [mm] 41 Hardware CPU Atheros MIPS 74KC CPU frequency [MHz] 560 RAM [MB] 64",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-ns-5ac-nanostation-5ac_d84020.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-outdoor-units-airmax-ac_c16591471.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Outdoor units",
+    "AirMAX AC"
+  ]
+}

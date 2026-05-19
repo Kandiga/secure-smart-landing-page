@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-fm-16cm","brand":"Ubiquiti","sku":"UACC-FM-16cm","title":"Ubiquiti UACC-FM-16cm - Magnetic Wall Mount for UX7","category":"Wireless / Accessories / Mounting brackets","description":"Sleek, magnetic wall mount for UniFi Express 7 Mount Wall plugs and screws","availability":"In stock","unitPerCarton":30,"warranty":"24 months","displayPriceUsd":35,"fullCartonUnitPriceUsd":33.78,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-fm-16cm-d796569d94.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-fm-16cm",
+  "brand": "Ubiquiti",
+  "sku": "UACC-FM-16cm",
+  "title": "Ubiquiti UACC-FM-16cm - Magnetic Wall Mount for UX7",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "Sleek, magnetic wall mount for UniFi Express 7 Mount Wall plugs and screws",
+  "availability": "In Stock 7 pcs.",
+  "unitPerCarton": 30,
+  "warranty": "24 months",
+  "displayPriceUsd": 35,
+  "fullCartonUnitPriceUsd": 33.78,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-fm-16cm-d796569d94.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 7,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-fm-16cm-magnetic-wall-mount-for-ux7_d130485.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

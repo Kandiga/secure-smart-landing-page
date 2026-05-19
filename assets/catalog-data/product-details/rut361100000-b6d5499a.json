@@ -1,1 +1,26 @@
-{"id":"teltonika-rut361100000","brand":"Teltonika","sku":"RUT361100000","title":"Teltonika RUT361 Industrial Cellular Router","category":"Wireless / 3G/LTE/5G / Routers","description":"Teltonika RUT361 Industrial Cellular Router , the RUT361 is a robust cellular router with speeds of up to 300 Mbps with carrier aggregation, vital for IoT solutions demanding uninterrupted networks in challenging environments. Remote monitoring, advanced security features, and WAN failover make this LTE Cat 6 router feature-rich, and two Wi-Fi antennas ensure greater device applicability in diverse M2M applications 4G LTE CAT 6 - Cellular speeds of up to 300Mbps with carrier aggregation WI-FI - 802.11 b/g/n wireless access point with hotspot functionality WAN FAILOVER - Automatic switching to available backup connection RMS - For remote management, access & VPN services Device 18 W PSU 2x Mobile antennas (swivel, SMA male) 2x Wi-Fi antennas (swivel, RP-SMA male) Ethernet cable (1.5 m) SIM Adapter kit QSG (Quick Start Guide)","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":255,"fullCartonUnitPriceUsd":255,"imageUrl":"assets/catalog-data/public-images/teltonika-rut361100000-2e7dee3720.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Wireless frequency 2.4 GHz, 3G (GSM), 4G (GSM) WiFi standards 802.11n, 802.11b/g Transmission speed - 2.4GHz [Mb/s] 300 2.4GHz MIMO 2 x 2 Connectors and Interfaces WAN Ports 1 WAN speed (1) 10/100Mbps RF connectors (2) SMA female, (2) RP-SMA LAN speed (1) 10/100Mbps SIM slot Yes SIM slots quantity 1 Power Power type DC connector Max. power consumption [W] 4,7 Power via connector/terminal 9 .. 30V DC Physical characteristics Buttons Reset Operating temperature [°C] 40 up to 75 Weight [g] 243 Width [mm] 100 Height [mm] 30 Depth [mm] 85 Hardware CPU Mediatek, 580 Mhz, MIPS 24KEc CPU frequency [MHz] 580 Internal storage [MB] 16 RAM [MB] 128"}
+{
+  "id": "teltonika-rut361100000",
+  "brand": "Teltonika",
+  "sku": "RUT361100000",
+  "title": "Teltonika RUT361 Industrial Cellular Router",
+  "category": "Teltonika / IoT, SMART / Routers",
+  "description": "Teltonika RUT361 Industrial Cellular Router , the RUT361 is a robust cellular router with speeds of up to 300 Mbps with carrier aggregation, vital for IoT solutions demanding uninterrupted networks in challenging environments. Remote monitoring, advanced security features, and WAN failover make this LTE Cat 6 router feature-rich, and two Wi-Fi antennas ensure greater device applicability in diverse M2M applications 4G LTE CAT 6 - Cellular speeds of up to 300Mbps with carrier aggregation WI-FI - 802.11 b/g/n wireless access point with hotspot functionality WAN FAILOVER - Automatic switching to available backup connection RMS - For remote management, access & VPN services Device 18 W PSU 2x Mobile antennas (swivel, SMA male) 2x Wi-Fi antennas (swivel, RP-SMA male) Ethernet cable (1.5 m) SIM Adapter kit QSG (Quick Start Guide)",
+  "availability": "In Stock 5 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 255,
+  "fullCartonUnitPriceUsd": 255,
+  "imageUrl": "assets/catalog-data/public-images/teltonika-rut361100000-2e7dee3720.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Wireless frequency 2.4 GHz, 3G (GSM), 4G (GSM) WiFi standards 802.11n, 802.11b/g Transmission speed - 2.4GHz [Mb/s] 300 2.4GHz MIMO 2 x 2 Connectors and Interfaces WAN Ports 1 WAN speed (1) 10/100Mbps RF connectors (2) SMA female, (2) RP-SMA LAN speed (1) 10/100Mbps SIM slot Yes SIM slots quantity 1 Power Power type DC connector Max. power consumption [W] 4,7 Power via connector/terminal 9 .. 30V DC Physical characteristics Buttons Reset Operating temperature [°C] 40 up to 75 Weight [g] 243 Width [mm] 100 Height [mm] 30 Depth [mm] 85 Hardware CPU Mediatek, 580 Mhz, MIPS 24KEc CPU frequency [MHz] 580 Internal storage [MB] 16 RAM [MB] 128",
+  "stockQtyVisible": 5,
+  "discompProductUrl": "https://www.discomp.cz/teltonika-rut361-industrial-cellular-router_d129727.html",
+  "discompCategoryUrl": "https://www.discomp.cz/iot-smart-teltonika-routers_c15616396.html?page=2",
+  "discompSourcePath": [
+    "Teltonika",
+    "IoT, SMART",
+    "Routers"
+  ]
+}

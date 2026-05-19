@@ -1,1 +1,27 @@
-{"id":"ubiquiti-poe-24-30w-g-wh","brand":"Ubiquiti","sku":"POE-24-30W-G-WH","title":"Ubiquiti POE-24-30W-G-WH","category":"Powering / Pasive PoE / PoE injectors","description":"The Ubiquiti POE-24 is a grounded PoE injector with a maximum output power of 30 W . It provides one input port for a traditional LAN connection and a second port as a PoE output port. The maximum data transfer rate is 1 Gbps . This device is not equipped with LED indicator Maximum Output Power 30 W One PoE Port Maximum Transfer Rate 1 Gbps No LED Indicator GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"In stock","unitPerCarton":50,"warranty":"24 months","displayPriceUsd":15,"fullCartonUnitPriceUsd":14.48,"imageUrl":"assets/catalog-data/public-images/ubiquiti-poe-24-30w-g-wh-ca4b0cd63c.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power The input voltage [V] 100 .. 240V AC Output Power [W] 30 Pin powering 4,5 (+), 7,8 (-) PoE Out ports 1 Output Voltage [V] 25 Output Current [A] 1,25 Efficiency [%] 83"}
+{
+  "id": "ubiquiti-poe-24-30w-g-wh",
+  "brand": "Ubiquiti",
+  "sku": "POE-24-30W-G-WH",
+  "title": "Ubiquiti POE-24-30W-G-WH",
+  "category": "Ubiquiti / Powering / Pasive PoE / PoE injectors",
+  "description": "The Ubiquiti POE-24 is a grounded PoE injector with a maximum output power of 30 W . It provides one input port for a traditional LAN connection and a second port as a PoE output port. The maximum data transfer rate is 1 Gbps . This device is not equipped with LED indicator Maximum Output Power 30 W One PoE Port Maximum Transfer Rate 1 Gbps No LED Indicator GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "In Stock 65 pcs.",
+  "unitPerCarton": 50,
+  "warranty": "24 months",
+  "displayPriceUsd": 15,
+  "fullCartonUnitPriceUsd": 14.48,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-poe-24-30w-g-wh-ca4b0cd63c.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power The input voltage [V] 100 .. 240V AC Output Power [W] 30 Pin powering 4,5 (+), 7,8 (-) PoE Out ports 1 Output Voltage [V] 25 Output Current [A] 1,25 Efficiency [%] 83",
+  "stockQtyVisible": 65,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-poe-24-30w-g-wh_d124474.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-pasive-poe-poe-injectors_c16591506.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Pasive PoE",
+    "PoE injectors"
+  ]
+}

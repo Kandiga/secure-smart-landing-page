@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-dbl-gb-plate-w","brand":"Ubiquiti","sku":"UACC-DBL-GB-Plate-W","title":"Ubiquiti Doorbell Lite Gang Box Mounting Plate, White","category":"Cameras, security / Mounting boxes and brackets / Wallmount","description":"White color secure mounting plate for installing the Doorbell Lite with its flat or angled bracket options over a standard single-gang box Mounting plate Mounting bracket Drill template Screws and wall plugs","availability":"To order / expected","unitPerCarton":52,"warranty":"24 months","displayPriceUsd":22,"fullCartonUnitPriceUsd":21.23,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-dbl-gb-plate-w-d98e8a21a3.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-dbl-gb-plate-w",
+  "brand": "Ubiquiti",
+  "sku": "UACC-DBL-GB-Plate-W",
+  "title": "Ubiquiti Doorbell Lite Gang Box Mounting Plate, White",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Wallmount",
+  "description": "White color secure mounting plate for installing the Doorbell Lite with its flat or angled bracket options over a standard single-gang box Mounting plate Mounting bracket Drill template Screws and wall plugs",
+  "availability": "Expected 30.6.2026",
+  "unitPerCarton": 52,
+  "warranty": "24 months",
+  "displayPriceUsd": 22,
+  "fullCartonUnitPriceUsd": 21.23,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-dbl-gb-plate-w-d98e8a21a3.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-doorbell-lite-gang-box-mounting-plate-white_d131360.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-wallmount_c16588781.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Wallmount"
+  ]
+}

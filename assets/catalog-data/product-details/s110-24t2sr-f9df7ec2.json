@@ -1,1 +1,27 @@
-{"id":"huawei-s110-24t2sr","brand":"Huawei","sku":"S110-24T2SR","title":"Huawei S110-24T2SR Gigabit switch, 2x SFP","category":"LAN networks / Switches / eKit Switches","description":"Huawei S110-24T2SR is a switch that is equipped with 24 Gigabit ports and 2 SFP slots for uplink . The unmanaged switch is in a rack-mountable metal chassis, can also be mounted on a wall or used as a desktop. There is a switch on the front side that allows you to choose between Standard, Port Isolation, Uplink aggregation and Flow control disabling modes Huawei eKitEngine S110 series switches ( S110 for short) are unmanaged switches designed for the distribution market outside China. The whole series adopts an all-new crystal-like appearance design with great visual impacts, winning itself the German Red Dot Design Award 2022 . The newly launched colorways of Silk White and Silver Frost are becoming increasingly popular. In addition, the iconic Huawei logo on eKitEngine S110 series switches gives them a more refreshing look. In terms of… Device 230V AC Power Cable Rack mounts (6) Screws (4) Self-Adhesive Rubber Pads","availability":"In stock","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":185,"fullCartonUnitPriceUsd":185,"imageUrl":"assets/catalog-data/public-images/huawei-s110-24t2sr-5ca8542dd9.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces LAN speed (24) 10/100/1000Mbps Optical interfaces (2) 100/1000Mbps Power Power type Mains power (230V) Max. power consumption [W] 17 Power via connector/terminal 230V AC Physical characteristics Design On the wall, Desktop, Rackmount Fans No Chassis design Metal Operating temperature [°C] 0 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 160"}
+{
+  "id": "huawei-s110-24t2sr",
+  "brand": "Huawei",
+  "sku": "S110-24T2SR",
+  "title": "Huawei S110-24T2SR Gigabit switch, 2x SFP",
+  "category": "Huawei / LAN networks / Switches / eKit Switches",
+  "description": "Huawei S110-24T2SR is a switch that is equipped with 24 Gigabit ports and 2 SFP slots for uplink . The unmanaged switch is in a rack-mountable metal chassis, can also be mounted on a wall or used as a desktop. There is a switch on the front side that allows you to choose between Standard, Port Isolation, Uplink aggregation and Flow control disabling modes Huawei eKitEngine S110 series switches ( S110 for short) are unmanaged switches designed for the distribution market outside China. The whole series adopts an all-new crystal-like appearance design with great visual impacts, winning itself the German Red Dot Design Award 2022 . The newly launched colorways of Silk White and Silver Frost are becoming increasingly popular. In addition, the iconic Huawei logo on eKitEngine S110 series switches gives them a more refreshing look. In terms of… Device 230V AC Power Cable Rack mounts (6) Screws (4) Self-Adhesive Rubber Pads",
+  "availability": "In Stock 4 pcs.",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 185,
+  "fullCartonUnitPriceUsd": 185,
+  "imageUrl": "assets/catalog-data/public-images/huawei-s110-24t2sr-5ca8542dd9.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces LAN speed (24) 10/100/1000Mbps Optical interfaces (2) 100/1000Mbps Power Power type Mains power (230V) Max. power consumption [W] 17 Power via connector/terminal 230V AC Physical characteristics Design On the wall, Desktop, Rackmount Fans No Chassis design Metal Operating temperature [°C] 0 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 160",
+  "stockQtyVisible": 4,
+  "discompProductUrl": "https://www.discomp.cz/huawei-s110-24t2sr-gigabit-switch-2x-sfp_d125639.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-lan-networks-switches-ekit-switches_c16591802.html?page=2",
+  "discompSourcePath": [
+    "Huawei",
+    "LAN networks",
+    "Switches",
+    "eKit Switches"
+  ]
+}

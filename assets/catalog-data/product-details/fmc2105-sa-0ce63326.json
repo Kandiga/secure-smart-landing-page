@@ -1,1 +1,25 @@
-{"id":"huawei-fmc2105-sa","brand":"Huawei","sku":"FMC2105-SA","title":"Huawei FMC2105-SA - Field Connector SC/APC","category":"Optical networks / Optical connectors","description":"Huawei FMC2105-SA is reusable dedicated field mountable SC connector with APC polishing. It can be re-assembled for at least five times. Connector passes the 500-hour accelerated aging test at 75°C/95% RH The connector is intended for Huawei transparent optical cables 2 x 1.6mm and 1.2 x 1.6 mm and terminal flexible optical cables 2 x 3 mm and 2 x 1.6 mm * Photo for illustration purposes only","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":3,"fullCartonUnitPriceUsd":3,"imageUrl":"assets/catalog-data/public-images/huawei-fmc2105-sa-4de67edc18.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "huawei-fmc2105-sa",
+  "brand": "Huawei",
+  "sku": "FMC2105-SA",
+  "title": "Huawei FMC2105-SA - Field Connector SC/APC",
+  "category": "Huawei / Optical networks / Optical connectors",
+  "description": "Huawei FMC2105-SA is reusable dedicated field mountable SC connector with APC polishing. It can be re-assembled for at least five times. Connector passes the 500-hour accelerated aging test at 75°C/95% RH The connector is intended for Huawei transparent optical cables 2 x 1.6mm and 1.2 x 1.6 mm and terminal flexible optical cables 2 x 3 mm and 2 x 1.6 mm * Photo for illustration purposes only",
+  "availability": "In Stock 6 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 3,
+  "fullCartonUnitPriceUsd": 3,
+  "imageUrl": "assets/catalog-data/public-images/huawei-fmc2105-sa-4de67edc18.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 6,
+  "discompProductUrl": "https://www.discomp.cz/huawei-fmc2105-sa-field-connector-sc-apc_d128992.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-optical-networks-optical-connectors_c16592270.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Optical networks",
+    "Optical connectors"
+  ]
+}

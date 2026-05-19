@@ -1,1 +1,26 @@
-{"id":"mikrotik-ca411-711","brand":"MikroTik","sku":"CA411-711","title":"MikroTik Mounting box CA411-711 for RouterBOARD RB711","category":"Wireless / MikroTik / Mounting boxes","description":"CA411-711 is new indoor case for RB411, RB911, RB912 and RB922 series. It has changeable front panels, so you can choose one that fits the product that you actually use. Also, case is higher to accommodate high-power wireless cards and has wall mounting holes on the back GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":13,"fullCartonUnitPriceUsd":13,"imageUrl":"assets/catalog-data/public-images/mikrotik-ca411-711-9e2d704358.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Physical characteristics Shielding Yes Mounting On the wall, On desktop Purpose Indoor Material Aluminum Width [mm] 120 Height [mm] 38 Depth [mm] 180"}
+{
+  "id": "mikrotik-ca411-711",
+  "brand": "MikroTik",
+  "sku": "CA411-711",
+  "title": "MikroTik Mounting box CA411-711 for RouterBOARD RB711",
+  "category": "MikroTik / Wireless / Mounting boxes",
+  "description": "CA411-711 is new indoor case for RB411, RB911, RB912 and RB922 series. It has changeable front panels, so you can choose one that fits the product that you actually use. Also, case is higher to accommodate high-power wireless cards and has wall mounting holes on the back GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "In Stock 24 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 13,
+  "fullCartonUnitPriceUsd": 13,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-ca411-711-9e2d704358.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Physical characteristics Shielding Yes Mounting On the wall, On desktop Purpose Indoor Material Aluminum Width [mm] 120 Height [mm] 38 Depth [mm] 180",
+  "stockQtyVisible": 24,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-mounting-box-ca411-711-for-routerboard-rb711_d75554.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-mounting-boxes_c16588581.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Mounting boxes"
+  ]
+}

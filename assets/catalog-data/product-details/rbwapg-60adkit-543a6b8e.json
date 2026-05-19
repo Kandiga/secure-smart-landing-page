@@ -1,1 +1,27 @@
-{"id":"mikrotik-rbwapg-60adkit","brand":"MikroTik","sku":"RBwAPG-60adkit","title":"MikroTik RBwAPG-60adkit, Wireless Wire, 60GHz, L3, complete link (2 units)","category":"Wireless / Outdoor units / MikroTik","description":"The wireless wire offers blazing fast Gigabit speeds for transparent connectivity between two locations, without any sacrifice in your LAN speeds. Simply point the included devices at one another and power them on, they are already preconfigured to connect automatically! The wireless wire works in the 60 GHz spectrum and is not affected by the crowded WiFi frequencies, offering a stable and fast link for distances of 100meters or more. The kit included two wAP60G devices that are already paired together with AES encyption, for simple turnkey operation Installation is very simple and the 60° integrated antenna it can be installed on a wall / pole or directly at the window with the included plastic stand. wAP 60G AP supports up to 8 simultaneous clients (wAP 60G with L3 license) on distances of 100m+ (2) Devices (2) Power adapter 24V / 0.38A (2) Gigabit POE injector (4) Plastic straps (2) Table stand (2) Mounting kit","availability":"In stock","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":218,"fullCartonUnitPriceUsd":210.37,"imageUrl":"assets/catalog-data/public-images/mikrotik-rbwapg-60adkit-66fae098f0.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Wireless frequency 60 GHz WiFi standards 802.11ad Transmission speed - 60GHz [Mb/s] 1000, Full Duplex Elevation beam width (-6dB) [°] 60 Azimuth beam width (-6dB) [°] 60 Type of antenna Built-in Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 802.3af, 802.3at, 12 .. 57V DC Power type DC connector, PoE PoE type PoE-In (only) Max. power consumption [W] 5 Power via connector/terminal 12 .. 57V DC Physical characteristics Design Desktop, Outdoor Width [mm] 85 Height [mm] 185 Depth [mm] 30 Hardware CPU IPQ-4019 CPU frequency [MHz] 716 CPU cores 4 Internal storage [MB] 16 RAM [MB] 256"}
+{
+  "id": "mikrotik-rbwapg-60adkit",
+  "brand": "MikroTik",
+  "sku": "RBwAPG-60adkit",
+  "title": "MikroTik RBwAPG-60adkit, Wireless Wire, 60GHz, L3, complete link (2 units)",
+  "category": "MikroTik / Wireless / PtP Backhaul / 60GHz",
+  "description": "The wireless wire offers blazing fast Gigabit speeds for transparent connectivity between two locations, without any sacrifice in your LAN speeds. Simply point the included devices at one another and power them on, they are already preconfigured to connect automatically! The wireless wire works in the 60 GHz spectrum and is not affected by the crowded WiFi frequencies, offering a stable and fast link for distances of 100meters or more. The kit included two wAP60G devices that are already paired together with AES encyption, for simple turnkey operation Installation is very simple and the 60° integrated antenna it can be installed on a wall / pole or directly at the window with the included plastic stand. wAP 60G AP supports up to 8 simultaneous clients (wAP 60G with L3 license) on distances of 100m+ (2) Devices (2) Power adapter 24V / 0.38A (2) Gigabit POE injector (4) Plastic straps (2) Table stand (2) Mounting kit",
+  "availability": "In Stock 27 pcs.",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 218,
+  "fullCartonUnitPriceUsd": 210.37,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rbwapg-60adkit-66fae098f0.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Wireless frequency 60 GHz WiFi standards 802.11ad Transmission speed - 60GHz [Mb/s] 1000, Full Duplex Elevation beam width (-6dB) [°] 60 Azimuth beam width (-6dB) [°] 60 Type of antenna Built-in Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes Power Power over Ethernet 802.3af, 802.3at, 12 .. 57V DC Power type DC connector, PoE PoE type PoE-In (only) Max. power consumption [W] 5 Power via connector/terminal 12 .. 57V DC Physical characteristics Design Desktop, Outdoor Width [mm] 85 Height [mm] 185 Depth [mm] 30 Hardware CPU IPQ-4019 CPU frequency [MHz] 716 CPU cores 4 Internal storage [MB] 16 RAM [MB] 256",
+  "stockQtyVisible": 27,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-rbwapg-60adkit-wireless-wire-60ghz-l3-complete-link-2-units-_d82666.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-ptp-backhaul-60ghz_c15888549.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "PtP Backhaul",
+    "60GHz"
+  ]
+}

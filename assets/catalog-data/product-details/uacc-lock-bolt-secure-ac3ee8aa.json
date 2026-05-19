@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-lock-bolt-secure","brand":"Ubiquiti","sku":"UACC-Lock-Bolt-Secure","title":"Ubiquiti UACC-Lock-Bolt-Secure, Electric fail-secure bolt lock","category":"Cameras, security / UniFi Access","description":"The UACC-Lock-Bolt-Secure is an electric drop bolt lock that connects to a UniFi Access Hub . The lock is fail-secure, remaining locked in the event of failure . It can be installed in wooden, steel, and aluminum frames. The device features a built-in DPS (door position sensor), allowing monitoring of the door open/closed status. Power is supplied via a three-wire terminal block 12V/600mA UA-Hub-Door UA-Hub-Door-Mini UA-Hub-Gate EAH-8 UA-Ultra","availability":"In stock","unitPerCarton":18,"warranty":"24 months","displayPriceUsd":112,"fullCartonUnitPriceUsd":108.08,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-lock-bolt-secure-2ee32cae09.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Power Power type DC terminal Max. power consumption [W] 7,2 Power via connector/terminal 12V DC"}
+{
+  "id": "ubiquiti-uacc-lock-bolt-secure",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Lock-Bolt-Secure",
+  "title": "Ubiquiti UACC-Lock-Bolt-Secure, Electric fail-secure bolt lock",
+  "category": "Ubiquiti / Cameras, security / UniFi Access",
+  "description": "The UACC-Lock-Bolt-Secure is an electric drop bolt lock that connects to a UniFi Access Hub . The lock is fail-secure, remaining locked in the event of failure . It can be installed in wooden, steel, and aluminum frames. The device features a built-in DPS (door position sensor), allowing monitoring of the door open/closed status. Power is supplied via a three-wire terminal block 12V/600mA UA-Hub-Door UA-Hub-Door-Mini UA-Hub-Gate EAH-8 UA-Ultra",
+  "availability": "In Stock 15 pcs.",
+  "unitPerCarton": 18,
+  "warranty": "24 months",
+  "displayPriceUsd": 112,
+  "fullCartonUnitPriceUsd": 108.08,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-lock-bolt-secure-2ee32cae09.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Power Power type DC terminal Max. power consumption [W] 7,2 Power via connector/terminal 12V DC",
+  "stockQtyVisible": 15,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-lock-bolt-secure-electric-fail-secure-bolt-lock_d131625.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-unifi-access_c16587756.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "UniFi Access"
+  ]
+}

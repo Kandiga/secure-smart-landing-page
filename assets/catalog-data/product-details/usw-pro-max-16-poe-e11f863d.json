@@ -1,1 +1,27 @@
-{"id":"ubiquiti-usw-pro-max-16-poe","brand":"Ubiquiti","sku":"USW-Pro-Max-16-PoE","title":"Ubiquiti UniFi switch USW-Pro-Max-16-PoE","category":"LAN networks / Switches / UniFi Switches","description":"Ubiquiti Pro Max 16-PoE is a new L3 switch that offers 4x 2.5 Gbps ports with PoE++ up to 60W and 12x 1 Gbps ports with PoE+ . The total PoE budget is 180 W . For optical interface connection, there are 2 SFP+ ports achieving speeds up to 10 Gb/s. The switch is powered by a DC adapter 54V DC 210W Notice: For rack installation, it is necessary to purchase the accessory Ubiquiti Pro Max 16 Rack Mount The switch supports Etherlighting technology, which allows color indication of port location, link speed, user defined device types, PoE status or individual VLANs The switch does not have web management but is centrally managed via UniFi Controller with support for the mobile app UniFi and offers an extensive set of advanced switching protocols and L2 features, including operational mode (switching, mirroring, or aggregation) per port. UniFi Network Controller and mobile app enable administrators to configure and monitor virtually all switch features in a graphical user interface from anywhere Device DC Power Adapter Mnount kit","availability":"To order / expected","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":473,"fullCartonUnitPriceUsd":456.45,"imageUrl":"assets/catalog-data/public-images/ubiquiti-usw-pro-max-16-poe-d9c58dc206.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (12) 10/100/1000Mbps + (4) 10/100/2500Mbps Optical interfaces (2) 1G/10Gbps Other features Touchscreen Power Power type DC connector PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, 802.3at - ultra PoE (60W) PoE Out ports 16 PoE budget [W] 180 Max. power consumption [W] 210 Power via connector/terminal 54V DC Physical characteristics Design On the wall, Desktop, Rackmount Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 325 Height [mm] 44 Depth [mm] 160 General Switchning capacity [Gbps] 84 Packet forwarding rate [Mpps] 62"}
+{
+  "id": "ubiquiti-usw-pro-max-16-poe",
+  "brand": "Ubiquiti",
+  "sku": "USW-Pro-Max-16-PoE",
+  "title": "Ubiquiti UniFi switch USW-Pro-Max-16-PoE",
+  "category": "Ubiquiti / LAN networks / Switches / PoE Switches",
+  "description": "Ubiquiti Pro Max 16-PoE is a new L3 switch that offers 4x 2.5 Gbps ports with PoE++ up to 60W and 12x 1 Gbps ports with PoE+ . The total PoE budget is 180 W . For optical interface connection, there are 2 SFP+ ports achieving speeds up to 10 Gb/s. The switch is powered by a DC adapter 54V DC 210W Notice: For rack installation, it is necessary to purchase the accessory Ubiquiti Pro Max 16 Rack Mount The switch supports Etherlighting technology, which allows color indication of port location, link speed, user defined device types, PoE status or individual VLANs The switch does not have web management but is centrally managed via UniFi Controller with support for the mobile app UniFi and offers an extensive set of advanced switching protocols and L2 features, including operational mode (switching, mirroring, or aggregation) per port. UniFi Network Controller and mobile app enable administrators to configure and monitor virtually all switch features in a graphical user interface from anywhere Device DC Power Adapter Mnount kit",
+  "availability": "Expected 30.6.2026",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 473,
+  "fullCartonUnitPriceUsd": 456.45,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-usw-pro-max-16-poe-d9c58dc206.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (12) 10/100/1000Mbps + (4) 10/100/2500Mbps Optical interfaces (2) 1G/10Gbps Other features Touchscreen Power Power type DC connector PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, 802.3at - ultra PoE (60W) PoE Out ports 16 PoE budget [W] 180 Max. power consumption [W] 210 Power via connector/terminal 54V DC Physical characteristics Design On the wall, Desktop, Rackmount Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 325 Height [mm] 44 Depth [mm] 160 General Switchning capacity [Gbps] 84 Packet forwarding rate [Mpps] 62",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-switch-usw-pro-max-16-poe_d125835.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-poe-switches_c16179437.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "PoE Switches"
+  ]
+}

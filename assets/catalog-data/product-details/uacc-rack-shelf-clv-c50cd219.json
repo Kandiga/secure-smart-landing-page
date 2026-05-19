@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-rack-shelf-clv","brand":"Ubiquiti","sku":"UACC-Rack-Shelf-CLV","title":"Ubiquiti UACC-Rack-Shelf-CLV for U-Rack-6U-TL","category":"Cabinets / Accessories / Shelves","description":"Well-crafted shelf that fits perfectly into the U-Rack-6U-TL cabinet. The shelf can also be mounted into any standard 19\" rack. It has a depth of 250 mm and occupies 1U of rack height The shelf is made of cold-rolled carbon steel and has a load capacity of 20 kg","availability":"To order / expected","unitPerCarton":3,"warranty":"24 months","displayPriceUsd":60,"fullCartonUnitPriceUsd":57.9,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-rack-shelf-clv-d3d0dba246.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-rack-shelf-clv",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Rack-Shelf-CLV",
+  "title": "Ubiquiti UACC-Rack-Shelf-CLV for U-Rack-6U-TL",
+  "category": "Ubiquiti / Cabinets / Accessories / Shelves",
+  "description": "Well-crafted shelf that fits perfectly into the U-Rack-6U-TL cabinet. The shelf can also be mounted into any standard 19\" rack. It has a depth of 250 mm and occupies 1U of rack height The shelf is made of cold-rolled carbon steel and has a load capacity of 20 kg",
+  "availability": "Ordered, unknown date",
+  "unitPerCarton": 3,
+  "warranty": "24 months",
+  "displayPriceUsd": 60,
+  "fullCartonUnitPriceUsd": 57.9,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-rack-shelf-clv-d3d0dba246.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-rack-shelf-clv-for-u-rack-6u-tl_d129882.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cabinets-accessories-shelves_c16591894.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cabinets",
+    "Accessories",
+    "Shelves"
+  ]
+}

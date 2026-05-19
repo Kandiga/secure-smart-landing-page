@@ -1,1 +1,28 @@
-{"id":"ubiquiti-am-m-v5g-ti","brand":"Ubiquiti","sku":"AM-M-V5G-Ti","title":"Ubiquiti AM-M-V5G-Ti, 5GHz, sector antenna Titanium, changeable angle 60°-120°, 15-17dBi","category":"Wireless / Antennas / Sector antennas / 5GHz","description":"AM-M-V5G-Ti airMAX Titanuim Sector Antenna is a 15 - 17dBi Carrier Class 2x2 MIMO (Dual Polarity) Sector Antenna with 60° - 120° beam angle that was designed for 5GHz band and for integrate with Rocket M radios (RocketM sold separately) Adjustable Beamwidth Configuration - Having adjustable beamwidth options enhances scalability and streamlines inventory. The airMAX Titanium Sector may be custom configured for any deployment requiring a 60° , 90° , or 120° sector. Antenna gain changes according to the configured beamwidth 20% increase in performance with PtMP networks Up to 90% performance improvement in a co-location environment Increased durability in harsh weather Every airMAX® Antenna has a built-in Rocketâ¢ mount , so no tools are needed to install the Rocket BaseStation Antenna Rocket protector (2) RSMA male - RSMA male pigtail Holder + screws","availability":"In stock","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":173,"fullCartonUnitPriceUsd":166.95,"imageUrl":"assets/catalog-data/public-images/ubiquiti-am-m-v5g-ti-6cb8db26ec.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,7 F/B ratio [dB] 30 Cross-Pol Isolation [dB] 25 Variability of beam angle Yes Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 8 Azimuth beam width (-6dB) [°] 60, 90, 120 Antenna type Sector Antenna gain [dBi] 15, 16, 17 Connectors and Interfaces Rocket kit Yes RF connectors (2) RSMA female"}
+{
+  "id": "ubiquiti-am-m-v5g-ti",
+  "brand": "Ubiquiti",
+  "sku": "AM-M-V5G-Ti",
+  "title": "Ubiquiti AM-M-V5G-Ti, 5GHz, sector antenna Titanium, changeable angle 60°-120°, 15-17dBi",
+  "category": "Ubiquiti / Wireless / Antennas / Sector antennas / 5GHz",
+  "description": "AM-M-V5G-Ti airMAX Titanuim Sector Antenna is a 15 - 17dBi Carrier Class 2x2 MIMO (Dual Polarity) Sector Antenna with 60° - 120° beam angle that was designed for 5GHz band and for integrate with Rocket M radios (RocketM sold separately) Adjustable Beamwidth Configuration - Having adjustable beamwidth options enhances scalability and streamlines inventory. The airMAX Titanium Sector may be custom configured for any deployment requiring a 60° , 90° , or 120° sector. Antenna gain changes according to the configured beamwidth 20% increase in performance with PtMP networks Up to 90% performance improvement in a co-location environment Increased durability in harsh weather Every airMAX® Antenna has a built-in Rocketâ¢ mount , so no tools are needed to install the Rocket BaseStation Antenna Rocket protector (2) RSMA male - RSMA male pigtail Holder + screws",
+  "availability": "Not In Stock",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 173,
+  "fullCartonUnitPriceUsd": 166.95,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-am-m-v5g-ti-6cb8db26ec.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,7 F/B ratio [dB] 30 Cross-Pol Isolation [dB] 25 Variability of beam angle Yes Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 8 Azimuth beam width (-6dB) [°] 60, 90, 120 Antenna type Sector Antenna gain [dBi] 15, 16, 17 Connectors and Interfaces Rocket kit Yes RF connectors (2) RSMA female",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-am-m-v5g-ti-5ghz-sector-antenna-titanium-changeable-angle-60-120-15-17dbi_d49998.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-antennas-sector-antennas-5ghz_c15888552.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Antennas",
+    "Sector antennas",
+    "5GHz"
+  ]
+}

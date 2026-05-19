@@ -1,1 +1,26 @@
-{"id":"mikrotik-solidmount","brand":"MikroTik","sku":"solidMOUNT","title":"MikroTik solidMOUNT - Precision metal mount for LHG series","category":"Wireless / MikroTik / Holders","description":"SolidMOUNT je kovovÃ½, preciznÃ­, nastavitelnÃ½ drÅ¾Ã¡k s jemnÃ½m lazenÃ­m pomocÃ­ dvou postrannÃ­ch Å¡roubÅ¯ s matkami. DrÅ¾Ã¡k je kompatibilnÃ­ se vÅ¡emi jednotkami ze sÃ©rie LHG, vÄetnÄ vÄtÅ¡Ã­ch LHG XL modelÅ¯. Na jednotku se instaluje pomocÃ­ 4 Å¡roubkÅ¯, jenÅ¾ jsou souÄÃ¡stÃ­ balenÃ­ Holder U-bolt Allen key (4) screws","availability":"To order / expected","unitPerCarton":30,"warranty":"24 months","displayPriceUsd":27,"fullCartonUnitPriceUsd":26.06,"imageUrl":"assets/catalog-data/public-images/mikrotik-solidmount-a6d1f73091.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Width [mm] 95 Height [mm] 88 Depth [mm] 108"}
+{
+  "id": "mikrotik-solidmount",
+  "brand": "MikroTik",
+  "sku": "solidMOUNT",
+  "title": "MikroTik solidMOUNT - Precision metal mount for LHG series",
+  "category": "MikroTik / Wireless / Holders",
+  "description": "SolidMOUNT je kovovÃ½, preciznÃ­, nastavitelnÃ½ drÅ¾Ã¡k s jemnÃ½m lazenÃ­m pomocÃ­ dvou postrannÃ­ch Å¡roubÅ¯ s matkami. DrÅ¾Ã¡k je kompatibilnÃ­ se vÅ¡emi jednotkami ze sÃ©rie LHG, vÄetnÄ vÄtÅ¡Ã­ch LHG XL modelÅ¯. Na jednotku se instaluje pomocÃ­ 4 Å¡roubkÅ¯, jenÅ¾ jsou souÄÃ¡stÃ­ balenÃ­ Holder U-bolt Allen key (4) screws",
+  "availability": "Expected 9.6.2026",
+  "unitPerCarton": 30,
+  "warranty": "24 months",
+  "displayPriceUsd": 27,
+  "fullCartonUnitPriceUsd": 26.06,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-solidmount-a6d1f73091.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Width [mm] 95 Height [mm] 88 Depth [mm] 108",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-solidmount-precision-metal-mount-for-lhg-series_d89851.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-holders_c16588561.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Holders"
+  ]
+}

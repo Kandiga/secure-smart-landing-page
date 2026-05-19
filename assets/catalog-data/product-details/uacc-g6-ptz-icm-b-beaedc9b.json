@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-g6-ptz-icm-b","brand":"Ubiquiti","sku":"UACC-G6-PTZ-ICM-B","title":"Ubiquiti G6 PTZ - In-Ceiling Mount, black","category":"Cameras, security / Mounting boxes and brackets / Ceiling","description":"In-ceiling mount for the Ubiquiti UniFi G6 PTZ camera, black color Mount (2) screws","availability":"To order / expected","unitPerCarton":6,"warranty":"24 months","displayPriceUsd":45,"fullCartonUnitPriceUsd":43.43,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-g6-ptz-icm-b-cb3b1fca30.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-g6-ptz-icm-b",
+  "brand": "Ubiquiti",
+  "sku": "UACC-G6-PTZ-ICM-B",
+  "title": "Ubiquiti G6 PTZ - In-Ceiling Mount, black",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Concealed ceiling",
+  "description": "In-ceiling mount for the Ubiquiti UniFi G6 PTZ camera, black color Mount (2) screws",
+  "availability": "Ordered, unknown date",
+  "unitPerCarton": 6,
+  "warranty": "24 months",
+  "displayPriceUsd": 45,
+  "fullCartonUnitPriceUsd": 43.43,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-g6-ptz-icm-b-cb3b1fca30.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-g6-ptz-in-ceiling-mount-black_d130509.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-concealed-ceiling_c16591510.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Concealed ceiling"
+  ]
+}

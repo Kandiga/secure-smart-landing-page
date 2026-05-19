@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-g4-dome-arm-mount","brand":"Ubiquiti","sku":"UACC-G4-Dome-Arm Mount","title":"Ubiquiti UACC-G4-Dome-Arm Mount","category":"Cameras, security / Mounting boxes and brackets / Wallmount","description":"The UACC G4 Dome Arm Mount is lightweight, polycarbonate accessory that allows you to attach your G4 Dome camera to a specific wall or pole, not just the ceiling. With the G4 Dome Arm Mount, you'll have more surveillance system layout options as well as the ability to create focused camera sightlines. This mount is sold separately from the camera but is an ideal accessory for those looking to enhance the camera's versatility. The overall dimensions of the holder are 114 x 124 x 32 mm","availability":"In stock","unitPerCarton":40,"warranty":"24 months","displayPriceUsd":22,"fullCartonUnitPriceUsd":21.23,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-g4-dome-arm-mount-89d4362a95.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-g4-dome-arm-mount",
+  "brand": "Ubiquiti",
+  "sku": "UACC-G4-Dome-Arm Mount",
+  "title": "Ubiquiti UACC-G4-Dome-Arm Mount",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Wallmount",
+  "description": "The UACC G4 Dome Arm Mount is lightweight, polycarbonate accessory that allows you to attach your G4 Dome camera to a specific wall or pole, not just the ceiling. With the G4 Dome Arm Mount, you'll have more surveillance system layout options as well as the ability to create focused camera sightlines. This mount is sold separately from the camera but is an ideal accessory for those looking to enhance the camera's versatility. The overall dimensions of the holder are 114 x 124 x 32 mm",
+  "availability": "In Stock 28 pcs.",
+  "unitPerCarton": 40,
+  "warranty": "24 months",
+  "displayPriceUsd": 22,
+  "fullCartonUnitPriceUsd": 21.23,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-g4-dome-arm-mount-89d4362a95.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 28,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-g4-dome-arm-mount_d120067.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-wallmount_c16588781.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Wallmount"
+  ]
+}

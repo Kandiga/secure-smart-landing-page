@@ -1,1 +1,25 @@
-{"id":"mikrotik-qme","brand":"MikroTik","sku":"QME","title":"MikroTik quickMOUNT extra for large antennas","category":"Wireless / MikroTik / Holders","description":"The quickMOUNT extra is a advanced wall mount adapter for large point to point and sector antennas You can mount it on the wall or use it as an adapter from large diameter pole to small size antenna mounting clip ensuring reliable fitment. The quickMOUNT extra gives possibility to turn antenna within 190° With the quickMOUNT extra is compatible with our long range heavy antennas like 30dBi parabolic dish mANT 30 or 19dBi sector mANT 19s","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":7,"fullCartonUnitPriceUsd":6.76,"imageUrl":"assets/catalog-data/public-images/mikrotik-qme-8b1db2d703.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "mikrotik-qme",
+  "brand": "MikroTik",
+  "sku": "QME",
+  "title": "MikroTik quickMOUNT extra for large antennas",
+  "category": "MikroTik / Wireless / Holders",
+  "description": "The quickMOUNT extra is a advanced wall mount adapter for large point to point and sector antennas You can mount it on the wall or use it as an adapter from large diameter pole to small size antenna mounting clip ensuring reliable fitment. The quickMOUNT extra gives possibility to turn antenna within 190° With the quickMOUNT extra is compatible with our long range heavy antennas like 30dBi parabolic dish mANT 30 or 19dBi sector mANT 19s",
+  "availability": "In Stock 24 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 7,
+  "fullCartonUnitPriceUsd": 6.76,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-qme-8b1db2d703.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 24,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-quickmount-extra-for-large-antennas_d71769.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-holders_c16588561.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Holders"
+  ]
+}

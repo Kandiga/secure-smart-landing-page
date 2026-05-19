@@ -1,1 +1,39 @@
-{"id":"rf-elements-ud-tp-24","brand":"RF elements","sku":"UD-TP-24","title":"RF elements UltraDish UD-TP-24 Directional Parabolic Dish Antenna with TwistPort, 5GHz, 24dBi - 2pack","category":"Wireless / Antennas / Antennas with TwistPort","description":"UD-TP-24 is one directional antenna from the RF elements workshop, characterized by a symmetrical beam angle, reduction of the side lobes and interference, gain of 24.4 dBi and TwistPort connector The TwistPort connector is virtually lossless and changes all established standards thanks to its easy handling. There are no RF connectors or RF cables that cause significant signal loss. Compared to commonly used coaxial cables and connectors, the loss on TwistPort is almost immeasurable. Connection and disconnection is ingeniously simple and can be done with one hand For use with third-party products such as MikroTik, Ubiquiti or Cambium, RF elements offer a wide range of adapters that will allow you to easily connect these devices to the TwistPort connector. This will allow you to transfer any unit to another antenna with a single click without screwing up the pigtails","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":161,"fullCartonUnitPriceUsd":161,"imageUrl":"assets/catalog-data/public-images/rf-elements-ud-tp-24-244e3aa5e7.jpg","documents":[],"shippingDimensions":{"unit":{"dimensionCount":1,"lengthCm":47,"widthCm":21,"heightCm":47,"volumeCm3":46389,"weightKg":7.3},"carton":null},"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features F/B ratio [dB] 35 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 12 Azimuth beam width (-6dB) [°] 12 Antenna type Directional Antenna gain [dBi] 24 Connectors and Interfaces RF connectors TwistPort"}
+{
+  "id": "rf-elements-ud-tp-24",
+  "brand": "RF elements",
+  "sku": "UD-TP-24",
+  "title": "RF elements UltraDish UD-TP-24 Directional Parabolic Dish Antenna with TwistPort, 5GHz, 24dBi - 2pack",
+  "category": "RF elements / Wireless / Antennas / Directional antennas / 5GHz",
+  "description": "UD-TP-24 is one directional antenna from the RF elements workshop, characterized by a symmetrical beam angle, reduction of the side lobes and interference, gain of 24.4 dBi and TwistPort connector The TwistPort connector is virtually lossless and changes all established standards thanks to its easy handling. There are no RF connectors or RF cables that cause significant signal loss. Compared to commonly used coaxial cables and connectors, the loss on TwistPort is almost immeasurable. Connection and disconnection is ingeniously simple and can be done with one hand For use with third-party products such as MikroTik, Ubiquiti or Cambium, RF elements offer a wide range of adapters that will allow you to easily connect these devices to the TwistPort connector. This will allow you to transfer any unit to another antenna with a single click without screwing up the pigtails",
+  "availability": "In Stock 26 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 161,
+  "fullCartonUnitPriceUsd": 161,
+  "imageUrl": "assets/catalog-data/public-images/rf-elements-ud-tp-24-244e3aa5e7.jpg",
+  "documents": [],
+  "shippingDimensions": {
+    "unit": {
+      "dimensionCount": 1,
+      "lengthCm": 47,
+      "widthCm": 21,
+      "heightCm": 47,
+      "volumeCm3": 46389,
+      "weightKg": 7.3
+    },
+    "carton": null
+  },
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features F/B ratio [dB] 35 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 12 Azimuth beam width (-6dB) [°] 12 Antenna type Directional Antenna gain [dBi] 24 Connectors and Interfaces RF connectors TwistPort",
+  "stockQtyVisible": 26,
+  "discompProductUrl": "https://www.discomp.cz/rf-elements-ultradish-ud-tp-24-directional-parabolic-dish-antenna-with-twistport-5ghz-24dbi-2pack_d105645.html",
+  "discompCategoryUrl": "https://www.discomp.cz/rf-elements-wireless-antennas-directional-antennas-5ghz_c15888544.html",
+  "discompSourcePath": [
+    "RF elements",
+    "Wireless",
+    "Antennas",
+    "Directional antennas",
+    "5GHz"
+  ]
+}

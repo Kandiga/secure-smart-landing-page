@@ -1,1 +1,26 @@
-{"id":"mikrotik-dq-bc0003-ds","brand":"MikroTik","sku":"DQ+BC0003-DS+","title":"MikroTik DQ+BC0003-DS+, QSFP56 200G to 4x SFP56 50G DAC cable","category":"Wireless / MikroTik / DAC cables","description":"The MikroTik DQ+BC0003-DS+ is a break-out cable that splits (1) QSFP56 200Gbps interface into (4) independent SFP56 50Gbps interfaces. The cable is 3 meters long, which is an ideal length to reach all the necessary locations while keeping your server room neat and organized","availability":"To order / expected","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":74,"fullCartonUnitPriceUsd":74,"imageUrl":"assets/catalog-data/public-images/mikrotik-dq-bc0003-ds-0b3db6ad17.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Optics Format QSFP56 to (4) SFP56 Transmission speed 50 Gbps, 200 Gbps AOC/DAC cable type Passive"}
+{
+  "id": "mikrotik-dq-bc0003-ds",
+  "brand": "MikroTik",
+  "sku": "DQ+BC0003-DS+",
+  "title": "MikroTik DQ+BC0003-DS+, QSFP56 200G to 4x SFP56 50G DAC cable",
+  "category": "MikroTik / Wireless / DAC cables",
+  "description": "The MikroTik DQ+BC0003-DS+ is a break-out cable that splits (1) QSFP56 200Gbps interface into (4) independent SFP56 50Gbps interfaces. The cable is 3 meters long, which is an ideal length to reach all the necessary locations while keeping your server room neat and organized",
+  "availability": "Not In Stock",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 74,
+  "fullCartonUnitPriceUsd": 74,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-dq-bc0003-ds-0b3db6ad17.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Optics Format QSFP56 to (4) SFP56 Transmission speed 50 Gbps, 200 Gbps AOC/DAC cable type Passive",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-dq-bc0003-ds-qsfp56-200g-to-4x-sfp56-50g-dac-cable_d131581.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-dac-cables_c16588556.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "DAC cables"
+  ]
+}

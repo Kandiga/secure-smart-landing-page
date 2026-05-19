@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-rack-ear-2u","brand":"Ubiquiti","sku":"UACC-Rack-Ear-2U","title":"Ubiquiti UACC-Rack-Ear-2U, rack ears","category":"Cabinets / Accessories / Installation kits","description":"Replacement rack ears for UniFi 2U rack-mount devices with included Precision Rack Mount inserts and screws (2) Rack ears 2U (8) Screws M8 (2) Precision rack mount (4) Screws 10#-32","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":17,"fullCartonUnitPriceUsd":16.41,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-rack-ear-2u-6df5e16b47.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-rack-ear-2u",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Rack-Ear-2U",
+  "title": "Ubiquiti UACC-Rack-Ear-2U, rack ears",
+  "category": "Ubiquiti / Cabinets / Accessories / Installation kits",
+  "description": "Replacement rack ears for UniFi 2U rack-mount devices with included Precision Rack Mount inserts and screws (2) Rack ears 2U (8) Screws M8 (2) Precision rack mount (4) Screws 10#-32",
+  "availability": "In Stock 15 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 17,
+  "fullCartonUnitPriceUsd": 16.41,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-rack-ear-2u-6df5e16b47.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 15,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-rack-ear-2u-rack-ears_d128682.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cabinets-accessories-installation-kits_c16591901.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cabinets",
+    "Accessories",
+    "Installation kits"
+  ]
+}

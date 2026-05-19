@@ -1,1 +1,27 @@
-{"id":"ubiquiti-u-poe","brand":"Ubiquiti","sku":"U-PoE+","title":"Ubiquiti U-PoE++ Gigabit PoE injector, 48V / 1,25A (60W)","category":"Powering / Pasive PoE / PoE injectors","description":"U-POE++ from Ubiquiti is a high-quality Gigabit PoE injector with one PoE output port for powering devices with voltage level of 48V with a maximum output power of 60W , which is sufficient for the energy-intensive devices. The power supply is conducted on all the wires 1,2,4.5 (+) and 3,6,7.8 (-). Of course, the source also includes protection against electrical overvoltage. A 3-pin power cord is included","availability":"In stock","unitPerCarton":50,"warranty":"24 months","displayPriceUsd":17,"fullCartonUnitPriceUsd":16.41,"imageUrl":"assets/catalog-data/public-images/ubiquiti-u-poe-978131bb92.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power The input voltage [V] 230V AC Output Power [W] 30 Pin powering 1,2,4,5 (+), 3,6,7,8 (-) PoE Out ports 1 Output Voltage [V] 48 Output Current [A] 0.65 Efficiency [%] 85+"}
+{
+  "id": "ubiquiti-u-poe",
+  "brand": "Ubiquiti",
+  "sku": "U-PoE+",
+  "title": "Ubiquiti U-PoE++ Gigabit PoE injector, 48V / 1,25A (60W)",
+  "category": "Ubiquiti / Powering / Pasive PoE / PoE injectors",
+  "description": "U-POE++ from Ubiquiti is a high-quality Gigabit PoE injector with one PoE output port for powering devices with voltage level of 48V with a maximum output power of 60W , which is sufficient for the energy-intensive devices. The power supply is conducted on all the wires 1,2,4.5 (+) and 3,6,7.8 (-). Of course, the source also includes protection against electrical overvoltage. A 3-pin power cord is included",
+  "availability": "In Stock 98 pcs.",
+  "unitPerCarton": 50,
+  "warranty": "24 months",
+  "displayPriceUsd": 17,
+  "fullCartonUnitPriceUsd": 16.41,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-u-poe-978131bb92.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power The input voltage [V] 230V AC Output Power [W] 30 Pin powering 1,2,4,5 (+), 3,6,7,8 (-) PoE Out ports 1 Output Voltage [V] 48 Output Current [A] 0.65 Efficiency [%] 85+",
+  "stockQtyVisible": 98,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-u-poe-gigabit-poe-injector-48v-0-65a-30w-_d128923.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-pasive-poe-poe-injectors_c16591506.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Pasive PoE",
+    "PoE injectors"
+  ]
+}

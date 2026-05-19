@@ -1,1 +1,25 @@
-{"id":"mikrotik-mt-hotswapfan","brand":"MikroTik","sku":"MT-HotSwapFan","title":"MikroTik MT-HotSwapFan, Hot-swappable fan for CCR2216-1G-12XS-2XQ","category":"Wireless / MikroTik / Accessories","description":"Be prepared for the unexpected with the backup hot-swappable fans for our newest devices, such as the flagship CCR2216! If your fans go out of order at some point, you can swap them without unnecessary downtime, as there is no need to turn the router off","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":36,"fullCartonUnitPriceUsd":36,"imageUrl":"assets/catalog-data/public-images/mikrotik-mt-hotswapfan-710f8abd93.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "mikrotik-mt-hotswapfan",
+  "brand": "MikroTik",
+  "sku": "MT-HotSwapFan",
+  "title": "MikroTik MT-HotSwapFan, Hot-swappable fan for CCR2216-1G-12XS-2XQ",
+  "category": "MikroTik / Wireless / Accessories",
+  "description": "Be prepared for the unexpected with the backup hot-swappable fans for our newest devices, such as the flagship CCR2216! If your fans go out of order at some point, you can swap them without unnecessary downtime, as there is no need to turn the router off",
+  "availability": "In Stock 7 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 36,
+  "fullCartonUnitPriceUsd": 36,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-mt-hotswapfan-710f8abd93.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 7,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-mt-hotswapfan-hot-swappable-fan-for-ccr2216-1g-12xs-2xq_d114157.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-accessories_c16588567.html?page=2",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Accessories"
+  ]
+}

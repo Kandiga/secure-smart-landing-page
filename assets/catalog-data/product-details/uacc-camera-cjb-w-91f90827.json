@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-camera-cjb-w","brand":"Ubiquiti","sku":"UACC-Camera-CJB-W","title":"Ubiquiti UACC-Camera-CJB-W, compact junction box for UVC-G5-xxx-ULTRA","category":"Cameras, security / Mounting boxes and brackets / Wallmount","description":"Tamper-resistant junction box for compact UniFi Dome and Turret cameras that enhances mounting durability, aesthetics, and ease of maintenance Supports flat surface, pole and pendant mounting Includes side and rear 3/4\" conduit entrances UVC-G5-Dome-Ultra UVC-G5-Turret-Ultra","availability":"To order / expected","unitPerCarton":8,"warranty":"24 months","displayPriceUsd":58,"fullCartonUnitPriceUsd":55.97,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-camera-cjb-w-abb7cd1582.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Designed for mast diameter [mm] 38 up to 50 Design On the wall, On the mast, Ceiling Purpose Outdoor Material Polycarbonate, Aluminum alloy Weight [g] 270 Width [mm] 49 Height [mm] 147 Depth [mm] 87 Color White"}
+{
+  "id": "ubiquiti-uacc-camera-cjb-w",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Camera-CJB-W",
+  "title": "Ubiquiti UACC-Camera-CJB-W, compact junction box for UVC-G5-xxx-ULTRA",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Mast boxes",
+  "description": "Tamper-resistant junction box for compact UniFi Dome and Turret cameras that enhances mounting durability, aesthetics, and ease of maintenance Supports flat surface, pole and pendant mounting Includes side and rear 3/4\" conduit entrances UVC-G5-Dome-Ultra UVC-G5-Turret-Ultra",
+  "availability": "Expected 21.5.2026",
+  "unitPerCarton": 8,
+  "warranty": "24 months",
+  "displayPriceUsd": 58,
+  "fullCartonUnitPriceUsd": 55.97,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-camera-cjb-w-abb7cd1582.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Designed for mast diameter [mm] 38 up to 50 Design On the wall, On the mast, Ceiling Purpose Outdoor Material Polycarbonate, Aluminum alloy Weight [g] 270 Width [mm] 49 Height [mm] 147 Depth [mm] 87 Color White",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-camera-cjb-w-compact-junction-box-for-uvc-g5-xxx-ultra_d125254.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-mast-boxes_c16588812.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Mast boxes"
+  ]
+}

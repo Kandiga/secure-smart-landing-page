@@ -1,1 +1,27 @@
-{"id":"ubiquiti-poe-24-12w-wh","brand":"Ubiquiti","sku":"POE-24-12W-WH","title":"Ubiquiti POE-24-12W-WH","category":"Powering / Pasive PoE / PoE injectors","description":"The Ubiquiti POE-24-12W-WH is a grounded PoE injector with a maximum output power of 12 W. It provides one input port for a traditional LAN connection and a second port as a PoE output port. The maximum data transfer rate is 100 Mbps. This device is not equipped with LED indicator Maximum Output Power 12 W One PoE Port Maximum Transfer Rate 100 Mbps No LED Indicator GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"To order / expected","unitPerCarton":50,"warranty":"24 months","displayPriceUsd":8,"fullCartonUnitPriceUsd":7.72,"imageUrl":"assets/catalog-data/public-images/ubiquiti-poe-24-12w-wh-915e65ed86.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Ethernet speed [Mb/s] 10/100 Power The input voltage [V] 100 .. 240V AC Output Power [W] 12 PoE Out ports 1 Output Voltage [V] 24 Output Current [A] 0,5"}
+{
+  "id": "ubiquiti-poe-24-12w-wh",
+  "brand": "Ubiquiti",
+  "sku": "POE-24-12W-WH",
+  "title": "Ubiquiti POE-24-12W-WH",
+  "category": "Ubiquiti / Powering / Pasive PoE / PoE injectors",
+  "description": "The Ubiquiti POE-24-12W-WH is a grounded PoE injector with a maximum output power of 12 W. It provides one input port for a traditional LAN connection and a second port as a PoE output port. The maximum data transfer rate is 100 Mbps. This device is not equipped with LED indicator Maximum Output Power 12 W One PoE Port Maximum Transfer Rate 100 Mbps No LED Indicator GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "Not In Stock",
+  "unitPerCarton": 50,
+  "warranty": "24 months",
+  "displayPriceUsd": 8,
+  "fullCartonUnitPriceUsd": 7.72,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-poe-24-12w-wh-915e65ed86.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Ethernet speed [Mb/s] 10/100 Power The input voltage [V] 100 .. 240V AC Output Power [W] 12 PoE Out ports 1 Output Voltage [V] 24 Output Current [A] 0,5",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-poe-24-12w-wh_d124472.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-pasive-poe-poe-injectors_c16591506.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Pasive PoE",
+    "PoE injectors"
+  ]
+}

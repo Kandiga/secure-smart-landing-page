@@ -1,1 +1,27 @@
-{"id":"huawei-s220s-24t4jx","brand":"Huawei","sku":"S220S-24T4JX","title":"Huawei S220S-24T4JX Gigabit switch, 2x 2.5G SFP, 2x SFP+","category":"LAN networks / Switches / eKit Switches","description":"Huawei S220S-24T4JX is a manageable L2 switch equipped with 24x 1Gbit Ethernet, 2x 2.5G SFP and 2x SFP+ ports . It supports all common L2 functions, along with extensive management options, including management through the Huawei eKit App for cloud control. The switch also enables one-click automatic updates via the Huawei Online Upgrade Platform (HOUP) The Huawei eKitEngine S220S series switches are L2 GE/10GE switches designed for small and medium-sized businesses (SMBs). Advanced features, high reliability, comprehensive device management options, rack-mount capability, built-in 230V AC power supply, and fanless design (only non-PoE models) make them suitable for a wide range of installation scenarios Device 19\" Rack Mount Brackets 230V AC Power Cable Grounding Cable Self-Adhesive Rubber Pads","availability":"To order / expected","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":206,"fullCartonUnitPriceUsd":206,"imageUrl":"assets/catalog-data/public-images/huawei-s220s-24t4jx-43aa1f10f4.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces LAN speed (24) 10/100/1000Mbps Optical interfaces (2) 1G/2.5G + (2) 1/10G Power Power type Mains power (230V) Max. power consumption [W] 35 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 220 General Switchning capacity [Gbps] 98 MAC address table 16000 Packet forwarding rate [Mpps] 73"}
+{
+  "id": "huawei-s220s-24t4jx",
+  "brand": "Huawei",
+  "sku": "S220S-24T4JX",
+  "title": "Huawei S220S-24T4JX Gigabit switch, 2x 2.5G SFP, 2x SFP+",
+  "category": "Huawei / LAN networks / Switches / eKit Switches",
+  "description": "Huawei S220S-24T4JX is a manageable L2 switch equipped with 24x 1Gbit Ethernet, 2x 2.5G SFP and 2x SFP+ ports . It supports all common L2 functions, along with extensive management options, including management through the Huawei eKit App for cloud control. The switch also enables one-click automatic updates via the Huawei Online Upgrade Platform (HOUP) The Huawei eKitEngine S220S series switches are L2 GE/10GE switches designed for small and medium-sized businesses (SMBs). Advanced features, high reliability, comprehensive device management options, rack-mount capability, built-in 230V AC power supply, and fanless design (only non-PoE models) make them suitable for a wide range of installation scenarios Device 19\" Rack Mount Brackets 230V AC Power Cable Grounding Cable Self-Adhesive Rubber Pads",
+  "availability": "Expected 29.5.2026",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 206,
+  "fullCartonUnitPriceUsd": 206,
+  "imageUrl": "assets/catalog-data/public-images/huawei-s220s-24t4jx-43aa1f10f4.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces LAN speed (24) 10/100/1000Mbps Optical interfaces (2) 1G/2.5G + (2) 1/10G Power Power type Mains power (230V) Max. power consumption [W] 35 Power via connector/terminal 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 220 General Switchning capacity [Gbps] 98 MAC address table 16000 Packet forwarding rate [Mpps] 73",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/huawei-s220s-24t4jx-gigabit-switch-2x-2-5g-sfp-2x-sfp-_d127747.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-lan-networks-switches-ekit-switches_c16591802.html?page=2",
+  "discompSourcePath": [
+    "Huawei",
+    "LAN networks",
+    "Switches",
+    "eKit Switches"
+  ]
+}

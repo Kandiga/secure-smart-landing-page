@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-aoc-sfp10-5m","brand":"Ubiquiti","sku":"UACC-AOC-SFP10-5M","title":"Ubiquiti UACC-AOC-SFP10-5M, AOC cable, 10 Gbps, 5m","category":"Optical networks / DAC and AOC cables / AOC cables","description":"The active Multi Mode optical cable is used for direct connection of two SFP+ ports with a link speed of 10 Gbps . This ultra-thin (3mm) optical cable is 5 m long but is also available in other variants. The cable is ideal for creating connections between switches or routers that provide 10 Gbps","availability":"To order / expected","unitPerCarton":70,"warranty":"24 months","displayPriceUsd":43,"fullCartonUnitPriceUsd":41.5,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-aoc-sfp10-5m-22a6bf33fa.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Optics Fiber type Multi Mode Core diameter [µm] 50/125 (OM4) Format SFP, SFP+ Transmission speed 1 Gbps, 10 Gbps Wavelength - Tx/Rx [nm] 850 AOC/DAC cable type Active"}
+{
+  "id": "ubiquiti-uacc-aoc-sfp10-5m",
+  "brand": "Ubiquiti",
+  "sku": "UACC-AOC-SFP10-5M",
+  "title": "Ubiquiti UACC-AOC-SFP10-5M, AOC cable, 10 Gbps, 5m",
+  "category": "Ubiquiti / Optical networks / DAC and AOC cables / AOC cables",
+  "description": "The active Multi Mode optical cable is used for direct connection of two SFP+ ports with a link speed of 10 Gbps . This ultra-thin (3mm) optical cable is 5 m long but is also available in other variants. The cable is ideal for creating connections between switches or routers that provide 10 Gbps",
+  "availability": "Expected 20.6.2026",
+  "unitPerCarton": 70,
+  "warranty": "24 months",
+  "displayPriceUsd": 43,
+  "fullCartonUnitPriceUsd": 41.5,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-aoc-sfp10-5m-22a6bf33fa.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Optics Fiber type Multi Mode Core diameter [µm] 50/125 (OM4) Format SFP, SFP+ Transmission speed 1 Gbps, 10 Gbps Wavelength - Tx/Rx [nm] 850 AOC/DAC cable type Active",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-aoc-sfp10-5m-aoc-cable-10-gbps-5m_d114710.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-dac-and-aoc-cables-aoc-cables_c16591534.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "DAC and AOC cables",
+    "AOC cables"
+  ]
+}

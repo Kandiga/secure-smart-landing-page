@@ -1,1 +1,26 @@
-{"id":"mikrotik-rb4011igs-rm","brand":"MikroTik","sku":"RB4011iGS+RM","title":"MikroTik RouterBOARD RB4011iGS+RM","category":"Wireless / MikroTik / RouterBOARD","description":"The RB4011 uses the amazingly powerful quad core cortex A15 chip from annapurna labs, an amazon company, same as in your grade rb1100AHx4 unit. The CPU supports IPsec hardware acceleration, there is 1GB of RAM, so this device will easily handle any task you have configured RouterOS to perform. All of this power, in a compact and professional looking solid metal enclosure in matte black. The router includes two rackmount ears, that will securely fasten the unit in standard 1U rack space The RB4011 is equipped with 10x GLAN, one SFP+ port and a power connector on the back side of the router. The first Gigabit port supports passive PoE, 10th port supports PoE-Out which is using to power another device with the same voltage as the RB4011 Device Power adapter 24V / 1.5A Rackmount 19\" kit","availability":"In stock","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":206,"fullCartonUnitPriceUsd":198.79,"imageUrl":"assets/catalog-data/public-images/mikrotik-rb4011igs-rm-90ebaa21c1.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Multiple WAN Yes LAN speed (10) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (1) 1/10Gbps Power Power over Ethernet 18 .. 57V DC Power type DC connector, PoE PoE type PoE-Out + PoE-In PoE Out ports 1 Max. power consumption [W] 18 Power via connector/terminal 12 .. 57V DC Physical characteristics Design Desktop, Rackmount Fans No Chassis design Metal Operating temperature [°C] 40 up to 70 Width [mm] 228 Height [mm] 30 Depth [mm] 120 Hardware CPU AL21400 CPU frequency [MHz] 1400 CPU cores 4 Internal storage [MB] 512 RAM [MB] 1024"}
+{
+  "id": "mikrotik-rb4011igs-rm",
+  "brand": "MikroTik",
+  "sku": "RB4011iGS+RM",
+  "title": "MikroTik RouterBOARD RB4011iGS+RM",
+  "category": "MikroTik / Wireless / RouterBOARD",
+  "description": "The RB4011 uses the amazingly powerful quad core cortex A15 chip from annapurna labs, an amazon company, same as in your grade rb1100AHx4 unit. The CPU supports IPsec hardware acceleration, there is 1GB of RAM, so this device will easily handle any task you have configured RouterOS to perform. All of this power, in a compact and professional looking solid metal enclosure in matte black. The router includes two rackmount ears, that will securely fasten the unit in standard 1U rack space The RB4011 is equipped with 10x GLAN, one SFP+ port and a power connector on the back side of the router. The first Gigabit port supports passive PoE, 10th port supports PoE-Out which is using to power another device with the same voltage as the RB4011 Device Power adapter 24V / 1.5A Rackmount 19\" kit",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 206,
+  "fullCartonUnitPriceUsd": 198.79,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rb4011igs-rm-90ebaa21c1.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Multiple WAN Yes LAN speed (10) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (1) 1/10Gbps Power Power over Ethernet 18 .. 57V DC Power type DC connector, PoE PoE type PoE-Out + PoE-In PoE Out ports 1 Max. power consumption [W] 18 Power via connector/terminal 12 .. 57V DC Physical characteristics Design Desktop, Rackmount Fans No Chassis design Metal Operating temperature [°C] 40 up to 70 Width [mm] 228 Height [mm] 30 Depth [mm] 120 Hardware CPU AL21400 CPU frequency [MHz] 1400 CPU cores 4 Internal storage [MB] 512 RAM [MB] 1024",
+  "stockQtyVisible": 124,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-routerboard-rb4011igs-rm_d88041.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-routerboard_c16588560.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "RouterBOARD"
+  ]
+}

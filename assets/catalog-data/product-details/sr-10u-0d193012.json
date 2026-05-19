@@ -1,1 +1,26 @@
-{"id":"mikrotik-sr-10u","brand":"MikroTik","sku":"SR-10U","title":"MikroTik SR-10U - 19\" desktop rack, 10U","category":"Wireless / MikroTik / Accessories","description":"A very elegant metal and easily mountable mounting frame from MikroTik, size 19\" with height 10U is suitable for laboratory tables, exhibitions or demonstrations. It is not new and revolutionary product, it is more of a trifle that can save administrators, engineers, testers a little work when testing or exhibiting active and passive elements with installation in a rack","availability":"In stock","unitPerCarton":6,"warranty":"24 months","displayPriceUsd":47,"fullCartonUnitPriceUsd":45.36,"imageUrl":"assets/catalog-data/public-images/mikrotik-sr-10u-6935b65bf1.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Size 19\" Purpose Indoor \"U\" positions 10 Weight [kg] 1,8 Width [mm] 511 Height [mm] 507 Depth [mm] 318 Mountable Yes Color Black"}
+{
+  "id": "mikrotik-sr-10u",
+  "brand": "MikroTik",
+  "sku": "SR-10U",
+  "title": "MikroTik SR-10U - 19\" desktop rack, 10U",
+  "category": "MikroTik / Wireless / Accessories",
+  "description": "A very elegant metal and easily mountable mounting frame from MikroTik, size 19\" with height 10U is suitable for laboratory tables, exhibitions or demonstrations. It is not new and revolutionary product, it is more of a trifle that can save administrators, engineers, testers a little work when testing or exhibiting active and passive elements with installation in a rack",
+  "availability": "In Stock 10 pcs.",
+  "unitPerCarton": 6,
+  "warranty": "24 months",
+  "displayPriceUsd": 47,
+  "fullCartonUnitPriceUsd": 45.36,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-sr-10u-6935b65bf1.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Size 19\" Purpose Indoor \"U\" positions 10 Weight [kg] 1,8 Width [mm] 511 Height [mm] 507 Depth [mm] 318 Mountable Yes Color Black",
+  "stockQtyVisible": 10,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-sr-10u-19-desktop-rack-10u_d113110.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-accessories_c16588567.html?page=2",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Accessories"
+  ]
+}

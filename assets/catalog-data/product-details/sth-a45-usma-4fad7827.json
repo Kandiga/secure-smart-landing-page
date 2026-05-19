@@ -1,1 +1,46 @@
-{"id":"rf-elements-sth-a45-usma","brand":"RF elements","sku":"STH-A45-USMA","title":"RF elements STH-A45-USMA Asymmetrical antenna StarterHorn, 45°, USMA, 5GHz, 17dBi","category":"Wireless / Antennas / Sector antennas / 5GHz","description":"StarterHorn antenna from RF elements is an asymmetric sector antenna with a gain of 17 dBi , with a beam angle of 30°/45° and can be installed on a holder or mast with a diameter 20 to 55 mm . This antenna offers the perfect combination of features and functions that address the major weaknesses of today's mainstream sector antennas. The antenna is supplied to 2Ã RSMA female (for connecting radios with connectors), which can be easily disconnected and instead connected directly to the… Noise in unlicensed 5GHz wireless networks is caused by the side lobes of widely used traditional patch array antennas. The StarterHorn A45 USMA has zero side lobes, ensuring efficient use of the spectrum. As a result, your wireless network does not suffer from high interference Antenna Mast holder STA-SMA reduction to 2Ã RSMA","availability":"To order / expected","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":111,"fullCartonUnitPriceUsd":107.12,"imageUrl":"assets/catalog-data/public-images/rf-elements-sth-a45-usma-8ac0cd79f6.jpg","documents":[],"shippingDimensions":{"unit":{"dimensionCount":1,"lengthCm":23.5,"widthCm":16,"heightCm":23.5,"volumeCm3":8836,"weightKg":1.7},"carton":{"pcsPerCarton":10,"lengthCm":120,"widthCm":34,"heightCm":26,"volumeCm3":106080,"weightKg":17.1}},"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features MIMO, SISO 2 x 2 Polarization VH F/B ratio [dB] 30 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 30 Azimuth beam width (-6dB) [°] 45 Antenna type Sector Antenna gain [dBi] 17 Connectors and Interfaces RF connectors (2) RSMA female"}
+{
+  "id": "rf-elements-sth-a45-usma",
+  "brand": "RF elements",
+  "sku": "STH-A45-USMA",
+  "title": "RF elements STH-A45-USMA Asymmetrical antenna StarterHorn, 45°, USMA, 5GHz, 17dBi",
+  "category": "RF elements / Wireless / Antennas / Sector antennas / 5GHz",
+  "description": "StarterHorn antenna from RF elements is an asymmetric sector antenna with a gain of 17 dBi , with a beam angle of 30°/45° and can be installed on a holder or mast with a diameter 20 to 55 mm . This antenna offers the perfect combination of features and functions that address the major weaknesses of today's mainstream sector antennas. The antenna is supplied to 2Ã RSMA female (for connecting radios with connectors), which can be easily disconnected and instead connected directly to the… Noise in unlicensed 5GHz wireless networks is caused by the side lobes of widely used traditional patch array antennas. The StarterHorn A45 USMA has zero side lobes, ensuring efficient use of the spectrum. As a result, your wireless network does not suffer from high interference Antenna Mast holder STA-SMA reduction to 2Ã RSMA",
+  "availability": "Not In Stock",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 111,
+  "fullCartonUnitPriceUsd": 107.12,
+  "imageUrl": "assets/catalog-data/public-images/rf-elements-sth-a45-usma-8ac0cd79f6.jpg",
+  "documents": [],
+  "shippingDimensions": {
+    "unit": {
+      "dimensionCount": 1,
+      "lengthCm": 23.5,
+      "widthCm": 16,
+      "heightCm": 23.5,
+      "volumeCm3": 8836,
+      "weightKg": 1.7
+    },
+    "carton": {
+      "pcsPerCarton": 10,
+      "lengthCm": 120,
+      "widthCm": 34,
+      "heightCm": 26,
+      "volumeCm3": 106080,
+      "weightKg": 17.1
+    }
+  },
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 Polarization VH F/B ratio [dB] 30 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 30 Azimuth beam width (-6dB) [°] 45 Antenna type Sector Antenna gain [dBi] 17 Connectors and Interfaces RF connectors (2) RSMA female",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/rf-elements-sth-a45-usma-asymmetrical-antenna-starterhorn-45-usma-5ghz-17dbi_d113591.html",
+  "discompCategoryUrl": "https://www.discomp.cz/rf-elements-wireless-antennas-sector-antennas-5ghz_c15888335.html",
+  "discompSourcePath": [
+    "RF elements",
+    "Wireless",
+    "Antennas",
+    "Sector antennas",
+    "5GHz"
+  ]
+}

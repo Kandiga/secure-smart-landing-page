@@ -1,1 +1,26 @@
-{"id":"huawei-fik02","brand":"Huawei","sku":"FIK02","title":"Huawei FIK02, FTTR Fiber Installation Tool for self-adhesive type cable","category":"Optical networks / GPON / Splitters","description":"Huawei FIK02 is an installation tool designed for use with FTTR optical self-adhesive cable. Its construction allows for consistent pressure to be applied along the entire cable path, ensuring better adhesion of the cable to various surfaces","availability":"In stock","unitPerCarton":null,"warranty":"To be confirmed","displayPriceUsd":1,"fullCartonUnitPriceUsd":1,"imageUrl":"assets/catalog-data/public-images/huawei-fik02-8499e62511.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "huawei-fik02",
+  "brand": "Huawei",
+  "sku": "FIK02",
+  "title": "Huawei FIK02, FTTR Fiber Installation Tool for self-adhesive type cable",
+  "category": "Huawei / Optical networks / GPON / Splitters",
+  "description": "Huawei FIK02 is an installation tool designed for use with FTTR optical self-adhesive cable. Its construction allows for consistent pressure to be applied along the entire cable path, ensuring better adhesion of the cable to various surfaces",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": null,
+  "warranty": "To be confirmed",
+  "displayPriceUsd": 1,
+  "fullCartonUnitPriceUsd": 1,
+  "imageUrl": "assets/catalog-data/public-images/huawei-fik02-8499e62511.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 171,
+  "discompProductUrl": "https://www.discomp.cz/huawei-fik02-fttr-fiber-installation-tool-for-self-adhesive-type-cable_d129381.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-optical-networks-gpon-splitters_c16592265.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Optical networks",
+    "GPON",
+    "Splitters"
+  ]
+}

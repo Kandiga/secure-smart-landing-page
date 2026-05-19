@@ -1,1 +1,28 @@
-{"id":"ubiquiti-horn-5-45","brand":"Ubiquiti","sku":"Horn-5-45","title":"Ubiquiti PrismAP-5-45, (Horn-5-45) Symetrical sector 5GHz antenna, 16dBi, 45°","category":"Wireless / Antennas / Sector antennas / 5GHz","description":"The isolation antennas are interchangeable and feature high-performance beam patterns for a range of demanding deployment needs. Combined with the PrismStation 5AC or IsoStation radio, the system gets maximum gain out of the smallest footprint 45°version offer breakthrough scalability options for wireless systems. Unique beam performance and great co-location characteristics allow for a higher density of sectors than traditional sector technology","availability":"In stock","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":80,"fullCartonUnitPriceUsd":77.2,"imageUrl":"assets/catalog-data/public-images/ubiquiti-horn-5-45-ee3da68f08.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features MIMO, SISO 2 x 2 Polarization VH, Slant (+- 45 °) VSWR < 1,7 Cross-Pol Isolation [dB] 17 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 45 Azimuth beam width (-6dB) [°] 45 Antenna type Sector Antenna gain [dBi] 16 Connectors and Interfaces RF connectors IsoStation port Physical characteristics Wind load [km/h] 200 Purpose Outdoor Weight [kg] 1,3 Width [mm] 175 Height [mm] 175 Depth [mm] 184"}
+{
+  "id": "ubiquiti-horn-5-45",
+  "brand": "Ubiquiti",
+  "sku": "Horn-5-45",
+  "title": "Ubiquiti PrismAP-5-45, (Horn-5-45) Symetrical sector 5GHz antenna, 16dBi, 45°",
+  "category": "Ubiquiti / Wireless / Antennas / Sector antennas / 5GHz",
+  "description": "The isolation antennas are interchangeable and feature high-performance beam patterns for a range of demanding deployment needs. Combined with the PrismStation 5AC or IsoStation radio, the system gets maximum gain out of the smallest footprint 45°version offer breakthrough scalability options for wireless systems. Unique beam performance and great co-location characteristics allow for a higher density of sectors than traditional sector technology",
+  "availability": "In Stock 10 pcs.",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 80,
+  "fullCartonUnitPriceUsd": 77.2,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-horn-5-45-ee3da68f08.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 Polarization VH, Slant (+- 45 °) VSWR < 1,7 Cross-Pol Isolation [dB] 17 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 45 Azimuth beam width (-6dB) [°] 45 Antenna type Sector Antenna gain [dBi] 16 Connectors and Interfaces RF connectors IsoStation port Physical characteristics Wind load [km/h] 200 Purpose Outdoor Weight [kg] 1,3 Width [mm] 175 Height [mm] 175 Depth [mm] 184",
+  "stockQtyVisible": 10,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-prismap-5-45-horn-5-45-symetrical-sector-5ghz-antenna-16dbi-45-_d81966.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-antennas-sector-antennas-5ghz_c15888552.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Antennas",
+    "Sector antennas",
+    "5GHz"
+  ]
+}

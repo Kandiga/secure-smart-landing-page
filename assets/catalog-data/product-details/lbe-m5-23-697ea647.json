@@ -1,1 +1,27 @@
-{"id":"ubiquiti-lbe-m5-23","brand":"Ubiquiti","sku":"LBE-M5-23","title":"Ubiquiti LiteBeam M5-23, outdoor, 5GHz, 23dBi, AirMAX","category":"Wireless / Outdoor units / AirMAX","description":"The LiteBeamM provides 23dBi of gain for long-distance connectivity and uses a directional antenna pattern for improved noise immunity. Featuring the freedom of three-axis alignment , the LiteBeamM fully assembles in seconds â no tools needed = only a single wrench is required for pole-mounting A lightweight form factor contained within ultra-compact packaging , the LiteBeamM is ideal for shipping and logistics This Device is the most Cost-Effective airMAX CPE (since 5.6.3 firmware can works as Acess point) yet Antenna feed (3) Reflector panel Feed receiver Ball joint mount PoE power adapter Power cord Metal strap","availability":"In stock","unitPerCarton":8,"warranty":"24 months","displayPriceUsd":52,"fullCartonUnitPriceUsd":50.18,"imageUrl":"assets/catalog-data/public-images/ubiquiti-lbe-m5-23-9fffa31ff4.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Wireless frequency 5 GHz WiFi standards airMAX, 802.11a, 802.11n Transmission speed - 5GHz [Mb/s] 150 Tx power 2.4GHz [dBm] 25 Security WPA2 AES 5GHz MIMO 1 x 1 SISO Type of antenna Built-in Internal antennas 1 Antenna gain [dBi] 23 Connectors and Interfaces LAN speed (1) 10/100Mbps Power Power over Ethernet 24V DC PoE type PoE-In (only) Max. power consumption [W] 4 Physical characteristics Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 70 Weight [g] 750 Width [mm] 362 Height [mm] 267 Depth [mm] 184 Hardware CPU MIPS 74Kc CPU frequency [MHz] 560 RAM [MB] 64"}
+{
+  "id": "ubiquiti-lbe-m5-23",
+  "brand": "Ubiquiti",
+  "sku": "LBE-M5-23",
+  "title": "Ubiquiti LiteBeam M5-23, outdoor, 5GHz, 23dBi, AirMAX",
+  "category": "Ubiquiti / Wireless / Outdoor units / AirMAX",
+  "description": "The LiteBeamM provides 23dBi of gain for long-distance connectivity and uses a directional antenna pattern for improved noise immunity. Featuring the freedom of three-axis alignment , the LiteBeamM fully assembles in seconds â no tools needed = only a single wrench is required for pole-mounting A lightweight form factor contained within ultra-compact packaging , the LiteBeamM is ideal for shipping and logistics This Device is the most Cost-Effective airMAX CPE (since 5.6.3 firmware can works as Acess point) yet Antenna feed (3) Reflector panel Feed receiver Ball joint mount PoE power adapter Power cord Metal strap",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 8,
+  "warranty": "24 months",
+  "displayPriceUsd": 52,
+  "fullCartonUnitPriceUsd": 50.18,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-lbe-m5-23-9fffa31ff4.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Wireless frequency 5 GHz WiFi standards airMAX, 802.11a, 802.11n Transmission speed - 5GHz [Mb/s] 150 Tx power 2.4GHz [dBm] 25 Security WPA2 AES 5GHz MIMO 1 x 1 SISO Type of antenna Built-in Internal antennas 1 Antenna gain [dBi] 23 Connectors and Interfaces LAN speed (1) 10/100Mbps Power Power over Ethernet 24V DC PoE type PoE-In (only) Max. power consumption [W] 4 Physical characteristics Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 70 Weight [g] 750 Width [mm] 362 Height [mm] 267 Depth [mm] 184 Hardware CPU MIPS 74Kc CPU frequency [MHz] 560 RAM [MB] 64",
+  "stockQtyVisible": 456,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-litebeam-m5-23-outdoor-5ghz-23dbi-airmax_d66364.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-outdoor-units-airmax_c16591475.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Outdoor units",
+    "AirMAX"
+  ]
+}

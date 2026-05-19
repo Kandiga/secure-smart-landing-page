@@ -1,1 +1,27 @@
-{"id":"ubiquiti-lap-gps","brand":"Ubiquiti","sku":"LAP-GPS","title":"Ubiquiti LiteAP 5AC-17-90 GPS, LAP-GPS, 90°","category":"Wireless / Outdoor units / AirMAX AC","description":"LiteBeam 5AC-17-90 GPS is Base Station unit with Gigabit LAN port, integrated 17dBi and sector antenna with 90° beam angle. Unit is compatible only with airMAX AC CPE units and is designed for outdoor usage Thanks to the possible setting of the channel width 20/40/50/60 and 80MHz , real throughput of up to 450Mbps + can be achieved when using 256QAM LiteAPTM GPS supports GPS Sync for faster, more scalable, carrier-class networks, with higher throughout than competing solutions. GPS sync with airMAX AC delivers over 90% higher throughput than competing synchronized systems AirOS®8 provides powerful features, including airMAX® ac protocol support, real-time RF analytics, and an all-new design for enhanced usability Device Ball Joint Mount PoE power adapter 24V / 0.3A Power cord Metal ring","availability":"To order / expected","unitPerCarton":6,"warranty":"24 months","displayPriceUsd":104,"fullCartonUnitPriceUsd":100.36,"imageUrl":"assets/catalog-data/public-images/ubiquiti-lap-gps-f88f29433d.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Wireless frequency 5 GHz WiFi standards airMAX ac Transmission speed - 5GHz [Mb/s] 866 Tx power 5GHz [dBm] 25 Security WPA2 AES Elevation beam width (-6dB) [°] 15 Azimuth beam width (-6dB) [°] 90 5GHz MIMO 2 x 2 Type of antenna Built-in Internal antennas 2 Antenna gain [dBi] 17 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes GPS modul Yes Other features WiFi management radio Power Power over Ethernet 24V DC PoE type PoE-In (only) Max. power consumption [W] 7,1 Physical characteristics Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 70 Weight [g] 752 Width [mm] 125 Height [mm] 361 Depth [mm] 71 Hardware CPU MIPS 74Kc"}
+{
+  "id": "ubiquiti-lap-gps",
+  "brand": "Ubiquiti",
+  "sku": "LAP-GPS",
+  "title": "Ubiquiti LiteAP 5AC-17-90 GPS, LAP-GPS, 90°",
+  "category": "Ubiquiti / Wireless / Outdoor units / AirMAX AC",
+  "description": "LiteBeam 5AC-17-90 GPS is Base Station unit with Gigabit LAN port, integrated 17dBi and sector antenna with 90° beam angle. Unit is compatible only with airMAX AC CPE units and is designed for outdoor usage Thanks to the possible setting of the channel width 20/40/50/60 and 80MHz , real throughput of up to 450Mbps + can be achieved when using 256QAM LiteAPTM GPS supports GPS Sync for faster, more scalable, carrier-class networks, with higher throughout than competing solutions. GPS sync with airMAX AC delivers over 90% higher throughput than competing synchronized systems AirOS®8 provides powerful features, including airMAX® ac protocol support, real-time RF analytics, and an all-new design for enhanced usability Device Ball Joint Mount PoE power adapter 24V / 0.3A Power cord Metal ring",
+  "availability": "Expected 10.8.2026",
+  "unitPerCarton": 6,
+  "warranty": "24 months",
+  "displayPriceUsd": 104,
+  "fullCartonUnitPriceUsd": 100.36,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-lap-gps-f88f29433d.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Wireless frequency 5 GHz WiFi standards airMAX ac Transmission speed - 5GHz [Mb/s] 866 Tx power 5GHz [dBm] 25 Security WPA2 AES Elevation beam width (-6dB) [°] 15 Azimuth beam width (-6dB) [°] 90 5GHz MIMO 2 x 2 Type of antenna Built-in Internal antennas 2 Antenna gain [dBi] 17 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes GPS modul Yes Other features WiFi management radio Power Power over Ethernet 24V DC PoE type PoE-In (only) Max. power consumption [W] 7,1 Physical characteristics Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 70 Weight [g] 752 Width [mm] 125 Height [mm] 361 Depth [mm] 71 Hardware CPU MIPS 74Kc",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-liteap-5ac-17-90-gps-lap-gps-90-_d90419.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-outdoor-units-airmax-ac_c16591471.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Outdoor units",
+    "AirMAX AC"
+  ]
+}

@@ -1,1 +1,28 @@
-{"id":"ubiquiti-af-5g34-s45","brand":"Ubiquiti","sku":"AF-5G34-S45","title":"Ubiquiti airFiber Dish 34dBi, 5GHz, Slant 45","category":"Wireless / Antennas / Directional antennas / 5GHz","description":"The compact form factor allows the airFiber X Antennas to be used in various applications , from carrier backhauls between towers to PtP bridging between buildings. AF-5G34-S45 offers 30dBi of gain in a 1050-mm diameter size. The airFiber X supports ± 45° slant polarization for improved noise immunity and Signal-to-Noise Ratio (SNR). The airFiber X antennas are purpose-built with 45° slant polarity for seamless integration with the airFiber X. The innovative industrial design improves RF… Antenna Antenna feed Protective shroud (2) RSMA male - RSMA male pigtail Mount bracket + screws","availability":"To order / expected","unitPerCarton":1,"warranty":"24 months","displayPriceUsd":331,"fullCartonUnitPriceUsd":331,"imageUrl":"assets/catalog-data/public-images/ubiquiti-af-5g34-s45-370d08931a.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features MIMO, SISO 2 x 2 (slant - 45 ° turned) Polarization Slant (+- 45 °) VSWR < 1,4 F/B ratio [dB] 42 Cross-Pol Isolation [dB] 35 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 3 Azimuth beam width (-6dB) [°] 3 Antenna type Directional Antenna gain [dBi] 34 Connectors and Interfaces Rocket kit Yes RF connectors (2) RSMA female"}
+{
+  "id": "ubiquiti-af-5g34-s45",
+  "brand": "Ubiquiti",
+  "sku": "AF-5G34-S45",
+  "title": "Ubiquiti airFiber Dish 34dBi, 5GHz, Slant 45",
+  "category": "Ubiquiti / Wireless / Antennas / Directional antennas / 5GHz",
+  "description": "The compact form factor allows the airFiber X Antennas to be used in various applications , from carrier backhauls between towers to PtP bridging between buildings. AF-5G34-S45 offers 30dBi of gain in a 1050-mm diameter size. The airFiber X supports ± 45° slant polarization for improved noise immunity and Signal-to-Noise Ratio (SNR). The airFiber X antennas are purpose-built with 45° slant polarity for seamless integration with the airFiber X. The innovative industrial design improves RF… Antenna Antenna feed Protective shroud (2) RSMA male - RSMA male pigtail Mount bracket + screws",
+  "availability": "Expected 20.8.2026",
+  "unitPerCarton": 1,
+  "warranty": "24 months",
+  "displayPriceUsd": 331,
+  "fullCartonUnitPriceUsd": 331,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-af-5g34-s45-370d08931a.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 (slant - 45 ° turned) Polarization Slant (+- 45 °) VSWR < 1,4 F/B ratio [dB] 42 Cross-Pol Isolation [dB] 35 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 3 Azimuth beam width (-6dB) [°] 3 Antenna type Directional Antenna gain [dBi] 34 Connectors and Interfaces Rocket kit Yes RF connectors (2) RSMA female",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-airfiber-dish-34dbi-5ghz-slant-45_d65378.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-antennas-directional-antennas-5ghz_c15888480.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Antennas",
+    "Directional antennas",
+    "5GHz"
+  ]
+}

@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-uk-ultra-ts","brand":"Ubiquiti","sku":"UACC-UK-Ultra-TS","title":"Ubiquiti UACC-UK-Ultra-TS - Table Stand for UK-Ultra","category":"Wireless / Accessories / Mounting brackets","description":"Elegant table stand for a Swiss Army Knife Ultra (UK-Ultra)","availability":"In stock","unitPerCarton":30,"warranty":"24 months","displayPriceUsd":18,"fullCartonUnitPriceUsd":17.37,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-uk-ultra-ts-39a858f83b.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-uk-ultra-ts",
+  "brand": "Ubiquiti",
+  "sku": "UACC-UK-Ultra-TS",
+  "title": "Ubiquiti UACC-UK-Ultra-TS - Table Stand for UK-Ultra",
+  "category": "Ubiquiti / Wireless / Accessories / Mounting brackets",
+  "description": "Elegant table stand for a Swiss Army Knife Ultra (UK-Ultra)",
+  "availability": "In Stock 17 pcs.",
+  "unitPerCarton": 30,
+  "warranty": "24 months",
+  "displayPriceUsd": 18,
+  "fullCartonUnitPriceUsd": 17.37,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-uk-ultra-ts-39a858f83b.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 17,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-uk-ultra-ts-table-stand-for-uk-ultra_d130486.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-mounting-brackets_c15888277.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

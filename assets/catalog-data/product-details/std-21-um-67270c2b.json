@@ -1,1 +1,46 @@
-{"id":"rf-elements-std-21-um","brand":"RF elements","sku":"STD-21-UM","title":"RF elements StarterDish STD-21-UM Directional parabolic dish antenna, 5GHz, 21dBi","category":"Wireless / Antennas / Antennas with TwistPort","description":"The StarterDish antenna from RF Elements is a directional parabolic antenna with a gain of 21 dBi primarily intended for client installations. The antenna consists of a very light parabolic antenna, a simple holder for a mast with a diameter from 20 to 55 mm , a radiator is made of aluminum terminated on the back with a so-called IsoStation connector for direct connection to IsoStation or PrismStation units from Ubiquiti. The antenna package also includes a reducer for connection to a C5x unit… For greater compatibility, use the optional STA-SMA reducer with two RSMA female connectors for connecting units with HF connectors Ubiquiti PrismStation, IsoStation - without any converter Mimosa C5x - converter is part of the StarterDish package Antenna Holder Converter on Mimosa C5x","availability":"In stock","unitPerCarton":5,"warranty":"24 months","displayPriceUsd":42,"fullCartonUnitPriceUsd":40.53,"imageUrl":"assets/catalog-data/public-images/rf-elements-std-21-um-c3cc64ab7c.jpg","documents":[],"shippingDimensions":{"unit":{"dimensionCount":1,"lengthCm":38,"widthCm":38,"heightCm":6,"volumeCm3":8664,"weightKg":1.2},"carton":{"pcsPerCarton":5,"lengthCm":70,"widthCm":45,"heightCm":12,"volumeCm3":37800,"weightKg":9}},"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features MIMO, SISO 2 x 2 Polarization VH Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 15 Azimuth beam width (-6dB) [°] 15 Antenna type Directional Antenna gain [dBi] 21 Connectors and Interfaces RF connectors IsoStation port, Twist-on port (Mimosa) Physical characteristics Designed for mast diameter [mm] 20 up to 55 Wind load [km/h] 160 Protection class IP65 Purpose Outdoor Operating temperature [°C] 35 up to 55 Weight [kg] 1,2 Width [mm] 297 Height [mm] 0,5 Depth [mm] 195"}
+{
+  "id": "rf-elements-std-21-um",
+  "brand": "RF elements",
+  "sku": "STD-21-UM",
+  "title": "RF elements StarterDish STD-21-UM Directional parabolic dish antenna, 5GHz, 21dBi",
+  "category": "RF elements / Wireless / Antennas / Directional antennas / 5GHz",
+  "description": "The StarterDish antenna from RF Elements is a directional parabolic antenna with a gain of 21 dBi primarily intended for client installations. The antenna consists of a very light parabolic antenna, a simple holder for a mast with a diameter from 20 to 55 mm , a radiator is made of aluminum terminated on the back with a so-called IsoStation connector for direct connection to IsoStation or PrismStation units from Ubiquiti. The antenna package also includes a reducer for connection to a C5x unit… For greater compatibility, use the optional STA-SMA reducer with two RSMA female connectors for connecting units with HF connectors Ubiquiti PrismStation, IsoStation - without any converter Mimosa C5x - converter is part of the StarterDish package Antenna Holder Converter on Mimosa C5x",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 5,
+  "warranty": "24 months",
+  "displayPriceUsd": 42,
+  "fullCartonUnitPriceUsd": 40.53,
+  "imageUrl": "assets/catalog-data/public-images/rf-elements-std-21-um-c3cc64ab7c.jpg",
+  "documents": [],
+  "shippingDimensions": {
+    "unit": {
+      "dimensionCount": 1,
+      "lengthCm": 38,
+      "widthCm": 38,
+      "heightCm": 6,
+      "volumeCm3": 8664,
+      "weightKg": 1.2
+    },
+    "carton": {
+      "pcsPerCarton": 5,
+      "lengthCm": 70,
+      "widthCm": 45,
+      "heightCm": 12,
+      "volumeCm3": 37800,
+      "weightKg": 9
+    }
+  },
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 Polarization VH Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 15 Azimuth beam width (-6dB) [°] 15 Antenna type Directional Antenna gain [dBi] 21 Connectors and Interfaces RF connectors IsoStation port, Twist-on port (Mimosa) Physical characteristics Designed for mast diameter [mm] 20 up to 55 Wind load [km/h] 160 Protection class IP65 Purpose Outdoor Operating temperature [°C] 35 up to 55 Weight [kg] 1,2 Width [mm] 297 Height [mm] 0,5 Depth [mm] 195",
+  "stockQtyVisible": 494,
+  "discompProductUrl": "https://www.discomp.cz/rf-elements-starterdish-std-21-um-directional-parabolic-dish-antenna-5ghz-21dbi_d100847.html",
+  "discompCategoryUrl": "https://www.discomp.cz/rf-elements-wireless-antennas-directional-antennas-5ghz_c15888544.html",
+  "discompSourcePath": [
+    "RF elements",
+    "Wireless",
+    "Antennas",
+    "Directional antennas",
+    "5GHz"
+  ]
+}

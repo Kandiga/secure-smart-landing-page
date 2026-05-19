@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-camera-dm-b","brand":"Ubiquiti","sku":"UACC-Camera-DM-B","title":"Ubiquiti UACC-Camera-DM-B - Dual Mount camera mounting bracket for UVC-G4/G5/AI cameras, black","category":"Cameras, security / Mounting boxes and brackets / Wallmount","description":"The UACC-Camera-DM-B is a durable mounting bracket designed for a pair of cameras from Ubiquiti UniFi. It supports installation on a wall, pole, or the option to mount on a 1 1/2\" NPS threaded pipe (included in the package) UVC-G3-Pro UVC-G4-Pro UVC-G5-Pro UVC-G3-Bullet UVC-G4-Bullet UVC-G5-Bullet UVC-AI-Bullet UVC-AI-DSLR UVC-AI-Pro UVC-AI-Turret UVC-AI-Dome UVC-G5-Turret-Ultra UVC-G5-Dome-Ultra","availability":"In stock","unitPerCarton":8,"warranty":"24 months","displayPriceUsd":69,"fullCartonUnitPriceUsd":66.59,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-camera-dm-b-7845e97166.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-camera-dm-b",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Camera-DM-B",
+  "title": "Ubiquiti UACC-Camera-DM-B - Dual Mount camera mounting bracket for UVC-G4/G5/AI cameras, black",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Mast boxes",
+  "description": "The UACC-Camera-DM-B is a durable mounting bracket designed for a pair of cameras from Ubiquiti UniFi. It supports installation on a wall, pole, or the option to mount on a 1 1/2\" NPS threaded pipe (included in the package) UVC-G3-Pro UVC-G4-Pro UVC-G5-Pro UVC-G3-Bullet UVC-G4-Bullet UVC-G5-Bullet UVC-AI-Bullet UVC-AI-DSLR UVC-AI-Pro UVC-AI-Turret UVC-AI-Dome UVC-G5-Turret-Ultra UVC-G5-Dome-Ultra",
+  "availability": "In Stock 2 pcs.",
+  "unitPerCarton": 8,
+  "warranty": "24 months",
+  "displayPriceUsd": 69,
+  "fullCartonUnitPriceUsd": 66.59,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-camera-dm-b-7845e97166.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 2,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-camera-dm-b-dual-mount-camera-mounting-bracket-for-uvc-g4-g5-ai-cameras-black_d128375.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-mast-boxes_c16588812.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Mast boxes"
+  ]
+}

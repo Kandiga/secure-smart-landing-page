@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uvc-ai-bullet","brand":"Ubiquiti","sku":"UVC-AI-Bullet","title":"Ubiquiti UVC-AI-Bullet - UVC AI bullet camera","category":"Cameras, security / IP cameras / Bullet","description":"The camera from the UniFi Protect family has a 5MP sensor (2688 Ã 1512px) at 30 fps, a fixed lens of approx. 4 mm (not specified by the manufacturer, derived from the viewing angle) , IR illuminator for night vision and an audio microphone with the option to turn it off. The camera has a durable aluminum and polycarbonate chassis, IK04 resistance against vandals and IP65 protection against dust and jet water. The camera can only be connected to the network using Gigabit LAN with support for… 5MP, 30 FPS video (reduced to 4MP, max. 2688 Ã 1512px) Night mode with IR LEDs, IR cut filter IP65 weatherproof cover Built-in microphone with software shutdown option Smart object detection - people (max.10 m), cars (max.20 m) Power supply via PoE (37 to 57 V DC) Managed by UniFi Protect software - 1.20.0 (web) / 1.5.6 (iOS) / 1.4.7 (android) Resistance to vandals - IK04 Note: AI powered vehicle classification and pet detection feature will be added in future fw releases Device Screws + dowels Wall mount","availability":"To order / expected","unitPerCarton":8,"warranty":"24 months","displayPriceUsd":469,"fullCartonUnitPriceUsd":452.59,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-ai-bullet-2485f068e4.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Camera Lens type Fixed Lens [mm] 4 (fixed) Illumination IR Viewing Angle [°] 85 Day/night mode IR cut filter Image Resolution 5MP Max. resolution [pixels] 2688 x 1512 Connectors and Interfaces Audio Microphone LAN speed (1) 10/100/1000Mbps Power Power over Ethernet 37 .. 57V DC Power type PoE Max. power consumption [W] 7,7 Physical characteristics Protection class IP65 Purpose Outdoor Antivandal (Impact protection) IK4 Buttons Reset Operating temperature [°C] 20 up to 40 Weight [g] 628 Width [mm] 82 Height [mm] 82 Depth [mm] 153 Color Black Hardware Internal storage [MB] 8 GB Compression standard Number of streams 1 Video compression H.264 General Camera class UniFi Protect"}
+{
+  "id": "ubiquiti-uvc-ai-bullet",
+  "brand": "Ubiquiti",
+  "sku": "UVC-AI-Bullet",
+  "title": "Ubiquiti UVC-AI-Bullet - UVC AI bullet camera",
+  "category": "Ubiquiti / Cameras, security / IP cameras / Bullet",
+  "description": "The camera from the UniFi Protect family has a 5MP sensor (2688 Ã 1512px) at 30 fps, a fixed lens of approx. 4 mm (not specified by the manufacturer, derived from the viewing angle) , IR illuminator for night vision and an audio microphone with the option to turn it off. The camera has a durable aluminum and polycarbonate chassis, IK04 resistance against vandals and IP65 protection against dust and jet water. The camera can only be connected to the network using Gigabit LAN with support for… 5MP, 30 FPS video (reduced to 4MP, max. 2688 Ã 1512px) Night mode with IR LEDs, IR cut filter IP65 weatherproof cover Built-in microphone with software shutdown option Smart object detection - people (max.10 m), cars (max.20 m) Power supply via PoE (37 to 57 V DC) Managed by UniFi Protect software - 1.20.0 (web) / 1.5.6 (iOS) / 1.4.7 (android) Resistance to vandals - IK04 Note: AI powered vehicle classification and pet detection feature will be added in future fw releases Device Screws + dowels Wall mount",
+  "availability": "Not In Stock",
+  "unitPerCarton": 8,
+  "warranty": "24 months",
+  "displayPriceUsd": 469,
+  "fullCartonUnitPriceUsd": 452.59,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-ai-bullet-2485f068e4.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Camera Lens type Fixed Lens [mm] 4 (fixed) Illumination IR Viewing Angle [°] 85 Day/night mode IR cut filter Image Resolution 5MP Max. resolution [pixels] 2688 x 1512 Connectors and Interfaces Audio Microphone LAN speed (1) 10/100/1000Mbps Power Power over Ethernet 37 .. 57V DC Power type PoE Max. power consumption [W] 7,7 Physical characteristics Protection class IP65 Purpose Outdoor Antivandal (Impact protection) IK4 Buttons Reset Operating temperature [°C] 20 up to 40 Weight [g] 628 Width [mm] 82 Height [mm] 82 Depth [mm] 153 Color Black Hardware Internal storage [MB] 8 GB Compression standard Number of streams 1 Video compression H.264 General Camera class UniFi Protect",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uvc-ai-bullet-uvc-ai-bullet-camera_d119786.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-ip-cameras-bullet_c16591486.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "IP cameras",
+    "Bullet"
+  ]
+}

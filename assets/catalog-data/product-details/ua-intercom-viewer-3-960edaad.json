@@ -1,1 +1,26 @@
-{"id":"ubiquiti-ua-intercom-viewer-3","brand":"Ubiquiti","sku":"UA-Intercom-Viewer-3","title":"Ubiquiti UA-Intercom-Viewer-3","category":"Cameras, security / UniFi Access","description":"The Ubiquiti Intercom Viewer is a display designed to connect to an access intercom. It allows you to view the camera image and remotely open the door. Using the built-in microphone and speaker, you can communicate. The display size is 5 inches. The intercom is powered by PoE Ubiquiti Intercom Viewer Plastic back cover with wall mount Dowels, screws","availability":"In stock","unitPerCarton":18,"warranty":"24 months","displayPriceUsd":496,"fullCartonUnitPriceUsd":478.64,"imageUrl":"assets/catalog-data/public-images/ubiquiti-ua-intercom-viewer-3-63fc1411a0.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (1) 10/100Mbps Power Power over Ethernet Yes, 48V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 5"}
+{
+  "id": "ubiquiti-ua-intercom-viewer-3",
+  "brand": "Ubiquiti",
+  "sku": "UA-Intercom-Viewer-3",
+  "title": "Ubiquiti UA-Intercom-Viewer-3",
+  "category": "Ubiquiti / Cameras, security / UniFi Access",
+  "description": "The Ubiquiti Intercom Viewer is a display designed to connect to an access intercom. It allows you to view the camera image and remotely open the door. Using the built-in microphone and speaker, you can communicate. The display size is 5 inches. The intercom is powered by PoE Ubiquiti Intercom Viewer Plastic back cover with wall mount Dowels, screws",
+  "availability": "In Stock 5 pcs.",
+  "unitPerCarton": 18,
+  "warranty": "24 months",
+  "displayPriceUsd": 496,
+  "fullCartonUnitPriceUsd": 478.64,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-ua-intercom-viewer-3-63fc1411a0.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (1) 10/100Mbps Power Power over Ethernet Yes, 48V DC Power type PoE PoE type PoE-In (only) Max. power consumption [W] 5",
+  "stockQtyVisible": 5,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-ua-intercom-viewer-3_d126282.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-unifi-access_c16587756.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "UniFi Access"
+  ]
+}

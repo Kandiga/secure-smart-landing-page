@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-reader-jb-b","brand":"Ubiquiti","sku":"UACC-Reader-JB-B","title":"Ubiquiti UACC-Reader-JB-B montage box","category":"Cameras, security / Mounting boxes and brackets / Wallmount","description":"The Ubiquiti UACC-Reader-JB is a mounting box for a reader or intercom, suitable for wall mounting UniFi Access Reader G2 Ubiquiti UA-Intercom-Viewer-3 Ubiquiti Access Ultra Holder Mounting Kit","availability":"In stock","unitPerCarton":16,"warranty":"24 months","displayPriceUsd":35,"fullCartonUnitPriceUsd":33.78,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-reader-jb-b-8ab9a70956.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-reader-jb-b",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Reader-JB-B",
+  "title": "Ubiquiti UACC-Reader-JB-B montage box",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Mast boxes",
+  "description": "The Ubiquiti UACC-Reader-JB is a mounting box for a reader or intercom, suitable for wall mounting UniFi Access Reader G2 Ubiquiti UA-Intercom-Viewer-3 Ubiquiti Access Ultra Holder Mounting Kit",
+  "availability": "In Stock 13 pcs.",
+  "unitPerCarton": 16,
+  "warranty": "24 months",
+  "displayPriceUsd": 35,
+  "fullCartonUnitPriceUsd": 33.78,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-reader-jb-b-8ab9a70956.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 13,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-reader-jb-b-montage-box_d126284.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-mast-boxes_c16588812.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Mast boxes"
+  ]
+}

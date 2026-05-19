@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-ofc-s2-lulu-15m","brand":"Ubiquiti","sku":"UACC-OFC-S2-LULU-15M","title":"Ubiquiti UACC-OFC-S2-LULU-15M - optical patch cord LCupc/LCupc, Duplex, Singlemode 9/125, 15m","category":"Optical networks / Patch cords / Single Mode","description":"An optical cable suitable for connecting active devices (e.g., switch, router, server). It uses single-mode 9/125 fibers terminated with two LC connectors on both ends. The overall cable diameter is 2mm The ferrule polishing is in UPC configuration. The sheath is LSZH (Low Smoke Zero Halogen) The cable length is 15m","availability":"In stock","unitPerCarton":30,"warranty":"24 months","displayPriceUsd":23,"fullCartonUnitPriceUsd":22.2,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-ofc-s2-lulu-15m-319c1d7eb1.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Optics Number of fibers 2 Fiber type Single Mode Core diameter [µm] 9/125 Polishing type UPC Connectors and Interfaces Optical Connectors LC - LC"}
+{
+  "id": "ubiquiti-uacc-ofc-s2-lulu-15m",
+  "brand": "Ubiquiti",
+  "sku": "UACC-OFC-S2-LULU-15M",
+  "title": "Ubiquiti UACC-OFC-S2-LULU-15M - optical patch cord LCupc/LCupc, Duplex, Singlemode 9/125, 15m",
+  "category": "Ubiquiti / Optical networks / Patch cords / Single Mode",
+  "description": "An optical cable suitable for connecting active devices (e.g., switch, router, server). It uses single-mode 9/125 fibers terminated with two LC connectors on both ends. The overall cable diameter is 2mm The ferrule polishing is in UPC configuration. The sheath is LSZH (Low Smoke Zero Halogen) The cable length is 15m",
+  "availability": "In Stock 20 pcs.",
+  "unitPerCarton": 30,
+  "warranty": "24 months",
+  "displayPriceUsd": 23,
+  "fullCartonUnitPriceUsd": 22.2,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-ofc-s2-lulu-15m-319c1d7eb1.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Optics Number of fibers 2 Fiber type Single Mode Core diameter [µm] 9/125 Polishing type UPC Connectors and Interfaces Optical Connectors LC - LC",
+  "stockQtyVisible": 20,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-ofc-s2-lulu-15m-optical-patch-cord-lcupc-lcupc-duplex-singlemode-9-125-15m_d128397.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-patch-cords-single-mode_c16591473.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "Patch cords",
+    "Single Mode"
+  ]
+}

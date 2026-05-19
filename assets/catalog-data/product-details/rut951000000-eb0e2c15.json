@@ -1,1 +1,26 @@
-{"id":"teltonika-rut951000000","brand":"Teltonika","sku":"RUT951000000","title":"Teltonika RUT951 Industrial Cellular Router","category":"Wireless / 3G/LTE/5G / Routers","description":"RUT951 is a Compact LTE CAT4 router for deployment in demanding applications including mobile traffic with Wi-Fi and four Ethernet ports (1) WAN port and (3) LAN ports. This enables it to meet the needs of a wide variety of usage scenarios. Powered by RutOS, this router offers advanced customization options, automation features and superior security","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":252,"fullCartonUnitPriceUsd":252,"imageUrl":"assets/catalog-data/public-images/teltonika-rut951000000-e8674b725a.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Wireless frequency 2.4 GHz WiFi standards 802.11n, 802.11b/g Transmission speed - 2.4GHz [Mb/s] 300 Connectors and Interfaces WAN Ports 1 WAN speed (1) 10/100Mbps RF connectors (2) RSMA female, (2) SMA female LAN speed (3) 10/100Mbps SIM slot Yes SIM slots quantity 2 Power Max. power consumption [W] 7 Physical characteristics Buttons Reset Operating temperature [°C] 40 up to 75 Weight [g] 287 Width [mm] 110 Height [mm] 50 Depth [mm] 100 Hardware CPU MIPS 24Kc CPU frequency [MHz] 580 RAM [MB] 128"}
+{
+  "id": "teltonika-rut951000000",
+  "brand": "Teltonika",
+  "sku": "RUT951000000",
+  "title": "Teltonika RUT951 Industrial Cellular Router",
+  "category": "Teltonika / IoT, SMART / Routers",
+  "description": "RUT951 is a Compact LTE CAT4 router for deployment in demanding applications including mobile traffic with Wi-Fi and four Ethernet ports (1) WAN port and (3) LAN ports. This enables it to meet the needs of a wide variety of usage scenarios. Powered by RutOS, this router offers advanced customization options, automation features and superior security",
+  "availability": "In Stock 19 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 252,
+  "fullCartonUnitPriceUsd": 252,
+  "imageUrl": "assets/catalog-data/public-images/teltonika-rut951000000-e8674b725a.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Wireless frequency 2.4 GHz WiFi standards 802.11n, 802.11b/g Transmission speed - 2.4GHz [Mb/s] 300 Connectors and Interfaces WAN Ports 1 WAN speed (1) 10/100Mbps RF connectors (2) RSMA female, (2) SMA female LAN speed (3) 10/100Mbps SIM slot Yes SIM slots quantity 2 Power Max. power consumption [W] 7 Physical characteristics Buttons Reset Operating temperature [°C] 40 up to 75 Weight [g] 287 Width [mm] 110 Height [mm] 50 Depth [mm] 100 Hardware CPU MIPS 24Kc CPU frequency [MHz] 580 RAM [MB] 128",
+  "stockQtyVisible": 19,
+  "discompProductUrl": "https://www.discomp.cz/teltonika-rut951-industrial-cellular-router_d124652.html",
+  "discompCategoryUrl": "https://www.discomp.cz/iot-smart-teltonika-routers_c15616396.html",
+  "discompSourcePath": [
+    "Teltonika",
+    "IoT, SMART",
+    "Routers"
+  ]
+}

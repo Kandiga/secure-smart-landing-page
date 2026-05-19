@@ -1,1 +1,27 @@
-{"id":"huawei-fg630","brand":"Huawei","sku":"FG630","title":"Huawei eKitOptiX FG630, Edge ONT & Dual-Band Wi-Fi 6 router","category":"Wireless / WiFi Routers / WiFi 6 / 6E","description":"The Huawei eKitOptiX FG630 is a wireless dual-band Wi-Fi 6 router that is perfectly suited for combination with ONT units in bridge mode . It works simultaneously in the 2.4GHz and 5GHz bands, delivering a maximum total throughput of up to 2.98Gbps and is equipped with (3) 1Gbit LAN/WAN ports. The router is Mesh-compatible and can be wirelessly paired with other Huawei products to create a complete home network with a single SSID, allowing seamless roaming (3) 1Gbit LAN/WAN ports and dual-band Wi-Fi 6 Total throughput up to 2.98Gbps - 574Mbps on 2.4GHz (2x2) and 2402Mbps on 5GHz (2x2) MU-MIMO - simultaneous connectivity for multiple devices Beamforming - wider coverage and higher connection stability thanks to directional signal shaping Enhanced WPA3 security - the latest and most advanced Wi-Fi protection standard","availability":"To order / expected","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":39,"fullCartonUnitPriceUsd":39,"imageUrl":"assets/catalog-data/public-images/huawei-fg630-dfc532ecab.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Wireless frequency 2.4 + 5 GHz (dual band) WiFi standards 802.11n, 802.11a, 802.11ac, 802.11b/g, 802.11ax MU-MIMO Yes Transmission speed - 5GHz [Mb/s] 2402 Transmission speed - 2.4GHz [Mb/s] 574 Security WPA, WPA2, WPA3 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Type of antenna Built-in Roaming Yes Connectors and Interfaces LAN speed (3) 10/100/1000Mbps LAN/WAN Gigabit LAN Yes Power Max. power consumption [W] 12 Physical characteristics Purpose Indoor Buttons Reset, WPS Operating temperature [°C] 0 up to 40 Weight [g] 330 Width [mm] 188 Height [mm] 140 Depth [mm] 35"}
+{
+  "id": "huawei-fg630",
+  "brand": "Huawei",
+  "sku": "FG630",
+  "title": "Huawei eKitOptiX FG630, Edge ONT & Dual-Band Wi-Fi 6 router",
+  "category": "Huawei / Wireless / WiFi Routers / WiFi 6 / 6E",
+  "description": "The Huawei eKitOptiX FG630 is a wireless dual-band Wi-Fi 6 router that is perfectly suited for combination with ONT units in bridge mode . It works simultaneously in the 2.4GHz and 5GHz bands, delivering a maximum total throughput of up to 2.98Gbps and is equipped with (3) 1Gbit LAN/WAN ports. The router is Mesh-compatible and can be wirelessly paired with other Huawei products to create a complete home network with a single SSID, allowing seamless roaming (3) 1Gbit LAN/WAN ports and dual-band Wi-Fi 6 Total throughput up to 2.98Gbps - 574Mbps on 2.4GHz (2x2) and 2402Mbps on 5GHz (2x2) MU-MIMO - simultaneous connectivity for multiple devices Beamforming - wider coverage and higher connection stability thanks to directional signal shaping Enhanced WPA3 security - the latest and most advanced Wi-Fi protection standard",
+  "availability": "Expected 4.7.2026",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 39,
+  "fullCartonUnitPriceUsd": 39,
+  "imageUrl": "assets/catalog-data/public-images/huawei-fg630-dfc532ecab.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Wireless frequency 2.4 + 5 GHz (dual band) WiFi standards 802.11n, 802.11a, 802.11ac, 802.11b/g, 802.11ax MU-MIMO Yes Transmission speed - 5GHz [Mb/s] 2402 Transmission speed - 2.4GHz [Mb/s] 574 Security WPA, WPA2, WPA3 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Type of antenna Built-in Roaming Yes Connectors and Interfaces LAN speed (3) 10/100/1000Mbps LAN/WAN Gigabit LAN Yes Power Max. power consumption [W] 12 Physical characteristics Purpose Indoor Buttons Reset, WPS Operating temperature [°C] 0 up to 40 Weight [g] 330 Width [mm] 188 Height [mm] 140 Depth [mm] 35",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/huawei-ekitoptix-fg630-edge-ont-dual-band-wi-fi-6-router_d130901.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-wireless-wifi-routers-wifi-6-6e_c16591727.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Wireless",
+    "WiFi Routers",
+    "WiFi 6 / 6E"
+  ]
+}

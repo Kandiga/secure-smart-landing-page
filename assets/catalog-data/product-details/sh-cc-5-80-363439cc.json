@@ -1,1 +1,46 @@
-{"id":"rf-elements-sh-cc-5-80","brand":"RF elements","sku":"SH-CC-5-80","title":"RF elements Symmetrical Horn Antenna Carrier Class, 5GHz, 11dBi, 80°","category":"Wireless / Antennas / Sector antennas / 5GHz","description":"Symmetrical Sectors are low loss scalar horn antennas with unique beam shape and characteristics. Their beam section is circular: azimuth and elevation radiation angles are identical. The beam pattern does not vary with frequency and antenna gain is balanced over a wide frequency range. These features make them excellent for use as Sector antennas. This antenna has 11dBi gain, 80° beam angle and (2) N-female connectors Symmetrical Sectors enable breakthrough scalability of wireless systems that fundamentally re-defines the approach to planning and deployment of wireless networks. We offer wide range of antenna models with exact beam pattern from 30° to 90°. You are no longer forced to compromise your network design with limitations of your current vendor Symmetrical Sectors are solid metal structures - they are built to last. We use the best available materials: die cast, stamped and extruded aluminium, high quality ABS plastic and stainless steel hardware Symmetrical Sector antennas are very compact. They only have 20 - 25% footprint of traditional Sector antennas. Compact size saves tower rental fees and makes them easy to install on places where mainstream Sectors would not be allowed due to their shape and size","availability":"In stock","unitPerCarton":10,"warranty":"24 months","displayPriceUsd":98,"fullCartonUnitPriceUsd":94.57,"imageUrl":"assets/catalog-data/public-images/rf-elements-sh-cc-5-80-a9174d8b4f.jpg","documents":[],"shippingDimensions":{"unit":{"dimensionCount":1,"lengthCm":25,"widthCm":31.5,"heightCm":18.5,"volumeCm3":14568.8,"weightKg":2.5},"carton":{"pcsPerCarton":10,"lengthCm":33,"widthCm":95,"heightCm":51,"volumeCm3":159885,"weightKg":24}},"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,8 F/B ratio [dB] 37 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 80 Azimuth beam width (-6dB) [°] 80 Antenna type Sector Antenna gain [dBi] 11 Connectors and Interfaces RF connectors (2) N female Physical characteristics Designed for mast diameter [mm] 15 up to 86 Wind load [km/h] 160 Purpose Outdoor Material Aluminum, Stainless steel, Polycarbonate, Polypropylene, Zinc Operating temperature [°C] 30 up to 55 Weight [kg] 1,8 Width [mm] 155 Height [mm] 155 Depth [mm] 138"}
+{
+  "id": "rf-elements-sh-cc-5-80",
+  "brand": "RF elements",
+  "sku": "SH-CC-5-80",
+  "title": "RF elements Symmetrical Horn Antenna Carrier Class, 5GHz, 11dBi, 80°",
+  "category": "RF elements / Wireless / Antennas / Sector antennas / 5GHz",
+  "description": "Symmetrical Sectors are low loss scalar horn antennas with unique beam shape and characteristics. Their beam section is circular: azimuth and elevation radiation angles are identical. The beam pattern does not vary with frequency and antenna gain is balanced over a wide frequency range. These features make them excellent for use as Sector antennas. This antenna has 11dBi gain, 80° beam angle and (2) N-female connectors Symmetrical Sectors enable breakthrough scalability of wireless systems that fundamentally re-defines the approach to planning and deployment of wireless networks. We offer wide range of antenna models with exact beam pattern from 30° to 90°. You are no longer forced to compromise your network design with limitations of your current vendor Symmetrical Sectors are solid metal structures - they are built to last. We use the best available materials: die cast, stamped and extruded aluminium, high quality ABS plastic and stainless steel hardware Symmetrical Sector antennas are very compact. They only have 20 - 25% footprint of traditional Sector antennas. Compact size saves tower rental fees and makes them easy to install on places where mainstream Sectors would not be allowed due to their shape and size",
+  "availability": "In Stock 1 pcs.",
+  "unitPerCarton": 10,
+  "warranty": "24 months",
+  "displayPriceUsd": 98,
+  "fullCartonUnitPriceUsd": 94.57,
+  "imageUrl": "assets/catalog-data/public-images/rf-elements-sh-cc-5-80-a9174d8b4f.jpg",
+  "documents": [],
+  "shippingDimensions": {
+    "unit": {
+      "dimensionCount": 1,
+      "lengthCm": 25,
+      "widthCm": 31.5,
+      "heightCm": 18.5,
+      "volumeCm3": 14568.8,
+      "weightKg": 2.5
+    },
+    "carton": {
+      "pcsPerCarton": 10,
+      "lengthCm": 33,
+      "widthCm": 95,
+      "heightCm": 51,
+      "volumeCm3": 159885,
+      "weightKg": 24
+    }
+  },
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,8 F/B ratio [dB] 37 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 80 Azimuth beam width (-6dB) [°] 80 Antenna type Sector Antenna gain [dBi] 11 Connectors and Interfaces RF connectors (2) N female Physical characteristics Designed for mast diameter [mm] 15 up to 86 Wind load [km/h] 160 Purpose Outdoor Material Aluminum, Stainless steel, Polycarbonate, Polypropylene, Zinc Operating temperature [°C] 30 up to 55 Weight [kg] 1,8 Width [mm] 155 Height [mm] 155 Depth [mm] 138",
+  "stockQtyVisible": 1,
+  "discompProductUrl": "https://www.discomp.cz/rf-elements-symmetrical-horn-antenna-carrier-class-5ghz-11dbi-80-_d79590.html",
+  "discompCategoryUrl": "https://www.discomp.cz/rf-elements-wireless-antennas-sector-antennas-5ghz_c15888335.html",
+  "discompSourcePath": [
+    "RF elements",
+    "Wireless",
+    "Antennas",
+    "Sector antennas",
+    "5GHz"
+  ]
+}

@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-cable-c13-c14","brand":"Ubiquiti","sku":"UACC-Cable-C13-C14","title":"Ubiquiti C13-C14, power cable","category":"Powering / Power cables and adapters / DC cables","description":"Power connection cable C13 - C14 . It is typically used to connect a UPS backup power source and a device that needs to remain powered in the event of a power outage","availability":"In stock","unitPerCarton":30,"warranty":"24 months","displayPriceUsd":21,"fullCartonUnitPriceUsd":20.27,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-cable-c13-c14-3616e7330e.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-cable-c13-c14",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Cable-C13-C14",
+  "title": "Ubiquiti C13-C14, power cable",
+  "category": "Ubiquiti / Powering / Power cables and adapters / DC cables",
+  "description": "Power connection cable C13 - C14 . It is typically used to connect a UPS backup power source and a device that needs to remain powered in the event of a power outage",
+  "availability": "In Stock 61 pcs.",
+  "unitPerCarton": 30,
+  "warranty": "24 months",
+  "displayPriceUsd": 21,
+  "fullCartonUnitPriceUsd": 20.27,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-cable-c13-c14-3616e7330e.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 61,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-c13-c14-power-cable_d130705.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-power-cables-and-adapters-dc-cables_c14513533.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Power cables and adapters",
+    "DC cables"
+  ]
+}

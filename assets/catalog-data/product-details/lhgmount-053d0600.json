@@ -1,1 +1,26 @@
-{"id":"mikrotik-lhgmount","brand":"MikroTik","sku":"LHGmount","title":"MikroTik LHGmount - Simple metallic mount for LHG series products","category":"Wireless / MikroTik / Holders","description":"LHGmount is low cost, metallic, easily adjustable holder for all LHG series units, including larger LHG XL models. The unit is installed with 4 screws included in the package. The holder can be mounted on a pipe with a maximum diameter of 58mm","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":12,"fullCartonUnitPriceUsd":11.58,"imageUrl":"assets/catalog-data/public-images/mikrotik-lhgmount-cdaa43a4b4.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Designed for mast diameter [mm] 20 up to 58 Width [mm] 95 Height [mm] 88 Depth [mm] 108"}
+{
+  "id": "mikrotik-lhgmount",
+  "brand": "MikroTik",
+  "sku": "LHGmount",
+  "title": "MikroTik LHGmount - Simple metallic mount for LHG series products",
+  "category": "MikroTik / Wireless / Holders",
+  "description": "LHGmount is low cost, metallic, easily adjustable holder for all LHG series units, including larger LHG XL models. The unit is installed with 4 screws included in the package. The holder can be mounted on a pipe with a maximum diameter of 58mm",
+  "availability": "In Stock 24 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 12,
+  "fullCartonUnitPriceUsd": 11.58,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-lhgmount-cdaa43a4b4.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Designed for mast diameter [mm] 20 up to 58 Width [mm] 95 Height [mm] 88 Depth [mm] 108",
+  "stockQtyVisible": 24,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-lhgmount-simple-metallic-mount-for-lhg-series-products_d88519.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-holders_c16588561.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "Holders"
+  ]
+}

@@ -1,1 +1,27 @@
-{"id":"ubiquiti-poe-24-af5x","brand":"Ubiquiti","sku":"POE-24-AF5X","title":"Ubiquiti POE-24-AF5X, Gigabit PoE Injector for AF5X, 24V/1A (24W)","category":"Powering / Pasive PoE / PoE injectors","description":"High-quality, stabilized Gigabit PoE power adapter with earthing, LED indication and output voltage 24V and max. current 1A. The maximum output power is 24W. This model has power on all 4 pairs. The PoE adapter is only compatible with 1Gbps devices that support power on all 4pairs (8pins) PoE adapter Power cord","availability":"In stock","unitPerCarton":50,"warranty":"24 months","displayPriceUsd":15,"fullCartonUnitPriceUsd":14.48,"imageUrl":"assets/catalog-data/public-images/ubiquiti-poe-24-af5x-cd656045cf.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power The input voltage [V] 230V AC Output Power [W] 24 Pin powering 1,2,4,5 (+), 3,6,7,8 (-) PoE Out ports 1 Output Voltage [V] 24 Output Current [A] 1 Efficiency [%] 80+"}
+{
+  "id": "ubiquiti-poe-24-af5x",
+  "brand": "Ubiquiti",
+  "sku": "POE-24-AF5X",
+  "title": "Ubiquiti POE-24-AF5X, Gigabit PoE Injector for AF5X, 24V/1A (24W)",
+  "category": "Ubiquiti / Powering / Pasive PoE / PoE injectors",
+  "description": "High-quality, stabilized Gigabit PoE power adapter with earthing, LED indication and output voltage 24V and max. current 1A. The maximum output power is 24W. This model has power on all 4 pairs. The PoE adapter is only compatible with 1Gbps devices that support power on all 4pairs (8pins) PoE adapter Power cord",
+  "availability": "In Stock 22 pcs.",
+  "unitPerCarton": 50,
+  "warranty": "24 months",
+  "displayPriceUsd": 15,
+  "fullCartonUnitPriceUsd": 14.48,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-poe-24-af5x-cd656045cf.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power The input voltage [V] 230V AC Output Power [W] 24 Pin powering 1,2,4,5 (+), 3,6,7,8 (-) PoE Out ports 1 Output Voltage [V] 24 Output Current [A] 1 Efficiency [%] 80+",
+  "stockQtyVisible": 22,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-poe-24-af5x-gigabit-poe-injector-for-af5x-24v-1a-24w-_d65400.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-pasive-poe-poe-injectors_c16591506.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Pasive PoE",
+    "PoE injectors"
+  ]
+}

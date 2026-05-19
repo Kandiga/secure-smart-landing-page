@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uisp-console","brand":"Ubiquiti","sku":"UISP-Console","title":"Ubiquiti UISP-Console - UISP Console","category":"LAN networks / Routers and Firewalls","description":"UISP-Console is the ideal router for deployment between ISP providers for their clients who require the higher transmission speed that 10 Gbps can offer. It is a router without fans, with 9x Gigabit LAN , 2x SFP+ ports, of which 1x Gigabit LAN and 1x SFP+ are designated as WAN only. UISP Console is a cost-effective solution where you need to provide 10-Gigabit speed quickly and cheaply. The UISP Router is ONLY managed by the UISP App , a centralized platform where you can monitor and manage all… The main benefit of the UISP-Console is the pre-installed UISP application , which serves not only for managing the router itself but also for managing other supported devices in the ISP network. This eliminates the need for communication through cloud services, as everything is stored locally (8) Gigabit LAN + (1) Gigabit WAN (1) SFP+ port (LAN) + (1) SFP+ port (WAN) Silent operation without a fan Compact, durable metal chassis Mounting on the wall - the kit is included in the package Easy setup using Bluetooth technology via mobile UISP app Device Power cord Power adapter 24 V/2.5 A Kit for mounting on the wall and in a 19\" rack","availability":"In stock","unitPerCarton":4,"warranty":"24 months","displayPriceUsd":309,"fullCartonUnitPriceUsd":298.19,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uisp-console-b9107cca38.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces WAN Ports 2 WAN speed (1) 10/100/1000Mbps Multiple WAN Yes Slot for Memory Card microSD - up to 128GB LAN speed (8) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (1) 1/10Gbps LAN + (1) 1/10Gbps WAN Other features Bluetooth Power Power type DC connector Max. power consumption [W] 30 Power via connector/terminal 24 .. 28V DC Physical characteristics Design On the wall, Desktop, Rackmount Fans No Chassis design Plastic Operating temperature [°C] 10 up to 50 Width [mm] 210 Height [mm] 44 Depth [mm] 140 Hardware CPU ARM Cortex-A57 CPU frequency [MHz] 1700 CPU cores 4 Internal storage [MB] 16 GB"}
+{
+  "id": "ubiquiti-uisp-console",
+  "brand": "Ubiquiti",
+  "sku": "UISP-Console",
+  "title": "Ubiquiti UISP-Console - UISP Console",
+  "category": "Ubiquiti / LAN networks / Routers and Firewalls",
+  "description": "UISP-Console is the ideal router for deployment between ISP providers for their clients who require the higher transmission speed that 10 Gbps can offer. It is a router without fans, with 9x Gigabit LAN , 2x SFP+ ports, of which 1x Gigabit LAN and 1x SFP+ are designated as WAN only. UISP Console is a cost-effective solution where you need to provide 10-Gigabit speed quickly and cheaply. The UISP Router is ONLY managed by the UISP App , a centralized platform where you can monitor and manage all… The main benefit of the UISP-Console is the pre-installed UISP application , which serves not only for managing the router itself but also for managing other supported devices in the ISP network. This eliminates the need for communication through cloud services, as everything is stored locally (8) Gigabit LAN + (1) Gigabit WAN (1) SFP+ port (LAN) + (1) SFP+ port (WAN) Silent operation without a fan Compact, durable metal chassis Mounting on the wall - the kit is included in the package Easy setup using Bluetooth technology via mobile UISP app Device Power cord Power adapter 24 V/2.5 A Kit for mounting on the wall and in a 19\" rack",
+  "availability": "In Stock 5 pcs.",
+  "unitPerCarton": 4,
+  "warranty": "24 months",
+  "displayPriceUsd": 309,
+  "fullCartonUnitPriceUsd": 298.19,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uisp-console-b9107cca38.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces WAN Ports 2 WAN speed (1) 10/100/1000Mbps Multiple WAN Yes Slot for Memory Card microSD - up to 128GB LAN speed (8) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (1) 1/10Gbps LAN + (1) 1/10Gbps WAN Other features Bluetooth Power Power type DC connector Max. power consumption [W] 30 Power via connector/terminal 24 .. 28V DC Physical characteristics Design On the wall, Desktop, Rackmount Fans No Chassis design Plastic Operating temperature [°C] 10 up to 50 Width [mm] 210 Height [mm] 44 Depth [mm] 140 Hardware CPU ARM Cortex-A57 CPU frequency [MHz] 1700 CPU cores 4 Internal storage [MB] 16 GB",
+  "stockQtyVisible": 5,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uisp-console-uisp-console_d120278.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-routers-and-firewalls_c15944728.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Routers and Firewalls"
+  ]
+}

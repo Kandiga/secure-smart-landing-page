@@ -1,1 +1,26 @@
-{"id":"rf-elements-br-wg2","brand":"RF elements","sku":"BR-WG2","title":"RF elements BR-WG2 Bracket for WaveAP Gen 2","category":"Wireless / Accessories / Mounting brackets","description":"Smart bracket BR-WG2 provides additional mounting point to mount popular UI Wave AP Gen2 directly to RF elements Asymmetrical Horn Antenna . This provides slick and practical setup for Wave AP Gen2 when deployed with 90° RF elements Asymmetrical Horn. Once mounted, the Wave AP device can be aligned in azimuth and elevation together with Asymmetrical Horn antenna BR-WG2 is compatible with any RF elements Asymmetrical Horn Antenna that uses structural aluminum ring: the list includes the newest 6 GHz Wideband Horns, legacy 5 GHz AH-TP Series and any of our 4x4 Asymmetrical Horn antennas Despite the fact that BR-WG2 was designed specifically for UI Wave AP Gen2, it can be used for a wide range of various devices, such as 60 GHz APs, cameras, sensors , etc. This makes the BR-WG2 incredibly versatile mount Compatible 5 GHz Horn Antennas: 2 x 2 - AH90-TP, AH2030-TP, AH60-TP, AH20-CC, AH30-CC, AH60-CC, AH90-CC 4 x 4 - AH90-4x4-SMA, AH60-4x4-SMA Compatible 6 GHz Horn Antennas: 2 x 2 - AH90WB, AH60WB, AH45WB 4 x 4 - AH90WB-4x4-SMA, AH60WB-4x4-SMA BR-WG2 Bracket Mounting accessories","availability":"To order / expected","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":31,"fullCartonUnitPriceUsd":31,"imageUrl":"assets/catalog-data/public-images/rf-elements-br-wg2-ddc0c73874.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "rf-elements-br-wg2",
+  "brand": "RF elements",
+  "sku": "BR-WG2",
+  "title": "RF elements BR-WG2 Bracket for WaveAP Gen 2",
+  "category": "RF elements / Wireless / Accessories / Mounting brackets",
+  "description": "Smart bracket BR-WG2 provides additional mounting point to mount popular UI Wave AP Gen2 directly to RF elements Asymmetrical Horn Antenna . This provides slick and practical setup for Wave AP Gen2 when deployed with 90° RF elements Asymmetrical Horn. Once mounted, the Wave AP device can be aligned in azimuth and elevation together with Asymmetrical Horn antenna BR-WG2 is compatible with any RF elements Asymmetrical Horn Antenna that uses structural aluminum ring: the list includes the newest 6 GHz Wideband Horns, legacy 5 GHz AH-TP Series and any of our 4x4 Asymmetrical Horn antennas Despite the fact that BR-WG2 was designed specifically for UI Wave AP Gen2, it can be used for a wide range of various devices, such as 60 GHz APs, cameras, sensors , etc. This makes the BR-WG2 incredibly versatile mount Compatible 5 GHz Horn Antennas: 2 x 2 - AH90-TP, AH2030-TP, AH60-TP, AH20-CC, AH30-CC, AH60-CC, AH90-CC 4 x 4 - AH90-4x4-SMA, AH60-4x4-SMA Compatible 6 GHz Horn Antennas: 2 x 2 - AH90WB, AH60WB, AH45WB 4 x 4 - AH90WB-4x4-SMA, AH60WB-4x4-SMA BR-WG2 Bracket Mounting accessories",
+  "availability": "In Stock 71 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 31,
+  "fullCartonUnitPriceUsd": 31,
+  "imageUrl": "assets/catalog-data/public-images/rf-elements-br-wg2-ddc0c73874.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 71,
+  "discompProductUrl": "https://www.discomp.cz/rf-elements-br-wg2-bracket-for-waveap-gen-2_d130460.html",
+  "discompCategoryUrl": "https://www.discomp.cz/rf-elements-wireless-accessories-mounting-brackets_c15888541.html",
+  "discompSourcePath": [
+    "RF elements",
+    "Wireless",
+    "Accessories",
+    "Mounting brackets"
+  ]
+}

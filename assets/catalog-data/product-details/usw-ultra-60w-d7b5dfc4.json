@@ -1,1 +1,27 @@
-{"id":"ubiquiti-usw-ultra-60w","brand":"Ubiquiti","sku":"USW-Ultra-60W","title":"Ubiquiti UniFi switch USW-Ultra-60W","category":"LAN networks / Switches / UniFi Switches","description":"A compact, 8-port, Layer 2 GbE PoE switch with versatile mounting options. The switch has 1 PoE in port and 7 PoE out ports with PoE 802.3af/at with max wattage 30W per port. Switch is managed by UniFi network providing central management and cloud access Max PoE budget depend on method how switch is powered: 60W PoE++ input: 45W DC adapter input: 52W Passive PoE adapter input: 45W 60W PoE++ input: 45W DC adapter input: 52W Passive PoE adapter input: 45W switch power adapter 54V/1,1A mount kit","availability":"To order / expected","unitPerCarton":6,"warranty":"24 months","displayPriceUsd":167,"fullCartonUnitPriceUsd":161.16,"imageUrl":"assets/catalog-data/public-images/ubiquiti-usw-ultra-60w-b597e99206.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (8) 10/100/1000Mbps Power Power type DC connector, PoE PoE type PoE-Out + PoE-In PoE-Out standards 802.3af, 802.3at PoE Out ports 7 PoE budget [W] 52 Max. power consumption [W] 60 Power via connector/terminal 44 .. 57V DC Physical characteristics Design On the wall, Desktop Fans No Chassis design Plastic Buttons Reset Operating temperature [°C] 15 up to 45 Width [mm] 203 Height [mm] 33 Depth [mm] 76 General Switchning capacity [Gbps] 8"}
+{
+  "id": "ubiquiti-usw-ultra-60w",
+  "brand": "Ubiquiti",
+  "sku": "USW-Ultra-60W",
+  "title": "Ubiquiti UniFi switch USW-Ultra-60W",
+  "category": "Ubiquiti / LAN networks / Switches / PoE Switches",
+  "description": "A compact, 8-port, Layer 2 GbE PoE switch with versatile mounting options. The switch has 1 PoE in port and 7 PoE out ports with PoE 802.3af/at with max wattage 30W per port. Switch is managed by UniFi network providing central management and cloud access Max PoE budget depend on method how switch is powered: 60W PoE++ input: 45W DC adapter input: 52W Passive PoE adapter input: 45W 60W PoE++ input: 45W DC adapter input: 52W Passive PoE adapter input: 45W switch power adapter 54V/1,1A mount kit",
+  "availability": "Expected 10.7.2026",
+  "unitPerCarton": 6,
+  "warranty": "24 months",
+  "displayPriceUsd": 167,
+  "fullCartonUnitPriceUsd": 161.16,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-usw-ultra-60w-b597e99206.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (8) 10/100/1000Mbps Power Power type DC connector, PoE PoE type PoE-Out + PoE-In PoE-Out standards 802.3af, 802.3at PoE Out ports 7 PoE budget [W] 52 Max. power consumption [W] 60 Power via connector/terminal 44 .. 57V DC Physical characteristics Design On the wall, Desktop Fans No Chassis design Plastic Buttons Reset Operating temperature [°C] 15 up to 45 Width [mm] 203 Height [mm] 33 Depth [mm] 76 General Switchning capacity [Gbps] 8",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-switch-usw-ultra-60w_d124598.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-poe-switches_c16179437.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "PoE Switches"
+  ]
+}

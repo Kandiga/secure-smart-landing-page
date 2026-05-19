@@ -1,1 +1,26 @@
-{"id":"mikrotik-crs354-48p-4s-2q-rm","brand":"MikroTik","sku":"CRS354-48P-4S+2Q+RM","title":"MikroTik Cloud Router Switch CRS354-48P-4S+2Q+RM","category":"Wireless / MikroTik / RouterBOARD","description":"MikroTik Cloud Router Switch CRS354-48P-4S+2Q+RM is very powerfull switch with 2x QSFP+, 4x SFP+, 48x Gigabit and one 10/100Mbps metalic port only for management. Switch provides total throughput 168 Gbps and switching capacity 336 Gbps with 235 Mpps forwarding rate for most conventional packets The switch has an integrated 800W power supply capable of delivering 700W total power to PoE ports. Each copper port supports PoE 802.3af/at or passive 26 and 53V DC with a power limit set at 30W at 52V or 26W at 26V Device Power cord Rackmount ears Cable management","availability":"In stock","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":943,"fullCartonUnitPriceUsd":910,"imageUrl":"assets/catalog-data/public-images/mikrotik-crs354-48p-4s-2q-rm-90dc387492.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (48) 10/100/1000Mbps Gigabit LAN Yes Management LAN (1) 10/100Mbps Optical interfaces (4) 10Gbps + (2) 40Gbps Serial port RJ45 Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, Passive 24V, Passive 48V PoE Out ports 48 PoE budget [W] 750 Max. power consumption [W] 800 Power via connector/terminal 230V AC Physical characteristics Design Rackmount \"U\" positions 1 Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 20 up to 60 Width [mm] 443 Height [mm] 44 Depth [mm] 297 Hardware CPU QCA9531 CPU frequency [MHz] 650 CPU cores 1 Internal storage [MB] 16 RAM [MB] 64 General Switchning capacity [Gbps] 336 Packet forwarding rate [Mpps] 235"}
+{
+  "id": "mikrotik-crs354-48p-4s-2q-rm",
+  "brand": "MikroTik",
+  "sku": "CRS354-48P-4S+2Q+RM",
+  "title": "MikroTik Cloud Router Switch CRS354-48P-4S+2Q+RM",
+  "category": "MikroTik / Wireless / RouterBOARD",
+  "description": "MikroTik Cloud Router Switch CRS354-48P-4S+2Q+RM is very powerfull switch with 2x QSFP+, 4x SFP+, 48x Gigabit and one 10/100Mbps metalic port only for management. Switch provides total throughput 168 Gbps and switching capacity 336 Gbps with 235 Mpps forwarding rate for most conventional packets The switch has an integrated 800W power supply capable of delivering 700W total power to PoE ports. Each copper port supports PoE 802.3af/at or passive 26 and 53V DC with a power limit set at 30W at 52V or 26W at 26V Device Power cord Rackmount ears Cable management",
+  "availability": "In Stock 1 pcs.",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 943,
+  "fullCartonUnitPriceUsd": 910,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-crs354-48p-4s-2q-rm-90dc387492.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (48) 10/100/1000Mbps Gigabit LAN Yes Management LAN (1) 10/100Mbps Optical interfaces (4) 10Gbps + (2) 40Gbps Serial port RJ45 Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, Passive 24V, Passive 48V PoE Out ports 48 PoE budget [W] 750 Max. power consumption [W] 800 Power via connector/terminal 230V AC Physical characteristics Design Rackmount \"U\" positions 1 Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 20 up to 60 Width [mm] 443 Height [mm] 44 Depth [mm] 297 Hardware CPU QCA9531 CPU frequency [MHz] 650 CPU cores 1 Internal storage [MB] 16 RAM [MB] 64 General Switchning capacity [Gbps] 336 Packet forwarding rate [Mpps] 235",
+  "stockQtyVisible": 1,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-cloud-router-switch-crs354-48p-4s-2q-rm_d94032.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-mikrotik-routerboard_c16588560.html?page=2",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "RouterBOARD"
+  ]
+}

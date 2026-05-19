@@ -1,1 +1,25 @@
-{"id":"ubiquiti-uf-terminal-box","brand":"Ubiquiti","sku":"UF-Terminal-Box","title":"Ubiquiti UF-Terminal-Box, UFiber outdoor terminal box","category":"Optical networks / Connecting cable boxes","description":"The durable outdoor junction box can be installed on a wall or mast and protects UFiber devices (UF-Nano, UF-Loco and UF-AE) from adverse weather conditions, so they can remain functional in all conditions. This rugged enclosure has a screw lock design and comes with a 35 to 60mm mast mounting kit, so you can place it wherever you need IPX5 protection in your UFiber deployment UF-Nano UF-Loco UF-AE Outdoor box Reduction to a pole or wall Metal ring Screws Plastic tie","availability":"In stock","unitPerCarton":6,"warranty":"24 months","displayPriceUsd":35,"fullCartonUnitPriceUsd":33.78,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uf-terminal-box-b3c9e99f7b.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uf-terminal-box",
+  "brand": "Ubiquiti",
+  "sku": "UF-Terminal-Box",
+  "title": "Ubiquiti UF-Terminal-Box, UFiber outdoor terminal box",
+  "category": "Ubiquiti / Optical networks / Connecting cable boxes",
+  "description": "The durable outdoor junction box can be installed on a wall or mast and protects UFiber devices (UF-Nano, UF-Loco and UF-AE) from adverse weather conditions, so they can remain functional in all conditions. This rugged enclosure has a screw lock design and comes with a 35 to 60mm mast mounting kit, so you can place it wherever you need IPX5 protection in your UFiber deployment UF-Nano UF-Loco UF-AE Outdoor box Reduction to a pole or wall Metal ring Screws Plastic tie",
+  "availability": "In Stock 5 pcs.",
+  "unitPerCarton": 6,
+  "warranty": "24 months",
+  "displayPriceUsd": 35,
+  "fullCartonUnitPriceUsd": 33.78,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uf-terminal-box-b3c9e99f7b.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 5,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uf-terminal-box-ufiber-outdoor-terminal-box_d114481.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-connecting-cable-boxes_c16589094.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "Connecting cable boxes"
+  ]
+}

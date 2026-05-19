@@ -1,1 +1,27 @@
-{"id":"ubiquiti-usw-industrial","brand":"Ubiquiti","sku":"USW-Industrial","title":"Ubiquiti UniFi Switch USW-Industrial","category":"LAN networks / Switches / UniFi Switches","description":"The UniFi Industrial Switch is a managed, plenum-rated, Gigabit Layer 2 switch with auto-sensing 802.3bt PoE++ support Eight ports offer auto-sensing 802.3af/at/bt PoE to provide up to 60W of power (per port) to power multiple devices on the network The fanless UniFi Industrial Switch is plenum-rated so it can be installed in a horizontal or vertical orientation in plenum spaces. Its die-cast aluminum enclosure has a black, powder coated finish for increased durability and greater resistance to corrosion. It can operate at full 450W power in environments up to 50° C The USW-Industrial powers a variety of products, including the UniFi AC Mesh AP, UniFi Video Camera G4 Pro, and multiple UniFi LED Panels, which use 802.3at PoE+ A single instance of the UniFi Controller running in the cloud can manage multiple UniFi sites within a centralized interface. Each site is logically separated and has its own network monitoring, configuration, maps, statistics, and admin accounts","availability":"To order / expected","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":566,"fullCartonUnitPriceUsd":546.19,"imageUrl":"assets/catalog-data/public-images/ubiquiti-usw-industrial-89aac01112.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces LAN speed (10) 10/100/1000Mbps Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, 802.3bt PoE Out ports 8 PoE budget [W] 450 Max. power consumption [W] 20 Power via connector/terminal 230V AC Physical characteristics Design Industry Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 40 up to 60 Width [mm] 254 Height [mm] 60 Depth [mm] 235 General Switchning capacity [Gbps] 20 MAC address table 16000 Jumbo frame [Bytes] 9000 Packet forwarding rate [Mpps] 14,9"}
+{
+  "id": "ubiquiti-usw-industrial",
+  "brand": "Ubiquiti",
+  "sku": "USW-Industrial",
+  "title": "Ubiquiti UniFi Switch USW-Industrial",
+  "category": "Ubiquiti / LAN networks / Switches / PoE Switches",
+  "description": "The UniFi Industrial Switch is a managed, plenum-rated, Gigabit Layer 2 switch with auto-sensing 802.3bt PoE++ support Eight ports offer auto-sensing 802.3af/at/bt PoE to provide up to 60W of power (per port) to power multiple devices on the network The fanless UniFi Industrial Switch is plenum-rated so it can be installed in a horizontal or vertical orientation in plenum spaces. Its die-cast aluminum enclosure has a black, powder coated finish for increased durability and greater resistance to corrosion. It can operate at full 450W power in environments up to 50° C The USW-Industrial powers a variety of products, including the UniFi AC Mesh AP, UniFi Video Camera G4 Pro, and multiple UniFi LED Panels, which use 802.3at PoE+ A single instance of the UniFi Controller running in the cloud can manage multiple UniFi sites within a centralized interface. Each site is logically separated and has its own network monitoring, configuration, maps, statistics, and admin accounts",
+  "availability": "Not In Stock",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 566,
+  "fullCartonUnitPriceUsd": 546.19,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-usw-industrial-89aac01112.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces LAN speed (10) 10/100/1000Mbps Power Power type Mains power (230V) PoE type PoE-Out (only) PoE-Out standards 802.3af, 802.3at, 802.3bt PoE Out ports 8 PoE budget [W] 450 Max. power consumption [W] 20 Power via connector/terminal 230V AC Physical characteristics Design Industry Fans No Chassis design Metal Buttons Reset Operating temperature [°C] 40 up to 60 Width [mm] 254 Height [mm] 60 Depth [mm] 235 General Switchning capacity [Gbps] 20 MAC address table 16000 Jumbo frame [Bytes] 9000 Packet forwarding rate [Mpps] 14,9",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-switch-usw-industrial_d92192.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-poe-switches_c16179437.html?page=2",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "PoE Switches"
+  ]
+}

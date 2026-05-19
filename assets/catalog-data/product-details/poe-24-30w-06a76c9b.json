@@ -1,1 +1,27 @@
-{"id":"ubiquiti-poe-24-30w","brand":"Ubiquiti","sku":"POE-24-30W","title":"Ubiquiti POE-24-30W, Gigabit PoE Injector, 24V/1.25A (30W)","category":"Powering / Pasive PoE / PoE injectors","description":"High-quality, stabilized Gigabit PoE power adapter with earthing, LED indication and output voltage 24V and max. current 1.25A. The maximum output power is 30W. This model has power on all 4 pairs. The PoE adapter is only compatible with 1Gbps devices that support power on all 4pairs (8pins) PoE adapter Power cord","availability":"To order / expected","unitPerCarton":50,"warranty":"24 months","displayPriceUsd":15,"fullCartonUnitPriceUsd":14.48,"imageUrl":"assets/catalog-data/public-images/ubiquiti-poe-24-30w-a472f293bd.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power The input voltage [V] 230V AC Output Power [W] 30 Pin powering 1,2,4,5 (+), 3,6,7,8 (-) PoE Out ports 1 Output Voltage [V] 24 Output Current [A] 1,25 Efficiency [%] 80+"}
+{
+  "id": "ubiquiti-poe-24-30w",
+  "brand": "Ubiquiti",
+  "sku": "POE-24-30W",
+  "title": "Ubiquiti POE-24-30W, Gigabit PoE Injector, 24V/1.25A (30W)",
+  "category": "Ubiquiti / Powering / Pasive PoE / PoE injectors",
+  "description": "High-quality, stabilized Gigabit PoE power adapter with earthing, LED indication and output voltage 24V and max. current 1.25A. The maximum output power is 30W. This model has power on all 4 pairs. The PoE adapter is only compatible with 1Gbps devices that support power on all 4pairs (8pins) PoE adapter Power cord",
+  "availability": "Not In Stock",
+  "unitPerCarton": 50,
+  "warranty": "24 months",
+  "displayPriceUsd": 15,
+  "fullCartonUnitPriceUsd": 14.48,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-poe-24-30w-a472f293bd.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Connectors and Interfaces Ethernet speed [Mb/s] 10/100/1000 Gigabit LAN Yes Power The input voltage [V] 230V AC Output Power [W] 30 Pin powering 1,2,4,5 (+), 3,6,7,8 (-) PoE Out ports 1 Output Voltage [V] 24 Output Current [A] 1,25 Efficiency [%] 80+",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-poe-24-30w-gigabit-poe-injector-24v-1-25a-30w-_d65399.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-powering-pasive-poe-poe-injectors_c16591506.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Powering",
+    "Pasive PoE",
+    "PoE injectors"
+  ]
+}

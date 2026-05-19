@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-lock-strike-secure-8mm","brand":"Ubiquiti","sku":"UACC-Lock-Strike-Secure-8mm","title":"Ubiquiti UACC-Lock-Strike-Secure-8mm, Electric fail-secure strike lock","category":"Cameras, security / UniFi Access","description":"The UACC-Lock-Strike-Secure-8mm is an electric strike lock that connects to a UniFi Access Hub . The lock is fail-secure, remaining locked in the event of failure . It can be installed in wooden, steel, and aluminum frames. The device features a built-in DPS (door position sensor), allowing monitoring of the door open/closed status, and has a holding force of up to 227 kg . Power is supplied via a two-wire terminal block 12V/200mA UA-Hub-Door UA-Hub-Door-Mini UA-Hub-Gate EAH-8 UA-Ultra","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":101,"fullCartonUnitPriceUsd":97.47,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-lock-strike-secure-8mm-519a847fa8.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Power Power type DC terminal Max. power consumption [W] 2,4 Power via connector/terminal 12V DC"}
+{
+  "id": "ubiquiti-uacc-lock-strike-secure-8mm",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Lock-Strike-Secure-8mm",
+  "title": "Ubiquiti UACC-Lock-Strike-Secure-8mm, Electric fail-secure strike lock",
+  "category": "Ubiquiti / Cameras, security / UniFi Access",
+  "description": "The UACC-Lock-Strike-Secure-8mm is an electric strike lock that connects to a UniFi Access Hub . The lock is fail-secure, remaining locked in the event of failure . It can be installed in wooden, steel, and aluminum frames. The device features a built-in DPS (door position sensor), allowing monitoring of the door open/closed status, and has a holding force of up to 227 kg . Power is supplied via a two-wire terminal block 12V/200mA UA-Hub-Door UA-Hub-Door-Mini UA-Hub-Gate EAH-8 UA-Ultra",
+  "availability": "In Stock 14 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 101,
+  "fullCartonUnitPriceUsd": 97.47,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-lock-strike-secure-8mm-519a847fa8.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Power Power type DC terminal Max. power consumption [W] 2,4 Power via connector/terminal 12V DC",
+  "stockQtyVisible": 14,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-lock-strike-secure-8mm-electric-fail-secure-strike-lock_d131627.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-unifi-access_c16587756.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "UniFi Access"
+  ]
+}

@@ -1,1 +1,27 @@
-{"id":"mikrotik-r11e-2hnd","brand":"MikroTik","sku":"R11e-2HnD","title":"MikroTik R11e-2HnD 802.11b/g/n miniPCI-e card, 2x u.fl","category":"Wireless / MikroTik / MiniPCI cards","description":"R11e-2HnD is a Low-profile Lower power version of our 2.4Ghz miniPCIe card - it has a small heat-sink, u.Fl connector and less output power ( 800mW ). Low profile is useful if you need to install the card in device like a laptop","availability":"In stock","unitPerCarton":50,"warranty":"24 months","displayPriceUsd":34,"fullCartonUnitPriceUsd":32.81,"imageUrl":"assets/catalog-data/public-images/mikrotik-r11e-2hnd-f3faf7622c.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Sensitivity [dBm] 96 Wireless frequency 2.4 GHz WiFi standards 802.11n, 802.11b/g Transmission speed - 2.4GHz [Mb/s] 300 Tx power 2.4GHz [dBm] 29 Security 802.11X authentication, 64/128/152Bit WEP, IEEE802.11i encryption Connectors and Interfaces Bus type miniPCI-e RF connectors (2) u.Fl Power Max. power consumption [W] 5 Physical characteristics Operating temperature [°C] 30 up to 65 Width [mm] 30 Height [mm] 6 Depth [mm] 51"}
+{
+  "id": "mikrotik-r11e-2hnd",
+  "brand": "MikroTik",
+  "sku": "R11e-2HnD",
+  "title": "MikroTik R11e-2HnD 802.11b/g/n miniPCI-e card, 2x u.fl",
+  "category": "MikroTik / Wireless / MiniPCI cards / MiniPCI Express",
+  "description": "R11e-2HnD is a Low-profile Lower power version of our 2.4Ghz miniPCIe card - it has a small heat-sink, u.Fl connector and less output power ( 800mW ). Low profile is useful if you need to install the card in device like a laptop",
+  "availability": "In Stock 38 pcs.",
+  "unitPerCarton": 50,
+  "warranty": "24 months",
+  "displayPriceUsd": 34,
+  "fullCartonUnitPriceUsd": 32.81,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-r11e-2hnd-f3faf7622c.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Sensitivity [dBm] 96 Wireless frequency 2.4 GHz WiFi standards 802.11n, 802.11b/g Transmission speed - 2.4GHz [Mb/s] 300 Tx power 2.4GHz [dBm] 29 Security 802.11X authentication, 64/128/152Bit WEP, IEEE802.11i encryption Connectors and Interfaces Bus type miniPCI-e RF connectors (2) u.Fl Power Max. power consumption [W] 5 Physical characteristics Operating temperature [°C] 30 up to 65 Width [mm] 30 Height [mm] 6 Depth [mm] 51",
+  "stockQtyVisible": 38,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-r11e-2hnd-802-11b-g-n-minipci-e-card-2x-u-fl_d54766.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-minipci-cards-minipci-express_c15888499.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "MiniPCI cards",
+    "MiniPCI Express"
+  ]
+}

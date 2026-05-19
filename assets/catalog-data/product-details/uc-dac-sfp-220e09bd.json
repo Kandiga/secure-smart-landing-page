@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uc-dac-sfp","brand":"Ubiquiti","sku":"UC-DAC-SFP+","title":"Ubiquiti UC-DAC-SFP+, UniFi SFP DAC Patch Cable, 0,5m, 10Gbps, white","category":"Optical networks / DAC and AOC cables / DAC cables","description":"UC-DAC-SFP+ is a passive DAC cable 0.5m long for connect two SFP/SFP+ devices with a maximum throughput of 10Gbps. The cable is made in white color with a diameter of just 4.2mm and the wires inside the cable are type AWG30 GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"To order / expected","unitPerCarton":100,"warranty":"24 months","displayPriceUsd":17,"fullCartonUnitPriceUsd":16.41,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uc-dac-sfp-1d0090410c.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Optics Format SFP, SFP+ Transmission speed 10 Gbps AOC/DAC cable type Passive Physical characteristics Length [m] 0,5 Operating temperature [°C] 0 up to 70"}
+{
+  "id": "ubiquiti-uc-dac-sfp",
+  "brand": "Ubiquiti",
+  "sku": "UC-DAC-SFP+",
+  "title": "Ubiquiti UC-DAC-SFP+, UniFi SFP DAC Patch Cable, 0,5m, 10Gbps, white",
+  "category": "Ubiquiti / Optical networks / DAC and AOC cables / DAC cables",
+  "description": "UC-DAC-SFP+ is a passive DAC cable 0.5m long for connect two SFP/SFP+ devices with a maximum throughput of 10Gbps. The cable is made in white color with a diameter of just 4.2mm and the wires inside the cable are type AWG30 GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "Not In Stock",
+  "unitPerCarton": 100,
+  "warranty": "24 months",
+  "displayPriceUsd": 17,
+  "fullCartonUnitPriceUsd": 16.41,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uc-dac-sfp-1d0090410c.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Optics Format SFP, SFP+ Transmission speed 10 Gbps AOC/DAC cable type Passive Physical characteristics Length [m] 0,5 Operating temperature [°C] 0 up to 70",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uc-dac-sfp-unifi-sfp-dac-patch-cable-0-5m-10gbps-white_d92659.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-dac-and-aoc-cables-dac-cables_c16591526.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "DAC and AOC cables",
+    "DAC cables"
+  ]
+}

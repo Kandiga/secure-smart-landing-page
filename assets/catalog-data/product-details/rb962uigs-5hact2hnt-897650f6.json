@@ -1,1 +1,27 @@
-{"id":"mikrotik-rb962uigs-5hact2hnt","brand":"MikroTik","sku":"RB962UiGS-5HacT2HnT","title":"MikroTik RouterBOARD RB962UiGS-5HacT2HnT, hAP ac","category":"Wireless / WiFi Routers / WiFi 5","description":"The hAP ac is a Dual-band Access Point, that provides Wifi coverage for 2.4GHz and 5GHz frequencies at the same time. This router is equipped with 5 Gigabit LAN ports and 1 SFP port. The device is very small and will look good in any home or office, wall mounting anchor holes are provided Triple chain wireless 2.4GHz Triple chain wireless 5GHz 720MHz CPU 128MB of RAM 5x GLAN ports, 1x SFP port Passive PoE output on port 5 USB port for 3G/4G modem The hAP ac can be powered from the power jack or with passive PoE from a PoE injector. Unit provides PoE output function for port 5 - it can power other PoE capable devices with the same voltage as applied to the unit. Maximum load on the port is 500mA Device Power adapter 24V / 1.2A","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":121,"fullCartonUnitPriceUsd":116.77,"imageUrl":"assets/catalog-data/public-images/mikrotik-rb962uigs-5hact2hnt-a5a41d5c8c.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Tx power [dBm] 28 Wireless frequency 2.4 + 5 GHz (dual band) WiFi standards 802.11ac, 802.11n, 802.11a, 802.11b/g Transmission speed - 5GHz [Mb/s] 1300 Transmission speed - 2.4GHz [Mb/s] 450 2.4GHz MIMO 3 x 3 5GHz MIMO 3 x 3 Type of antenna Built-in Antenna gain [dBi] 2, 2,5 Connectors and Interfaces LAN speed (5) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (1) 1000Mbps USB Yes Power Power over Ethernet 11 .. 57V DC Power type DC connector, PoE PoE type PoE-Out + PoE-In PoE Out ports 1 Max. power consumption [W] 17 Power via connector/terminal 11 .. 57V DC Physical characteristics Design Desktop Width [mm] 114 Height [mm] 29 Depth [mm] 137 Hardware CPU QCA9558 CPU frequency [MHz] 720 CPU cores 1 Internal storage [MB] 16 RAM [MB] 128"}
+{
+  "id": "mikrotik-rb962uigs-5hact2hnt",
+  "brand": "MikroTik",
+  "sku": "RB962UiGS-5HacT2HnT",
+  "title": "MikroTik RouterBOARD RB962UiGS-5HacT2HnT, hAP ac",
+  "category": "MikroTik / Wireless / WiFi Routers / WiFi 5",
+  "description": "The hAP ac is a Dual-band Access Point, that provides Wifi coverage for 2.4GHz and 5GHz frequencies at the same time. This router is equipped with 5 Gigabit LAN ports and 1 SFP port. The device is very small and will look good in any home or office, wall mounting anchor holes are provided Triple chain wireless 2.4GHz Triple chain wireless 5GHz 720MHz CPU 128MB of RAM 5x GLAN ports, 1x SFP port Passive PoE output on port 5 USB port for 3G/4G modem The hAP ac can be powered from the power jack or with passive PoE from a PoE injector. Unit provides PoE output function for port 5 - it can power other PoE capable devices with the same voltage as applied to the unit. Maximum load on the port is 500mA Device Power adapter 24V / 1.2A",
+  "availability": "In Stock 41 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 121,
+  "fullCartonUnitPriceUsd": 116.77,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rb962uigs-5hact2hnt-a5a41d5c8c.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Tx power [dBm] 28 Wireless frequency 2.4 + 5 GHz (dual band) WiFi standards 802.11ac, 802.11n, 802.11a, 802.11b/g Transmission speed - 5GHz [Mb/s] 1300 Transmission speed - 2.4GHz [Mb/s] 450 2.4GHz MIMO 3 x 3 5GHz MIMO 3 x 3 Type of antenna Built-in Antenna gain [dBi] 2, 2,5 Connectors and Interfaces LAN speed (5) 10/100/1000Mbps Gigabit LAN Yes Optical interfaces (1) 1000Mbps USB Yes Power Power over Ethernet 11 .. 57V DC Power type DC connector, PoE PoE type PoE-Out + PoE-In PoE Out ports 1 Max. power consumption [W] 17 Power via connector/terminal 11 .. 57V DC Physical characteristics Design Desktop Width [mm] 114 Height [mm] 29 Depth [mm] 137 Hardware CPU QCA9558 CPU frequency [MHz] 720 CPU cores 1 Internal storage [MB] 16 RAM [MB] 128",
+  "stockQtyVisible": 41,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-routerboard-rb962uigs-5hact2hnt-hap-ac_d72873.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-wifi-routers-wifi-5_c16591326.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "WiFi Routers",
+    "WiFi 5"
+  ]
+}

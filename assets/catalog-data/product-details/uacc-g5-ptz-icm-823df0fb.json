@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-g5-ptz-icm","brand":"Ubiquiti","sku":"UACC-G5-PTZ-ICM","title":"Ubiquiti G5 PTZ - In-ceiling mount for UVC-G5-PTZ","category":"Cameras, security / Mounting boxes and brackets / Ceiling","description":"In-ceiling mount for the Ubiquiti UniFi G5 PTZ camera","availability":"In stock","unitPerCarton":18,"warranty":"24 months","displayPriceUsd":45,"fullCartonUnitPriceUsd":43.43,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-g5-ptz-icm-9c3d7590af.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-g5-ptz-icm",
+  "brand": "Ubiquiti",
+  "sku": "UACC-G5-PTZ-ICM",
+  "title": "Ubiquiti G5 PTZ - In-ceiling mount for UVC-G5-PTZ",
+  "category": "Ubiquiti / Cameras, security / Mounting boxes and brackets / Ceiling",
+  "description": "In-ceiling mount for the Ubiquiti UniFi G5 PTZ camera",
+  "availability": "In Stock 8 pcs.",
+  "unitPerCarton": 18,
+  "warranty": "24 months",
+  "displayPriceUsd": 45,
+  "fullCartonUnitPriceUsd": 43.43,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-g5-ptz-icm-9c3d7590af.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 8,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-g5-ptz-in-ceiling-mount-for-uvc-g5-ptz_d127593.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-mounting-boxes-and-brackets-ceiling_c16591474.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "Mounting boxes and brackets",
+    "Ceiling"
+  ]
+}

@@ -1,1 +1,43 @@
-{"id":"rf-elements-rrw1013","brand":"RF elements","sku":"RRW1013","title":"RF elements Reversible ratchet wrench 10 and 13mm","category":"Tools / Hand tools","description":"Steel wrench with 10 and 13 mm sizes, and easy switching between tightening and loosening modes. The wrench is ideal for quick and convenient installation of RF elements products","availability":"In stock","unitPerCarton":160,"warranty":"24 months","displayPriceUsd":6,"fullCartonUnitPriceUsd":5.79,"imageUrl":"assets/catalog-data/public-images/rf-elements-rrw1013-9a19c2f177.jpg","documents":[],"shippingDimensions":{"unit":{"dimensionCount":1,"lengthCm":23,"widthCm":8,"heightCm":12.5,"volumeCm3":2300,"weightKg":1},"carton":{"pcsPerCarton":160,"lengthCm":0,"widthCm":0,"heightCm":0,"volumeCm3":0,"weightKg":0}},"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "rf-elements-rrw1013",
+  "brand": "RF elements",
+  "sku": "RRW1013",
+  "title": "RF elements Reversible ratchet wrench 10 and 13mm",
+  "category": "RF elements / Tools / Hand tools",
+  "description": "Steel wrench with 10 and 13 mm sizes, and easy switching between tightening and loosening modes. The wrench is ideal for quick and convenient installation of RF elements products",
+  "availability": "In Stock 43 pcs.",
+  "unitPerCarton": 160,
+  "warranty": "24 months",
+  "displayPriceUsd": 6,
+  "fullCartonUnitPriceUsd": 5.79,
+  "imageUrl": "assets/catalog-data/public-images/rf-elements-rrw1013-9a19c2f177.jpg",
+  "documents": [],
+  "shippingDimensions": {
+    "unit": {
+      "dimensionCount": 1,
+      "lengthCm": 23,
+      "widthCm": 8,
+      "heightCm": 12.5,
+      "volumeCm3": 2300,
+      "weightKg": 1
+    },
+    "carton": {
+      "pcsPerCarton": 160,
+      "lengthCm": 0,
+      "widthCm": 0,
+      "heightCm": 0,
+      "volumeCm3": 0,
+      "weightKg": 0
+    }
+  },
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 43,
+  "discompProductUrl": "https://www.discomp.cz/rf-elements-reversible-ratchet-wrench-10-and-13mm_d114139.html",
+  "discompCategoryUrl": "https://www.discomp.cz/rf-elements-tools-hand-tools_c15565080.html",
+  "discompSourcePath": [
+    "RF elements",
+    "Tools",
+    "Hand tools"
+  ]
+}

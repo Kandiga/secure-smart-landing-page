@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uvc-g6-pro-360-b","brand":"Ubiquiti","sku":"UVC-G6-Pro-360-B","title":"Ubiquiti G6 Pro 360, black, IP camera, outdoor, 12MP","category":"Cameras, security / IP cameras / Dome","description":"Ubiquiti G6 Pro 360 is an outdoor panoramic IP camera from the UniFi Protect series. It is equipped with a 12MP sensor with a resolution of 3504 x 3504 px at 24 fps, a fisheye lens with a 360° field of view, and an intelligent IR illuminator with a range of up to 15 m and 4 controllable zones. The camera is fitted with a 10/100 Mbps Ethernet port , which also serves for power supply via PoE+ 802.3at or passive PoE in the range of 37â57V DC. The maximum power consumption of the camera is 7.14… Thanks to AI implementation, the camera supports smart object detection (people, vehicles, animals) Connection 10/100 Mbps RJ45 port Power method 802.3at POE+ Weatherproofing IP66 and Tamper Resistance IK10 Expansion Slot for microSD card Resolution 12MP with 24 FPS 360° panorama shot Smart object detection IR Night Vision with 4 x controllable zones Two-way audio Managed via UniFi Protect Device Surface mount Mounting tools and accessories","availability":"In stock","unitPerCarton":8,"warranty":"24 months","displayPriceUsd":559,"fullCartonUnitPriceUsd":539.44,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-g6-pro-360-b-e48535bc63.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Camera Lens type Fixed Illumination IR Illumination range [m] 15 Viewing Angle [°] 360 Day/night mode IR cut filter Image sensor [\"] 1/1.6 Image Resolution 12MP Max. resolution [pixels] 3504 x 3504 Connectors and Interfaces Slot for Memory Card microSD Audio Microphone, Speaker LAN speed (1) 10/100Mbps Power Power over Ethernet 802.3at, 37 .. 57V DC Power type PoE Max. power consumption [W] 7,1 Physical characteristics Protection class IP66 Purpose Outdoor Antivandal (Impact protection) IK10 Buttons Reset Operating temperature [°C] 30 up to 50 Weight [g] 610 Width [mm] 147 Height [mm] 147 Depth [mm] 66 Color Black Compression standard Number of streams 1"}
+{
+  "id": "ubiquiti-uvc-g6-pro-360-b",
+  "brand": "Ubiquiti",
+  "sku": "UVC-G6-Pro-360-B",
+  "title": "Ubiquiti G6 Pro 360, black, IP camera, outdoor, 12MP",
+  "category": "Ubiquiti / Cameras, security / IP cameras / Dome",
+  "description": "Ubiquiti G6 Pro 360 is an outdoor panoramic IP camera from the UniFi Protect series. It is equipped with a 12MP sensor with a resolution of 3504 x 3504 px at 24 fps, a fisheye lens with a 360° field of view, and an intelligent IR illuminator with a range of up to 15 m and 4 controllable zones. The camera is fitted with a 10/100 Mbps Ethernet port , which also serves for power supply via PoE+ 802.3at or passive PoE in the range of 37â57V DC. The maximum power consumption of the camera is 7.14… Thanks to AI implementation, the camera supports smart object detection (people, vehicles, animals) Connection 10/100 Mbps RJ45 port Power method 802.3at POE+ Weatherproofing IP66 and Tamper Resistance IK10 Expansion Slot for microSD card Resolution 12MP with 24 FPS 360° panorama shot Smart object detection IR Night Vision with 4 x controllable zones Two-way audio Managed via UniFi Protect Device Surface mount Mounting tools and accessories",
+  "availability": "In Stock 3 pcs.",
+  "unitPerCarton": 8,
+  "warranty": "24 months",
+  "displayPriceUsd": 559,
+  "fullCartonUnitPriceUsd": 539.44,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-g6-pro-360-b-e48535bc63.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Camera Lens type Fixed Illumination IR Illumination range [m] 15 Viewing Angle [°] 360 Day/night mode IR cut filter Image sensor [\"] 1/1.6 Image Resolution 12MP Max. resolution [pixels] 3504 x 3504 Connectors and Interfaces Slot for Memory Card microSD Audio Microphone, Speaker LAN speed (1) 10/100Mbps Power Power over Ethernet 802.3at, 37 .. 57V DC Power type PoE Max. power consumption [W] 7,1 Physical characteristics Protection class IP66 Purpose Outdoor Antivandal (Impact protection) IK10 Buttons Reset Operating temperature [°C] 30 up to 50 Weight [g] 610 Width [mm] 147 Height [mm] 147 Depth [mm] 66 Color Black Compression standard Number of streams 1",
+  "stockQtyVisible": 3,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-g6-pro-360-black-ip-camera-outdoor-12mp_d130403.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-ip-cameras-dome_c16591514.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "IP cameras",
+    "Dome"
+  ]
+}

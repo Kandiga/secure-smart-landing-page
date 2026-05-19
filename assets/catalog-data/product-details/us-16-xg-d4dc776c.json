@@ -1,1 +1,27 @@
-{"id":"ubiquiti-us-16-xg","brand":"Ubiquiti","sku":"US-16-XG","title":"Ubiquiti UniFi Switch US-16-XG","category":"LAN networks / Switches / UniFi Switches","description":"UniFiSwitch US-XG-16 is a high performance optical switch suitable for building a 10Gbit network. UniFiSwitch US-16-XG contains 4x 10G Ethernet and 12x SFP+ ports with a total 320Gbps throughput. All ethernet and optical ports support 10G and 1G speed A big advantage is redundant or direct DC power supply. Switch can be powered with 230V AC input and 2.5mm DC connector with variable power from 16 to 25V Universal tool named Unifi Controller is easy to learn and allows administrators to configure and monitor features in a graphical user interface. For advanced users, a Command-Line Interface (CLI) is available through telnet and SSH Device Power cord Rackmount kit","availability":"To order / expected","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":621,"fullCartonUnitPriceUsd":621,"imageUrl":"assets/catalog-data/public-images/ubiquiti-us-16-xg-a585dd8cf5.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces LAN speed (4) 1G/10Gbps Optical interfaces (12) 1G/10Gbps Serial port RJ45 Power Power type DC connector, Mains power (230V) Redundant power supply Yes Max. power consumption [W] 56 Power via connector/terminal 20 .. 57V DC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Operating temperature [°C] 5 up to 40 Width [mm] 443 Height [mm] 43 Depth [mm] 221 General Switchning capacity [Gbps] 320 MAC address table 16000 Jumbo frame [Bytes] 9000 Packet forwarding rate [Mpps] 238,1"}
+{
+  "id": "ubiquiti-us-16-xg",
+  "brand": "Ubiquiti",
+  "sku": "US-16-XG",
+  "title": "Ubiquiti UniFi Switch US-16-XG",
+  "category": "Ubiquiti / LAN networks / Switches / UniFi Switches",
+  "description": "UniFiSwitch US-XG-16 is a high performance optical switch suitable for building a 10Gbit network. UniFiSwitch US-16-XG contains 4x 10G Ethernet and 12x SFP+ ports with a total 320Gbps throughput. All ethernet and optical ports support 10G and 1G speed A big advantage is redundant or direct DC power supply. Switch can be powered with 230V AC input and 2.5mm DC connector with variable power from 16 to 25V Universal tool named Unifi Controller is easy to learn and allows administrators to configure and monitor features in a graphical user interface. For advanced users, a Command-Line Interface (CLI) is available through telnet and SSH Device Power cord Rackmount kit",
+  "availability": "Not In Stock",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 621,
+  "fullCartonUnitPriceUsd": 621,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-us-16-xg-a585dd8cf5.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces LAN speed (4) 1G/10Gbps Optical interfaces (12) 1G/10Gbps Serial port RJ45 Power Power type DC connector, Mains power (230V) Redundant power supply Yes Max. power consumption [W] 56 Power via connector/terminal 20 .. 57V DC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Operating temperature [°C] 5 up to 40 Width [mm] 443 Height [mm] 43 Depth [mm] 221 General Switchning capacity [Gbps] 320 MAC address table 16000 Jumbo frame [Bytes] 9000 Packet forwarding rate [Mpps] 238,1",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-switch-us-16-xg_d77665.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-unifi-switches_c16172908.html?page=2",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "UniFi Switches"
+  ]
+}

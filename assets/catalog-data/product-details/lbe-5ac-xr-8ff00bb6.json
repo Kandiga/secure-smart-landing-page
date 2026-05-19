@@ -1,1 +1,27 @@
-{"id":"ubiquiti-lbe-5ac-xr","brand":"Ubiquiti","sku":"LBE-5AC-XR","title":"Ubiquiti LBE-5AC-XR - UISP LiteBeam AC 5 GHz XR","category":"Wireless / Outdoor units / AirMAX AC","description":"LiteBeam 5AC-XR is a 2Ã2 MIMO AC series client station with airMAX TDMA for the 5GHz band. This unit has a higher antenna gain of 29 dBi and a GPS module for time synchronization which is useful when building links over longer distances distance. The unit reaches a transmission speed of up to 867 Mbps on the wireless part, with a channel width of 80 MHz and is compatible only with other airMAX AC products . The antenna is designed for outdoor use with a very good price/performance ratio in the… Proprietary airMAX ac chipset Ultralight construction of 29dBi antenna and holder InnerFeed technology Integrated GPS 2.4 GHz management radio Power supply via passive 24V PoE Gigabit Ethernet Web interface, UISP administration Device - emitter Parabolic antenna - 3 parts Mast holder (3) metal drawstring Gigabit PoE adapter 24 V/0.5 A Power cord","availability":"In stock","unitPerCarton":2,"warranty":"24 months","displayPriceUsd":144,"fullCartonUnitPriceUsd":138.96,"imageUrl":"assets/catalog-data/public-images/ubiquiti-lbe-5ac-xr-0b3536dc0e.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Frequency range [MHz] 5150 - 5850 Wireless frequency 5 GHz WiFi standards airMAX ac Transmission speed - 5GHz [Mb/s] 866 Tx power 5GHz [dBm] 25 Security WPA2-PSK AES/TKIP 5GHz MIMO 2 x 2 Type of antenna Built-in Internal antennas 2 Antenna gain [dBi] 29 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes GPS modul Yes Other features WiFi management radio Power Power over Ethernet 22 .. 26V DC PoE type PoE-In (only) Max. power consumption [W] 7 Physical characteristics Protection class IPX6 Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 70 Weight [g] 3200 Width [mm] 747 Height [mm] 525 Depth [mm] 347"}
+{
+  "id": "ubiquiti-lbe-5ac-xr",
+  "brand": "Ubiquiti",
+  "sku": "LBE-5AC-XR",
+  "title": "Ubiquiti LBE-5AC-XR - UISP LiteBeam AC 5 GHz XR",
+  "category": "Ubiquiti / Wireless / Outdoor units / AirMAX AC",
+  "description": "LiteBeam 5AC-XR is a 2Ã2 MIMO AC series client station with airMAX TDMA for the 5GHz band. This unit has a higher antenna gain of 29 dBi and a GPS module for time synchronization which is useful when building links over longer distances distance. The unit reaches a transmission speed of up to 867 Mbps on the wireless part, with a channel width of 80 MHz and is compatible only with other airMAX AC products . The antenna is designed for outdoor use with a very good price/performance ratio in the… Proprietary airMAX ac chipset Ultralight construction of 29dBi antenna and holder InnerFeed technology Integrated GPS 2.4 GHz management radio Power supply via passive 24V PoE Gigabit Ethernet Web interface, UISP administration Device - emitter Parabolic antenna - 3 parts Mast holder (3) metal drawstring Gigabit PoE adapter 24 V/0.5 A Power cord",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 2,
+  "warranty": "24 months",
+  "displayPriceUsd": 144,
+  "fullCartonUnitPriceUsd": 138.96,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-lbe-5ac-xr-0b3536dc0e.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Frequency range [MHz] 5150 - 5850 Wireless frequency 5 GHz WiFi standards airMAX ac Transmission speed - 5GHz [Mb/s] 866 Tx power 5GHz [dBm] 25 Security WPA2-PSK AES/TKIP 5GHz MIMO 2 x 2 Type of antenna Built-in Internal antennas 2 Antenna gain [dBi] 29 Connectors and Interfaces LAN speed (1) 10/100/1000Mbps Gigabit LAN Yes GPS modul Yes Other features WiFi management radio Power Power over Ethernet 22 .. 26V DC PoE type PoE-In (only) Max. power consumption [W] 7 Physical characteristics Protection class IPX6 Purpose Outdoor Buttons Reset Operating temperature [°C] 40 up to 70 Weight [g] 3200 Width [mm] 747 Height [mm] 525 Depth [mm] 347",
+  "stockQtyVisible": 164,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-lbe-5ac-xr-uisp-litebeam-ac-5-ghz-xr_d116783.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-outdoor-units-airmax-ac_c16591471.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Outdoor units",
+    "AirMAX AC"
+  ]
+}

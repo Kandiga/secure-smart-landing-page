@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-rack-panel-blank-1u","brand":"Ubiquiti","sku":"UACC-Rack-Panel-Blank-1U","title":"Ubiquiti UACC-Rack-Panel-Blank-1U, rack mount OCD panel, 1U","category":"Cabinets / Accessories / Blanking panels","description":"Ubiquiti blanking strip for 19\" data cabinets, with a height of 1U and gray color . Suitable for elegantly blinding or covering unused positions in a data cabinet","availability":"To order / expected","unitPerCarton":16,"warranty":"24 months","displayPriceUsd":23,"fullCartonUnitPriceUsd":22.2,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-rack-panel-blank-1u-1b57bde302.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-rack-panel-blank-1u",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Rack-Panel-Blank-1U",
+  "title": "Ubiquiti UACC-Rack-Panel-Blank-1U, rack mount OCD panel, 1U",
+  "category": "Ubiquiti / Cabinets / Accessories / Blanking panels",
+  "description": "Ubiquiti blanking strip for 19\" data cabinets, with a height of 1U and gray color . Suitable for elegantly blinding or covering unused positions in a data cabinet",
+  "availability": "Ordered, unknown date",
+  "unitPerCarton": 16,
+  "warranty": "24 months",
+  "displayPriceUsd": 23,
+  "fullCartonUnitPriceUsd": 22.2,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-rack-panel-blank-1u-1b57bde302.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-rack-panel-blank-1u-rack-mount-ocd-panel-1u_d120279.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cabinets-accessories-blanking-panels_c16589526.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cabinets",
+    "Accessories",
+    "Blanking panels"
+  ]
+}

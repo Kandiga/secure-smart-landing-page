@@ -1,1 +1,28 @@
-{"id":"ubiquiti-rd-5g34","brand":"Ubiquiti","sku":"RD-5G34","title":"Ubiquiti RocketDish 34dBi, 5GHz, Rocket Kit","category":"Wireless / Antennas / Directional antennas / 5GHz","description":"Ubiquiti RocketDish RD-5G34 is a 2x2 parabolic antenna suitable for long PtP coupled using Rocket M units. It also comes with waterproof accessories for connection to the Rocket M5 unit Thanks to the built-in mounting system of the so-called rocket kit, any Rocket unit can be directly mounted on this antenna without the need for additional accessories. Simply click the Rocket and you're done","availability":"In stock","unitPerCarton":1,"warranty":"24 months","displayPriceUsd":304,"fullCartonUnitPriceUsd":304,"imageUrl":"assets/catalog-data/public-images/ubiquiti-rd-5g34-6a2a56646a.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,4 F/B ratio [dB] 42 Cross-Pol Isolation [dB] 35 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 3 Azimuth beam width (-6dB) [°] 3 Antenna type Directional Antenna gain [dBi] 34 Connectors and Interfaces Rocket kit Yes RF connectors (2) RSMA female"}
+{
+  "id": "ubiquiti-rd-5g34",
+  "brand": "Ubiquiti",
+  "sku": "RD-5G34",
+  "title": "Ubiquiti RocketDish 34dBi, 5GHz, Rocket Kit",
+  "category": "Ubiquiti / Wireless / Antennas / Directional antennas / 5GHz",
+  "description": "Ubiquiti RocketDish RD-5G34 is a 2x2 parabolic antenna suitable for long PtP coupled using Rocket M units. It also comes with waterproof accessories for connection to the Rocket M5 unit Thanks to the built-in mounting system of the so-called rocket kit, any Rocket unit can be directly mounted on this antenna without the need for additional accessories. Simply click the Rocket and you're done",
+  "availability": "In Stock 11 pcs.",
+  "unitPerCarton": 1,
+  "warranty": "24 months",
+  "displayPriceUsd": 304,
+  "fullCartonUnitPriceUsd": 304,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-rd-5g34-6a2a56646a.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features MIMO, SISO 2 x 2 Polarization VH VSWR < 1,4 F/B ratio [dB] 42 Cross-Pol Isolation [dB] 35 Wireless frequency 5 GHz Elevation beam width (-6dB) [°] 3 Azimuth beam width (-6dB) [°] 3 Antenna type Directional Antenna gain [dBi] 34 Connectors and Interfaces Rocket kit Yes RF connectors (2) RSMA female",
+  "stockQtyVisible": 11,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-rocketdish-34dbi-5ghz-rocket-kit_d21064.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-antennas-directional-antennas-5ghz_c15888480.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Antennas",
+    "Directional antennas",
+    "5GHz"
+  ]
+}

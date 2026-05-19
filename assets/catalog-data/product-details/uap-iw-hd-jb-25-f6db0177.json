@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uap-iw-hd-jb-25","brand":"Ubiquiti","sku":"UAP-IW-HD-JB-25","title":"Ubiquiti InWall Junction Box for UAP-IW-HD, 25-pack","category":"Wireless / Accessories / Other accessories","description":"Plastic inwall juction box is suitable for installation of UniFi AP In Wall HD (UAP-IW-HD). The mounting box has several holes on the back side for attaching or inserting the Ethernet cable. The box also has 2 pillar for attach UAP unit The package contains 25 pieces of junction boxes","availability":"To order / expected","unitPerCarton":1,"warranty":"24 months","displayPriceUsd":114,"fullCartonUnitPriceUsd":114,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uap-iw-hd-jb-25-b959ceff54.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "ubiquiti-uap-iw-hd-jb-25",
+  "brand": "Ubiquiti",
+  "sku": "UAP-IW-HD-JB-25",
+  "title": "Ubiquiti InWall Junction Box for UAP-IW-HD, 25-pack",
+  "category": "Ubiquiti / Wireless / Accessories / Other accessories",
+  "description": "Plastic inwall juction box is suitable for installation of UniFi AP In Wall HD (UAP-IW-HD). The mounting box has several holes on the back side for attaching or inserting the Ethernet cable. The box also has 2 pillar for attach UAP unit The package contains 25 pieces of junction boxes",
+  "availability": "Not In Stock",
+  "unitPerCarton": 1,
+  "warranty": "24 months",
+  "displayPriceUsd": 114,
+  "fullCartonUnitPriceUsd": 114,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uap-iw-hd-jb-25-b959ceff54.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-inwall-junction-box-for-uap-iw-hd-25-pack_d97885.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-other-accessories_c15888323.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Other accessories"
+  ]
+}

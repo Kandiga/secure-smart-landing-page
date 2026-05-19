@@ -1,1 +1,27 @@
-{"id":"mikrotik-rbmapl-2nd","brand":"MikroTik","sku":"RBmAPL-2nD","title":"MikroTik RouterBOARD RBmAPL-2nD, mAP lite","category":"Wireless / WiFi Routers / WiFi 4","description":"RBmAPL-2nD is the smallest wireless Access Point with full RouterOS support and a built-in 2.4GHz radio part with support for 802.11b/g/n standards. The whole device is barely bigger than a matchbox and a special ethernet port was used to make it RBmAPL-2nD is an excellent device suitable as a travel router to create a WiFi hotspot or as a client device to increase the range of your mobile devices The router comes with a built-in magnet , thanks to which it will stick to any iron surface - useful when configuring MikroTik servers with your mobile phone/tablet. In the case of non-metallic material, a double-sided sticker is also included in the package Any type of PoE - passive 10 - 60 V and 802.3at Integrated 802.1b/g/n wireless card MicroUSB for power supply via USB (5 to 10 V) L4 license suitable for AP or client 1Ã 10/100Mbps LAN","availability":"To order / expected","unitPerCarton":60,"warranty":"24 months","displayPriceUsd":30,"fullCartonUnitPriceUsd":28.95,"imageUrl":"assets/catalog-data/public-images/mikrotik-rbmapl-2nd-865f553362.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Tx power [dBm] 22 Wireless frequency 2.4 GHz WiFi standards 802.11n, 802.11b/g Transmission speed - 2.4GHz [Mb/s] 300 2.4GHz MIMO 2 x 2 Type of antenna Built-in Antenna gain [dBi] < 2 Connectors and Interfaces LAN speed (1) 10/100Mbps Power Power over Ethernet 802.3af, 802.3at, 10 .. 60V DC Power type PoE, USB (5V) PoE type PoE-In (only) Max. power consumption [W] 3,5 Power via connector/terminal 5 .. 10V DC Physical characteristics Design Desktop Operating temperature [°C] 30 up to 70 Width [mm] 48 Height [mm] 11 Depth [mm] 49 Hardware CPU QCA9533 CPU frequency [MHz] 650 CPU cores 1 Internal storage [MB] 16 RAM [MB] 64"}
+{
+  "id": "mikrotik-rbmapl-2nd",
+  "brand": "MikroTik",
+  "sku": "RBmAPL-2nD",
+  "title": "MikroTik RouterBOARD RBmAPL-2nD, mAP lite",
+  "category": "MikroTik / Wireless / WiFi Routers / WiFi 4",
+  "description": "RBmAPL-2nD is the smallest wireless Access Point with full RouterOS support and a built-in 2.4GHz radio part with support for 802.11b/g/n standards. The whole device is barely bigger than a matchbox and a special ethernet port was used to make it RBmAPL-2nD is an excellent device suitable as a travel router to create a WiFi hotspot or as a client device to increase the range of your mobile devices The router comes with a built-in magnet , thanks to which it will stick to any iron surface - useful when configuring MikroTik servers with your mobile phone/tablet. In the case of non-metallic material, a double-sided sticker is also included in the package Any type of PoE - passive 10 - 60 V and 802.3at Integrated 802.1b/g/n wireless card MicroUSB for power supply via USB (5 to 10 V) L4 license suitable for AP or client 1Ã 10/100Mbps LAN",
+  "availability": "Expected 2.6.2026",
+  "unitPerCarton": 60,
+  "warranty": "24 months",
+  "displayPriceUsd": 30,
+  "fullCartonUnitPriceUsd": 28.95,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-rbmapl-2nd-865f553362.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Tx power [dBm] 22 Wireless frequency 2.4 GHz WiFi standards 802.11n, 802.11b/g Transmission speed - 2.4GHz [Mb/s] 300 2.4GHz MIMO 2 x 2 Type of antenna Built-in Antenna gain [dBi] < 2 Connectors and Interfaces LAN speed (1) 10/100Mbps Power Power over Ethernet 802.3af, 802.3at, 10 .. 60V DC Power type PoE, USB (5V) PoE type PoE-In (only) Max. power consumption [W] 3,5 Power via connector/terminal 5 .. 10V DC Physical characteristics Design Desktop Operating temperature [°C] 30 up to 70 Width [mm] 48 Height [mm] 11 Depth [mm] 49 Hardware CPU QCA9533 CPU frequency [MHz] 650 CPU cores 1 Internal storage [MB] 16 RAM [MB] 64",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-routerboard-rbmapl-2nd-map-lite_d71965.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-wifi-routers-wifi-4_c16591328.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "WiFi Routers",
+    "WiFi 4"
+  ]
+}

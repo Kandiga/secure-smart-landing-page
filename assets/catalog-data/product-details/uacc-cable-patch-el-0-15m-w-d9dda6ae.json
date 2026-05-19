@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-cable-patch-el-0-15m-w","brand":"Ubiquiti","sku":"UACC-Cable-Patch-EL-0.15M-W","title":"Ubiquiti UniFi Etherlighting Patch Cable 0,15m, white","category":"LAN networks / Patch cables / Cat.6 (Color)","description":"Nano-thin patch cable category Cat6 with translucent caps is specially designed for use with switches from the UniFi Pro Max series . Thanks to the light effects, the cable interactively displays the status of the Ethernet ports . The outer diameter of the cable is only 2.5 mm and the total length including connectors is 15 cm. As usual with UniFi solutions, the cable comes in an elegant white color and is intended for indoor use only (1) Nano-thin patch cable","availability":"To order / expected","unitPerCarton":200,"warranty":"24 months","displayPriceUsd":4,"fullCartonUnitPriceUsd":3.86,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-cable-patch-el-0-15m-w-70d5dcf77b.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Design Extra slim Purpose Indoor Length [m] 0,15 Color White"}
+{
+  "id": "ubiquiti-uacc-cable-patch-el-0-15m-w",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Cable-Patch-EL-0.15M-W",
+  "title": "Ubiquiti UniFi Etherlighting Patch Cable 0,15m, white",
+  "category": "Ubiquiti / LAN networks / Patch cables / Cat.6 (Color)",
+  "description": "Nano-thin patch cable category Cat6 with translucent caps is specially designed for use with switches from the UniFi Pro Max series . Thanks to the light effects, the cable interactively displays the status of the Ethernet ports . The outer diameter of the cable is only 2.5 mm and the total length including connectors is 15 cm. As usual with UniFi solutions, the cable comes in an elegant white color and is intended for indoor use only (1) Nano-thin patch cable",
+  "availability": "Expected 22.5.2026",
+  "unitPerCarton": 200,
+  "warranty": "24 months",
+  "displayPriceUsd": 4,
+  "fullCartonUnitPriceUsd": 3.86,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-cable-patch-el-0-15m-w-70d5dcf77b.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Design Extra slim Purpose Indoor Length [m] 0,15 Color White",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-etherlighting-patch-cable-0-15m-white_d125030.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-patch-cables-cat-6-color-_c16591469.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Patch cables",
+    "Cat.6 (Color)"
+  ]
+}

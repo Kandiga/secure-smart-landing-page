@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-rack-rails-slide","brand":"Ubiquiti","sku":"UACC-Rack-Rails-Slide","title":"Ubiquiti UACC-Rack-Rails-Slide - Sliding Rack Rails","category":"Cabinets / Accessories / Other accessories","description":"Adjustable sliding rails for UniFi rack-mount gear, designed for smooth sliding and flexible fit in 4-post racks . The rails can be adjusted for racks with a depth of 600-1066mm . Made of high-quality SGCC steel with a load capacity of 45kg USW-Pro-XG-24 USW-Pro-XG-24-PoE USW-Pro-XG-48 USW-Pro-XG-48-PoE USW-Pro-HD-24 USW-Pro-XG-10-PoE USW-Pro-HD-24-PoE USW-Pro-XG-Aggregation","availability":"To order / expected","unitPerCarton":6,"warranty":"24 months","displayPriceUsd":89,"fullCartonUnitPriceUsd":85.89,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-rack-rails-slide-e0aaf9d6e2.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-rack-rails-slide",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Rack-Rails-Slide",
+  "title": "Ubiquiti UACC-Rack-Rails-Slide - Sliding Rack Rails",
+  "category": "Ubiquiti / Cabinets / Accessories / Other accessories",
+  "description": "Adjustable sliding rails for UniFi rack-mount gear, designed for smooth sliding and flexible fit in 4-post racks . The rails can be adjusted for racks with a depth of 600-1066mm . Made of high-quality SGCC steel with a load capacity of 45kg USW-Pro-XG-24 USW-Pro-XG-24-PoE USW-Pro-XG-48 USW-Pro-XG-48-PoE USW-Pro-HD-24 USW-Pro-XG-10-PoE USW-Pro-HD-24-PoE USW-Pro-XG-Aggregation",
+  "availability": "Expected 30.6.2026",
+  "unitPerCarton": 6,
+  "warranty": "24 months",
+  "displayPriceUsd": 89,
+  "fullCartonUnitPriceUsd": 85.89,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-rack-rails-slide-e0aaf9d6e2.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-rack-rails-slide-sliding-rack-rails_d130484.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cabinets-accessories-other-accessories_c16591895.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cabinets",
+    "Accessories",
+    "Other accessories"
+  ]
+}

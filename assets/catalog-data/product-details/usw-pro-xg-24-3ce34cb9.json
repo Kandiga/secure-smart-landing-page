@@ -1,1 +1,27 @@
-{"id":"ubiquiti-usw-pro-xg-24","brand":"Ubiquiti","sku":"USW-Pro-XG-24","title":"Ubiquiti UniFi Switch USW-Pro-XG-24","category":"LAN networks / Switches / UniFi Switches","description":"The UniFi Switch USW-Pro-XG-24 is a managed L3 switch with a switching capacity of 460 Gbps , featuring (8) 2.5-Gigabit LAN and (16) 10-Gigabit LAN ports, as well as (2) SFP28 (25G/10G/1G) ports. The Ethernet ports support the Etherlighting feature, allowing you to light up ports in different colors to indicate port location, speed/connection, and VLAN. The switch is powered via a standard 230V AC supply and includes a USP RPS DC port as a backup power source in case of primary power failure.… (8) 2.5G ports (16) 10G ports (2) 25/10/1G SFP28 ports Etherlighting â visual port status indicators Rack-mountable Managed via UniFi Network Server The USW-Pro-XG-24 does not include a web interface but is centrally managed through the UniFi Network Server with support for the UniFi mobile app. It offers a comprehensive set of advanced L2 and L3 switching features, including per-port operation modes (switching, mirroring, or aggregation). The UniFi Network Server and mobile app allow administrators to configure and monitor nearly all switch functions through a graphical user interface from anywhere Device Power cord Rackmount brackets","availability":"In stock","unitPerCarton":1,"warranty":"24 months","displayPriceUsd":1301,"fullCartonUnitPriceUsd":1301,"imageUrl":"assets/catalog-data/public-images/ubiquiti-usw-pro-xg-24-18a8f6bc37.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces LAN speed (8) 2.5G/1G/100M/10M + (16) 10G/5G/2.5G/1G/100M/10M Optical interfaces (2) 1/10/25Gbps Other features Touchscreen Power Power type Mains power (230V), UniFi SmartPower RPS Redundant power supply Yes Max. power consumption [W] 150 Power via connector/terminal 52V DC, 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 480 General Switchning capacity [Gbps] 460 MAC address table 128000 Packet forwarding rate [Mpps] 342"}
+{
+  "id": "ubiquiti-usw-pro-xg-24",
+  "brand": "Ubiquiti",
+  "sku": "USW-Pro-XG-24",
+  "title": "Ubiquiti UniFi Switch USW-Pro-XG-24",
+  "category": "Ubiquiti / LAN networks / Switches / UniFi Switches",
+  "description": "The UniFi Switch USW-Pro-XG-24 is a managed L3 switch with a switching capacity of 460 Gbps , featuring (8) 2.5-Gigabit LAN and (16) 10-Gigabit LAN ports, as well as (2) SFP28 (25G/10G/1G) ports. The Ethernet ports support the Etherlighting feature, allowing you to light up ports in different colors to indicate port location, speed/connection, and VLAN. The switch is powered via a standard 230V AC supply and includes a USP RPS DC port as a backup power source in case of primary power failure.… (8) 2.5G ports (16) 10G ports (2) 25/10/1G SFP28 ports Etherlighting â visual port status indicators Rack-mountable Managed via UniFi Network Server The USW-Pro-XG-24 does not include a web interface but is centrally managed through the UniFi Network Server with support for the UniFi mobile app. It offers a comprehensive set of advanced L2 and L3 switching features, including per-port operation modes (switching, mirroring, or aggregation). The UniFi Network Server and mobile app allow administrators to configure and monitor nearly all switch functions through a graphical user interface from anywhere Device Power cord Rackmount brackets",
+  "availability": "In Stock 5 pcs.",
+  "unitPerCarton": 1,
+  "warranty": "24 months",
+  "displayPriceUsd": 1301,
+  "fullCartonUnitPriceUsd": 1301,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-usw-pro-xg-24-18a8f6bc37.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces LAN speed (8) 2.5G/1G/100M/10M + (16) 10G/5G/2.5G/1G/100M/10M Optical interfaces (2) 1/10/25Gbps Other features Touchscreen Power Power type Mains power (230V), UniFi SmartPower RPS Redundant power supply Yes Max. power consumption [W] 150 Power via connector/terminal 52V DC, 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 40 Width [mm] 442 Height [mm] 44 Depth [mm] 480 General Switchning capacity [Gbps] 460 MAC address table 128000 Packet forwarding rate [Mpps] 342",
+  "stockQtyVisible": 5,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-switch-usw-pro-xg-24_d129878.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-switches-unifi-switches_c16172908.html?page=2",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Switches",
+    "UniFi Switches"
+  ]
+}

@@ -1,1 +1,25 @@
-{"id":"huawei-ftk01","brand":"Huawei","sku":"FTK01","title":"Huawei FTTR Termination Kit FTK01, Single-mode","category":"Optical networks / Accessories","description":"The FTK01 kit includes FTTR fiber termination tools (optical cable stripper, coating stripper, and fiber cutter) and is designed to be used with a field-mountable connector (FMC2105) . This kit does not require special crimping tools or live devices, allowing for simple and efficient fiber termination on-site. FTK01 is an ideal solution for FTTx home connections , FTTR indoor optical networks , and ONU installations User-Friendly No need for special crimping tools or live devices such as optical fiber fusion splicers Skilled technicians achieve a success rate of at least 95% on the first assembly, with installation taking less than three minutes Includes a complete toolset, easy to carry, and requires an FMC2105 connector for precise assembly Unique Design Provides a complete toolset for precise fiber stripping and reliable assembly of the FMC2105 connector Supports optical cables of 1.2 mm x 1.6 mm , 1.6 mm x 2 mm , and 2 mm x 3 mm The FMC2105 connector is compatible with standard SC adapters Reliable Performance Reusable: The FMC2105 connector can be reassembled at least five times Long-Term Reliability: The connector has passed a 500-hour accelerated aging test at 75°C and 95% relative humidity Extreme Environment Adaptability: The connector has passed a temperature cycle test (-40°C to +80°C), water immersion test, and salt spray test Eco-Friendly & Safe: The FMC2105 connector and FTK01 kit comply with RoHS and REACH certification standards FTK01 is the ideal solution for fast, reliable, and high-quality fiber optic installations across various network applications","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":78,"fullCartonUnitPriceUsd":78,"imageUrl":"assets/catalog-data/public-images/huawei-ftk01-929ed7f57c.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false}
+{
+  "id": "huawei-ftk01",
+  "brand": "Huawei",
+  "sku": "FTK01",
+  "title": "Huawei FTTR Termination Kit FTK01, Single-mode",
+  "category": "Huawei / Optical networks / Accessories",
+  "description": "The FTK01 kit includes FTTR fiber termination tools (optical cable stripper, coating stripper, and fiber cutter) and is designed to be used with a field-mountable connector (FMC2105) . This kit does not require special crimping tools or live devices, allowing for simple and efficient fiber termination on-site. FTK01 is an ideal solution for FTTx home connections , FTTR indoor optical networks , and ONU installations User-Friendly No need for special crimping tools or live devices such as optical fiber fusion splicers Skilled technicians achieve a success rate of at least 95% on the first assembly, with installation taking less than three minutes Includes a complete toolset, easy to carry, and requires an FMC2105 connector for precise assembly Unique Design Provides a complete toolset for precise fiber stripping and reliable assembly of the FMC2105 connector Supports optical cables of 1.2 mm x 1.6 mm , 1.6 mm x 2 mm , and 2 mm x 3 mm The FMC2105 connector is compatible with standard SC adapters Reliable Performance Reusable: The FMC2105 connector can be reassembled at least five times Long-Term Reliability: The connector has passed a 500-hour accelerated aging test at 75°C and 95% relative humidity Extreme Environment Adaptability: The connector has passed a temperature cycle test (-40°C to +80°C), water immersion test, and salt spray test Eco-Friendly & Safe: The FMC2105 connector and FTK01 kit comply with RoHS and REACH certification standards FTK01 is the ideal solution for fast, reliable, and high-quality fiber optic installations across various network applications",
+  "availability": "In Stock 6 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 78,
+  "fullCartonUnitPriceUsd": 78,
+  "imageUrl": "assets/catalog-data/public-images/huawei-ftk01-929ed7f57c.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "stockQtyVisible": 6,
+  "discompProductUrl": "https://www.discomp.cz/huawei-fttr-termination-kit-ftk01-single-mode_d128991.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-optical-networks-accessories_c16592273.html",
+  "discompSourcePath": [
+    "Huawei",
+    "Optical networks",
+    "Accessories"
+  ]
+}

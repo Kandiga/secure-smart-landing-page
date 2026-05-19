@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uvc-g5-bullet","brand":"Ubiquiti","sku":"UVC-G5-Bullet","title":"Ubiquiti UVC-G5-Bullet - UniFi Video Camera G5 Bullet","category":"Cameras, security / IP cameras / Bullet","description":"The UniFi G5 Bullet camera has a 5MP CMOS sensor with a resolution of 2688 x 1512 at 30fps, a lens with a focal length of about 4mm , observation angle of 84.4° , IR illuminator for night vision up to 10m, audio microphone, 10/100 Mbps LAN port with PoE support and IPX4 protection for use in an outdoor environment. Thanks to the great holder, you are able to direct the image in all 3 axes The camera can only be powered via a PoE adapter or switch supporting the 802.3af standard and passive PoE (36 .. 57V DC). The maximum consumption of the camera is only 4W ! Using the Unifi Protect mobile application from version 2.2.7 / 2.7.18 (web) / 1.10.0 (mobile) you have the possibility to monitor the live image on all cameras connected to the NVR. The application is available for iOS and Android platforms Device Holder + screws","availability":"To order / expected","unitPerCarton":12,"warranty":"24 months","displayPriceUsd":149,"fullCartonUnitPriceUsd":143.79,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uvc-g5-bullet-2af035491c.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Camera Lens type Fixed Lens [mm] 4 (fixed) Illumination IR Illumination range [m] 10 Viewing Angle [°] 84 Day/night mode IR cut filter Image Resolution 5MP Max. resolution [pixels] 2688 x 1512 Connectors and Interfaces Audio Microphone LAN speed (1) 10/100Mbps Power Power over Ethernet 35 .. 57V DC Power type PoE Max. power consumption [W] 4 Physical characteristics Protection class IPX4 Purpose Outdoor Antivandal (Impact protection) IK4 Buttons Reset Operating temperature [°C] 20 up to 40 Weight [g] 315 Width [mm] 76 Height [mm] 76 Depth [mm] 150 Color White Compression standard Video compression H.264 General Camera class UniFi Protect"}
+{
+  "id": "ubiquiti-uvc-g5-bullet",
+  "brand": "Ubiquiti",
+  "sku": "UVC-G5-Bullet",
+  "title": "Ubiquiti UVC-G5-Bullet - UniFi Video Camera G5 Bullet",
+  "category": "Ubiquiti / Cameras, security / IP cameras / Bullet",
+  "description": "The UniFi G5 Bullet camera has a 5MP CMOS sensor with a resolution of 2688 x 1512 at 30fps, a lens with a focal length of about 4mm , observation angle of 84.4° , IR illuminator for night vision up to 10m, audio microphone, 10/100 Mbps LAN port with PoE support and IPX4 protection for use in an outdoor environment. Thanks to the great holder, you are able to direct the image in all 3 axes The camera can only be powered via a PoE adapter or switch supporting the 802.3af standard and passive PoE (36 .. 57V DC). The maximum consumption of the camera is only 4W ! Using the Unifi Protect mobile application from version 2.2.7 / 2.7.18 (web) / 1.10.0 (mobile) you have the possibility to monitor the live image on all cameras connected to the NVR. The application is available for iOS and Android platforms Device Holder + screws",
+  "availability": "In Stock > 99 pcs.",
+  "unitPerCarton": 12,
+  "warranty": "24 months",
+  "displayPriceUsd": 149,
+  "fullCartonUnitPriceUsd": 143.79,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uvc-g5-bullet-2af035491c.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Camera Lens type Fixed Lens [mm] 4 (fixed) Illumination IR Illumination range [m] 10 Viewing Angle [°] 84 Day/night mode IR cut filter Image Resolution 5MP Max. resolution [pixels] 2688 x 1512 Connectors and Interfaces Audio Microphone LAN speed (1) 10/100Mbps Power Power over Ethernet 35 .. 57V DC Power type PoE Max. power consumption [W] 4 Physical characteristics Protection class IPX4 Purpose Outdoor Antivandal (Impact protection) IK4 Buttons Reset Operating temperature [°C] 20 up to 40 Weight [g] 315 Width [mm] 76 Height [mm] 76 Depth [mm] 150 Color White Compression standard Video compression H.264 General Camera class UniFi Protect",
+  "stockQtyVisible": 110,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uvc-g5-bullet-unifi-video-camera-g5-bullet_d120316.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cameras-security-ip-cameras-bullet_c16591486.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cameras, security",
+    "IP cameras",
+    "Bullet"
+  ]
+}

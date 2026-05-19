@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-keystone-blank-insert-th","brand":"Ubiquiti","sku":"UACC-Keystone-Blank-Insert-TH","title":"Ubiquiti UACC-Keystone-Blank-Insert-TH pass-through insert for patch panel (12pcs)","category":"Cabinets / Accessories / Blanking panels","description":"Snap-in inserts designed for cable pass-through in an empty patch panel slot Easy snap-in installation Uniform aesthetic with the 24-port blank keystone patch panel Ubiquiti Pass-through hole for cable routing and flexible management (12) Cable pass-through inserts","availability":"In stock","unitPerCarton":72,"warranty":"24 months","displayPriceUsd":23,"fullCartonUnitPriceUsd":22.2,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-keystone-blank-insert-th-b253a81e3d.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-keystone-blank-insert-th",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Keystone-Blank-Insert-TH",
+  "title": "Ubiquiti UACC-Keystone-Blank-Insert-TH pass-through insert for patch panel (12pcs)",
+  "category": "Ubiquiti / Cabinets / Accessories / Blanking panels",
+  "description": "Snap-in inserts designed for cable pass-through in an empty patch panel slot Easy snap-in installation Uniform aesthetic with the 24-port blank keystone patch panel Ubiquiti Pass-through hole for cable routing and flexible management (12) Cable pass-through inserts",
+  "availability": "In Stock 71 pcs.",
+  "unitPerCarton": 72,
+  "warranty": "24 months",
+  "displayPriceUsd": 23,
+  "fullCartonUnitPriceUsd": 22.2,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-keystone-blank-insert-th-b253a81e3d.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 71,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-keystone-blank-insert-th-pass-through-insert-for-patch-panel-12pcs-_d128920.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cabinets-accessories-blanking-panels_c16589526.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cabinets",
+    "Accessories",
+    "Blanking panels"
+  ]
+}

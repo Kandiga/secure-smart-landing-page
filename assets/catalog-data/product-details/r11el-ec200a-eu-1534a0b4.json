@@ -1,1 +1,27 @@
-{"id":"mikrotik-r11el-ec200a-eu","brand":"MikroTik","sku":"R11eL-EC200A-EU","title":"MikroTik R11eL-EC200A-EU, LTE miniPCI-e modem, 2x u.Fl","category":"Wireless / MikroTik / MiniPCI cards","description":"An extra cost-effective upgrade of our previous R11 LTE4 modem. It offers the same speed (up to 150 Mbps) and features as the earlier version","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":61,"fullCartonUnitPriceUsd":58.87,"imageUrl":"assets/catalog-data/public-images/mikrotik-r11el-ec200a-eu-f766b14bfc.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Wireless features Wireless frequency LTE, 2G (GSM), 3G (GSM) 4G/LTE bands support (1) 2100 MHz, (3) 1800 MHz, (7) 2600 MHz, (8) 900 MHz, (20) 800 MHz, (5) 850 MHz, (28) 700 MHz Connectors and Interfaces Bus type miniPCI RF connectors (2) u.Fl Power Max. power consumption [W] 3"}
+{
+  "id": "mikrotik-r11el-ec200a-eu",
+  "brand": "MikroTik",
+  "sku": "R11eL-EC200A-EU",
+  "title": "MikroTik R11eL-EC200A-EU, LTE miniPCI-e modem, 2x u.Fl",
+  "category": "MikroTik / Wireless / 3G/LTE/5G / MiniPCI cards",
+  "description": "An extra cost-effective upgrade of our previous R11 LTE4 modem. It offers the same speed (up to 150 Mbps) and features as the earlier version",
+  "availability": "In Stock 47 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 61,
+  "fullCartonUnitPriceUsd": 58.87,
+  "imageUrl": "assets/catalog-data/public-images/mikrotik-r11el-ec200a-eu-f766b14bfc.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Wireless features Wireless frequency LTE, 2G (GSM), 3G (GSM) 4G/LTE bands support (1) 2100 MHz, (3) 1800 MHz, (7) 2600 MHz, (8) 900 MHz, (20) 800 MHz, (5) 850 MHz, (28) 700 MHz Connectors and Interfaces Bus type miniPCI RF connectors (2) u.Fl Power Max. power consumption [W] 3",
+  "stockQtyVisible": 47,
+  "discompProductUrl": "https://www.discomp.cz/mikrotik-r11el-ec200a-eu-lte-minipci-e-modem-2x-u-fl_d124676.html",
+  "discompCategoryUrl": "https://www.discomp.cz/mikrotik-wireless-3g-lte-5g-minipci-cards_c16591577.html",
+  "discompSourcePath": [
+    "MikroTik",
+    "Wireless",
+    "3G/LTE/5G",
+    "MiniPCI cards"
+  ]
+}

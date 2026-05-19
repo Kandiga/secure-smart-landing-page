@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-cable-extender-c6a","brand":"Ubiquiti","sku":"UACC-Cable-Extender-C6A","title":"Ubiquiti Easy Cable, 2-Pack","category":"LAN networks / Couplers / Classical","description":"Shielded, ultra-thin extension cable with a waterproof cap, designed for tight spaces and end-device connections. With CAT6A classification, it supports data transfer speeds up to 10 Gb/s and PoE+++ power delivery (up to 100W). The cable is 0.15 m long (0.185 m including the waterproof gland), and the gland meets the IPX6 waterproof rating. The cable is sold as a set of 2 pieces","availability":"In stock","unitPerCarton":40,"warranty":"24 months","displayPriceUsd":21,"fullCartonUnitPriceUsd":20.27,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-cable-extender-c6a-c2ce773798.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Outdoor use Yes Shielding Yes Type of coupler Classical (RJ45-RJ45) Color White"}
+{
+  "id": "ubiquiti-uacc-cable-extender-c6a",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Cable-Extender-C6A",
+  "title": "Ubiquiti Easy Cable, 2-Pack",
+  "category": "Ubiquiti / LAN networks / Couplers / Classical",
+  "description": "Shielded, ultra-thin extension cable with a waterproof cap, designed for tight spaces and end-device connections. With CAT6A classification, it supports data transfer speeds up to 10 Gb/s and PoE+++ power delivery (up to 100W). The cable is 0.15 m long (0.185 m including the waterproof gland), and the gland meets the IPX6 waterproof rating. The cable is sold as a set of 2 pieces",
+  "availability": "In Stock 24 pcs.",
+  "unitPerCarton": 40,
+  "warranty": "24 months",
+  "displayPriceUsd": 21,
+  "fullCartonUnitPriceUsd": 20.27,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-cable-extender-c6a-c2ce773798.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Outdoor use Yes Shielding Yes Type of coupler Classical (RJ45-RJ45) Color White",
+  "stockQtyVisible": 24,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-easy-cable-2-pack_d129398.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-couplers-classical_c16592153.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Couplers",
+    "Classical"
+  ]
+}

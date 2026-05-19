@@ -1,1 +1,26 @@
-{"id":"teltonika-rutx12200000","brand":"Teltonika","sku":"RUTX12200000","title":"Teltonika RUTX12DUAL LTE CAT 6 Industrial Cellular Router","category":"Wireless / 3G/LTE/5G / Routers","description":"This powerful dual LTE Cat 6 router is a great fit for mission-critical applications. Two cellular modems for dual simultaneous connections, seamless mobile service switching and load balancing features make this device irreplaceable in applications where losing connection is not an option DUAL LTE: Cellular speeds up to 600 Mbps with dual simultaneous LTE CAT 6 connections DUAL SIM: Instant failover switching WI-FI & BT: Wave-2 802.11ac Dual Band Wi-Fi and Bluetooth LE LOAD BALANCING: Allows to use multiple WAN sources to increase throughput Device 24 W PSU (4) Mobile antennas (swivel, SMA male) (2) Wi-Fi antennas (magnetic mount, RP-SMA male, 1.5 m cable) GNSS antenna (adhesive, SMA male, 3 m cable) Bluetooth antenna (magnetic mount, RP-SMA male, 1.5 m cable) Ethernet cable (1.5 m) SIM Adapter kit QSG (Quick Start Guide)","availability":"In stock","unitPerCarton":null,"warranty":"24 months","displayPriceUsd":571,"fullCartonUnitPriceUsd":571,"imageUrl":"assets/catalog-data/public-images/teltonika-rutx12200000-6a43a87910.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Wireless features Wireless frequency Bluetooth, 2.4 + 5 GHz (dual band), LTE WiFi standards 802.11ac - wave2, 802.11n, 802.11a, 802.11b/g Transmission speed - 5GHz [Mb/s] 866 Transmission speed - 2.4GHz [Mb/s] 300 Security WPA, WPA2, WPA3 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Type of antenna Detachable Detachable antennas 8 Integrated 4G/LTE radio part Yes 4G/LTE bands support (1) 2100 MHz, (3) 1800 MHz, (7) 2600 MHz, (8) 900 MHz, (20) 800 MHz, (38) 2600 MHz, (40) 2300 MHz,… Connectors and Interfaces WAN Ports 1 WAN speed (1) 10/100/1000Mbps RF connectors (3) RSMA female, (5) SMA female LAN speed (4) 10/100/1000Mbps SIM slot Yes SIM slots quantity 2 USB Yes GPS modul Yes Power Power over Ethernet 9 .. 50V DC Power type 4-pin automotive Max. power consumption [W] 22 Power via connector/terminal 9 .. 50V DC Physical characteristics Design Desktop Buttons Reset Operating temperature [°C] 40 up to 75 Weight [g] 540 Width [mm] 132 Height [mm] 44 Depth [mm] 95 Hardware CPU ARM Cortex A7 CPU frequency [MHz] 717 Internal storage [MB] 256 RAM [MB] 256"}
+{
+  "id": "teltonika-rutx12200000",
+  "brand": "Teltonika",
+  "sku": "RUTX12200000",
+  "title": "Teltonika RUTX12DUAL LTE CAT 6 Industrial Cellular Router",
+  "category": "Teltonika / IoT, SMART / Routers",
+  "description": "This powerful dual LTE Cat 6 router is a great fit for mission-critical applications. Two cellular modems for dual simultaneous connections, seamless mobile service switching and load balancing features make this device irreplaceable in applications where losing connection is not an option DUAL LTE: Cellular speeds up to 600 Mbps with dual simultaneous LTE CAT 6 connections DUAL SIM: Instant failover switching WI-FI & BT: Wave-2 802.11ac Dual Band Wi-Fi and Bluetooth LE LOAD BALANCING: Allows to use multiple WAN sources to increase throughput Device 24 W PSU (4) Mobile antennas (swivel, SMA male) (2) Wi-Fi antennas (magnetic mount, RP-SMA male, 1.5 m cable) GNSS antenna (adhesive, SMA male, 3 m cable) Bluetooth antenna (magnetic mount, RP-SMA male, 1.5 m cable) Ethernet cable (1.5 m) SIM Adapter kit QSG (Quick Start Guide)",
+  "availability": "In Stock 14 pcs.",
+  "unitPerCarton": null,
+  "warranty": "24 months",
+  "displayPriceUsd": 571,
+  "fullCartonUnitPriceUsd": 571,
+  "imageUrl": "assets/catalog-data/public-images/teltonika-rutx12200000-6a43a87910.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Wireless features Wireless frequency Bluetooth, 2.4 + 5 GHz (dual band), LTE WiFi standards 802.11ac - wave2, 802.11n, 802.11a, 802.11b/g Transmission speed - 5GHz [Mb/s] 866 Transmission speed - 2.4GHz [Mb/s] 300 Security WPA, WPA2, WPA3 2.4GHz MIMO 2 x 2 5GHz MIMO 2 x 2 Type of antenna Detachable Detachable antennas 8 Integrated 4G/LTE radio part Yes 4G/LTE bands support (1) 2100 MHz, (3) 1800 MHz, (7) 2600 MHz, (8) 900 MHz, (20) 800 MHz, (38) 2600 MHz, (40) 2300 MHz,… Connectors and Interfaces WAN Ports 1 WAN speed (1) 10/100/1000Mbps RF connectors (3) RSMA female, (5) SMA female LAN speed (4) 10/100/1000Mbps SIM slot Yes SIM slots quantity 2 USB Yes GPS modul Yes Power Power over Ethernet 9 .. 50V DC Power type 4-pin automotive Max. power consumption [W] 22 Power via connector/terminal 9 .. 50V DC Physical characteristics Design Desktop Buttons Reset Operating temperature [°C] 40 up to 75 Weight [g] 540 Width [mm] 132 Height [mm] 44 Depth [mm] 95 Hardware CPU ARM Cortex A7 CPU frequency [MHz] 717 Internal storage [MB] 256 RAM [MB] 256",
+  "stockQtyVisible": 14,
+  "discompProductUrl": "https://www.discomp.cz/teltonika-rutx12dual-lte-cat-6-industrial-cellular-router_d130706.html",
+  "discompCategoryUrl": "https://www.discomp.cz/iot-smart-teltonika-routers_c15616396.html?page=3",
+  "discompSourcePath": [
+    "Teltonika",
+    "IoT, SMART",
+    "Routers"
+  ]
+}

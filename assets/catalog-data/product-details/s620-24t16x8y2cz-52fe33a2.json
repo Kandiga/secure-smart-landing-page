@@ -1,1 +1,27 @@
-{"id":"huawei-s620-24t16x8y2cz","brand":"Huawei","sku":"S620-24T16X8Y2CZ","title":"Huawei S620-24T16X8Y2CZ Gigabit switch, 16x SFP+, 8x SFP28, 2x QSFP28","category":"LAN networks / Switches / eKit Switches","description":"Huawei S620-24T16X8Y2CZ is a highly equipped L3 switch with stacking capability , offering an interesting combination of ports - 24x 10/100/1000M Ethernet port, 16x 100/1000M/2.5/5/10G SFP+ port, 8x 1/2.5/5/10/25G SFP28 port, 2x 40/100G QSFP28 port . Additionally, it features a console control port, an Ethernet port for management, and a USB port for firmware updates or configuration backup transfers The back of the switch has a slot for an expansion card , which can add 8x SFP+ or 4x SFP28 ports (software configurable). Cooling is provided by a pair of hot swap fans . A power supply needs to be purchased separately, and it also supports dual power supplies for redundancy and hot swap replacement. Four power supplies are available, each with different input voltages and power ratings, with or without a fan. When using two power supplies, it is not possible to combine models with and without… The switch includes 600W AC power supply (part.no PAC600S12-PB) Device 230V AC Power Cable Ground Cable Rack mounts (14) Screws (4) Self-Adhesive Rubber Pads 600W power supply PAC600S12-PB","availability":"To order / expected","unitPerCarton":null,"warranty":"36 months","displayPriceUsd":1234,"fullCartonUnitPriceUsd":1234,"imageUrl":"assets/catalog-data/public-images/huawei-s620-24t16x8y2cz-93238270c2.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":false,"specsSearch":"Connectors and Interfaces LAN speed (24) 10/100/1000Mbps Management LAN (1) 10/100Mbps Optical interfaces (16) 10Gbps + (8) 25Gbps + (2) 100Gbps Serial port RJ45 USB ports 2.0 1 Power Redundant power supply Yes Max. power consumption [W] 127 Power via connector/terminal 48 .. -60V DC, 48V DC, 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 45 Width [mm] 442 Height [mm] 44 Depth [mm] 420 General Switchning capacity [Gbps] 1168 MAC address table 64000 Packet forwarding rate [Mpps] 867"}
+{
+  "id": "huawei-s620-24t16x8y2cz",
+  "brand": "Huawei",
+  "sku": "S620-24T16X8Y2CZ",
+  "title": "Huawei S620-24T16X8Y2CZ Gigabit switch, 16x SFP+, 8x SFP28, 2x QSFP28",
+  "category": "Huawei / LAN networks / Switches / eKit Switches",
+  "description": "Huawei S620-24T16X8Y2CZ is a highly equipped L3 switch with stacking capability , offering an interesting combination of ports - 24x 10/100/1000M Ethernet port, 16x 100/1000M/2.5/5/10G SFP+ port, 8x 1/2.5/5/10/25G SFP28 port, 2x 40/100G QSFP28 port . Additionally, it features a console control port, an Ethernet port for management, and a USB port for firmware updates or configuration backup transfers The back of the switch has a slot for an expansion card , which can add 8x SFP+ or 4x SFP28 ports (software configurable). Cooling is provided by a pair of hot swap fans . A power supply needs to be purchased separately, and it also supports dual power supplies for redundancy and hot swap replacement. Four power supplies are available, each with different input voltages and power ratings, with or without a fan. When using two power supplies, it is not possible to combine models with and without… The switch includes 600W AC power supply (part.no PAC600S12-PB) Device 230V AC Power Cable Ground Cable Rack mounts (14) Screws (4) Self-Adhesive Rubber Pads 600W power supply PAC600S12-PB",
+  "availability": "Expected 31.5.2026",
+  "unitPerCarton": null,
+  "warranty": "36 months",
+  "displayPriceUsd": 1234,
+  "fullCartonUnitPriceUsd": 1234,
+  "imageUrl": "assets/catalog-data/public-images/huawei-s620-24t16x8y2cz-93238270c2.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": false,
+  "specsSearch": "Connectors and Interfaces LAN speed (24) 10/100/1000Mbps Management LAN (1) 10/100Mbps Optical interfaces (16) 10Gbps + (8) 25Gbps + (2) 100Gbps Serial port RJ45 USB ports 2.0 1 Power Redundant power supply Yes Max. power consumption [W] 127 Power via connector/terminal 48 .. -60V DC, 48V DC, 230V AC Physical characteristics Design Rackmount Fans Yes Chassis design Metal Buttons Reset Operating temperature [°C] 5 up to 45 Width [mm] 442 Height [mm] 44 Depth [mm] 420 General Switchning capacity [Gbps] 1168 MAC address table 64000 Packet forwarding rate [Mpps] 867",
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/huawei-s620-24t16x8y2cz-gigabit-switch-16x-sfp-8x-sfp28-2x-qsfp28_d127754.html",
+  "discompCategoryUrl": "https://www.discomp.cz/huawei-lan-networks-switches-ekit-switches_c16591802.html",
+  "discompSourcePath": [
+    "Huawei",
+    "LAN networks",
+    "Switches",
+    "eKit Switches"
+  ]
+}

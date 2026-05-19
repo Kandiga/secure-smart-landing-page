@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-dac-sfp28-3m","brand":"Ubiquiti","sku":"UACC-DAC-SFP28-3M","title":"Ubiquiti UACC-DAC-SFP28-3M, DAC cable, 25 Gbps, 3m","category":"Optical networks / DAC and AOC cables / DAC cables","description":"Passive DAC cable is used for direct connection of two SFP28 ports with line speed 25 Gbps . This cable is 3 m but is also available in other variants. The cable is ideal for creating short connections between switches or routers that provide 25 Gbps throughout your network","availability":"In stock","unitPerCarton":50,"warranty":"24 months","displayPriceUsd":43,"fullCartonUnitPriceUsd":41.5,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-dac-sfp28-3m-b547b17a70.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Optics Format SFP, SFP+, SFP28 Transmission speed 1 Gbps, 10 Gbps, 25 Gbps AOC/DAC cable type Passive"}
+{
+  "id": "ubiquiti-uacc-dac-sfp28-3m",
+  "brand": "Ubiquiti",
+  "sku": "UACC-DAC-SFP28-3M",
+  "title": "Ubiquiti UACC-DAC-SFP28-3M, DAC cable, 25 Gbps, 3m",
+  "category": "Ubiquiti / Optical networks / DAC and AOC cables / DAC cables",
+  "description": "Passive DAC cable is used for direct connection of two SFP28 ports with line speed 25 Gbps . This cable is 3 m but is also available in other variants. The cable is ideal for creating short connections between switches or routers that provide 25 Gbps throughout your network",
+  "availability": "In Stock 26 pcs.",
+  "unitPerCarton": 50,
+  "warranty": "24 months",
+  "displayPriceUsd": 43,
+  "fullCartonUnitPriceUsd": 41.5,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-dac-sfp28-3m-b547b17a70.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Optics Format SFP, SFP+, SFP28 Transmission speed 1 Gbps, 10 Gbps, 25 Gbps AOC/DAC cable type Passive",
+  "stockQtyVisible": 26,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-dac-sfp28-3m-dac-cable-25-gbps-3m_d114479.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-optical-networks-dac-and-aoc-cables-dac-cables_c16591526.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Optical networks",
+    "DAC and AOC cables",
+    "DAC cables"
+  ]
+}

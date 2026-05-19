@@ -1,1 +1,26 @@
-{"id":"ubiquiti-extd-cover-wood-3","brand":"Ubiquiti","sku":"EXTD-cover-Wood-3","title":"Ubiquiti case for UAP-beaconHD and U6-Extender, Wood design, 3-pack","category":"Wireless / Accessories / Other accessories","description":"Set of 3 rectangular covers with wooden theme is designed to change from the traditional white look and is compatible with UAP-beaconHD devices and U6-Extender . For demanding customers there is a total of 3 optional covers to choose from (3) design cover","availability":"In stock","unitPerCarton":20,"warranty":"24 months","displayPriceUsd":51,"fullCartonUnitPriceUsd":49.22,"imageUrl":"assets/catalog-data/public-images/ubiquiti-extd-cover-wood-3-1171277b8d.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-extd-cover-wood-3",
+  "brand": "Ubiquiti",
+  "sku": "EXTD-cover-Wood-3",
+  "title": "Ubiquiti case for UAP-beaconHD and U6-Extender, Wood design, 3-pack",
+  "category": "Ubiquiti / Wireless / Accessories / Other accessories",
+  "description": "Set of 3 rectangular covers with wooden theme is designed to change from the traditional white look and is compatible with UAP-beaconHD devices and U6-Extender . For demanding customers there is a total of 3 optional covers to choose from (3) design cover",
+  "availability": "In Stock 18 pcs.",
+  "unitPerCarton": 20,
+  "warranty": "24 months",
+  "displayPriceUsd": 51,
+  "fullCartonUnitPriceUsd": 49.22,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-extd-cover-wood-3-1171277b8d.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 18,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-case-for-uap-beaconhd-and-u6-extender-wood-design-3-pack_d119789.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-accessories-other-accessories_c15888323.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "Accessories",
+    "Other accessories"
+  ]
+}

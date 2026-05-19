@@ -1,1 +1,26 @@
-{"id":"ubiquiti-uacc-rack-stacking-kit","brand":"Ubiquiti","sku":"UACC-Rack-Stacking-Kit","title":"Ubiquiti UACC-Rack-Stacking-Kit for U-Rack-6U-TL","category":"Cabinets / Accessories / Other accessories","description":"Easily installable accessory kit that connects two 6U mini racks to create a 12U rack . Tool-less assembly. Designed for: Ubiquiti U-Rack-6U-TL (Toolless Mini Rack) Dimensions of two mini racks: 838x526x460 mm (22 kg)","availability":"To order / expected","unitPerCarton":3,"warranty":"24 months","displayPriceUsd":71,"fullCartonUnitPriceUsd":68.52,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-rack-stacking-kit-cd8fb7faaf.webp","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-uacc-rack-stacking-kit",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Rack-Stacking-Kit",
+  "title": "Ubiquiti UACC-Rack-Stacking-Kit for U-Rack-6U-TL",
+  "category": "Ubiquiti / Cabinets / Accessories / Other accessories",
+  "description": "Easily installable accessory kit that connects two 6U mini racks to create a 12U rack . Tool-less assembly. Designed for: Ubiquiti U-Rack-6U-TL (Toolless Mini Rack) Dimensions of two mini racks: 838x526x460 mm (22 kg)",
+  "availability": "Expected 30.6.2026",
+  "unitPerCarton": 3,
+  "warranty": "24 months",
+  "displayPriceUsd": 71,
+  "fullCartonUnitPriceUsd": 68.52,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-rack-stacking-kit-cd8fb7faaf.webp",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-rack-stacking-kit-for-u-rack-6u-tl_d128405.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-cabinets-accessories-other-accessories_c16591895.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Cabinets",
+    "Accessories",
+    "Other accessories"
+  ]
+}

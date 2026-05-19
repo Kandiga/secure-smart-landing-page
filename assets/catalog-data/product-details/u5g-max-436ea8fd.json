@@ -1,1 +1,26 @@
-{"id":"ubiquiti-u5g-max","brand":"Ubiquiti","sku":"U5G-Max","title":"Ubiquiti UniFi 5G Max","category":"Wireless / 3G/LTE/5G / Routers","description":"Product description prepares GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours","availability":"To order / expected","unitPerCarton":6,"warranty":"24 months","displayPriceUsd":454,"fullCartonUnitPriceUsd":438.11,"imageUrl":"assets/catalog-data/public-images/ubiquiti-u5g-max-c8724bfa76.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true}
+{
+  "id": "ubiquiti-u5g-max",
+  "brand": "Ubiquiti",
+  "sku": "U5G-Max",
+  "title": "Ubiquiti UniFi 5G Max",
+  "category": "Ubiquiti / Wireless / 3G/LTE/5G / Routers",
+  "description": "Product description prepares GPSR Technical support for this product is available on [email protected] email or sending a request via web form . Our technical support is available during this business hours",
+  "availability": "Expected 20.8.2026",
+  "unitPerCarton": 6,
+  "warranty": "24 months",
+  "displayPriceUsd": 454,
+  "fullCartonUnitPriceUsd": 438.11,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-u5g-max-c8724bfa76.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "stockQtyVisible": 0,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-unifi-5g-max_d131107.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-wireless-3g-lte-5g-routers_c16591579.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "Wireless",
+    "3G/LTE/5G",
+    "Routers"
+  ]
+}

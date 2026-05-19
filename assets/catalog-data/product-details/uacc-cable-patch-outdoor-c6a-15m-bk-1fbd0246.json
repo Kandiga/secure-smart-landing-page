@@ -1,1 +1,27 @@
-{"id":"ubiquiti-uacc-cable-patch-outdoor-c6a-15m-bk","brand":"Ubiquiti","sku":"UACC-Cable-Patch-Outdoor-C6A-15M-BK","title":"Ubiquiti UACC-Cable-Patch-Outdoor-C6A-15M-BK, Outdoor Cat6a patch cable, 15m, black","category":"LAN networks / Patch cables / Cat.6a (Color)","description":"UniFi Premium Patch Cable Outdoor , The ultra-thin shielded outdoor patch cable Cat.6a with a length of 15m is designed to deliver optimal performance even in the most demanding conditions, specifically for 10GbE networks. It is an ideal solution for outdoor high-speed network installations Support for PoE+++ power (100W) Shielded RJ45 connectors Insulated, durable jacket for long life and protection against outdoor elements Enhanced ESD protection with internal foil shielding and a drain wire Outer diameter: 3.5mm (lengths 1-8m), 3.9mm (lengths 12-15m) Bend radius: 28mm (lengths 1-8m), 31mm (lengths 12-15m)","availability":"In stock","unitPerCarton":15,"warranty":"24 months","displayPriceUsd":39,"fullCartonUnitPriceUsd":37.64,"imageUrl":"assets/catalog-data/public-images/ubiquiti-uacc-cable-patch-outdoor-c6a-15m-bk-09ec9bf31e.jpg","documents":[],"enrichmentStatus":"ok","cartonAvailable":true,"specsSearch":"Physical characteristics Shielding type FTP (F/UTP) Conductor wire gauge AWG32 Cable type Stranded Design Extra slim Purpose Outdoor Conductor material Copper Sheath material Thermoplastic Elastomer Length [m] 15 Operating temperature [°C] 20 up to 60 Color Black"}
+{
+  "id": "ubiquiti-uacc-cable-patch-outdoor-c6a-15m-bk",
+  "brand": "Ubiquiti",
+  "sku": "UACC-Cable-Patch-Outdoor-C6A-15M-BK",
+  "title": "Ubiquiti UACC-Cable-Patch-Outdoor-C6A-15M-BK, Outdoor Cat6a patch cable, 15m, black",
+  "category": "Ubiquiti / LAN networks / Patch cables / Cat.6a (Color)",
+  "description": "UniFi Premium Patch Cable Outdoor , The ultra-thin shielded outdoor patch cable Cat.6a with a length of 15m is designed to deliver optimal performance even in the most demanding conditions, specifically for 10GbE networks. It is an ideal solution for outdoor high-speed network installations Support for PoE+++ power (100W) Shielded RJ45 connectors Insulated, durable jacket for long life and protection against outdoor elements Enhanced ESD protection with internal foil shielding and a drain wire Outer diameter: 3.5mm (lengths 1-8m), 3.9mm (lengths 12-15m) Bend radius: 28mm (lengths 1-8m), 31mm (lengths 12-15m)",
+  "availability": "In Stock 2 pcs.",
+  "unitPerCarton": 15,
+  "warranty": "24 months",
+  "displayPriceUsd": 39,
+  "fullCartonUnitPriceUsd": 37.64,
+  "imageUrl": "assets/catalog-data/public-images/ubiquiti-uacc-cable-patch-outdoor-c6a-15m-bk-09ec9bf31e.jpg",
+  "documents": [],
+  "enrichmentStatus": "ok",
+  "cartonAvailable": true,
+  "specsSearch": "Physical characteristics Shielding type FTP (F/UTP) Conductor wire gauge AWG32 Cable type Stranded Design Extra slim Purpose Outdoor Conductor material Copper Sheath material Thermoplastic Elastomer Length [m] 15 Operating temperature [°C] 20 up to 60 Color Black",
+  "stockQtyVisible": 2,
+  "discompProductUrl": "https://www.discomp.cz/ubiquiti-uacc-cable-patch-outdoor-c6a-15m-bk-outdoor-cat6a-patch-cable-15m-black_d131617.html",
+  "discompCategoryUrl": "https://www.discomp.cz/ubiquiti-lan-networks-patch-cables-cat-6a-color-_c16591932.html",
+  "discompSourcePath": [
+    "Ubiquiti",
+    "LAN networks",
+    "Patch cables",
+    "Cat.6a (Color)"
+  ]
+}
