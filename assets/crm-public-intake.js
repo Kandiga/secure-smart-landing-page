@@ -8,12 +8,12 @@
   const REG_SESSION_KEY='secureSmartRegistrationSession';
 
   const text={
-    sending:'Sending to Secure Smart...',
-    tradeOk:'Registration received. Secure Smart will review it and contact you.',
-    orderOk:'Order request received. Secure Smart sales will review it and contact you.',
-    tradeFail:'Registration could not be sent. Please try again or email info@securesmart.tech.',
-    orderFail:'Order request could not be sent. Please try again or email sales@securesmart.tech.',
-    emptyCart:'Please add at least one item to the quote cart before sending.'
+    sending:'שולח ל־Secure Smart...',
+    tradeOk:'הבקשה התקבלה. צוות Secure Smart יבדוק אותה ויצור קשר.',
+    orderOk:'בקשת ההזמנה התקבלה. צוות המכירות יבדוק ויצור קשר.',
+    tradeFail:'לא ניתן לשלוח את הבקשה. נסו שוב או כתבו ל־info@securesmart.tech.',
+    orderFail:'לא ניתן לשלוח את בקשת ההזמנה. נסו שוב או כתבו ל־sales@securesmart.tech.',
+    emptyCart:'יש להוסיף לפחות פריט אחד לסל המוצרים לפני שליחה.'
   };
 
   const statusBox=(form)=>{

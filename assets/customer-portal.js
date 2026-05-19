@@ -10,27 +10,27 @@
   const money = (value) => Number(value || 0).toLocaleString('en-US', { style: 'currency', currency: 'USD', maximumFractionDigits: 0 });
   const dateFmt = (value) => value ? new Date(value).toLocaleDateString('en-US') : '—';
   const orderStatusLabels = {
-    new: 'Received by Secure Smart',
-    review: 'Under review',
-    approved: 'Approved',
-    needs_purchase: 'Sourcing / purchasing',
-    partial_stock: 'Partially available',
-    ready_to_deliver: 'Ready to deliver',
-    delivered: 'Delivered',
-    cancelled: 'Cancelled'
+    new: 'התקבל ב־Secure Smart',
+    review: 'בבדיקה',
+    approved: 'אושר',
+    needs_purchase: 'בדיקת רכש / זמינות',
+    partial_stock: 'זמין חלקית',
+    ready_to_deliver: 'מוכן לתיאום אספקה',
+    delivered: 'סופק',
+    cancelled: 'בוטל'
   };
   const orderStatusHelp = {
-    new: 'Your order request was received and is waiting for review.',
-    review: 'Secure Smart is checking items, availability and trade terms.',
-    approved: 'The request has been approved and is ready for the next step.',
-    needs_purchase: 'Some items need supplier purchasing or confirmation.',
-    partial_stock: 'Part of the order is available; remaining items need follow-up.',
-    ready_to_deliver: 'The order is ready for delivery coordination.',
-    delivered: 'The order was completed.',
-    cancelled: 'This request was cancelled.'
+    new: 'בקשת ההזמנה התקבלה וממתינה לבדיקה.',
+    review: 'Secure Smart בודקת פריטים, זמינות ותנאי סחר.',
+    approved: 'הבקשה אושרה ומוכנה לשלב הבא.',
+    needs_purchase: 'חלק מהפריטים דורשים בדיקת רכש או אישור זמינות.',
+    partial_stock: 'חלק מההזמנה זמין, ושאר הפריטים בבדיקת המשך.',
+    ready_to_deliver: 'ההזמנה מוכנה לתיאום אספקה.',
+    delivered: 'ההזמנה הושלמה.',
+    cancelled: 'הבקשה בוטלה.'
   };
   const statusLabel = (value) => orderStatusLabels[value] || String(value || 'Received').replaceAll('_', ' ').replace(/\b\w/g, (ch) => ch.toUpperCase());
-  const statusHelp = (value) => orderStatusHelp[value] || 'Status is being updated by Secure Smart.';
+  const statusHelp = (value) => orderStatusHelp[value] || 'הסטטוס מתעדכן על ידי Secure Smart.';
   const escapeHtml = (value) => String(value ?? '').replace(/[&<>"]/g, (ch) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[ch]));
 
   function client() {
@@ -113,13 +113,13 @@
         if (!data.session) throw new Error('Password setup session could not be verified. Please request a new email.');
       }
       setLoginMode('password');
-      status(box, 'Choose a new password for your Secure Smart customer account.', true);
+      status(box, 'בחרו סיסמה חדשה לחשבון הלקוח שלכם.', true);
       cleanRecoveryUrl();
       return true;
     } catch (error) {
       cleanRecoveryUrl();
       setLoginMode('reset');
-      status(box, error?.message || 'This password link is invalid or expired. Please request a new password email.', false);
+      status(box, error?.message || 'קישור הסיסמה אינו תקין או שפג תוקפו. בקשו אימייל חדש לאיפוס סיסמה.', false);
       return true;
     }
   }
@@ -184,7 +184,7 @@
         const { error } = await supabase.auth.resetPasswordForEmail(email, { redirectTo: CUSTOMER_PASSWORD_REDIRECT });
         if (error) throw error;
         trackCustomerActivity('password_reset_requested', { customerEmail: email, context: { source: 'forgot_password_form' } });
-        status(box, 'If this email belongs to an approved customer account, a password reset email has been sent.', true);
+        status(box, 'אם האימייל שייך לחשבון לקוח מאושר, נשלח אליו קישור לאיפוס סיסמה.', true);
       } catch (error) {
         status(box, error?.message || 'Could not send password reset email. Please contact Secure Smart support.', false);
       } finally {
@@ -200,17 +200,17 @@
     wirePasswordToggles();
     if (hasRecoveryIntent()) {
       setLoginMode('password');
-      status(box, 'Validating your secure password link...', true);
+      status(box, 'בודק את קישור הסיסמה המאובטח...', true);
     }
     wirePasswordForm(box);
     wireResetForm(box);
     document.querySelector('[data-show-reset]')?.addEventListener('click', (event) => {
       event.preventDefault();
       setLoginMode('reset');
-      status(box, 'Enter your customer account email and we will send a secure reset email.', true);
+      status(box, 'הכניסו את אימייל חשבון הלקוח ונשלח קישור מאובטח לאיפוס.', true);
     });
     if (new URLSearchParams(location.search).get('password') === 'updated') {
-      status(box, 'Password updated. You can now sign in with your email and new password.', true);
+      status(box, 'הסיסמה עודכנה. ניתן להתחבר עם האימייל והסיסמה החדשה.', true);
     }
     const recoveryHandled = await prepareRecoverySession(box);
     if (recoveryHandled) return;
@@ -232,7 +232,7 @@
         const { error } = await supabase.auth.signInWithPassword({ email, password });
         if (error) throw error;
         const me = await currentCustomer();
-        if (!me?.ok) throw new Error('This account is not approved as a customer account yet.');
+        if (!me?.ok) throw new Error('החשבון עדיין לא מאושר כחשבון לקוח.');
         trackCustomerActivity('login_success', { customerEmail: email, context: { source: 'customer_login_form' } });
         status(box, 'Signed in successfully. Redirecting to your account...', true);
         location.href = 'customer-account.html';
@@ -265,7 +265,7 @@
         if (error) throw error;
         trackCustomerActivity('profile_password_changed', { context: { source: 'customer_account_profile' } });
         form.reset();
-        status(box, 'Password updated successfully.', true);
+        status(box, 'הסיסמה עודכנה בהצלחה.', true);
       } catch (error) {
         status(box, error?.message || 'Password could not be updated.', false);
       } finally {
@@ -288,11 +288,11 @@
       root.querySelector('[data-customer-account-number]').textContent = me.company?.account_number || 'Pending assignment';
       root.querySelector('[data-customer-name]').textContent = [me.profile?.first_name, me.profile?.last_name].filter(Boolean).join(' ') || me.profile?.email || 'Secure Smart customer';
       root.querySelector('[data-customer-email]').textContent = me.profile?.email || '';
-      root.querySelector('[data-customer-company]').textContent = `${me.company?.name || 'Approved customer account'}${me.company?.is_vip ? ' · ' + (me.company?.vip_label || 'VIP') : ''}`;
+      root.querySelector('[data-customer-company]').textContent = `${me.company?.name || 'אושר customer account'}${me.company?.is_vip ? ' · ' + (me.company?.vip_label || 'VIP') : ''}`;
       const list = root.querySelector('[data-customer-orders]');
       list.innerHTML = '';
       if (!me.orders?.length) {
-        list.innerHTML = '<p class="muted">There are no orders in this account yet. Start from the catalog and submit a new order request.</p>';
+        list.innerHTML = '<p class="muted">אין עדיין הזמנות בחשבון. התחילו מהקטלוג ושלחו בקשת הזמנה חדשה.</p>';
       } else {
         me.orders.forEach((order) => {
           const row = document.createElement('article');
@@ -301,7 +301,7 @@
           row.innerHTML = `
             <div class="portal-order-head">
               <div>
-                <strong>Order No.: ${escapeHtml(order.order_number || order.id)}${order.customer_po_number ? ` · PO ${escapeHtml(order.customer_po_number)}` : ''}</strong>
+                <strong>מס׳ הזמנה: ${escapeHtml(order.order_number || order.id)}${order.customer_po_number ? ` · PO ${escapeHtml(order.customer_po_number)}` : ''}</strong>
                 <span>${dateFmt(order.created_at)} · ${escapeHtml(statusLabel(order.status))}${me.company?.is_vip ? ` · ${escapeHtml(me.company?.vip_label || 'VIP')}` : ''}</span>
                 ${order.project_name ? `<span>${escapeHtml(order.project_name)}</span>` : ''}
                 ${order.customer_visible_note ? `<span>${escapeHtml(order.customer_visible_note)}</span>` : ''}
@@ -315,7 +315,7 @@
                   <span>${escapeHtml(item.sku)}</span>
                   <span>${escapeHtml(item.product_title || item.sku)}</span>
                   <span>× ${Number(item.order_quantity || 0)}</span>
-                  <span>${money(item.customer_total)}${me.company?.is_vip ? ' · VIP price' : ''}</span>
+                  <span>${money(item.customer_total)}${me.company?.is_vip ? ' · מחיר VIP' : ''}</span>
                 </div>
               `).join('') : '<span class="muted">No item lines to display.</span>'}
             </div>

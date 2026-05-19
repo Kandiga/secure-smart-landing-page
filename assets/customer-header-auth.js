@@ -35,7 +35,7 @@
       link.className = 'header-catalog is-primary-catalog-link';
       link.dataset.customerHeaderCatalog = 'true';
       link.href = 'catalog-template.html';
-      link.textContent = 'Catalog';
+      link.textContent = 'קטלוג';
       actions.insertBefore(link, loginLink);
     }
     return link;
@@ -61,16 +61,16 @@
     const label = company ? `Signed in as ${escapeHtml(company)}` : 'Signed in to your Secure Smart account';
     panel.innerHTML = `
       <div class="container customer-home-panel-inner">
-        <div><strong>${label}</strong><span>Open your profile, review recent orders, or continue back to the trade catalogue.</span></div>
-        <nav aria-label="Customer shortcuts">
-          <a href="customer-account.html">Open profile</a>
-          <a href="catalog-template.html" class="primary">Back to catalog</a>
+        <div><strong>${label}</strong><span>פתחו את הפרופיל, בדקו הזמנות קודמות או חזרו לקטלוג הסחר.</span></div>
+        <nav aria-label="קיצורי לקוח">
+          <a href="customer-account.html">פרופיל לקוח</a>
+          <a href="catalog-template.html" class="primary">חזרה לקטלוג</a>
         </nav>
       </div>`;
   }
 
   function showSignedOut() {
-    loginLink.textContent = 'Login';
+    loginLink.textContent = 'כניסה';
     loginLink.href = 'customer-login.html';
     loginLink.classList.remove('is-customer-account');
     loginLink.removeAttribute('data-customer-authenticated');
