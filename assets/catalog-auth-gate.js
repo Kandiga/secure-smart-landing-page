@@ -16,12 +16,12 @@
     document.body.classList.add('catalog-auth-ready');
     protectedPage.innerHTML = `
       <section class="ct-auth-gate container" aria-live="polite">
-        <p class="ct-kicker">נדרשת גישת לקוח</p>
-        <h1>הקטלוג והמחירים העסקיים זמינים רק ללקוחות סחר מאושרים ומחוברים.</h1>
-        <p>כדי להמשיך יש להתחבר או להגיש בקשה לחשבון סחר.</p>
+        <p class="ct-kicker">Customer access required</p>
+        <h1>Catalogue and B2B pricing is only available to signed-in approved trade accounts.</h1>
+        <p>Please sign in to continue, or register for a trade account.</p>
         <div class="ct-auth-gate-actions">
-          <a class="btn primary" href="customer-login.html">כניסה</a>
-          <a class="btn ghost" href="account.html">הרשמה</a>
+          <a class="btn primary" href="customer-login.html">Login</a>
+          <a class="btn ghost" href="account.html">Register</a>
         </div>
       </section>`;
     emit(false);

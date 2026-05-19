@@ -11,7 +11,7 @@ document.addEventListener('DOMContentLoaded',()=>{
   const q=params.get('q')||'';
   const input=document.querySelector('input[name=q], .product-search input[type="search"], .product-search input');
   if(input){
-    if(matchMedia('(max-width: 680px)').matches && !input.placeholder) input.placeholder='חיפוש מוצר או מק״ט';
+    if(matchMedia('(max-width: 680px)').matches && !input.placeholder) input.placeholder='Search products or SKU';
     if(q) input.value=q;
   }
   const cards=[...document.querySelectorAll('[data-search], .product-card, .product-row')];
@@ -58,7 +58,7 @@ document.addEventListener('DOMContentLoaded',()=>{
     if(note){
       note.classList.toggle('active',!!normalize(raw));
       if(!cards.length) note.textContent='';
-      else if(normalize(raw)) note.textContent=n?`נמצאו ${n} תוצאות עבור "${raw}".`:`לא נמצאו מוצרים עבור "${raw}". נסו מק״ט, מותג, קטגוריה או דגם.`;
+      else if(normalize(raw)) note.textContent=n?`Search results for "${raw}": ${n} ${n===1?'product':'products'} found.`:`No products found for "${raw}". Try SKU, brand, category or model family.`;
       else note.textContent='';
     }
     if(grid) grid.classList.toggle('is-filtered',!!normalize(raw));
